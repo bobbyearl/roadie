@@ -1,0 +1,47 @@
+/* Layout */
+.app { @apply max-w-7xl mx-auto px-4 py-6; }
+.loading { @apply flex items-center justify-center h-64 text-muted-foreground; }
+
+/* Header */
+.header { @apply mb-6; }
+.header-title { @apply text-2xl font-bold text-foreground; }
+.header-subtitle { @apply text-sm text-muted-foreground; }
+
+/* Viewer (selected cameras) */
+.viewer { @apply mb-6 border border-border rounded-lg overflow-hidden; }
+.viewer-header { @apply flex items-center justify-between px-4 py-2 bg-muted border-b border-border; }
+.viewer-count { @apply text-sm font-medium text-foreground; }
+.viewer-controls { @apply flex gap-1; }
+.viewer-grid { @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-px bg-border; }
+
+/* Feed item */
+.feed-item { @apply bg-background; }
+.feed-header { @apply flex items-center justify-between px-2 py-1 bg-muted; }
+.feed-title { @apply text-xs font-medium text-foreground truncate; }
+.feed-item img,
+.feed-item video { @apply w-full aspect-video object-cover; }
+
+/* Toolbar */
+.toolbar { @apply flex flex-wrap items-center justify-between gap-3 mb-4; }
+.toolbar-filters { @apply flex flex-wrap items-center gap-2; }
+.toolbar-views { @apply flex gap-1; }
+.search-input { @apply flex items-center gap-1.5 h-9 px-3 border border-border rounded-md bg-background text-sm; }
+.search-input input { @apply outline-none bg-transparent w-40; }
+.toolbar select { @apply h-9 px-3 border border-border rounded-md bg-background text-sm; }
+
+/* Buttons */
+.btn-icon { @apply flex items-center justify-center w-9 h-9 border border-border rounded-md text-muted-foreground hover:bg-muted transition-colors; }
+.btn-icon.btn-active { @apply bg-primary text-primary-foreground border-primary; }
+.btn-icon-sm { @apply flex items-center justify-center w-5 h-5 rounded text-muted-foreground hover:text-foreground; }
+
+/* Camera list */
+.result-count { @apply text-xs text-muted-foreground mb-2; }
+.camera-grid { @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3; }
+
+/* Camera card */
+.camera-card { @apply border border-border rounded-lg overflow-hidden cursor-pointer hover:border-primary/50 transition-colors; }
+.camera-card-selected { @apply border-primary ring-2 ring-primary/20; }
+.camera-card img { @apply w-full aspect-video object-cover; }
+.camera-card-info { @apply p-2; }
+.camera-card-title { @apply text-xs font-medium text-foreground truncate; }
+.camera-card-meta { @apply text-xs text-muted-foreground truncate; }
