@@ -86,9 +86,9 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .layout { @apply flex-col; }
+  .layout { @apply flex-col h-auto min-h-screen overflow-auto; }
   .sidebar { @apply w-full h-[45vh] border-l-0 border-t border-border order-2; }
-  .main { @apply order-1; }
+  .main { @apply order-1 flex-none; }
   .topbar { @apply flex-wrap gap-2 px-3 py-2; }
   .topbar-left { @apply w-full; }
   .topbar-title { @apply text-base; }
