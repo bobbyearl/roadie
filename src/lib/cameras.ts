@@ -12,6 +12,17 @@ export interface Camera {
   active: boolean
 }
 
+export interface StateConfig {
+  id: string
+  name: string
+  dataFile: string
+  parser: (data: unknown) => Camera[]
+  defaultCenter: { lat: number; lng: number }
+  defaultZoom: number
+  supportsVideo: boolean
+  cameraCount: number
+}
+
 export interface CameraGeoJSON {
   features: Array<{
     type: 'Feature'
@@ -30,7 +41,8 @@ export interface CameraGeoJSON {
   }>
 }
 
-export function parseCameras(geojson: CameraGeoJSON): Camera[] {
+function parseSC(data: unknown): Camera[] {
+  const geojson = data as CameraGeoJSON
   return geojson.features
     .filter((f) => f.properties.active)
     .map((f) => ({
@@ -46,4 +58,55 @@ export function parseCameras(geojson: CameraGeoJSON): Camera[] {
       video_url: f.properties.https_url,
       active: f.properties.active,
     }))
+}
+
+function parseNormalized(data: unknown): Camera[] {
+  return (data as Camera[]).filter((c) => c.active)
+}
+
+export const STATES: StateConfig[] = [
+  {
+    id: 'sc',
+    name: 'South Carolina',
+    dataFile: 'data/cameras.geojson',
+    parser: parseSC,
+    defaultCenter: { lat: 33.8, lng: -80.9 },
+    defaultZoom: 8,
+    supportsVideo: true,
+    cameraCount: 760,
+  },
+  {
+    id: 'nc',
+    name: 'North Carolina',
+    dataFile: 'data/nc.json',
+    parser: parseNormalized,
+    defaultCenter: { lat: 35.5, lng: -79.8 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 1112,
+  },
+  {
+    id: 'va',
+    name: 'Virginia',
+    dataFile: 'data/va.geojson',
+    parser: parseSC,
+    defaultCenter: { lat: 37.5, lng: -78.8 },
+    defaultZoom: 7,
+    supportsVideo: true,
+    cameraCount: 1692,
+  },
+  {
+    id: 'ga',
+    name: 'Georgia',
+    dataFile: 'data/ga.json',
+    parser: parseNormalized,
+    defaultCenter: { lat: 33.7, lng: -84.4 },
+    defaultZoom: 8,
+    supportsVideo: false,
+    cameraCount: 4043,
+  },
+]
+
+export function getStateConfig(stateId: string): StateConfig {
+  return STATES.find((s) => s.id === stateId) ?? STATES[0]
 }

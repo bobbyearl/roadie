@@ -1,0 +1,28 @@
+@reference "../styles.css";
+
+.sidebar { @apply w-80 border-l border-border flex flex-col shrink-0 bg-background; }
+.sidebar-tabs { @apply flex border-b border-border shrink-0; }
+.sidebar-tab { @apply flex-1 px-4 py-2.5 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors; }
+.sidebar-tab-active { @apply text-foreground border-b-2 border-primary; }
+.sidebar-search { @apply flex items-center gap-2 px-3 py-2 border-b border-border; }
+.sidebar-search input { @apply flex-1 outline-none bg-transparent text-sm placeholder:text-muted-foreground; }
+.sidebar-list { @apply flex-1 overflow-auto; }
+
+.route-item { @apply flex items-center justify-between w-full px-4 py-3 text-left hover:bg-muted transition-colors border-b border-border; }
+.route-item-active { @apply bg-primary/5 border-l-2 border-l-primary; }
+.route-item-name { @apply text-sm font-medium text-foreground; }
+.route-item-count { @apply text-xs text-muted-foreground; }
+.route-request { @apply block px-4 py-3 text-sm text-primary hover:bg-muted transition-colors; }
+.route-empty { @apply p-4; }
+.route-empty-text { @apply text-sm text-muted-foreground mb-3; }
+.route-empty-hint { @apply text-xs text-muted-foreground mt-3; }
+
+.region-section { @apply border-b border-border; }
+.region-header { @apply flex items-center gap-2 w-full px-3 py-2.5 text-left hover:bg-muted transition-colors; }
+.region-label { @apply flex-1 text-sm font-medium text-foreground; }
+.region-counter { @apply text-xs text-muted-foreground tabular-nums; }
+
+.region-cameras { @apply py-1; }
+.camera-row { @apply flex items-center gap-2 px-3 py-1.5 pl-8 cursor-pointer hover:bg-muted/50 text-sm text-foreground; }
+.camera-row input[type="checkbox"] { @apply accent-primary; }
+.camera-row-label { @apply truncate; }

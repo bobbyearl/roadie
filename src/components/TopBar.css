@@ -1,0 +1,19 @@
+@reference "../styles.css";
+
+.topbar { @apply flex items-center justify-between px-4 py-2 border-b border-border shrink-0; }
+.topbar-left { @apply flex flex-col; }
+.topbar-title { @apply text-base font-semibold text-foreground leading-tight; }
+.topbar-subtitle { @apply text-[11px] text-muted-foreground; }
+.topbar-center { @apply flex items-center gap-2; }
+.topbar-count { @apply text-sm text-muted-foreground; }
+.topbar-actions { @apply flex items-center gap-1; }
+.topbar-divider { @apply w-px h-5 bg-border mx-1; }
+.state-select { @apply h-7 px-2 text-sm border border-border rounded-md bg-background; }
+
+.btn-icon { @apply flex items-center justify-center w-8 h-8 border border-border rounded-md text-muted-foreground hover:bg-muted transition-colors; }
+.btn-icon.btn-active { @apply bg-primary text-primary-foreground border-primary; }
+.btn-icon-sm { @apply flex items-center justify-center w-5 h-5 rounded text-muted-foreground hover:text-foreground; }
+.btn-group { @apply flex; }
+.btn-group .btn-icon { @apply rounded-none border-r-0; }
+.btn-group .btn-icon:first-child { @apply rounded-l-md; }
+.btn-group .btn-icon:last-child { @apply rounded-r-md border-r; }

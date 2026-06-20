@@ -1,0 +1,12 @@
+@reference "../styles.css";
+
+.modal-overlay { @apply fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4; }
+.modal { @apply bg-background rounded-lg border border-border shadow-xl max-w-2xl w-full max-h-[90vh] overflow-auto; }
+.modal-header { @apply flex items-center justify-between px-4 py-3 border-b border-border; }
+.modal-title { @apply text-sm font-semibold text-foreground; }
+.modal-body { @apply p-4; }
+.modal-media { @apply w-full aspect-video object-cover rounded-md mb-4; }
+.modal-details { @apply grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm; }
+.modal-details dt { @apply text-muted-foreground font-medium; }
+.modal-details dd { @apply text-foreground break-all; }
+.modal-details a { @apply text-primary hover:underline; }

@@ -1,0 +1,16 @@
+@reference "../styles.css";
+
+.map-container { @apply w-full h-full min-h-[400px] rounded-lg; }
+.map-container *:focus { outline: none !important; }
+.map-container div[tabindex] { outline: none !important; border: none !important; }
+.map-pin { @apply w-3 h-3 bg-primary/60 rounded-full border-2 border-white shadow cursor-pointer; }
+.map-pin-image { @apply bg-muted-foreground/50; }
+
+.map-feed-anchor { @apply relative; }
+.map-pin-active { @apply w-4 h-4 rounded-full border-2 border-white shadow-lg; background-color: var(--color-accent-marker); }
+.map-feed { @apply bg-background rounded-lg overflow-hidden shadow-lg border-2; border-color: var(--color-accent-marker); }
+.map-feed-header { @apply flex items-center gap-1 px-2 py-1.5 bg-muted border-b border-border; }
+.map-feed-drag { @apply cursor-grab active:cursor-grabbing text-muted-foreground hover:text-foreground p-0.5 touch-none; }
+.map-feed-title { @apply flex-1 text-xs font-medium text-foreground truncate; }
+.map-feed img,
+.map-feed video { @apply w-full aspect-video object-cover; }

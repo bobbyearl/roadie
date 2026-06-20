@@ -1,0 +1,16 @@
+@reference "../styles.css";
+
+.feed-item { @apply border border-border rounded-lg overflow-hidden flex flex-col; }
+.feed-header { @apply flex items-center justify-between px-3 py-2 bg-muted border-b border-border shrink-0; }
+.feed-title { @apply text-xs font-medium text-foreground truncate; }
+.feed-media { @apply relative; }
+.feed-item img,
+.feed-item video { @apply w-full aspect-video object-cover bg-foreground/5; }
+.feed-error { @apply flex flex-col items-center justify-center aspect-video bg-muted/50 gap-2; }
+.feed-error-text { @apply text-xs text-muted-foreground; }
+.feed-error-retry { @apply text-xs text-primary hover:underline; }
+.feed-stalled-overlay { @apply absolute top-2 left-2 right-2; }
+.feed-stalled { @apply inline-block text-[10px] px-1.5 py-0.5 rounded bg-amber-100/90 text-amber-700; }
+.feed-footer { @apply flex items-center justify-between px-3 py-1.5 border-t border-border text-xs; }
+.feed-footer-meta { @apply text-muted-foreground truncate; }
+.feed-footer-btn { @apply text-muted-foreground hover:text-foreground transition-colors; }
