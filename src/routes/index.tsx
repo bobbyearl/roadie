@@ -16,7 +16,7 @@ type SearchParams = {
 export const Route = createFileRoute('/')({
   component: Home,
   validateSearch: (search: Record<string, unknown>): SearchParams => ({
-    mode: search.mode === 'video' ? 'video' : undefined,
+    mode: search.mode === 'image' ? 'image' : undefined,
     selected: (search.selected as string) || undefined,
     view: search.view === 'map' ? 'map' : undefined,
     grid: ['sm', 'lg'].includes(search.grid as string) ? (search.grid as string) : undefined,
@@ -44,7 +44,7 @@ function Home() {
   const [expandedRegions, setExpandedRegions] = useState<Set<string>>(new Set())
   const [sidebarTab, setSidebarTab] = useState<'routes' | 'regions'>('routes')
 
-  const mode = params.mode ?? 'image'
+  const mode = params.mode ?? 'video'
   const view = params.view ?? 'feeds'
   const cardSize = params.grid ?? 'md'
   const selectedIds = useMemo(() => new Set(params.selected?.split(',').filter(Boolean) ?? []), [params.selected])
@@ -120,18 +120,18 @@ function Home() {
               <>
                 <div className="btn-group">
                   <button
-                    className={`btn-icon ${mode === 'image' ? 'btn-active' : ''}`}
-                    onClick={() => navigate({ search: { ...params, mode: undefined } })}
-                    title="Images"
-                  >
-                    <Image size={16} />
-                  </button>
-                  <button
                     className={`btn-icon ${mode === 'video' ? 'btn-active' : ''}`}
-                    onClick={() => navigate({ search: { ...params, mode: 'video' } })}
+                    onClick={() => navigate({ search: { ...params, mode: undefined } })}
                     title="Video"
                   >
                     <Video size={16} />
+                  </button>
+                  <button
+                    className={`btn-icon ${mode === 'image' ? 'btn-active' : ''}`}
+                    onClick={() => navigate({ search: { ...params, mode: 'image' } })}
+                    title="Images"
+                  >
+                    <Image size={16} />
                   </button>
                 </div>
                 <div className="topbar-divider" />
@@ -292,7 +292,7 @@ function CameraFeed({ camera, mode, onRemove }: { camera: Camera; mode: string; 
 function CameraMap({ cameras, selectedIds, onToggle, cardSize }: { cameras: Camera[]; selectedIds: Set<string>; onToggle: (id: string) => void; cardSize: string }) {
   const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY
   const mapId = import.meta.env.VITE_GOOGLE_MAPS_MAP_ID || ''
-  const mode = Route.useSearch().mode ?? 'image'
+  const mode = Route.useSearch().mode ?? 'video'
 
   if (!apiKey) {
     return (
