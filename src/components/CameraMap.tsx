@@ -1,12 +1,13 @@
 import './CameraMap.css';
 
 import { AdvancedMarker, APIProvider, Map as GoogleMap, useMap } from '@vis.gl/react-google-maps';
-import { GripVertical, X } from 'lucide-react';
+import { GripVertical } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 
 import { type Camera, getStateConfig } from '../lib/cameras';
 import { useTheme } from '../lib/ThemeContext';
 import { useTraffic } from '../lib/TrafficContext';
+import { CameraCard } from './CameraCard';
 
 interface CameraMapProps {
   stateId: string;
@@ -264,46 +265,18 @@ function MapInner({ mapId, stateId }: { mapId: string; stateId: string }) {
                   onPointerMove={onPointerMove}
                   onPointerUp={onPointerUp}
                 >
-                  <div className="map-feed-header">
-                    <div className="map-feed-drag" onPointerDown={(e) => onPointerDown(e, cam.id)}>
-                      <GripVertical size={12} />
-                    </div>
-                    <span className="map-feed-title">{cam.description}</span>
-                    <button
-                      className="btn-icon-sm"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        toggleCamera(cam.id);
-                      }}
-                    >
-                      <X size={12} />
-                    </button>
-                  </div>
-                  {mode === 'video' ? (
-                    <video src={cam.video_url} autoPlay muted playsInline controls />
-                  ) : (
-                    <img src={cam.image_url} alt={cam.description} />
-                  )}
-                  <div className="feed-footer">
-                    <button
-                      className="feed-footer-btn"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setDetailCam(cam);
-                      }}
-                    >
-                      Detail
-                    </button>
-                    <button
-                      className="feed-footer-btn"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        toggleCamera(cam.id);
-                      }}
-                    >
-                      Remove
-                    </button>
-                  </div>
+                  <CameraCard
+                    camera={cam}
+                    onRemove={() => toggleCamera(cam.id)}
+                    onDetail={() => setDetailCam(cam)}
+                    headerLeft={<div className="map-feed-drag" onPointerDown={(e) => onPointerDown(e, cam.id)}><GripVertical size={12} /></div>}
+                  >
+                    {mode === 'video' ? (
+                      <video src={cam.video_url} autoPlay muted playsInline controls />
+                    ) : (
+                      <img src={cam.image_url} alt={cam.description} />
+                    )}
+                  </CameraCard>
                 </div>
               </div>
             ) : (

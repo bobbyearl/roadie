@@ -28,14 +28,8 @@
   @apply bg-background rounded-lg overflow-hidden shadow-lg border-2;
   border-color: var(--color-accent-marker);
 }
-.map-feed-header {
-  @apply flex items-center gap-1 px-2 py-1.5 bg-muted border-b border-border;
-}
 .map-feed-drag {
   @apply cursor-grab active:cursor-grabbing text-muted-foreground hover:text-foreground p-0.5 touch-none;
-}
-.map-feed-title {
-  @apply flex-1 text-xs font-medium text-foreground truncate;
 }
 .map-feed img,
 .map-feed video {

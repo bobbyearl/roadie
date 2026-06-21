@@ -42,7 +42,7 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
     <header className="header-bar">
       <div className="header-bar-left">
         <h1 className="header-bar-title">
-          <Link to="/">Roadie by Bobby Earl</Link>
+          <Link to="/">Roadie</Link>
         </h1>
         <select className="state-select" value={stateId} onChange={(e) => setState(e.target.value)}>
           {STATES.map((s) => (

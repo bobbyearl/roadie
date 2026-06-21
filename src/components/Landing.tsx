@@ -29,7 +29,11 @@ export function Landing() {
         </div>
         <p className="hero-credit">
           Photo by{' '}
-          <a href="https://www.pexels.com/photo/arthur-ravenel-jr-bridge-at-sunset-13185339/" target="_blank" rel="noopener">
+          <a
+            href="https://www.pexels.com/photo/arthur-ravenel-jr-bridge-at-sunset-13185339/"
+            target="_blank"
+            rel="noopener"
+          >
             Pexels
           </a>
         </p>

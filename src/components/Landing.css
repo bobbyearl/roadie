@@ -8,14 +8,30 @@
   @apply relative flex flex-col items-center justify-center text-center px-4 py-32 bg-cover bg-center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/roadie/hero.jpg');
 }
-.hero-content { @apply relative z-10; }
-.hero-title { @apply text-5xl font-bold text-white mb-4; }
-.hero-subtitle { @apply text-lg text-white/80 max-w-xl mb-8 mx-auto; }
-.hero-actions { @apply flex gap-3 justify-center; }
-.hero-cta { @apply px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary-hover transition-colors; }
-.hero-cta-secondary { @apply px-6 py-3 bg-white/10 text-white font-medium rounded-lg border border-white/30 hover:bg-white/20 transition-colors; }
-.hero-credit { @apply absolute bottom-2 right-3 text-[10px] text-white/40; }
-.hero-credit a { @apply underline hover:text-white/60; }
+.hero-content {
+  @apply relative z-10;
+}
+.hero-title {
+  @apply text-5xl font-bold text-white mb-4;
+}
+.hero-subtitle {
+  @apply text-lg text-white/80 max-w-xl mb-8 mx-auto;
+}
+.hero-actions {
+  @apply flex gap-3 justify-center;
+}
+.hero-cta {
+  @apply px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary-hover transition-colors;
+}
+.hero-cta-secondary {
+  @apply px-6 py-3 bg-white/10 text-white font-medium rounded-lg border border-white/30 hover:bg-white/20 transition-colors;
+}
+.hero-credit {
+  @apply absolute bottom-2 right-3 text-[10px] text-white/40;
+}
+.hero-credit a {
+  @apply underline hover:text-white/60;
+}
 
 .features {
   @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-8 py-16 max-w-5xl mx-auto;

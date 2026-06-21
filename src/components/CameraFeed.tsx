@@ -3,6 +3,7 @@ import './CameraFeed.css';
 import { useEffect, useRef, useState } from 'react';
 
 import { type Camera } from '../lib/cameras';
+import { CameraCard } from './CameraCard';
 
 interface CameraFeedProps {
   camera: Camera;
@@ -88,49 +89,31 @@ export function CameraFeed({ camera, mode, onRemove, setDetailCam }: CameraFeedP
     }
   };
 
+
+
   return (
     <div className="feed-item">
-      <div className="feed-header">
-        <span className="feed-title">{camera.description}</span>
-      </div>
-      <div className="feed-media">
-        {error ? (
-          <div className="feed-error">
-            <p className="feed-error-text">Feed unavailable</p>
-            <button className="feed-error-retry" onClick={retry}>
-              Retry
-            </button>
-          </div>
-        ) : mode === 'video' ? (
-          <>
-            <video
-              key={videoKey}
-              ref={videoRef}
-              src={camera.video_url}
-              autoPlay
-              muted
-              playsInline
-              controls
-              onError={handleError}
-            />
-            {stalled && (
-              <div className="feed-stalled-overlay">
-                <span className="feed-stalled">unstable feed{retryCount > 0 ? ` (retry ${retryCount}/3)` : ''}</span>
-              </div>
-            )}
-          </>
-        ) : (
-          <img src={camera.image_url} alt={camera.description} onError={() => setError(true)} />
-        )}
-      </div>
-      <div className="feed-footer">
-        <button className="feed-footer-btn" onClick={() => setDetailCam(camera)}>
-          Detail
-        </button>
-        <button className="feed-footer-btn" onClick={onRemove}>
-          Remove
-        </button>
-      </div>
+      <CameraCard camera={camera} onRemove={onRemove} onDetail={() => setDetailCam(camera)}>
+        <div className="feed-media">
+          {error ? (
+            <div className="feed-error">
+              <p className="feed-error-text">Feed unavailable</p>
+              <button className="feed-error-retry" onClick={retry}>Retry</button>
+            </div>
+          ) : mode === 'video' ? (
+            <>
+              <video key={videoKey} ref={videoRef} src={camera.video_url} autoPlay muted playsInline controls onError={handleError} />
+              {stalled && (
+                <div className="feed-stalled-overlay">
+                  <span className="feed-stalled">unstable feed{retryCount > 0 ? ` (retry ${retryCount}/3)` : ''}</span>
+                </div>
+              )}
+            </>
+          ) : (
+            <img src={camera.image_url} alt={camera.description} onError={() => setError(true)} />
+          )}
+        </div>
+      </CameraCard>
     </div>
   );
 }

@@ -7,7 +7,6 @@ import { type Camera, getStateConfig, type StateConfig } from '../lib/cameras';
 import { CURATED_ROUTES } from '../lib/routes';
 import { type ViewSearchParams } from '../lib/types';
 
-
 interface TrafficState {
   // Data
   cameras: Camera[];
@@ -96,7 +95,8 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   };
   const clearAll = () => setSelected(new Set());
   const selectRoute = (ids: string[]) => setSelected(new Set(ids));
-  const setDetailCam = (cam: Camera | null) => navigate({ search: { ...params, detail: cam?.id || undefined } as ViewSearchParams });
+  const setDetailCam = (cam: Camera | null) =>
+    navigate({ search: { ...params, detail: cam?.id || undefined } as ViewSearchParams });
   const setView = (v: string | undefined) => navigate({ search: { ...params, view: v } as ViewSearchParams });
   const setMode = (m: string | undefined) => navigate({ search: { ...params, mode: m } as ViewSearchParams });
   const setGrid = (g: string | undefined) => navigate({ search: { ...params, grid: g } as ViewSearchParams });
