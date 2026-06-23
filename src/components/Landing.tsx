@@ -1,13 +1,29 @@
 import './Landing.css';
 
+import { useQueryClient } from '@tanstack/react-query';
 import { Link } from '@tanstack/react-router';
 import { Camera, Info, Map, Share2, Smartphone } from 'lucide-react';
+import { useEffect } from 'react';
 
-import { STATES } from '../lib/cameras';
+import { getStateConfig, STATES } from '../lib/cameras';
 import { emptyViewSearch } from '../lib/types';
 import { Footer } from './Footer';
 
 export function Landing() {
+  const queryClient = useQueryClient();
+
+  // Prefetch default state data so map loads instantly on navigation
+  useEffect(() => {
+    const sc = getStateConfig('sc');
+    queryClient.prefetchQuery({
+      queryKey: ['cameras', 'sc'],
+      queryFn: async () => {
+        const res = await fetch(import.meta.env.BASE_URL + sc.dataFile);
+        return sc.parser(await res.json());
+      },
+      staleTime: Infinity,
+    });
+  }, [queryClient]);
   const totalCameras = STATES.reduce((sum, s) => sum + s.cameraCount, 0);
 
   return (
@@ -100,10 +116,10 @@ export function Landing() {
         <div className="credits-card">
           <h3>High Five ✋</h3>
           <p>
-            Like the site? Share it with someone who white-knuckles their commute every day. Or help fund the snacks that keep this thing running.
+            Like the site? Share it with someone who white-knuckles their commute every day. Or help fund the gas money that keeps this thing running.
           </p>
           <a href="https://www.paypal.com/paypalme/bobbyearl" target="_blank" rel="noopener" className="credits-btn">
-            Donate Some Snacks
+            Chip in for Gas
           </a>
         </div>
         <div className="credits-card">

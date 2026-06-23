@@ -1,156 +1,106 @@
 import './Sidebar.css';
 
 import { ChevronDown, ChevronRight, Search } from 'lucide-react';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 
-import { type Camera, getStateConfig } from '../lib/cameras';
+import { type Camera } from '../lib/cameras';
 import { CURATED_ROUTES } from '../lib/routes';
 import { useTraffic } from '../lib/TrafficContext';
 
-export function Sidebar() {
-  const { stateId, cameras, selectedIds, sidebarTab, activeRouteName, setTab, toggleCamera, selectRoute } =
-    useTraffic();
+export function Sidebar({ onClose }: { onClose?: () => void }) {
+  const { stateId, cameras, selectedIds, activeRouteName, toggleCamera, selectRoute } = useTraffic();
+  const hasCuratedRoutes = stateId === 'sc';
   const [searchText, setSearchText] = useState('');
-  const [expandedRegions, setExpandedRegions] = useState<Set<string>>(new Set());
-
-  const toggleRegion = (region: string) => {
-    const next = new Set(expandedRegions);
-    if (next.has(region)) {
-      next.delete(region);
-    } else {
-      next.add(region);
-    }
-    setExpandedRegions(next);
+  const [expandedSections, setExpandedSections] = useState<Set<string>>(() => new Set(hasCuratedRoutes ? ['__curated__'] : []));
+  const toggleSection = (key: string) => {
+    const next = new Set(expandedSections);
+    if (next.has(key)) { next.delete(key); } else { next.add(key); }
+    setExpandedSections(next);
   };
 
-  const regionGroups = (() => {
+
+  const routeGroups = useMemo(() => {
     const map = new Map<string, Camera[]>();
     for (const c of cameras) {
-      const r = c.jurisdiction.trim();
-      if (!map.has(r)) {
-        map.set(r, []);
-      }
+      const r = hasCuratedRoutes ? (c.jurisdiction || 'Other') : ((c as { route?: string }).route || c.jurisdiction || 'Other');
+      if (!map.has(r)) { map.set(r, []); }
       map.get(r)!.push(c);
     }
-    return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0]));
-  })();
+    return [...map.entries()].sort((a, b) => b[1].length - a[1].length).slice(0, 30);
+  }, [cameras, hasCuratedRoutes]);
 
-  const filteredRegionGroups = searchText
-    ? regionGroups
-        .map(
-          ([region, cams]) =>
-            [region, cams.filter((c) => c.description.toLowerCase().includes(searchText.toLowerCase()))] as [
-              string,
-              Camera[],
-            ],
-        )
+  const filteredRouteGroups = searchText
+    ? routeGroups
+        .map(([name, cams]) => [name, cams.filter((c) => c.description.toLowerCase().includes(searchText.toLowerCase()))] as [string, Camera[]])
         .filter(([, cams]) => cams.length > 0)
-    : regionGroups;
+    : routeGroups;
+
+  const isExpanded = (key: string) => expandedSections.has(key);
 
   return (
     <aside className="sidebar">
-      <div className="sidebar-tabs">
-        <button
-          className={`sidebar-tab ${sidebarTab === 'routes' ? 'sidebar-tab-active' : ''}`}
-          onClick={() => setTab(undefined)}
-        >
-          Routes
-        </button>
-        <button
-          className={`sidebar-tab ${sidebarTab === 'regions' ? 'sidebar-tab-active' : ''}`}
-          onClick={() => setTab('regions')}
-        >
-          Regions
-        </button>
+      <div className="sidebar-search">
+        <Search size={14} />
+        <input type="text" placeholder="Search cameras" value={searchText} onChange={(e) => setSearchText(e.target.value)} />
       </div>
-
-      {sidebarTab === 'routes' && (
-        <div className="sidebar-list">
-          {stateId === 'sc' ? (
-            <>
-              <p className="routes-label">Curated routes for Charleston, SC</p>
-              {CURATED_ROUTES.map((route) => (
-                <button
-                  key={route.name}
-                  className={`route-item ${activeRouteName === route.name ? 'route-item-active' : ''}`}
-                  onClick={() => selectRoute(route.ids)}
-                >
-                  <span className="route-item-name">{route.name}</span>
-                  <span className="route-item-count">{route.ids.length}</span>
-                </button>
-              ))}
-              <a
-                className="route-request"
-                href="https://github.com/bobbyearl/roadie/issues/new?title=Route+request&labels=route-request"
-                target="_blank"
-                rel="noopener"
-              >
-                + Request a route
-              </a>
-            </>
-          ) : (
-            <div className="route-empty">
-              <p className="route-empty-text">No curated routes yet for {getStateConfig(stateId).name}.</p>
-              <a
-                className="route-request"
-                href={`https://github.com/bobbyearl/roadie/issues/new?title=Route+request:+${stateId.toUpperCase()}&labels=route-request`}
-                target="_blank"
-                rel="noopener"
-              >
-                + Request a route for your area
-              </a>
-              <p className="route-empty-hint">
-                Tip: Select cameras from Regions, then share the URL as your custom route.
-              </p>
-            </div>
-          )}
-        </div>
-      )}
-
-      {sidebarTab === 'regions' && (
-        <>
-          <div className="sidebar-search">
-            <Search size={14} />
-            <input
-              type="text"
-              placeholder="Find in this list"
-              value={searchText}
-              onChange={(e) => setSearchText(e.target.value)}
-            />
-          </div>
-          <div className="sidebar-list">
-            {filteredRegionGroups.map(([region, cams]) => {
-              const selectedInRegion = cams.filter((c) => selectedIds.has(c.id)).length;
-              const expanded = expandedRegions.has(region);
-              return (
-                <div key={region} className="region-section">
-                  <button className="region-header" onClick={() => toggleRegion(region)}>
-                    {expanded ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
-                    <span className="region-label">{region}</span>
-                    <span className="region-counter">
-                      {selectedInRegion}/{cams.length}
-                    </span>
+      <div className="sidebar-list">
+        {hasCuratedRoutes && !searchText && (
+          <div className="region-section">
+            <button className="region-header" onClick={() => toggleSection('__curated__')}>
+              {isExpanded('__curated__') ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
+              <span className="region-label">Curated Routes</span>
+              <span className="region-counter">{CURATED_ROUTES.length}</span>
+            </button>
+            {isExpanded('__curated__') && (
+              <div className="curated-routes-list">
+                {CURATED_ROUTES.map((route) => (
+                  <button
+                    key={route.name}
+                    className={`route-item ${activeRouteName === route.name ? 'route-item-active' : ''}`}
+                    onClick={() => { selectRoute(route.ids); if (window.innerWidth < 768 && onClose) { onClose(); } }}
+                  >
+                    <span className="route-item-name">{route.name}</span>
+                    <span className="route-item-count">{route.ids.length}</span>
                   </button>
-                  {expanded && (
-                    <div className="region-cameras">
-                      {cams.map((cam) => (
-                        <label key={cam.id} className="camera-row">
-                          <input
-                            type="checkbox"
-                            checked={selectedIds.has(cam.id)}
-                            onChange={() => toggleCamera(cam.id)}
-                          />
-                          <span className="camera-row-label">{cam.description}</span>
-                        </label>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              );
-            })}
+                ))}
+              </div>
+            )}
           </div>
-        </>
-      )}
+        )}
+
+        {filteredRouteGroups.map(([name, cams]) => {
+          const selectedInGroup = cams.filter((c) => selectedIds.has(c.id)).length;
+          const expanded = isExpanded(name);
+          return (
+            <div key={name} className="region-section">
+              <button className="region-header" onClick={() => toggleSection(name)}>
+                {expanded ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
+                <span className="region-label">{name}</span>
+                <span className="region-counter">{selectedInGroup}/{cams.length}</span>
+              </button>
+              {expanded && (
+                <div className="region-cameras">
+                  {cams.map((cam) => (
+                    <label key={cam.id} className="camera-row">
+                      <input type="checkbox" checked={selectedIds.has(cam.id)} onChange={() => toggleCamera(cam.id)} />
+                      <span className="camera-row-label">{cam.description}</span>
+                    </label>
+                  ))}
+                </div>
+              )}
+            </div>
+          );
+        })}
+
+        <a
+          className="route-request"
+          href={`https://github.com/bobbyearl/roadie/issues/new?title=Route+request:+${stateId.toUpperCase()}&labels=route-request`}
+          target="_blank"
+          rel="noopener"
+        >
+          Request Route
+        </a>
+      </div>
     </aside>
   );
 }
