@@ -5,13 +5,15 @@ import { useCallback, useRef } from 'react';
 import { useTraffic } from '../lib/TrafficContext';
 import { CameraFeed } from './CameraFeed';
 import { CameraMap } from './CameraMap';
+import { EmptyState } from '../routes/view';
 
 interface SplitViewProps {
   stateId: string;
+  onBrowse: () => void;
 }
 
-export function SplitView({ stateId }: SplitViewProps) {
-  const { selectedCameras, mode, cardSize, splitWidth, setSplitWidth, toggleCamera, setDetailCam } = useTraffic();
+export function SplitView({ stateId, onBrowse }: SplitViewProps) {
+  const { cameras, selectedCameras, mode, cardSize, splitWidth, setSplitWidth, toggleCamera, selectRoute, setDetailCam } = useTraffic();
   const containerRef = useRef<HTMLDivElement>(null);
   const localPercent = useRef(splitWidth);
   const dragging = useRef(false);
@@ -51,15 +53,13 @@ export function SplitView({ stateId }: SplitViewProps) {
       <div className="split-handle" onMouseDown={startDrag} />
       <div className="split-feeds-panel">
         {selectedCameras.length === 0 ? (
-          <div className="split-empty">
-            <p>Click markers on the map to view cameras here</p>
-          </div>
+          <EmptyState stateId={stateId} selectRoute={selectRoute} onBrowse={onBrowse} onSwitchToMap={() => {}} />
         ) : (
-          <div className={`split-feeds-grid ${gridClass}`}>
-            {selectedCameras.map((cam, index) => (
-              <CameraFeed key={cam.id} camera={cam} mode={mode} onRemove={() => toggleCamera(cam.id)} setDetailCam={setDetailCam} index={index + 1} />
-            ))}
-          </div>
+            <div className={`split-feeds-grid ${gridClass}`}>
+              {selectedCameras.map((cam, index) => (
+                <CameraFeed key={cam.id} camera={cam} mode={mode} onRemove={() => toggleCamera(cam.id)} setDetailCam={setDetailCam} index={index + 1} />
+              ))}
+            </div>
         )}
       </div>
     </div>

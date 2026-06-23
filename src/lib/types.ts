@@ -7,6 +7,7 @@ export type ViewSearchParams = {
   detail: string | undefined;
   tab: string | undefined;
   sw: string | undefined;
+  panel: string | undefined;
 };
 
 export const emptyViewSearch: ViewSearchParams = {
@@ -18,4 +19,5 @@ export const emptyViewSearch: ViewSearchParams = {
   detail: undefined,
   tab: undefined,
   sw: undefined,
+  panel: undefined,
 };

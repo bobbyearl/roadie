@@ -4,7 +4,10 @@
 .split-map-panel { @apply min-w-0; }
 .split-handle { @apply w-1.5 bg-border hover:bg-primary/30 cursor-col-resize shrink-0 transition-colors; }
 .split-feeds-panel { @apply flex-1 overflow-auto p-2 min-w-0; }
-.split-empty { @apply flex items-center justify-center h-full text-sm text-muted-foreground; }
+.split-empty { @apply flex flex-col items-center justify-center h-full text-center px-3; }
+.split-empty-title { @apply text-sm font-medium text-foreground mb-3; }
+.split-empty-hint { @apply mt-3 text-xs text-muted-foreground; }
+.empty-browse-inline { @apply text-primary hover:underline cursor-pointer; }
 .split-feeds-grid { @apply grid gap-2; }
 .split-feeds-sm { @apply grid-cols-3; }
 .split-feeds-md { @apply grid-cols-2; }

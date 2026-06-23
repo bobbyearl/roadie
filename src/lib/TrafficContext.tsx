@@ -24,6 +24,7 @@ interface TrafficState {
   cardSize: string;
   sidebarTab: string;
   splitWidth: number;
+  sidebarOpen: boolean;
 
   // Actions
   toggleCamera: (id: string) => void;
@@ -35,6 +36,7 @@ interface TrafficState {
   setGrid: (grid: string | undefined) => void;
   setTab: (tab: string | undefined) => void;
   setSplitWidth: (percent: number) => void;
+  setSidebarOpen: (open: boolean) => void;
   setState: (state: string) => void;
   triggerLayout: () => void;
   layoutKey: number;
@@ -82,6 +84,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   const cardSize = params.grid ?? 'md';
   const sidebarTab = params.tab ?? 'routes';
   const splitWidth = params.sw ? Math.min(85, Math.max(30, Number(params.sw))) : 70;
+  const sidebarOpen = params.panel === '1';
 
   const selectedIdList = useMemo(() => params.selected?.split(',').filter(Boolean) ?? [], [params.selected]);
   const selectedIds = useMemo(() => new Set(selectedIdList), [selectedIdList]);
@@ -122,6 +125,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     const rounded = Math.round(percent);
     navigate({ search: { ...params, sw: rounded === 70 ? undefined : String(rounded) } as ViewSearchParams });
   };
+  const setSidebarOpen = (open: boolean) => navigate({ search: { ...params, panel: open ? '1' : undefined } as ViewSearchParams });
   const setState = (s: string) =>
     navigate({
       search: {
@@ -153,6 +157,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     cardSize,
     sidebarTab,
     splitWidth,
+    sidebarOpen,
     layoutKey,
     toggleCamera,
     clearAll,
@@ -163,6 +168,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     setGrid,
     setTab,
     setSplitWidth,
+    setSidebarOpen,
     setState,
     triggerLayout,
   };

@@ -9,13 +9,16 @@
   }
 }
 .sidebar-tabs {
-  @apply flex border-b border-border shrink-0;
+  @apply flex items-center border-b border-border shrink-0;
 }
 .sidebar-tab {
   @apply flex-1 px-4 py-2.5 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors;
 }
 .sidebar-tab-active {
   @apply text-foreground border-b-2 border-primary;
+}
+.sidebar-close {
+  @apply p-2 text-muted-foreground hover:text-foreground cursor-pointer;
 }
 .sidebar-search {
   @apply flex items-center gap-2 px-3 py-2 border-b border-border;
@@ -31,7 +34,7 @@
   @apply flex items-center justify-between w-full px-4 py-3 text-left hover:bg-muted transition-colors border-b border-border;
 }
 .routes-label {
-  @apply px-4 py-2 text-[11px] uppercase tracking-wide text-muted-foreground font-medium border-b border-border;
+  @apply px-4 py-2 text-[11px] uppercase tracking-wide text-muted-foreground font-medium border-b border-border text-center;
 }
 .route-item-active {
   @apply bg-primary/5 border-l-2 border-l-primary;
@@ -43,7 +46,7 @@
   @apply text-xs text-muted-foreground;
 }
 .route-request {
-  @apply block px-4 py-3 text-sm text-primary hover:bg-muted transition-colors;
+  @apply block px-4 py-2 text-xs text-primary hover:underline transition-colors text-center;
 }
 .route-empty {
   @apply p-4;
@@ -70,6 +73,9 @@
 
 .region-cameras {
   @apply py-1;
+}
+.curated-routes-list {
+  @apply py-1 pl-6;
 }
 .camera-row {
   @apply flex items-center gap-2 px-3 py-1.5 pl-8 cursor-pointer hover:bg-muted/50 text-sm text-foreground;

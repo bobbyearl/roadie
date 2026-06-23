@@ -248,6 +248,11 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       colorScheme={resolvedTheme === 'dark' ? 'DARK' : 'LIGHT'}
       className="map-container"
       onCameraChanged={handleCameraChange}
+      streetViewControl={false}
+      fullscreenControl={!markersOnly}
+      zoomControl={true}
+      mapTypeControl={false}
+      clickableIcons={false}
     >
       {visibleCameras.map((cam) => {
         const isSelected = selectedIds.has(cam.id);
@@ -257,7 +262,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
             key={cam.id}
             position={{ lat: cam.lat, lng: cam.lng }}
             onClick={() => handleMarkerClick(cam.id)}
-            zIndex={isSelected ? 100 : 1}
+            zIndex={isSelected ? 100 + (selectionIndex.get(cam.id) ?? 0) : 1}
           >
             {isSelected && !markersOnly ? (
               <div className="map-feed-anchor" onClick={(e) => e.stopPropagation()}>
@@ -268,7 +273,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
                   const ex = offset?.x ?? cardWidthPx * 0.15,
                     ey = offset?.y ?? -(cardWidthPx * 0.7 + 20);
                   return (
-                    <svg style={{ position: 'absolute', top: 0, left: 0, overflow: 'visible', pointerEvents: 'none' }}>
+                    <svg style={{ position: 'absolute', top: 0, left: 0, overflow: 'visible', pointerEvents: 'none', zIndex: -1 }}>
                       <line
                         x1="8"
                         y1="8"
@@ -308,9 +313,13 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
                 </div>
               </div>
             ) : (
-              <div className={`map-pin ${isSelected ? 'map-pin-selected' : ''} ${!getStateConfig(stateId).supportsVideo ? 'map-pin-image' : ''}`}>
-                {selectionIndex.get(cam.id) && <span className="map-pin-number">{selectionIndex.get(cam.id)}</span>}
-              </div>
+              isSelected ? (
+                <div className="map-pin-selected">
+                  {selectionIndex.get(cam.id) && <span className="map-pin-number">{selectionIndex.get(cam.id)}</span>}
+                </div>
+              ) : (
+                <div className={`map-pin ${!getStateConfig(stateId).supportsVideo ? 'map-pin-image' : ''}`} />
+              )
             )}
           </AdvancedMarker>
         );

@@ -1,10 +1,10 @@
 @reference "../styles.css";
 
 .header-bar {
-  @apply grid grid-cols-[1fr_auto] items-center px-4 py-2 border-b border-border shrink-0;
+  @apply border-b border-border shrink-0 bg-muted/30;
 }
-.header-bar-left {
-  @apply flex items-center gap-3;
+.header-row-1 {
+  @apply flex items-center justify-between px-4 py-1.5;
 }
 .header-bar-title {
   @apply text-base font-semibold text-foreground;
@@ -12,11 +12,29 @@
 .header-bar-title a {
   @apply text-foreground no-underline;
 }
+.header-row-1-right {
+  @apply flex items-center gap-3;
+}
+.header-bar-left {
+  @apply flex items-center gap-3;
+}
+.header-link {
+  @apply text-xs text-primary hover:underline;
+}
+.header-divider {
+  @apply text-border text-xs;
+}
+.header-row-2 {
+  @apply grid grid-cols-[auto_1fr_auto] items-center px-4 py-1.5;
+}
 .header-bar-count {
-  @apply text-sm text-muted-foreground text-center;
+  @apply text-xs text-muted-foreground tabular-nums;
 }
 .header-bar-actions {
-  @apply flex items-center gap-1 justify-end;
+  @apply flex items-center gap-1 justify-center;
+}
+.header-sidebar-toggle {
+  @apply justify-self-end;
 }
 .header-bar-divider {
   @apply w-px h-5 bg-border mx-1;
@@ -28,10 +46,13 @@
 .btn-icon {
   @apply flex items-center justify-center w-8 h-8 border border-border rounded-md text-muted-foreground hover:bg-muted transition-colors cursor-pointer;
 }
-.btn-icon:disabled {
+.btn-label {
+  @apply flex items-center gap-1.5 px-2.5 h-8 border border-border rounded-md text-xs text-muted-foreground hover:bg-muted transition-colors cursor-pointer;
+}
+.btn-icon:disabled, .btn-label:disabled {
   @apply opacity-30 pointer-events-none;
 }
-.btn-icon.btn-active {
+.btn-icon.btn-active, .btn-label.btn-active {
   color: var(--color-accent-marker);
 }
 .btn-icon-sm {
@@ -40,19 +61,26 @@
 .btn-group {
   @apply flex;
 }
-.btn-group .btn-icon {
+.btn-group .btn-icon, .btn-group .btn-label {
   @apply rounded-none border-r-0;
 }
-.btn-group .btn-icon:first-child {
+.btn-group .btn-icon:first-child, .btn-group .btn-label:first-child {
   @apply rounded-l-md;
 }
-.btn-group .btn-icon:last-child {
+.btn-group .btn-icon:last-child, .btn-group .btn-label:last-child {
   @apply rounded-r-md border-r;
 }
 
+.theme-select {
+  @apply h-6 px-1.5 text-xs border border-border rounded-md bg-background text-foreground cursor-pointer;
+}
+
 @media (max-width: 768px) {
-  .header-bar {
-    @apply grid-cols-[1fr] gap-1 py-1.5;
+  .header-row-1 {
+    @apply px-3 py-1;
+  }
+  .header-row-2 {
+    @apply flex-col gap-2 px-3 py-2;
   }
   .header-bar-left {
     @apply justify-between w-full;
@@ -67,6 +95,9 @@
     @apply hidden;
   }
   .hidden-mobile {
+    @apply hidden;
+  }
+  .header-link {
     @apply hidden;
   }
 }
