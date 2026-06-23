@@ -21,6 +21,9 @@
 .header-link {
   @apply text-xs text-primary hover:underline;
 }
+.header-links {
+  @apply flex items-center gap-2;
+}
 .header-divider {
   @apply text-border text-xs;
 }
@@ -40,7 +43,7 @@
   @apply w-px h-5 bg-border mx-1;
 }
 .state-select {
-  @apply h-7 px-2 text-sm border border-border rounded-md bg-background;
+  @apply h-7 px-2 text-xs border border-border rounded-md bg-background;
 }
 
 .btn-icon {
@@ -77,19 +80,24 @@
 
 @media (max-width: 768px) {
   .header-row-1 {
-    @apply px-3 py-1;
+    @apply px-3 py-1 flex-wrap;
   }
-  .header-row-2 {
-    @apply flex-col gap-2 px-3 py-2;
+  .header-row-1-right {
+    @apply w-full justify-between border-t border-border/30 pt-1 mt-1;
   }
   .header-bar-left {
-    @apply justify-between w-full;
+    @apply w-full justify-between;
+  }
+  .header-row-2 {
+    @apply flex flex-wrap items-center gap-2 px-3 py-2;
+    grid-template-columns: none;
+    display: flex;
   }
   .header-bar-count {
     @apply text-xs;
   }
   .header-bar-actions {
-    @apply w-full justify-center;
+    @apply justify-center flex-1;
   }
   .header-bar-divider {
     @apply hidden;
@@ -97,7 +105,14 @@
   .hidden-mobile {
     @apply hidden;
   }
+  .btn-label {
+    @apply w-8 h-8 px-0 gap-0 justify-center overflow-hidden text-[0px];
+  }
+  .btn-label svg {
+    @apply shrink-0;
+    font-size: initial;
+  }
   .header-link {
-    @apply hidden;
+    @apply text-[10px];
   }
 }

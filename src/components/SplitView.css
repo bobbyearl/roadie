@@ -2,7 +2,12 @@
 
 .split-container { @apply flex flex-1 overflow-hidden h-full; }
 .split-map-panel { @apply min-w-0; }
-.split-handle { @apply w-1.5 bg-border hover:bg-primary/30 cursor-col-resize shrink-0 transition-colors; }
+.split-handle {
+  @apply w-1.5 bg-border/50 cursor-col-resize shrink-0 flex items-center justify-center;
+}
+.split-handle-grip {
+  @apply w-1 h-8 rounded-full bg-muted-foreground/40 hover:bg-muted-foreground/70 transition-colors;
+}
 .split-feeds-panel { @apply flex-1 overflow-auto p-2 min-w-0; }
 .split-empty { @apply flex flex-col items-center justify-center h-full text-center px-3; }
 .split-empty-title { @apply text-sm font-medium text-foreground mb-3; }
@@ -15,8 +20,10 @@
 
 @media (max-width: 768px) {
   .split-container { @apply flex-col; }
-  .split-map-panel { width: 100% !important; @apply h-[50vh]; }
-  .split-handle { @apply hidden; }
+  .split-map-panel { width: 100% !important; height: 50%; @apply overflow-hidden; }
+  .split-map-panel .map-container { min-height: 0; }
+  .split-handle { @apply w-full h-2.5 cursor-row-resize relative z-10 flex items-center justify-center bg-border/50; touch-action: none; }
+  .split-handle-grip { @apply w-10 h-1 rounded-full; }
   .split-feeds-panel { @apply w-full; }
   .split-feeds-sm, .split-feeds-md, .split-feeds-lg { @apply grid-cols-1; }
 }

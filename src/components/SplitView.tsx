@@ -15,21 +15,35 @@ interface SplitViewProps {
 export function SplitView({ stateId, onBrowse }: SplitViewProps) {
   const { cameras, selectedCameras, mode, cardSize, splitWidth, setSplitWidth, toggleCamera, selectRoute, setDetailCam } = useTraffic();
   const containerRef = useRef<HTMLDivElement>(null);
+  const mapPanelRef = useRef<HTMLDivElement>(null);
   const localPercent = useRef(splitWidth);
   const dragging = useRef(false);
 
-  const startDrag = useCallback(() => {
+  const startDrag = useCallback((e: React.MouseEvent | React.TouchEvent) => {
     dragging.current = true;
-    document.body.style.cursor = 'col-resize';
+    const isMobile = window.innerWidth < 768;
+    document.body.style.cursor = isMobile ? 'row-resize' : 'col-resize';
     document.body.style.userSelect = 'none';
-    const move = (e: MouseEvent) => {
+
+    const getPos = (ev: MouseEvent | TouchEvent) => {
+      if ('touches' in ev) { return { x: ev.touches[0].clientX, y: ev.touches[0].clientY }; }
+      return { x: ev.clientX, y: ev.clientY };
+    };
+
+    const move = (ev: MouseEvent | TouchEvent) => {
+      if ('touches' in ev) { ev.preventDefault(); }
       if (!containerRef.current) { return; }
       const rect = containerRef.current.getBoundingClientRect();
-      const percent = Math.min(85, Math.max(30, ((e.clientX - rect.left) / rect.width) * 100));
-      localPercent.current = percent;
-      // Update the DOM directly for smooth dragging (no re-renders during drag)
-      const mapPanel = containerRef.current.firstElementChild as HTMLElement;
-      if (mapPanel) { mapPanel.style.width = `${percent}%`; }
+      const pos = getPos(ev);
+      if (isMobile) {
+        const percent = Math.min(80, Math.max(20, ((pos.y - rect.top) / rect.height) * 100));
+        localPercent.current = percent;
+        if (mapPanelRef.current) { mapPanelRef.current.style.height = `${percent}%`; }
+      } else {
+        const percent = Math.min(85, Math.max(30, ((pos.x - rect.left) / rect.width) * 100));
+        localPercent.current = percent;
+        if (mapPanelRef.current) { mapPanelRef.current.style.width = `${percent}%`; }
+      }
     };
     const up = () => {
       dragging.current = false;
@@ -38,19 +52,25 @@ export function SplitView({ stateId, onBrowse }: SplitViewProps) {
       setSplitWidth(localPercent.current);
       document.removeEventListener('mousemove', move);
       document.removeEventListener('mouseup', up);
+      document.removeEventListener('touchmove', move);
+      document.removeEventListener('touchend', up);
     };
     document.addEventListener('mousemove', move);
     document.addEventListener('mouseup', up);
+    document.addEventListener('touchmove', move, { passive: false });
+    document.addEventListener('touchend', up);
   }, [setSplitWidth]);
 
   const gridClass = cardSize === 'lg' ? 'split-feeds-lg' : cardSize === 'sm' ? 'split-feeds-sm' : 'split-feeds-md';
 
   return (
     <div className="split-container" ref={containerRef}>
-      <div className="split-map-panel" style={{ width: `${splitWidth}%` }}>
+      <div className="split-map-panel" style={{ width: `${splitWidth}%`, height: splitWidth !== 70 ? `${splitWidth}%` : undefined }} ref={mapPanelRef}>
         <CameraMap stateId={stateId} markersOnly />
       </div>
-      <div className="split-handle" onMouseDown={startDrag} />
+      <div className="split-handle" onMouseDown={startDrag} onTouchStart={startDrag}>
+        <div className="split-handle-grip" />
+      </div>
       <div className="split-feeds-panel">
         {selectedCameras.length === 0 ? (
           <EmptyState stateId={stateId} selectRoute={selectRoute} onBrowse={onBrowse} onSwitchToMap={() => {}} />

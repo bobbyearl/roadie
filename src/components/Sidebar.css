@@ -20,8 +20,14 @@
 .sidebar-close {
   @apply p-2 text-muted-foreground hover:text-foreground cursor-pointer;
 }
+.sidebar-header {
+  @apply flex items-center gap-2 px-3 py-2 border-b border-border shrink-0;
+}
+.sidebar-close {
+  @apply p-1.5 text-muted-foreground hover:text-foreground cursor-pointer shrink-0;
+}
 .sidebar-search {
-  @apply flex items-center gap-2 px-3 py-2 border-b border-border;
+  @apply flex items-center gap-2 flex-1;
 }
 .sidebar-search input {
   @apply flex-1 outline-none bg-transparent text-sm placeholder:text-muted-foreground;

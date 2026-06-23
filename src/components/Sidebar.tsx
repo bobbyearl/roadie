@@ -1,6 +1,6 @@
 import './Sidebar.css';
 
-import { ChevronDown, ChevronRight, Search } from 'lucide-react';
+import { ChevronDown, ChevronRight, Search, X } from 'lucide-react';
 import { useMemo, useState } from 'react';
 
 import { type Camera } from '../lib/cameras';
@@ -39,9 +39,16 @@ export function Sidebar({ onClose }: { onClose?: () => void }) {
 
   return (
     <aside className="sidebar">
-      <div className="sidebar-search">
-        <Search size={14} />
-        <input type="text" placeholder="Search cameras" value={searchText} onChange={(e) => setSearchText(e.target.value)} />
+      <div className="sidebar-header">
+        <div className="sidebar-search">
+          <Search size={14} />
+          <input type="text" placeholder="Search cameras" value={searchText} onChange={(e) => setSearchText(e.target.value)} />
+        </div>
+        {onClose && (
+          <button className="sidebar-close" onClick={onClose} title="Close">
+            <X size={16} />
+          </button>
+        )}
       </div>
       <div className="sidebar-list">
         {hasCuratedRoutes && !searchText && (
@@ -52,17 +59,17 @@ export function Sidebar({ onClose }: { onClose?: () => void }) {
               <span className="region-counter">{CURATED_ROUTES.length}</span>
             </button>
             {isExpanded('__curated__') && (
-              <div className="curated-routes-list">
-                {CURATED_ROUTES.map((route) => (
-                  <button
-                    key={route.name}
-                    className={`route-item ${activeRouteName === route.name ? 'route-item-active' : ''}`}
-                    onClick={() => { selectRoute(route.ids); if (window.innerWidth < 768 && onClose) { onClose(); } }}
-                  >
-                    <span className="route-item-name">{route.name}</span>
-                    <span className="route-item-count">{route.ids.length}</span>
-                  </button>
-                ))}
+              <div className="region-cameras">
+                {CURATED_ROUTES.map((route) => {
+                  const isActive = route.ids.every((id) => selectedIds.has(id));
+                  return (
+                    <label key={route.name} className="camera-row">
+                      <input type="checkbox" checked={isActive} onChange={() => selectRoute(isActive ? [] : route.ids)} />
+                      <span className="camera-row-label">{route.name}</span>
+                      <span className="region-counter">{route.ids.length}</span>
+                    </label>
+                  );
+                })}
               </div>
             )}
           </div>

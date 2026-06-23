@@ -57,13 +57,15 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
           </select>
         </div>
         <div className="header-row-1-right">
-          <a className="header-link" href="https://www.paypal.com/paypalme/bobbyearl" target="_blank" rel="noopener">
-            Gas Money
-          </a>
-          <span className="header-divider">|</span>
-          <a className="header-link" href="https://github.com/bobbyearl/roadie/issues/new?labels=bug" target="_blank" rel="noopener">
-            Backseat Driver
-          </a>
+          <div className="header-links">
+            <a className="header-link" href="https://www.paypal.com/paypalme/bobbyearl" target="_blank" rel="noopener">
+              Gas Money
+            </a>
+            <span className="header-divider">|</span>
+            <a className="header-link" href="https://github.com/bobbyearl/roadie/issues/new?labels=bug" target="_blank" rel="noopener">
+              Backseat Driver
+            </a>
+          </div>
           <select className="theme-select" value={theme} onChange={(e) => setTheme(e.target.value as 'system' | 'light' | 'dark')}>
             <option value="system">System</option>
             <option value="light">Light</option>
@@ -72,7 +74,7 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
         </div>
       </div>
       <div className="header-row-2">
-        <span className="header-bar-count">Viewing {selectedCameras.length} / {cameras.length}</span>
+        <span className="header-bar-count"><span className="hidden-mobile">Viewing </span>{selectedCameras.length}/{cameras.length}</span>
         <div className="header-bar-actions">
           <div className="btn-group">
             <button className={`btn-label ${view === 'split' ? 'btn-active' : ''}`} onClick={() => setView('split')}><Columns size={14} /> Split</button>
