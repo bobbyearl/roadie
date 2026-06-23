@@ -1,33 +1,19 @@
 @reference "../styles.css";
 
 .site-footer {
-  @apply flex items-center justify-between px-4 py-3 border-t border-border text-xs text-muted-foreground shrink-0;
+  @apply flex items-center justify-between px-4 py-2 border-t border-border text-xs text-muted-foreground shrink-0;
 }
 .site-footer-left {
   @apply flex items-center gap-3;
 }
-.site-footer-brand {
-  @apply font-medium;
-}
 .site-footer-links {
-  @apply flex items-center gap-4;
+  @apply flex items-center gap-2;
 }
 .site-footer-links a {
-  color: var(--color-accent-marker);
-  @apply hover:text-foreground transition-colors;
+  @apply text-primary hover:underline;
 }
 .site-footer-divider {
   @apply text-border;
-}
-
-.theme-switcher {
-  @apply flex border border-border rounded-md overflow-hidden;
-}
-.theme-btn {
-  @apply p-1.5 text-muted-foreground hover:text-foreground transition-colors;
-}
-.theme-btn-active {
-  color: var(--color-accent-marker);
 }
 
 @media (max-width: 768px) {
@@ -35,6 +21,6 @@
     @apply gap-2 px-2;
   }
   .site-footer-links {
-    @apply gap-2;
+    @apply gap-1.5 text-[10px];
   }
 }

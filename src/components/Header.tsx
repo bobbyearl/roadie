@@ -2,21 +2,16 @@ import './Header.css';
 
 import { Link } from '@tanstack/react-router';
 import {
-  Columns,
-  Grid2x2,
-  Grid3x3,
-  Image,
-  LayoutGrid,
-  MapIcon,
   PanelRightClose,
   PanelRightOpen,
+  Settings,
+  Share2,
   Sparkles,
   Trash2,
-  Video,
 } from 'lucide-react';
+import { useRef, useState } from 'react';
 
 import { STATES } from '../lib/cameras';
-import { useTheme } from '../lib/ThemeContext';
 import { useTraffic } from '../lib/TrafficContext';
 
 interface HeaderProps {
@@ -29,78 +24,115 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
     stateId,
     cameras,
     mode,
-    view,
+    showMap,
+    showList,
     cardSize,
     selectedCameras,
     stateConfig,
     setState,
     setMode,
     setGrid,
-    setView,
+    toggleMap,
+    toggleList,
     clearAll,
+    resetAll,
     triggerLayout,
   } = useTraffic();
-  const { theme, setTheme } = useTheme();
+  const [prefsOpen, setPrefsOpen] = useState(false);
+  const [hasSeenPrefs, setHasSeenPrefs] = useState(() => localStorage.getItem('roadie-prefs-seen') === '1');
+  const prefsRef = useRef<HTMLDivElement>(null);
+
+  const openPrefs = () => {
+    setPrefsOpen(!prefsOpen);
+    if (!hasSeenPrefs) {
+      localStorage.setItem('roadie-prefs-seen', '1');
+      setHasSeenPrefs(true);
+    }
+  };
+
+  const handleShare = () => {
+    const url = window.location.href;
+    if (navigator.share) {
+      navigator.share({ title: 'RoadieApp', url });
+    } else {
+      navigator.clipboard.writeText(url);
+    }
+  };
+
+  const viewMode = showMap && showList ? 'both' : showMap ? 'map' : 'list';
+  const { setViewMode } = useTraffic();
 
   return (
     <header className="header-bar">
-      <div className="header-row-1">
-        <div className="header-bar-left">
-          <h1 className="header-bar-title">
-            <Link to="/">Roadie</Link>
-          </h1>
-          <select className="state-select" value={stateId} onChange={(e) => setState(e.target.value)}>
-            <option value="all">All States</option>
-            {STATES.map((s) => (
-              <option key={s.id} value={s.id}>{s.name}</option>
-            ))}
-          </select>
-        </div>
-        <div className="header-row-1-right">
-          <div className="header-links">
-            <a className="header-link" href="https://www.paypal.com/paypalme/bobbyearl" target="_blank" rel="noopener">
-              Gas Money
-            </a>
-            <span className="header-divider">|</span>
-            <a className="header-link" href="https://github.com/bobbyearl/roadie/issues/new?labels=bug" target="_blank" rel="noopener">
-              Backseat Driver
-            </a>
-          </div>
-          <select className="theme-select" value={theme} onChange={(e) => setTheme(e.target.value as 'system' | 'light' | 'dark')}>
-            <option value="system">System</option>
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-          </select>
+      <div className="header-nav">
+        <h1 className="header-bar-title">
+          <Link to="/">RoadieApp</Link>
+        </h1>
+        <select className="state-select" value={stateId} onChange={(e) => setState(e.target.value)}>
+          <option value="all">All States</option>
+          {STATES.map((s) => (
+            <option key={s.id} value={s.id}>{s.name}</option>
+          ))}
+        </select>
+        <div className="header-nav-right">
+          <button className="btn-label" onClick={handleShare} title="Share"><Share2 size={14} /> Share</button>
+          <button className={`btn-label ${prefsOpen ? 'btn-active' : ''}`} onClick={openPrefs} title="View Options">
+            <Settings size={14} /> View Options
+            {!hasSeenPrefs && <span className="prefs-dot" />}
+          </button>
         </div>
       </div>
-      <div className="header-row-2">
-        <span className="header-bar-count"><span className="hidden-mobile">Viewing </span>{selectedCameras.length}/{cameras.length}</span>
-        <div className="header-bar-actions">
-          <div className="btn-group">
-            <button className={`btn-label ${view === 'split' ? 'btn-active' : ''}`} onClick={() => setView('split')}><Columns size={14} /> Split</button>
-            <button className={`btn-label ${view === 'map' ? 'btn-active' : ''}`} onClick={() => setView('map')}><MapIcon size={14} /> Map</button>
-            <button className={`btn-label ${view === 'list' ? 'btn-active' : ''}`} onClick={() => setView(undefined)}><LayoutGrid size={14} /> List</button>
-          </div>
-          {stateConfig.supportsVideo && (
-            <div className="btn-group">
-              <button className={`btn-label ${mode === 'video' ? 'btn-active' : ''}`} onClick={() => setMode(undefined)} disabled={selectedCameras.length === 0}><Video size={14} /> Video</button>
-              <button className={`btn-label ${mode === 'image' ? 'btn-active' : ''}`} onClick={() => setMode('image')} disabled={selectedCameras.length === 0}><Image size={14} /> Image</button>
-            </div>
-          )}
-          <div className="btn-group hidden-mobile">
-            <button className={`btn-label ${cardSize === 'sm' ? 'btn-active' : ''}`} onClick={() => setGrid('sm')} disabled={selectedCameras.length === 0}><LayoutGrid size={14} /> Small</button>
-            <button className={`btn-label ${cardSize === 'md' ? 'btn-active' : ''}`} onClick={() => setGrid(undefined)} disabled={selectedCameras.length === 0}><Grid3x3 size={14} /> Medium</button>
-            <button className={`btn-label ${cardSize === 'lg' ? 'btn-active' : ''}`} onClick={() => setGrid('lg')} disabled={selectedCameras.length === 0}><Grid2x2 size={14} /> Large</button>
-          </div>
-          {view === 'map' && (
-            <button className="btn-label" onClick={triggerLayout} disabled={selectedCameras.length < 2}><Sparkles size={14} /> Layout</button>
-          )}
+      <div className="header-toolbar">
+        <div className="header-toolbar-left">
+          <span className="header-bar-count"><span className="hidden-mobile">Viewing </span>{selectedCameras.length}/{cameras.length}</span>
           <button className="btn-label" onClick={clearAll} disabled={selectedCameras.length === 0}><Trash2 size={14} /> Clear</button>
         </div>
-        <button className="btn-label header-sidebar-toggle" onClick={onSidebarToggle} title="Toggle panel">
-          {sidebarOpen ? <PanelRightClose size={14} /> : <PanelRightOpen size={14} />} Browse
-        </button>
+        <div className="header-toolbar-right">
+          {showMap && !showList && (
+            <button className="btn-label" onClick={triggerLayout} disabled={selectedCameras.length < 2}><Sparkles size={14} /> Layout</button>
+          )}
+          <button className={`btn-label ${sidebarOpen ? 'btn-active' : ''}`} onClick={onSidebarToggle}>
+            {sidebarOpen ? <PanelRightClose size={14} /> : <PanelRightOpen size={14} />} Browse
+          </button>
+        </div>
       </div>
+
+      {prefsOpen && (
+        <>
+          <div className="prefs-backdrop" onClick={() => setPrefsOpen(false)} />
+          <div className="prefs-popover" ref={prefsRef}>
+            <div className="prefs-row">
+              <span className="prefs-label">View</span>
+              <div className="prefs-options">
+                <label><input type="radio" name="view" checked={viewMode === 'map'} onChange={() => setViewMode('map')} /> Map</label>
+                <label><input type="radio" name="view" checked={viewMode === 'list'} onChange={() => setViewMode('list')} /> List</label>
+                <label><input type="radio" name="view" checked={viewMode === 'both'} onChange={() => setViewMode('both')} /> Both</label>
+              </div>
+            </div>
+            {stateConfig.supportsVideo && (
+              <div className="prefs-row">
+                <span className="prefs-label">Format</span>
+                <div className="prefs-options">
+                  <label><input type="radio" name="format" checked={mode === 'image'} onChange={() => setMode('image')} /> Images</label>
+                  <label><input type="radio" name="format" checked={mode === 'video'} onChange={() => setMode(undefined)} /> Video (if available)</label>
+                </div>
+              </div>
+            )}
+            <div className="prefs-row">
+              <span className="prefs-label">Size</span>
+              <div className="prefs-options">
+                <label><input type="radio" name="size" checked={cardSize === 'sm'} onChange={() => setGrid('sm')} /> Small</label>
+                <label><input type="radio" name="size" checked={cardSize === 'md'} onChange={() => setGrid('md')} /> Medium</label>
+                <label><input type="radio" name="size" checked={cardSize === 'lg'} onChange={() => setGrid(undefined)} /> Large</label>
+              </div>
+            </div>
+            <div className="prefs-footer">
+              <button className="prefs-reset" onClick={() => { resetAll(); setPrefsOpen(false); }}>Reset to Defaults</button>
+              <button className="prefs-close" onClick={() => setPrefsOpen(false)}>Close</button>
+            </div>
+          </div>
+        </>
+      )}
     </header>
   );
 }

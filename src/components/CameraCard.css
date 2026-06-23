@@ -1,7 +1,7 @@
 @reference "../styles.css";
 
 .card-header {
-  @apply flex items-center gap-2 px-2 py-1.5 bg-muted border-b border-border shrink-0;
+  @apply flex items-center gap-1.5 px-2 py-1.5 bg-muted border-b border-border shrink-0 flex-wrap;
 }
 .card-header-icon {
   @apply text-muted-foreground hover:text-foreground transition-colors shrink-0 cursor-pointer p-1;
@@ -9,32 +9,16 @@
 .card-title {
   @apply flex-1 text-xs font-medium text-foreground truncate;
 }
-.card-footer {
-  @apply flex items-center gap-2 px-3 py-1.5 border-t border-border;
+.card-media {
+  @apply relative overflow-hidden;
 }
-.card-footer-icon {
-  @apply text-muted-foreground hover:text-foreground transition-colors cursor-pointer p-1;
+.card-index-badge {
+  @apply absolute -top-2 -left-2 w-5 h-5 rounded-full text-white text-[10px] font-bold flex items-center justify-center z-10 border border-white shadow;
+  background-color: var(--color-accent-marker);
 }
 
 @media (max-width: 768px) {
   .card-header-icon {
     @apply p-2;
   }
-  .card-footer-icon {
-    @apply p-2;
-  }
-  .card-footer {
-    @apply gap-3 py-2;
-  }
-}
-.card-footer-icon:first-child {
-  @apply mr-auto;
-}
-
-.card-media {
-  @apply relative;
-}
-.card-index-badge {
-  @apply absolute -top-2 -left-2 w-5 h-5 rounded-full text-white text-[10px] font-bold flex items-center justify-center z-10 border border-white shadow;
-  background-color: var(--color-accent-marker);
 }

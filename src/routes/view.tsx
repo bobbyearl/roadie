@@ -8,6 +8,7 @@ import { CameraFeed } from '../components/CameraFeed';
 import { CameraMap } from '../components/CameraMap';
 import { DetailModal } from '../components/DetailModal';
 import { ErrorBoundary } from '../components/ErrorBoundary';
+import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import { Sidebar } from '../components/Sidebar';
 import { SplitView } from '../components/SplitView';
@@ -28,8 +29,9 @@ export const Route = createFileRoute('/view')({
     state: (search.state as string) || undefined,
     mode: search.mode === 'image' ? 'image' : undefined,
     selected: (search.selected as string) || undefined,
-    view: ['map', 'split'].includes(search.view as string) ? (search.view as string) : undefined,
-    grid: ['sm', 'lg'].includes(search.grid as string) ? (search.grid as string) : undefined,
+    map: search.map === '0' ? '0' : undefined,
+    list: search.list === '0' ? '0' : undefined,
+    grid: ['sm', 'md', 'lg'].includes(search.grid as string) ? (search.grid as string) : undefined,
     detail: (search.detail as string) || undefined,
     tab: search.tab === 'regions' ? 'regions' : undefined,
     sw: search.sw ? String(search.sw) : undefined,
@@ -61,12 +63,15 @@ export function EmptyState({ cameras, stateId, selectRoute, onBrowse, onSwitchTo
         </div>
         <a className="empty-browse" href={`https://github.com/bobbyearl/roadie/issues/new?title=Route+request:+${stateId.toUpperCase()}&labels=route-request`} target="_blank" rel="noopener">Request Curated Route</a>
       </div>
+      {!localStorage.getItem('roadie-prefs-seen') && (
+        <p className="empty-hint">Tip: Use View Options to adjust display, format, and size</p>
+      )}
     </div>
   );
 }
 
 function Home() {
-  const { isLoading, stateId, cameras, selectedCameras, stateConfig, mode, view, cardSize, sidebarOpen, toggleCamera, selectRoute, setSidebarOpen, setView, setDetailCam } = useTraffic();
+  const { isLoading, stateId, cameras, selectedCameras, stateConfig, mode, showMap, showList, cardSize, sidebarOpen, toggleCamera, selectRoute, setSidebarOpen, toggleMap, setDetailCam } = useTraffic();
 
   if (isLoading) {
     return <div className="loading">Loading cameras...</div>;
@@ -77,13 +82,11 @@ function Home() {
       <Header sidebarOpen={sidebarOpen} onSidebarToggle={() => setSidebarOpen(!sidebarOpen)} />
       <div className="layout">
         <div className="main">
-          <div className={`viewer-area ${view === 'split' ? 'viewer-area-split' : ''}`}>
-            {view === 'map' ? (
-              <CameraMap key={stateId} stateId={stateId} />
-            ) : view === 'split' ? (
+          <div className={`viewer-area ${showMap ? 'viewer-area-split' : ''}`}>
+            {showMap ? (
               <SplitView stateId={stateId} onBrowse={() => setSidebarOpen(true)} />
             ) : selectedCameras.length === 0 ? (
-              <EmptyState cameras={cameras} stateId={stateId} selectRoute={selectRoute} onBrowse={() => setSidebarOpen(true)} onSwitchToMap={() => setView('map')} />
+              <EmptyState cameras={cameras} stateId={stateId} selectRoute={selectRoute} onBrowse={() => setSidebarOpen(true)} onSwitchToMap={toggleMap} />
             ) : (
                 <div className={`viewer-grid viewer-grid-${cardSize}`}>
                   {selectedCameras.map((cam) => (
@@ -107,6 +110,7 @@ function Home() {
           </>
         )}
       </div>
+      <Footer />
       <DetailModal />
     </div>
   );

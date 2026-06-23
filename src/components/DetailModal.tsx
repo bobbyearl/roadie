@@ -20,11 +20,6 @@ export function DetailModal() {
           </button>
         </div>
         <div className="modal-body">
-          {mode === 'video' ? (
-            <video src={detailCam.video_url} autoPlay muted playsInline controls className="modal-media" />
-          ) : (
-            <img src={detailCam.image_url} alt={detailCam.description} className="modal-media" />
-          )}
           <dl className="modal-details">
             <dt>Route</dt>
             <dd>{detailCam.route}</dd>

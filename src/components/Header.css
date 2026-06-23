@@ -1,10 +1,13 @@
 @reference "../styles.css";
 
 .header-bar {
-  @apply border-b border-border shrink-0 bg-muted/30;
+  @apply border-b border-border shrink-0 bg-muted/30 relative;
 }
-.header-row-1 {
+.header-nav {
   @apply flex items-center justify-between px-4 py-1.5;
+}
+.header-nav-right {
+  @apply flex items-center gap-2;
 }
 .header-bar-title {
   @apply text-base font-semibold text-foreground;
@@ -12,35 +15,17 @@
 .header-bar-title a {
   @apply text-foreground no-underline;
 }
-.header-row-1-right {
-  @apply flex items-center gap-3;
+.header-toolbar {
+  @apply flex items-center justify-between px-4 py-1.5;
 }
-.header-bar-left {
-  @apply flex items-center gap-3;
-}
-.header-link {
-  @apply text-xs text-primary hover:underline;
-}
-.header-links {
+.header-toolbar-left {
   @apply flex items-center gap-2;
 }
-.header-divider {
-  @apply text-border text-xs;
-}
-.header-row-2 {
-  @apply grid grid-cols-[auto_1fr_auto] items-center px-4 py-1.5;
+.header-toolbar-right {
+  @apply flex items-center gap-2;
 }
 .header-bar-count {
   @apply text-xs text-muted-foreground tabular-nums;
-}
-.header-bar-actions {
-  @apply flex items-center gap-1 justify-center;
-}
-.header-sidebar-toggle {
-  @apply justify-self-end;
-}
-.header-bar-divider {
-  @apply w-px h-5 bg-border mx-1;
 }
 .state-select {
   @apply h-7 px-2 text-xs border border-border rounded-md bg-background;
@@ -50,16 +35,13 @@
   @apply flex items-center justify-center w-8 h-8 border border-border rounded-md text-muted-foreground hover:bg-muted transition-colors cursor-pointer;
 }
 .btn-label {
-  @apply flex items-center gap-1.5 px-2.5 h-8 border border-border rounded-md text-xs text-muted-foreground hover:bg-muted transition-colors cursor-pointer;
+  @apply flex items-center gap-1.5 px-2.5 h-8 border border-border rounded-md text-xs text-muted-foreground hover:bg-muted transition-colors cursor-pointer relative;
 }
 .btn-icon:disabled, .btn-label:disabled {
   @apply opacity-30 pointer-events-none;
 }
 .btn-icon.btn-active, .btn-label.btn-active {
   color: var(--color-accent-marker);
-}
-.btn-icon-sm {
-  @apply flex items-center justify-center w-5 h-5 rounded text-muted-foreground hover:text-foreground;
 }
 .btn-group {
   @apply flex;
@@ -74,33 +56,52 @@
   @apply rounded-r-md border-r;
 }
 
-.theme-select {
-  @apply h-6 px-1.5 text-xs border border-border rounded-md bg-background text-foreground cursor-pointer;
+/* Preferences popover */
+.prefs-backdrop {
+  @apply fixed inset-0 z-40;
+}
+.prefs-popover {
+  @apply absolute right-4 top-10 z-50 bg-background border border-border rounded-lg shadow-lg p-4 w-96;
+}
+.prefs-popover::before {
+  content: '';
+  @apply absolute -top-2 right-4 w-3 h-3 bg-background border-l border-t border-border rotate-45;
+}
+.prefs-row {
+  @apply flex items-center justify-between gap-4 py-2.5 border-b border-border;
+}
+.prefs-label {
+  @apply text-xs font-medium text-foreground shrink-0;
+}
+.prefs-options {
+  @apply flex items-center gap-3 flex-wrap;
+}
+.prefs-options label {
+  @apply flex items-center gap-1 text-xs text-muted-foreground cursor-pointer whitespace-nowrap;
+}
+.prefs-options input[type="radio"] {
+  @apply accent-[var(--color-accent-marker)];
+}
+.prefs-footer {
+  @apply flex items-center justify-between pt-3;
+}
+.prefs-reset {
+  @apply text-xs text-red-500 hover:text-red-700 cursor-pointer;
+}
+.prefs-close {
+  @apply text-xs text-muted-foreground hover:text-foreground cursor-pointer;
+}
+.prefs-dot {
+  @apply absolute -top-1 -right-1 w-2 h-2 rounded-full;
+  background-color: var(--color-accent-marker);
 }
 
 @media (max-width: 768px) {
-  .header-row-1 {
-    @apply px-3 py-1 flex-wrap;
+  .header-nav {
+    @apply px-3 py-1;
   }
-  .header-row-1-right {
-    @apply w-full justify-between border-t border-border/30 pt-1 mt-1;
-  }
-  .header-bar-left {
-    @apply w-full justify-between;
-  }
-  .header-row-2 {
-    @apply flex flex-wrap items-center gap-2 px-3 py-2;
-    grid-template-columns: none;
-    display: flex;
-  }
-  .header-bar-count {
-    @apply text-xs;
-  }
-  .header-bar-actions {
-    @apply justify-center flex-1;
-  }
-  .header-bar-divider {
-    @apply hidden;
+  .header-toolbar {
+    @apply px-3 py-1;
   }
   .hidden-mobile {
     @apply hidden;
@@ -112,7 +113,7 @@
     @apply shrink-0;
     font-size: initial;
   }
-  .header-link {
-    @apply text-[10px];
+  .prefs-popover {
+    @apply right-2 left-2 w-auto;
   }
 }

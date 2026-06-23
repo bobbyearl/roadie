@@ -5,7 +5,7 @@
 }
 @media (max-width: 768px) {
   .sidebar {
-    @apply fixed inset-y-0 right-0 z-50 w-[85vw] max-w-80 shadow-xl;
+    @apply absolute inset-y-0 right-0 z-30 w-[85vw] max-w-80 shadow-xl;
   }
 }
 .sidebar-tabs {

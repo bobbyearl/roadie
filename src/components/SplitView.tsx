@@ -13,7 +13,7 @@ interface SplitViewProps {
 }
 
 export function SplitView({ stateId, onBrowse }: SplitViewProps) {
-  const { cameras, selectedCameras, mode, cardSize, splitWidth, setSplitWidth, toggleCamera, selectRoute, setDetailCam } = useTraffic();
+  const { cameras, selectedCameras, showList, mode, cardSize, splitWidth, setSplitWidth, toggleCamera, selectRoute, setDetailCam } = useTraffic();
   const containerRef = useRef<HTMLDivElement>(null);
   const mapPanelRef = useRef<HTMLDivElement>(null);
   const localPercent = useRef(splitWidth);
@@ -65,13 +65,15 @@ export function SplitView({ stateId, onBrowse }: SplitViewProps) {
 
   return (
     <div className="split-container" ref={containerRef}>
-      <div className="split-map-panel" style={{ width: `${splitWidth}%`, height: splitWidth !== 70 ? `${splitWidth}%` : undefined }} ref={mapPanelRef}>
-        <CameraMap stateId={stateId} markersOnly />
+      <div className="split-map-panel" style={{ width: showList ? `${splitWidth}%` : '100%', height: splitWidth !== 70 ? `${splitWidth}%` : undefined }} ref={mapPanelRef}>
+        <CameraMap stateId={stateId} markersOnly={showList} />
       </div>
-      <div className="split-handle" onMouseDown={startDrag} onTouchStart={startDrag}>
-        <div className="split-handle-grip" />
-      </div>
-      <div className="split-feeds-panel">
+      {showList && (
+        <>
+          <div className="split-handle" onMouseDown={startDrag} onTouchStart={startDrag}>
+            <div className="split-handle-grip" />
+          </div>
+          <div className="split-feeds-panel">
         {selectedCameras.length === 0 ? (
           <EmptyState stateId={stateId} selectRoute={selectRoute} onBrowse={onBrowse} onSwitchToMap={() => {}} />
         ) : (
@@ -81,7 +83,9 @@ export function SplitView({ stateId, onBrowse }: SplitViewProps) {
               ))}
             </div>
         )}
-      </div>
+          </div>
+        </>
+      )}
     </div>
   );
 }

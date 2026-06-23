@@ -20,7 +20,8 @@ interface TrafficState {
 
   // Derived params
   mode: string;
-  view: string;
+  showMap: boolean;
+  showList: boolean;
   cardSize: string;
   sidebarTab: string;
   splitWidth: number;
@@ -29,11 +30,14 @@ interface TrafficState {
   // Actions
   toggleCamera: (id: string) => void;
   clearAll: () => void;
+  resetAll: () => void;
   selectRoute: (ids: string[]) => void;
   setDetailCam: (cam: Camera | null) => void;
-  setView: (view: string | undefined) => void;
   setMode: (mode: string | undefined) => void;
   setGrid: (grid: string | undefined) => void;
+  toggleMap: () => void;
+  toggleList: () => void;
+  setViewMode: (mode: string) => void;
   setTab: (tab: string | undefined) => void;
   setSplitWidth: (percent: number) => void;
   setSidebarOpen: (open: boolean) => void;
@@ -80,8 +84,9 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   });
 
   const mode = stateConfig.supportsVideo ? (params.mode ?? 'video') : 'image';
-  const view = params.view ?? 'feeds';
-  const cardSize = params.grid ?? 'md';
+  const showMap = params.map !== '0';
+  const showList = params.list !== '0';
+  const cardSize = params.grid ?? 'lg';
   const sidebarTab = params.tab ?? 'routes';
   const splitWidth = params.sw ? Math.min(85, Math.max(30, Number(params.sw))) : 70;
   const sidebarOpen = params.panel === '1';
@@ -114,10 +119,17 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     setSelected(next);
   };
   const clearAll = () => setSelected(new Set());
+  const resetAll = () => navigate({ search: { state: params.state, selected: params.selected } as ViewSearchParams });
   const selectRoute = (ids: string[]) => setSelected(new Set(ids));
   const setDetailCam = (cam: Camera | null) =>
     navigate({ search: { ...params, detail: cam?.id || undefined } as ViewSearchParams });
-  const setView = (v: string | undefined) => navigate({ search: { ...params, view: v } as ViewSearchParams });
+  const toggleMap = () => navigate({ search: { ...params, map: params.map === '0' ? undefined : '0' } as ViewSearchParams });
+  const toggleList = () => navigate({ search: { ...params, list: params.list === '0' ? undefined : '0' } as ViewSearchParams });
+  const setViewMode = (m: string) => {
+    const map = m === 'list' ? '0' : undefined;
+    const list = m === 'map' ? '0' : undefined;
+    navigate({ search: { ...params, map, list } as ViewSearchParams });
+  };
   const setMode = (m: string | undefined) => navigate({ search: { ...params, mode: m } as ViewSearchParams });
   const setGrid = (g: string | undefined) => navigate({ search: { ...params, grid: g } as ViewSearchParams });
   const setTab = (tab: string | undefined) => navigate({ search: { ...params, tab } as ViewSearchParams });
@@ -130,7 +142,8 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     navigate({
       search: {
         state: s === 'sc' ? undefined : s,
-        view: params.view,
+        map: params.map,
+        list: params.list,
         mode: params.mode,
         grid: params.grid,
         tab: params.tab,
@@ -153,7 +166,8 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     detailCam,
     activeRouteName,
     mode,
-    view,
+    showMap,
+    showList,
     cardSize,
     sidebarTab,
     splitWidth,
@@ -161,9 +175,12 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     layoutKey,
     toggleCamera,
     clearAll,
+    resetAll,
     selectRoute,
     setDetailCam,
-    setView,
+    toggleMap,
+    toggleList,
+    setViewMode,
     setMode,
     setGrid,
     setTab,

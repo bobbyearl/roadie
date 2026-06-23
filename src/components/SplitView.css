@@ -25,5 +25,7 @@
   .split-handle { @apply w-full h-2.5 cursor-row-resize relative z-10 flex items-center justify-center bg-border/50; touch-action: none; }
   .split-handle-grip { @apply w-10 h-1 rounded-full; }
   .split-feeds-panel { @apply w-full; }
-  .split-feeds-sm, .split-feeds-md, .split-feeds-lg { @apply grid-cols-1; }
+  .split-feeds-sm { @apply grid-cols-3; }
+  .split-feeds-md { @apply grid-cols-2; }
+  .split-feeds-lg { @apply grid-cols-1; }
 }

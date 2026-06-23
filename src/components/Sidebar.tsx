@@ -1,6 +1,6 @@
 import './Sidebar.css';
 
-import { ChevronDown, ChevronRight, Search, X } from 'lucide-react';
+import { ChevronDown, ChevronRight, Search } from 'lucide-react';
 import { useMemo, useState } from 'react';
 
 import { type Camera } from '../lib/cameras';
@@ -44,11 +44,6 @@ export function Sidebar({ onClose }: { onClose?: () => void }) {
           <Search size={14} />
           <input type="text" placeholder="Search cameras" value={searchText} onChange={(e) => setSearchText(e.target.value)} />
         </div>
-        {onClose && (
-          <button className="sidebar-close" onClick={onClose} title="Close">
-            <X size={16} />
-          </button>
-        )}
       </div>
       <div className="sidebar-list">
         {hasCuratedRoutes && !searchText && (

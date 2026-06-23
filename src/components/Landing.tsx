@@ -30,21 +30,13 @@ export function Landing() {
     <div className="landing">
       <section className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">Roadie</h1>
+          <h1 className="hero-title">RoadieApp</h1>
           <p className="hero-subtitle">
             View {totalCameras.toLocaleString()} live traffic cameras across {STATES.length} states.
           </p>
           <div className="hero-actions">
-            <Link to="/view" search={{ ...emptyViewSearch, view: 'split' }} className="hero-cta">
-              Ride Shotgun <span className="state-card-badge state-card-badge-routes">New!</span>
-            </Link>
-          </div>
-          <div className="hero-actions">
-            <Link to="/view" search={{ ...emptyViewSearch, view: 'map' }} className="hero-cta-secondary">
-              Map Only
-            </Link>
-            <Link to="/view" search={emptyViewSearch} className="hero-cta-secondary">
-              List Only
+            <Link to="/view" search={emptyViewSearch} className="hero-cta">
+              Get Started
             </Link>
           </div>
         </div>
