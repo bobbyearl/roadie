@@ -11,17 +11,25 @@
   @apply w-full aspect-video object-cover bg-foreground/5;
 }
 .feed-error {
-  @apply flex flex-col items-center justify-center aspect-video bg-muted/50 gap-2;
+  @apply flex flex-col items-center justify-center aspect-video bg-muted/50;
+  gap: var(--space-sm);
 }
 .feed-error-text {
-  @apply text-xs text-muted-foreground;
+  @apply text-muted-foreground;
+  font-size: var(--text-xs);
 }
 .feed-error-retry {
-  @apply text-xs text-primary hover:underline;
+  @apply text-primary hover:underline;
+  font-size: var(--text-xs);
 }
 .feed-stalled-overlay {
-  @apply absolute top-2 left-2 right-2;
+  @apply absolute;
+  top: var(--space-sm);
+  left: var(--space-sm);
+  right: var(--space-sm);
 }
 .feed-stalled {
-  @apply inline-block text-[10px] px-1.5 py-0.5 rounded bg-amber-100/90 text-amber-700;
+  @apply inline-block rounded bg-amber-100/90 text-amber-700;
+  font-size: 0.625rem;
+  padding: var(--space-xs) var(--space-sm);
 }

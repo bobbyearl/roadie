@@ -27,11 +27,13 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
     showMap,
     showList,
     cardSize,
+    density,
     selectedCameras,
     stateConfig,
     setState,
     setMode,
     setGrid,
+    setDensity,
     toggleMap,
     toggleList,
     clearAll,
@@ -120,6 +122,13 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
                 <label><input type="radio" name="size" checked={cardSize === 'sm'} onChange={() => setGrid('sm')} /> Small</label>
                 <label><input type="radio" name="size" checked={cardSize === 'md'} onChange={() => setGrid('md')} /> Medium</label>
                 <label><input type="radio" name="size" checked={cardSize === 'lg'} onChange={() => setGrid(undefined)} /> Large</label>
+              </div>
+            </div>
+            <div className="prefs-row">
+              <span className="prefs-label">Density</span>
+              <div className="prefs-options">
+                <label><input type="radio" name="density" checked={density === 'open'} onChange={() => setDensity(undefined)} /> Open Road</label>
+                <label><input type="radio" name="density" checked={density === 'compact'} onChange={() => setDensity('compact')} /> City Streets</label>
               </div>
             </div>
             <div className="prefs-footer">

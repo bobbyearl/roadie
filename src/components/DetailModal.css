@@ -1,25 +1,27 @@
 @reference "../styles.css";
 
 .modal-overlay {
-  @apply fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4;
+  @apply fixed inset-0 bg-black/50 flex items-center justify-center z-50;
+  padding: var(--space-lg);
 }
 .modal {
   @apply bg-background rounded-lg border border-border shadow-xl max-w-2xl w-full max-h-[90vh] overflow-auto;
 }
 .modal-header {
-  @apply flex items-center justify-between px-4 py-3 border-b border-border;
+  @apply flex items-center justify-between border-b border-border;
+  padding: var(--space-md) var(--space-lg);
 }
 .modal-title {
-  @apply text-sm font-semibold text-foreground;
+  @apply font-semibold text-foreground;
+  font-size: var(--text-sm);
 }
 .modal-body {
-  @apply p-4;
-}
-.modal-media {
-  @apply w-full aspect-video object-cover rounded-md mb-4;
+  padding: var(--space-lg);
 }
 .modal-details {
-  @apply grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm;
+  @apply grid grid-cols-[auto_1fr];
+  gap: var(--space-sm) var(--space-lg);
+  font-size: var(--text-sm);
 }
 .modal-details dt {
   @apply text-muted-foreground font-medium;

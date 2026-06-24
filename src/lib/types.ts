@@ -5,6 +5,7 @@ export type ViewSearchParams = {
   map: string | undefined;
   list: string | undefined;
   grid: string | undefined;
+  density: string | undefined;
   detail: string | undefined;
   tab: string | undefined;
   sw: string | undefined;
@@ -18,6 +19,7 @@ export const emptyViewSearch: ViewSearchParams = {
   map: undefined,
   list: undefined,
   grid: undefined,
+  density: undefined,
   detail: undefined,
   tab: undefined,
   sw: undefined,

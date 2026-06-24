@@ -32,6 +32,7 @@ export const Route = createFileRoute('/view')({
     map: search.map === '0' ? '0' : undefined,
     list: search.list === '0' ? '0' : undefined,
     grid: ['sm', 'md', 'lg'].includes(search.grid as string) ? (search.grid as string) : undefined,
+    density: search.density === 'compact' ? 'compact' : undefined,
     detail: (search.detail as string) || undefined,
     tab: search.tab === 'regions' ? 'regions' : undefined,
     sw: search.sw ? String(search.sw) : undefined,
@@ -72,14 +73,14 @@ export function EmptyState({ cameras, stateId, selectRoute, onBrowse, onSwitchTo
 }
 
 function Home() {
-  const { isLoading, stateId, cameras, selectedCameras, stateConfig, mode, showMap, showList, cardSize, sidebarOpen, toggleCamera, selectRoute, setSidebarOpen, toggleMap, setDetailCam } = useTraffic();
+  const { isLoading, stateId, cameras, selectedCameras, stateConfig, mode, showMap, showList, cardSize, density, sidebarOpen, toggleCamera, selectRoute, setSidebarOpen, toggleMap, setDetailCam } = useTraffic();
 
   if (isLoading) {
     return <div className="loading">Loading cameras...</div>;
   }
 
   return (
-    <div className="page">
+    <div className={`page ${density === 'compact' ? 'density-compact' : ''}`}>
       <Header sidebarOpen={sidebarOpen} onSidebarToggle={() => setSidebarOpen(!sidebarOpen)} />
       <div className="layout">
         <div className="main">

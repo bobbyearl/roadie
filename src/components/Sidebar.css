@@ -8,83 +8,92 @@
     @apply absolute inset-y-0 right-0 z-30 w-[85vw] max-w-80 shadow-xl;
   }
 }
-.sidebar-tabs {
-  @apply flex items-center border-b border-border shrink-0;
-}
-.sidebar-tab {
-  @apply flex-1 px-4 py-2.5 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors;
-}
-.sidebar-tab-active {
-  @apply text-foreground border-b-2 border-primary;
-}
-.sidebar-close {
-  @apply p-2 text-muted-foreground hover:text-foreground cursor-pointer;
-}
 .sidebar-header {
-  @apply flex items-center gap-2 px-3 py-2 border-b border-border shrink-0;
-}
-.sidebar-close {
-  @apply p-1.5 text-muted-foreground hover:text-foreground cursor-pointer shrink-0;
+  @apply flex items-center border-b border-border shrink-0;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
 }
 .sidebar-search {
-  @apply flex items-center gap-2 flex-1;
+  @apply flex items-center flex-1;
+  gap: var(--space-sm);
 }
 .sidebar-search input {
-  @apply flex-1 outline-none bg-transparent text-sm placeholder:text-muted-foreground;
+  @apply flex-1 outline-none bg-transparent placeholder:text-muted-foreground;
+  font-size: var(--text-sm);
 }
 .sidebar-list {
   @apply flex-1 overflow-auto;
 }
 
 .route-item {
-  @apply flex items-center justify-between w-full px-4 py-3 text-left hover:bg-muted transition-colors border-b border-border;
+  @apply flex items-center justify-between w-full text-left hover:bg-muted transition-colors border-b border-border;
+  padding: var(--space-md) var(--space-lg);
 }
 .routes-label {
-  @apply px-4 py-2 text-[11px] uppercase tracking-wide text-muted-foreground font-medium border-b border-border text-center;
+  @apply uppercase tracking-wide text-muted-foreground font-medium border-b border-border text-center;
+  padding: var(--space-sm) var(--space-lg);
+  font-size: 0.6875rem;
 }
 .route-item-active {
   @apply bg-primary/5 border-l-2 border-l-primary;
 }
 .route-item-name {
-  @apply text-sm font-medium text-foreground;
+  @apply font-medium text-foreground;
+  font-size: var(--text-sm);
 }
 .route-item-count {
-  @apply text-xs text-muted-foreground;
+  @apply text-muted-foreground;
+  font-size: var(--text-xs);
 }
 .route-request {
-  @apply block px-4 py-2 text-xs text-primary hover:underline transition-colors text-center;
+  @apply block text-primary hover:underline transition-colors text-center;
+  padding: var(--space-sm) var(--space-lg);
+  font-size: var(--text-xs);
 }
 .route-empty {
-  @apply p-4;
+  padding: var(--space-lg);
 }
 .route-empty-text {
-  @apply text-sm text-muted-foreground mb-3;
+  @apply text-muted-foreground;
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-md);
 }
 .route-empty-hint {
-  @apply text-xs text-muted-foreground mt-3;
+  @apply text-muted-foreground;
+  font-size: var(--text-xs);
+  margin-top: var(--space-md);
 }
 
 .region-section {
   @apply border-b border-border;
 }
 .region-header {
-  @apply flex items-center gap-2 w-full px-3 py-2.5 text-left hover:bg-muted transition-colors;
+  @apply flex items-center w-full text-left hover:bg-muted transition-colors;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
 }
 .region-label {
-  @apply flex-1 text-sm font-medium text-foreground;
+  @apply flex-1 font-medium text-foreground;
+  font-size: var(--text-sm);
 }
 .region-counter {
-  @apply text-xs text-muted-foreground tabular-nums;
+  @apply text-muted-foreground tabular-nums;
+  font-size: var(--text-xs);
 }
 
 .region-cameras {
-  @apply py-1;
+  padding: var(--space-xs) 0;
 }
 .curated-routes-list {
-  @apply py-1 pl-6;
+  padding: var(--space-xs) 0;
+  padding-left: var(--space-xl);
 }
 .camera-row {
-  @apply flex items-center gap-2 px-3 py-1.5 pl-8 cursor-pointer hover:bg-muted/50 text-sm text-foreground;
+  @apply flex items-center cursor-pointer hover:bg-muted/50 text-foreground;
+  gap: var(--space-sm);
+  padding: var(--space-xs) var(--space-md);
+  padding-left: var(--space-2xl);
+  font-size: var(--text-sm);
 }
 .camera-row input[type='checkbox'] {
   @apply accent-primary;
