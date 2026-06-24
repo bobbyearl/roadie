@@ -3,7 +3,7 @@ export default {
   extends: ['stylelint-config-standard'],
   rules: {
     // Enforce CSS variable usage for colors
-    'color-named': null,
+    'color-named': 'never',
     'color-no-hex': true,
     'function-disallowed-list': ['rgb', 'rgba', 'hsl', 'hsla'],
 

@@ -13,11 +13,11 @@
 .map-pin {
   @apply w-2.5 h-2.5 rounded-full cursor-pointer;
   background-color: var(--color-pin);
-  box-shadow: 0 0 0 1px color-mix(in srgb, white 60%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-white) 60%, transparent);
 }
 .dark .map-pin {
   background-color: var(--color-pin-dark);
-  box-shadow: 0 0 0 1px color-mix(in srgb, black 30%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-black) 30%, transparent);
 }
 .map-pin-image {
   background-color: var(--color-pin);
@@ -49,4 +49,8 @@
 .map-feed img,
 .map-feed video {
   @apply w-full aspect-video object-cover;
+}
+
+@media (max-width: 768px) {
+  .map-container .gm-bundled-control { transform: scale(0.75); transform-origin: bottom right; }
 }

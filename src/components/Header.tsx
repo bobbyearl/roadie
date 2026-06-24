@@ -60,9 +60,12 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
             <IconButton icon={Sparkles} label="Layout" onClick={triggerLayout} disabled={selectedCameras.length < 2} />
           )}
           <IconButton icon={Share2} label="Share" onClick={handleShare} title="Share" />
-          <IconButton icon={Settings} label="View Options" onClick={openPrefs} active={prefsOpen} title="View Options">
-            {!hasSeenPrefs && <span className="prefs-dot" />}
-          </IconButton>
+          <div className="prefs-anchor">
+            <IconButton icon={Settings} label="View Options" onClick={openPrefs} active={prefsOpen} title="View Options">
+              {!hasSeenPrefs && <span className="prefs-dot" />}
+            </IconButton>
+            {prefsOpen && <PrefsPopover onClose={() => setPrefsOpen(false)} />}
+          </div>
           <IconButton icon={sidebarOpen ? PanelRightClose : PanelRightOpen} label="Browse" onClick={onSidebarToggle} active={sidebarOpen} />
         </div>
       </div>
@@ -71,7 +74,6 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
         <button className="header-tab-clear" onClick={clearAll} disabled={selectedCameras.length === 0}><Trash2 size={12} /></button>
       </div>
 
-      {prefsOpen && <PrefsPopover onClose={() => setPrefsOpen(false)} />}
     </header>
   );
 }
