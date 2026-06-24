@@ -24,15 +24,11 @@ export const Route = createFileRoute('/view')({
   ),
   validateSearch: (search: Record<string, unknown>): ViewSearchParams => ({
     state: (search.state as string) || undefined,
-    mode: search.mode === 'image' ? 'image' : undefined,
     selected: (search.selected as string) || undefined,
     map: search.map === '0' ? '0' : undefined,
     list: search.list === '0' ? '0' : undefined,
-    grid: ['sm', 'md', 'lg'].includes(search.grid as string) ? (search.grid as string) : undefined,
-    density: search.density === 'compact' ? 'compact' : undefined,
     detail: (search.detail as string) || undefined,
     tab: search.tab === 'regions' ? 'regions' : undefined,
-    sw: search.sw ? String(search.sw) : undefined,
     panel: search.panel === '1' ? '1' : undefined,
   }),
 });
