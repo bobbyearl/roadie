@@ -23,6 +23,7 @@ interface TrafficState {
   showMap: boolean;
   showList: boolean;
   cardSize: string;
+  density: string;
   sidebarTab: string;
   splitWidth: number;
   sidebarOpen: boolean;
@@ -35,6 +36,7 @@ interface TrafficState {
   setDetailCam: (cam: Camera | null) => void;
   setMode: (mode: string | undefined) => void;
   setGrid: (grid: string | undefined) => void;
+  setDensity: (density: string | undefined) => void;
   toggleMap: () => void;
   toggleList: () => void;
   setViewMode: (mode: string) => void;
@@ -87,6 +89,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   const showMap = params.map !== '0';
   const showList = params.list !== '0';
   const cardSize = params.grid ?? 'lg';
+  const density = params.density ?? 'open';
   const sidebarTab = params.tab ?? 'routes';
   const splitWidth = params.sw ? Math.min(85, Math.max(30, Number(params.sw))) : 70;
   const sidebarOpen = params.panel === '1';
@@ -132,6 +135,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   };
   const setMode = (m: string | undefined) => navigate({ search: { ...params, mode: m } as ViewSearchParams });
   const setGrid = (g: string | undefined) => navigate({ search: { ...params, grid: g } as ViewSearchParams });
+  const setDensity = (d: string | undefined) => navigate({ search: { ...params, density: d } as ViewSearchParams });
   const setTab = (tab: string | undefined) => navigate({ search: { ...params, tab } as ViewSearchParams });
   const setSplitWidth = (percent: number) => {
     const rounded = Math.round(percent);
@@ -169,6 +173,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     showMap,
     showList,
     cardSize,
+    density,
     sidebarTab,
     splitWidth,
     sidebarOpen,
@@ -183,6 +188,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     setViewMode,
     setMode,
     setGrid,
+    setDensity,
     setTab,
     setSplitWidth,
     setSidebarOpen,

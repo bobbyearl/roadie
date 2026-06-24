@@ -1,44 +1,40 @@
 @reference "../styles.css";
 
-.page { @apply flex flex-col h-screen overflow-hidden; }
+.page { @apply flex flex-col overflow-hidden; height: 100dvh; }
 .layout { @apply flex flex-1 min-h-0 overflow-hidden relative; }
 .main { @apply flex-1 flex flex-col min-w-0; }
 .loading { @apply flex items-center justify-center h-screen text-muted-foreground; }
 
-.viewer-area { @apply flex-1 overflow-auto p-4; }
-.viewer-area-split { @apply p-0 overflow-hidden flex; }
+.viewer-area { @apply flex-1 overflow-auto; padding: var(--rd-space-lg); }
+.viewer-area-split { @apply overflow-hidden flex; padding: 0; }
 
-.empty-state { @apply flex flex-col items-center justify-center h-full text-center px-4; }
-.empty-title { @apply text-lg font-medium text-foreground mb-4; }
-.empty-desc { @apply text-sm text-muted-foreground; }
-.empty-cta { @apply mt-4 px-4 py-2 bg-primary text-primary-foreground text-sm font-medium rounded-lg hover:bg-primary-hover transition-colors cursor-pointer; }
-.quick-routes { @apply flex flex-wrap gap-2 justify-center max-w-lg; }
-.quick-route-btn { @apply px-3 py-1.5 text-sm border border-border rounded-lg hover:bg-muted transition-colors cursor-pointer text-foreground; }
-.quick-route-count { @apply text-muted-foreground text-xs ml-1; }
-.empty-browse { @apply mt-2 text-xs text-primary hover:underline cursor-pointer; }
-.empty-hint { @apply mt-4 text-[11px] text-muted-foreground/60 italic; }
-.empty-actions { @apply flex flex-col items-center gap-2 mt-4 pt-4 border-t border-border; }
-.viewer-grid { @apply grid gap-3; }
-.size-controls { @apply flex items-center justify-center gap-2 pt-6; }
+.empty-state { @apply flex flex-col items-center justify-center h-full text-center; padding: 0 var(--rd-space-lg); }
+.empty-title { @apply font-medium text-foreground; font-size: var(--rd-text-base); margin-bottom: var(--rd-space-lg); }
+.empty-desc { @apply text-muted-foreground; font-size: var(--rd-text-sm); }
+.empty-cta { @apply bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary-hover transition-colors cursor-pointer; padding: var(--rd-space-sm) var(--rd-space-lg); margin-top: var(--rd-space-lg); font-size: var(--rd-text-sm); }
+.quick-routes { @apply flex flex-wrap justify-center max-w-lg; gap: var(--rd-space-sm); }
+.quick-route-btn { @apply border border-border rounded-lg hover:bg-muted transition-colors cursor-pointer text-foreground; padding: var(--rd-space-sm) var(--rd-space-md); font-size: var(--rd-text-sm); }
+.quick-route-count { @apply text-muted-foreground; font-size: var(--rd-text-xs); margin-left: var(--rd-space-xs); }
+.empty-browse { @apply text-primary hover:underline cursor-pointer; margin-top: var(--rd-space-sm); font-size: var(--rd-text-xs); }
+.empty-hint { @apply text-muted-foreground/60 italic; margin-top: var(--rd-space-lg); font-size: 0.6875rem; }
+.empty-actions { @apply flex flex-col items-center border-t border-border; gap: var(--rd-space-sm); margin-top: var(--rd-space-lg); padding-top: var(--rd-space-lg); }
+.viewer-grid { @apply grid; gap: var(--rd-space-md); }
+.size-controls { @apply flex items-center justify-center; gap: var(--rd-space-sm); padding-top: var(--rd-space-xl); }
 .size-btn { @apply w-6 h-6 flex items-center justify-center rounded border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors cursor-pointer disabled:opacity-30 disabled:pointer-events-none; }
-.size-label { @apply text-xs text-muted-foreground; }
+.size-label { @apply text-muted-foreground; font-size: var(--rd-text-xs); }
 .viewer-grid-sm { @apply grid-cols-[repeat(auto-fill,minmax(200px,1fr))]; }
 .viewer-grid-md { @apply grid-cols-[repeat(auto-fill,minmax(320px,1fr))]; }
 .viewer-grid-lg { @apply grid-cols-[repeat(auto-fill,minmax(480px,1fr))]; }
 
 @media (max-width: 768px) {
-  .viewer-area { @apply p-2; }
+  .viewer-area { padding: var(--rd-space-sm); }
   .viewer-grid-sm { @apply grid-cols-[repeat(auto-fill,minmax(120px,1fr))]; }
   .viewer-grid-md { @apply grid-cols-[repeat(auto-fill,minmax(200px,1fr))]; }
   .viewer-grid-lg { @apply grid-cols-1; }
   .size-controls { @apply hidden; }
 }
 
-.sidebar-backdrop {
-  @apply hidden;
-}
+.sidebar-backdrop { @apply hidden; }
 @media (max-width: 768px) {
-  .sidebar-backdrop {
-    @apply block absolute inset-0 bg-black/40 z-20;
-  }
+  .sidebar-backdrop { @apply block absolute inset-0 bg-black/40 z-20; }
 }

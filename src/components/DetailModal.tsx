@@ -5,7 +5,7 @@ import { X } from 'lucide-react';
 import { useTraffic } from '../lib/TrafficContext';
 
 export function DetailModal() {
-  const { detailCam, mode, setDetailCam } = useTraffic();
+  const { detailCam, setDetailCam } = useTraffic();
   if (!detailCam) {
     return null;
   }

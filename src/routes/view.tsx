@@ -3,18 +3,15 @@ import './view.css';
 
 import { createFileRoute } from '@tanstack/react-router';
 
-
 import { CameraFeed } from '../components/CameraFeed';
-import { CameraMap } from '../components/CameraMap';
 import { DetailModal } from '../components/DetailModal';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import { Sidebar } from '../components/Sidebar';
 import { SplitView } from '../components/SplitView';
-import { type Camera } from '../lib/cameras';
-import { TrafficProvider, useTraffic } from '../lib/TrafficContext';
 import { CURATED_ROUTES } from '../lib/routes';
+import { TrafficProvider, useTraffic } from '../lib/TrafficContext';
 import { type ViewSearchParams } from '../lib/types';
 
 export const Route = createFileRoute('/view')({
@@ -32,6 +29,7 @@ export const Route = createFileRoute('/view')({
     map: search.map === '0' ? '0' : undefined,
     list: search.list === '0' ? '0' : undefined,
     grid: ['sm', 'md', 'lg'].includes(search.grid as string) ? (search.grid as string) : undefined,
+    density: search.density === 'compact' ? 'compact' : undefined,
     detail: (search.detail as string) || undefined,
     tab: search.tab === 'regions' ? 'regions' : undefined,
     sw: search.sw ? String(search.sw) : undefined,
@@ -39,7 +37,7 @@ export const Route = createFileRoute('/view')({
   }),
 });
 
-export function EmptyState({ cameras, stateId, selectRoute, onBrowse, onSwitchToMap }: { cameras?: Camera[]; stateId: string; selectRoute: (ids: string[]) => void; onBrowse: () => void; onSwitchToMap: () => void }) {
+export function EmptyState({ stateId, selectRoute, onBrowse, onSwitchToMap, showMap }: { stateId: string; selectRoute: (ids: string[]) => void; onBrowse: () => void; onSwitchToMap: () => void; showMap?: boolean }) {
   const hasCuratedRoutes = stateId === 'sc';
 
   return (
@@ -59,8 +57,9 @@ export function EmptyState({ cameras, stateId, selectRoute, onBrowse, onSwitchTo
       <div className="empty-actions">
         <div className="quick-routes">
           <button className="quick-route-btn" onClick={onBrowse}>Browse Cameras</button>
-          <button className="quick-route-btn" onClick={onSwitchToMap}>Use Map</button>
+          {!showMap && <button className="quick-route-btn" onClick={onSwitchToMap}>Use Map</button>}
         </div>
+        {showMap && <p className="empty-hint">or select markers on the map</p>}
         <a className="empty-browse" href={`https://github.com/bobbyearl/roadie/issues/new?title=Route+request:+${stateId.toUpperCase()}&labels=route-request`} target="_blank" rel="noopener">Request Curated Route</a>
       </div>
       {!localStorage.getItem('roadie-prefs-seen') && (
@@ -71,14 +70,14 @@ export function EmptyState({ cameras, stateId, selectRoute, onBrowse, onSwitchTo
 }
 
 function Home() {
-  const { isLoading, stateId, cameras, selectedCameras, stateConfig, mode, showMap, showList, cardSize, sidebarOpen, toggleCamera, selectRoute, setSidebarOpen, toggleMap, setDetailCam } = useTraffic();
+  const { isLoading, stateId, selectedCameras, mode, showMap, cardSize, density, sidebarOpen, toggleCamera, selectRoute, setSidebarOpen, toggleMap, setDetailCam } = useTraffic();
 
   if (isLoading) {
     return <div className="loading">Loading cameras...</div>;
   }
 
   return (
-    <div className="page">
+    <div className={`page ${density === 'compact' ? 'density-compact' : ''}`}>
       <Header sidebarOpen={sidebarOpen} onSidebarToggle={() => setSidebarOpen(!sidebarOpen)} />
       <div className="layout">
         <div className="main">
@@ -86,7 +85,7 @@ function Home() {
             {showMap ? (
               <SplitView stateId={stateId} onBrowse={() => setSidebarOpen(true)} />
             ) : selectedCameras.length === 0 ? (
-              <EmptyState cameras={cameras} stateId={stateId} selectRoute={selectRoute} onBrowse={() => setSidebarOpen(true)} onSwitchToMap={toggleMap} />
+              <EmptyState stateId={stateId} selectRoute={selectRoute} onBrowse={() => setSidebarOpen(true)} onSwitchToMap={toggleMap} showMap={showMap} />
             ) : (
                 <div className={`viewer-grid viewer-grid-${cardSize}`}>
                   {selectedCameras.map((cam) => (
@@ -106,7 +105,7 @@ function Home() {
         {sidebarOpen && (
           <>
             <div className="sidebar-backdrop" onClick={() => setSidebarOpen(false)} />
-            <Sidebar onClose={() => setSidebarOpen(false)} />
+            <Sidebar />
           </>
         )}
       </div>

@@ -4,15 +4,15 @@ import { Link } from '@tanstack/react-router';
 import {
   PanelRightClose,
   PanelRightOpen,
-  Settings,
   Share2,
   Sparkles,
   Trash2,
 } from 'lucide-react';
-import { useRef, useState } from 'react';
 
 import { STATES } from '../lib/cameras';
 import { useTraffic } from '../lib/TrafficContext';
+import { IconButton } from './IconButton';
+import { PrefsButton } from './PrefsPopover';
 
 interface HeaderProps {
   sidebarOpen: boolean;
@@ -20,35 +20,7 @@ interface HeaderProps {
 }
 
 export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
-  const {
-    stateId,
-    cameras,
-    mode,
-    showMap,
-    showList,
-    cardSize,
-    selectedCameras,
-    stateConfig,
-    setState,
-    setMode,
-    setGrid,
-    toggleMap,
-    toggleList,
-    clearAll,
-    resetAll,
-    triggerLayout,
-  } = useTraffic();
-  const [prefsOpen, setPrefsOpen] = useState(false);
-  const [hasSeenPrefs, setHasSeenPrefs] = useState(() => localStorage.getItem('roadie-prefs-seen') === '1');
-  const prefsRef = useRef<HTMLDivElement>(null);
-
-  const openPrefs = () => {
-    setPrefsOpen(!prefsOpen);
-    if (!hasSeenPrefs) {
-      localStorage.setItem('roadie-prefs-seen', '1');
-      setHasSeenPrefs(true);
-    }
-  };
+  const { stateId, cameras, showMap, showList, selectedCameras, setState, clearAll, triggerLayout } = useTraffic();
 
   const handleShare = () => {
     const url = window.location.href;
@@ -58,9 +30,6 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
       navigator.clipboard.writeText(url);
     }
   };
-
-  const viewMode = showMap && showList ? 'both' : showMap ? 'map' : 'list';
-  const { setViewMode } = useTraffic();
 
   return (
     <header className="header-bar">
@@ -75,64 +44,18 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
           ))}
         </select>
         <div className="header-nav-right">
-          <button className="btn-label" onClick={handleShare} title="Share"><Share2 size={14} /> Share</button>
-          <button className={`btn-label ${prefsOpen ? 'btn-active' : ''}`} onClick={openPrefs} title="View Options">
-            <Settings size={14} /> View Options
-            {!hasSeenPrefs && <span className="prefs-dot" />}
-          </button>
-        </div>
-      </div>
-      <div className="header-toolbar">
-        <div className="header-toolbar-left">
-          <span className="header-bar-count"><span className="hidden-mobile">Viewing </span>{selectedCameras.length}/{cameras.length}</span>
-          <button className="btn-label" onClick={clearAll} disabled={selectedCameras.length === 0}><Trash2 size={14} /> Clear</button>
-        </div>
-        <div className="header-toolbar-right">
           {showMap && !showList && (
-            <button className="btn-label" onClick={triggerLayout} disabled={selectedCameras.length < 2}><Sparkles size={14} /> Layout</button>
+            <IconButton icon={Sparkles} label="Layout" onClick={triggerLayout} disabled={selectedCameras.length < 2} />
           )}
-          <button className={`btn-label ${sidebarOpen ? 'btn-active' : ''}`} onClick={onSidebarToggle}>
-            {sidebarOpen ? <PanelRightClose size={14} /> : <PanelRightOpen size={14} />} Browse
-          </button>
+          <IconButton icon={Share2} label="Share" onClick={handleShare} title="Share" />
+          <PrefsButton />
+          <IconButton icon={sidebarOpen ? PanelRightClose : PanelRightOpen} label="Browse" onClick={onSidebarToggle} active={sidebarOpen} />
         </div>
       </div>
-
-      {prefsOpen && (
-        <>
-          <div className="prefs-backdrop" onClick={() => setPrefsOpen(false)} />
-          <div className="prefs-popover" ref={prefsRef}>
-            <div className="prefs-row">
-              <span className="prefs-label">View</span>
-              <div className="prefs-options">
-                <label><input type="radio" name="view" checked={viewMode === 'map'} onChange={() => setViewMode('map')} /> Map</label>
-                <label><input type="radio" name="view" checked={viewMode === 'list'} onChange={() => setViewMode('list')} /> List</label>
-                <label><input type="radio" name="view" checked={viewMode === 'both'} onChange={() => setViewMode('both')} /> Both</label>
-              </div>
-            </div>
-            {stateConfig.supportsVideo && (
-              <div className="prefs-row">
-                <span className="prefs-label">Format</span>
-                <div className="prefs-options">
-                  <label><input type="radio" name="format" checked={mode === 'image'} onChange={() => setMode('image')} /> Images</label>
-                  <label><input type="radio" name="format" checked={mode === 'video'} onChange={() => setMode(undefined)} /> Video (if available)</label>
-                </div>
-              </div>
-            )}
-            <div className="prefs-row">
-              <span className="prefs-label">Size</span>
-              <div className="prefs-options">
-                <label><input type="radio" name="size" checked={cardSize === 'sm'} onChange={() => setGrid('sm')} /> Small</label>
-                <label><input type="radio" name="size" checked={cardSize === 'md'} onChange={() => setGrid('md')} /> Medium</label>
-                <label><input type="radio" name="size" checked={cardSize === 'lg'} onChange={() => setGrid(undefined)} /> Large</label>
-              </div>
-            </div>
-            <div className="prefs-footer">
-              <button className="prefs-reset" onClick={() => { resetAll(); setPrefsOpen(false); }}>Reset to Defaults</button>
-              <button className="prefs-close" onClick={() => setPrefsOpen(false)}>Close</button>
-            </div>
-          </div>
-        </>
-      )}
+      <div className="header-tab">
+        <span className="header-tab-count">{selectedCameras.length}/{cameras.length}</span>
+        <button className="header-tab-clear" onClick={clearAll} disabled={selectedCameras.length === 0}><Trash2 size={12} /></button>
+      </div>
     </header>
   );
 }

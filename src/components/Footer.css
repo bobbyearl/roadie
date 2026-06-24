@@ -1,13 +1,17 @@
 @reference "../styles.css";
 
 .site-footer {
-  @apply flex items-center justify-between px-4 py-2 border-t border-border text-xs text-muted-foreground shrink-0;
+  @apply flex items-center justify-between border-t border-border text-muted-foreground shrink-0;
+  padding: var(--rd-space-sm) var(--rd-space-lg);
+  font-size: var(--rd-text-xs);
 }
 .site-footer-left {
-  @apply flex items-center gap-3;
+  @apply flex items-center;
+  gap: var(--rd-space-md);
 }
 .site-footer-links {
-  @apply flex items-center gap-2;
+  @apply flex items-center;
+  gap: var(--rd-space-sm);
 }
 .site-footer-links a {
   @apply text-primary hover:underline;
@@ -18,9 +22,11 @@
 
 @media (max-width: 768px) {
   .site-footer {
-    @apply gap-2 px-2;
+    gap: var(--rd-space-sm);
+    padding: var(--rd-space-sm) var(--rd-space-sm);
   }
   .site-footer-links {
-    @apply gap-1.5 text-[10px];
+    gap: var(--rd-space-sm);
+    font-size: 0.625rem;
   }
 }

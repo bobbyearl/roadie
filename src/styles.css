@@ -8,6 +8,7 @@
   --color-muted: #f1f5f9;
   --color-muted-foreground: #64748b;
   --color-border: #e2e8f0;
+  --color-border-strong: #d1d5db;
   --color-background: #ffffff;
   --color-foreground: #0f172a;
   --color-card: #ffffff;
@@ -15,6 +16,20 @@
   --color-accent-marker: #e836b8;
   --color-pin: #A85191;
   --color-pin-dark: #E8CB35;
+  --color-subtle: #6b7280;
+  --color-black: #000;
+  --color-white: #fff;
+}
+
+:root {
+  --rd-space-xs: 0.25rem;
+  --rd-space-sm: 0.5rem;
+  --rd-space-md: 0.75rem;
+  --rd-space-lg: 1rem;
+  --rd-space-xl: 1.5rem;
+  --rd-text-xs: 0.75rem;
+  --rd-text-sm: 0.875rem;
+  --rd-text-base: 1rem;
 }
 
 .dark {
@@ -23,8 +38,21 @@
   --color-muted: #1c1c1e;
   --color-muted-foreground: #a1a1aa;
   --color-border: #2e2e32;
+  --color-border-strong: #4b5563;
   --color-background: #141414;
   --color-foreground: #f4f4f5;
   --color-card: #1c1c1e;
   --color-accent: #1c1c1e;
+  --color-subtle: rgb(148 163 184 / 0.6);
+}
+
+.density-compact {
+  --rd-space-xs: 0.125rem;
+  --rd-space-sm: 0.25rem;
+  --rd-space-md: 0.5rem;
+  --rd-space-lg: 0.75rem;
+  --rd-space-xl: 1rem;
+  --rd-text-xs: 0.6875rem;
+  --rd-text-sm: 0.75rem;
+  --rd-text-base: 0.875rem;
 }

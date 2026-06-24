@@ -7,8 +7,8 @@ import { type Camera } from '../lib/cameras';
 import { CURATED_ROUTES } from '../lib/routes';
 import { useTraffic } from '../lib/TrafficContext';
 
-export function Sidebar({ onClose }: { onClose?: () => void }) {
-  const { stateId, cameras, selectedIds, activeRouteName, toggleCamera, selectRoute } = useTraffic();
+export function Sidebar() {
+  const { stateId, cameras, selectedIds, toggleCamera, selectRoute } = useTraffic();
   const hasCuratedRoutes = stateId === 'sc';
   const [searchText, setSearchText] = useState('');
   const [expandedSections, setExpandedSections] = useState<Set<string>>(() => new Set(hasCuratedRoutes ? ['__curated__'] : []));

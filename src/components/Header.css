@@ -1,41 +1,58 @@
 @reference "../styles.css";
 
 .header-bar {
-  @apply border-b border-border shrink-0 bg-muted/30 relative;
+  @apply border-b shrink-0 bg-muted relative;
+  border-color: var(--color-border-strong);
 }
 .header-nav {
-  @apply flex items-center justify-between px-4 py-1.5;
+  @apply flex items-center justify-between;
+  padding: var(--rd-space-lg) var(--rd-space-lg);
 }
 .header-nav-right {
-  @apply flex items-center gap-2;
+  @apply flex items-center;
+  gap: var(--rd-space-xs);
 }
 .header-bar-title {
-  @apply text-base font-semibold text-foreground;
+  @apply font-semibold text-foreground;
+  font-size: var(--rd-text-base);
 }
 .header-bar-title a {
   @apply text-foreground no-underline;
 }
-.header-toolbar {
-  @apply flex items-center justify-between px-4 py-1.5;
-}
-.header-toolbar-left {
-  @apply flex items-center gap-2;
-}
-.header-toolbar-right {
-  @apply flex items-center gap-2;
-}
-.header-bar-count {
-  @apply text-xs text-muted-foreground tabular-nums;
-}
 .state-select {
-  @apply h-7 px-2 text-xs border border-border rounded-md bg-background;
+  @apply border border-border rounded-md bg-background text-foreground;
+  height: 1.75rem;
+  padding: 0 var(--rd-space-sm);
+  font-size: var(--rd-text-xs);
+  color-scheme: light dark;
+}
+
+.header-tab {
+  @apply absolute left-2 z-30 flex items-center bg-muted border border-t-0 rounded-b-md;
+  gap: var(--rd-space-md);
+  padding: 0 var(--rd-space-lg) var(--rd-space-sm) var(--rd-space-lg);
+  border-color: var(--color-border-strong);
+  color: var(--color-subtle);
+  font-size: var(--rd-text-xs);
+  top: 100%;
+}
+.header-tab-count { @apply tabular-nums; }
+.header-tab-clear {
+  @apply hover:text-foreground cursor-pointer disabled:opacity-30 disabled:pointer-events-none;
+  color: var(--color-subtle);
 }
 
 .btn-icon {
-  @apply flex items-center justify-center w-8 h-8 border border-border rounded-md text-muted-foreground hover:bg-muted transition-colors cursor-pointer;
+  @apply flex items-center justify-center border border-border rounded-md text-muted-foreground hover:bg-muted transition-colors cursor-pointer;
+  width: 2rem;
+  height: 2rem;
 }
 .btn-label {
-  @apply flex items-center gap-1.5 px-2.5 h-8 border border-border rounded-md text-xs text-muted-foreground hover:bg-muted transition-colors cursor-pointer relative;
+  @apply flex items-center border border-border rounded-md text-muted-foreground hover:bg-muted transition-colors cursor-pointer relative;
+  gap: var(--rd-space-sm);
+  padding: 0 var(--rd-space-sm);
+  height: 2rem;
+  font-size: var(--rd-text-xs);
 }
 .btn-icon:disabled, .btn-label:disabled {
   @apply opacity-30 pointer-events-none;
@@ -57,39 +74,51 @@
 }
 
 /* Preferences popover */
-.prefs-backdrop {
-  @apply fixed inset-0 z-40;
-}
 .prefs-popover {
-  @apply absolute right-4 top-10 z-50 bg-background border border-border rounded-lg shadow-lg p-4 w-96;
+  @apply bg-background border border-border rounded-lg shadow-lg z-50;
+  padding: var(--rd-space-lg);
+  width: 24rem;
+  max-width: calc(100vw - 1rem);
 }
-.prefs-popover::before {
-  content: '';
-  @apply absolute -top-2 right-4 w-3 h-3 bg-background border-l border-t border-border rotate-45;
+.prefs-arrow {
+  fill: var(--color-background);
+  stroke: var(--color-border);
+  stroke-width: 1;
 }
 .prefs-row {
-  @apply flex items-center justify-between gap-4 py-2.5 border-b border-border;
+  @apply flex items-center justify-between border-b border-border;
+  gap: var(--rd-space-lg);
+  padding: var(--rd-space-sm) 0;
 }
 .prefs-label {
-  @apply text-xs font-medium text-foreground shrink-0;
+  @apply font-medium text-foreground shrink-0;
+  font-size: var(--rd-text-xs);
 }
 .prefs-options {
-  @apply flex items-center gap-3 flex-wrap;
+  @apply flex items-center flex-wrap;
+  gap: var(--rd-space-md);
 }
 .prefs-options label {
-  @apply flex items-center gap-1 text-xs text-muted-foreground cursor-pointer whitespace-nowrap;
+  @apply flex items-center cursor-pointer whitespace-nowrap;
+  gap: var(--rd-space-xs);
+  font-size: var(--rd-text-xs);
+  color: var(--color-muted-foreground);
 }
 .prefs-options input[type="radio"] {
   @apply accent-[var(--color-accent-marker)];
 }
 .prefs-footer {
-  @apply flex items-center justify-between pt-3;
+  @apply flex items-center justify-between;
+  padding-top: var(--rd-space-md);
 }
 .prefs-reset {
-  @apply text-xs text-red-500 hover:text-red-700 cursor-pointer;
+  @apply text-red-500 hover:text-red-700 cursor-pointer;
+  font-size: var(--rd-text-xs);
 }
 .prefs-close {
-  @apply text-xs text-muted-foreground hover:text-foreground cursor-pointer;
+  @apply hover:text-foreground cursor-pointer;
+  font-size: var(--rd-text-xs);
+  color: var(--color-muted-foreground);
 }
 .prefs-dot {
   @apply absolute -top-1 -right-1 w-2 h-2 rounded-full;
@@ -98,22 +127,23 @@
 
 @media (max-width: 768px) {
   .header-nav {
-    @apply px-3 py-1;
-  }
-  .header-toolbar {
-    @apply px-3 py-1;
+    @apply flex-wrap;
+    gap: var(--rd-space-sm);
+    padding: var(--rd-space-sm) var(--rd-space-md);
   }
   .hidden-mobile {
     @apply hidden;
   }
   .btn-label {
-    @apply w-8 h-8 px-0 gap-0 justify-center overflow-hidden text-[0px];
+    @apply justify-center overflow-hidden;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    gap: 0;
+    font-size: 0;
   }
   .btn-label svg {
     @apply shrink-0;
     font-size: initial;
-  }
-  .prefs-popover {
-    @apply right-2 left-2 w-auto;
   }
 }

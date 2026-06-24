@@ -6,7 +6,7 @@
 
 .hero {
   @apply relative flex flex-col items-center justify-center text-center px-4 py-24 bg-cover bg-center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/roadie/hero.jpg');
+  background-image: linear-gradient(color-mix(in srgb, var(--color-black) 50%, transparent), color-mix(in srgb, var(--color-black) 60%, transparent)), url('/roadie/hero.jpg');
 }
 .hero-content {
   @apply relative z-10;

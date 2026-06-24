@@ -34,12 +34,6 @@ export function CameraMap({ stateId, markersOnly }: CameraMapProps) {
   );
 }
 
-function clampToRect(px: number, py: number, rectX: number, rectY: number, rectW: number, rectH: number) {
-  return {
-    x: Math.max(rectX, Math.min(px, rectX + rectW)),
-    y: Math.max(rectY, Math.min(py, rectY + rectH)),
-  };
-}
 
 function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: string; markersOnly?: boolean }) {
   const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey } = useTraffic();
@@ -232,6 +226,13 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       setVisibleBounds({ n: b.getNorthEast().lat(), s: b.getSouthWest().lat(), e: b.getNorthEast().lng(), w: b.getSouthWest().lng() });
     }
   };
+
+  // Trigger initial bounds when map becomes ready
+  useEffect(() => {
+    if (map) {
+      const listener = map.addListener('idle', () => { handleCameraChange(); listener.remove(); });
+    }
+  }, [map]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const visibleCameras = visibleBounds
     ? cameras.filter((cam) => selectedIds.has(cam.id) || (cam.lat <= visibleBounds.n && cam.lat >= visibleBounds.s && cam.lng <= visibleBounds.e && cam.lng >= visibleBounds.w))
