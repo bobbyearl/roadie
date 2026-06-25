@@ -50,6 +50,7 @@ export function SplitView({ stateId, onBrowse }: SplitViewProps) {
       document.body.style.cursor = '';
       document.body.style.userSelect = '';
       setSplitWidth(localPercent.current);
+      window.dispatchEvent(new Event('resize'));
       document.removeEventListener('mousemove', move);
       document.removeEventListener('mouseup', up);
       document.removeEventListener('touchmove', move);
@@ -65,7 +66,7 @@ export function SplitView({ stateId, onBrowse }: SplitViewProps) {
 
   return (
     <div className="split-container" ref={containerRef}>
-      <div className="split-map-panel" style={{ width: showList ? `${splitWidth}%` : '100%', height: splitWidth !== 70 ? `${splitWidth}%` : undefined }} ref={mapPanelRef}>
+      <div className="split-map-panel" style={{ width: showList ? `${splitWidth}%` : '100%' }} ref={mapPanelRef}>
         <CameraMap stateId={stateId} markersOnly={showList} />
       </div>
       {showList && (
