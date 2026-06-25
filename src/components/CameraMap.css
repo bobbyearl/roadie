@@ -33,6 +33,7 @@
 .map-pin-selected {
   @apply w-5 h-5 rounded-full relative flex items-center justify-center border-2 border-white shadow;
   background-color: var(--color-accent-marker);
+  transform: translateY(50%);
 }
 .map-pin-number {
   @apply absolute inset-0 flex items-center justify-center text-white font-bold text-[9px] leading-none;

@@ -45,8 +45,8 @@ export function EmptyState({ stateId, selectRoute, onBrowse, showMap }: { stateI
         <a className="empty-browse" href={`https://github.com/bobbyearl/roadie/issues/new?title=Route+request:+${stateId.toUpperCase()}&labels=route-request`} target="_blank" rel="noopener">Request Curated Route</a>
       )}
       <div className="empty-actions">
+        {showMap && <span className="empty-map-hint">Select markers on the map</span>}
         <button className="quick-route-btn" onClick={onBrowse}>Browse Cameras</button>
-        {showMap && <p className="empty-hint">or select markers on the map</p>}
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import './CameraMap.css';
 
 import { AdvancedMarker, APIProvider, Map as GoogleMap, useMap } from '@vis.gl/react-google-maps';
 import { GripVertical } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { type Camera, getStateConfig } from '../lib/cameras';
 import { useTheme } from '../lib/ThemeContext';
@@ -39,14 +39,11 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
   const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey } = useTraffic();
   const { resolvedTheme } = useTheme();
   const map = useMap();
-  const prevStateRef = useRef(stateId);
-
   useEffect(() => {
-    if (map && stateId !== prevStateRef.current) {
+    if (map) {
       const config = getStateConfig(stateId);
-      map.panTo(config.defaultCenter);
+      map.setCenter(config.defaultCenter);
       map.setZoom(config.defaultZoom);
-      prevStateRef.current = stateId;
     }
   }, [map, stateId]);
 
@@ -222,11 +219,11 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
     }, 0);
   };
 
-  const handleMarkerClick = (id: string) => {
+  const handleMarkerClick = useCallback((id: string) => {
     if (!didDragRef.current) {
       toggleCamera(id);
     }
-  };
+  }, [toggleCamera]);
 
   const [visibleBounds, setVisibleBounds] = useState<{ n: number; s: number; e: number; w: number } | null>(null);
 
@@ -248,6 +245,65 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
   const visibleCameras = visibleBounds
     ? cameras.filter((cam) => selectedIds.has(cam.id) || (cam.lat <= visibleBounds.n && cam.lat >= visibleBounds.s && cam.lng <= visibleBounds.e && cam.lng >= visibleBounds.w))
     : cameras.filter((cam) => selectedIds.has(cam.id));
+
+  // deck.gl overlay for all markers (WebGL, handles thousands instantly)
+  const deckOverlayRef = useRef<any>(null);
+  const deckInitRef = useRef(false);
+
+  useEffect(() => {
+    if (!map || cameras.length === 0) { return; }
+
+    const updateLayer = async () => {
+      const { GoogleMapsOverlay } = await import('@deck.gl/google-maps');
+      const { ScatterplotLayer } = await import('@deck.gl/layers');
+
+      const pinColor = getComputedStyle(document.documentElement).getPropertyValue('--color-pin').trim() || '#A85191';
+      const rgb = [parseInt(pinColor.slice(1, 3), 16), parseInt(pinColor.slice(3, 5), 16), parseInt(pinColor.slice(5, 7), 16)];
+
+      const layer = new ScatterplotLayer({
+        id: 'cameras',
+        data: cameras,
+        getPosition: (d: any) => [d.lng, d.lat],
+        getRadius: 5,
+        radiusUnits: 'pixels' as const,
+        getFillColor: [...rgb, 200] as any,
+        getLineColor: [255, 255, 255, 180] as any,
+        lineWidthMinPixels: 1,
+        stroked: true,
+        pickable: true,
+        autoHighlight: true,
+        onHover: (info: any) => {
+          const container = map.getDiv();
+          if (container) { container.style.cursor = info.object ? 'pointer' : ''; }
+        },
+        onClick: (info: any) => {
+          if (info.object) { handleMarkerClick(info.object.id); }
+        },
+      });
+
+      if (!deckOverlayRef.current) {
+        const overlay = new GoogleMapsOverlay({ layers: [layer] });
+        overlay.setMap(map);
+        deckOverlayRef.current = overlay;
+        deckInitRef.current = true;
+      } else {
+        deckOverlayRef.current.setProps({ layers: [layer] });
+      }
+    };
+    updateLayer();
+  }, [map, cameras, handleMarkerClick]);
+
+  // Cleanup only on unmount
+  useEffect(() => {
+    return () => {
+      if (deckOverlayRef.current) {
+        deckOverlayRef.current.setMap(null);
+        deckOverlayRef.current = null;
+      }
+    };
+  }, []);
+
+  const selectedCamerasInView = visibleCameras.filter((cam) => selectedIds.has(cam.id));
 
   // Map camera id -> 1-based selection index (matches order in split panel)
   const selectionIndex = new Map(selectedCameras.map((cam, i) => [cam.id, i + 1]));
@@ -281,17 +337,16 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       mapTypeControl={false}
       clickableIcons={false}
     >
-      {visibleCameras.map((cam) => {
-        const isSelected = selectedIds.has(cam.id);
+      {selectedCamerasInView.map((cam) => {
         const offset = offsets.get(cam.id);
         return (
           <AdvancedMarker
             key={cam.id}
             position={{ lat: cam.lat, lng: cam.lng }}
             onClick={() => handleMarkerClick(cam.id)}
-            zIndex={isSelected ? 100 + (selectionIndex.get(cam.id) ?? 0) : 1}
+            zIndex={100 + (selectionIndex.get(cam.id) ?? 0)}
           >
-            {isSelected && !markersOnly ? (
+            {!markersOnly ? (
               <div className="map-feed-anchor" onClick={(e) => e.stopPropagation()}>
                 <div className="map-pin-active">
                   <span className="map-pin-number">{selectionIndex.get(cam.id)}</span>
@@ -340,13 +395,9 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
                 </div>
               </div>
             ) : (
-              isSelected ? (
-                <div className="map-pin-selected">
-                  {selectionIndex.get(cam.id) && <span className="map-pin-number">{selectionIndex.get(cam.id)}</span>}
-                </div>
-              ) : (
-                <div className={`map-pin ${!getStateConfig(stateId).supportsVideo ? 'map-pin-image' : ''}`} />
-              )
+              <div className="map-pin-selected">
+                <span className="map-pin-number">{selectionIndex.get(cam.id)}</span>
+              </div>
             )}
           </AdvancedMarker>
         );
