@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as ViewRouteImport } from './routes/view'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ViewStateIdRouteImport } from './routes/view.$stateId'
 
 const ViewRoute = ViewRouteImport.update({
   id: '/view',
@@ -22,31 +23,39 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ViewStateIdRoute = ViewStateIdRouteImport.update({
+  id: '/$stateId',
+  path: '/$stateId',
+  getParentRoute: () => ViewRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/view': typeof ViewRoute
+  '/view': typeof ViewRouteWithChildren
+  '/view/$stateId': typeof ViewStateIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/view': typeof ViewRoute
+  '/view': typeof ViewRouteWithChildren
+  '/view/$stateId': typeof ViewStateIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/view': typeof ViewRoute
+  '/view': typeof ViewRouteWithChildren
+  '/view/$stateId': typeof ViewStateIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/view'
+  fullPaths: '/' | '/view' | '/view/$stateId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/view'
-  id: '__root__' | '/' | '/view'
+  to: '/' | '/view' | '/view/$stateId'
+  id: '__root__' | '/' | '/view' | '/view/$stateId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  ViewRoute: typeof ViewRoute
+  ViewRoute: typeof ViewRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
@@ -65,12 +74,29 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/view/$stateId': {
+      id: '/view/$stateId'
+      path: '/$stateId'
+      fullPath: '/view/$stateId'
+      preLoaderRoute: typeof ViewStateIdRouteImport
+      parentRoute: typeof ViewRoute
+    }
   }
 }
 
+interface ViewRouteChildren {
+  ViewStateIdRoute: typeof ViewStateIdRoute
+}
+
+const ViewRouteChildren: ViewRouteChildren = {
+  ViewStateIdRoute: ViewStateIdRoute,
+}
+
+const ViewRouteWithChildren = ViewRoute._addFileChildren(ViewRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  ViewRoute: ViewRoute,
+  ViewRoute: ViewRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

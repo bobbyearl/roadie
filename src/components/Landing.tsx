@@ -12,16 +12,17 @@ import { Footer } from './Footer';
 export function Landing() {
   const queryClient = useQueryClient();
 
-  // Prefetch default state data so map loads instantly on navigation
+  // Prefetch all state data so map loads instantly on navigation
   useEffect(() => {
-    const sc = getStateConfig('sc');
-    queryClient.prefetchQuery({
-      queryKey: ['cameras', 'sc'],
-      queryFn: async () => {
-        const res = await fetch(import.meta.env.BASE_URL + sc.dataFile);
-        return sc.parser(await res.json());
-      },
-      staleTime: Infinity,
+    STATES.forEach((s) => {
+      queryClient.prefetchQuery({
+        queryKey: ['cameras', s.id],
+        queryFn: async () => {
+          const res = await fetch(import.meta.env.BASE_URL + s.dataFile);
+          return s.parser(await res.json());
+        },
+        staleTime: Infinity,
+      });
     });
   }, [queryClient]);
   const totalCameras = STATES.reduce((sum, s) => sum + s.cameraCount, 0);
@@ -30,12 +31,12 @@ export function Landing() {
     <div className="landing">
       <section className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">RoadieApp</h1>
+          <h1 className="hero-title">Roadie App</h1>
           <p className="hero-subtitle">
             View {totalCameras.toLocaleString()} live traffic cameras across {STATES.length} states.
           </p>
           <div className="hero-actions">
-            <Link to="/view" search={emptyViewSearch} className="hero-cta">
+            <Link to="/view/$stateId" params={{ stateId: 'sc' }} search={emptyViewSearch} className="hero-cta">
               Get Started
             </Link>
           </div>
@@ -57,8 +58,9 @@ export function Landing() {
           {STATES.map((s) => (
             <Link
               key={s.id}
-              to="/view"
-              search={{ ...emptyViewSearch, state: s.id === 'sc' ? undefined : s.id }}
+              to="/view/$stateId"
+              params={{ stateId: s.id }}
+              search={emptyViewSearch}
               className="state-card"
             >
               <span className="state-card-name">{s.name}</span>

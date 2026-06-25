@@ -3,14 +3,23 @@
 .header-bar {
   @apply border-b shrink-0 bg-muted relative;
   border-color: var(--color-border-strong);
+  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 0.08);
 }
 .header-nav {
   @apply flex items-center justify-between;
-  padding: var(--rd-space-lg) var(--rd-space-lg);
+  padding: var(--rd-space-md) var(--rd-space-lg);
 }
 .header-nav-right {
   @apply flex items-center;
   gap: var(--rd-space-xs);
+}
+.header-bar-left {
+  @apply flex items-center;
+  gap: var(--rd-space-sm);
+}
+.header-bar-for {
+  @apply text-muted-foreground;
+  font-size: var(--rd-text-sm);
 }
 .header-bar-title {
   @apply font-semibold text-foreground;
@@ -19,36 +28,37 @@
 .header-bar-title a {
   @apply text-foreground no-underline;
 }
-.state-select {
-  @apply border border-border rounded-md bg-background text-foreground;
-  height: 1.75rem;
-  padding: 0 var(--rd-space-sm);
-  font-size: var(--rd-text-xs);
-  color-scheme: light dark;
-}
+
 
 .header-tab {
   @apply absolute left-2 z-30 flex items-center bg-muted border border-t-0 rounded-b-md;
   gap: var(--rd-space-md);
-  padding: 0 var(--rd-space-lg) var(--rd-space-sm) var(--rd-space-lg);
+  padding: 0 var(--rd-space-sm) var(--rd-space-sm) var(--rd-space-sm);
   border-color: var(--color-border-strong);
   color: var(--color-subtle);
   font-size: var(--rd-text-xs);
   top: 100%;
+  clip-path: inset(0 0 100% 0);
+  transition: clip-path 200ms ease-out;
+  pointer-events: none;
+}
+.header-tab-visible {
+  clip-path: inset(0 0 0 0);
+  pointer-events: auto;
 }
 .header-tab-count { @apply tabular-nums; }
 .header-tab-clear {
-  @apply hover:text-foreground cursor-pointer disabled:opacity-30 disabled:pointer-events-none;
-  color: var(--color-subtle);
+  @apply h-6;
+  font-size: var(--rd-text-xs);
 }
 
 .btn-icon {
-  @apply flex items-center justify-center border border-border rounded-md text-muted-foreground hover:bg-muted transition-colors cursor-pointer;
+  @apply flex items-center justify-center border border-border rounded-md text-muted-foreground hover:bg-foreground/10 transition-colors cursor-pointer;
   width: 2rem;
   height: 2rem;
 }
 .btn-label {
-  @apply flex items-center border border-border rounded-md text-muted-foreground hover:bg-muted transition-colors cursor-pointer relative;
+  @apply flex items-center border border-border rounded-md text-muted-foreground hover:bg-foreground/10 transition-colors cursor-pointer relative;
   gap: var(--rd-space-sm);
   padding: 0 var(--rd-space-sm);
   height: 2rem;

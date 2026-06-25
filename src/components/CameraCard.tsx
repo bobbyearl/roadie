@@ -17,8 +17,11 @@ interface CameraCardProps {
 export function CameraCard({ camera, onRemove, onDetail, children, headerLeft, index }: CameraCardProps) {
   return (
     <>
-      {index && <span className="card-index-badge">{index}</span>}
-      <div className="card-header">
+      <div className="card-media">
+        {index && <span className="card-index-badge">{index}</span>}
+        {children}
+      </div>
+      <div className="card-footer">
         {headerLeft}
         <span className="card-title">{camera.description}</span>
         <button className="card-header-icon" onClick={onDetail} title="Details">
@@ -30,9 +33,6 @@ export function CameraCard({ camera, onRemove, onDetail, children, headerLeft, i
         <button className="card-header-icon" onClick={onRemove} title="Remove">
           <X size={12} />
         </button>
-      </div>
-      <div className="card-media">
-        {children}
       </div>
     </>
   );

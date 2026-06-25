@@ -12,6 +12,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@deck.gl/core": "^9.3.4",
+    "@deck.gl/google-maps": "^9.3.4",
+    "@deck.gl/layers": "^9.3.4",
     "@floating-ui/react": "^0.27.19",
     "@googlemaps/markerclusterer": "^2.6.2",
     "@tailwindcss/vite": "^4.3.1",

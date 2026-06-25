@@ -5,7 +5,23 @@
 .main { @apply flex-1 flex flex-col min-w-0; }
 .loading { @apply flex items-center justify-center h-screen text-muted-foreground; }
 
-.viewer-area { @apply flex-1 overflow-auto; padding: var(--rd-space-lg); }
+.viewer-area { @apply flex-1 overflow-auto relative; padding: var(--rd-space-lg); }
+
+.view-close-wrapper {
+  @apply absolute z-20;
+  top: 0;
+  right: 0;
+}
+.view-close-btn {
+  @apply flex items-center justify-center bg-background border border-border rounded-b-md text-muted-foreground hover:text-foreground hover:bg-muted transition-colors cursor-pointer;
+  width: 1.75rem;
+  height: 1.5rem;
+  border-top: none;
+}
+.view-close-tooltip {
+  @apply z-50 bg-foreground text-background rounded px-2 py-1 whitespace-nowrap pointer-events-none;
+  font-size: 0.6875rem;
+}
 .viewer-area-split { @apply overflow-hidden flex; padding: 0; }
 
 .empty-state { @apply flex flex-col items-center justify-center min-h-full text-center; padding: var(--rd-space-xl) var(--rd-space-lg); }
@@ -17,7 +33,9 @@
 .quick-route-count { @apply text-muted-foreground; font-size: var(--rd-text-xs); margin-left: var(--rd-space-xs); }
 .empty-browse { @apply text-primary hover:underline cursor-pointer; margin-top: var(--rd-space-sm); font-size: var(--rd-text-xs); }
 .empty-hint { @apply text-muted-foreground/60 italic; margin-top: var(--rd-space-lg); font-size: 0.6875rem; }
-.empty-actions { @apply flex flex-col items-center border-t border-border; gap: var(--rd-space-sm); margin-top: var(--rd-space-lg); padding-top: var(--rd-space-lg); }
+.empty-actions { @apply flex flex-col items-center justify-center border-t border-border; gap: var(--rd-space-sm); margin-top: var(--rd-space-lg); padding-top: var(--rd-space-lg); }
+.empty-map-hint { @apply text-muted-foreground italic; font-size: var(--rd-text-xs); }
+.empty-route-hint { margin: var(--rd-space-sm) 0 var(--rd-space-lg) 0; }
 .viewer-grid { @apply grid; gap: var(--rd-space-md); }
 .size-controls { @apply flex items-center justify-center; gap: var(--rd-space-sm); padding-top: var(--rd-space-xl); }
 .size-btn { @apply w-6 h-6 flex items-center justify-center rounded border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors cursor-pointer disabled:opacity-30 disabled:pointer-events-none; }
@@ -36,5 +54,6 @@
 
 .sidebar-backdrop { @apply hidden; }
 @media (max-width: 768px) {
-  .sidebar-backdrop { @apply block absolute inset-0 bg-black/40 z-20; }
+  .sidebar-backdrop { @apply block absolute inset-0 z-20 bg-black/0 pointer-events-none; transition: background-color 200ms ease-out; }
+  .sidebar-backdrop-visible { @apply bg-black/40 pointer-events-auto; }
 }

@@ -1,7 +1,7 @@
 @reference "../styles.css";
 
 .map-container {
-  @apply w-full h-full min-h-[400px] rounded-lg;
+  @apply w-full h-full min-h-[400px];
 }
 .map-container *:focus {
   outline: none !important;
@@ -33,6 +33,7 @@
 .map-pin-selected {
   @apply w-5 h-5 rounded-full relative flex items-center justify-center border-2 border-white shadow;
   background-color: var(--color-accent-marker);
+  transform: translateY(50%);
 }
 .map-pin-number {
   @apply absolute inset-0 flex items-center justify-center text-white font-bold text-[9px] leading-none;
@@ -56,16 +57,24 @@
   @apply w-full aspect-video object-cover;
 }
 
-@media (max-width: 768px) {
-  .map-container .gm-bundled-control { @apply hidden; }
+.map-container .gm-bundled-control,
+.map-container .gm-fullscreen-control,
+.map-container .gm-style-mtc,
+.map-container button[aria-label="Toggle fullscreen view"],
+.map-container button[aria-label="Keyboard shortcuts"] {
+  @apply hidden;
 }
 
 .map-wrapper {
   @apply relative w-full h-full;
 }
+.map-pointer,
+.map-pointer * {
+  cursor: pointer !important;
+}
 .map-locate-btn {
   @apply absolute z-10 bg-background border border-border rounded-md shadow-md flex items-center justify-center cursor-pointer hover:bg-muted transition-colors text-foreground;
-  top: 0.625rem;
+  bottom: 1rem;
   right: 0.625rem;
   width: 2.5rem;
   height: 2.5rem;

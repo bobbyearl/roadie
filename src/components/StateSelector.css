@@ -1,0 +1,46 @@
+@reference "../styles.css";
+
+.state-selector-trigger {
+  @apply flex items-center cursor-pointer whitespace-nowrap transition-colors rounded-md border border-border bg-background hover:border-foreground/20;
+  gap: var(--rd-space-sm);
+  padding: var(--rd-space-xs) var(--rd-space-sm);
+  font-size: var(--rd-text-sm);
+  color: var(--color-foreground);
+}
+.state-selector-trigger-open {
+  @apply invisible;
+}
+.state-selector-caret {
+  @apply text-muted-foreground transition-transform;
+}
+.state-selector-caret-open {
+  transform: rotate(180deg);
+}
+.state-icon {
+  width: 1.35rem;
+  height: 1.1rem;
+  stroke: var(--color-accent-marker);
+  stroke-width: 5;
+  @apply shrink-0 self-center;
+}
+.state-row-name {
+  @apply font-semibold;
+}
+.state-row-meta {
+  @apply text-muted-foreground;
+  font-size: var(--rd-text-xs);
+}
+
+.state-selector-dropdown {
+  @apply z-50 bg-background border border-border rounded-md shadow-lg overflow-hidden;
+}
+.state-selector-option {
+  @apply flex items-center w-full text-left cursor-pointer hover:bg-muted transition-colors whitespace-nowrap;
+  gap: var(--rd-space-sm);
+  padding: var(--rd-space-xs) var(--rd-space-sm);
+  font-size: var(--rd-text-sm);
+  color: var(--color-foreground);
+}
+.state-selector-option-active {
+  @apply bg-background cursor-default hover:bg-background;
+}

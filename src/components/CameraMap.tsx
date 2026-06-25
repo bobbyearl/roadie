@@ -2,7 +2,7 @@ import './CameraMap.css';
 
 import { AdvancedMarker, APIProvider, Map as GoogleMap, useMap } from '@vis.gl/react-google-maps';
 import { GripVertical } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { type Camera, getStateConfig } from '../lib/cameras';
 import { useTheme } from '../lib/ThemeContext';
@@ -39,6 +39,16 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
   const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey } = useTraffic();
   const { resolvedTheme } = useTheme();
   const map = useMap();
+  const prevStateRef = useRef(stateId);
+  useEffect(() => {
+    if (map && stateId !== prevStateRef.current) {
+      const config = getStateConfig(stateId);
+      map.setCenter(config.defaultCenter);
+      map.setZoom(config.defaultZoom);
+      prevStateRef.current = stateId;
+    }
+  }, [map, stateId]);
+
   const [offsets, setOffsets] = useState<Map<string, { x: number; y: number }>>(new Map());
   const [dragging, setDragging] = useState<{
     id: string;
@@ -211,11 +221,11 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
     }, 0);
   };
 
-  const handleMarkerClick = (id: string) => {
+  const handleMarkerClick = useCallback((id: string) => {
     if (!didDragRef.current) {
       toggleCamera(id);
     }
-  };
+  }, [toggleCamera]);
 
   const [visibleBounds, setVisibleBounds] = useState<{ n: number; s: number; e: number; w: number } | null>(null);
 
@@ -237,6 +247,107 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
   const visibleCameras = visibleBounds
     ? cameras.filter((cam) => selectedIds.has(cam.id) || (cam.lat <= visibleBounds.n && cam.lat >= visibleBounds.s && cam.lng <= visibleBounds.e && cam.lng >= visibleBounds.w))
     : cameras.filter((cam) => selectedIds.has(cam.id));
+
+  // deck.gl overlay for all markers (WebGL, handles thousands instantly)
+  const deckOverlayRef = useRef<any>(null);
+  const prevThemeRef = useRef(resolvedTheme);
+  const deckModulesRef = useRef<{ GoogleMapsOverlay: any; ScatterplotLayer: any } | null>(null);
+  const handleMarkerClickRef = useRef(handleMarkerClick);
+  handleMarkerClickRef.current = handleMarkerClick;
+
+  useEffect(() => {
+    if (!map || cameras.length === 0) { return; }
+
+    const run = async () => {
+      if (!deckModulesRef.current) {
+        const [gm, layers] = await Promise.all([import('@deck.gl/google-maps'), import('@deck.gl/layers')]);
+        deckModulesRef.current = { GoogleMapsOverlay: gm.GoogleMapsOverlay, ScatterplotLayer: layers.ScatterplotLayer };
+      }
+      const { GoogleMapsOverlay, ScatterplotLayer } = deckModulesRef.current;
+      const rgb = [249, 115, 22]; // orange - visible on both themes, distinct from pink accent
+
+      const layer = new ScatterplotLayer({
+        id: 'cameras',
+        data: cameras,
+        getPosition: (d: any) => [d.lng, d.lat],
+        getRadius: 5,
+        radiusUnits: 'pixels' as const,
+        getFillColor: [...rgb, 220] as any,
+        getLineColor: resolvedTheme === 'dark' ? [255, 255, 255, 120] : [255, 255, 255, 200] as any,
+        lineWidthMinPixels: 1,
+        stroked: true,
+        pickable: true,
+        onHover: (info: any) => {
+          const wrapper = map.getDiv().closest('.map-wrapper');
+          if (wrapper) { (wrapper as HTMLElement).classList.toggle('map-pointer', !!info.object); }
+        },
+        onClick: (info: any) => {
+          if (info.object) { handleMarkerClickRef.current(info.object.id); }
+        },
+      });
+
+      if (!deckOverlayRef.current || deckOverlayRef.current._map !== map) {
+        if (deckOverlayRef.current) { deckOverlayRef.current.setMap(null); }
+        const overlay = new GoogleMapsOverlay({ layers: [layer] });
+        overlay.setMap(map);
+        (overlay as any)._map = map;
+        deckOverlayRef.current = overlay;
+      } else {
+        deckOverlayRef.current.setProps({ layers: [layer] });
+      }
+    };
+    run();
+  }, [map, cameras, resolvedTheme]);
+
+  // Hide/show deck.gl layers during split resize to prevent flicker
+  useEffect(() => {
+    const hide = () => {
+      if (deckOverlayRef.current) {
+        deckOverlayRef.current.setProps({ layers: [] });
+      }
+    };
+    const reshow = () => {
+      if (deckOverlayRef.current && deckModulesRef.current) {
+        const { ScatterplotLayer } = deckModulesRef.current;
+        const rgb = [220, 50, 160];
+        const layer = new ScatterplotLayer({
+          id: 'cameras',
+          data: cameras,
+          getPosition: (d: any) => [d.lng, d.lat],
+          getRadius: 5,
+          radiusUnits: 'pixels' as const,
+          getFillColor: [...rgb, 220] as any,
+          getLineColor: [255, 255, 255, 180] as any,
+          lineWidthMinPixels: 1,
+          stroked: true,
+          pickable: true,
+          onHover: (info: any) => {
+            const wrapper = map?.getDiv().closest('.map-wrapper');
+            if (wrapper) { (wrapper as HTMLElement).classList.toggle('map-pointer', !!info.object); }
+          },
+          onClick: (info: any) => {
+            if (info.object) { handleMarkerClickRef.current(info.object.id); }
+          },
+        });
+        deckOverlayRef.current.setProps({ layers: [layer] });
+      }
+    };
+    window.addEventListener('deckHide', hide);
+    window.addEventListener('deckReshow', reshow);
+    return () => { window.removeEventListener('deckHide', hide); window.removeEventListener('deckReshow', reshow); };
+  }, [map, cameras]);
+
+  // Cleanup only on unmount
+  useEffect(() => {
+    return () => {
+      if (deckOverlayRef.current) {
+        deckOverlayRef.current.setMap(null);
+        deckOverlayRef.current = null;
+      }
+    };
+  }, []);
+
+  const selectedCamerasInView = visibleCameras.filter((cam) => selectedIds.has(cam.id));
 
   // Map camera id -> 1-based selection index (matches order in split panel)
   const selectionIndex = new Map(selectedCameras.map((cam, i) => [cam.id, i + 1]));
@@ -265,22 +376,21 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       className="map-container"
       onCameraChanged={handleCameraChange}
       streetViewControl={false}
-      fullscreenControl={!markersOnly}
+      fullscreenControl={false}
       zoomControl={false}
       mapTypeControl={false}
       clickableIcons={false}
     >
-      {visibleCameras.map((cam) => {
-        const isSelected = selectedIds.has(cam.id);
+      {selectedCamerasInView.map((cam) => {
         const offset = offsets.get(cam.id);
         return (
           <AdvancedMarker
             key={cam.id}
             position={{ lat: cam.lat, lng: cam.lng }}
             onClick={() => handleMarkerClick(cam.id)}
-            zIndex={isSelected ? 100 + (selectionIndex.get(cam.id) ?? 0) : 1}
+            zIndex={100 + (selectionIndex.get(cam.id) ?? 0)}
           >
-            {isSelected && !markersOnly ? (
+            {!markersOnly ? (
               <div className="map-feed-anchor" onClick={(e) => e.stopPropagation()}>
                 <div className="map-pin-active">
                   <span className="map-pin-number">{selectionIndex.get(cam.id)}</span>
@@ -329,13 +439,9 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
                 </div>
               </div>
             ) : (
-              isSelected ? (
-                <div className="map-pin-selected">
-                  {selectionIndex.get(cam.id) && <span className="map-pin-number">{selectionIndex.get(cam.id)}</span>}
-                </div>
-              ) : (
-                <div className={`map-pin ${!getStateConfig(stateId).supportsVideo ? 'map-pin-image' : ''}`} />
-              )
+              <div className="map-pin-selected">
+                <span className="map-pin-number">{selectionIndex.get(cam.id)}</span>
+              </div>
             )}
           </AdvancedMarker>
         );

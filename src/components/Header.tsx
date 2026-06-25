@@ -9,10 +9,10 @@ import {
   Trash2,
 } from 'lucide-react';
 
-import { STATES } from '../lib/cameras';
 import { useTraffic } from '../lib/TrafficContext';
 import { IconButton } from './IconButton';
 import { PrefsButton } from './PrefsPopover';
+import { StateIcon, StateSelector } from './StateSelector';
 
 interface HeaderProps {
   sidebarOpen: boolean;
@@ -20,12 +20,12 @@ interface HeaderProps {
 }
 
 export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
-  const { stateId, cameras, showMap, showList, selectedCameras, setState, clearAll, triggerLayout } = useTraffic();
+  const { stateId, showMap, showList, selectedCameras, clearAll, triggerLayout } = useTraffic();
 
   const handleShare = () => {
     const url = window.location.href;
     if (navigator.share) {
-      navigator.share({ title: 'RoadieApp', url });
+      navigator.share({ title: 'Roadie App', url });
     } else {
       navigator.clipboard.writeText(url);
     }
@@ -34,15 +34,11 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
   return (
     <header className="header-bar">
       <div className="header-nav">
-        <h1 className="header-bar-title">
-          <Link to="/">RoadieApp</Link>
-        </h1>
-        <select className="state-select" value={stateId} onChange={(e) => setState(e.target.value)}>
-          <option value="all">All States</option>
-          {STATES.map((s) => (
-            <option key={s.id} value={s.id}>{s.name}</option>
-          ))}
-        </select>
+        <div className="header-bar-left">
+          <StateIcon id={stateId} />
+          <h1 className="header-bar-title"><Link to="/">Roadie App</Link></h1>
+          <StateSelector />
+        </div>
         <div className="header-nav-right">
           {showMap && !showList && (
             <IconButton icon={Sparkles} label="Layout" onClick={triggerLayout} disabled={selectedCameras.length < 2} />
@@ -52,9 +48,9 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
           <IconButton icon={sidebarOpen ? PanelRightClose : PanelRightOpen} label="Browse" onClick={onSidebarToggle} active={sidebarOpen} />
         </div>
       </div>
-      <div className="header-tab">
-        <span className="header-tab-count">{selectedCameras.length}/{cameras.length}</span>
-        <button className="header-tab-clear" onClick={clearAll} disabled={selectedCameras.length === 0}><Trash2 size={12} /></button>
+      <div className={`header-tab ${selectedCameras.length > 0 ? 'header-tab-visible' : ''}`}>
+        <span className="header-tab-count">{selectedCameras.length} selected</span>
+        <button className="btn-label header-tab-clear" onClick={clearAll} disabled={selectedCameras.length === 0}><Trash2 size={12} /> Clear</button>
       </div>
     </header>
   );

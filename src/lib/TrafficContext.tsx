@@ -1,11 +1,12 @@
 /* eslint-disable react-refresh/only-export-components */
 import { useQuery } from '@tanstack/react-query';
-import { useNavigate, useSearch } from '@tanstack/react-router';
+import { useNavigate, useParams, useSearch } from '@tanstack/react-router';
 import { createContext, type ReactNode, useContext, useMemo, useState } from 'react';
 
 import { type Camera, getStateConfig, type StateConfig,STATES } from '../lib/cameras';
 import { CURATED_ROUTES } from '../lib/routes';
 import { type ViewSearchParams } from '../lib/types';
+import { usePrefs } from '../lib/usePrefs';
 
 interface TrafficState {
   // Data
@@ -59,10 +60,11 @@ export function useTraffic() {
 }
 
 export function TrafficProvider({ children }: { children: ReactNode }) {
-  const params = useSearch({ from: '/view' }) as ViewSearchParams;
-  const navigate = useNavigate({ from: '/view' });
+  const { stateId } = useParams({ from: '/view/$stateId' });
+  const params = useSearch({ from: '/view/$stateId' }) as ViewSearchParams;
+  const navigate = useNavigate({ from: '/view/$stateId' });
+  const prefs = usePrefs();
 
-  const stateId = params.state ?? 'sc';
   const stateConfig = getStateConfig(stateId);
 
   const { data: cameras = [], isLoading } = useQuery({
@@ -85,13 +87,11 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     staleTime: Infinity,
   });
 
-  const mode = stateConfig.supportsVideo ? (params.mode ?? 'video') : 'image';
+  const { grid: cardSize, density, mode: prefsMode, sw: splitWidth } = prefs;
+  const mode = stateConfig.supportsVideo ? prefsMode : 'image';
   const showMap = params.map !== '0';
   const showList = params.list !== '0';
-  const cardSize = params.grid ?? 'lg';
-  const density = params.density ?? 'open';
   const sidebarTab = params.tab ?? 'routes';
-  const splitWidth = params.sw ? Math.min(85, Math.max(30, Number(params.sw))) : 70;
   const sidebarOpen = params.panel === '1';
 
   const selectedIdList = useMemo(() => params.selected?.split(',').filter(Boolean) ?? [], [params.selected]);
@@ -122,7 +122,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     setSelected(next);
   };
   const clearAll = () => setSelected(new Set());
-  const resetAll = () => navigate({ search: { state: params.state, selected: params.selected } as ViewSearchParams });
+  const resetAll = () => { prefs.resetPrefs(); navigate({ search: { selected: params.selected } as ViewSearchParams }); };
   const selectRoute = (ids: string[]) => setSelected(new Set(ids));
   const setDetailCam = (cam: Camera | null) =>
     navigate({ search: { ...params, detail: cam?.id || undefined } as ViewSearchParams });
@@ -133,28 +133,20 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     const list = m === 'map' ? '0' : undefined;
     navigate({ search: { ...params, map, list } as ViewSearchParams });
   };
-  const setMode = (m: string | undefined) => navigate({ search: { ...params, mode: m } as ViewSearchParams });
-  const setGrid = (g: string | undefined) => navigate({ search: { ...params, grid: g } as ViewSearchParams });
-  const setDensity = (d: string | undefined) => navigate({ search: { ...params, density: d } as ViewSearchParams });
+  const setMode = (m: string | undefined) => prefs.setMode(m);
+  const setGrid = (g: string | undefined) => prefs.setGrid(g);
+  const setDensity = (d: string | undefined) => prefs.setDensity(d);
   const setTab = (tab: string | undefined) => navigate({ search: { ...params, tab } as ViewSearchParams });
   const setSplitWidth = (percent: number) => {
     const rounded = Math.round(percent);
-    navigate({ search: { ...params, sw: rounded === 70 ? undefined : String(rounded) } as ViewSearchParams });
+    prefs.setSw(Math.min(85, Math.max(30, rounded)));
   };
   const setSidebarOpen = (open: boolean) => navigate({ search: { ...params, panel: open ? '1' : undefined } as ViewSearchParams });
   const setState = (s: string) =>
     navigate({
-      search: {
-        state: s === 'sc' ? undefined : s,
-        map: params.map,
-        list: params.list,
-        mode: params.mode,
-        grid: params.grid,
-        tab: params.tab,
-        sw: params.sw,
-        selected: undefined,
-        detail: undefined,
-      } as ViewSearchParams,
+      to: '/view/$stateId',
+      params: { stateId: s },
+      search: { map: params.map, list: params.list } as ViewSearchParams,
     });
 
   const [layoutKey, setLayoutKey] = useState(0);

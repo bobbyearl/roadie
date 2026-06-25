@@ -17,7 +17,7 @@ export function Footer() {
         </div>
       </div>
       <nav className="site-footer-links">
-        <a href="https://www.bobbyearl.com" target="_blank" rel="noopener">Built by Bobby Earl</a>
+        <a href="https://www.bobbyearl.com" target="_blank" rel="noopener">Bobby Earl</a>
         <span className="site-footer-divider">|</span>
         <a href="https://www.paypal.com/paypalme/bobbyearl" target="_blank" rel="noopener">Gas Money</a>
         <span className="site-footer-divider">|</span>

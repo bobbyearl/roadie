@@ -1,26 +1,63 @@
 import './SplitView.css';
 
-import { useCallback, useRef } from 'react';
+import { useMap } from '@vis.gl/react-google-maps';
+import { autoUpdate, flip, offset, shift, useClick, useDismiss, useFloating, useHover, useInteractions } from '@floating-ui/react';
+import { PanelRightClose } from 'lucide-react';
+import { useCallback, useRef, useState } from 'react';
 
 import { useTraffic } from '../lib/TrafficContext';
-import { EmptyState } from '../routes/view';
+import { EmptyState } from '../routes/view.$stateId';
 import { CameraFeed } from './CameraFeed';
 import { CameraMap } from './CameraMap';
+
+/* eslint-disable react-hooks/refs */
+function CloseButton({ onClick, label }: { onClick: () => void; label: string }) {
+  const [open, setOpen] = useState(false);
+  const { refs, floatingStyles, context } = useFloating({
+    open,
+    onOpenChange: setOpen,
+    placement: 'left',
+    middleware: [offset({ mainAxis: 4 })],
+    whileElementsMounted: autoUpdate,
+  });
+  const hover = useHover(context, { delay: { open: 0, close: 0 } });
+  const { getReferenceProps, getFloatingProps } = useInteractions([hover]);
+
+  return (
+    <div className="view-close-wrapper">
+      <button className="view-close-btn" ref={refs.setReference} {...getReferenceProps()} onClick={onClick}>
+        <PanelRightClose size={14} />
+      </button>
+      {open && (
+        <div className="view-close-tooltip" ref={refs.setFloating} style={floatingStyles} {...getFloatingProps()}>
+          {label}
+        </div>
+      )}
+    </div>
+  );
+}
 
 interface SplitViewProps {
   stateId: string;
   onBrowse: () => void;
+  onCloseMap?: () => void;
+  onCloseList?: () => void;
 }
 
-export function SplitView({ stateId, onBrowse }: SplitViewProps) {
-  const { selectedCameras, showList, mode, cardSize, splitWidth, setSplitWidth, toggleCamera, selectRoute, setDetailCam } = useTraffic();
+export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitViewProps) {
+  const { cameras, selectedCameras, showList, mode, cardSize, splitWidth, setSplitWidth, toggleCamera, selectRoute, setDetailCam } = useTraffic();
   const containerRef = useRef<HTMLDivElement>(null);
   const mapPanelRef = useRef<HTMLDivElement>(null);
   const localPercent = useRef(splitWidth);
   const dragging = useRef(false);
+  const rafRef = useRef<number>(0);
+  const map = useMap();
+  const [ghostPercent, setGhostPercent] = useState<number | null>(null);
 
   const startDrag = useCallback(() => {
     dragging.current = true;
+    (window as any).__deckResizing = true;
+    window.dispatchEvent(new Event('deckHide'));
     const isMobile = window.innerWidth < 768;
     document.body.style.cursor = isMobile ? 'row-resize' : 'col-resize';
     document.body.style.userSelect = 'none';
@@ -32,24 +69,34 @@ export function SplitView({ stateId, onBrowse }: SplitViewProps) {
 
     const move = (ev: MouseEvent | TouchEvent) => {
       if ('touches' in ev) { ev.preventDefault(); }
-      if (!containerRef.current) { return; }
-      const rect = containerRef.current.getBoundingClientRect();
-      const pos = getPos(ev);
-      if (isMobile) {
-        const percent = Math.min(80, Math.max(20, ((pos.y - rect.top) / rect.height) * 100));
-        localPercent.current = percent;
-        if (mapPanelRef.current) { mapPanelRef.current.style.height = `${percent}%`; }
-      } else {
-        const percent = Math.min(85, Math.max(30, ((pos.x - rect.left) / rect.width) * 100));
-        localPercent.current = percent;
-        if (mapPanelRef.current) { mapPanelRef.current.style.width = `${percent}%`; }
-      }
+      cancelAnimationFrame(rafRef.current);
+      rafRef.current = requestAnimationFrame(() => {
+        if (!containerRef.current) { return; }
+        const rect = containerRef.current.getBoundingClientRect();
+        const pos = getPos(ev);
+        if (isMobile) {
+          localPercent.current = Math.min(80, Math.max(20, ((pos.y - rect.top) / rect.height) * 100));
+        } else {
+          localPercent.current = Math.min(85, Math.max(30, ((pos.x - rect.left) / rect.width) * 100));
+        }
+        setGhostPercent(localPercent.current);
+      });
     };
     const up = () => {
       dragging.current = false;
+      (window as any).__deckResizing = false;
       document.body.style.cursor = '';
       document.body.style.userSelect = '';
+      // Apply final size in one shot
+      const isMob = window.innerWidth < 768;
+      if (mapPanelRef.current) {
+        if (isMob) { mapPanelRef.current.style.height = `${localPercent.current}%`; }
+        else { mapPanelRef.current.style.width = `${localPercent.current}%`; }
+      }
       setSplitWidth(localPercent.current);
+      setGhostPercent(null);
+      window.dispatchEvent(new Event('resize'));
+      window.dispatchEvent(new Event('deckReshow'));
       document.removeEventListener('mousemove', move);
       document.removeEventListener('mouseup', up);
       document.removeEventListener('touchmove', move);
@@ -65,7 +112,11 @@ export function SplitView({ stateId, onBrowse }: SplitViewProps) {
 
   return (
     <div className="split-container" ref={containerRef}>
-      <div className="split-map-panel" style={{ width: showList ? `${splitWidth}%` : '100%', height: splitWidth !== 70 ? `${splitWidth}%` : undefined }} ref={mapPanelRef}>
+      {ghostPercent !== null && (
+        <div className="split-ghost" style={{ left: `${ghostPercent}%` }} />
+      )}
+      <div className="split-map-panel" style={{ width: showList ? `${splitWidth}%` : '100%' }} ref={mapPanelRef}>
+        {onCloseMap && <CloseButton onClick={onCloseMap} label="Hide Map - Restore in View Options" />}
         <CameraMap stateId={stateId} markersOnly={showList} />
       </div>
       {showList && (
@@ -74,8 +125,9 @@ export function SplitView({ stateId, onBrowse }: SplitViewProps) {
             <div className="split-handle-grip" />
           </div>
           <div className="split-feeds-panel">
+            {onCloseList && <CloseButton onClick={onCloseList} label="Hide List - Restore in View Options" />}
         {selectedCameras.length === 0 ? (
-          <EmptyState stateId={stateId} selectRoute={selectRoute} onBrowse={onBrowse} onSwitchToMap={() => {}} showMap />
+          <EmptyState stateId={stateId} cameras={cameras} selectRoute={selectRoute} toggleCamera={toggleCamera} onBrowse={onBrowse} showMap />
         ) : (
             <div className={`split-feeds-grid ${gridClass}`}>
               {selectedCameras.map((cam, index) => (

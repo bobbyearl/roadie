@@ -1,7 +1,7 @@
 @reference "../styles.css";
 
-.card-header {
-  @apply flex items-center bg-muted border-b border-border shrink-0 flex-wrap;
+.card-footer {
+  @apply flex items-center bg-muted border-t border-border shrink-0 flex-wrap;
   gap: var(--rd-space-sm);
   padding: var(--rd-space-xs) var(--rd-space-sm);
 }
@@ -17,7 +17,7 @@
   @apply relative overflow-hidden;
 }
 .card-index-badge {
-  @apply absolute -top-2 -left-2 w-5 h-5 rounded-full text-white font-bold flex items-center justify-center z-10 border border-white shadow;
+  @apply absolute top-1 left-1 w-5 h-5 rounded-full text-white font-bold flex items-center justify-center z-10 border border-white shadow;
   font-size: 0.625rem;
   background-color: var(--color-accent-marker);
 }
