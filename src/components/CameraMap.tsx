@@ -39,6 +39,17 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
   const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey } = useTraffic();
   const { resolvedTheme } = useTheme();
   const map = useMap();
+  const prevStateRef = useRef(stateId);
+
+  useEffect(() => {
+    if (map && stateId !== prevStateRef.current) {
+      const config = getStateConfig(stateId);
+      map.panTo(config.defaultCenter);
+      map.setZoom(config.defaultZoom);
+      prevStateRef.current = stateId;
+    }
+  }, [map, stateId]);
+
   const [offsets, setOffsets] = useState<Map<string, { x: number; y: number }>>(new Map());
   const [dragging, setDragging] = useState<{
     id: string;

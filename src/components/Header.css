@@ -6,7 +6,7 @@
 }
 .header-nav {
   @apply flex items-center justify-between;
-  padding: var(--rd-space-lg) var(--rd-space-lg);
+  padding: var(--rd-space-sm) var(--rd-space-lg);
 }
 .header-nav-right {
   @apply flex items-center;

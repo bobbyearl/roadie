@@ -36,5 +36,6 @@
 
 .sidebar-backdrop { @apply hidden; }
 @media (max-width: 768px) {
-  .sidebar-backdrop { @apply block absolute inset-0 bg-black/40 z-20; }
+  .sidebar-backdrop { @apply block absolute inset-0 z-20 bg-black/0 pointer-events-none; transition: background-color 200ms ease-out; }
+  .sidebar-backdrop-visible { @apply bg-black/40 pointer-events-auto; }
 }

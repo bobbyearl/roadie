@@ -35,7 +35,7 @@ export function Landing() {
             View {totalCameras.toLocaleString()} live traffic cameras across {STATES.length} states.
           </p>
           <div className="hero-actions">
-            <Link to="/view" search={emptyViewSearch} className="hero-cta">
+            <Link to="/view/$stateId" params={{ stateId: 'sc' }} search={emptyViewSearch} className="hero-cta">
               Get Started
             </Link>
           </div>
@@ -57,8 +57,9 @@ export function Landing() {
           {STATES.map((s) => (
             <Link
               key={s.id}
-              to="/view"
-              search={{ ...emptyViewSearch, state: s.id === 'sc' ? undefined : s.id }}
+              to="/view/$stateId"
+              params={{ stateId: s.id }}
+              search={emptyViewSearch}
               className="state-card"
             >
               <span className="state-card-name">{s.name}</span>

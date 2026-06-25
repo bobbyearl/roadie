@@ -3,7 +3,7 @@ import './SplitView.css';
 import { useCallback, useRef } from 'react';
 
 import { useTraffic } from '../lib/TrafficContext';
-import { EmptyState } from '../routes/view';
+import { EmptyState } from '../routes/view.$stateId';
 import { CameraFeed } from './CameraFeed';
 import { CameraMap } from './CameraMap';
 
@@ -75,7 +75,7 @@ export function SplitView({ stateId, onBrowse }: SplitViewProps) {
           </div>
           <div className="split-feeds-panel">
         {selectedCameras.length === 0 ? (
-          <EmptyState stateId={stateId} selectRoute={selectRoute} onBrowse={onBrowse} onSwitchToMap={() => {}} showMap />
+          <EmptyState stateId={stateId} selectRoute={selectRoute} onBrowse={onBrowse} showMap />
         ) : (
             <div className={`split-feeds-grid ${gridClass}`}>
               {selectedCameras.map((cam, index) => (

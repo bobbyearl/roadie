@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { useQuery } from '@tanstack/react-query';
-import { useNavigate, useSearch } from '@tanstack/react-router';
+import { useNavigate, useParams, useSearch } from '@tanstack/react-router';
 import { createContext, type ReactNode, useContext, useMemo, useState } from 'react';
 
 import { type Camera, getStateConfig, type StateConfig,STATES } from '../lib/cameras';
@@ -60,11 +60,11 @@ export function useTraffic() {
 }
 
 export function TrafficProvider({ children }: { children: ReactNode }) {
-  const params = useSearch({ from: '/view' }) as ViewSearchParams;
-  const navigate = useNavigate({ from: '/view' });
+  const { stateId } = useParams({ from: '/view/$stateId' });
+  const params = useSearch({ from: '/view/$stateId' }) as ViewSearchParams;
+  const navigate = useNavigate({ from: '/view/$stateId' });
   const prefs = usePrefs();
 
-  const stateId = params.state ?? 'sc';
   const stateConfig = getStateConfig(stateId);
 
   const { data: cameras = [], isLoading } = useQuery({
@@ -122,7 +122,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     setSelected(next);
   };
   const clearAll = () => setSelected(new Set());
-  const resetAll = () => { prefs.resetPrefs(); navigate({ search: { state: params.state, selected: params.selected } as ViewSearchParams }); };
+  const resetAll = () => { prefs.resetPrefs(); navigate({ search: { selected: params.selected } as ViewSearchParams }); };
   const selectRoute = (ids: string[]) => setSelected(new Set(ids));
   const setDetailCam = (cam: Camera | null) =>
     navigate({ search: { ...params, detail: cam?.id || undefined } as ViewSearchParams });
@@ -144,11 +144,9 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   const setSidebarOpen = (open: boolean) => navigate({ search: { ...params, panel: open ? '1' : undefined } as ViewSearchParams });
   const setState = (s: string) =>
     navigate({
+      to: '/view/$stateId',
+      params: { stateId: s },
       search: {
-        state: s === 'sc' ? undefined : s,
-        map: params.map,
-        list: params.list,
-        tab: params.tab,
         selected: undefined,
         detail: undefined,
       } as ViewSearchParams,

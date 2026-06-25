@@ -7,7 +7,7 @@ import { type Camera } from '../lib/cameras';
 import { CURATED_ROUTES } from '../lib/routes';
 import { useTraffic } from '../lib/TrafficContext';
 
-export function Sidebar() {
+export function Sidebar({ open }: { open?: boolean }) {
   const { stateId, cameras, selectedIds, toggleCamera, selectRoute } = useTraffic();
   const hasCuratedRoutes = stateId === 'sc';
   const [searchText, setSearchText] = useState('');
@@ -38,7 +38,7 @@ export function Sidebar() {
   const isExpanded = (key: string) => expandedSections.has(key);
 
   return (
-    <aside className="sidebar">
+    <aside className={`sidebar ${open ? 'sidebar-open' : ''}`}>
       <div className="sidebar-header">
         <div className="sidebar-search">
           <Search size={14} />

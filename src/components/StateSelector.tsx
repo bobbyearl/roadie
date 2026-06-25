@@ -27,7 +27,7 @@ const STATE_PATHS: Record<string, { viewBox: string; d: string }> = {
   },
 };
 
-function StateIcon({ id }: { id: string }) {
+export function StateIcon({ id }: { id: string }) {
   const state = STATE_PATHS[id];
   if (!state) { return null; }
   return (
@@ -40,9 +40,8 @@ function StateIcon({ id }: { id: string }) {
 function StateRow({ id, count, video, active, open }: { id: string; name?: string; count: number; video: boolean; active?: boolean; open?: boolean }) {
   return (
     <>
-      <StateIcon id={id} />
       <span className="state-row-name">{id.toUpperCase()}</span>
-      <span className={`state-row-badge ${video ? 'state-row-badge-video' : ''}`}>{count} {video ? 'Videos' : 'Images'}</span>
+      <span className="state-row-meta">{count} {video ? 'Videos' : 'Images'}</span>
       {active && <ChevronDown size={12} className={`state-selector-caret ${open ? 'state-selector-caret-open' : ''}`} />}
     </>
   );

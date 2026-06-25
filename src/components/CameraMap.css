@@ -1,7 +1,7 @@
 @reference "../styles.css";
 
 .map-container {
-  @apply w-full h-full min-h-[400px] rounded-lg;
+  @apply w-full h-full min-h-[400px];
 }
 .map-container *:focus {
   outline: none !important;
