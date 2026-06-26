@@ -36,18 +36,42 @@ export function CameraMap({ stateId, markersOnly }: CameraMapProps) {
 
 
 function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: string; markersOnly?: boolean }) {
-  const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey, userLocation } = useTraffic();
+  const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey, userLocation, mapPosition, setMapPosition } = useTraffic();
   const { resolvedTheme } = useTheme();
   const map = useMap();
   const prevStateRef = useRef(stateId);
+  // Set map position from URL on mount, or default center/zoom on state change
+  const initialPositionApplied = useRef(false);
   useEffect(() => {
-    if (map && stateId !== prevStateRef.current) {
+    if (!map) return;
+    if (!initialPositionApplied.current && mapPosition) {
+      map.setCenter({ lat: mapPosition.lat, lng: mapPosition.lng });
+      map.setZoom(mapPosition.z);
+      initialPositionApplied.current = true;
+    } else if (stateId !== prevStateRef.current) {
       const config = getStateConfig(stateId);
       map.setCenter(config.defaultCenter);
       map.setZoom(config.defaultZoom);
       prevStateRef.current = stateId;
     }
-  }, [map, stateId]);
+  }, [map, stateId, mapPosition]);
+
+  // Save map position to URL on idle (debounced)
+  useEffect(() => {
+    if (!map) return;
+    let timeout: ReturnType<typeof setTimeout>;
+    const listener = map.addListener('idle', () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        const center = map.getCenter();
+        const zoom = map.getZoom();
+        if (center && zoom != null) {
+          setMapPosition(center.lat(), center.lng(), zoom);
+        }
+      }, 500);
+    });
+    return () => { clearTimeout(timeout); google.maps.event.removeListener(listener); };
+  }, [map, setMapPosition]);
 
   const [offsets, setOffsets] = useState<Map<string, { x: number; y: number }>>(new Map());
   const [dragging, setDragging] = useState<{
@@ -89,6 +113,11 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
 
     // Only fitBounds on initial selection, not manual re-layout
     if (!isManualLayout) {
+      // Skip fitBounds if URL already has a map position (user is restoring a shared/bookmarked view)
+      if (mapPosition && !prevSelectedRef.current.size) {
+        prevSelectedRef.current = new Set(selectedIds);
+        return;
+      }
       const bounds = new google.maps.LatLngBounds();
       for (const cam of newCams) {
         bounds.extend({ lat: cam.lat, lng: cam.lng });
@@ -184,7 +213,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
         runLayout();
       });
     }
-  }, [selectedIds, map, cameras, cardWidthPx, layoutKey]);
+  }, [selectedIds, map, cameras, cardWidthPx, layoutKey]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const onPointerDown = (e: React.PointerEvent, id: string) => {
     e.preventDefault();
@@ -309,7 +338,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
     const reshow = () => {
       if (deckOverlayRef.current && deckModulesRef.current) {
         const { ScatterplotLayer } = deckModulesRef.current;
-        const rgb = [220, 50, 160];
+        const rgb = [249, 115, 22]; // orange - match main layer
         const layer = new ScatterplotLayer({
           id: 'cameras',
           data: cameras,

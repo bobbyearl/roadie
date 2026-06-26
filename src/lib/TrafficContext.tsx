@@ -27,7 +27,9 @@ interface TrafficState {
   density: string;
   sidebarTab: string;
   splitWidth: number;
+  splitHeight: number;
   sidebarOpen: boolean;
+  mapPosition: { lat: number; lng: number; z: number } | null;
 
   // Actions
   toggleCamera: (id: string) => void;
@@ -43,7 +45,9 @@ interface TrafficState {
   setViewMode: (mode: string) => void;
   setTab: (tab: string | undefined) => void;
   setSplitWidth: (percent: number) => void;
+  setSplitHeight: (percent: number) => void;
   setSidebarOpen: (open: boolean) => void;
+  setMapPosition: (lat: number, lng: number, z: number) => void;
   setState: (state: string) => void;
   triggerLayout: () => void;
   layoutKey: number;
@@ -89,7 +93,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     staleTime: Infinity,
   });
 
-  const { grid: cardSize, density, mode: prefsMode, sw: splitWidth, showMap, showList } = prefs;
+  const { grid: cardSize, density, mode: prefsMode, sw: splitWidth, sh: splitHeight, showMap, showList } = prefs;
   const mode = stateConfig.supportsVideo ? prefsMode : 'image';
   const sidebarTab = params.tab ?? 'routes';
   const sidebarOpen = params.panel === '1';
@@ -140,7 +144,15 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     const rounded = Math.round(percent);
     prefs.setSw(Math.min(85, Math.max(30, rounded)));
   };
+  const setSplitHeight = (percent: number) => {
+    const rounded = Math.round(percent);
+    prefs.setSh(Math.min(80, Math.max(20, rounded)));
+  };
   const setSidebarOpen = (open: boolean) => navigate({ search: { ...params, panel: open ? '1' : undefined } as ViewSearchParams });
+  const mapPosition = params.lat && params.lng && params.z ? { lat: params.lat, lng: params.lng, z: params.z } : null;
+  const setMapPosition = (lat: number, lng: number, z: number) => {
+    navigate({ search: { ...params, lat: +lat.toFixed(5), lng: +lng.toFixed(5), z: Math.round(z) } as ViewSearchParams, replace: true });
+  };
   const setState = (s: string) => {
     localStorage.setItem('roadie-last-state', s);
     setUserLocation(null);
@@ -186,7 +198,9 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     density,
     sidebarTab,
     splitWidth,
+    splitHeight,
     sidebarOpen,
+    mapPosition,
     layoutKey,
     userLocation,
     findClosest,
@@ -203,7 +217,9 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     setDensity,
     setTab,
     setSplitWidth,
+    setSplitHeight,
     setSidebarOpen,
+    setMapPosition,
     setState,
     triggerLayout,
   };

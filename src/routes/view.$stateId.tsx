@@ -20,6 +20,9 @@ export const Route = createFileRoute('/view/$stateId')({
     detail: (search.detail as string) || undefined,
     tab: search.tab === 'regions' ? 'regions' : undefined,
     panel: search.panel === '1' ? '1' : undefined,
+    lat: search.lat ? Number(search.lat) : undefined,
+    lng: search.lng ? Number(search.lng) : undefined,
+    z: search.z ? Number(search.z) : undefined,
   }),
 });
 

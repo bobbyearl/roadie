@@ -44,7 +44,7 @@ interface SplitViewProps {
 }
 
 export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitViewProps) {
-  const { cameras, selectedCameras, showList, mode, cardSize, splitWidth, setSplitWidth, toggleCamera, selectRoute, setDetailCam } = useTraffic();
+  const { cameras, selectedCameras, showList, mode, cardSize, splitWidth, splitHeight, setSplitWidth, setSplitHeight, toggleCamera, selectRoute, setDetailCam } = useTraffic();
   const containerRef = useRef<HTMLDivElement>(null);
   const mapPanelRef = useRef<HTMLDivElement>(null);
   const localPercent = useRef(splitWidth);
@@ -57,6 +57,7 @@ export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitV
     (window as any).__deckResizing = true; // eslint-disable-line @typescript-eslint/no-explicit-any
     window.dispatchEvent(new Event('deckHide'));
     const isMobile = window.innerWidth < 768;
+    localPercent.current = isMobile ? splitHeight : splitWidth;
     document.body.style.cursor = isMobile ? 'row-resize' : 'col-resize';
     document.body.style.userSelect = 'none';
 
@@ -87,11 +88,8 @@ export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitV
       document.body.style.userSelect = '';
       // Apply final size in one shot
       const isMob = window.innerWidth < 768;
-      if (mapPanelRef.current) {
-        if (isMob) { mapPanelRef.current.style.height = `${localPercent.current}%`; }
-        else { mapPanelRef.current.style.width = `${localPercent.current}%`; }
-      }
-      setSplitWidth(localPercent.current);
+      if (isMob) { setSplitHeight(localPercent.current); }
+      else { setSplitWidth(localPercent.current); }
       setGhostPercent(null);
       window.dispatchEvent(new Event('resize'));
       window.dispatchEvent(new Event('deckReshow'));
@@ -104,7 +102,7 @@ export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitV
     document.addEventListener('mouseup', up);
     document.addEventListener('touchmove', move, { passive: false });
     document.addEventListener('touchend', up);
-  }, [setSplitWidth]);
+  }, [setSplitWidth, setSplitHeight, splitWidth, splitHeight]);
 
   const gridClass = cardSize === 'lg' ? 'split-feeds-lg' : cardSize === 'sm' ? 'split-feeds-sm' : 'split-feeds-md';
 
@@ -113,7 +111,7 @@ export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitV
       {ghostPercent !== null && (
         <div className={`split-ghost ${window.innerWidth < 768 ? 'split-ghost-h' : ''}`} style={window.innerWidth < 768 ? { top: `${ghostPercent}%` } : { left: `${ghostPercent}%` }} />
       )}
-      <div className="split-map-panel" style={{ width: showList ? `${splitWidth}%` : '100%' }} ref={mapPanelRef}>
+      <div className="split-map-panel" style={{ width: showList ? `${splitWidth}%` : '100%', '--split-h': `${splitHeight}%` } as React.CSSProperties} ref={mapPanelRef}>
         {onCloseMap && <CloseButton onClick={onCloseMap} label="Hide Map - Restore in View Options" />}
         <CameraMap stateId={stateId} markersOnly={showList} />
       </div>
