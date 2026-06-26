@@ -79,3 +79,11 @@
   width: 2.5rem;
   height: 2.5rem;
 }
+
+.map-user-pin {
+  @apply w-3 h-3 rounded-full border-2;
+  background-color: #2563eb;
+  border-color: var(--color-white);
+  box-shadow: 0 0 0 4px color-mix(in srgb, #2563eb 30%, transparent);
+  transform: translateY(50%);
+}

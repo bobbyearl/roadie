@@ -8,6 +8,13 @@
   opacity: 0.6;
   pointer-events: none;
 }
+.split-ghost-h {
+  @apply left-0 right-0;
+  top: auto;
+  bottom: auto;
+  width: auto;
+  height: 2px;
+}
 .split-map-panel { @apply min-w-0 relative; }
 .split-handle {
   @apply bg-border/50 cursor-col-resize shrink-0 flex items-center justify-center;

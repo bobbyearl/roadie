@@ -25,22 +25,7 @@ export const Route = createFileRoute('/view/$stateId')({
 
 export function EmptyState({ stateId, cameras, selectRoute, toggleCamera, onBrowse, showMap }: { stateId: string; cameras: Camera[]; selectRoute: (ids: string[]) => void; toggleCamera: (id: string) => void; onBrowse: () => void; showMap?: boolean }) {
   const hasCuratedRoutes = stateId === 'sc';
-
-  const handleClosest = () => {
-    if (!navigator.geolocation) { return; }
-    navigator.geolocation.getCurrentPosition((pos) => {
-      const { latitude, longitude } = pos.coords;
-      const allCams = cameras.length ? cameras : [];
-      if (!allCams.length) { return; }
-      let closest = allCams[0];
-      let minDist = Infinity;
-      for (const cam of allCams) {
-        const d = (cam.lat - latitude) ** 2 + (cam.lng - longitude) ** 2;
-        if (d < minDist) { minDist = d; closest = cam; }
-      }
-      toggleCamera(closest.id);
-    });
-  };
+  const { findClosest } = useTraffic();
 
   return (
     <div className="empty-state">
@@ -63,7 +48,7 @@ export function EmptyState({ stateId, cameras, selectRoute, toggleCamera, onBrow
 
       <div className="empty-actions">
         <div className="quick-routes">
-          <button className="quick-route-btn" onClick={handleClosest}>Open Closest Camera</button>
+          <button className="quick-route-btn" onClick={findClosest}>Open Closest Camera</button>
           <button className="quick-route-btn" onClick={onBrowse}>Browse Cameras</button>
         </div>
         {showMap && <p className="empty-map-hint">or select a map marker</p>}

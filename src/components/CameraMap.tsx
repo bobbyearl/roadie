@@ -36,7 +36,7 @@ export function CameraMap({ stateId, markersOnly }: CameraMapProps) {
 
 
 function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: string; markersOnly?: boolean }) {
-  const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey } = useTraffic();
+  const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey, userLocation } = useTraffic();
   const { resolvedTheme } = useTheme();
   const map = useMap();
   const prevStateRef = useRef(stateId);
@@ -364,6 +364,20 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
     );
   };
 
+  // Pan to show user location + closest camera when findClosest triggers
+  useEffect(() => {
+    if (!map || !userLocation) { return; }
+    if (selectedCameras.length > 0) {
+      const bounds = new google.maps.LatLngBounds();
+      bounds.extend(userLocation);
+      selectedCameras.slice(-1).forEach((cam) => bounds.extend({ lat: cam.lat, lng: cam.lng }));
+      map.fitBounds(bounds, 60);
+    } else {
+      map.panTo(userLocation);
+      map.setZoom(12);
+    }
+  }, [map, userLocation, selectedCameras]);
+
   return (
     <div className="map-wrapper">
       <button className="map-locate-btn" onClick={handleLocate} title="Find my location">
@@ -447,6 +461,11 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
           </AdvancedMarker>
         );
       })}
+      {userLocation && (
+        <AdvancedMarker position={userLocation} zIndex={200}>
+          <div className="map-user-pin" />
+        </AdvancedMarker>
+      )}
     </GoogleMap>
     </div>
   );

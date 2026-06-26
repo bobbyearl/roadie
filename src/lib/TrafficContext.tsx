@@ -47,6 +47,8 @@ interface TrafficState {
   setState: (state: string) => void;
   triggerLayout: () => void;
   layoutKey: number;
+  userLocation: { lat: number; lng: number } | null;
+  findClosest: () => void;
 }
 
 const TrafficContext = createContext<TrafficState | null>(null);
@@ -141,6 +143,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   const setSidebarOpen = (open: boolean) => navigate({ search: { ...params, panel: open ? '1' : undefined } as ViewSearchParams });
   const setState = (s: string) => {
     localStorage.setItem('roadie-last-state', s);
+    setUserLocation(null);
     navigate({
       to: '/view/$stateId',
       params: { stateId: s },
@@ -150,6 +153,22 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
 
   const [layoutKey, setLayoutKey] = useState(0);
   const triggerLayout = () => setLayoutKey((k) => k + 1);
+
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+  const findClosest = () => {
+    if (!navigator.geolocation || !cameras.length) { return; }
+    navigator.geolocation.getCurrentPosition((pos) => {
+      const { latitude, longitude } = pos.coords;
+      setUserLocation({ lat: latitude, lng: longitude });
+      let closest = cameras[0];
+      let minDist = Infinity;
+      for (const cam of cameras) {
+        const d = (cam.lat - latitude) ** 2 + (cam.lng - longitude) ** 2;
+        if (d < minDist) { minDist = d; closest = cam; }
+      }
+      if (!selectedIds.has(closest.id)) { toggleCamera(closest.id); }
+    });
+  };
 
   const value: TrafficState = {
     cameras,
@@ -169,6 +188,8 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     splitWidth,
     sidebarOpen,
     layoutKey,
+    userLocation,
+    findClosest,
     toggleCamera,
     clearAll,
     resetAll,

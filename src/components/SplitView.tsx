@@ -111,7 +111,7 @@ export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitV
   return (
     <div className="split-container" ref={containerRef}>
       {ghostPercent !== null && (
-        <div className="split-ghost" style={{ left: `${ghostPercent}%` }} />
+        <div className={`split-ghost ${window.innerWidth < 768 ? 'split-ghost-h' : ''}`} style={window.innerWidth < 768 ? { top: `${ghostPercent}%` } : { left: `${ghostPercent}%` }} />
       )}
       <div className="split-map-panel" style={{ width: showList ? `${splitWidth}%` : '100%' }} ref={mapPanelRef}>
         {onCloseMap && <CloseButton onClick={onCloseMap} label="Hide Map - Restore in View Options" />}
