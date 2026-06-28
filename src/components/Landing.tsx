@@ -127,6 +127,23 @@ export function Landing() {
         </div>
       </section>
 
+      <section className="attribution">
+        <p className="attribution-text">
+          Camera feeds provided by state departments of transportation. This app is not affiliated with or endorsed by any government agency.
+        </p>
+        <div className="attribution-links">
+          <a href="https://tmc.deldot.gov" target="_blank" rel="noopener">DelDOT</a>
+          <a href="https://fl511.com" target="_blank" rel="noopener">FL 511</a>
+          <a href="https://511ga.org" target="_blank" rel="noopener">GA 511</a>
+          <a href="https://chart.maryland.gov" target="_blank" rel="noopener">MD CHART</a>
+          <a href="https://www.drivenc.gov" target="_blank" rel="noopener">DriveNC</a>
+          <a href="https://www.511nj.org" target="_blank" rel="noopener">NJ 511</a>
+          <a href="https://www.511pa.com" target="_blank" rel="noopener">PA 511</a>
+          <a href="https://www.511sc.org" target="_blank" rel="noopener">SC 511</a>
+          <a href="https://www.511virginia.org" target="_blank" rel="noopener">VA 511</a>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

@@ -11,7 +11,9 @@ interface CameraMediaProps {
 }
 
 export function CameraMedia({ camera, mode, refreshInterval = 0, onFullscreenRef }: CameraMediaProps) {
-  const effectiveMode = mode === 'image' && !camera.image_url && camera.video_url ? 'video' : mode;
+  const effectiveMode = mode === 'video' && !camera.video_url && camera.image_url ? 'image'
+    : mode === 'image' && !camera.image_url && camera.video_url ? 'video'
+    : mode;
   const { videoRef, videoKey, error, stalled, retryCount, retry, handleError, setError, attachHls } = useVideoPlayer(effectiveMode);
   const [imgTs, setImgTs] = useState(() => Date.now());
 
