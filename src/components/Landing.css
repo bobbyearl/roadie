@@ -112,3 +112,24 @@
 .credits-btn {
   @apply inline-block mt-2 px-4 py-2 text-sm font-medium border border-border rounded-lg hover:bg-muted transition-colors no-underline text-foreground;
 }
+
+.attribution {
+  @apply text-center py-6 border-t border-border;
+  padding-left: var(--rd-space-lg);
+  padding-right: var(--rd-space-lg);
+}
+.attribution-title {
+  @apply text-xs font-medium text-muted-foreground uppercase tracking-wider;
+  margin-bottom: var(--rd-space-xs);
+}
+.attribution-text {
+  @apply text-xs text-muted-foreground;
+  margin-bottom: var(--rd-space-sm);
+}
+.attribution-links {
+  @apply flex flex-wrap justify-center;
+  gap: var(--rd-space-sm) var(--rd-space-md);
+}
+.attribution-links a {
+  @apply text-xs text-muted-foreground hover:text-foreground transition-colors no-underline;
+}

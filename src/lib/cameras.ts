@@ -59,6 +59,14 @@ export const STATES: StateConfig[] = [
     cameraCount: 351,
   },
   {
+    id: 'fl',
+    name: 'Florida',
+    defaultCenter: { lat: 28.0, lng: -82.0 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 4881,
+  },
+  {
     id: 'ga',
     name: 'Georgia',
     defaultCenter: { lat: 33.7, lng: -84.4 },
@@ -81,6 +89,22 @@ export const STATES: StateConfig[] = [
     defaultZoom: 7,
     supportsVideo: false,
     cameraCount: 1112,
+  },
+  {
+    id: 'nj',
+    name: 'New Jersey',
+    defaultCenter: { lat: 40.2, lng: -74.7 },
+    defaultZoom: 8,
+    supportsVideo: true,
+    cameraCount: 484,
+  },
+  {
+    id: 'pa',
+    name: 'Pennsylvania',
+    defaultCenter: { lat: 40.9, lng: -77.8 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 1410,
   },
   {
     id: 'sc',
