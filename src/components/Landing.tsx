@@ -13,17 +13,15 @@ import { StateIcon } from './StateSelector';
 export function Landing() {
   const queryClient = useQueryClient();
 
-  // Prefetch all state data so map loads instantly on navigation
+  // Prefetch camera database so map loads instantly on navigation
   useEffect(() => {
-    STATES.forEach((s) => {
-      queryClient.prefetchQuery({
-        queryKey: ['cameras', s.id],
-        queryFn: async () => {
-          const res = await fetch(import.meta.env.BASE_URL + s.dataFile);
-          return s.parser(await res.json());
-        },
-        staleTime: Infinity,
-      });
+    queryClient.prefetchQuery({
+      queryKey: ['cameras-db'],
+      queryFn: async () => {
+        const res = await fetch(import.meta.env.BASE_URL + 'data/cameras.db.json');
+        return res.json();
+      },
+      staleTime: Infinity,
     });
   }, [queryClient]);
   const totalCameras = STATES.reduce((sum, s) => sum + s.cameraCount, 0);

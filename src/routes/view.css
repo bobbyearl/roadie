@@ -10,7 +10,7 @@
 .view-close-wrapper {
   @apply absolute z-20;
   top: 0;
-  right: 0;
+  left: 0;
 }
 .view-close-btn {
   @apply flex items-center justify-center bg-background border border-border rounded-b-md text-muted-foreground hover:text-foreground hover:bg-muted transition-colors cursor-pointer;
@@ -45,7 +45,7 @@
 .viewer-grid-lg { @apply grid-cols-[repeat(auto-fill,minmax(480px,1fr))]; }
 
 @media (max-width: 768px) {
-  .viewer-area { padding: var(--rd-space-sm); }
+  .viewer-area:not(.viewer-area-split) { padding: var(--rd-space-sm); }
   .viewer-grid-sm { @apply grid-cols-[repeat(auto-fill,minmax(120px,1fr))]; }
   .viewer-grid-md { @apply grid-cols-[repeat(auto-fill,minmax(200px,1fr))]; }
   .viewer-grid-lg { @apply grid-cols-1; }

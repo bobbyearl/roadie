@@ -15,71 +15,68 @@ export interface Camera {
 export interface StateConfig {
   id: string;
   name: string;
-  dataFile: string;
-  parser: (data: unknown) => Camera[];
   defaultCenter: { lat: number; lng: number };
   defaultZoom: number;
   supportsVideo: boolean;
   cameraCount: number;
 }
 
-export interface CameraGeoJSON {
-  features: Array<{
-    type: 'Feature';
-    geometry: { coordinates: [number, number]; type: 'Point' };
-    properties: {
-      id: string;
-      name: string;
-      description: string;
-      route: string;
-      direction: string;
-      jurisdiction: string;
-      image_url: string;
-      https_url: string;
-      active: boolean;
-    };
-  }>;
+// Raw database format from cameras.db.json
+export interface CameraDB {
+  states: string[];
+  jurisdictions: string[];
+  routes: string[];
+  cameras: Array<[number, number, string, number, string, number, number, string, string]>;
 }
 
-function parseSC(data: unknown): Camera[] {
-  const geojson = data as CameraGeoJSON;
-  return geojson.features
-    .filter((f) => f.properties.active)
-    .map((f) => ({
-      id: f.properties.id,
-      name: f.properties.name,
-      description: f.properties.description,
-      route: f.properties.route,
-      direction: f.properties.direction,
-      jurisdiction: f.properties.jurisdiction,
-      lat: f.geometry.coordinates[1],
-      lng: f.geometry.coordinates[0],
-      image_url: f.properties.image_url,
-      video_url: f.properties.https_url,
-      active: f.properties.active,
+function parseCameraDB(db: CameraDB, filterState?: string): Camera[] {
+  return db.cameras
+    .filter((c) => filterState === undefined || db.states[c[3]] === filterState)
+    .map((c) => ({
+      id: filterState ? c[2] : `${db.states[c[3]]}:${c[2]}`,
+      name: c[4],
+      description: `${c[4]} (${db.jurisdictions[c[6]]})`,
+      route: db.routes[c[5]],
+      direction: '',
+      jurisdiction: db.jurisdictions[c[6]],
+      lat: c[0],
+      lng: c[1],
+      image_url: c[7],
+      video_url: c[8],
+      active: true,
     }));
 }
 
-function parseNormalized(data: unknown): Camera[] {
-  return (data as Camera[]).filter((c) => c.active);
-}
+export { parseCameraDB };
 
 export const STATES: StateConfig[] = [
   {
+    id: 'de',
+    name: 'Delaware',
+    defaultCenter: { lat: 39.0, lng: -75.5 },
+    defaultZoom: 9,
+    supportsVideo: true,
+    cameraCount: 351,
+  },
+  {
     id: 'ga',
     name: 'Georgia',
-    dataFile: 'data/ga.json',
-    parser: parseNormalized,
     defaultCenter: { lat: 33.7, lng: -84.4 },
     defaultZoom: 8,
     supportsVideo: false,
     cameraCount: 4043,
   },
   {
+    id: 'md',
+    name: 'Maryland',
+    defaultCenter: { lat: 39.3, lng: -76.6 },
+    defaultZoom: 8,
+    supportsVideo: true,
+    cameraCount: 549,
+  },
+  {
     id: 'nc',
     name: 'North Carolina',
-    dataFile: 'data/nc.json',
-    parser: parseNormalized,
     defaultCenter: { lat: 35.5, lng: -79.8 },
     defaultZoom: 7,
     supportsVideo: false,
@@ -88,8 +85,6 @@ export const STATES: StateConfig[] = [
   {
     id: 'sc',
     name: 'South Carolina',
-    dataFile: 'data/cameras.geojson',
-    parser: parseSC,
     defaultCenter: { lat: 33.8, lng: -80.9 },
     defaultZoom: 8,
     supportsVideo: true,
@@ -98,8 +93,6 @@ export const STATES: StateConfig[] = [
   {
     id: 'va',
     name: 'Virginia',
-    dataFile: 'data/va.geojson',
-    parser: parseSC,
     defaultCenter: { lat: 37.5, lng: -78.8 },
     defaultZoom: 7,
     supportsVideo: true,
@@ -110,11 +103,9 @@ export const STATES: StateConfig[] = [
 export const ALL_STATES_CONFIG: StateConfig = {
   id: 'all',
   name: 'All States',
-  dataFile: '',
-  parser: () => [],
-  defaultCenter: { lat: 35.0, lng: -80.0 },
+  defaultCenter: { lat: 36.5, lng: -79.0 },
   defaultZoom: 6,
-  supportsVideo: false,
+  supportsVideo: true,
   cameraCount: STATES.reduce((sum, s) => sum + s.cameraCount, 0),
 };
 

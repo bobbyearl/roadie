@@ -8,6 +8,7 @@ import { type Camera, getStateConfig } from '../lib/cameras';
 import { useTheme } from '../lib/ThemeContext';
 import { useTraffic } from '../lib/TrafficContext';
 import { CameraCard } from './CameraCard';
+import { CameraMedia } from './CameraMedia';
 
 interface CameraMapProps {
   stateId: string;
@@ -36,7 +37,7 @@ export function CameraMap({ stateId, markersOnly }: CameraMapProps) {
 
 
 function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: string; markersOnly?: boolean }) {
-  const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey, userLocation, mapPosition, setMapPosition } = useTraffic();
+  const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey, userLocation, setUserLocation, mapPosition, setMapPosition } = useTraffic();
   const { resolvedTheme } = useTheme();
   const map = useMap();
   const prevStateRef = useRef(stateId);
@@ -315,18 +316,34 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
         },
       });
 
+      const layers: any[] = [layer];
+      if (userLocation) {
+        layers.push(new ScatterplotLayer({
+          id: 'user-location',
+          data: [userLocation],
+          getPosition: (d: any) => [d.lng, d.lat],
+          getRadius: 8,
+          radiusUnits: 'pixels' as const,
+          getFillColor: [37, 99, 235, 255] as any,
+          getLineColor: [255, 255, 255, 255] as any,
+          lineWidthMinPixels: 2,
+          stroked: true,
+          pickable: false,
+        }));
+      }
+
       if (!deckOverlayRef.current || deckOverlayRef.current._map !== map) {
         if (deckOverlayRef.current) { deckOverlayRef.current.setMap(null); }
-        const overlay = new GoogleMapsOverlay({ layers: [layer] });
+        const overlay = new GoogleMapsOverlay({ layers });
         overlay.setMap(map);
         (overlay as any)._map = map;
         deckOverlayRef.current = overlay;
       } else {
-        deckOverlayRef.current.setProps({ layers: [layer] });
+        deckOverlayRef.current.setProps({ layers });
       }
     };
     run();
-  }, [map, cameras, resolvedTheme]);
+  }, [map, cameras, resolvedTheme, userLocation]);
 
   // Hide/show deck.gl layers during split resize to prevent flicker
   useEffect(() => {
@@ -358,13 +375,28 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
             if (info.object) { handleMarkerClickRef.current(info.object.id); }
           },
         });
-        deckOverlayRef.current.setProps({ layers: [layer] });
+        const reshowLayers: any[] = [layer];
+        if (userLocation) {
+          reshowLayers.push(new ScatterplotLayer({
+            id: 'user-location',
+            data: [userLocation],
+            getPosition: (d: any) => [d.lng, d.lat],
+            getRadius: 8,
+            radiusUnits: 'pixels' as const,
+            getFillColor: [37, 99, 235, 255] as any,
+            getLineColor: [255, 255, 255, 255] as any,
+            lineWidthMinPixels: 2,
+            stroked: true,
+            pickable: false,
+          }));
+        }
+        deckOverlayRef.current.setProps({ layers: reshowLayers });
       }
     };
     window.addEventListener('deckHide', hide);
     window.addEventListener('deckReshow', reshow);
     return () => { window.removeEventListener('deckHide', hide); window.removeEventListener('deckReshow', reshow); };
-  }, [map, cameras]);
+  }, [map, cameras, userLocation]);
 
   // Cleanup only on unmount
   useEffect(() => {
@@ -386,7 +418,9 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
     if (!navigator.geolocation || !map) { return; }
     navigator.geolocation.getCurrentPosition(
       (pos) => {
-        map.panTo({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+        const loc = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        setUserLocation(loc);
+        map.panTo(loc);
         map.setZoom(12);
       },
       () => { /* silently fail if denied */ }
@@ -474,11 +508,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
                     index={selectionIndex.get(cam.id)}
                     headerLeft={<div className="map-feed-drag" onPointerDown={(e) => onPointerDown(e, cam.id)}><GripVertical size={12} /></div>}
                   >
-                    {mode === 'video' ? (
-                      <video src={cam.video_url} autoPlay muted playsInline controls />
-                    ) : (
-                      <img src={cam.image_url} alt={cam.description} />
-                    )}
+                    <CameraMedia camera={cam} mode={mode} />
                   </CameraCard>
                 </div>
               </div>
@@ -490,11 +520,6 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
           </AdvancedMarker>
         );
       })}
-      {userLocation && (
-        <AdvancedMarker position={userLocation} zIndex={200}>
-          <div className="map-user-pin" />
-        </AdvancedMarker>
-      )}
     </GoogleMap>
     </div>
   );

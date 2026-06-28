@@ -1,40 +1,11 @@
 import './SplitView.css';
 
-import { autoUpdate, offset, useFloating, useHover, useInteractions } from '@floating-ui/react';
-import { PanelRightClose } from 'lucide-react';
 import { useCallback, useRef, useState } from 'react';
 
 import { useTraffic } from '../lib/TrafficContext';
 import { EmptyState } from '../routes/view.$stateId';
 import { CameraFeed } from './CameraFeed';
 import { CameraMap } from './CameraMap';
-
-/* eslint-disable react-hooks/refs */
-function CloseButton({ onClick, label }: { onClick: () => void; label: string }) {
-  const [open, setOpen] = useState(false);
-  const { refs, floatingStyles, context } = useFloating({
-    open,
-    onOpenChange: setOpen,
-    placement: 'left',
-    middleware: [offset({ mainAxis: 4 })],
-    whileElementsMounted: autoUpdate,
-  });
-  const hover = useHover(context, { delay: { open: 0, close: 0 } });
-  const { getReferenceProps, getFloatingProps } = useInteractions([hover]);
-
-  return (
-    <div className="view-close-wrapper">
-      <button className="view-close-btn" ref={refs.setReference} {...getReferenceProps()} onClick={onClick}>
-        <PanelRightClose size={14} />
-      </button>
-      {open && (
-        <div className="view-close-tooltip" ref={refs.setFloating} style={floatingStyles} {...getFloatingProps()}>
-          {label}
-        </div>
-      )}
-    </div>
-  );
-}
 
 interface SplitViewProps {
   stateId: string;
@@ -112,7 +83,7 @@ export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitV
         <div className={`split-ghost ${window.innerWidth < 768 ? 'split-ghost-h' : ''}`} style={window.innerWidth < 768 ? { top: `${ghostPercent}%` } : { left: `${ghostPercent}%` }} />
       )}
       <div className="split-map-panel" style={{ width: showList ? `${splitWidth}%` : '100%', '--split-h': `${splitHeight}%` } as React.CSSProperties} ref={mapPanelRef}>
-        {onCloseMap && <CloseButton onClick={onCloseMap} label="Hide Map - Restore in View Options" />}
+        {onCloseMap && null}
         <CameraMap stateId={stateId} markersOnly={showList} />
       </div>
       {showList && (
@@ -121,7 +92,7 @@ export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitV
             <div className="split-handle-grip" />
           </div>
           <div className="split-feeds-panel">
-            {onCloseList && <CloseButton onClick={onCloseList} label="Hide List - Restore in View Options" />}
+            {onCloseList && null}
         {selectedCameras.length === 0 ? (
           <EmptyState stateId={stateId} cameras={cameras} selectRoute={selectRoute} toggleCamera={toggleCamera} onBrowse={onBrowse} showMap />
         ) : (

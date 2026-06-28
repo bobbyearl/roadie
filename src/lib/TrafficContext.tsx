@@ -3,7 +3,7 @@ import { useQuery } from '@tanstack/react-query';
 import { useNavigate, useParams, useSearch } from '@tanstack/react-router';
 import { createContext, type ReactNode, useContext, useMemo, useState } from 'react';
 
-import { type Camera, getStateConfig, type StateConfig,STATES } from '../lib/cameras';
+import { type Camera, type CameraDB, getStateConfig, parseCameraDB, type StateConfig,STATES } from '../lib/cameras';
 import { CURATED_ROUTES } from '../lib/routes';
 import { type ViewSearchParams } from '../lib/types';
 import { usePrefs } from '../lib/usePrefs';
@@ -52,6 +52,7 @@ interface TrafficState {
   triggerLayout: () => void;
   layoutKey: number;
   userLocation: { lat: number; lng: number } | null;
+  setUserLocation: (loc: { lat: number; lng: number } | null) => void;
   findClosest: () => void;
 }
 
@@ -76,19 +77,12 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   const { data: cameras = [], isLoading } = useQuery({
     queryKey: ['cameras', stateId],
     queryFn: async () => {
+      const res = await fetch(import.meta.env.BASE_URL + 'data/cameras.db.json');
+      const db = await res.json() as CameraDB;
       if (stateId === 'all') {
-        const results = await Promise.all(
-          STATES.map(async (s) => {
-            const res = await fetch(import.meta.env.BASE_URL + s.dataFile);
-            const data = await res.json();
-            return s.parser(data).map((cam) => ({ ...cam, id: `${s.id}:${cam.id}` }));
-          }),
-        );
-        return results.flat();
+        return parseCameraDB(db);
       }
-      const res = await fetch(import.meta.env.BASE_URL + stateConfig.dataFile);
-      const data = await res.json();
-      return stateConfig.parser(data);
+      return parseCameraDB(db, stateId);
     },
     staleTime: Infinity,
   });
@@ -203,6 +197,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     mapPosition,
     layoutKey,
     userLocation,
+    setUserLocation,
     findClosest,
     toggleCamera,
     clearAll,

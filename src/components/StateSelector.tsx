@@ -5,10 +5,18 @@ import { autoUpdate, flip, offset, shift, useClick, useDismiss, useFloating, use
 import { ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 
-import { STATES } from '../lib/cameras';
+import { ALL_STATES_CONFIG, STATES } from '../lib/cameras';
 import { useTraffic } from '../lib/TrafficContext';
 
 const STATE_PATHS: Record<string, { viewBox: string; d: string }> = {
+  de: {
+    viewBox: '0 0 30 56',
+    d: 'M15.11 1.11 L11.33 6.0 L7.11 8.67 L8.0 15.11 L14.0 21.11 L15.56 31.11 L24.22 41.56 L28.22 42.0 L30.0 56.0 L3.78 55.56 L0.0 4.44 L6.89 0.0 L15.11 1.11 Z',
+  },
+  md: {
+    viewBox: '0 0 80 33',
+    d: 'M0.2 0.0 L66.68 0.0 L68.36 22.93 L80.0 23.13 L76.45 30.81 L73.69 31.11 L68.75 32.2 L64.91 33.0 L65.01 30.01 L63.53 28.81 L65.6 27.52 L62.84 24.53 L61.95 25.82 L58.2 25.52 L56.92 22.23 L58.1 22.23 L58.2 17.95 L59.38 16.25 L57.81 10.47 L59.78 7.08 L62.84 6.48 L63.33 2.99 L61.06 3.39 L60.96 5.18 L56.23 7.48 L54.85 9.57 L54.55 14.85 L52.77 17.35 L53.56 21.53 L55.93 24.43 L55.64 26.62 L57.11 28.81 L56.33 30.31 L52.18 27.42 L46.26 26.02 L44.49 23.23 L41.13 24.82 L39.85 22.63 L42.52 19.84 L44.09 16.95 L46.46 15.05 L44.19 13.26 L42.71 14.36 L40.35 12.66 L36.6 11.76 L36.6 9.07 L34.62 7.58 L31.86 7.28 L29.79 2.19 L26.73 2.19 L23.67 0.5 L22.0 1.89 L19.04 1.79 L18.35 3.79 L13.02 2.49 L9.47 5.18 L7.1 4.59 L3.55 7.68 L0.0 9.37 L0.2 0.0 Z',
+  },
   sc: {
     viewBox: '0 0 85 80',
     d: 'M68.24 46.080l0.32-0.72v-0.32l-0.32 0.32v0.72zM19.76 3.84l-0.24-0.32-0.64 0.8-4 0.88-1.040 1.040-5.84 1.28-3.2 3.36-0.8 2.16 2.96 2 1.92 2.24 2.96 0.8 2 5.52 1.84 2.32 0.56 1.68 4.8 3.68 1.52 3.2 1.84 0.72 2 2 0.16 2.16 1.36 1.12-0.16 0.88 1.2 0.96 0.16 1.040 4 2.32 0.32 2.16 1.52 3.52v2.24l3.36 2.8 1.12 3.2-0.48 2.48 1.36 2h1.2l1.84 1.040 1.68-4.16 0.16 0.8-0.72 1.84 2.32-2-1.84-2-1.12-4.32 1.2 0.96 0.48 2.56 1.28 1.12v-3.040h0.4l0.32 3.76 2.8-1.2 0.56-1.68-1.84 1.2 1.44-1.36-2.16-0.64 1.84-0.4-3.36-0.32 0.080-0.48h2.32l-0.16-0.88 2.48 1.68 0.48-1.12 0.56 0.96 2-1.52-0.88-1.28 1.36 1.12 2.72-0.8-0.24-0.72 1.2-0.16 1.2-0.96 0.16-0.72-1.68-0.8h0.64l-0.32-1.36h0.88l-0.24 1.040 1.36 0.8 3.84-3.12 0.32-0.4-0.64 0.4-0.32-0.4 0.64-1.52 1.040-0.48 0.48 0.88 1.68-0.4 0.32-0.96 1.2-0.88-0.72-0.96 1.040 0.64v-0.8l0.8 0.48 0.56-0.8-1.84-2.24 1.12-2.16 0.56-0.64-1.2 2.48 0.88 0.32 0.48 1.52 0.8-3.84 3.040-4.48 2.8-2.56 3.040-1.36-0.48-0.64 0.48-0.16-17.6-17.28-18-0.48-0.080-2.64-2.32-2.88-1.84 0.88-0.16-1.68z',
@@ -63,7 +71,7 @@ export function StateSelector() {
   const dismiss = useDismiss(context);
   const { getReferenceProps, getFloatingProps } = useInteractions([click, dismiss]);
 
-  const otherStates = STATES.filter((s) => s.id !== stateId);
+  const otherStates = [...STATES, ALL_STATES_CONFIG].filter((s) => s.id !== stateId).sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <>
@@ -75,6 +83,7 @@ export function StateSelector() {
           <button className="state-selector-option state-selector-option-active" onClick={() => setOpen(false)}>
             <StateRow id={stateId} name={stateConfig.name} count={stateConfig.cameraCount ?? 0} video={stateConfig.supportsVideo} active open />
           </button>
+          <div className="state-selector-sep" />
           {otherStates.map((s) => (
             <button
               key={s.id}

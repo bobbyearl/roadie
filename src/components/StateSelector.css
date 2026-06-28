@@ -44,3 +44,7 @@
 .state-selector-option-active {
   @apply bg-background cursor-default hover:bg-background;
 }
+.state-selector-sep {
+  @apply border-t border-border;
+  margin: var(--rd-space-xs) 0;
+}

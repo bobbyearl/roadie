@@ -1,7 +1,7 @@
 @reference "../styles.css";
 
 .feed-item {
-  @apply border border-border rounded-lg flex flex-col relative;
+  @apply border border-border rounded-lg flex flex-col relative overflow-visible;
 }
 .feed-media {
   @apply relative overflow-hidden;

@@ -3,7 +3,7 @@
 .header-bar {
   @apply border-b shrink-0 bg-muted relative;
   border-color: var(--color-border-strong);
-  box-shadow: 0 2px 4px -1px color-mix(in srgb, var(--color-black) 8%, transparent);
+  box-shadow: 0 3px 6px -1px color-mix(in srgb, var(--color-black) 12%, transparent);
 }
 .header-nav {
   @apply flex items-center justify-between;
@@ -31,13 +31,15 @@
 
 
 .header-tab {
-  @apply absolute left-2 z-30 flex items-center bg-muted border border-t-0 rounded-b-md;
-  gap: var(--rd-space-md);
-  padding: 0 var(--rd-space-sm) var(--rd-space-sm) var(--rd-space-sm);
+  @apply absolute z-10 flex items-center bg-muted border border-t-0 rounded-b-md;
+  gap: var(--rd-space-sm);
+  padding: 0 var(--rd-space-sm) var(--rd-space-xs) var(--rd-space-sm);
   border-color: var(--color-border-strong);
   color: var(--color-subtle);
   font-size: var(--rd-text-xs);
   top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
   clip-path: inset(0 0 100% 0);
   transition: clip-path 200ms ease-out;
   pointer-events: none;
@@ -156,4 +158,5 @@
     @apply shrink-0;
     font-size: initial;
   }
+
 }
