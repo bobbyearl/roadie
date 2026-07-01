@@ -15,14 +15,14 @@ interface CameraFeedProps {
   refreshInterval?: number;
 }
 
-export function CameraFeed({ camera, mode, onRemove, setDetailCam, index, refreshInterval = 0 }: CameraFeedProps) {
+export function CameraFeed({ camera, onRemove, setDetailCam, index, refreshInterval = 0 }: CameraFeedProps) {
   const [onFullscreen, setOnFullscreen] = useState<(() => void) | undefined>();
   const fullscreenRef = useCallback((fn: (() => void) | undefined) => setOnFullscreen(() => fn), []);
 
   return (
     <div className="feed-item">
       <CameraCard camera={camera} onRemove={onRemove} onDetail={() => setDetailCam(camera)} onFullscreen={onFullscreen} index={index}>
-        <CameraMedia camera={camera} mode={mode} refreshInterval={refreshInterval} onFullscreenRef={fullscreenRef} />
+        <CameraMedia camera={camera} refreshInterval={refreshInterval} onFullscreenRef={fullscreenRef} />
       </CameraCard>
     </div>
   );

@@ -10,6 +10,7 @@ export interface Camera {
   image_url: string;
   video_url: string;
   active: boolean;
+  hasVideo: boolean;
 }
 
 export interface StateConfig {
@@ -26,7 +27,7 @@ export interface CameraDB {
   states: string[];
   jurisdictions: string[];
   routes: string[];
-  cameras: Array<[number, number, string, number, string, number, number, string, string]>;
+  cameras: Array<[number, number, string, number, string, number, number, string, string, number]>;
 }
 
 function parseCameraDB(db: CameraDB, filterState?: string): Camera[] {
@@ -44,6 +45,7 @@ function parseCameraDB(db: CameraDB, filterState?: string): Camera[] {
       image_url: c[7],
       video_url: c[8],
       active: true,
+      hasVideo: c[9] === 1,
     }));
 }
 

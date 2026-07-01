@@ -5,17 +5,21 @@ import { useVideoPlayer } from '../lib/useVideoPlayer';
 
 interface CameraMediaProps {
   camera: Camera;
-  mode: string;
   refreshInterval?: number;
   onFullscreenRef?: (fn: (() => void) | undefined) => void;
 }
 
-export function CameraMedia({ camera, mode, refreshInterval = 0, onFullscreenRef }: CameraMediaProps) {
-  const effectiveMode = mode === 'video' && !camera.video_url && camera.image_url ? 'image'
-    : mode === 'image' && !camera.image_url && camera.video_url ? 'video'
-    : mode;
+export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef }: CameraMediaProps) {
+  const effectiveMode = camera.hasVideo ? 'video' : 'image';
   const { videoRef, videoKey, error, stalled, retryCount, retry, handleError, setError, attachHls } = useVideoPlayer(effectiveMode);
   const [imgTs, setImgTs] = useState(() => Date.now());
+
+  // Attach HLS only when video element mounts or videoKey changes
+  useEffect(() => {
+    if (effectiveMode === 'video' && videoRef.current) {
+      attachHls(videoRef.current, camera.video_url);
+    }
+  }, [videoKey, effectiveMode]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (onFullscreenRef) {
@@ -24,10 +28,10 @@ export function CameraMedia({ camera, mode, refreshInterval = 0, onFullscreenRef
   }, [effectiveMode, onFullscreenRef, videoRef]);
 
   useEffect(() => {
-    if (mode !== 'image' || !refreshInterval) { return; }
+    if (effectiveMode !== 'image' || !refreshInterval) { return; }
     const id = setInterval(() => setImgTs(Date.now()), refreshInterval * 1000);
     return () => clearInterval(id);
-  }, [mode, refreshInterval]);
+  }, [effectiveMode, refreshInterval]);
 
   const imgSrc = refreshInterval ? `${camera.image_url}${camera.image_url.includes('?') ? '&' : '?'}t=${imgTs}` : camera.image_url;
 
@@ -42,10 +46,7 @@ export function CameraMedia({ camera, mode, refreshInterval = 0, onFullscreenRef
         <>
           <video
             key={videoKey}
-            ref={(el) => {
-              (videoRef as React.MutableRefObject<HTMLVideoElement | null>).current = el;
-              if (el) { attachHls(el, camera.video_url); }
-            }}
+            ref={videoRef as React.RefObject<HTMLVideoElement | null>}
             autoPlay
             muted
             playsInline

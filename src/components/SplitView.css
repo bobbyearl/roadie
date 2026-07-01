@@ -17,15 +17,21 @@
 }
 .split-map-panel { @apply min-w-0 relative; }
 .split-handle {
-  @apply bg-border/50 cursor-col-resize shrink-0 flex items-center justify-center;
-  width: 0.375rem;
+  @apply cursor-col-resize shrink-0 flex items-center justify-center transition-colors;
+  width: 0.5rem;
   touch-action: none;
 }
+.split-handle:hover {
+  background: color-mix(in srgb, var(--color-foreground) 6%, transparent);
+}
 .split-handle-grip {
-  @apply rounded-full bg-muted-foreground/40 hover:bg-muted-foreground/70 transition-colors;
-  width: 0.25rem;
+  @apply rounded-full transition-opacity;
+  width: 0.2rem;
+  opacity: 0.25;
+  background: var(--color-muted-foreground);
   height: 2rem;
 }
+.split-handle:hover .split-handle-grip { @apply opacity-50; }
 .split-feeds-panel { @apply flex-1 overflow-auto min-w-0 relative; padding: var(--rd-space-sm); }
 .split-empty { @apply flex flex-col items-center justify-center h-full text-center; padding: 0 var(--rd-space-md); }
 .split-empty-title { @apply font-medium text-foreground; font-size: var(--rd-text-sm); margin-bottom: var(--rd-space-md); }

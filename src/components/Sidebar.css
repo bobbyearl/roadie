@@ -103,15 +103,29 @@
   padding-left: var(--rd-space-xl);
 }
 .camera-row {
-  @apply flex items-center cursor-pointer hover:bg-muted/50 text-foreground;
+  @apply flex items-center cursor-pointer hover:bg-muted transition-colors text-foreground;
   gap: var(--rd-space-sm);
   padding: var(--rd-space-xs) var(--rd-space-md);
-  padding-left: var(--rd-space-xl);
   font-size: var(--rd-text-sm);
+}
+.region-nested .region-cameras .camera-row {
+  padding-left: calc(var(--rd-space-md) + var(--rd-space-lg) + var(--rd-space-md));
 }
 .camera-row input[type='checkbox'] {
   @apply accent-primary;
 }
 .camera-row-label {
-  @apply truncate;
+  @apply flex-1 truncate;
 }
+
+.sidebar-curated {
+  @apply border-b border-border mb-1 pb-1;
+}
+.sidebar-curated-label {
+  @apply block text-xs font-medium text-muted-foreground uppercase tracking-wider px-3 py-1;
+}
+.sidebar-truncated {
+  @apply block text-xs text-muted-foreground italic px-3 py-1;
+}
+
+.region-nested .region-header { padding-left: calc(var(--rd-space-md) + var(--rd-space-lg)); }

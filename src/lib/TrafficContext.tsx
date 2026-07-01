@@ -75,19 +75,17 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   const stateConfig = getStateConfig(stateId);
 
   const { data: cameras = [], isLoading } = useQuery({
-    queryKey: ['cameras', stateId],
+    queryKey: ['cameras'],
     queryFn: async () => {
       const res = await fetch(import.meta.env.BASE_URL + 'data/cameras.db.json');
       const db = await res.json() as CameraDB;
-      if (stateId === 'all') {
-        return parseCameraDB(db);
-      }
-      return parseCameraDB(db, stateId);
+      return parseCameraDB(db);
     },
     staleTime: Infinity,
   });
 
   const { grid: cardSize, density, mode: prefsMode, sw: splitWidth, sh: splitHeight, showMap, showList } = prefs;
+  // Use video if any state in view supports it, otherwise image
   const mode = stateConfig.supportsVideo ? prefsMode : 'image';
   const sidebarTab = params.tab ?? 'routes';
   const sidebarOpen = params.panel === '1';
@@ -105,7 +103,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
 
   const activeRouteName = useMemo(() => {
     const joined = [...selectedIds].sort().join(',');
-    return CURATED_ROUTES.find((r) => [...r.ids].sort().join(',') === joined)?.name;
+    return CURATED_ROUTES.find((r) => r.ids.map((id) => `sc:${id}`).sort().join(',') === joined)?.name;
   }, [selectedIds]);
 
   const setSelected = (ids: Set<string>) =>

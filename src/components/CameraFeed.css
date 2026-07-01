@@ -33,3 +33,11 @@
   font-size: 0.625rem;
   padding: var(--rd-space-xs) var(--rd-space-sm);
 }
+
+.feed-mode-badge {
+  @apply absolute bottom-1 left-1 z-10 rounded px-1;
+  font-size: 0.6rem;
+  line-height: 1;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2px 4px;
+}

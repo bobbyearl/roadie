@@ -113,7 +113,8 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
     const cardH = cardWidthPx * 0.75 + 50;
 
     // Only fitBounds on initial selection, not manual re-layout
-    if (!isManualLayout) {
+    // Skip in split/both view (markersOnly) - list handles camera display, don't move map
+    if (!isManualLayout && !markersOnly) {
       // Skip fitBounds if URL already has a map position (user is restoring a shared/bookmarked view)
       if (mapPosition && !prevSelectedRef.current.size) {
         prevSelectedRef.current = new Set(selectedIds);
@@ -427,9 +428,13 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
     );
   };
 
-  // Pan to show user location + closest camera when findClosest triggers
+  // Pan to show user location + closest camera when findClosest/locate triggers
+  const prevUserLocation = useRef(userLocation);
   useEffect(() => {
     if (!map || !userLocation) { return; }
+    // Only act when userLocation actually changed (not on every selectedCameras update)
+    if (prevUserLocation.current === userLocation && markersOnly) { return; }
+    prevUserLocation.current = userLocation;
     if (selectedCameras.length > 0) {
       const bounds = new google.maps.LatLngBounds();
       bounds.extend(userLocation);
@@ -439,7 +444,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       map.panTo(userLocation);
       map.setZoom(12);
     }
-  }, [map, userLocation, selectedCameras]);
+  }, [map, userLocation, selectedCameras, markersOnly]);
 
   return (
     <div className="map-wrapper">
@@ -508,7 +513,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
                     index={selectionIndex.get(cam.id)}
                     headerLeft={<div className="map-feed-drag" onPointerDown={(e) => onPointerDown(e, cam.id)}><GripVertical size={12} /></div>}
                   >
-                    <CameraMedia camera={cam} mode={mode} />
+                    <CameraMedia camera={cam} />
                   </CameraCard>
                 </div>
               </div>

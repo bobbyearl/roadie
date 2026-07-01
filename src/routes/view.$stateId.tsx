@@ -39,7 +39,7 @@ export function EmptyState({ stateId, cameras, selectRoute, toggleCamera, onBrow
           <p className="empty-map-hint empty-route-hint">Try a Curated Route or <a className="empty-browse" href={`https://github.com/bobbyearl/roadie/issues/new?title=Route+request:+${stateId.toUpperCase()}&labels=route-request`} target="_blank" rel="noopener">Request Curated Route</a></p>
           <div className="quick-routes">
             {CURATED_ROUTES.map((route) => (
-              <button key={route.name} className="quick-route-btn" onClick={() => selectRoute(route.ids)}>
+              <button key={route.name} className="quick-route-btn" onClick={() => selectRoute(route.ids.map((id) => `sc:${id}`))}>
                 {route.name} <span className="quick-route-count">{route.ids.length}</span>
               </button>
             ))}
