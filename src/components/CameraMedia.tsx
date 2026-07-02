@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import { type Camera } from '../lib/cameras';
+import { useTraffic } from '../lib/TrafficContext';
 import { useVideoPlayer } from '../lib/useVideoPlayer';
 
 interface CameraMediaProps {
@@ -10,7 +11,8 @@ interface CameraMediaProps {
 }
 
 export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef }: CameraMediaProps) {
-  const effectiveMode = camera.hasVideo ? 'video' : 'image';
+  const { mode } = useTraffic();
+  const effectiveMode = mode === 'image' ? 'image' : (camera.hasVideo ? 'video' : 'image');
   const { videoRef, videoKey, error, stalled, retryCount, retry, handleError, setError, attachHls } = useVideoPlayer(effectiveMode);
   const [imgTs, setImgTs] = useState(() => Date.now());
 

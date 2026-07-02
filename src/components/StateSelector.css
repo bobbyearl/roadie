@@ -1,7 +1,10 @@
 @reference "../styles.css";
 
 .state-selector-trigger {
-  @apply flex items-center cursor-pointer whitespace-nowrap transition-colors rounded-md border border-border bg-background hover:border-foreground/20;
+  @apply cursor-pointer whitespace-nowrap transition-colors rounded-md border border-border bg-background hover:border-foreground/20;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
   gap: var(--rd-space-sm);
   padding: var(--rd-space-xs) var(--rd-space-sm);
   font-size: var(--rd-text-sm);
@@ -26,20 +29,23 @@
 .state-row-name {
   @apply font-semibold;
 }
-.state-row-meta {
-  @apply text-muted-foreground;
-  font-size: var(--rd-text-xs);
-}
 
 .state-selector-dropdown {
   @apply z-50 bg-background border border-border rounded-md shadow-lg overflow-hidden;
 }
 .state-selector-option {
-  @apply flex items-center w-full text-left cursor-pointer hover:bg-muted transition-colors whitespace-nowrap;
+  @apply w-full text-left cursor-pointer hover:bg-muted transition-colors whitespace-nowrap;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
   gap: var(--rd-space-sm);
   padding: var(--rd-space-xs) var(--rd-space-sm);
   font-size: var(--rd-text-sm);
   color: var(--color-foreground);
+}
+.state-row-meta {
+  @apply text-muted-foreground text-right;
+  font-size: var(--rd-text-xs);
 }
 .state-selector-option-active {
   @apply bg-background cursor-default hover:bg-background;

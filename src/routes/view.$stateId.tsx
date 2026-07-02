@@ -7,6 +7,7 @@ import { CameraFeed } from '../components/CameraFeed';
 import { DetailModal } from '../components/DetailModal';
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
+import { Toolbar } from '../components/Toolbar';
 import { Sidebar } from '../components/Sidebar';
 import { SplitView } from '../components/SplitView';
 import { type Camera } from '../lib/cameras';
@@ -66,6 +67,7 @@ export function Home() {
   return (
     <div className={`page ${density === 'compact' ? 'density-compact' : ''}`}>
       <Header sidebarOpen={sidebarOpen} onSidebarToggle={() => setSidebarOpen(!sidebarOpen)} />
+      <Toolbar />
       <div className="layout">
         <div className="main">
           <div className={`viewer-area ${showMap ? 'viewer-area-split' : ''}`}>

@@ -448,9 +448,6 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
 
   return (
     <div className="map-wrapper">
-      <button className="map-locate-btn" onClick={handleLocate} title="Find my location">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/></svg>
-      </button>
       <GoogleMap
       defaultCenter={getStateConfig(stateId).defaultCenter}
       defaultZoom={getStateConfig(stateId).defaultZoom}
