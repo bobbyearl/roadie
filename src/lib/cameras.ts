@@ -53,6 +53,14 @@ export { parseCameraDB };
 
 export const STATES: StateConfig[] = [
   {
+    id: 'al',
+    name: 'Alabama',
+    defaultCenter: { lat: 32.8, lng: -86.8 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 630,
+  },
+  {
     id: 'de',
     name: 'Delaware',
     defaultCenter: { lat: 39.0, lng: -75.5 },
@@ -115,6 +123,14 @@ export const STATES: StateConfig[] = [
     defaultZoom: 8,
     supportsVideo: true,
     cameraCount: 760,
+  },
+  {
+    id: 'tn',
+    name: 'Tennessee',
+    defaultCenter: { lat: 35.8, lng: -86.0 },
+    defaultZoom: 7,
+    supportsVideo: true,
+    cameraCount: 667,
   },
   {
     id: 'va',

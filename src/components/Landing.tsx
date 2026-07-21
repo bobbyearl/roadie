@@ -132,6 +132,7 @@ export function Landing() {
           Camera feeds provided by state departments of transportation. This app is not affiliated with or endorsed by any government agency.
         </p>
         <div className="attribution-links">
+          <a href="https://algotraffic.com" target="_blank" rel="noopener">ALGO Traffic (AL)</a>
           <a href="https://tmc.deldot.gov" target="_blank" rel="noopener">DelDOT</a>
           <a href="https://fl511.com" target="_blank" rel="noopener">FL 511</a>
           <a href="https://511ga.org" target="_blank" rel="noopener">GA 511</a>
@@ -140,6 +141,7 @@ export function Landing() {
           <a href="https://www.511nj.org" target="_blank" rel="noopener">NJ 511</a>
           <a href="https://www.511pa.com" target="_blank" rel="noopener">PA 511</a>
           <a href="https://www.511sc.org" target="_blank" rel="noopener">SC 511</a>
+          <a href="https://smartway.tn.gov" target="_blank" rel="noopener">TN SmartWay</a>
           <a href="https://www.511virginia.org" target="_blank" rel="noopener">VA 511</a>
         </div>
       </section>
