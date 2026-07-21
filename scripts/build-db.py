@@ -1,0 +1,358 @@
+#!/usr/bin/env python3
+"""
+Build cameras.db.json from raw data source files.
+
+Usage:
+    python3 scripts/build-db.py
+
+Output:
+    public/data/cameras.db.json
+
+Each state has a parser function that normalizes its raw data into a common
+intermediate format, which is then compressed into the final DB structure.
+"""
+
+import json
+import os
+import sys
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "data-sources")
+OUTPUT = os.path.join(SCRIPT_DIR, "..", "public", "data", "cameras.db.json")
+
+# States that have working video (HLS streams confirmed accessible without DRM)
+VIDEO_STATES = {"sc", "va", "de", "md", "nj", "tn"}
+
+
+def parse_sc():
+    """South Carolina - GeoJSON from sc.cdn.iteris-atis.com"""
+    with open(os.path.join(DATA_DIR, "cameras.geojson")) as f:
+        data = json.load(f)
+
+    cameras = []
+    for feat in data["features"]:
+        props = feat["properties"]
+        coords = feat["geometry"]["coordinates"]
+        cameras.append({
+            "id": props["id"],
+            "name": props.get("description") or props.get("name", ""),
+            "route": props.get("route", ""),
+            "jurisdiction": props.get("jurisdiction", ""),
+            "lat": coords[1],
+            "lng": coords[0],
+            "image_url": f"https://scdotsnap.us-east-1.skyvdn.com/thumbs/{props['name']}.flv.png",
+            "video_url": props.get("ios_url", ""),
+        })
+    return cameras
+
+
+def parse_va():
+    """Virginia - GeoJSON from 511.vdot.virginia.gov"""
+    with open(os.path.join(DATA_DIR, "va.geojson")) as f:
+        data = json.load(f)
+
+    cameras = []
+    for feat in data["features"]:
+        props = feat["properties"]
+        coords = feat["geometry"]["coordinates"]
+        cameras.append({
+            "id": props["id"],
+            "name": props.get("description") or props.get("name", ""),
+            "route": props.get("route", ""),
+            "jurisdiction": props.get("jurisdiction", ""),
+            "lat": coords[1],
+            "lng": coords[0],
+            "image_url": props.get("image_url", ""),
+            "video_url": props.get("ios_url", "") or props.get("video_url", ""),
+        })
+    return cameras
+
+
+def parse_nc():
+    """North Carolina - pre-normalized JSON from drivenc.gov"""
+    with open(os.path.join(DATA_DIR, "nc.json")) as f:
+        data = json.load(f)
+    return data  # Already in standard format
+
+
+def parse_ga():
+    """Georgia - pre-normalized JSON from 511ga.org"""
+    with open(os.path.join(DATA_DIR, "ga.json")) as f:
+        data = json.load(f)
+    return data  # Already in standard format
+
+
+def parse_md():
+    """Maryland - pre-normalized JSON from chart.maryland.gov"""
+    with open(os.path.join(DATA_DIR, "md.json")) as f:
+        data = json.load(f)
+    return data  # Already in standard format
+
+
+def parse_de():
+    """Delaware - pre-normalized JSON from deldot.gov"""
+    with open(os.path.join(DATA_DIR, "de.json")) as f:
+        data = json.load(f)
+    return data  # Already in standard format
+
+
+def parse_fl():
+    """Florida - 511 platform JSON from fl511.com"""
+    with open(os.path.join(DATA_DIR, "fl.json")) as f:
+        data = json.load(f)
+
+    cameras = []
+    for cam in data["data"]:
+        cam_id = cam["DT_RowId"]
+
+        # Coords in WKT format: "POINT (-81.580975 28.292213)"
+        lat, lng = 0, 0
+        try:
+            wkt = cam["latLng"]["geography"]["wellKnownText"]
+            # POINT (lng lat)
+            coords = wkt.replace("POINT (", "").replace(")", "").split()
+            lng = float(coords[0])
+            lat = float(coords[1])
+        except (KeyError, TypeError, IndexError, ValueError):
+            pass
+
+        # Name from location field or image description
+        name = cam.get("location", "")
+        if not name and cam.get("images"):
+            name = cam["images"][0].get("description", "").replace("_", " ").strip()
+        if not name:
+            name = f"Camera {cam_id}"
+
+        image_url = f"https://fl511.com/map/Cctv/{cam_id}"
+        cameras.append({
+            "id": cam_id,
+            "name": name,
+            "route": cam.get("roadway", ""),
+            "jurisdiction": cam.get("county", ""),
+            "lat": lat,
+            "lng": lng,
+            "image_url": image_url,
+            "video_url": "",
+        })
+    return cameras
+
+
+def parse_nj():
+    """New Jersey - 511 API JSON from 511nj.org"""
+    with open(os.path.join(DATA_DIR, "nj.json")) as f:
+        data = json.load(f)
+
+    cameras = []
+    for cam in data["data"]:
+        video_url = ""
+        image_url = ""
+        if cam.get("cameraMainDetail"):
+            for detail in cam["cameraMainDetail"]:
+                if detail.get("camera_use_flag") == "HLS":
+                    video_url = detail.get("url", "")
+                elif detail.get("camera_type") == "Image":
+                    image_url = detail.get("url", "")
+
+        cameras.append({
+            "id": str(cam["id"]),
+            "name": cam.get("name", f"Camera {cam['id']}"),
+            "route": cam.get("name", "").split(" @ ")[0] if " @ " in cam.get("name", "") else "",
+            "jurisdiction": cam.get("deviceDescription", ""),
+            "lat": float(cam.get("latitude", 0)),
+            "lng": float(cam.get("longitude", 0)),
+            "image_url": image_url,
+            "video_url": video_url,
+        })
+    return cameras
+
+
+def parse_pa():
+    """Pennsylvania - 511 platform JSON from 511pa.com"""
+    with open(os.path.join(DATA_DIR, "pa.json")) as f:
+        data = json.load(f)
+
+    cameras = []
+    for cam in data["data"]:
+        cam_id = cam["DT_RowId"]
+
+        # Coords in WKT format: "POINT (lng lat)"
+        lat, lng = 0, 0
+        try:
+            wkt = cam["latLng"]["geography"]["wellKnownText"]
+            coords = wkt.replace("POINT (", "").replace(")", "").split()
+            lng = float(coords[0])
+            lat = float(coords[1])
+        except (KeyError, TypeError, IndexError, ValueError):
+            pass
+
+        # Name from location field or image description
+        name = cam.get("location", "")
+        if not name and cam.get("images"):
+            name = cam["images"][0].get("description", "").replace("_", " ").strip()
+        if not name:
+            name = f"Camera {cam_id}"
+
+        image_url = f"https://www.511pa.com/map/Cctv/{cam_id}"
+        cameras.append({
+            "id": cam_id,
+            "name": name,
+            "route": cam.get("roadway", ""),
+            "jurisdiction": cam.get("county", ""),
+            "lat": lat,
+            "lng": lng,
+            "image_url": image_url,
+            "video_url": "",
+        })
+    return cameras
+
+
+def parse_al():
+    """Alabama - REST API from api.algotraffic.com"""
+    with open(os.path.join(DATA_DIR, "al.json")) as f:
+        data = json.load(f)
+
+    cameras = []
+    for cam in data:
+        loc = cam.get("location", {})
+        route = loc.get("displayRouteDesignator", "")
+        direction = loc.get("direction", "")
+        cross = loc.get("displayCrossStreet", "")
+        name = f"{route} {direction} @ {cross}".strip() if cross else f"{route} {direction}".strip()
+
+        video_url = ""
+        playback = cam.get("playbackUrls", {})
+        if playback:
+            video_url = playback.get("hls", "")
+
+        image_url = f"https://api.algotraffic.com/v4/Cameras/{cam['id']}/snapshot.jpg"
+
+        cameras.append({
+            "id": str(cam["id"]),
+            "name": name,
+            "route": route,
+            "jurisdiction": loc.get("county", ""),
+            "lat": loc.get("latitude", 0),
+            "lng": loc.get("longitude", 0),
+            "image_url": image_url,
+            "video_url": video_url,
+        })
+    return cameras
+
+
+def parse_tn():
+    """Tennessee - TDOT OpenData API (same SkyVDN infrastructure as SC, no DRM)"""
+    with open(os.path.join(DATA_DIR, "tn.json")) as f:
+        data = json.load(f)
+
+    cameras = []
+    for cam in data:
+        if cam.get("active") != "true":
+            continue
+
+        cameras.append({
+            "id": str(cam["id"]),
+            "name": cam.get("title", cam.get("description", f"Camera {cam['id']}")),
+            "route": cam.get("route", ""),
+            "jurisdiction": cam.get("jurisdiction", ""),
+            "lat": cam.get("lat", 0),
+            "lng": cam.get("lng", 0),
+            "image_url": cam.get("thumbnailUrl", ""),
+            "video_url": cam.get("httpsVideoUrl", ""),
+        })
+    return cameras
+
+
+# State registry: (state_id, parser_function)
+# Order here determines the state index in the DB
+STATES = [
+    ("al", parse_al),
+    ("de", parse_de),
+    ("fl", parse_fl),
+    ("ga", parse_ga),
+    ("md", parse_md),
+    ("nc", parse_nc),
+    ("nj", parse_nj),
+    ("pa", parse_pa),
+    ("sc", parse_sc),
+    ("tn", parse_tn),
+    ("va", parse_va),
+]
+
+
+def build_db():
+    """Build the compressed camera database."""
+    states = []
+    jurisdictions = []
+    routes = []
+    cameras = []
+
+    jurisdiction_idx = {}
+    route_idx = {}
+
+    for state_id, parser in STATES:
+        print(f"  Parsing {state_id}...", end=" ")
+        state_cameras = parser()
+        state_index = len(states)
+        states.append(state_id)
+
+        has_video = state_id in VIDEO_STATES
+
+        for cam in state_cameras:
+            # Skip cameras without coordinates
+            if not cam.get("lat") or not cam.get("lng"):
+                continue
+
+            # Get or create jurisdiction index
+            j = cam.get("jurisdiction", "")
+            if j not in jurisdiction_idx:
+                jurisdiction_idx[j] = len(jurisdictions)
+                jurisdictions.append(j)
+            j_idx = jurisdiction_idx[j]
+
+            # Get or create route index
+            r = cam.get("route", "")
+            if r not in route_idx:
+                route_idx[r] = len(routes)
+                routes.append(r)
+            r_idx = route_idx[r]
+
+            # Determine hasVideo: state supports video AND this camera has a video_url
+            cam_has_video = 1 if (has_video and cam.get("video_url")) else 0
+
+            cameras.append([
+                round(cam["lat"], 5),
+                round(cam["lng"], 5),
+                cam["id"],
+                state_index,
+                cam["name"],
+                r_idx,
+                j_idx,
+                cam.get("image_url", ""),
+                cam.get("video_url", "") if cam_has_video else "",
+                cam_has_video,
+            ])
+
+        print(f"{len(state_cameras)} cameras")
+
+    db = {
+        "states": states,
+        "jurisdictions": jurisdictions,
+        "routes": routes,
+        "cameras": cameras,
+    }
+
+    os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
+    with open(OUTPUT, "w") as f:
+        json.dump(db, f, separators=(",", ":"))
+
+    size_mb = os.path.getsize(OUTPUT) / 1024 / 1024
+    print(f"\n  Output: {OUTPUT}")
+    print(f"  States: {len(states)}")
+    print(f"  Cameras: {len(cameras)}")
+    print(f"  Size: {size_mb:.2f} MB")
+
+
+if __name__ == "__main__":
+    print("Building cameras.db.json...")
+    build_db()
+    print("Done!")
