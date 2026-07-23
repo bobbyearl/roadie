@@ -13,6 +13,10 @@ const STATE_PATHS: Record<string, { viewBox: string; d: string }> = {
     viewBox: '0 0 40 80',
     d: 'M0.8 0 L32 0 L36 5 L38 12 L39 20 L38.5 28 L38 36 L39 44 L39.5 52 L38.5 60 L39 64 L39.5 68 L40 72 L32 72 L28 74 L26 76 L23 78 L20 80 L14 79 L12 76 L10 72 L0 72 L0 0 Z',
   },
+  ct: {
+    viewBox: '0 0 50 40',
+    d: 'M5 0 L50 0 L50 8 L48 10 L50 12 L48 32 L42 34 L38 40 L32 38 L28 40 L22 36 L16 38 L10 34 L4 36 L0 32 L0 8 L5 0 Z',
+  },
   de: {
     viewBox: '0 0 30 56',
     d: 'M15.11 1.11 L11.33 6.0 L7.11 8.67 L8.0 15.11 L14.0 21.11 L15.56 31.11 L24.22 41.56 L28.22 42.0 L30.0 56.0 L3.78 55.56 L0.0 4.44 L6.89 0.0 L15.11 1.11 Z',
@@ -69,11 +73,11 @@ export function StateIcon({ id }: { id: string }) {
   );
 }
 
-function StateRow({ id, count, video, active, open }: { id: string; name?: string; count: number; video: boolean; active?: boolean; open?: boolean }) {
+function StateRow({ id, count, video, active, open, offline }: { id: string; name?: string; count: number; video: boolean; active?: boolean; open?: boolean; offline?: boolean }) {
   return (
     <>
-      <span className="state-row-name">{id.toUpperCase()}</span>
-      <span className="state-row-meta">{count} {video ? 'Videos' : 'Images'}</span>
+      <span className={`state-row-name ${offline ? 'state-row-offline' : ''}`}>{id.toUpperCase()}</span>
+      <span className="state-row-meta">{offline ? 'Offline' : `${count} ${video ? 'Videos' : 'Images'}`}</span>
       {active && <ChevronDown size={12} className={`state-selector-caret ${open ? 'state-selector-caret-open' : ''}`} />}
     </>
   );
@@ -95,7 +99,8 @@ export function StateSelector() {
   const dismiss = useDismiss(context);
   const { getReferenceProps, getFloatingProps } = useInteractions([click, dismiss]);
 
-  const otherStates = [...STATES, ALL_STATES_CONFIG].filter((s) => s.id !== stateId).sort((a, b) => a.name.localeCompare(b.name));
+  const otherStates = STATES.filter((s) => s.id !== stateId).sort((a, b) => a.name.localeCompare(b.name));
+  const showAll = stateId !== 'all';
 
   return (
     <>
@@ -108,13 +113,21 @@ export function StateSelector() {
             <StateRow id={stateId} name={stateConfig.name} count={stateConfig.cameraCount ?? 0} video={stateConfig.supportsVideo} active open />
           </button>
           <div className="state-selector-sep" />
+          {showAll && (
+            <button
+              className="state-selector-option"
+              onClick={() => { setState('all'); setOpen(false); }}
+            >
+              <StateRow id="all" name={ALL_STATES_CONFIG.name} count={ALL_STATES_CONFIG.cameraCount ?? 0} video={ALL_STATES_CONFIG.supportsVideo} />
+            </button>
+          )}
           {otherStates.map((s) => (
             <button
               key={s.id}
               className="state-selector-option"
               onClick={() => { setState(s.id); setOpen(false); }}
             >
-              <StateRow id={s.id} name={s.name} count={s.cameraCount ?? 0} video={s.supportsVideo} />
+              <StateRow id={s.id} name={s.name} count={s.cameraCount ?? 0} video={s.supportsVideo} offline={s.offline} />
             </button>
           ))}
         </div>

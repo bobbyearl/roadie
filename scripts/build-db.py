@@ -21,7 +21,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "data-sources")
 OUTPUT = os.path.join(SCRIPT_DIR, "..", "public", "data", "cameras.db.json")
 
 # States that have working video (HLS streams confirmed accessible without DRM)
-VIDEO_STATES = {"sc", "va", "de", "md", "nj", "tn"}
+VIDEO_STATES = {"sc", "va", "de", "md", "tn"}
 
 
 def parse_sc():
@@ -244,6 +244,44 @@ def parse_ut():
     return cameras
 
 
+def parse_ct():
+    """Connecticut - 511 platform JSON from ctroads.org (same as FL/PA/UT)"""
+    with open(os.path.join(DATA_DIR, "ct.json")) as f:
+        data = json.load(f)
+
+    cameras = []
+    for cam in data["data"]:
+        cam_id = cam["DT_RowId"]
+
+        # Coords in WKT format: "POINT (lng lat)"
+        lat, lng = 0, 0
+        try:
+            wkt = cam["latLng"]["geography"]["wellKnownText"]
+            coords = wkt.replace("POINT (", "").replace(")", "").split()
+            lng = float(coords[0])
+            lat = float(coords[1])
+        except (KeyError, TypeError, IndexError, ValueError):
+            pass
+
+        # Name from location field
+        name = cam.get("location", "")
+        if not name:
+            name = f"Camera {cam_id}"
+
+        image_url = f"https://ctroads.org/map/Cctv/{cam_id}"
+        cameras.append({
+            "id": cam_id,
+            "name": name,
+            "route": cam.get("roadway", ""),
+            "jurisdiction": cam.get("city", ""),
+            "lat": lat,
+            "lng": lng,
+            "image_url": image_url,
+            "video_url": "",
+        })
+    return cameras
+
+
 def parse_al():
     """Alabama - REST API from api.algotraffic.com"""
     with open(os.path.join(DATA_DIR, "al.json")) as f:
@@ -304,6 +342,7 @@ def parse_tn():
 # Order here determines the state index in the DB
 STATES = [
     ("al", parse_al),
+    ("ct", parse_ct),
     ("de", parse_de),
     ("fl", parse_fl),
     ("ga", parse_ga),

@@ -45,7 +45,7 @@ function ToolbarButton({ icon: Icon, label, active, onClick, disabled }: {
 }
 
 export function Toolbar() {
-  const { showMap, showList, cardSize, toggleMap, toggleList, setGrid, setUserLocation, mode, setMode, selectedCameras, clearAll } = useTraffic();
+  const { showMap, showList, cardSize, toggleMap, toggleList, setGrid, setUserLocation, mode, setMode, selectedCameras, clearAll, isLoading } = useTraffic();
   const forceImages = mode === 'image';
 
   const handleLocate = () => {
@@ -58,8 +58,12 @@ export function Toolbar() {
   return (
     <div className="toolbar">
       <div className="toolbar-selected">
-        <span className="toolbar-selected-count">{selectedCameras.length} selected</span>
-        <button className="toolbar-selected-clear" onClick={clearAll} disabled={selectedCameras.length === 0}><Trash2 size={14} /></button>
+        {isLoading ? (
+          <span className="toolbar-loading">Loading cameras...</span>
+        ) : (
+          <span className="toolbar-selected-count">{selectedCameras.length} selected</span>
+        )}
+        <button className="toolbar-selected-clear" onClick={clearAll} disabled={selectedCameras.length === 0 || isLoading}><Trash2 size={14} /></button>
       </div>
       <div className="toolbar-actions">
         <ToolbarButton icon={Locate} label="Locate me" onClick={handleLocate} />
