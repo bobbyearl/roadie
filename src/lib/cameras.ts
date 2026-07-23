@@ -20,6 +20,7 @@ export interface StateConfig {
   defaultZoom: number;
   supportsVideo: boolean;
   cameraCount: number;
+  offline?: boolean;
 }
 
 // Raw database format from cameras.db.json
@@ -59,6 +60,14 @@ export const STATES: StateConfig[] = [
     defaultZoom: 7,
     supportsVideo: false,
     cameraCount: 630,
+  },
+  {
+    id: 'ct',
+    name: 'Connecticut',
+    defaultCenter: { lat: 41.6, lng: -72.7 },
+    defaultZoom: 9,
+    supportsVideo: false,
+    cameraCount: 347,
   },
   {
     id: 'de',
@@ -105,8 +114,9 @@ export const STATES: StateConfig[] = [
     name: 'New Jersey',
     defaultCenter: { lat: 40.2, lng: -74.7 },
     defaultZoom: 8,
-    supportsVideo: true,
+    supportsVideo: false,
     cameraCount: 484,
+    offline: true,
   },
   {
     id: 'pa',

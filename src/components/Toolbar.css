@@ -42,3 +42,14 @@
   @apply z-50 bg-foreground text-background rounded px-2 py-1 whitespace-nowrap pointer-events-none;
   font-size: 0.6875rem;
 }
+
+.toolbar-loading {
+  font-size: 0.75rem;
+  color: var(--color-muted-foreground);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}

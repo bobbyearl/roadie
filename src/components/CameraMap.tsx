@@ -288,10 +288,12 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
 
   useEffect(() => {
     if (!map || cameras.length === 0) { return; }
+    let stale = false;
 
     const run = async () => {
       if (!deckModulesRef.current) {
         const [gm, layers] = await Promise.all([import('@deck.gl/google-maps'), import('@deck.gl/layers')]);
+        if (stale) { return; }
         deckModulesRef.current = { GoogleMapsOverlay: gm.GoogleMapsOverlay, ScatterplotLayer: layers.ScatterplotLayer };
       }
       const { GoogleMapsOverlay, ScatterplotLayer } = deckModulesRef.current;
@@ -344,6 +346,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       }
     };
     run();
+    return () => { stale = true; };
   }, [map, cameras, resolvedTheme, userLocation]);
 
   // Hide/show deck.gl layers during split resize to prevent flicker

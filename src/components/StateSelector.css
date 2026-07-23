@@ -54,3 +54,8 @@
   @apply border-t border-border;
   margin: var(--rd-space-xs) 0;
 }
+
+.state-row-offline {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
