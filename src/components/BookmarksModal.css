@@ -1,0 +1,93 @@
+@reference "../styles.css";
+
+/* Bookmarks modal */
+.bookmarks-overlay {
+  @apply fixed inset-0 z-50 flex items-center justify-center;
+  background: color-mix(in srgb, var(--color-black) 50%, transparent);
+  backdrop-filter: blur(2px);
+}
+.bookmarks-modal {
+  @apply bg-background border border-border rounded-xl shadow-2xl;
+  width: 28rem;
+  max-width: calc(100vw - 2rem);
+  max-height: calc(100vh - 4rem);
+  overflow: auto;
+}
+.bookmarks-modal-header {
+  @apply flex items-center justify-between border-b border-border;
+  padding: var(--rd-space-lg);
+}
+.bookmarks-modal-header h2 {
+  @apply font-semibold text-foreground;
+  font-size: var(--rd-text-base);
+  margin: 0;
+}
+.bookmarks-modal-close {
+  @apply text-muted-foreground hover:text-foreground cursor-pointer bg-transparent border-0;
+}
+
+.bookmarks-save-section {
+  @apply border-t border-border;
+  padding: var(--rd-space-lg);
+}
+.bookmarks-save-label {
+  @apply text-muted-foreground;
+  font-size: var(--rd-text-xs);
+  margin: 0 0 var(--rd-space-sm) 0;
+}
+.bookmarks-save-row {
+  @apply flex items-center;
+  gap: var(--rd-space-sm);
+}
+.bookmarks-save-input {
+  @apply flex-1 border border-border rounded-md bg-background text-foreground;
+  padding: var(--rd-space-xs) var(--rd-space-sm);
+  font-size: var(--rd-text-sm);
+  outline: none;
+}
+.bookmarks-save-input:focus {
+  border-color: var(--color-accent-marker);
+}
+.bookmarks-save-btn {
+  @apply border border-border rounded-md bg-foreground/5 text-foreground hover:bg-foreground/10 cursor-pointer;
+  padding: var(--rd-space-xs) var(--rd-space-md);
+  font-size: var(--rd-text-sm);
+}
+.bookmarks-save-btn:disabled {
+  @apply opacity-40 pointer-events-none;
+}
+
+.bookmarks-list {
+  padding: var(--rd-space-sm) 0;
+}
+.bookmarks-list-item {
+  @apply flex items-center;
+  padding: 0 var(--rd-space-lg);
+}
+.bookmarks-list-load {
+  @apply flex-1 flex items-center justify-between text-left text-foreground hover:bg-foreground/5 cursor-pointer bg-transparent border-0 rounded-md;
+  padding: var(--rd-space-sm) var(--rd-space-sm);
+  font-size: var(--rd-text-sm);
+}
+.bookmarks-list-name {
+  @apply truncate;
+}
+.bookmarks-list-count {
+  @apply text-muted-foreground shrink-0;
+  font-size: var(--rd-text-xs);
+}
+.bookmarks-list-delete {
+  @apply text-muted-foreground hover:text-red-500 cursor-pointer bg-transparent border-0 shrink-0;
+  padding: var(--rd-space-xs);
+}
+.bookmarks-empty {
+  @apply text-muted-foreground;
+  padding: var(--rd-space-md) var(--rd-space-lg);
+  font-size: var(--rd-text-xs);
+}
+
+.bookmarks-notice {
+  @apply text-muted-foreground font-normal;
+  font-size: var(--rd-text-xs);
+  margin-left: var(--rd-space-sm);
+}

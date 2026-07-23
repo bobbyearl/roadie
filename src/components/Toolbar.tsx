@@ -1,7 +1,7 @@
 import './Toolbar.css';
 
 import { autoUpdate, offset, useFloating, useHover, useInteractions } from '@floating-ui/react';
-import { Car, Grid2x2, Grid3x3, ImageIcon, LayoutGrid, MapIcon, List, Locate, Trash2 } from 'lucide-react';
+import { Bookmark, Car, Grid2x2, Grid3x3, ImageIcon, LayoutGrid, MapIcon, List, Locate, Trash2 } from 'lucide-react';
 import { useState } from 'react';
 
 import { useTraffic } from '../lib/TrafficContext';
@@ -45,7 +45,7 @@ function ToolbarButton({ icon: Icon, label, active, onClick, disabled }: {
 }
 
 export function Toolbar() {
-  const { showMap, showList, cardSize, toggleMap, toggleList, setGrid, setUserLocation, mode, setMode, selectedCameras, clearAll, isLoading, autoPilot } = useTraffic();
+  const { showMap, showList, cardSize, toggleMap, toggleList, setGrid, setUserLocation, mode, setMode, selectedCameras, clearAll, isLoading, autoPilot, activeRouteName } = useTraffic();
   const forceImages = mode === 'image';
   const [showDisclaimer, setShowDisclaimer] = useState(false);
 
@@ -75,9 +75,16 @@ export function Toolbar() {
         ) : autoPilot.active ? (
           <span className="toolbar-autopilot-badge">Auto Pilot {autoPilot.heading !== null ? `${Math.round(autoPilot.heading)}°` : ''}</span>
         ) : (
-          <span className="toolbar-selected-count">{selectedCameras.length} selected</span>
+          <>
+            <span className="toolbar-selected-count">{selectedCameras.length} selected</span>
+            <button className="toolbar-selected-clear" onClick={clearAll} disabled={selectedCameras.length === 0}><Trash2 size={14} /></button>
+            <span className="toolbar-sep" />
+            {activeRouteName && <span className="toolbar-route-name">{activeRouteName}</span>}
+            <button className="toolbar-selected-clear" onClick={() => window.dispatchEvent(new Event('open-bookmarks-modal'))} title={activeRouteName ? 'Manage Bookmarks' : 'Save Bookmark'}>
+              <Bookmark size={14} />
+            </button>
+          </>
         )}
-        <button className="toolbar-selected-clear" onClick={clearAll} disabled={selectedCameras.length === 0 || isLoading}><Trash2 size={14} /></button>
       </div>
       <div className="toolbar-actions">
         <ToolbarButton icon={Locate} label="Locate me" onClick={handleLocate} />
