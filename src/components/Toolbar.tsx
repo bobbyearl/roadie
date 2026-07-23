@@ -80,8 +80,8 @@ export function Toolbar() {
         <button className="toolbar-selected-clear" onClick={clearAll} disabled={selectedCameras.length === 0 || isLoading}><Trash2 size={14} /></button>
       </div>
       <div className="toolbar-actions">
-        <ToolbarButton icon={Car} label="Auto Pilot" active={autoPilot.active} onClick={handleAutoPilot} />
         <ToolbarButton icon={Locate} label="Locate me" onClick={handleLocate} />
+        <ToolbarButton icon={Car} label="Auto Pilot" active={autoPilot.active} onClick={handleAutoPilot} />
         <span className="toolbar-sep" />
         <ToolbarButton icon={MapIcon} label="Map" active={showMap} onClick={toggleMap} disabled={showMap && !showList} />
         <ToolbarButton icon={List} label="List" active={showList} onClick={toggleList} disabled={showList && !showMap} />
