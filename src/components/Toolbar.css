@@ -13,6 +13,11 @@
   @apply tabular-nums whitespace-nowrap text-foreground;
   font-size: var(--rd-text-xs);
 }
+.toolbar-route-name {
+  @apply text-muted-foreground whitespace-nowrap;
+  font-size: var(--rd-text-xs);
+  font-style: italic;
+}
 .toolbar-selected-clear {
   @apply flex items-center justify-center rounded text-muted-foreground hover:text-foreground hover:bg-muted transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-default;
   width: 1.75rem;
@@ -122,3 +127,5 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+

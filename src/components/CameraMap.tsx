@@ -315,7 +315,24 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
           if (wrapper) { (wrapper as HTMLElement).classList.toggle('map-pointer', !!info.object); }
         },
         onClick: (info: any) => {
-          if (info.object) { handleMarkerClickRef.current(info.object.id); }
+          if (info.object) {
+            // Check if multiple cameras overlap at this pixel location
+            const clickLat = info.object.lat;
+            const clickLng = info.object.lng;
+            const zoom = map.getZoom() || 10;
+            // At high zoom, markers are well separated. At low zoom, check for neighbors.
+            const threshold = 0.5 / Math.pow(2, zoom - 5); // ~pixel proximity in degrees
+            const nearby = cameras.filter((c) =>
+              Math.abs(c.lat - clickLat) < threshold && Math.abs(c.lng - clickLng) < threshold
+            );
+            if (nearby.length > 1 && zoom < 15) {
+              // Multiple cameras at this location - zoom in to separate them
+              map.panTo({ lat: clickLat, lng: clickLng });
+              map.setZoom(Math.min(zoom + 3, 17));
+            } else {
+              handleMarkerClickRef.current(info.object.id);
+            }
+          }
         },
       });
 

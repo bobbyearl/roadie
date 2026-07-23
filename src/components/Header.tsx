@@ -2,6 +2,7 @@ import './Header.css';
 
 import { Link } from '@tanstack/react-router';
 import {
+  Bookmark,
   PanelRightClose,
   PanelRightOpen,
   Share2,
@@ -10,6 +11,7 @@ import {
 
 import { useTraffic } from '../lib/TrafficContext';
 import { IconButton } from './IconButton';
+import { BookmarksModal } from './BookmarksModal';
 import { StateIcon, StateSelector } from './StateSelector';
 
 interface HeaderProps {
@@ -30,21 +32,26 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
   };
 
   return (
-    <header className="header-bar">
-      <div className="header-nav">
-        <div className="header-bar-left">
-          <StateIcon id={stateId} />
-          <h1 className="header-bar-title"><Link to="/">Roadie App</Link></h1>
-          <StateSelector />
+    <>
+      <header className="header-bar">
+        <div className="header-nav">
+          <div className="header-bar-left">
+            <StateIcon id={stateId} />
+            <h1 className="header-bar-title"><Link to="/">Roadie App</Link></h1>
+            <StateSelector />
+          </div>
+          <div className="header-nav-right">
+            {showMap && !showList && (
+              <IconButton icon={Sparkles} label="Layout" onClick={triggerLayout} disabled={selectedCameras.length < 2} />
+            )}
+            <IconButton icon={Bookmark} label="Bookmarks" onClick={() => window.dispatchEvent(new Event('open-bookmarks-modal'))} />
+            <IconButton icon={Share2} label="Share" onClick={handleShare} title="Share" />
+            <IconButton icon={sidebarOpen ? PanelRightClose : PanelRightOpen} label="Browse" onClick={onSidebarToggle} active={sidebarOpen} />
+          </div>
         </div>
-        <div className="header-nav-right">
-          {showMap && !showList && (
-            <IconButton icon={Sparkles} label="Layout" onClick={triggerLayout} disabled={selectedCameras.length < 2} />
-          )}
-          <IconButton icon={Share2} label="Share" onClick={handleShare} title="Share" />
-          <IconButton icon={sidebarOpen ? PanelRightClose : PanelRightOpen} label="Browse" onClick={onSidebarToggle} active={sidebarOpen} />
-        </div>
-      </div>
-    </header>
+      </header>
+
+      <BookmarksModal />
+    </>
   );
 }

@@ -7,6 +7,7 @@ import { type Camera, type CameraDB, getStateConfig, parseCameraDB, type StateCo
 import { CURATED_ROUTES } from '../lib/routes';
 import { type ViewSearchParams } from '../lib/types';
 import { usePrefs } from '../lib/usePrefs';
+import { usePresets } from '../lib/usePresets';
 import { useAutoPilot } from '../lib/useAutoPilot';
 
 interface TrafficState {
@@ -78,11 +79,15 @@ export function useTraffic() {
   return ctx;
 }
 
+/** Create a comparable fingerprint from a set of IDs (order-independent) */
+const setKey = (ids: string[]) => [...ids].sort().join(',');
+
 export function TrafficProvider({ children }: { children: ReactNode }) {
   const { stateId } = useParams({ from: '/view/$stateId' });
   const params = useSearch({ from: '/view/$stateId' }) as ViewSearchParams;
   const navigate = useNavigate({ from: '/view/$stateId' });
   const prefs = usePrefs();
+  const { presets: bookmarks } = usePresets();
 
   const stateConfig = getStateConfig(stateId);
 
@@ -114,9 +119,16 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   );
 
   const activeRouteName = useMemo(() => {
-    const joined = [...selectedIds].sort().join(',');
-    return CURATED_ROUTES.find((r) => r.ids.map((id) => `sc:${id}`).sort().join(',') === joined)?.name;
-  }, [selectedIds]);
+    if (selectedIds.size === 0) return undefined;
+    const key = setKey([...selectedIds]);
+    // Check curated routes
+    const curated = CURATED_ROUTES.find((r) => setKey(r.ids.map((id) => `sc:${id}`)) === key);
+    if (curated) return curated.name;
+    // Check bookmarks
+    const match = bookmarks.find((p) => setKey(p.cameraIds) === key);
+    if (match) return match.name;
+    return undefined;
+  }, [selectedIds, bookmarks]);
 
   const setSelected = (ids: Set<string>) =>
     navigate({ search: { ...params, selected: ids.size ? [...ids].join(',') : undefined } as ViewSearchParams });
