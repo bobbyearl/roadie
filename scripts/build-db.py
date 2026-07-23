@@ -206,6 +206,44 @@ def parse_pa():
     return cameras
 
 
+def parse_ut():
+    """Utah - 511 platform JSON from udottraffic.utah.gov (same as FL/PA)"""
+    with open(os.path.join(DATA_DIR, "ut.json")) as f:
+        data = json.load(f)
+
+    cameras = []
+    for cam in data["data"]:
+        cam_id = cam["DT_RowId"]
+
+        # Coords in WKT format: "POINT (lng lat)"
+        lat, lng = 0, 0
+        try:
+            wkt = cam["latLng"]["geography"]["wellKnownText"]
+            coords = wkt.replace("POINT (", "").replace(")", "").split()
+            lng = float(coords[0])
+            lat = float(coords[1])
+        except (KeyError, TypeError, IndexError, ValueError):
+            pass
+
+        # Name from location field
+        name = cam.get("location", "")
+        if not name:
+            name = f"Camera {cam_id}"
+
+        image_url = f"https://www.udottraffic.utah.gov/map/Cctv/{cam_id}"
+        cameras.append({
+            "id": cam_id,
+            "name": name,
+            "route": cam.get("roadway", ""),
+            "jurisdiction": cam.get("county", ""),
+            "lat": lat,
+            "lng": lng,
+            "image_url": image_url,
+            "video_url": "",
+        })
+    return cameras
+
+
 def parse_al():
     """Alabama - REST API from api.algotraffic.com"""
     with open(os.path.join(DATA_DIR, "al.json")) as f:
@@ -275,6 +313,7 @@ STATES = [
     ("pa", parse_pa),
     ("sc", parse_sc),
     ("tn", parse_tn),
+    ("ut", parse_ut),
     ("va", parse_va),
 ]
 

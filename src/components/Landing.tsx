@@ -142,6 +142,7 @@ export function Landing() {
           <a href="https://www.511pa.com" target="_blank" rel="noopener">PA 511</a>
           <a href="https://www.511sc.org" target="_blank" rel="noopener">SC 511</a>
           <a href="https://smartway.tn.gov" target="_blank" rel="noopener">TN SmartWay</a>
+          <a href="https://www.udottraffic.utah.gov" target="_blank" rel="noopener">UDOT Traffic</a>
           <a href="https://www.511virginia.org" target="_blank" rel="noopener">VA 511</a>
         </div>
       </section>

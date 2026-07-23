@@ -133,6 +133,14 @@ export const STATES: StateConfig[] = [
     cameraCount: 667,
   },
   {
+    id: 'ut',
+    name: 'Utah',
+    defaultCenter: { lat: 40.5, lng: -111.9 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 2068,
+  },
+  {
     id: 'va',
     name: 'Virginia',
     defaultCenter: { lat: 37.5, lng: -78.8 },
