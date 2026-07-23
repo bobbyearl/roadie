@@ -7,6 +7,7 @@ import { type Camera, type CameraDB, getStateConfig, parseCameraDB, type StateCo
 import { CURATED_ROUTES } from '../lib/routes';
 import { type ViewSearchParams } from '../lib/types';
 import { usePrefs } from '../lib/usePrefs';
+import { useAutoPilot } from '../lib/useAutoPilot';
 
 interface TrafficState {
   // Data
@@ -54,6 +55,17 @@ interface TrafficState {
   userLocation: { lat: number; lng: number } | null;
   setUserLocation: (loc: { lat: number; lng: number } | null) => void;
   findClosest: () => void;
+
+  // Auto Pilot
+  autoPilot: {
+    active: boolean;
+    heading: number | null;
+    speed: number | null;
+    needsDisclaimer: boolean;
+    start: () => void;
+    stop: () => void;
+    acceptDisclaimer: () => void;
+  };
 }
 
 const TrafficContext = createContext<TrafficState | null>(null);
@@ -174,6 +186,18 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     });
   };
 
+  const autoPilot = useAutoPilot(
+    cameras,
+    (camerasAhead) => {
+      // Auto-select cameras ahead, replacing current selection
+      const ids = camerasAhead.map((c) => c.id);
+      navigate({ search: { ...params, selected: ids.length ? ids.join(',') : undefined } as ViewSearchParams });
+    },
+    (loc) => {
+      setUserLocation(loc);
+    },
+  );
+
   const value: TrafficState = {
     cameras,
     isLoading,
@@ -197,6 +221,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     userLocation,
     setUserLocation,
     findClosest,
+    autoPilot,
     toggleCamera,
     clearAll,
     resetAll,
