@@ -285,23 +285,27 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
   const deckModulesRef = useRef<{ GoogleMapsOverlay: any; ScatterplotLayer: any } | null>(null);
   const handleMarkerClickRef = useRef(handleMarkerClick);
   handleMarkerClickRef.current = handleMarkerClick; // eslint-disable-line react-hooks/refs
+  const camerasRef = useRef(cameras);
+  camerasRef.current = cameras;
 
   useEffect(() => {
     if (!map || cameras.length === 0) { return; }
-    let stale = false;
 
     const run = async () => {
       if (!deckModulesRef.current) {
         const [gm, layers] = await Promise.all([import('@deck.gl/google-maps'), import('@deck.gl/layers')]);
-        if (stale) { return; }
         deckModulesRef.current = { GoogleMapsOverlay: gm.GoogleMapsOverlay, ScatterplotLayer: layers.ScatterplotLayer };
       }
+      // Always read latest cameras from ref after await
+      const currentCameras = camerasRef.current;
+      if (currentCameras.length === 0) { return; }
+
       const { GoogleMapsOverlay, ScatterplotLayer } = deckModulesRef.current;
       const rgb = [249, 115, 22]; // orange - visible on both themes, distinct from pink accent
 
       const layer = new ScatterplotLayer({
         id: 'cameras',
-        data: cameras,
+        data: currentCameras,
         getPosition: (d: any) => [d.lng, d.lat],
         getRadius: 5,
         radiusUnits: 'pixels' as const,
@@ -322,7 +326,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
             const zoom = map.getZoom() || 10;
             // At high zoom, markers are well separated. At low zoom, check for neighbors.
             const threshold = 0.5 / Math.pow(2, zoom - 5); // ~pixel proximity in degrees
-            const nearby = cameras.filter((c) =>
+            const nearby = camerasRef.current.filter((c) =>
               Math.abs(c.lat - clickLat) < threshold && Math.abs(c.lng - clickLng) < threshold
             );
             if (nearby.length > 1 && zoom < 15) {
@@ -363,7 +367,6 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       }
     };
     run();
-    return () => { stale = true; };
   }, [map, cameras, resolvedTheme, userLocation]);
 
   // Hide/show deck.gl layers during split resize to prevent flicker
