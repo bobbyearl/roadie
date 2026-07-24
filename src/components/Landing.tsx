@@ -1,9 +1,7 @@
 import './Landing.css';
 
-import { useQueryClient } from '@tanstack/react-query';
 import { Link } from '@tanstack/react-router';
 import { Camera, Info, Map, Share2, Smartphone } from 'lucide-react';
-import { useEffect } from 'react';
 
 import { STATES } from '../lib/cameras';
 import { emptyViewSearch } from '../lib/types';
@@ -11,19 +9,6 @@ import { Footer } from './Footer';
 import { StateIcon } from './StateSelector';
 
 export function Landing() {
-  const queryClient = useQueryClient();
-
-  // Prefetch camera database so map loads instantly on navigation
-  useEffect(() => {
-    queryClient.prefetchQuery({
-      queryKey: ['cameras-db'],
-      queryFn: async () => {
-        const res = await fetch(import.meta.env.BASE_URL + 'data/cameras.db.json');
-        return res.json();
-      },
-      staleTime: Infinity,
-    });
-  }, [queryClient]);
   const totalCameras = STATES.reduce((sum, s) => sum + s.cameraCount, 0);
 
   return (
