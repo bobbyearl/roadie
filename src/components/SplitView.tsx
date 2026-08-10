@@ -12,9 +12,11 @@ interface SplitViewProps {
   onBrowse: () => void;
   onCloseMap?: () => void;
   onCloseList?: () => void;
+  onSnapshot?: (cameraId: string, cameraName: string) => void;
+  onMediaRef?: (cameraId: string, el: HTMLVideoElement | HTMLImageElement | null) => void;
 }
 
-export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitViewProps) {
+export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList, onSnapshot, onMediaRef }: SplitViewProps) {
   const { cameras, selectedCameras, showList, mode, cardSize, splitWidth, splitHeight, setSplitWidth, setSplitHeight, toggleCamera, selectRoute, setDetailCam } = useTraffic();
   const containerRef = useRef<HTMLDivElement>(null);
   const mapPanelRef = useRef<HTMLDivElement>(null);
@@ -98,7 +100,7 @@ export function SplitView({ stateId, onBrowse, onCloseMap, onCloseList }: SplitV
         ) : (
             <div className={`split-feeds-grid ${gridClass}`}>
               {selectedCameras.map((cam, index) => (
-                <CameraFeed key={cam.id} camera={cam} mode={mode} onRemove={() => toggleCamera(cam.id)} setDetailCam={setDetailCam} index={index + 1} refreshInterval={mode === 'image' ? 30 : 0} />
+                <CameraFeed key={cam.id} camera={cam} mode={mode} onRemove={() => toggleCamera(cam.id)} setDetailCam={setDetailCam} onSnapshot={onSnapshot} onMediaRef={onMediaRef} index={index + 1} refreshInterval={mode === 'image' ? 30 : 0} />
               ))}
             </div>
         )}

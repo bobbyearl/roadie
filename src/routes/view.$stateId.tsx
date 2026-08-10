@@ -9,10 +9,12 @@ import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import { Toolbar } from '../components/Toolbar';
 import { Sidebar } from '../components/Sidebar';
+import { SnapshotModal } from '../components/SnapshotModal';
 import { SplitView } from '../components/SplitView';
 import { type Camera } from '../lib/cameras';
 import { CURATED_ROUTES } from '../lib/routes';
 import { useTraffic } from '../lib/TrafficContext';
+import { useSnapshot } from '../lib/useSnapshot';
 import { type ViewSearchParams } from '../lib/types';
 
 export const Route = createFileRoute('/view/$stateId')({
@@ -63,6 +65,7 @@ export function EmptyState({ stateId, cameras, selectRoute, toggleCamera, onBrow
 
 export function Home() {
   const { stateId, cameras, selectedCameras, mode, showMap, showList, cardSize, density, sidebarOpen, toggleCamera, selectRoute, setSidebarOpen, toggleMap, toggleList, setDetailCam } = useTraffic();
+  const { snapshot, capture, clearSnapshot, registerMedia } = useSnapshot();
 
   return (
     <div className={`page ${density === 'compact' ? 'density-compact' : ''}`}>
@@ -72,7 +75,7 @@ export function Home() {
         <div className="main">
           <div className={`viewer-area ${showMap ? 'viewer-area-split' : ''}`}>
             {showMap ? (
-              <SplitView stateId={stateId} onBrowse={() => setSidebarOpen(true)} onCloseMap={showList ? toggleMap : undefined} onCloseList={showList ? toggleList : undefined} />
+              <SplitView stateId={stateId} onBrowse={() => setSidebarOpen(true)} onCloseMap={showList ? toggleMap : undefined} onCloseList={showList ? toggleList : undefined} onSnapshot={capture} onMediaRef={registerMedia} />
             ) : selectedCameras.length === 0 ? (
               <EmptyState stateId={stateId} cameras={cameras} selectRoute={selectRoute} toggleCamera={toggleCamera} onBrowse={() => setSidebarOpen(true)} showMap={showMap} />
             ) : (
@@ -84,6 +87,8 @@ export function Home() {
                       mode={mode}
                       onRemove={() => toggleCamera(cam.id)}
                       setDetailCam={setDetailCam}
+                      onSnapshot={capture}
+                      onMediaRef={registerMedia}
                       refreshInterval={mode === 'image' ? 30 : 0}
                     />
                   ))}
@@ -97,6 +102,7 @@ export function Home() {
       </div>
       <Footer />
       <DetailModal />
+      {snapshot && <SnapshotModal snapshot={snapshot} onClose={clearSnapshot} />}
     </div>
   );
 }

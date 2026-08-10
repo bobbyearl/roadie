@@ -1,0 +1,84 @@
+@reference "../styles.css";
+
+.snapshot-overlay {
+  @apply fixed inset-0 z-50 flex items-center justify-center;
+  background: color-mix(in srgb, var(--color-black) 60%, transparent);
+  backdrop-filter: blur(3px);
+}
+.snapshot-modal {
+  @apply bg-background border border-border rounded-xl shadow-2xl;
+  width: 32rem;
+  max-width: calc(100vw - 2rem);
+  max-height: calc(100vh - 4rem);
+  overflow: auto;
+}
+.snapshot-modal-header {
+  @apply flex items-center justify-between border-b border-border;
+  padding: var(--rd-space-lg);
+}
+.snapshot-modal-header h2 {
+  @apply flex items-center font-semibold text-foreground;
+  gap: var(--rd-space-sm);
+  font-size: var(--rd-text-base);
+  margin: 0;
+}
+.snapshot-modal-close {
+  @apply text-muted-foreground hover:text-foreground cursor-pointer bg-transparent border-0;
+}
+
+.snapshot-preview {
+  @apply relative;
+  padding: var(--rd-space-lg);
+  padding-bottom: 0;
+}
+.snapshot-preview img {
+  @apply w-full rounded-lg border border-border;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.snapshot-meta {
+  @apply absolute bottom-2 left-6 flex items-center bg-black/70 text-white rounded-md;
+  gap: var(--rd-space-xs);
+  padding: var(--rd-space-xs) var(--rd-space-sm);
+  font-size: var(--rd-text-xs);
+}
+
+.snapshot-info {
+  padding: var(--rd-space-sm) var(--rd-space-lg);
+}
+.snapshot-camera-name {
+  @apply font-medium text-foreground;
+  font-size: var(--rd-text-sm);
+  margin: 0;
+}
+.snapshot-camera-count {
+  @apply text-muted-foreground;
+  font-size: var(--rd-text-xs);
+  margin: var(--rd-space-xs) 0 0 0;
+}
+
+.snapshot-actions {
+  @apply flex items-center border-t border-border;
+  gap: var(--rd-space-sm);
+  padding: var(--rd-space-lg);
+}
+.snapshot-btn {
+  @apply flex items-center justify-center rounded-md cursor-pointer border;
+  gap: var(--rd-space-xs);
+  padding: var(--rd-space-sm) var(--rd-space-lg);
+  font-size: var(--rd-text-sm);
+  font-weight: 500;
+}
+.snapshot-btn-primary {
+  @apply bg-foreground text-background border-foreground hover:opacity-90;
+}
+.snapshot-btn-secondary {
+  @apply bg-transparent text-foreground border-border hover:bg-foreground/5;
+}
+
+.snapshot-notice {
+  @apply text-muted-foreground;
+  font-size: var(--rd-text-xs);
+  padding: 0 var(--rd-space-lg) var(--rd-space-lg);
+  margin: 0;
+}

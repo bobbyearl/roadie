@@ -8,9 +8,10 @@ interface CameraMediaProps {
   camera: Camera;
   refreshInterval?: number;
   onFullscreenRef?: (fn: (() => void) | undefined) => void;
+  onMediaRef?: (el: HTMLVideoElement | HTMLImageElement | null) => void;
 }
 
-export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef }: CameraMediaProps) {
+export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef, onMediaRef }: CameraMediaProps) {
   const { mode } = useTraffic();
   const effectiveMode = mode === 'image' ? 'image' : (camera.hasVideo ? 'video' : 'image');
   const { videoRef, videoKey, error, stalled, retryCount, retry, handleError, setError, attachHls } = useVideoPlayer(effectiveMode);
@@ -48,7 +49,7 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef }: Ca
         <>
           <video
             key={videoKey}
-            ref={videoRef as React.RefObject<HTMLVideoElement | null>}
+            ref={(el) => { (videoRef as React.MutableRefObject<HTMLVideoElement | null>).current = el; onMediaRef?.(el); }}
             autoPlay
             muted
             playsInline
@@ -61,7 +62,7 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef }: Ca
           )}
         </>
       ) : (
-        <img src={imgSrc} alt={camera.description} onError={() => setError(true)} />
+        <img src={imgSrc} alt={camera.description} onError={() => setError(true)} ref={(el) => onMediaRef?.(el)} crossOrigin="anonymous" />
       )}
     </div>
   );
