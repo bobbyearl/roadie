@@ -1,9 +1,10 @@
 /* eslint-disable react-refresh/only-export-components */
-import { useQueries } from '@tanstack/react-query';
+import { useQuery } from '@tanstack/react-query';
 import { useNavigate, useParams, useSearch } from '@tanstack/react-router';
 import { createContext, type ReactNode, useContext, useMemo, useState } from 'react';
 
-import { type Camera, type CameraDB, getStateConfig, parseCameraDB, type StateConfig,STATES } from '../lib/cameras';
+import { type Camera, getStateConfig, type StateConfig, STATES } from '../lib/cameras';
+import { fetchMeta, getPins, resolveCameras } from '../lib/cameraData';
 import { CURATED_ROUTES } from '../lib/routes';
 import { type ViewSearchParams } from '../lib/types';
 import { usePrefs } from '../lib/usePrefs';
@@ -91,27 +92,19 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
 
   const stateConfig = getStateConfig(stateId);
 
-  // Load all state files in parallel, merge as they arrive (progressive rendering)
-  const base = import.meta.env.BASE_URL;
-  const stateQueries = useQueries({
-    queries: STATES.filter((s) => !s.offline).map((s) => ({
-      queryKey: ['cameras-state', s.id],
-      queryFn: async () => {
-        const res = await fetch(base + 'data/states/' + s.id + '.json');
-        const db = await res.json() as CameraDB;
-        return parseCameraDB(db);
-      },
-      staleTime: Infinity,
-    })),
+  // Pins are inlined in HTML (window.__PINS__) - available instantly, no fetch
+  const pins = useMemo(() => getPins(), []);
+
+  // Metadata fetched eagerly on mount (background, non-blocking)
+  const { data: meta } = useQuery({
+    queryKey: ['camera-meta'],
+    queryFn: fetchMeta,
+    staleTime: Infinity,
   });
 
-  const cameras = useMemo(
-    () => stateQueries.flatMap((q) => q.data ?? []),
-    // Re-compute when any query's data changes (dataUpdatedAt changes on each resolve)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [stateQueries.reduce((sum, q) => sum + (q.dataUpdatedAt || 0), 0)],
-  );
-  const isLoading = stateQueries.every((q) => q.isLoading);
+  // Resolve pins into full Camera objects (stubs until metadata arrives)
+  const cameras = useMemo(() => resolveCameras(pins, meta), [pins, meta]);
+  const isLoading = pins.length === 0;
 
   const { grid: cardSize, density, mode: prefsMode, sw: splitWidth, sh: splitHeight, showMap, showList } = prefs;
   // Use video if any state in view supports it, otherwise image

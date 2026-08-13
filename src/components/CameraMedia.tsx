@@ -8,9 +8,10 @@ interface CameraMediaProps {
   camera: Camera;
   refreshInterval?: number;
   onFullscreenRef?: (fn: (() => void) | undefined) => void;
+  onMediaRef?: (el: HTMLVideoElement | HTMLImageElement | null) => void;
 }
 
-export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef }: CameraMediaProps) {
+export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef, onMediaRef }: CameraMediaProps) {
   const { mode } = useTraffic();
   const effectiveMode = mode === 'image' ? 'image' : (camera.hasVideo ? 'video' : 'image');
   const { videoRef, videoKey, error, stalled, retryCount, retry, handleError, setError, attachHls } = useVideoPlayer(effectiveMode);
@@ -22,6 +23,13 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef }: Ca
       attachHls(videoRef.current, camera.video_url);
     }
   }, [videoKey, effectiveMode]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Reset error state when camera URL changes (e.g., metadata loads after stub)
+  useEffect(() => {
+    if (camera.image_url || camera.video_url) {
+      setError(false);
+    }
+  }, [camera.image_url, camera.video_url, setError]);
 
   useEffect(() => {
     if (onFullscreenRef) {
@@ -35,7 +43,7 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef }: Ca
     return () => clearInterval(id);
   }, [effectiveMode, refreshInterval]);
 
-  const imgSrc = refreshInterval ? `${camera.image_url}${camera.image_url.includes('?') ? '&' : '?'}t=${imgTs}` : camera.image_url;
+  const imgSrc = !camera.image_url ? '' : refreshInterval ? `${camera.image_url}${camera.image_url.includes('?') ? '&' : '?'}t=${imgTs}` : camera.image_url;
 
   return (
     <div className="feed-media">
@@ -48,7 +56,7 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef }: Ca
         <>
           <video
             key={videoKey}
-            ref={videoRef as React.RefObject<HTMLVideoElement | null>}
+            ref={(el) => { (videoRef as React.MutableRefObject<HTMLVideoElement | null>).current = el; onMediaRef?.(el); }}
             autoPlay
             muted
             playsInline
@@ -61,7 +69,7 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef }: Ca
           )}
         </>
       ) : (
-        <img src={imgSrc} alt={camera.description} onError={() => setError(true)} />
+        <img src={imgSrc} alt={camera.description} onError={() => imgSrc && setError(true)} ref={(el) => onMediaRef?.(el)} crossOrigin="anonymous" />
       )}
     </div>
   );

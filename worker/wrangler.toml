@@ -1,0 +1,15 @@
+name = "roadie-snapshots"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+[vars]
+ALLOWED_ORIGIN = "https://bobbyearl.com"
+MAX_FILE_SIZE = 512000  # 500KB
+SNAPSHOT_TTL_HOURS = 720  # 30 days
+
+[[r2_buckets]]
+binding = "SNAPSHOTS"
+bucket_name = "roadie-snapshots"
+
+# Local dev uses a simulated bucket automatically
+# Production bucket is created by: npx wrangler r2 bucket create roadie-snapshots

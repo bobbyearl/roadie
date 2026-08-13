@@ -1,7 +1,7 @@
 import './CameraCard.css';
 
 import { autoUpdate, offset, useClick, useDismiss, useFloating, useInteractions } from '@floating-ui/react';
-import { Camera as CameraIcon, Download, Info, Maximize, MoreVertical, Video, X } from 'lucide-react';
+import { Camera as CameraIcon, Download, Focus, Info, Maximize, MoreVertical, Video, X } from 'lucide-react';
 import { type ReactNode, useState } from 'react';
 
 import { type Camera } from '../lib/cameras';
@@ -11,12 +11,13 @@ interface CameraCardProps {
   onRemove: () => void;
   onDetail: () => void;
   onFullscreen?: () => void;
+  onSnapshot?: () => void;
   children: ReactNode;
   headerLeft?: ReactNode;
   index?: number;
 }
 
-export function CameraCard({ camera, onRemove, onDetail, onFullscreen, children, headerLeft, index }: CameraCardProps) {
+export function CameraCard({ camera, onRemove, onDetail, onFullscreen, onSnapshot, children, headerLeft, index }: CameraCardProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const { refs, floatingStyles, context } = useFloating({
     open: menuOpen,
@@ -48,6 +49,11 @@ export function CameraCard({ camera, onRemove, onDetail, onFullscreen, children,
           <button className="card-menu-item" onClick={() => { onDetail(); setMenuOpen(false); }}>
             <Info size={12} /> Details
           </button>
+          {onSnapshot && (
+            <button className="card-menu-item" onClick={() => { onSnapshot(); setMenuOpen(false); }}>
+              <Focus size={12} /> Share Snapshot
+            </button>
+          )}
           {camera.image_url && (
             <a className="card-menu-item" href={camera.image_url} target="_blank" rel="noopener" onClick={() => setMenuOpen(false)}>
               <Download size={12} /> Download Image
