@@ -21,15 +21,30 @@ export function SnapshotModal({ snapshot, onClose }: SnapshotModalProps) {
     setUploading(true);
     const base = window.location.origin + import.meta.env.BASE_URL;
     const cameraIds = selectedCameras.map((c) => c.id).join(',');
-    let url = `${base}view/${stateId}?cameras=${cameraIds}`;
+    let url = `${base}view/${stateId}?selected=${cameraIds}`;
 
-    // Try to upload snapshot for persistent sharing
-    const result = await uploadSnapshot(snapshot.dataUrl);
-    if (result) {
-      url += `&snap=${result.id}&snapAt=${snapshot.capturedAt}`;
+    // Try to upload snapshot for persistent sharing (non-blocking on failure)
+    try {
+      const result = await uploadSnapshot(snapshot.dataUrl);
+      if (result) {
+        url += `&snap=${result.id}&snapAt=${snapshot.capturedAt}`;
+      }
+    } catch {
+      // Upload failed - share without snapshot (cameras-only link)
     }
 
-    await navigator.clipboard.writeText(url);
+    try {
+      await navigator.clipboard.writeText(url);
+    } catch {
+      // Clipboard failed - fallback: select a hidden input
+      const input = document.createElement('input');
+      input.value = url;
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+    }
+
     setUploading(false);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);

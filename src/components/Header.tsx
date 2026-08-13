@@ -37,7 +37,7 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
         <div className="header-nav">
           <div className="header-bar-left">
             <StateIcon id={stateId} />
-            <h1 className="header-bar-title"><Link to="/">Roadie App</Link></h1>
+            <h1 className="header-bar-title"><Link to="/">Roadie App</Link> <span className="beta-badge">BETA</span></h1>
             <StateSelector />
           </div>
           <div className="header-nav-right">

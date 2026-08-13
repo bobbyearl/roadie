@@ -29,10 +29,10 @@ function generateId(): string {
 }
 
 function corsHeaders(origin: string, allowedOrigin: string): HeadersInit {
-  const isAllowed = origin === allowedOrigin || origin === 'http://localhost:5173' || origin === 'http://localhost:4173';
+  const isAllowed = !origin || origin === allowedOrigin || origin === 'http://localhost:5173' || origin === 'http://localhost:4173';
   return {
-    'Access-Control-Allow-Origin': isAllowed ? origin : '',
-    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+    'Access-Control-Allow-Origin': isAllowed ? (origin || '*') : '',
+    'Access-Control-Allow-Methods': 'GET, HEAD, POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
     'Access-Control-Max-Age': '86400',
   };
@@ -92,8 +92,8 @@ export default {
       });
     }
 
-    // GET /api/snapshot/:id - fetch a snapshot
-    if (request.method === 'GET' && url.pathname.startsWith('/api/snapshot/')) {
+    // GET/HEAD /api/snapshot/:id - fetch a snapshot
+    if ((request.method === 'GET' || request.method === 'HEAD') && url.pathname.startsWith('/api/snapshot/')) {
       const id = url.pathname.split('/').pop()?.replace('.jpg', '') ?? '';
       if (!/^[a-z0-9]{8}$/.test(id)) {
         return new Response(JSON.stringify({ error: 'Invalid snapshot ID.' }), {
@@ -122,7 +122,7 @@ export default {
         });
       }
 
-      return new Response(object.body, {
+      return new Response(request.method === 'HEAD' ? null : object.body, {
         status: 200,
         headers: {
           ...cors,

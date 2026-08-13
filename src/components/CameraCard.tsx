@@ -51,7 +51,7 @@ export function CameraCard({ camera, onRemove, onDetail, onFullscreen, onSnapsho
           </button>
           {onSnapshot && (
             <button className="card-menu-item" onClick={() => { onSnapshot(); setMenuOpen(false); }}>
-              <Focus size={12} /> Snapshot
+              <Focus size={12} /> Share Snapshot
             </button>
           )}
           {camera.image_url && (

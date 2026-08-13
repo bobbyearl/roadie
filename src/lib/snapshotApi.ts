@@ -42,11 +42,10 @@ const ALLOWED_HOSTS = [
 export function isValidSnapshotUrl(url: string): boolean {
   try {
     const parsed = new URL(url);
-    if (parsed.protocol !== 'https:') return false;
-    // Allow the configured API host
+    // Allow configured API host (includes localhost in dev)
     if (SNAPSHOT_API && url.startsWith(SNAPSHOT_API)) return true;
-    // Allow known worker subdomains
-    if (parsed.hostname.endsWith('.workers.dev') && ALLOWED_HOSTS.some((h) => parsed.hostname.includes(h))) return true;
+    // Allow HTTPS from known worker subdomains in production
+    if (parsed.protocol === 'https:' && parsed.hostname.endsWith('.workers.dev') && ALLOWED_HOSTS.some((h) => parsed.hostname.includes(h))) return true;
     return false;
   } catch {
     return false;

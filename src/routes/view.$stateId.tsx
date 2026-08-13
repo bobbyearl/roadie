@@ -9,6 +9,7 @@ import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import { Toolbar } from '../components/Toolbar';
 import { Sidebar } from '../components/Sidebar';
+import { SnapshotBanner } from '../components/SnapshotBanner';
 import { SnapshotModal } from '../components/SnapshotModal';
 import { SplitView } from '../components/SplitView';
 import { type Camera } from '../lib/cameras';
@@ -26,6 +27,8 @@ export const Route = createFileRoute('/view/$stateId')({
     lat: search.lat ? Number(search.lat) : undefined,
     lng: search.lng ? Number(search.lng) : undefined,
     z: search.z ? Number(search.z) : undefined,
+    snap: (search.snap as string) || undefined,
+    snapAt: search.snapAt ? Number(search.snapAt) : undefined,
   }),
 });
 
@@ -71,6 +74,7 @@ export function Home() {
     <div className={`page ${density === 'compact' ? 'density-compact' : ''}`}>
       <Header sidebarOpen={sidebarOpen} onSidebarToggle={() => setSidebarOpen(!sidebarOpen)} />
       <Toolbar />
+      <SnapshotBanner />
       <div className="layout">
         <div className="main">
           <div className={`viewer-area ${showMap ? 'viewer-area-split' : ''}`}>

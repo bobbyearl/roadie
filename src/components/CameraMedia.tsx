@@ -24,6 +24,13 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef, onMe
     }
   }, [videoKey, effectiveMode]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // Reset error state when camera URL changes (e.g., metadata loads after stub)
+  useEffect(() => {
+    if (camera.image_url || camera.video_url) {
+      setError(false);
+    }
+  }, [camera.image_url, camera.video_url, setError]);
+
   useEffect(() => {
     if (onFullscreenRef) {
       onFullscreenRef(effectiveMode === 'video' ? () => videoRef.current?.requestFullscreen() : undefined);
@@ -36,7 +43,7 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef, onMe
     return () => clearInterval(id);
   }, [effectiveMode, refreshInterval]);
 
-  const imgSrc = refreshInterval ? `${camera.image_url}${camera.image_url.includes('?') ? '&' : '?'}t=${imgTs}` : camera.image_url;
+  const imgSrc = !camera.image_url ? '' : refreshInterval ? `${camera.image_url}${camera.image_url.includes('?') ? '&' : '?'}t=${imgTs}` : camera.image_url;
 
   return (
     <div className="feed-media">
@@ -62,7 +69,7 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef, onMe
           )}
         </>
       ) : (
-        <img src={imgSrc} alt={camera.description} onError={() => setError(true)} ref={(el) => onMediaRef?.(el)} crossOrigin="anonymous" />
+        <img src={imgSrc} alt={camera.description} onError={() => imgSrc && setError(true)} ref={(el) => onMediaRef?.(el)} crossOrigin="anonymous" />
       )}
     </div>
   );

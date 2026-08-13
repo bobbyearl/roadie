@@ -6,6 +6,8 @@ export type ViewSearchParams = {
   lat: number | undefined;
   lng: number | undefined;
   z: number | undefined;
+  snap: string | undefined;
+  snapAt: number | undefined;
 };
 
 export const emptyViewSearch: ViewSearchParams = {
@@ -16,4 +18,6 @@ export const emptyViewSearch: ViewSearchParams = {
   lat: undefined,
   lng: undefined,
   z: undefined,
+  snap: undefined,
+  snapAt: undefined,
 };

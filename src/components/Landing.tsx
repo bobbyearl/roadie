@@ -15,7 +15,7 @@ export function Landing() {
     <div className="landing">
       <section className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">Roadie App</h1>
+          <h1 className="hero-title">Roadie App <span className="beta-badge beta-badge-lg">BETA</span></h1>
           <p className="hero-subtitle">
             View {totalCameras.toLocaleString()} live traffic cameras across {STATES.length} states.
           </p>
