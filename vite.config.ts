@@ -29,7 +29,7 @@ export default defineConfig({
     globals: true,
     setupFiles: ['./src/test/setup.ts'],
     coverage: {
-      reporter: ['text', 'lcov'],
+      reporter: ['text', 'lcov', 'html'],
       include: ['src/lib/**'],
     },
   },
