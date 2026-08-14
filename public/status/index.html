@@ -22,36 +22,48 @@
     .card-name { padding: 0.3rem 0.6rem; font-size: 0.6rem; color: #aaa; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; justify-content: space-between; align-items: center; }
     .card-source { color: #94a3b8; text-decoration: none; font-size: 0.55rem; shrink: 0; }
     .card-source:hover { color: #e0e0e0; text-decoration: underline; }
+    .card-app-link { color: #aaa; text-decoration: none; overflow: hidden; text-overflow: ellipsis; }
+    .card-app-link:hover { color: #e0e0e0; text-decoration: underline; }
     .summary { margin-top: 1rem; font-size: 0.7rem; color: #888; }
     .ts { color: #666; }
+    .title-row { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
+    .title-row h1 { margin: 0; }
+    .agg-badge { padding: 3px 10px; border-radius: 9px; font-size: 0.7rem; font-weight: 600; }
+    .agg-badge.checking { background: #eab30833; color: #fbbf24; }
+    .agg-badge.good { background: #22c55e33; color: #4ade80; }
+    .agg-badge.degraded { background: #f9731633; color: #fb923c; }
+    .agg-badge.down { background: #ef444433; color: #f87171; }
   </style>
 </head>
 <body>
-  <h1>Roadie Camera Status</h1>
+  <div class="title-row">
+    <h1>Roadie Camera Status</h1>
+    <span class="agg-badge checking" id="agg">Checking...</span>
+  </div>
   <p class="subtitle">One test camera per state. Verifies feeds are accessible.</p>
   <div class="grid" id="grid"></div>
   <p class="summary" id="summary"></p>
 
   <script>
     const cameras = [
-      { state: 'AL', name: 'I-10 East @ McDonald Rd', url: 'https://api.algotraffic.com/v4/Cameras/1845/snapshot.jpg', source: 'https://algotraffic.com' },
-      { state: 'CT', name: 'Vernon I-84 WB Exit 64', url: 'https://ctroads.org/map/Cctv/308', source: 'https://ctroads.org' },
-      { state: 'DE', name: 'DE 1 @ Milford Neck Rd', url: 'https://video.deldot.gov/live/KCAM001.stream/playlist.m3u8', note: 'video-only (HLS)', source: 'https://deldot.gov/map' },
-      { state: 'FL', name: 'I-4 @ MM 60.6 EB', url: 'https://fl511.com/map/Cctv/614', source: 'https://fl511.com' },
-      { state: 'GA', name: 'Akers Mill Rd at Overton Park', url: 'https://511ga.org/map/Cctv/22445', source: 'https://511ga.org' },
-      { state: 'MD', name: 'I-270 & Old Hundred Rd', url: 'https://chart.maryland.gov/wwwroot/thumbnails/7a00a1dc01250075004d823633235daa.jpg', source: 'https://chart.maryland.gov' },
-      { state: 'NC', name: 'WLM 19 17TH@DELANEY', url: 'https://www.drivenc.gov/map/Cctv/4768', source: 'https://drivenc.gov' },
-      { state: 'NJ', name: 'NJ-21 @ Murray Street', url: '', note: 'offline (Wink CDN blocked)', source: 'https://511nj.org' },
-      { state: 'PA', name: 'I-76 (PA Turnpike)', url: 'https://www.511pa.com/map/Cctv/4765', source: 'https://511pa.com' },
-      { state: 'SC', name: 'US 501 N @ Intracoastal', url: 'https://scdotsnap.us-east-1.skyvdn.com/thumbs/50016.flv.png', source: 'https://511sc.org' },
-      { state: 'TN', name: 'I-40/75 @ West Hills', url: 'https://tnsnapshots.com/thumbs/R1_010.flv.png', source: 'https://smartway.tn.gov/traffic' },
-      { state: 'UT', name: 'Minuteman Dr @ 12450 S', url: 'https://www.udottraffic.utah.gov/map/Cctv/136011', source: 'https://udottraffic.utah.gov' },
-      { state: 'VA', name: 'University Dr & Sager Ave', url: 'https://snapshot.vdotcameras.com/thumbs/0i6a7bfbs60yq2lbgivq0b8xk3scij3c.flv.png', source: 'https://511virginia.org' },
+      { state: 'AL', id: 'al:1845', name: 'I-10 East @ McDonald Rd', url: 'https://api.algotraffic.com/v4/Cameras/1845/snapshot.jpg', source: 'https://algotraffic.com' },
+      { state: 'CT', id: 'ct:308', name: 'Vernon I-84 WB Exit 64', url: 'https://ctroads.org/map/Cctv/308', source: 'https://ctroads.org' },
+      { state: 'DE', id: 'de:KCAM001', name: 'DE 1 @ Milford Neck Rd', url: 'https://video.deldot.gov/live/KCAM001.stream/playlist.m3u8', note: 'video-only (HLS)', source: 'https://deldot.gov/map' },
+      { state: 'FL', id: 'fl:614', name: 'I-4 @ MM 60.6 EB', url: 'https://fl511.com/map/Cctv/614', source: 'https://fl511.com' },
+      { state: 'GA', id: 'ga:22445', name: 'Akers Mill Rd at Overton Park', url: 'https://511ga.org/map/Cctv/22445', source: 'https://511ga.org' },
+      { state: 'MD', id: 'md:7a00a1dc01250075004d823633235daa', name: 'I-270 & Old Hundred Rd', url: 'https://chart.maryland.gov/wwwroot/thumbnails/7a00a1dc01250075004d823633235daa.jpg', source: 'https://chart.maryland.gov' },
+      { state: 'NC', id: 'nc:4768', name: 'WLM 19 17TH@DELANEY', url: 'https://www.drivenc.gov/map/Cctv/4768', source: 'https://drivenc.gov' },
+      { state: 'NJ', id: 'nj:51', name: 'NJ-21 @ Murray Street', url: '', note: 'offline (Wink CDN blocked)', source: 'https://511nj.org' },
+      { state: 'PA', id: 'pa:4765', name: 'I-76 (PA Turnpike)', url: 'https://www.511pa.com/map/Cctv/4765', source: 'https://511pa.com' },
+      { state: 'SC', id: 'sc:e72041b8-d2a0-11e6-8996-0123456789ab', name: 'US 501 N @ Intracoastal', url: 'https://scdotsnap.us-east-1.skyvdn.com/thumbs/50016.flv.png', source: 'https://511sc.org' },
+      { state: 'TN', id: 'tn:3165', name: 'I-40/75 @ West Hills', url: 'https://tnsnapshots.com/thumbs/R1_010.flv.png', source: 'https://smartway.tn.gov/traffic' },
+      { state: 'UT', id: 'ut:136011', name: 'Minuteman Dr @ 12450 S', url: 'https://www.udottraffic.utah.gov/map/Cctv/136011', source: 'https://udottraffic.utah.gov' },
+      { state: 'VA', id: 'va:3958', name: 'University Dr & Sager Ave', url: 'https://snapshot.vdotcameras.com/thumbs/0i6a7bfbs60yq2lbgivq0b8xk3scij3c.flv.png', source: 'https://511virginia.org' },
     ];
 
     const grid = document.getElementById('grid');
     const summary = document.getElementById('summary');
-    let ok = 0, fail = 0;
+    let ok = 0, fail = 0, offline = 0;
 
     cameras.forEach(cam => {
       const card = document.createElement('div');
@@ -73,12 +85,12 @@
             ? `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#888;font-size:0.65rem;">HLS stream (no thumbnail)</div>`
             : `<img class="card-img" id="img-${cam.state}" src="${cam.url}" />`
         }
-        <div class="card-name">${cam.name}${cam.source ? ` <a href="${cam.source}" target="_blank" class="card-source">source</a>` : ''}</div>
+        <div class="card-name"><a href="/roadie/view/${cam.state.toLowerCase()}?selected=${cam.id}" class="card-app-link">${cam.name}</a>${cam.source ? ` <a href="${cam.source}" target="_blank" class="card-source">source</a>` : ''}</div>
       `;
       grid.appendChild(card);
 
       if (isOffline) {
-        fail++;
+        offline++;
         updateSummary();
         return;
       }
@@ -124,10 +136,26 @@
     });
 
     function updateSummary() {
-      const total = cameras.length;
+      const active = cameras.length - offline;
       const checked = ok + fail;
       const ts = new Date().toLocaleTimeString();
-      summary.innerHTML = `${ok}/${total} OK, ${fail}/${total} failed <span class="ts">| checked at ${ts}</span>`;
+      const offlineNote = offline > 0 ? ` (${offline} known offline)` : '';
+      summary.innerHTML = `${ok}/${active} OK, ${fail}/${active} failed${offlineNote} <span class="ts">| ${ts}</span>`;
+
+      const agg = document.getElementById('agg');
+      if (checked < active) {
+        agg.textContent = `${ok}/${active} OK`;
+        agg.className = 'agg-badge checking';
+      } else if (fail === 0) {
+        agg.textContent = `All ${active} OK`;
+        agg.className = 'agg-badge good';
+      } else if (ok === 0) {
+        agg.textContent = `All Down`;
+        agg.className = 'agg-badge down';
+      } else {
+        agg.textContent = `${ok}/${active} OK`;
+        agg.className = 'agg-badge degraded';
+      }
     }
   </script>
 </body>
