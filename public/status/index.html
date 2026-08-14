@@ -24,10 +24,20 @@
     .card-source:hover { color: #e0e0e0; text-decoration: underline; }
     .summary { margin-top: 1rem; font-size: 0.7rem; color: #888; }
     .ts { color: #666; }
+    .title-row { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
+    .title-row h1 { margin: 0; }
+    .agg-badge { padding: 3px 10px; border-radius: 9px; font-size: 0.7rem; font-weight: 600; }
+    .agg-badge.checking { background: #eab30833; color: #fbbf24; }
+    .agg-badge.good { background: #22c55e33; color: #4ade80; }
+    .agg-badge.degraded { background: #f9731633; color: #fb923c; }
+    .agg-badge.down { background: #ef444433; color: #f87171; }
   </style>
 </head>
 <body>
-  <h1>Roadie Camera Status</h1>
+  <div class="title-row">
+    <h1>Roadie Camera Status</h1>
+    <span class="agg-badge checking" id="agg">Checking...</span>
+  </div>
   <p class="subtitle">One test camera per state. Verifies feeds are accessible.</p>
   <div class="grid" id="grid"></div>
   <p class="summary" id="summary"></p>
@@ -128,6 +138,21 @@
       const checked = ok + fail;
       const ts = new Date().toLocaleTimeString();
       summary.innerHTML = `${ok}/${total} OK, ${fail}/${total} failed <span class="ts">| checked at ${ts}</span>`;
+
+      const agg = document.getElementById('agg');
+      if (checked < total) {
+        agg.textContent = `${ok}/${total} OK`;
+        agg.className = 'agg-badge checking';
+      } else if (fail === 0) {
+        agg.textContent = `All ${total} OK`;
+        agg.className = 'agg-badge good';
+      } else if (ok === 0) {
+        agg.textContent = `All Down`;
+        agg.className = 'agg-badge down';
+      } else {
+        agg.textContent = `${ok}/${total} OK`;
+        agg.className = 'agg-badge degraded';
+      }
     }
   </script>
 </body>
