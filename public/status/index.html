@@ -61,7 +61,7 @@
 
     const grid = document.getElementById('grid');
     const summary = document.getElementById('summary');
-    let ok = 0, fail = 0;
+    let ok = 0, fail = 0, offline = 0;
 
     cameras.forEach(cam => {
       const card = document.createElement('div');
@@ -88,7 +88,7 @@
       grid.appendChild(card);
 
       if (isOffline) {
-        fail++;
+        offline++;
         updateSummary();
         return;
       }
@@ -134,23 +134,24 @@
     });
 
     function updateSummary() {
-      const total = cameras.length;
+      const active = cameras.length - offline;
       const checked = ok + fail;
       const ts = new Date().toLocaleTimeString();
-      summary.innerHTML = `${ok}/${total} OK, ${fail}/${total} failed <span class="ts">| checked at ${ts}</span>`;
+      const offlineNote = offline > 0 ? ` (${offline} known offline)` : '';
+      summary.innerHTML = `${ok}/${active} OK, ${fail}/${active} failed${offlineNote} <span class="ts">| ${ts}</span>`;
 
       const agg = document.getElementById('agg');
-      if (checked < total) {
-        agg.textContent = `${ok}/${total} OK`;
+      if (checked < active) {
+        agg.textContent = `${ok}/${active} OK`;
         agg.className = 'agg-badge checking';
       } else if (fail === 0) {
-        agg.textContent = `All ${total} OK`;
+        agg.textContent = `All ${active} OK`;
         agg.className = 'agg-badge good';
       } else if (ok === 0) {
         agg.textContent = `All Down`;
         agg.className = 'agg-badge down';
       } else {
-        agg.textContent = `${ok}/${total} OK`;
+        agg.textContent = `${ok}/${active} OK`;
         agg.className = 'agg-badge degraded';
       }
     }
