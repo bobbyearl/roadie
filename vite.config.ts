@@ -19,6 +19,9 @@ export default defineConfig({
           if (req.url?.match(/\/roadie\/status\/?$/)) {
             req.url = '/roadie/status/index.html';
           }
+          if (req.url?.match(/\/roadie\/wall\/?$/)) {
+            req.url = '/roadie/wall/index.html';
+          }
           next();
         });
       },

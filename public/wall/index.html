@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roadie Wall - South Carolina</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0a0a1a; color: #fff; font-family: system-ui, sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1rem; }
+    h1 { font-size: 1rem; color: #666; margin-bottom: 0.5rem; letter-spacing: 0.1em; text-transform: uppercase; }
+    .subtitle { font-size: 0.7rem; color: #444; margin-bottom: 1rem; }
+    .wall-container { position: relative; width: 90vmin; aspect-ratio: 1.5 / 1; }
+    .wall-state-bg {
+      position: absolute; inset: 0;
+      background: #111;
+      clip-path: url(#sc-outline);
+      overflow: hidden;
+    }
+    .wall-cam {
+      position: absolute;
+      width: var(--cam-size);
+      height: calc(var(--cam-size) * 0.66);
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .wall-cam.loaded { opacity: 1; }
+    .wall-cam.error { display: none; }
+    .stats { margin-top: 1rem; font-size: 0.65rem; color: #555; }
+    .controls { margin-top: 0.5rem; display: flex; gap: 0.5rem; }
+    .controls button {
+      background: #222; color: #888; border: 1px solid #333; border-radius: 4px;
+      padding: 4px 10px; font-size: 0.65rem; cursor: pointer;
+    }
+    .controls button:hover { color: #fff; border-color: #555; }
+    .controls button.active { color: #f97316; border-color: #f97316; }
+  </style>
+</head>
+<body>
+  <h1>South Carolina</h1>
+  <p class="subtitle">760 live traffic cameras</p>
+
+  <div class="wall-container">
+    <!-- SC state outline as SVG clip path -->
+    <svg width="0" height="0">
+      <defs>
+        <clipPath id="sc-outline" clipPathUnits="objectBoundingBox">
+          <!-- Simplified SC state outline normalized to 0-1 bounding box -->
+          <path d="M0.05,0.15 L0.12,0.08 L0.18,0.05 L0.25,0.02 L0.32,0.0 L0.4,0.02 L0.48,0.08 L0.55,0.12 L0.6,0.18 L0.65,0.22 L0.7,0.28 L0.73,0.32 L0.78,0.38 L0.82,0.42 L0.86,0.48 L0.9,0.55 L0.93,0.6 L0.95,0.65 L0.97,0.72 L0.98,0.78 L1.0,0.85 L0.97,0.88 L0.92,0.9 L0.88,0.92 L0.82,0.95 L0.75,0.97 L0.68,0.98 L0.6,1.0 L0.52,0.98 L0.45,0.95 L0.38,0.92 L0.3,0.88 L0.22,0.82 L0.15,0.75 L0.1,0.68 L0.06,0.6 L0.04,0.52 L0.02,0.42 L0.01,0.35 L0.02,0.28 L0.03,0.22 Z" />
+        </clipPath>
+      </defs>
+    </svg>
+
+    <div class="wall-state-bg" id="wall"></div>
+  </div>
+
+  <p class="stats" id="stats">Loading...</p>
+  <div class="controls">
+    <button id="btn-refresh">Refresh All</button>
+    <button id="btn-grid">Grid View</button>
+  </div>
+
+  <script>
+    const META_URL = '/roadie/data/meta.json';
+    const PINS_URL = '/roadie/data/pins.json';
+
+    // SC bounding box from data
+    const BOUNDS = { minLat: 32.230, maxLat: 35.174, minLng: -83.005, maxLng: -78.623 };
+    const LAT_SPAN = BOUNDS.maxLat - BOUNDS.minLat;
+    const LNG_SPAN = BOUNDS.maxLng - BOUNDS.minLng;
+
+    let gridMode = false;
+
+    async function init() {
+      const [pinsRes, metaRes] = await Promise.all([fetch(PINS_URL), fetch(META_URL)]);
+      const pins = await pinsRes.json();
+      const meta = await metaRes.json();
+
+      const scPins = pins.filter(p => p[2].startsWith('sc:'));
+      const wall = document.getElementById('wall');
+      const camSize = Math.max(2, Math.min(5, 100 / Math.sqrt(scPins.length)));
+
+      wall.style.setProperty('--cam-size', camSize + '%');
+
+      let loaded = 0, failed = 0;
+
+      scPins.forEach((pin, i) => {
+        const [lat, lng, id] = pin;
+        const cam = meta.cameras[id];
+        if (!cam || !cam[3]) return;
+
+        const img = document.createElement('img');
+        img.className = 'wall-cam';
+        img.loading = 'lazy';
+
+        // Position by geographic coordinates (normalized to 0-100%)
+        const x = ((lng - BOUNDS.minLng) / LNG_SPAN) * 100;
+        const y = (1 - (lat - BOUNDS.minLat) / LAT_SPAN) * 100; // flip Y
+        img.style.left = x + '%';
+        img.style.top = y + '%';
+        img.style.transform = 'translate(-50%, -50%)';
+
+        img.onload = () => { img.classList.add('loaded'); loaded++; updateStats(); };
+        img.onerror = () => { img.classList.add('error'); failed++; updateStats(); };
+        img.src = cam[3];
+        img.alt = cam[0];
+        img.title = cam[0];
+
+        wall.appendChild(img);
+      });
+
+      function updateStats() {
+        document.getElementById('stats').textContent =
+          `${loaded} loaded, ${failed} failed, ${scPins.length - loaded - failed} pending`;
+      }
+
+      // Grid mode toggle
+      document.getElementById('btn-grid').addEventListener('click', () => {
+        gridMode = !gridMode;
+        document.getElementById('btn-grid').classList.toggle('active', gridMode);
+        const imgs = wall.querySelectorAll('.wall-cam');
+        if (gridMode) {
+          const cols = Math.ceil(Math.sqrt(imgs.length * 1.5));
+          imgs.forEach((img, i) => {
+            const row = Math.floor(i / cols);
+            const col = i % cols;
+            img.style.left = (col / cols * 100) + '%';
+            img.style.top = (row / (imgs.length / cols) * 100) + '%';
+          });
+        } else {
+          // Restore geo positions
+          scPins.forEach((pin, i) => {
+            const img = imgs[i];
+            if (!img) return;
+            const x = ((pin[1] - BOUNDS.minLng) / LNG_SPAN) * 100;
+            const y = (1 - (pin[0] - BOUNDS.minLat) / LAT_SPAN) * 100;
+            img.style.left = x + '%';
+            img.style.top = y + '%';
+          });
+        }
+      });
+
+      // Refresh
+      document.getElementById('btn-refresh').addEventListener('click', () => {
+        const imgs = wall.querySelectorAll('.wall-cam');
+        const t = Date.now();
+        imgs.forEach(img => {
+          const base = img.src.split('?')[0];
+          img.src = base + '?t=' + t;
+          img.classList.remove('loaded', 'error');
+        });
+        loaded = 0; failed = 0;
+        updateStats();
+      });
+
+      updateStats();
+    }
+
+    init();
+  </script>
+</body>
+</html>
