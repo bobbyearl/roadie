@@ -338,10 +338,45 @@ def parse_tn():
     return cameras
 
 
+def parse_ca():
+    """California - Caltrans per-district JSON from cwwp2.dot.ca.gov"""
+    with open(os.path.join(DATA_DIR, "ca.json")) as f:
+        data = json.load(f)
+
+    cameras = []
+    for entry in data["data"]:
+        cam = entry.get("cctv", {})
+        loc = cam.get("location", {})
+        img_data = cam.get("imageData", {}).get("static", {})
+
+        lat = float(loc.get("latitude", 0))
+        lng = float(loc.get("longitude", 0))
+        if not lat or not lng:
+            continue
+
+        cam_id = cam.get("index", "")
+        name = loc.get("locationName", f"Camera {cam_id}")
+        image_url = img_data.get("currentImageURL", "")
+        video_url = cam.get("imageData", {}).get("streamingVideoURL", "")
+
+        cameras.append({
+            "id": f"d{loc.get('district', '0')}_{cam_id}",
+            "name": name,
+            "route": loc.get("route", ""),
+            "jurisdiction": loc.get("county", ""),
+            "lat": lat,
+            "lng": lng,
+            "image_url": image_url,
+            "video_url": video_url,
+        })
+    return cameras
+
+
 # State registry: (state_id, parser_function)
 # Order here determines the state index in the DB
 STATES = [
     ("al", parse_al),
+    ("ca", parse_ca),
     ("ct", parse_ct),
     ("de", parse_de),
     ("fl", parse_fl),

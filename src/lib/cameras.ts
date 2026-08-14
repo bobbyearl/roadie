@@ -62,6 +62,14 @@ export const STATES: StateConfig[] = [
     cameraCount: 630,
   },
   {
+    id: 'ca',
+    name: 'California',
+    defaultCenter: { lat: 36.7, lng: -119.8 },
+    defaultZoom: 6,
+    supportsVideo: false,
+    cameraCount: 3519,
+  },
+  {
     id: 'ct',
     name: 'Connecticut',
     defaultCenter: { lat: 41.6, lng: -72.7 },
@@ -163,8 +171,8 @@ export const STATES: StateConfig[] = [
 export const ALL_STATES_CONFIG: StateConfig = {
   id: 'all',
   name: 'All States',
-  defaultCenter: { lat: 36.5, lng: -79.0 },
-  defaultZoom: 6,
+  defaultCenter: { lat: 37.5, lng: -96.0 },
+  defaultZoom: 5,
   supportsVideo: true,
   cameraCount: STATES.reduce((sum, s) => sum + s.cameraCount, 0),
 };
