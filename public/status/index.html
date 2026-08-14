@@ -22,6 +22,8 @@
     .card-name { padding: 0.3rem 0.6rem; font-size: 0.6rem; color: #aaa; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; justify-content: space-between; align-items: center; }
     .card-source { color: #94a3b8; text-decoration: none; font-size: 0.55rem; shrink: 0; }
     .card-source:hover { color: #e0e0e0; text-decoration: underline; }
+    .card-app-link { color: #aaa; text-decoration: none; overflow: hidden; text-overflow: ellipsis; }
+    .card-app-link:hover { color: #e0e0e0; text-decoration: underline; }
     .summary { margin-top: 1rem; font-size: 0.7rem; color: #888; }
     .ts { color: #666; }
     .title-row { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
@@ -44,19 +46,19 @@
 
   <script>
     const cameras = [
-      { state: 'AL', name: 'I-10 East @ McDonald Rd', url: 'https://api.algotraffic.com/v4/Cameras/1845/snapshot.jpg', source: 'https://algotraffic.com' },
-      { state: 'CT', name: 'Vernon I-84 WB Exit 64', url: 'https://ctroads.org/map/Cctv/308', source: 'https://ctroads.org' },
-      { state: 'DE', name: 'DE 1 @ Milford Neck Rd', url: 'https://video.deldot.gov/live/KCAM001.stream/playlist.m3u8', note: 'video-only (HLS)', source: 'https://deldot.gov/map' },
-      { state: 'FL', name: 'I-4 @ MM 60.6 EB', url: 'https://fl511.com/map/Cctv/614', source: 'https://fl511.com' },
-      { state: 'GA', name: 'Akers Mill Rd at Overton Park', url: 'https://511ga.org/map/Cctv/22445', source: 'https://511ga.org' },
-      { state: 'MD', name: 'I-270 & Old Hundred Rd', url: 'https://chart.maryland.gov/wwwroot/thumbnails/7a00a1dc01250075004d823633235daa.jpg', source: 'https://chart.maryland.gov' },
-      { state: 'NC', name: 'WLM 19 17TH@DELANEY', url: 'https://www.drivenc.gov/map/Cctv/4768', source: 'https://drivenc.gov' },
-      { state: 'NJ', name: 'NJ-21 @ Murray Street', url: '', note: 'offline (Wink CDN blocked)', source: 'https://511nj.org' },
-      { state: 'PA', name: 'I-76 (PA Turnpike)', url: 'https://www.511pa.com/map/Cctv/4765', source: 'https://511pa.com' },
-      { state: 'SC', name: 'US 501 N @ Intracoastal', url: 'https://scdotsnap.us-east-1.skyvdn.com/thumbs/50016.flv.png', source: 'https://511sc.org' },
-      { state: 'TN', name: 'I-40/75 @ West Hills', url: 'https://tnsnapshots.com/thumbs/R1_010.flv.png', source: 'https://smartway.tn.gov/traffic' },
-      { state: 'UT', name: 'Minuteman Dr @ 12450 S', url: 'https://www.udottraffic.utah.gov/map/Cctv/136011', source: 'https://udottraffic.utah.gov' },
-      { state: 'VA', name: 'University Dr & Sager Ave', url: 'https://snapshot.vdotcameras.com/thumbs/0i6a7bfbs60yq2lbgivq0b8xk3scij3c.flv.png', source: 'https://511virginia.org' },
+      { state: 'AL', id: 'al:1845', name: 'I-10 East @ McDonald Rd', url: 'https://api.algotraffic.com/v4/Cameras/1845/snapshot.jpg', source: 'https://algotraffic.com' },
+      { state: 'CT', id: 'ct:308', name: 'Vernon I-84 WB Exit 64', url: 'https://ctroads.org/map/Cctv/308', source: 'https://ctroads.org' },
+      { state: 'DE', id: 'de:KCAM001', name: 'DE 1 @ Milford Neck Rd', url: 'https://video.deldot.gov/live/KCAM001.stream/playlist.m3u8', note: 'video-only (HLS)', source: 'https://deldot.gov/map' },
+      { state: 'FL', id: 'fl:614', name: 'I-4 @ MM 60.6 EB', url: 'https://fl511.com/map/Cctv/614', source: 'https://fl511.com' },
+      { state: 'GA', id: 'ga:22445', name: 'Akers Mill Rd at Overton Park', url: 'https://511ga.org/map/Cctv/22445', source: 'https://511ga.org' },
+      { state: 'MD', id: 'md:7a00a1dc01250075004d823633235daa', name: 'I-270 & Old Hundred Rd', url: 'https://chart.maryland.gov/wwwroot/thumbnails/7a00a1dc01250075004d823633235daa.jpg', source: 'https://chart.maryland.gov' },
+      { state: 'NC', id: 'nc:4768', name: 'WLM 19 17TH@DELANEY', url: 'https://www.drivenc.gov/map/Cctv/4768', source: 'https://drivenc.gov' },
+      { state: 'NJ', id: 'nj:51', name: 'NJ-21 @ Murray Street', url: '', note: 'offline (Wink CDN blocked)', source: 'https://511nj.org' },
+      { state: 'PA', id: 'pa:4765', name: 'I-76 (PA Turnpike)', url: 'https://www.511pa.com/map/Cctv/4765', source: 'https://511pa.com' },
+      { state: 'SC', id: 'sc:e72041b8-d2a0-11e6-8996-0123456789ab', name: 'US 501 N @ Intracoastal', url: 'https://scdotsnap.us-east-1.skyvdn.com/thumbs/50016.flv.png', source: 'https://511sc.org' },
+      { state: 'TN', id: 'tn:3165', name: 'I-40/75 @ West Hills', url: 'https://tnsnapshots.com/thumbs/R1_010.flv.png', source: 'https://smartway.tn.gov/traffic' },
+      { state: 'UT', id: 'ut:136011', name: 'Minuteman Dr @ 12450 S', url: 'https://www.udottraffic.utah.gov/map/Cctv/136011', source: 'https://udottraffic.utah.gov' },
+      { state: 'VA', id: 'va:3958', name: 'University Dr & Sager Ave', url: 'https://snapshot.vdotcameras.com/thumbs/0i6a7bfbs60yq2lbgivq0b8xk3scij3c.flv.png', source: 'https://511virginia.org' },
     ];
 
     const grid = document.getElementById('grid');
@@ -83,7 +85,7 @@
             ? `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#888;font-size:0.65rem;">HLS stream (no thumbnail)</div>`
             : `<img class="card-img" id="img-${cam.state}" src="${cam.url}" />`
         }
-        <div class="card-name">${cam.name}${cam.source ? ` <a href="${cam.source}" target="_blank" class="card-source">source</a>` : ''}</div>
+        <div class="card-name"><a href="/roadie/view/${cam.state.toLowerCase()}?selected=${cam.id}" class="card-app-link">${cam.name}</a>${cam.source ? ` <a href="${cam.source}" target="_blank" class="card-source">source</a>` : ''}</div>
       `;
       grid.appendChild(card);
 
