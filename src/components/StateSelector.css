@@ -19,13 +19,6 @@
 .state-selector-caret-open {
   transform: rotate(180deg);
 }
-.state-icon {
-  width: 1.35rem;
-  height: 1.1rem;
-  stroke: var(--color-accent-marker);
-  stroke-width: 5;
-  @apply shrink-0 self-center;
-}
 .state-row-name {
   @apply font-semibold;
 }
