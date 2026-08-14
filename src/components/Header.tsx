@@ -12,7 +12,7 @@ import {
 import { useTraffic } from '../lib/TrafficContext';
 import { IconButton } from './IconButton';
 import { BookmarksModal } from './BookmarksModal';
-import { StateIcon, StateSelector } from './StateSelector';
+import { StateSelector } from './StateSelector';
 
 interface HeaderProps {
   sidebarOpen: boolean;
@@ -20,7 +20,7 @@ interface HeaderProps {
 }
 
 export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
-  const { stateId, showMap, showList, selectedCameras, triggerLayout } = useTraffic();
+  const { showMap, showList, selectedCameras, triggerLayout } = useTraffic();
 
   const handleShare = () => {
     const url = window.location.href;
@@ -36,7 +36,6 @@ export function Header({ sidebarOpen, onSidebarToggle }: HeaderProps) {
       <header className="header-bar">
         <div className="header-nav">
           <div className="header-bar-left">
-            <StateIcon id={stateId} />
             <h1 className="header-bar-title"><Link to="/">Roadie App</Link> <span className="beta-badge">BETA</span></h1>
             <StateSelector />
           </div>

@@ -6,7 +6,6 @@ import { Camera, Info, Map, Share2, Smartphone } from 'lucide-react';
 import { STATES } from '../lib/cameras';
 import { emptyViewSearch } from '../lib/types';
 import { Footer } from './Footer';
-import { StateIcon } from './StateSelector';
 
 export function Landing() {
   const totalCameras = STATES.reduce((sum, s) => sum + s.cameraCount, 0);
@@ -17,11 +16,11 @@ export function Landing() {
         <div className="hero-content">
           <h1 className="hero-title">Roadie App <span className="beta-badge beta-badge-lg">BETA</span></h1>
           <p className="hero-subtitle">
-            View {totalCameras.toLocaleString()} live traffic cameras across {STATES.length} states.
+            {totalCameras.toLocaleString()} live traffic cameras across {STATES.length} states.
           </p>
           <div className="hero-actions">
-            <Link to="/view/$stateId" params={{ stateId: localStorage.getItem('roadie-last-state') || 'sc' }} search={emptyViewSearch} className="hero-cta">
-              {localStorage.getItem('roadie-last-state') && <StateIcon id={localStorage.getItem('roadie-last-state')!} />} Get Started
+            <Link to="/view/$stateId" params={{ stateId: 'all' }} search={emptyViewSearch} className="hero-cta">
+              Open Map
             </Link>
           </div>
         </div>
@@ -34,29 +33,6 @@ export function Landing() {
             <Info size={16} />
           </a>
         </p>
-      </section>
-
-      <section className="states">
-        <h2>Available States</h2>
-        <div className="state-grid">
-          {STATES.map((s) => (
-            <Link
-              key={s.id}
-              to="/view/$stateId"
-              params={{ stateId: s.id }}
-              search={emptyViewSearch}
-              className="state-card"
-            >
-              <span className="state-card-name">{s.name}</span>
-              <span className="state-card-count">{s.cameraCount.toLocaleString()} cameras</span>
-              <span className="state-card-badges">
-                {s.supportsVideo && <span className="state-card-badge">Live Video</span>}
-                {!s.supportsVideo && <span className="state-card-badge state-card-badge-muted">Live Images</span>}
-                {s.id === 'sc' && <span className="state-card-badge state-card-badge-routes">Curated Routes</span>}
-              </span>
-            </Link>
-          ))}
-        </div>
       </section>
 
       <section className="features">
@@ -114,10 +90,11 @@ export function Landing() {
 
       <section className="attribution">
         <p className="attribution-text">
-          Camera feeds provided by state departments of transportation. This app is not affiliated with or endorsed by any government agency.
+          Camera feeds provided by state departments of transportation. Not affiliated with or endorsed by any government agency.
         </p>
         <div className="attribution-links">
           <a href="https://algotraffic.com" target="_blank" rel="noopener">ALGO Traffic (AL)</a>
+          <a href="https://cwwp2.dot.ca.gov" target="_blank" rel="noopener">Caltrans (CA)</a>
           <a href="https://ctroads.org" target="_blank" rel="noopener">CTRoads</a>
           <a href="https://tmc.deldot.gov" target="_blank" rel="noopener">DelDOT</a>
           <a href="https://fl511.com" target="_blank" rel="noopener">FL 511</a>
