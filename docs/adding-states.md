@@ -1,5 +1,93 @@
 # Adding States to Roadie - Data Capture Guide
 
+## Build Command
+
+After adding or modifying any state data, run:
+
+```bash
+python3 scripts/build-db.py
+```
+
+This generates ALL three files the app needs:
+- `public/data/cameras.db.json` (full database)
+- `public/data/pins.json` (lat/lng/id for map markers)
+- `public/data/meta.json` (names, URLs, metadata for camera details)
+
+**Do NOT manually edit pins.json or meta.json.** They are generated from cameras.db.json.
+
+Also update `src/lib/cameras.ts` STATES array with the new state entry (id, name, center, zoom, video support, camera count).
+
+---
+
+## Automated Approach: 511 Platform States
+
+Most US states use the same 511 platform (by Itis/Iteris). These can be fully scraped without any browser interaction:
+
+### How it works
+
+1. **Coordinates:** `GET {domain}/map/mapIcons/Cameras` (needs a session cookie from hitting the map page first)
+2. **Details (name, camera ID, video URL):** `GET {domain}/tooltip/Cameras/{siteId}?lang=en-US` (no auth needed)
+3. **Images:** `GET {domain}/map/Cctv/{cameraId}` (no auth needed)
+
+### States confirmed working with this pattern
+
+| Domain | State(s) |
+|--------|----------|
+| 511wi.gov | WI |
+| 511la.org | LA |
+| nvroads.com | NV |
+| 511.idaho.gov | ID |
+| 511.alaska.gov | AK |
+| newengland511.org | ME/VT |
+| 511ga.org | GA |
+| fl511.com | FL |
+| ctroads.org | CT |
+| 511pa.com | PA |
+| udottraffic.utah.gov | UT |
+
+### Scrape script pattern
+
+```python
+import urllib.request, http.cookiejar, re, json, gzip, time
+
+domain = "https://511wi.gov"
+state = "wi"
+
+# Step 1: Get coordinates (needs session)
+cj = http.cookiejar.CookieJar()
+opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+opener.open(f"{domain}/map")
+req = urllib.request.Request(f"{domain}/map/mapIcons/Cameras",
+    headers={'X-Requested-With': 'XMLHttpRequest', 'Referer': f'{domain}/map', 'Accept-Encoding': 'gzip'})
+with opener.open(req) as resp:
+    raw = resp.read()
+    try: text = gzip.decompress(raw).decode()
+    except: text = raw.decode()
+coords = json.loads(text)
+
+# Step 2: Scrape tooltips for each siteId
+site_ids = [int(i['itemId']) for i in coords['item2']]
+results = []
+for sid in site_ids:
+    html = urllib.request.urlopen(f"{domain}/tooltip/Cameras/{sid}?lang=en-US").read().decode()
+    cam_id = re.search(r'data-camera-id="(\d+)"|data-lazy="/map/Cctv/(\d+)"', html)
+    name = re.search(r'data-fs-title="([^"]+)"', html)
+    video = re.search(r'data-videourl="([^"]+)"', html)
+    if cam_id:
+        cid = cam_id.group(1) or cam_id.group(2)
+        results.append({...})  # merge with coordinates
+    time.sleep(0.1)
+
+# Step 3: Save as pre-normalized JSON
+# Output format: [{id: "wi:123", name: "...", lat, lng, image_url, video_url, route: "", jurisdiction: ""}]
+```
+
+### Important: Camera ID prefixing
+
+The build script automatically prefixes camera IDs with the state code (e.g., `1089` becomes `wi:1089`). 
+If your data source already includes the prefix (e.g., `wi:1089`), it won't double-prefix.
+This prevents ID collisions between states that share the same numeric ID space.
+
 ## What We Need Per State
 
 For each camera, we need:

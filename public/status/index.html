@@ -46,20 +46,26 @@
 
   <script>
     const cameras = [
+      { state: 'AK', id: 'ak:1', name: 'Seward Hwy @ Portage Glacier Rd', url: 'https://511.alaska.gov/map/Cctv/1', source: 'https://511.alaska.gov' },
       { state: 'AL', id: 'al:1845', name: 'I-10 East @ McDonald Rd', url: 'https://api.algotraffic.com/v4/Cameras/1845/snapshot.jpg', source: 'https://algotraffic.com' },
       { state: 'CA', id: 'ca:d1_1', name: 'SR-20 at SR-1 (Fort Bragg)', url: 'https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20atsr1lookingeast/sr20atsr1lookingeast.jpg', source: 'https://cwwp2.dot.ca.gov' },
       { state: 'CT', id: 'ct:308', name: 'Vernon I-84 WB Exit 64', url: 'https://ctroads.org/map/Cctv/308', source: 'https://ctroads.org' },
       { state: 'DE', id: 'de:KCAM001', name: 'DE 1 @ Milford Neck Rd', url: 'https://video.deldot.gov/live/KCAM001.stream/playlist.m3u8', note: 'video-only (HLS)', source: 'https://deldot.gov/map' },
       { state: 'FL', id: 'fl:614', name: 'I-4 @ MM 60.6 EB', url: 'https://fl511.com/map/Cctv/614', source: 'https://fl511.com' },
       { state: 'GA', id: 'ga:22445', name: 'Akers Mill Rd at Overton Park', url: 'https://511ga.org/map/Cctv/22445', source: 'https://511ga.org' },
+      { state: 'ID', id: 'id:1', name: 'I-15 UT/ID State Line', url: 'https://511.idaho.gov/map/Cctv/1', source: 'https://511.idaho.gov' },
+      { state: 'LA', id: 'la:1', name: 'I-20 at I-220 Off Ramp', url: 'https://511la.org/map/Cctv/1', source: 'https://511la.org' },
       { state: 'MD', id: 'md:7a00a1dc01250075004d823633235daa', name: 'I-270 & Old Hundred Rd', url: 'https://chart.maryland.gov/wwwroot/thumbnails/7a00a1dc01250075004d823633235daa.jpg', source: 'https://chart.maryland.gov' },
       { state: 'NC', id: 'nc:4768', name: 'WLM 19 17TH@DELANEY', url: 'https://www.drivenc.gov/map/Cctv/4768', source: 'https://drivenc.gov' },
+      { state: 'NE', id: 'ne:950', name: 'Waterbury I-89 North', url: 'https://newengland511.org/map/Cctv/950', source: 'https://newengland511.org' },
       { state: 'NJ', id: 'nj:51', name: 'NJ-21 @ Murray Street', url: '', note: 'offline (Wink CDN blocked)', source: 'https://511nj.org' },
+      { state: 'NV', id: 'nv:1', name: 'US-395 Reno', url: 'https://www.nvroads.com/map/Cctv/1', source: 'https://nvroads.com' },
       { state: 'PA', id: 'pa:4765', name: 'I-76 (PA Turnpike)', url: 'https://www.511pa.com/map/Cctv/4765', source: 'https://511pa.com' },
       { state: 'SC', id: 'sc:e72041b8-d2a0-11e6-8996-0123456789ab', name: 'US 501 N @ Intracoastal', url: 'https://scdotsnap.us-east-1.skyvdn.com/thumbs/50016.flv.png', source: 'https://511sc.org' },
       { state: 'TN', id: 'tn:3165', name: 'I-40/75 @ West Hills', url: 'https://tnsnapshots.com/thumbs/R1_010.flv.png', source: 'https://smartway.tn.gov/traffic' },
       { state: 'UT', id: 'ut:136011', name: 'Minuteman Dr @ 12450 S', url: 'https://www.udottraffic.utah.gov/map/Cctv/136011', source: 'https://udottraffic.utah.gov' },
       { state: 'VA', id: 'va:3958', name: 'University Dr & Sager Ave', url: 'https://snapshot.vdotcameras.com/thumbs/0i6a7bfbs60yq2lbgivq0b8xk3scij3c.flv.png', source: 'https://511virginia.org' },
+      { state: 'WI', id: 'wi:1089', name: 'I-90/94 at WIS 80', url: 'https://511wi.gov/map/Cctv/1089', source: 'https://511wi.gov' },
     ];
 
     const grid = document.getElementById('grid');
