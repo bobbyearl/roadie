@@ -1,0 +1,4572 @@
+[
+  {
+    "id": "id:1",
+    "name": "I-15 UT/ID State Line UT",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.0011,
+    "lng": -112.198,
+    "image_url": "https://511.idaho.gov/map/Cctv/1",
+    "video_url": ""
+  },
+  {
+    "id": "id:2",
+    "name": "SH-75 Wood River",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5946,
+    "lng": -114.345,
+    "image_url": "https://511.idaho.gov/map/Cctv/2",
+    "video_url": ""
+  },
+  {
+    "id": "id:1051",
+    "name": "D3 I-84 37.9 Garrity 538",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.599537,
+    "lng": -116.51544,
+    "image_url": "https://511.idaho.gov/map/Cctv/1051",
+    "video_url": ""
+  },
+  {
+    "id": "id:1055",
+    "name": "I-84 TenMile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.593906,
+    "lng": -116.43432,
+    "image_url": "https://511.idaho.gov/map/Cctv/1055",
+    "video_url": ""
+  },
+  {
+    "id": "id:26",
+    "name": "I-84 Wye",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5962,
+    "lng": -116.289,
+    "image_url": "https://511.idaho.gov/map/Cctv/26",
+    "video_url": ""
+  },
+  {
+    "id": "id:1065",
+    "name": "I-84 Vista",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.571686,
+    "lng": -116.2149,
+    "image_url": "https://511.idaho.gov/map/Cctv/1065",
+    "video_url": ""
+  },
+  {
+    "id": "id:1069",
+    "name": "D3 I-184 0.4 Exit 0 To I-84W 558",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.599842,
+    "lng": -116.28683,
+    "image_url": "https://511.idaho.gov/map/Cctv/1069",
+    "video_url": ""
+  },
+  {
+    "id": "id:1076",
+    "name": "I-184 US-20 Chinden",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.618114,
+    "lng": -116.23042,
+    "image_url": "https://511.idaho.gov/map/Cctv/1076",
+    "video_url": ""
+  },
+  {
+    "id": "id:114",
+    "name": "US-91 Franklin",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.0117,
+    "lng": -111.806,
+    "image_url": "https://511.idaho.gov/map/Cctv/114",
+    "video_url": ""
+  },
+  {
+    "id": "id:1152",
+    "name": "US-95 Lancaster",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.788025,
+    "lng": -116.78858,
+    "image_url": "https://511.idaho.gov/map/Cctv/1152",
+    "video_url": ""
+  },
+  {
+    "id": "id:1153",
+    "name": "I-90 WB Ramp + Ramsey",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.700806,
+    "lng": -116.80817,
+    "image_url": "https://511.idaho.gov/map/Cctv/1153",
+    "video_url": ""
+  },
+  {
+    "id": "id:1154",
+    "name": "Ramsey Golf Course Marie",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.704628,
+    "lng": -116.80817,
+    "image_url": "https://511.idaho.gov/map/Cctv/1154",
+    "video_url": ""
+  },
+  {
+    "id": "id:1155",
+    "name": "Ramsey Appleway Northwest Blvd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.701958,
+    "lng": -116.80766,
+    "image_url": "https://511.idaho.gov/map/Cctv/1155",
+    "video_url": ""
+  },
+  {
+    "id": "id:1156",
+    "name": "Northwest Blvd Seltice Ironwood",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.69751,
+    "lng": -116.80592,
+    "image_url": "https://511.idaho.gov/map/Cctv/1156",
+    "video_url": ""
+  },
+  {
+    "id": "id:1157",
+    "name": "Northwest Blvd Lakewood",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.69357,
+    "lng": -116.80334,
+    "image_url": "https://511.idaho.gov/map/Cctv/1157",
+    "video_url": ""
+  },
+  {
+    "id": "id:1158",
+    "name": "US-95 Honeysuckle",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.75154,
+    "lng": -116.7917,
+    "image_url": "https://511.idaho.gov/map/Cctv/1158",
+    "video_url": ""
+  },
+  {
+    "id": "id:1159",
+    "name": "US-12 21st &amp; Main",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.414993,
+    "lng": -117.00127,
+    "image_url": "https://511.idaho.gov/map/Cctv/1159",
+    "video_url": ""
+  },
+  {
+    "id": "id:1160",
+    "name": "I-90 Northwest Blvd EB Ramp",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.698906,
+    "lng": -116.80752,
+    "image_url": "https://511.idaho.gov/map/Cctv/1160",
+    "video_url": ""
+  },
+  {
+    "id": "id:1161",
+    "name": "I-90 Northwest Blvd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.699787,
+    "lng": -116.80739,
+    "image_url": "https://511.idaho.gov/map/Cctv/1161",
+    "video_url": ""
+  },
+  {
+    "id": "id:1162",
+    "name": "SH-57 Priest Lake FS Airport 67S",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.57423,
+    "lng": -116.95775,
+    "image_url": "https://511.idaho.gov/map/Cctv/1162",
+    "video_url": ""
+  },
+  {
+    "id": "id:1163",
+    "name": "D3 I-84 44.0 SH-69 Meridian 544",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.593918,
+    "lng": -116.39414,
+    "image_url": "https://511.idaho.gov/map/Cctv/1163",
+    "video_url": ""
+  },
+  {
+    "id": "id:150",
+    "name": "I-84 Northside Blvd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6022,
+    "lng": -116.584,
+    "image_url": "https://511.idaho.gov/map/Cctv/150",
+    "video_url": ""
+  },
+  {
+    "id": "id:1181",
+    "name": "D3 I-84 57.0 SH-21 Gowen 659",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.541584,
+    "lng": -116.16028,
+    "image_url": "https://511.idaho.gov/map/Cctv/1181",
+    "video_url": ""
+  },
+  {
+    "id": "id:1189",
+    "name": "US-93 Golf Course",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.621887,
+    "lng": -114.44969,
+    "image_url": "https://511.idaho.gov/map/Cctv/1189",
+    "video_url": ""
+  },
+  {
+    "id": "id:1190",
+    "name": "D2 Moscow SH-8 0.1 Warbonnet Dr 2-8",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.73232,
+    "lng": -117.037445,
+    "image_url": "https://511.idaho.gov/map/Cctv/1190",
+    "video_url": ""
+  },
+  {
+    "id": "id:1191",
+    "name": "D2 US-95 344.7 Sweet Ave 2-7",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.724728,
+    "lng": -117.001236,
+    "image_url": "https://511.idaho.gov/map/Cctv/1191",
+    "video_url": ""
+  },
+  {
+    "id": "id:1192",
+    "name": "SH-8 Stadium Peterson",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.732796,
+    "lng": -117.01613,
+    "image_url": "https://511.idaho.gov/map/Cctv/1192",
+    "video_url": ""
+  },
+  {
+    "id": "id:1193",
+    "name": "D6 US-20 8.6 West Yellowstone 6-1",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.66406,
+    "lng": -111.114426,
+    "image_url": "https://511.idaho.gov/map/Cctv/1193",
+    "video_url": ""
+  },
+  {
+    "id": "id:1194",
+    "name": "D2 SH-13 Idaho - Grangeville",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 45.926556,
+    "lng": -116.123924,
+    "image_url": "https://511.idaho.gov/map/Cctv/1194",
+    "video_url": ""
+  },
+  {
+    "id": "id:1195",
+    "name": "US-95 S Jackson at A Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.734653,
+    "lng": -117.00293,
+    "image_url": "https://511.idaho.gov/map/Cctv/1195",
+    "video_url": ""
+  },
+  {
+    "id": "id:1196",
+    "name": "US-95 S SH-8 Jackson 3rd E - W",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.732368,
+    "lng": -117.00292,
+    "image_url": "https://511.idaho.gov/map/Cctv/1196",
+    "video_url": ""
+  },
+  {
+    "id": "id:1197",
+    "name": "US-95 S SH-8 Jackson 3rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.732224,
+    "lng": -117.00271,
+    "image_url": "https://511.idaho.gov/map/Cctv/1197",
+    "video_url": ""
+  },
+  {
+    "id": "id:1198",
+    "name": "US-95 S Jackson 6th W-E",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.730015,
+    "lng": -117.0026,
+    "image_url": "https://511.idaho.gov/map/Cctv/1198",
+    "video_url": ""
+  },
+  {
+    "id": "id:1199",
+    "name": "US-95 S Jackson 6th",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.729935,
+    "lng": -117.00271,
+    "image_url": "https://511.idaho.gov/map/Cctv/1199",
+    "video_url": ""
+  },
+  {
+    "id": "id:1204",
+    "name": "D6 US-20 251.86 Arco 6-2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.609818,
+    "lng": -113.24962,
+    "image_url": "https://511.idaho.gov/map/Cctv/1204",
+    "video_url": ""
+  },
+  {
+    "id": "id:1206",
+    "name": "US-2 Boyer",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.272717,
+    "lng": -116.55694,
+    "image_url": "https://511.idaho.gov/map/Cctv/1206",
+    "video_url": ""
+  },
+  {
+    "id": "id:1207",
+    "name": "US-2 Pine at Fifth",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.273193,
+    "lng": -116.553734,
+    "image_url": "https://511.idaho.gov/map/Cctv/1207",
+    "video_url": ""
+  },
+  {
+    "id": "id:1208",
+    "name": "US-2 Cedar",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.275997,
+    "lng": -116.5537,
+    "image_url": "https://511.idaho.gov/map/Cctv/1208",
+    "video_url": ""
+  },
+  {
+    "id": "id:1209",
+    "name": "US-2 Larch",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.280216,
+    "lng": -116.55366,
+    "image_url": "https://511.idaho.gov/map/Cctv/1209",
+    "video_url": ""
+  },
+  {
+    "id": "id:203",
+    "name": "US-93 Jackpot",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.0193,
+    "lng": -114.673,
+    "image_url": "https://511.idaho.gov/map/Cctv/203",
+    "video_url": ""
+  },
+  {
+    "id": "id:208",
+    "name": "US-26 Ririe",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6108,
+    "lng": -111.704,
+    "image_url": "https://511.idaho.gov/map/Cctv/208",
+    "video_url": ""
+  },
+  {
+    "id": "id:1225",
+    "name": "US-95 SH-53",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.818558,
+    "lng": -116.78874,
+    "image_url": "https://511.idaho.gov/map/Cctv/1225",
+    "video_url": ""
+  },
+  {
+    "id": "id:1229",
+    "name": "US-95 Wilbur",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.73704,
+    "lng": -116.79245,
+    "image_url": "https://511.idaho.gov/map/Cctv/1229",
+    "video_url": ""
+  },
+  {
+    "id": "id:1230",
+    "name": "US-95 Miles",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.7664,
+    "lng": -116.79136,
+    "image_url": "https://511.idaho.gov/map/Cctv/1230",
+    "video_url": ""
+  },
+  {
+    "id": "id:1233",
+    "name": "D3 I-84 33.6 SH-55 Midland 302",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.609135,
+    "lng": -116.59743,
+    "image_url": "https://511.idaho.gov/map/Cctv/1233",
+    "video_url": ""
+  },
+  {
+    "id": "id:1235",
+    "name": "I-84 + Laster Lane, Caldwell.",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.62606,
+    "lng": -116.61986,
+    "image_url": "https://511.idaho.gov/map/Cctv/1235",
+    "video_url": ""
+  },
+  {
+    "id": "id:1236",
+    "name": "US-95 I-90",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.69935,
+    "lng": -116.791885,
+    "image_url": "https://511.idaho.gov/map/Cctv/1236",
+    "video_url": ""
+  },
+  {
+    "id": "id:1237",
+    "name": "I-86 Philbin Tank Farm",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.91251,
+    "lng": -112.49988,
+    "image_url": "https://511.idaho.gov/map/Cctv/1237",
+    "video_url": ""
+  },
+  {
+    "id": "id:1238",
+    "name": "I-15 Northgate New Day Walton",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.9477,
+    "lng": -112.436615,
+    "image_url": "https://511.idaho.gov/map/Cctv/1238",
+    "video_url": ""
+  },
+  {
+    "id": "id:1239",
+    "name": "US-95 38th Clearwater River Lewiston",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.43407,
+    "lng": -116.97166,
+    "image_url": "https://511.idaho.gov/map/Cctv/1239",
+    "video_url": ""
+  },
+  {
+    "id": "id:1240",
+    "name": "US-95 Garwood",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.83204,
+    "lng": -116.77811,
+    "image_url": "https://511.idaho.gov/map/Cctv/1240",
+    "video_url": ""
+  },
+  {
+    "id": "id:257",
+    "name": "I-15 Samaria",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.0364,
+    "lng": -112.211,
+    "image_url": "https://511.idaho.gov/map/Cctv/257",
+    "video_url": ""
+  },
+  {
+    "id": "id:1248",
+    "name": "D2 SH-13 13.2 Harpster 2-17",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 45.98707,
+    "lng": -115.963264,
+    "image_url": "https://511.idaho.gov/map/Cctv/1248",
+    "video_url": ""
+  },
+  {
+    "id": "id:1252",
+    "name": "D3 SH-21 Lowman Clear Creek3-205",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.082535,
+    "lng": -115.611374,
+    "image_url": "https://511.idaho.gov/map/Cctv/1252",
+    "video_url": ""
+  },
+  {
+    "id": "id:1258",
+    "name": "US-95 Neider",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.707016,
+    "lng": -116.79133,
+    "image_url": "https://511.idaho.gov/map/Cctv/1258",
+    "video_url": ""
+  },
+  {
+    "id": "id:1259",
+    "name": "US-95 Dalton",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.72251,
+    "lng": -116.79189,
+    "image_url": "https://511.idaho.gov/map/Cctv/1259",
+    "video_url": ""
+  },
+  {
+    "id": "id:280",
+    "name": "I-15 Osgood",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6539,
+    "lng": -112.101,
+    "image_url": "https://511.idaho.gov/map/Cctv/280",
+    "video_url": ""
+  },
+  {
+    "id": "id:284",
+    "name": "I-84 Juniper",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.1447,
+    "lng": -112.98,
+    "image_url": "https://511.idaho.gov/map/Cctv/284",
+    "video_url": ""
+  },
+  {
+    "id": "id:296",
+    "name": "I-84 Caldwell",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6706,
+    "lng": -116.678,
+    "image_url": "https://511.idaho.gov/map/Cctv/296",
+    "video_url": ""
+  },
+  {
+    "id": "id:298",
+    "name": "SH-38 Holbrook",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.1678,
+    "lng": -112.655,
+    "image_url": "https://511.idaho.gov/map/Cctv/298",
+    "video_url": ""
+  },
+  {
+    "id": "id:310",
+    "name": "US-89 Bloomington",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.1837,
+    "lng": -111.401,
+    "image_url": "https://511.idaho.gov/map/Cctv/310",
+    "video_url": ""
+  },
+  {
+    "id": "id:316",
+    "name": "US-20 Thornton",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.7554,
+    "lng": -111.849,
+    "image_url": "https://511.idaho.gov/map/Cctv/316",
+    "video_url": ""
+  },
+  {
+    "id": "id:319",
+    "name": "Local Drinkwater Pass, OR",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.7702,
+    "lng": -118.13,
+    "image_url": "https://511.idaho.gov/map/Cctv/319",
+    "video_url": ""
+  },
+  {
+    "id": "id:320",
+    "name": "SH-33 Junction 33/22 Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.8068,
+    "lng": -112.836,
+    "image_url": "https://511.idaho.gov/map/Cctv/320",
+    "video_url": ""
+  },
+  {
+    "id": "id:324",
+    "name": "I-15 Sage Junction",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.8281,
+    "lng": -112.193,
+    "image_url": "https://511.idaho.gov/map/Cctv/324",
+    "video_url": ""
+  },
+  {
+    "id": "id:327",
+    "name": "SH-55 Horseshoe Bend Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.8363,
+    "lng": -116.245,
+    "image_url": "https://511.idaho.gov/map/Cctv/327",
+    "video_url": ""
+  },
+  {
+    "id": "id:330",
+    "name": "SH-33 River Rim",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.8568,
+    "lng": -111.28,
+    "image_url": "https://511.idaho.gov/map/Cctv/330",
+    "video_url": ""
+  },
+  {
+    "id": "id:333",
+    "name": "I-84 Black Canyon",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.8652,
+    "lng": -116.777,
+    "image_url": "https://511.idaho.gov/map/Cctv/333",
+    "video_url": ""
+  },
+  {
+    "id": "id:336",
+    "name": "US-30 Rocky Point",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.1964,
+    "lng": -111.202,
+    "image_url": "https://511.idaho.gov/map/Cctv/336",
+    "video_url": ""
+  },
+  {
+    "id": "id:339",
+    "name": "SH-33 Botts",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.8782,
+    "lng": -111.363,
+    "image_url": "https://511.idaho.gov/map/Cctv/339",
+    "video_url": ""
+  },
+  {
+    "id": "id:342",
+    "name": "SH-75 Smiley Creek Airport",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.9096,
+    "lng": -114.802,
+    "image_url": "https://511.idaho.gov/map/Cctv/342",
+    "video_url": ""
+  },
+  {
+    "id": "id:345",
+    "name": "I-84 I-84/US-95",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.9697,
+    "lng": -116.912,
+    "image_url": "https://511.idaho.gov/map/Cctv/345",
+    "video_url": ""
+  },
+  {
+    "id": "id:349",
+    "name": "I-84 Snake River OR",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.007,
+    "lng": -116.941,
+    "image_url": "https://511.idaho.gov/map/Cctv/349",
+    "video_url": ""
+  },
+  {
+    "id": "id:350",
+    "name": "I-15 Camas",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.007,
+    "lng": -112.233,
+    "image_url": "https://511.idaho.gov/map/Cctv/350",
+    "video_url": ""
+  },
+  {
+    "id": "id:353",
+    "name": "US-20 Fall River",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.0093,
+    "lng": -111.537,
+    "image_url": "https://511.idaho.gov/map/Cctv/353",
+    "video_url": ""
+  },
+  {
+    "id": "id:357",
+    "name": "US-20 Sheep Falls",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.1923,
+    "lng": -111.446,
+    "image_url": "https://511.idaho.gov/map/Cctv/357",
+    "video_url": ""
+  },
+  {
+    "id": "id:360",
+    "name": "SH-28 Lone Pine",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.2001,
+    "lng": -112.951,
+    "image_url": "https://511.idaho.gov/map/Cctv/360",
+    "video_url": ""
+  },
+  {
+    "id": "id:363",
+    "name": "Local Weiser, OR",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.2162,
+    "lng": -116.987,
+    "image_url": "https://511.idaho.gov/map/Cctv/363",
+    "video_url": ""
+  },
+  {
+    "id": "id:364",
+    "name": "I-84 Sweetzer Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.2078,
+    "lng": -113.046,
+    "image_url": "https://511.idaho.gov/map/Cctv/364",
+    "video_url": ""
+  },
+  {
+    "id": "id:368",
+    "name": "US-93 Willow Creek Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.2308,
+    "lng": -113.975,
+    "image_url": "https://511.idaho.gov/map/Cctv/368",
+    "video_url": ""
+  },
+  {
+    "id": "id:371",
+    "name": "SH-75 Clayton",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.2553,
+    "lng": -114.477,
+    "image_url": "https://511.idaho.gov/map/Cctv/371",
+    "video_url": ""
+  },
+  {
+    "id": "id:374",
+    "name": "Local OR-201, OR",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.2602,
+    "lng": -117.182,
+    "image_url": "https://511.idaho.gov/map/Cctv/374",
+    "video_url": ""
+  },
+  {
+    "id": "id:375",
+    "name": "Local Brogan Hill, OR",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.2773,
+    "lng": -117.648,
+    "image_url": "https://511.idaho.gov/map/Cctv/375",
+    "video_url": ""
+  },
+  {
+    "id": "id:376",
+    "name": "SH-55 Smiths Ferry",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.3006,
+    "lng": -116.089,
+    "image_url": "https://511.idaho.gov/map/Cctv/376",
+    "video_url": ""
+  },
+  {
+    "id": "id:379",
+    "name": "US-20 Osborne Bridge",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.3244,
+    "lng": -111.449,
+    "image_url": "https://511.idaho.gov/map/Cctv/379",
+    "video_url": ""
+  },
+  {
+    "id": "id:382",
+    "name": "I-15 China Point",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.3286,
+    "lng": -112.175,
+    "image_url": "https://511.idaho.gov/map/Cctv/382",
+    "video_url": ""
+  },
+  {
+    "id": "id:385",
+    "name": "I-15 Camp Creek",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.4253,
+    "lng": -112.204,
+    "image_url": "https://511.idaho.gov/map/Cctv/385",
+    "video_url": ""
+  },
+  {
+    "id": "id:388",
+    "name": "US-95 Midvale Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.4449,
+    "lng": -116.799,
+    "image_url": "https://511.idaho.gov/map/Cctv/388",
+    "video_url": ""
+  },
+  {
+    "id": "id:391",
+    "name": "US-30 Border Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.2108,
+    "lng": -111.109,
+    "image_url": "https://511.idaho.gov/map/Cctv/391",
+    "video_url": ""
+  },
+  {
+    "id": "id:394",
+    "name": "SH-28 Gilmore Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.4562,
+    "lng": -113.241,
+    "image_url": "https://511.idaho.gov/map/Cctv/394",
+    "video_url": ""
+  },
+  {
+    "id": "id:397",
+    "name": "I-15 Monida",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.5325,
+    "lng": -112.27,
+    "image_url": "https://511.idaho.gov/map/Cctv/397",
+    "video_url": ""
+  },
+  {
+    "id": "id:400",
+    "name": "Local Monida Pass, MT",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.557,
+    "lng": -112.312,
+    "image_url": "https://511.idaho.gov/map/Cctv/400",
+    "video_url": ""
+  },
+  {
+    "id": "id:401",
+    "name": "SH-55 Little Donner",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.5802,
+    "lng": -116.039,
+    "image_url": "https://511.idaho.gov/map/Cctv/401",
+    "video_url": ""
+  },
+  {
+    "id": "id:404",
+    "name": "US-20 Henrys Lake",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.6183,
+    "lng": -111.335,
+    "image_url": "https://511.idaho.gov/map/Cctv/404",
+    "video_url": ""
+  },
+  {
+    "id": "id:408",
+    "name": "Local Raynolds Pass, MT",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.7286,
+    "lng": -111.47,
+    "image_url": "https://511.idaho.gov/map/Cctv/408",
+    "video_url": ""
+  },
+  {
+    "id": "id:409",
+    "name": "US-95 Fort Hall Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.8261,
+    "lng": -116.397,
+    "image_url": "https://511.idaho.gov/map/Cctv/409",
+    "video_url": ""
+  },
+  {
+    "id": "id:412",
+    "name": "Local Halfway Summit, OR",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.8285,
+    "lng": -117.122,
+    "image_url": "https://511.idaho.gov/map/Cctv/412",
+    "video_url": ""
+  },
+  {
+    "id": "id:413",
+    "name": "Local J.C. Airstrip",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.9118,
+    "lng": -115.487,
+    "image_url": "https://511.idaho.gov/map/Cctv/413",
+    "video_url": ""
+  },
+  {
+    "id": "id:414",
+    "name": "Local SR-223 Loray",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.145517,
+    "lng": -114.287765,
+    "image_url": "https://511.idaho.gov/map/Cctv/414",
+    "video_url": ""
+  },
+  {
+    "id": "id:415",
+    "name": "Sage Junction, WY",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.8244,
+    "lng": -110.907,
+    "image_url": "https://511.idaho.gov/map/Cctv/415",
+    "video_url": ""
+  },
+  {
+    "id": "id:416",
+    "name": "US-93 Rogerson",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.2148,
+    "lng": -114.594,
+    "image_url": "https://511.idaho.gov/map/Cctv/416",
+    "video_url": ""
+  },
+  {
+    "id": "id:419",
+    "name": "SH-55 Goose Creek Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.9295,
+    "lng": -116.154,
+    "image_url": "https://511.idaho.gov/map/Cctv/419",
+    "video_url": ""
+  },
+  {
+    "id": "id:422",
+    "name": "US-95 Smokey Boulder",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 45.1164,
+    "lng": -116.304,
+    "image_url": "https://511.idaho.gov/map/Cctv/422",
+    "video_url": ""
+  },
+  {
+    "id": "id:426",
+    "name": "US-95 Idaho County Line",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 45.2948,
+    "lng": -116.358,
+    "image_url": "https://511.idaho.gov/map/Cctv/426",
+    "video_url": ""
+  },
+  {
+    "id": "id:429",
+    "name": "US-93 Lost Trail Pass",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 45.6931,
+    "lng": -113.948,
+    "image_url": "https://511.idaho.gov/map/Cctv/429",
+    "video_url": ""
+  },
+  {
+    "id": "id:432",
+    "name": "SH-14 Elk City",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 45.8273,
+    "lng": -115.441,
+    "image_url": "https://511.idaho.gov/map/Cctv/432",
+    "video_url": ""
+  },
+  {
+    "id": "id:433",
+    "name": "US-95 Whitebird Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 45.8483,
+    "lng": -116.239,
+    "image_url": "https://511.idaho.gov/map/Cctv/433",
+    "video_url": ""
+  },
+  {
+    "id": "id:437",
+    "name": "US-95 Concrete",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 45.9968,
+    "lng": -116.324,
+    "image_url": "https://511.idaho.gov/map/Cctv/437",
+    "video_url": ""
+  },
+  {
+    "id": "id:440",
+    "name": "US-95 Frei Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.113,
+    "lng": -116.354,
+    "image_url": "https://511.idaho.gov/map/Cctv/440",
+    "video_url": ""
+  },
+  {
+    "id": "id:443",
+    "name": "Raymond, WY",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.2746,
+    "lng": -111.043,
+    "image_url": "https://511.idaho.gov/map/Cctv/443",
+    "video_url": ""
+  },
+  {
+    "id": "id:446",
+    "name": "US-12 Pete King",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.1622,
+    "lng": -115.591,
+    "image_url": "https://511.idaho.gov/map/Cctv/446",
+    "video_url": ""
+  },
+  {
+    "id": "id:449",
+    "name": "US-12 Kamiah",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.2467,
+    "lng": -116.042,
+    "image_url": "https://511.idaho.gov/map/Cctv/449",
+    "video_url": ""
+  },
+  {
+    "id": "id:452",
+    "name": "US-95 Winchester",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.2552,
+    "lng": -116.605,
+    "image_url": "https://511.idaho.gov/map/Cctv/452",
+    "video_url": ""
+  },
+  {
+    "id": "id:455",
+    "name": "SH-11 Top of Greer Grade",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.3821,
+    "lng": -116.128,
+    "image_url": "https://511.idaho.gov/map/Cctv/455",
+    "video_url": ""
+  },
+  {
+    "id": "id:459",
+    "name": "US-12 Alpowa Summit, WA",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.436106,
+    "lng": -117.42049,
+    "image_url": "https://511.idaho.gov/map/Cctv/459",
+    "video_url": ""
+  },
+  {
+    "id": "id:460",
+    "name": "US-95 Lewiston Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.4619,
+    "lng": -117.015,
+    "image_url": "https://511.idaho.gov/map/Cctv/460",
+    "video_url": ""
+  },
+  {
+    "id": "id:463",
+    "name": "US-12 Cottonwood Creek",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.4998,
+    "lng": -116.714,
+    "image_url": "https://511.idaho.gov/map/Cctv/463",
+    "video_url": ""
+  },
+  {
+    "id": "id:466",
+    "name": "US-95 Shirrod Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.5136,
+    "lng": -116.952,
+    "image_url": "https://511.idaho.gov/map/Cctv/466",
+    "video_url": ""
+  },
+  {
+    "id": "id:469",
+    "name": "SH-11 Grangemont",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.5573,
+    "lng": -115.835,
+    "image_url": "https://511.idaho.gov/map/Cctv/469",
+    "video_url": ""
+  },
+  {
+    "id": "id:471",
+    "name": "SH-34 Treasureton Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.2992,
+    "lng": -111.795,
+    "image_url": "https://511.idaho.gov/map/Cctv/471",
+    "video_url": ""
+  },
+  {
+    "id": "id:474",
+    "name": "US-12 Upper Lochsa",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.6156,
+    "lng": -114.59,
+    "image_url": "https://511.idaho.gov/map/Cctv/474",
+    "video_url": ""
+  },
+  {
+    "id": "id:477",
+    "name": "US-12 Lolo Pass",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.635,
+    "lng": -114.58,
+    "image_url": "https://511.idaho.gov/map/Cctv/477",
+    "video_url": ""
+  },
+  {
+    "id": "id:487",
+    "name": "SH-77 Conner Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.331,
+    "lng": -113.499,
+    "image_url": "https://511.idaho.gov/map/Cctv/487",
+    "video_url": ""
+  },
+  {
+    "id": "id:494",
+    "name": "SH-3 Deary",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.7988,
+    "lng": -116.557,
+    "image_url": "https://511.idaho.gov/map/Cctv/494",
+    "video_url": ""
+  },
+  {
+    "id": "id:497",
+    "name": "SH-6 Mt. Margaret",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.9322,
+    "lng": -116.699,
+    "image_url": "https://511.idaho.gov/map/Cctv/497",
+    "video_url": ""
+  },
+  {
+    "id": "id:500",
+    "name": "SH-3 Shoshone County Line",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.9736,
+    "lng": -116.276,
+    "image_url": "https://511.idaho.gov/map/Cctv/500",
+    "video_url": ""
+  },
+  {
+    "id": "id:502",
+    "name": "US-95 Marsh Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.0548,
+    "lng": -116.862,
+    "image_url": "https://511.idaho.gov/map/Cctv/502",
+    "video_url": ""
+  },
+  {
+    "id": "id:505",
+    "name": "SH-6 Harvard Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.0669,
+    "lng": -116.667,
+    "image_url": "https://511.idaho.gov/map/Cctv/505",
+    "video_url": ""
+  },
+  {
+    "id": "id:508",
+    "name": "SH-5 Parker Pass",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.3375,
+    "lng": -116.67,
+    "image_url": "https://511.idaho.gov/map/Cctv/508",
+    "video_url": ""
+  },
+  {
+    "id": "id:511",
+    "name": "US-89 Geneva Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.3317,
+    "lng": -111.139,
+    "image_url": "https://511.idaho.gov/map/Cctv/511",
+    "video_url": ""
+  },
+  {
+    "id": "id:514",
+    "name": "SH-3 Black Lake",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.429,
+    "lng": -116.628,
+    "image_url": "https://511.idaho.gov/map/Cctv/514",
+    "video_url": ""
+  },
+  {
+    "id": "id:517",
+    "name": "I-90 Lookout Pass MT",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.4545,
+    "lng": -115.695,
+    "image_url": "https://511.idaho.gov/map/Cctv/517",
+    "video_url": ""
+  },
+  {
+    "id": "id:518",
+    "name": "I-90 Lookout Pass",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.4611,
+    "lng": -115.694,
+    "image_url": "https://511.idaho.gov/map/Cctv/518",
+    "video_url": ""
+  },
+  {
+    "id": "id:521",
+    "name": "I-90 Wallace",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.4745,
+    "lng": -115.906,
+    "image_url": "https://511.idaho.gov/map/Cctv/521",
+    "video_url": ""
+  },
+  {
+    "id": "id:524",
+    "name": "US-95 Lake Creek",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.4875,
+    "lng": -116.988,
+    "image_url": "https://511.idaho.gov/map/Cctv/524",
+    "video_url": ""
+  },
+  {
+    "id": "id:528",
+    "name": "I-90 Cataldo",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.5468,
+    "lng": -116.331,
+    "image_url": "https://511.idaho.gov/map/Cctv/528",
+    "video_url": ""
+  },
+  {
+    "id": "id:531",
+    "name": "I-90 4th of July Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.6224,
+    "lng": -116.526,
+    "image_url": "https://511.idaho.gov/map/Cctv/531",
+    "video_url": ""
+  },
+  {
+    "id": "id:534",
+    "name": "I-90 Veterans Memorial Bridge",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.6488,
+    "lng": -116.715,
+    "image_url": "https://511.idaho.gov/map/Cctv/534",
+    "video_url": ""
+  },
+  {
+    "id": "id:538",
+    "name": "I-90 Liberty Lake, WA",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.6966,
+    "lng": -117.042,
+    "image_url": "https://511.idaho.gov/map/Cctv/538",
+    "video_url": ""
+  },
+  {
+    "id": "id:539",
+    "name": "US-91 Swan Lake",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.336,
+    "lng": -112.031,
+    "image_url": "https://511.idaho.gov/map/Cctv/539",
+    "video_url": ""
+  },
+  {
+    "id": "id:545",
+    "name": "I-90 Railroad Bridge",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.7126,
+    "lng": -116.952,
+    "image_url": "https://511.idaho.gov/map/Cctv/545",
+    "video_url": ""
+  },
+  {
+    "id": "id:554",
+    "name": "I-15 Malad Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.3428,
+    "lng": -112.226,
+    "image_url": "https://511.idaho.gov/map/Cctv/554",
+    "video_url": ""
+  },
+  {
+    "id": "id:558",
+    "name": "SH-41 Seasons",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.9261,
+    "lng": -116.85,
+    "image_url": "https://511.idaho.gov/map/Cctv/558",
+    "video_url": ""
+  },
+  {
+    "id": "id:561",
+    "name": "US-95 Granite Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.9923,
+    "lng": -116.682,
+    "image_url": "https://511.idaho.gov/map/Cctv/561",
+    "video_url": ""
+  },
+  {
+    "id": "id:564",
+    "name": "SH-41 Old Town",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.1714,
+    "lng": -117.022,
+    "image_url": "https://511.idaho.gov/map/Cctv/564",
+    "video_url": ""
+  },
+  {
+    "id": "id:567",
+    "name": "US-2 Wrenco Loop",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.2281,
+    "lng": -116.704,
+    "image_url": "https://511.idaho.gov/map/Cctv/567",
+    "video_url": ""
+  },
+  {
+    "id": "id:574",
+    "name": "US-95 Sandpoint",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.281,
+    "lng": -116.547,
+    "image_url": "https://511.idaho.gov/map/Cctv/574",
+    "video_url": ""
+  },
+  {
+    "id": "id:577",
+    "name": "SH-36 Emigration Canyon",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.3608,
+    "lng": -111.497,
+    "image_url": "https://511.idaho.gov/map/Cctv/577",
+    "video_url": ""
+  },
+  {
+    "id": "id:580",
+    "name": "SH-200 East Sunnyside",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.3262,
+    "lng": -116.416,
+    "image_url": "https://511.idaho.gov/map/Cctv/580",
+    "video_url": ""
+  },
+  {
+    "id": "id:584",
+    "name": "Local Yaak, MT",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.5835,
+    "lng": -115.984,
+    "image_url": "https://511.idaho.gov/map/Cctv/584",
+    "video_url": ""
+  },
+  {
+    "id": "id:585",
+    "name": "US-95 Five Mile Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 48.9322,
+    "lng": -116.331,
+    "image_url": "https://511.idaho.gov/map/Cctv/585",
+    "video_url": ""
+  },
+  {
+    "id": "id:587",
+    "name": "Hwy 3, Kootenay Pass, BC",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 49.0589,
+    "lng": -117.04,
+    "image_url": "https://511.idaho.gov/map/Cctv/587",
+    "video_url": ""
+  },
+  {
+    "id": "id:588",
+    "name": "Hwy 3 &amp; 95, Yahk, BC",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 49.0752,
+    "lng": -116.141,
+    "image_url": "https://511.idaho.gov/map/Cctv/588",
+    "video_url": ""
+  },
+  {
+    "id": "id:590",
+    "name": "SH-75 Stanley Hatchery",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.150712,
+    "lng": -114.880014,
+    "image_url": "https://511.idaho.gov/map/Cctv/590",
+    "video_url": ""
+  },
+  {
+    "id": "id:593",
+    "name": "I-84 Idahome",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.4133,
+    "lng": -113.317,
+    "image_url": "https://511.idaho.gov/map/Cctv/593",
+    "video_url": ""
+  },
+  {
+    "id": "id:596",
+    "name": "Local Basque Station, OR",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.4133,
+    "lng": -117.863,
+    "image_url": "https://511.idaho.gov/map/Cctv/596",
+    "video_url": ""
+  },
+  {
+    "id": "id:597",
+    "name": "Local Chaulk Hill, UT",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.9106,
+    "lng": -112.603,
+    "image_url": "https://511.idaho.gov/map/Cctv/597",
+    "video_url": ""
+  },
+  {
+    "id": "id:598",
+    "name": "SH-37 Big Canyon",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.4743,
+    "lng": -112.837,
+    "image_url": "https://511.idaho.gov/map/Cctv/598",
+    "video_url": ""
+  },
+  {
+    "id": "id:600",
+    "name": "Salt Pass, WY",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.505,
+    "lng": -110.907,
+    "image_url": "https://511.idaho.gov/map/Cctv/600",
+    "video_url": ""
+  },
+  {
+    "id": "id:603",
+    "name": "I-84 Yale Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.5171,
+    "lng": -113.425,
+    "image_url": "https://511.idaho.gov/map/Cctv/603",
+    "video_url": ""
+  },
+  {
+    "id": "id:606",
+    "name": "US-30 Georgetown Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.5303,
+    "lng": -111.407,
+    "image_url": "https://511.idaho.gov/map/Cctv/606",
+    "video_url": ""
+  },
+  {
+    "id": "id:609",
+    "name": "SH-50 Hansen Bridge",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.5685,
+    "lng": -114.298,
+    "image_url": "https://511.idaho.gov/map/Cctv/609",
+    "video_url": ""
+  },
+  {
+    "id": "id:612",
+    "name": "I-84 Heyburn",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.5687,
+    "lng": -113.73,
+    "image_url": "https://511.idaho.gov/map/Cctv/612",
+    "video_url": ""
+  },
+  {
+    "id": "id:615",
+    "name": "Local US-93 Bishop - Melandco",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.269009,
+    "lng": -114.827076,
+    "image_url": "https://511.idaho.gov/map/Cctv/615",
+    "video_url": ""
+  },
+  {
+    "id": "id:616",
+    "name": "I-84 Valley Interchange",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.5744,
+    "lng": -114.148,
+    "image_url": "https://511.idaho.gov/map/Cctv/616",
+    "video_url": ""
+  },
+  {
+    "id": "id:619",
+    "name": "I-86 Raft River",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.5781,
+    "lng": -113.437,
+    "image_url": "https://511.idaho.gov/map/Cctv/619",
+    "video_url": ""
+  },
+  {
+    "id": "id:622",
+    "name": "I-15 Marsh Valley",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.5835,
+    "lng": -112.186,
+    "image_url": "https://511.idaho.gov/map/Cctv/622",
+    "video_url": ""
+  },
+  {
+    "id": "id:624",
+    "name": "US-93 Perrine Bridge",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.5988,
+    "lng": -114.454,
+    "image_url": "https://511.idaho.gov/map/Cctv/624",
+    "video_url": ""
+  },
+  {
+    "id": "id:627",
+    "name": "Local Curlew Junction, UT",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.9367,
+    "lng": -113.086,
+    "image_url": "https://511.idaho.gov/map/Cctv/627",
+    "video_url": ""
+  },
+  {
+    "id": "id:628",
+    "name": "I-86 Coldwater",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.6118,
+    "lng": -113.154,
+    "image_url": "https://511.idaho.gov/map/Cctv/628",
+    "video_url": ""
+  },
+  {
+    "id": "id:631",
+    "name": "Park Parkcenter Front Clearwater",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.60304,
+    "lng": -116.18841,
+    "image_url": "https://511.idaho.gov/map/Cctv/631",
+    "video_url": ""
+  },
+  {
+    "id": "id:632",
+    "name": "Broadway (US-20) &amp; Front St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.608,
+    "lng": -116.193,
+    "image_url": "https://511.idaho.gov/map/Cctv/632",
+    "video_url": ""
+  },
+  {
+    "id": "id:633",
+    "name": "Franklin &amp; FiveMile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6048,
+    "lng": -116.3141,
+    "image_url": "https://511.idaho.gov/map/Cctv/633",
+    "video_url": ""
+  },
+  {
+    "id": "id:634",
+    "name": "I-184 Milwaukee Franklin",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.60515,
+    "lng": -116.28108,
+    "image_url": "https://511.idaho.gov/map/Cctv/634",
+    "video_url": ""
+  },
+  {
+    "id": "id:635",
+    "name": "9th &amp; Myrtle (US-20)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.613018,
+    "lng": -116.207596,
+    "image_url": "https://511.idaho.gov/map/Cctv/635",
+    "video_url": ""
+  },
+  {
+    "id": "id:636",
+    "name": "6th &amp; Front St (US-20)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6128,
+    "lng": -116.203,
+    "image_url": "https://511.idaho.gov/map/Cctv/636",
+    "video_url": ""
+  },
+  {
+    "id": "id:637",
+    "name": "Capitol &amp; Myrtle (US-20)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.612,
+    "lng": -116.205,
+    "image_url": "https://511.idaho.gov/map/Cctv/637",
+    "video_url": ""
+  },
+  {
+    "id": "id:638",
+    "name": "Fairview &amp; Cole",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.61914,
+    "lng": -116.27445,
+    "image_url": "https://511.idaho.gov/map/Cctv/638",
+    "video_url": ""
+  },
+  {
+    "id": "id:639",
+    "name": "Fairview &amp; Milwaukee",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619656,
+    "lng": -116.28409,
+    "image_url": "https://511.idaho.gov/map/Cctv/639",
+    "video_url": ""
+  },
+  {
+    "id": "id:640",
+    "name": "Emerald &amp; Milwaukee",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.611164,
+    "lng": -116.284,
+    "image_url": "https://511.idaho.gov/map/Cctv/640",
+    "video_url": ""
+  },
+  {
+    "id": "id:641",
+    "name": "Franklin &amp; Maple Grove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.60506,
+    "lng": -116.294395,
+    "image_url": "https://511.idaho.gov/map/Cctv/641",
+    "video_url": ""
+  },
+  {
+    "id": "id:642",
+    "name": "Franklin &amp; Cloverdale",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.604755,
+    "lng": -116.33411,
+    "image_url": "https://511.idaho.gov/map/Cctv/642",
+    "video_url": ""
+  },
+  {
+    "id": "id:643",
+    "name": "Franklin &amp; Cole I-184 EB Ramp",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.60483,
+    "lng": -116.274475,
+    "image_url": "https://511.idaho.gov/map/Cctv/643",
+    "video_url": ""
+  },
+  {
+    "id": "id:644",
+    "name": "Broadway &amp; Warm Springs &amp; Idaho Main Ave B",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.611088,
+    "lng": -116.19229,
+    "image_url": "https://511.idaho.gov/map/Cctv/644",
+    "video_url": ""
+  },
+  {
+    "id": "id:645",
+    "name": "US-20 Chinden &amp; Veterans Memorial Parkway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.630627,
+    "lng": -116.250946,
+    "image_url": "https://511.idaho.gov/map/Cctv/645",
+    "video_url": ""
+  },
+  {
+    "id": "id:646",
+    "name": "Fairview &amp; Curtis",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.618835,
+    "lng": -116.25381,
+    "image_url": "https://511.idaho.gov/map/Cctv/646",
+    "video_url": ""
+  },
+  {
+    "id": "id:647",
+    "name": "US-20 Broadway &amp; Beacon",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.59829,
+    "lng": -116.19377,
+    "image_url": "https://511.idaho.gov/map/Cctv/647",
+    "video_url": ""
+  },
+  {
+    "id": "id:648",
+    "name": "US-20 Broadway &amp; Boise Ave",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5903,
+    "lng": -116.194,
+    "image_url": "https://511.idaho.gov/map/Cctv/648",
+    "video_url": ""
+  },
+  {
+    "id": "id:649",
+    "name": "US-20 Broadway &amp; Linden",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.579063,
+    "lng": -116.19348,
+    "image_url": "https://511.idaho.gov/map/Cctv/649",
+    "video_url": ""
+  },
+  {
+    "id": "id:650",
+    "name": "US-20 Broadway &amp; Myrtle St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.606,
+    "lng": -116.193,
+    "image_url": "https://511.idaho.gov/map/Cctv/650",
+    "video_url": ""
+  },
+  {
+    "id": "id:651",
+    "name": "State St &amp; Collister",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.649803,
+    "lng": -116.24931,
+    "image_url": "https://511.idaho.gov/map/Cctv/651",
+    "video_url": ""
+  },
+  {
+    "id": "id:652",
+    "name": "State St &amp; Ellens Ferry",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.65862,
+    "lng": -116.263626,
+    "image_url": "https://511.idaho.gov/map/Cctv/652",
+    "video_url": ""
+  },
+  {
+    "id": "id:653",
+    "name": "State &amp; Veterans Memorial Parkway &amp; 36th",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6404,
+    "lng": -116.23549,
+    "image_url": "https://511.idaho.gov/map/Cctv/653",
+    "video_url": ""
+  },
+  {
+    "id": "id:654",
+    "name": "SH-44 State &amp; Glenwood",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6683,
+    "lng": -116.279,
+    "image_url": "https://511.idaho.gov/map/Cctv/654",
+    "video_url": ""
+  },
+  {
+    "id": "id:655",
+    "name": "US-20 Chinden &amp; SH-55 Eagle",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.66276,
+    "lng": -116.35472,
+    "image_url": "https://511.idaho.gov/map/Cctv/655",
+    "video_url": ""
+  },
+  {
+    "id": "id:656",
+    "name": "SH-55 Eagle Rd &amp; Fairview Ave",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619167,
+    "lng": -116.35478,
+    "image_url": "https://511.idaho.gov/map/Cctv/656",
+    "video_url": ""
+  },
+  {
+    "id": "id:657",
+    "name": "SH-55 Eagle Rd &amp; Franklin",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.60524,
+    "lng": -116.35459,
+    "image_url": "https://511.idaho.gov/map/Cctv/657",
+    "video_url": ""
+  },
+  {
+    "id": "id:658",
+    "name": "SH-55 Eagle Rd &amp; McMillan",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.648605,
+    "lng": -116.3541,
+    "image_url": "https://511.idaho.gov/map/Cctv/658",
+    "video_url": ""
+  },
+  {
+    "id": "id:659",
+    "name": "SH-55 Eagle Rd &amp; Ustick Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.63361,
+    "lng": -116.35459,
+    "image_url": "https://511.idaho.gov/map/Cctv/659",
+    "video_url": ""
+  },
+  {
+    "id": "id:660",
+    "name": "Fairview &amp; Cloverdale",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619728,
+    "lng": -116.33433,
+    "image_url": "https://511.idaho.gov/map/Cctv/660",
+    "video_url": ""
+  },
+  {
+    "id": "id:661",
+    "name": "Overland &amp; Entertainment",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5904,
+    "lng": -116.28061,
+    "image_url": "https://511.idaho.gov/map/Cctv/661",
+    "video_url": ""
+  },
+  {
+    "id": "id:662",
+    "name": "Overland &amp; Maple Grove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.59042,
+    "lng": -116.29433,
+    "image_url": "https://511.idaho.gov/map/Cctv/662",
+    "video_url": ""
+  },
+  {
+    "id": "id:663",
+    "name": "Overland &amp; Five Mile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.59049,
+    "lng": -116.31408,
+    "image_url": "https://511.idaho.gov/map/Cctv/663",
+    "video_url": ""
+  },
+  {
+    "id": "id:664",
+    "name": "US-20 Chinden &amp; SH-44 Glenwood",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.648785,
+    "lng": -116.2796,
+    "image_url": "https://511.idaho.gov/map/Cctv/664",
+    "video_url": ""
+  },
+  {
+    "id": "id:665",
+    "name": "I-84 Nampa Blvd &amp; Northside Blvd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.60045,
+    "lng": -116.57355,
+    "image_url": "https://511.idaho.gov/map/Cctv/665",
+    "video_url": ""
+  },
+  {
+    "id": "id:666",
+    "name": "I-84 Franklin Blvd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.598602,
+    "lng": -116.55339,
+    "image_url": "https://511.idaho.gov/map/Cctv/666",
+    "video_url": ""
+  },
+  {
+    "id": "id:667",
+    "name": "I-84 11th Ave N",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5981,
+    "lng": -116.537,
+    "image_url": "https://511.idaho.gov/map/Cctv/667",
+    "video_url": ""
+  },
+  {
+    "id": "id:668",
+    "name": "I-84 Garrity Blvd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5992,
+    "lng": -116.513,
+    "image_url": "https://511.idaho.gov/map/Cctv/668",
+    "video_url": ""
+  },
+  {
+    "id": "id:669",
+    "name": "I-84 Robinson Blvd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5991,
+    "lng": -116.494,
+    "image_url": "https://511.idaho.gov/map/Cctv/669",
+    "video_url": ""
+  },
+  {
+    "id": "id:670",
+    "name": "I-84 McDermott Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5969,
+    "lng": -116.474,
+    "image_url": "https://511.idaho.gov/map/Cctv/670",
+    "video_url": ""
+  },
+  {
+    "id": "id:671",
+    "name": "I-84 Black Cat",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.594402,
+    "lng": -116.45279,
+    "image_url": "https://511.idaho.gov/map/Cctv/671",
+    "video_url": ""
+  },
+  {
+    "id": "id:672",
+    "name": "I-84 Ten Mile Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5933,
+    "lng": -116.434,
+    "image_url": "https://511.idaho.gov/map/Cctv/672",
+    "video_url": ""
+  },
+  {
+    "id": "id:673",
+    "name": "I-84 Linder",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.593197,
+    "lng": -116.41269,
+    "image_url": "https://511.idaho.gov/map/Cctv/673",
+    "video_url": ""
+  },
+  {
+    "id": "id:674",
+    "name": "I-84 Meridian Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5933,
+    "lng": -116.395,
+    "image_url": "https://511.idaho.gov/map/Cctv/674",
+    "video_url": ""
+  },
+  {
+    "id": "id:675",
+    "name": "I-84 Locust Grove Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5933,
+    "lng": -116.375,
+    "image_url": "https://511.idaho.gov/map/Cctv/675",
+    "video_url": ""
+  },
+  {
+    "id": "id:676",
+    "name": "I-84 Eagle Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5963,
+    "lng": -116.355,
+    "image_url": "https://511.idaho.gov/map/Cctv/676",
+    "video_url": ""
+  },
+  {
+    "id": "id:677",
+    "name": "I-84 Cloverdale Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5972,
+    "lng": -116.334,
+    "image_url": "https://511.idaho.gov/map/Cctv/677",
+    "video_url": ""
+  },
+  {
+    "id": "id:678",
+    "name": "I-84 Five Mile Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5972,
+    "lng": -116.314,
+    "image_url": "https://511.idaho.gov/map/Cctv/678",
+    "video_url": ""
+  },
+  {
+    "id": "id:679",
+    "name": "I-84 Maple Grove Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.597,
+    "lng": -116.294,
+    "image_url": "https://511.idaho.gov/map/Cctv/679",
+    "video_url": ""
+  },
+  {
+    "id": "id:680",
+    "name": "Cole Overland",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.590366,
+    "lng": -116.27391,
+    "image_url": "https://511.idaho.gov/map/Cctv/680",
+    "video_url": ""
+  },
+  {
+    "id": "id:681",
+    "name": "I-84 MP51",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.583263,
+    "lng": -116.25927,
+    "image_url": "https://511.idaho.gov/map/Cctv/681",
+    "video_url": ""
+  },
+  {
+    "id": "id:682",
+    "name": "I-84 Orchard St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5756,
+    "lng": -116.244,
+    "image_url": "https://511.idaho.gov/map/Cctv/682",
+    "video_url": ""
+  },
+  {
+    "id": "id:683",
+    "name": "I-84 Vista Ave",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5711,
+    "lng": -116.216,
+    "image_url": "https://511.idaho.gov/map/Cctv/683",
+    "video_url": ""
+  },
+  {
+    "id": "id:684",
+    "name": "I-84 Broadway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.567085,
+    "lng": -116.19668,
+    "image_url": "https://511.idaho.gov/map/Cctv/684",
+    "video_url": ""
+  },
+  {
+    "id": "id:685",
+    "name": "Fairview &amp; Locust Grove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619656,
+    "lng": -116.37437,
+    "image_url": "https://511.idaho.gov/map/Cctv/685",
+    "video_url": ""
+  },
+  {
+    "id": "id:686",
+    "name": "I-84 Apple St/MP 56",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5522,
+    "lng": -116.175,
+    "image_url": "https://511.idaho.gov/map/Cctv/686",
+    "video_url": ""
+  },
+  {
+    "id": "id:687",
+    "name": "I-84 I-184",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5948,
+    "lng": -116.284,
+    "image_url": "https://511.idaho.gov/map/Cctv/687",
+    "video_url": ""
+  },
+  {
+    "id": "id:688",
+    "name": "I-184 Franklin St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6004,
+    "lng": -116.284,
+    "image_url": "https://511.idaho.gov/map/Cctv/688",
+    "video_url": ""
+  },
+  {
+    "id": "id:689",
+    "name": "Gowen &amp; FederalWay",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.540833,
+    "lng": -116.15509,
+    "image_url": "https://511.idaho.gov/map/Cctv/689",
+    "video_url": ""
+  },
+  {
+    "id": "id:690",
+    "name": "I-184 Curtis Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6168,
+    "lng": -116.254,
+    "image_url": "https://511.idaho.gov/map/Cctv/690",
+    "video_url": ""
+  },
+  {
+    "id": "id:691",
+    "name": "I-184 Orchard St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6182,
+    "lng": -116.243,
+    "image_url": "https://511.idaho.gov/map/Cctv/691",
+    "video_url": ""
+  },
+  {
+    "id": "id:692",
+    "name": "I-184 17th St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619,
+    "lng": -116.216,
+    "image_url": "https://511.idaho.gov/map/Cctv/692",
+    "video_url": ""
+  },
+  {
+    "id": "id:693",
+    "name": "Broadway (US-20) &amp; University",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6009,
+    "lng": -116.194,
+    "image_url": "https://511.idaho.gov/map/Cctv/693",
+    "video_url": ""
+  },
+  {
+    "id": "id:694",
+    "name": "Capitol &amp; University",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.60544,
+    "lng": -116.21154,
+    "image_url": "https://511.idaho.gov/map/Cctv/694",
+    "video_url": ""
+  },
+  {
+    "id": "id:695",
+    "name": "I-184 Chinden Blvd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6184,
+    "lng": -116.233,
+    "image_url": "https://511.idaho.gov/map/Cctv/695",
+    "video_url": ""
+  },
+  {
+    "id": "id:696",
+    "name": "I-184 Cole Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6074,
+    "lng": -116.274,
+    "image_url": "https://511.idaho.gov/map/Cctv/696",
+    "video_url": ""
+  },
+  {
+    "id": "id:697",
+    "name": "Cole &amp; Emerald",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6121,
+    "lng": -116.27445,
+    "image_url": "https://511.idaho.gov/map/Cctv/697",
+    "video_url": ""
+  },
+  {
+    "id": "id:698",
+    "name": "Eagle &amp; Overland",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.590546,
+    "lng": -116.35487,
+    "image_url": "https://511.idaho.gov/map/Cctv/698",
+    "video_url": ""
+  },
+  {
+    "id": "id:699",
+    "name": "Overland &amp; Locust Grove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.590134,
+    "lng": -116.374275,
+    "image_url": "https://511.idaho.gov/map/Cctv/699",
+    "video_url": ""
+  },
+  {
+    "id": "id:700",
+    "name": "SH-69 &amp; Overland Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.59,
+    "lng": -116.394,
+    "image_url": "https://511.idaho.gov/map/Cctv/700",
+    "video_url": ""
+  },
+  {
+    "id": "id:701",
+    "name": "Franklin &amp; Main",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.604534,
+    "lng": -116.39184,
+    "image_url": "https://511.idaho.gov/map/Cctv/701",
+    "video_url": ""
+  },
+  {
+    "id": "id:702",
+    "name": "Franklin &amp; LocustGrove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.604744,
+    "lng": -116.37432,
+    "image_url": "https://511.idaho.gov/map/Cctv/702",
+    "video_url": ""
+  },
+  {
+    "id": "id:703",
+    "name": "SH-44 &amp; Eagle Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.691,
+    "lng": -116.354,
+    "image_url": "https://511.idaho.gov/map/Cctv/703",
+    "video_url": ""
+  },
+  {
+    "id": "id:704",
+    "name": "Meridian &amp; Main Central",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.597397,
+    "lng": -116.3935,
+    "image_url": "https://511.idaho.gov/map/Cctv/704",
+    "video_url": ""
+  },
+  {
+    "id": "id:705",
+    "name": "Orchard &amp; Overland",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.589947,
+    "lng": -116.24346,
+    "image_url": "https://511.idaho.gov/map/Cctv/705",
+    "video_url": ""
+  },
+  {
+    "id": "id:706",
+    "name": "SH-55 &amp; SH-44",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6846,
+    "lng": -116.32,
+    "image_url": "https://511.idaho.gov/map/Cctv/706",
+    "video_url": ""
+  },
+  {
+    "id": "id:707",
+    "name": "Fairview &amp; Maple Grove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.61963,
+    "lng": -116.29442,
+    "image_url": "https://511.idaho.gov/map/Cctv/707",
+    "video_url": ""
+  },
+  {
+    "id": "id:708",
+    "name": "Fairview &amp; MaIn",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6191,
+    "lng": -116.391396,
+    "image_url": "https://511.idaho.gov/map/Cctv/708",
+    "video_url": ""
+  },
+  {
+    "id": "id:709",
+    "name": "Overland &amp; Cloverdale",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.59045,
+    "lng": -116.33417,
+    "image_url": "https://511.idaho.gov/map/Cctv/709",
+    "video_url": ""
+  },
+  {
+    "id": "id:710",
+    "name": "Cole &amp; Victory",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.575825,
+    "lng": -116.27387,
+    "image_url": "https://511.idaho.gov/map/Cctv/710",
+    "video_url": ""
+  },
+  {
+    "id": "id:711",
+    "name": "Fairview &amp; Five Mile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619637,
+    "lng": -116.31411,
+    "image_url": "https://511.idaho.gov/map/Cctv/711",
+    "video_url": ""
+  },
+  {
+    "id": "id:712",
+    "name": "Cole &amp; Ustick",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.634068,
+    "lng": -116.27446,
+    "image_url": "https://511.idaho.gov/map/Cctv/712",
+    "video_url": ""
+  },
+  {
+    "id": "id:713",
+    "name": "US-20 Chinden &amp; Linder",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.662666,
+    "lng": -116.41398,
+    "image_url": "https://511.idaho.gov/map/Cctv/713",
+    "video_url": ""
+  },
+  {
+    "id": "id:714",
+    "name": "SH-55 &amp; Hill Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6935,
+    "lng": -116.319,
+    "image_url": "https://511.idaho.gov/map/Cctv/714",
+    "video_url": ""
+  },
+  {
+    "id": "id:715",
+    "name": "Cloverdale &amp; Ustick",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.634068,
+    "lng": -116.33424,
+    "image_url": "https://511.idaho.gov/map/Cctv/715",
+    "video_url": ""
+  },
+  {
+    "id": "id:716",
+    "name": "Vista &amp; Overland",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.589993,
+    "lng": -116.21386,
+    "image_url": "https://511.idaho.gov/map/Cctv/716",
+    "video_url": ""
+  },
+  {
+    "id": "id:717",
+    "name": "SH-69 &amp; Victory Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5755,
+    "lng": -116.394,
+    "image_url": "https://511.idaho.gov/map/Cctv/717",
+    "video_url": ""
+  },
+  {
+    "id": "id:718",
+    "name": "SH-69 &amp; Amity Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5609,
+    "lng": -116.394,
+    "image_url": "https://511.idaho.gov/map/Cctv/718",
+    "video_url": ""
+  },
+  {
+    "id": "id:719",
+    "name": "SH-69 &amp; Columbia Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5319,
+    "lng": -116.394,
+    "image_url": "https://511.idaho.gov/map/Cctv/719",
+    "video_url": ""
+  },
+  {
+    "id": "id:720",
+    "name": "SH-69 &amp; Deer Flat Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5028,
+    "lng": -116.394,
+    "image_url": "https://511.idaho.gov/map/Cctv/720",
+    "video_url": ""
+  },
+  {
+    "id": "id:721",
+    "name": "Deer Flat &amp; Linder",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.50314,
+    "lng": -116.41356,
+    "image_url": "https://511.idaho.gov/map/Cctv/721",
+    "video_url": ""
+  },
+  {
+    "id": "id:722",
+    "name": "US-20 Chinden &amp; Kent Ln",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6465,
+    "lng": -116.275,
+    "image_url": "https://511.idaho.gov/map/Cctv/722",
+    "video_url": ""
+  },
+  {
+    "id": "id:723",
+    "name": "Meridian &amp; Cherry",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619034,
+    "lng": -116.39336,
+    "image_url": "https://511.idaho.gov/map/Cctv/723",
+    "video_url": ""
+  },
+  {
+    "id": "id:724",
+    "name": "US-20 Chinden &amp; Meridian Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6629,
+    "lng": -116.393,
+    "image_url": "https://511.idaho.gov/map/Cctv/724",
+    "video_url": ""
+  },
+  {
+    "id": "id:725",
+    "name": "US-20 Chinden &amp; Locust Grove Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.663,
+    "lng": -116.375,
+    "image_url": "https://511.idaho.gov/map/Cctv/725",
+    "video_url": ""
+  },
+  {
+    "id": "id:726",
+    "name": "27th &amp; Fairview",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.620293,
+    "lng": -116.224106,
+    "image_url": "https://511.idaho.gov/map/Cctv/726",
+    "video_url": ""
+  },
+  {
+    "id": "id:727",
+    "name": "Orchard &amp; Emerald",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.611534,
+    "lng": -116.24335,
+    "image_url": "https://511.idaho.gov/map/Cctv/727",
+    "video_url": ""
+  },
+  {
+    "id": "id:728",
+    "name": "Ustick &amp; Milwaukee",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.634068,
+    "lng": -116.28437,
+    "image_url": "https://511.idaho.gov/map/Cctv/728",
+    "video_url": ""
+  },
+  {
+    "id": "id:729",
+    "name": "Ustick &amp; Five Mile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.63408,
+    "lng": -116.31417,
+    "image_url": "https://511.idaho.gov/map/Cctv/729",
+    "video_url": ""
+  },
+  {
+    "id": "id:730",
+    "name": "US-30 Topaz",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.6185,
+    "lng": -112.091,
+    "image_url": "https://511.idaho.gov/map/Cctv/730",
+    "video_url": ""
+  },
+  {
+    "id": "id:733",
+    "name": "Cherry &amp; Linder",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619076,
+    "lng": -116.41379,
+    "image_url": "https://511.idaho.gov/map/Cctv/733",
+    "video_url": ""
+  },
+  {
+    "id": "id:734",
+    "name": "Cherry &amp; Ten Mile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619427,
+    "lng": -116.43389,
+    "image_url": "https://511.idaho.gov/map/Cctv/734",
+    "video_url": ""
+  },
+  {
+    "id": "id:735",
+    "name": "State &amp; Whitewater 31st",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.63482,
+    "lng": -116.22741,
+    "image_url": "https://511.idaho.gov/map/Cctv/735",
+    "video_url": ""
+  },
+  {
+    "id": "id:736",
+    "name": "Whitewater &amp; Stewart",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.62923,
+    "lng": -116.23027,
+    "image_url": "https://511.idaho.gov/map/Cctv/736",
+    "video_url": ""
+  },
+  {
+    "id": "id:737",
+    "name": "9th &amp; Idaho",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.617126,
+    "lng": -116.20403,
+    "image_url": "https://511.idaho.gov/map/Cctv/737",
+    "video_url": ""
+  },
+  {
+    "id": "id:738",
+    "name": "15th &amp; Main",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619854,
+    "lng": -116.21158,
+    "image_url": "https://511.idaho.gov/map/Cctv/738",
+    "video_url": ""
+  },
+  {
+    "id": "id:739",
+    "name": "State &amp; 10th",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619904,
+    "lng": -116.20273,
+    "image_url": "https://511.idaho.gov/map/Cctv/739",
+    "video_url": ""
+  },
+  {
+    "id": "id:740",
+    "name": "FederalWay &amp; Protest",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.594067,
+    "lng": -116.20614,
+    "image_url": "https://511.idaho.gov/map/Cctv/740",
+    "video_url": ""
+  },
+  {
+    "id": "id:741",
+    "name": "US-20 Broadway WB Ramp Federal Way",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.573147,
+    "lng": -116.191895,
+    "image_url": "https://511.idaho.gov/map/Cctv/741",
+    "video_url": ""
+  },
+  {
+    "id": "id:742",
+    "name": "FederalWay &amp; Gekeler",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.567963,
+    "lng": -116.18229,
+    "image_url": "https://511.idaho.gov/map/Cctv/742",
+    "video_url": ""
+  },
+  {
+    "id": "id:743",
+    "name": "28th &amp; State",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.632294,
+    "lng": -116.22358,
+    "image_url": "https://511.idaho.gov/map/Cctv/743",
+    "video_url": ""
+  },
+  {
+    "id": "id:744",
+    "name": "16th &amp; State",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6233,
+    "lng": -116.20995,
+    "image_url": "https://511.idaho.gov/map/Cctv/744",
+    "video_url": ""
+  },
+  {
+    "id": "id:745",
+    "name": "SH-44 State &amp; Urban Gate",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6956,
+    "lng": -116.383,
+    "image_url": "https://511.idaho.gov/map/Cctv/745",
+    "video_url": ""
+  },
+  {
+    "id": "id:746",
+    "name": "SH-44 State &amp; Linder Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6941,
+    "lng": -116.414,
+    "image_url": "https://511.idaho.gov/map/Cctv/746",
+    "video_url": ""
+  },
+  {
+    "id": "id:747",
+    "name": "SH-44 State &amp; Fisher Park",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6954,
+    "lng": -116.396,
+    "image_url": "https://511.idaho.gov/map/Cctv/747",
+    "video_url": ""
+  },
+  {
+    "id": "id:748",
+    "name": "Capitol &amp; Main",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.614883,
+    "lng": -116.202324,
+    "image_url": "https://511.idaho.gov/map/Cctv/748",
+    "video_url": ""
+  },
+  {
+    "id": "id:749",
+    "name": "SH-16 &amp; Boise River",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6696,
+    "lng": -116.468,
+    "image_url": "https://511.idaho.gov/map/Cctv/749",
+    "video_url": ""
+  },
+  {
+    "id": "id:750",
+    "name": "SH-44 &amp; SH-16",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6918,
+    "lng": -116.46,
+    "image_url": "https://511.idaho.gov/map/Cctv/750",
+    "video_url": ""
+  },
+  {
+    "id": "id:751",
+    "name": "US-20 Chinden &amp; SH-16",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.663,
+    "lng": -116.472,
+    "image_url": "https://511.idaho.gov/map/Cctv/751",
+    "video_url": ""
+  },
+  {
+    "id": "id:752",
+    "name": "US-20 Chinden &amp; Cloverdale Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6629,
+    "lng": -116.334,
+    "image_url": "https://511.idaho.gov/map/Cctv/752",
+    "video_url": ""
+  },
+  {
+    "id": "id:753",
+    "name": "US-20 Chinden &amp; Five Mile Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6606,
+    "lng": -116.317,
+    "image_url": "https://511.idaho.gov/map/Cctv/753",
+    "video_url": ""
+  },
+  {
+    "id": "id:754",
+    "name": "US-20 Chinden &amp; Maple Grove Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6561,
+    "lng": -116.299,
+    "image_url": "https://511.idaho.gov/map/Cctv/754",
+    "video_url": ""
+  },
+  {
+    "id": "id:755",
+    "name": "SH-55 Eagle &amp; Island Woods",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.682396,
+    "lng": -116.354324,
+    "image_url": "https://511.idaho.gov/map/Cctv/755",
+    "video_url": ""
+  },
+  {
+    "id": "id:756",
+    "name": "SH-55 Eagle &amp; Colchester",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.671963,
+    "lng": -116.35454,
+    "image_url": "https://511.idaho.gov/map/Cctv/756",
+    "video_url": ""
+  },
+  {
+    "id": "id:757",
+    "name": "SH-55 Eagle &amp; Riverside Rivershore",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6878,
+    "lng": -116.35379,
+    "image_url": "https://511.idaho.gov/map/Cctv/757",
+    "video_url": ""
+  },
+  {
+    "id": "id:758",
+    "name": "SH-44 &amp; Edgewood Ln",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6879,
+    "lng": -116.334,
+    "image_url": "https://511.idaho.gov/map/Cctv/758",
+    "video_url": ""
+  },
+  {
+    "id": "id:759",
+    "name": "SH-44 State &amp; Horseshoe Bend Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6826,
+    "lng": -116.314,
+    "image_url": "https://511.idaho.gov/map/Cctv/759",
+    "video_url": ""
+  },
+  {
+    "id": "id:760",
+    "name": "Franklin &amp; TenMile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.60458,
+    "lng": -116.433495,
+    "image_url": "https://511.idaho.gov/map/Cctv/760",
+    "video_url": ""
+  },
+  {
+    "id": "id:761",
+    "name": "Franklin &amp; Linder",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.604553,
+    "lng": -116.41344,
+    "image_url": "https://511.idaho.gov/map/Cctv/761",
+    "video_url": ""
+  },
+  {
+    "id": "id:762",
+    "name": "University &amp; Joyce",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.602757,
+    "lng": -116.20448,
+    "image_url": "https://511.idaho.gov/map/Cctv/762",
+    "video_url": ""
+  },
+  {
+    "id": "id:763",
+    "name": "Fairview &amp; Records",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.61934,
+    "lng": -116.34668,
+    "image_url": "https://511.idaho.gov/map/Cctv/763",
+    "video_url": ""
+  },
+  {
+    "id": "id:764",
+    "name": "Lincoln &amp; Beacon",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.598537,
+    "lng": -116.2022,
+    "image_url": "https://511.idaho.gov/map/Cctv/764",
+    "video_url": ""
+  },
+  {
+    "id": "id:765",
+    "name": "FederalWay &amp; Amity",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.560158,
+    "lng": -116.16816,
+    "image_url": "https://511.idaho.gov/map/Cctv/765",
+    "video_url": ""
+  },
+  {
+    "id": "id:766",
+    "name": "Emerald &amp; Rifleman",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.611946,
+    "lng": -116.280464,
+    "image_url": "https://511.idaho.gov/map/Cctv/766",
+    "video_url": ""
+  },
+  {
+    "id": "id:767",
+    "name": "Emerald &amp; MapleGrove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.611515,
+    "lng": -116.29388,
+    "image_url": "https://511.idaho.gov/map/Cctv/767",
+    "video_url": ""
+  },
+  {
+    "id": "id:768",
+    "name": "SH-44 State &amp; Bogart Ln",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6755,
+    "lng": -116.294,
+    "image_url": "https://511.idaho.gov/map/Cctv/768",
+    "video_url": ""
+  },
+  {
+    "id": "id:769",
+    "name": "SH-44 Glenwood &amp; Marigold",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.66352,
+    "lng": -116.279465,
+    "image_url": "https://511.idaho.gov/map/Cctv/769",
+    "video_url": ""
+  },
+  {
+    "id": "id:770",
+    "name": "SH-44 Glenwood &amp; Riverside",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.65938,
+    "lng": -116.279594,
+    "image_url": "https://511.idaho.gov/map/Cctv/770",
+    "video_url": ""
+  },
+  {
+    "id": "id:771",
+    "name": "SH-55 Eagle &amp; River Valley",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.626305,
+    "lng": -116.354744,
+    "image_url": "https://511.idaho.gov/map/Cctv/771",
+    "video_url": ""
+  },
+  {
+    "id": "id:772",
+    "name": "Fairview &amp; Mitchell",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619625,
+    "lng": -116.30439,
+    "image_url": "https://511.idaho.gov/map/Cctv/772",
+    "video_url": ""
+  },
+  {
+    "id": "id:773",
+    "name": "SH-55 Eagle &amp; Pine Ave",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6123,
+    "lng": -116.355,
+    "image_url": "https://511.idaho.gov/map/Cctv/773",
+    "video_url": ""
+  },
+  {
+    "id": "id:774",
+    "name": "Ustick - Locust Grove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.633923,
+    "lng": -116.37478,
+    "image_url": "https://511.idaho.gov/map/Cctv/774",
+    "video_url": ""
+  },
+  {
+    "id": "id:775",
+    "name": "State &amp; 1st &amp; Fort",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.614544,
+    "lng": -116.19216,
+    "image_url": "https://511.idaho.gov/map/Cctv/775",
+    "video_url": ""
+  },
+  {
+    "id": "id:776",
+    "name": "US-20 Chinden &amp; Orchard St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6239,
+    "lng": -116.241,
+    "image_url": "https://511.idaho.gov/map/Cctv/776",
+    "video_url": ""
+  },
+  {
+    "id": "id:777",
+    "name": "US-20 Chinden &amp; 13th St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6162,
+    "lng": -116.212,
+    "image_url": "https://511.idaho.gov/map/Cctv/777",
+    "video_url": ""
+  },
+  {
+    "id": "id:778",
+    "name": "Orchard &amp; Franklin",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.60252,
+    "lng": -116.243706,
+    "image_url": "https://511.idaho.gov/map/Cctv/778",
+    "video_url": ""
+  },
+  {
+    "id": "id:779",
+    "name": "Glenwood &amp; Goddard Mountain View Drive",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.643993,
+    "lng": -116.27803,
+    "image_url": "https://511.idaho.gov/map/Cctv/779",
+    "video_url": ""
+  },
+  {
+    "id": "id:780",
+    "name": "Locust Grove &amp; Pine",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.612255,
+    "lng": -116.3743,
+    "image_url": "https://511.idaho.gov/map/Cctv/780",
+    "video_url": ""
+  },
+  {
+    "id": "id:781",
+    "name": "Victory &amp; Five Mile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.575584,
+    "lng": -116.31397,
+    "image_url": "https://511.idaho.gov/map/Cctv/781",
+    "video_url": ""
+  },
+  {
+    "id": "id:782",
+    "name": "Ustick &amp; Maple Grove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.63407,
+    "lng": -116.29399,
+    "image_url": "https://511.idaho.gov/map/Cctv/782",
+    "video_url": ""
+  },
+  {
+    "id": "id:783",
+    "name": "Parkcenter &amp; Beacon",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.598576,
+    "lng": -116.18712,
+    "image_url": "https://511.idaho.gov/map/Cctv/783",
+    "video_url": ""
+  },
+  {
+    "id": "id:784",
+    "name": "27th &amp; Main",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.621918,
+    "lng": -116.22408,
+    "image_url": "https://511.idaho.gov/map/Cctv/784",
+    "video_url": ""
+  },
+  {
+    "id": "id:785",
+    "name": "Five Mile &amp; Executive",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.61014,
+    "lng": -116.31418,
+    "image_url": "https://511.idaho.gov/map/Cctv/785",
+    "video_url": ""
+  },
+  {
+    "id": "id:786",
+    "name": "Meridian &amp; Corporate",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.599213,
+    "lng": -116.3935,
+    "image_url": "https://511.idaho.gov/map/Cctv/786",
+    "video_url": ""
+  },
+  {
+    "id": "id:787",
+    "name": "Milwaukee &amp; Westpark",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.607735,
+    "lng": -116.2827,
+    "image_url": "https://511.idaho.gov/map/Cctv/787",
+    "video_url": ""
+  },
+  {
+    "id": "id:788",
+    "name": "US-20 Chinden &amp; 50th St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6423,
+    "lng": -116.267,
+    "image_url": "https://511.idaho.gov/map/Cctv/788",
+    "video_url": ""
+  },
+  {
+    "id": "id:789",
+    "name": "13th &amp; Jefferson",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.62076,
+    "lng": -116.20718,
+    "image_url": "https://511.idaho.gov/map/Cctv/789",
+    "video_url": ""
+  },
+  {
+    "id": "id:790",
+    "name": "I-84 &amp; Gowen",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.54219,
+    "lng": -116.16275,
+    "image_url": "https://511.idaho.gov/map/Cctv/790",
+    "video_url": ""
+  },
+  {
+    "id": "id:791",
+    "name": "I-84 &amp; SH-21",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5421,
+    "lng": -116.161,
+    "image_url": "https://511.idaho.gov/map/Cctv/791",
+    "video_url": ""
+  },
+  {
+    "id": "id:792",
+    "name": "SH-69 Main &amp; 3rd Linder Roundabout",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.4906,
+    "lng": -116.414,
+    "image_url": "https://511.idaho.gov/map/Cctv/792",
+    "video_url": ""
+  },
+  {
+    "id": "id:793",
+    "name": "26th &amp; Hill Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.65566,
+    "lng": -116.23325,
+    "image_url": "https://511.idaho.gov/map/Cctv/793",
+    "video_url": ""
+  },
+  {
+    "id": "id:794",
+    "name": "US-20 Chinden Long Lake",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.663006,
+    "lng": -116.42361,
+    "image_url": "https://511.idaho.gov/map/Cctv/794",
+    "video_url": ""
+  },
+  {
+    "id": "id:795",
+    "name": "Eagle &amp; State",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.69528,
+    "lng": -116.35417,
+    "image_url": "https://511.idaho.gov/map/Cctv/795",
+    "video_url": ""
+  },
+  {
+    "id": "id:796",
+    "name": "Ten Mile &amp; McMillan",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.648586,
+    "lng": -116.4338,
+    "image_url": "https://511.idaho.gov/map/Cctv/796",
+    "video_url": ""
+  },
+  {
+    "id": "id:797",
+    "name": "Overland &amp; Curtis",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.58999,
+    "lng": -116.2538,
+    "image_url": "https://511.idaho.gov/map/Cctv/797",
+    "video_url": ""
+  },
+  {
+    "id": "id:798",
+    "name": "Ten Mile &amp; Ustick",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.63416,
+    "lng": -116.433556,
+    "image_url": "https://511.idaho.gov/map/Cctv/798",
+    "video_url": ""
+  },
+  {
+    "id": "id:799",
+    "name": "US-20 Chinden &amp; Ten Mile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6629,
+    "lng": -116.434,
+    "image_url": "https://511.idaho.gov/map/Cctv/799",
+    "video_url": ""
+  },
+  {
+    "id": "id:800",
+    "name": "Cloverdale &amp; McMillan",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.648636,
+    "lng": -116.33422,
+    "image_url": "https://511.idaho.gov/map/Cctv/800",
+    "video_url": ""
+  },
+  {
+    "id": "id:801",
+    "name": "Eagle &amp; Victory",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.575863,
+    "lng": -116.35422,
+    "image_url": "https://511.idaho.gov/map/Cctv/801",
+    "video_url": ""
+  },
+  {
+    "id": "id:802",
+    "name": "Gowen &amp; Pleasant Valley",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.55454,
+    "lng": -116.23321,
+    "image_url": "https://511.idaho.gov/map/Cctv/802",
+    "video_url": ""
+  },
+  {
+    "id": "id:803",
+    "name": "Veterans Memorial Parkway &amp; Adams",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.63385,
+    "lng": -116.246445,
+    "image_url": "https://511.idaho.gov/map/Cctv/803",
+    "video_url": ""
+  },
+  {
+    "id": "id:804",
+    "name": "Orchard &amp; Irving",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.615353,
+    "lng": -116.24329,
+    "image_url": "https://511.idaho.gov/map/Cctv/804",
+    "video_url": ""
+  },
+  {
+    "id": "id:805",
+    "name": "Americana &amp; Shoreline",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.61693,
+    "lng": -116.21989,
+    "image_url": "https://511.idaho.gov/map/Cctv/805",
+    "video_url": ""
+  },
+  {
+    "id": "id:806",
+    "name": "Franklin &amp; Curtis",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.603436,
+    "lng": -116.25349,
+    "image_url": "https://511.idaho.gov/map/Cctv/806",
+    "video_url": ""
+  },
+  {
+    "id": "id:807",
+    "name": "Locust Grove &amp; McMillan",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.648495,
+    "lng": -116.374344,
+    "image_url": "https://511.idaho.gov/map/Cctv/807",
+    "video_url": ""
+  },
+  {
+    "id": "id:808",
+    "name": "Meridian &amp; McMillan",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.648434,
+    "lng": -116.39342,
+    "image_url": "https://511.idaho.gov/map/Cctv/808",
+    "video_url": ""
+  },
+  {
+    "id": "id:809",
+    "name": "Linder &amp; McMillian",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.64851,
+    "lng": -116.414024,
+    "image_url": "https://511.idaho.gov/map/Cctv/809",
+    "video_url": ""
+  },
+  {
+    "id": "id:810",
+    "name": "SH-55 Eagle &amp; St. Lukes",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.6011,
+    "lng": -116.355,
+    "image_url": "https://511.idaho.gov/map/Cctv/810",
+    "video_url": ""
+  },
+  {
+    "id": "id:811",
+    "name": "Franklin &amp; Black Cat",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.60462,
+    "lng": -116.45341,
+    "image_url": "https://511.idaho.gov/map/Cctv/811",
+    "video_url": ""
+  },
+  {
+    "id": "id:812",
+    "name": "Meridian &amp; Ustick",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.63362,
+    "lng": -116.39336,
+    "image_url": "https://511.idaho.gov/map/Cctv/812",
+    "video_url": ""
+  },
+  {
+    "id": "id:813",
+    "name": "Main &amp; Whitewater",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.621845,
+    "lng": -116.22777,
+    "image_url": "https://511.idaho.gov/map/Cctv/813",
+    "video_url": ""
+  },
+  {
+    "id": "id:814",
+    "name": "Avenue B &amp; Jerfferson",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.612675,
+    "lng": -116.19064,
+    "image_url": "https://511.idaho.gov/map/Cctv/814",
+    "video_url": ""
+  },
+  {
+    "id": "id:815",
+    "name": "Orchard &amp; Harvard",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.55715,
+    "lng": -116.24313,
+    "image_url": "https://511.idaho.gov/map/Cctv/815",
+    "video_url": ""
+  },
+  {
+    "id": "id:816",
+    "name": "Americana &amp; Latah",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.611507,
+    "lng": -116.22833,
+    "image_url": "https://511.idaho.gov/map/Cctv/816",
+    "video_url": ""
+  },
+  {
+    "id": "id:817",
+    "name": "SH-69 &amp; Lake Hazel Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5464,
+    "lng": -116.394,
+    "image_url": "https://511.idaho.gov/map/Cctv/817",
+    "video_url": ""
+  },
+  {
+    "id": "id:818",
+    "name": "SH-69 &amp; Hubbard Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5173,
+    "lng": -116.394,
+    "image_url": "https://511.idaho.gov/map/Cctv/818",
+    "video_url": ""
+  },
+  {
+    "id": "id:819",
+    "name": "Ustick &amp; Records",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.633987,
+    "lng": -116.34951,
+    "image_url": "https://511.idaho.gov/map/Cctv/819",
+    "video_url": ""
+  },
+  {
+    "id": "id:820",
+    "name": "Ustick &amp; Linder",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.63373,
+    "lng": -116.41392,
+    "image_url": "https://511.idaho.gov/map/Cctv/820",
+    "video_url": ""
+  },
+  {
+    "id": "id:821",
+    "name": "Pine &amp; Cloverdale",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.611336,
+    "lng": -116.33423,
+    "image_url": "https://511.idaho.gov/map/Cctv/821",
+    "video_url": ""
+  },
+  {
+    "id": "id:822",
+    "name": "Five Mile &amp; McMillian",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.648582,
+    "lng": -116.314445,
+    "image_url": "https://511.idaho.gov/map/Cctv/822",
+    "video_url": ""
+  },
+  {
+    "id": "id:823",
+    "name": "Victory &amp; Maple Grove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.575512,
+    "lng": -116.29441,
+    "image_url": "https://511.idaho.gov/map/Cctv/823",
+    "video_url": ""
+  },
+  {
+    "id": "id:824",
+    "name": "Victory &amp; Cloverdale",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.57559,
+    "lng": -116.33418,
+    "image_url": "https://511.idaho.gov/map/Cctv/824",
+    "video_url": ""
+  },
+  {
+    "id": "id:825",
+    "name": "Meridian &amp; Pine",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.612072,
+    "lng": -116.39343,
+    "image_url": "https://511.idaho.gov/map/Cctv/825",
+    "video_url": ""
+  },
+  {
+    "id": "id:826",
+    "name": "SH-55 &amp; Floating Feather",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.7065,
+    "lng": -116.319,
+    "image_url": "https://511.idaho.gov/map/Cctv/826",
+    "video_url": ""
+  },
+  {
+    "id": "id:827",
+    "name": "Cole &amp; Northview",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.626537,
+    "lng": -116.27446,
+    "image_url": "https://511.idaho.gov/map/Cctv/827",
+    "video_url": ""
+  },
+  {
+    "id": "id:828",
+    "name": "Curtis &amp; Northview",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.62627,
+    "lng": -116.253174,
+    "image_url": "https://511.idaho.gov/map/Cctv/828",
+    "video_url": ""
+  },
+  {
+    "id": "id:829",
+    "name": "Cherry &amp; Black Cat",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.619225,
+    "lng": -116.45375,
+    "image_url": "https://511.idaho.gov/map/Cctv/829",
+    "video_url": ""
+  },
+  {
+    "id": "id:830",
+    "name": "McMillian &amp; Maple Grove",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.648483,
+    "lng": -116.2942,
+    "image_url": "https://511.idaho.gov/map/Cctv/830",
+    "video_url": ""
+  },
+  {
+    "id": "id:831",
+    "name": "Cole &amp; McMullen",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.598,
+    "lng": -116.27442,
+    "image_url": "https://511.idaho.gov/map/Cctv/831",
+    "video_url": ""
+  },
+  {
+    "id": "id:832",
+    "name": "Linder &amp; Pine",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.611855,
+    "lng": -116.41387,
+    "image_url": "https://511.idaho.gov/map/Cctv/832",
+    "video_url": ""
+  },
+  {
+    "id": "id:834",
+    "name": "Pine &amp; Ten Mile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.612137,
+    "lng": -116.43347,
+    "image_url": "https://511.idaho.gov/map/Cctv/834",
+    "video_url": ""
+  },
+  {
+    "id": "id:835",
+    "name": "US-20 Chinden &amp; Tree Farm",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.66282,
+    "lng": -116.443436,
+    "image_url": "https://511.idaho.gov/map/Cctv/835",
+    "video_url": ""
+  },
+  {
+    "id": "id:836",
+    "name": "US-20 Chinden &amp; Black Cat Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.663,
+    "lng": -116.454,
+    "image_url": "https://511.idaho.gov/map/Cctv/836",
+    "video_url": ""
+  },
+  {
+    "id": "id:837",
+    "name": "Overland &amp; Linder",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.590313,
+    "lng": -116.41347,
+    "image_url": "https://511.idaho.gov/map/Cctv/837",
+    "video_url": ""
+  },
+  {
+    "id": "id:838",
+    "name": "Eagle Rd &amp; Amity Roundabout",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.561848,
+    "lng": -116.35426,
+    "image_url": "https://511.idaho.gov/map/Cctv/838",
+    "video_url": ""
+  },
+  {
+    "id": "id:839",
+    "name": "Fairview &amp; 23rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.620728,
+    "lng": -116.21827,
+    "image_url": "https://511.idaho.gov/map/Cctv/839",
+    "video_url": ""
+  },
+  {
+    "id": "id:840",
+    "name": "Victory &amp; Ten Mile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.575916,
+    "lng": -116.43408,
+    "image_url": "https://511.idaho.gov/map/Cctv/840",
+    "video_url": ""
+  },
+  {
+    "id": "id:841",
+    "name": "Overland &amp; Ten Mile",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.585117,
+    "lng": -116.43361,
+    "image_url": "https://511.idaho.gov/map/Cctv/841",
+    "video_url": ""
+  },
+  {
+    "id": "id:842",
+    "name": "Overland &amp; Latah",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.589912,
+    "lng": -116.228775,
+    "image_url": "https://511.idaho.gov/map/Cctv/842",
+    "video_url": ""
+  },
+  {
+    "id": "id:843",
+    "name": "11th &amp; Bannock",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.618805,
+    "lng": -116.20551,
+    "image_url": "https://511.idaho.gov/map/Cctv/843",
+    "video_url": ""
+  },
+  {
+    "id": "id:844",
+    "name": "5th &amp; Jefferson",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.616253,
+    "lng": -116.19784,
+    "image_url": "https://511.idaho.gov/map/Cctv/844",
+    "video_url": ""
+  },
+  {
+    "id": "id:845",
+    "name": "9th &amp; River",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.61122,
+    "lng": -116.209076,
+    "image_url": "https://511.idaho.gov/map/Cctv/845",
+    "video_url": ""
+  },
+  {
+    "id": "id:846",
+    "name": "15th &amp; River",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.61688,
+    "lng": -116.21624,
+    "image_url": "https://511.idaho.gov/map/Cctv/846",
+    "video_url": ""
+  },
+  {
+    "id": "id:847",
+    "name": "US-20 Front &amp; 3rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.610725,
+    "lng": -116.19959,
+    "image_url": "https://511.idaho.gov/map/Cctv/847",
+    "video_url": ""
+  },
+  {
+    "id": "id:848",
+    "name": "Main &amp; 3rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.61251,
+    "lng": -116.1976,
+    "image_url": "https://511.idaho.gov/map/Cctv/848",
+    "video_url": ""
+  },
+  {
+    "id": "id:849",
+    "name": "State &amp; 6th",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.617462,
+    "lng": -116.19842,
+    "image_url": "https://511.idaho.gov/map/Cctv/849",
+    "video_url": ""
+  },
+  {
+    "id": "id:850",
+    "name": "US-30 Fish Creek Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.6296,
+    "lng": -111.918,
+    "image_url": "https://511.idaho.gov/map/Cctv/850",
+    "video_url": ""
+  },
+  {
+    "id": "id:853",
+    "name": "US-30 Gem Valley",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.6494,
+    "lng": -111.833,
+    "image_url": "https://511.idaho.gov/map/Cctv/853",
+    "video_url": ""
+  },
+  {
+    "id": "id:856",
+    "name": "I-15 McMcammon",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.6573,
+    "lng": -112.21,
+    "image_url": "https://511.idaho.gov/map/Cctv/856",
+    "video_url": ""
+  },
+  {
+    "id": "id:859",
+    "name": "US-93 Jerome Butte",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.7313,
+    "lng": -114.441,
+    "image_url": "https://511.idaho.gov/map/Cctv/859",
+    "video_url": ""
+  },
+  {
+    "id": "id:862",
+    "name": "SH-34 Blackfoot River Bridge",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.8264,
+    "lng": -111.554,
+    "image_url": "https://511.idaho.gov/map/Cctv/862",
+    "video_url": ""
+  },
+  {
+    "id": "id:865",
+    "name": "I-84 Tuttle",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.837,
+    "lng": -114.817,
+    "image_url": "https://511.idaho.gov/map/Cctv/865",
+    "video_url": ""
+  },
+  {
+    "id": "id:868",
+    "name": "I-86 Arbon Valley",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.8794,
+    "lng": -112.664,
+    "image_url": "https://511.idaho.gov/map/Cctv/868",
+    "video_url": ""
+  },
+  {
+    "id": "id:871",
+    "name": "Local Jackpot, NV",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.9743,
+    "lng": -114.674,
+    "image_url": "https://511.idaho.gov/map/Cctv/871",
+    "video_url": ""
+  },
+  {
+    "id": "id:872",
+    "name": "I-15 Monte Vista",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.8898,
+    "lng": -112.432,
+    "image_url": "https://511.idaho.gov/map/Cctv/872",
+    "video_url": ""
+  },
+  {
+    "id": "id:875",
+    "name": "Thayne, WY",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.9066,
+    "lng": -110.997,
+    "image_url": "https://511.idaho.gov/map/Cctv/875",
+    "video_url": ""
+  },
+  {
+    "id": "id:880",
+    "name": "I-84 Glenns Ferry",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.9612,
+    "lng": -115.267,
+    "image_url": "https://511.idaho.gov/map/Cctv/880",
+    "video_url": ""
+  },
+  {
+    "id": "id:883",
+    "name": "US-95 Jordan Valley, OR",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.9797,
+    "lng": -117.0534,
+    "image_url": "https://511.idaho.gov/map/Cctv/883",
+    "video_url": ""
+  },
+  {
+    "id": "id:884",
+    "name": "I-15 Fort Hall",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.0256,
+    "lng": -112.408,
+    "image_url": "https://511.idaho.gov/map/Cctv/884",
+    "video_url": ""
+  },
+  {
+    "id": "id:886",
+    "name": "I-84 Hammett Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.0481,
+    "lng": -115.58,
+    "image_url": "https://511.idaho.gov/map/Cctv/886",
+    "video_url": ""
+  },
+  {
+    "id": "id:889",
+    "name": "SH-39 Sterling",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.0813,
+    "lng": -112.778,
+    "image_url": "https://511.idaho.gov/map/Cctv/889",
+    "video_url": ""
+  },
+  {
+    "id": "id:892",
+    "name": "SH-75 Kinsey Butte",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.0962,
+    "lng": -114.371,
+    "image_url": "https://511.idaho.gov/map/Cctv/892",
+    "video_url": ""
+  },
+  {
+    "id": "id:895",
+    "name": "Local Owyhee, NV",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.9879,
+    "lng": -116.126,
+    "image_url": "https://511.idaho.gov/map/Cctv/895",
+    "video_url": ""
+  },
+  {
+    "id": "id:896",
+    "name": "SH-46 Gwynn Ranch Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.124,
+    "lng": -114.66,
+    "image_url": "https://511.idaho.gov/map/Cctv/896",
+    "video_url": ""
+  },
+  {
+    "id": "id:899",
+    "name": "Alpine Junction, WY",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.1722,
+    "lng": -111.019,
+    "image_url": "https://511.idaho.gov/map/Cctv/899",
+    "video_url": ""
+  },
+  {
+    "id": "id:902",
+    "name": "US-95 Ion Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.2945,
+    "lng": -116.986,
+    "image_url": "https://511.idaho.gov/map/Cctv/902",
+    "video_url": ""
+  },
+  {
+    "id": "id:905",
+    "name": "I-15 Blackfoot Rest Area",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.3,
+    "lng": -112.273,
+    "image_url": "https://511.idaho.gov/map/Cctv/905",
+    "video_url": ""
+  },
+  {
+    "id": "id:908",
+    "name": "US-20 Pine Turnoff",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.3137,
+    "lng": -115.265,
+    "image_url": "https://511.idaho.gov/map/Cctv/908",
+    "video_url": ""
+  },
+  {
+    "id": "id:911",
+    "name": "SH-75 Timmerman Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.3253,
+    "lng": -114.28,
+    "image_url": "https://511.idaho.gov/map/Cctv/911",
+    "video_url": ""
+  },
+  {
+    "id": "id:1260",
+    "name": "US-95 Ironwood",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.694332,
+    "lng": -116.79192,
+    "image_url": "https://511.idaho.gov/map/Cctv/1260",
+    "video_url": ""
+  },
+  {
+    "id": "id:1261",
+    "name": "US-95 Appleway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.70099,
+    "lng": -116.79196,
+    "image_url": "https://511.idaho.gov/map/Cctv/1261",
+    "video_url": ""
+  },
+  {
+    "id": "id:1262",
+    "name": "US-95 Kathleen",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.71518,
+    "lng": -116.79195,
+    "image_url": "https://511.idaho.gov/map/Cctv/1262",
+    "video_url": ""
+  },
+  {
+    "id": "id:1263",
+    "name": "US-95 Hanley",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.729725,
+    "lng": -116.79263,
+    "image_url": "https://511.idaho.gov/map/Cctv/1263",
+    "video_url": ""
+  },
+  {
+    "id": "id:1264",
+    "name": "US-95 Prairie",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.74425,
+    "lng": -116.792206,
+    "image_url": "https://511.idaho.gov/map/Cctv/1264",
+    "video_url": ""
+  },
+  {
+    "id": "id:919",
+    "name": "US-26 Palisades",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.3326,
+    "lng": -111.198,
+    "image_url": "https://511.idaho.gov/map/Cctv/919",
+    "video_url": ""
+  },
+  {
+    "id": "id:1265",
+    "name": "US-95 Hayden",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.759274,
+    "lng": -116.7911,
+    "image_url": "https://511.idaho.gov/map/Cctv/1265",
+    "video_url": ""
+  },
+  {
+    "id": "id:1266",
+    "name": "US-95 Wyoming",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 47.776276,
+    "lng": -116.790184,
+    "image_url": "https://511.idaho.gov/map/Cctv/1266",
+    "video_url": ""
+  },
+  {
+    "id": "id:1267",
+    "name": "SH-8-Farm Perimeter",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.732475,
+    "lng": -117.024414,
+    "image_url": "https://511.idaho.gov/map/Cctv/1267",
+    "video_url": ""
+  },
+  {
+    "id": "id:1268",
+    "name": "SH-8 Line",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.733273,
+    "lng": -117.0119,
+    "image_url": "https://511.idaho.gov/map/Cctv/1268",
+    "video_url": ""
+  },
+  {
+    "id": "id:1269",
+    "name": "D2 US-95 344.8 SH-8 Troy Rd 2-3",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.725876,
+    "lng": -116.99998,
+    "image_url": "https://511.idaho.gov/map/Cctv/1269",
+    "video_url": ""
+  },
+  {
+    "id": "id:1270",
+    "name": "US-95 Palouse River",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.715805,
+    "lng": -117.00312,
+    "image_url": "https://511.idaho.gov/map/Cctv/1270",
+    "video_url": ""
+  },
+  {
+    "id": "id:1271",
+    "name": "US-95 N SH-8 Washington 3rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.732327,
+    "lng": -116.99986,
+    "image_url": "https://511.idaho.gov/map/Cctv/1271",
+    "video_url": ""
+  },
+  {
+    "id": "id:929",
+    "name": "I-84 Simco Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.3445,
+    "lng": -115.953,
+    "image_url": "https://511.idaho.gov/map/Cctv/929",
+    "video_url": ""
+  },
+  {
+    "id": "id:1272",
+    "name": "US-95 D Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.73755,
+    "lng": -117.001656,
+    "image_url": "https://511.idaho.gov/map/Cctv/1272",
+    "video_url": ""
+  },
+  {
+    "id": "id:933",
+    "name": "US-26 Tilden Flats",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.3607,
+    "lng": -112.642,
+    "image_url": "https://511.idaho.gov/map/Cctv/933",
+    "video_url": ""
+  },
+  {
+    "id": "id:936",
+    "name": "US-93 Tom Cat Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.4056,
+    "lng": -113.626,
+    "image_url": "https://511.idaho.gov/map/Cctv/936",
+    "video_url": ""
+  },
+  {
+    "id": "id:939",
+    "name": "Local SR-42: Idaho State Line, UT",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.9964,
+    "lng": -113.191,
+    "image_url": "https://511.idaho.gov/map/Cctv/939",
+    "video_url": ""
+  },
+  {
+    "id": "id:941",
+    "name": "Teton Pass, WY",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.4973,
+    "lng": -110.955,
+    "image_url": "https://511.idaho.gov/map/Cctv/941",
+    "video_url": ""
+  },
+  {
+    "id": "id:944",
+    "name": "I-15 Idaho Falls",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5044,
+    "lng": -112.056,
+    "image_url": "https://511.idaho.gov/map/Cctv/944",
+    "video_url": ""
+  },
+  {
+    "id": "id:948",
+    "name": "US-20 INL Puzzle",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5064,
+    "lng": -112.89,
+    "image_url": "https://511.idaho.gov/map/Cctv/948",
+    "video_url": ""
+  },
+  {
+    "id": "id:951",
+    "name": "I-84 Eisenman Interchange",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.507819,
+    "lng": -116.142477,
+    "image_url": "https://511.idaho.gov/map/Cctv/951",
+    "video_url": ""
+  },
+  {
+    "id": "id:955",
+    "name": "US-26 Antelope Flats",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5274,
+    "lng": -111.5,
+    "image_url": "https://511.idaho.gov/map/Cctv/955",
+    "video_url": ""
+  },
+  {
+    "id": "id:1273",
+    "name": "D4 SH-75 128.4 5th Street 4-1",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.681705,
+    "lng": -114.36592,
+    "image_url": "https://511.idaho.gov/map/Cctv/1273",
+    "video_url": ""
+  },
+  {
+    "id": "id:962",
+    "name": "US-91 ID/UT State Line, UT",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.9989,
+    "lng": -111.813,
+    "image_url": "https://511.idaho.gov/map/Cctv/962",
+    "video_url": ""
+  },
+  {
+    "id": "id:963",
+    "name": "SH-33 WY/ID State Line",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5433,
+    "lng": -111.045,
+    "image_url": "https://511.idaho.gov/map/Cctv/963",
+    "video_url": ""
+  },
+  {
+    "id": "id:969",
+    "name": "US-20 Telegraph Hill",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.554,
+    "lng": -112.584,
+    "image_url": "https://511.idaho.gov/map/Cctv/969",
+    "video_url": ""
+  },
+  {
+    "id": "id:972",
+    "name": "US-20 Kettle Butte",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5542,
+    "lng": -112.418,
+    "image_url": "https://511.idaho.gov/map/Cctv/972",
+    "video_url": ""
+  },
+  {
+    "id": "id:976",
+    "name": "I-84 Broadway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5662,
+    "lng": -116.197,
+    "image_url": "https://511.idaho.gov/map/Cctv/976",
+    "video_url": ""
+  },
+  {
+    "id": "id:979",
+    "name": "I-15 Osgood/Payne",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5698,
+    "lng": -112.072,
+    "image_url": "https://511.idaho.gov/map/Cctv/979",
+    "video_url": ""
+  },
+  {
+    "id": "id:981",
+    "name": "SH-21 Highland Valley Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5701,
+    "lng": -116.031,
+    "image_url": "https://511.idaho.gov/map/Cctv/981",
+    "video_url": ""
+  },
+  {
+    "id": "id:986",
+    "name": "US-89 Bear Lake, UT",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.0008,
+    "lng": -111.409,
+    "image_url": "https://511.idaho.gov/map/Cctv/986",
+    "video_url": ""
+  },
+  {
+    "id": "id:987",
+    "name": "SH-31 Pine Creek",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5714,
+    "lng": -111.215,
+    "image_url": "https://511.idaho.gov/map/Cctv/987",
+    "video_url": ""
+  },
+  {
+    "id": "id:991",
+    "name": "US-20 Ucon",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5829,
+    "lng": -111.974,
+    "image_url": "https://511.idaho.gov/map/Cctv/991",
+    "video_url": ""
+  },
+  {
+    "id": "id:1277",
+    "name": "D3 I-84 46.0 SH-55 Eagle Road 546",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.59679,
+    "lng": -116.35498,
+    "image_url": "https://511.idaho.gov/map/Cctv/1277",
+    "video_url": ""
+  },
+  {
+    "id": "id:998",
+    "name": "I-84 Kuna/Meridian",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.5933,
+    "lng": -116.39,
+    "image_url": "https://511.idaho.gov/map/Cctv/998",
+    "video_url": ""
+  },
+  {
+    "id": "id:1029",
+    "name": "Local I-80 Winnemucca",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 40.971237,
+    "lng": -117.74422,
+    "image_url": "https://511.idaho.gov/map/Cctv/1029",
+    "video_url": ""
+  },
+  {
+    "id": "id:1030",
+    "name": "Local I-80 &amp; West Wendover",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 40.738085,
+    "lng": -114.04372,
+    "image_url": "https://511.idaho.gov/map/Cctv/1030",
+    "video_url": ""
+  },
+  {
+    "id": "id:1033",
+    "name": "Local US-93 O&#39;Neil Basin - Henry",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.618956,
+    "lng": -114.806391,
+    "image_url": "https://511.idaho.gov/map/Cctv/1033",
+    "video_url": ""
+  },
+  {
+    "id": "id:1034",
+    "name": "Local SR-225, 4 Miles North of Adobe Summit",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 40.950328,
+    "lng": -115.87575,
+    "image_url": "https://511.idaho.gov/map/Cctv/1034",
+    "video_url": ""
+  },
+  {
+    "id": "id:1036",
+    "name": "Local I-80 Wells - Moor",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.101656,
+    "lng": -114.908116,
+    "image_url": "https://511.idaho.gov/map/Cctv/1036",
+    "video_url": ""
+  },
+  {
+    "id": "id:1037",
+    "name": "Local I-80 &amp; SR225",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 40.83559,
+    "lng": -115.788216,
+    "image_url": "https://511.idaho.gov/map/Cctv/1037",
+    "video_url": ""
+  },
+  {
+    "id": "id:1038",
+    "name": "Local US-95 at SR-140 Paradise",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 41.393645,
+    "lng": -117.780589,
+    "image_url": "https://511.idaho.gov/map/Cctv/1038",
+    "video_url": ""
+  },
+  {
+    "id": "id:1307",
+    "name": "SH-55 Banks at CH-17 Banks-Lowman Road",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.08459,
+    "lng": -116.114772,
+    "image_url": "https://511.idaho.gov/map/Cctv/1307",
+    "video_url": ""
+  },
+  {
+    "id": "id:1310",
+    "name": "SH-55 US-95 New Meadows",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.97111,
+    "lng": -116.27973,
+    "image_url": "https://511.idaho.gov/map/Cctv/1310",
+    "video_url": ""
+  },
+  {
+    "id": "id:1311",
+    "name": "SH-55 at Round Valley, Cascade",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.343536,
+    "lng": -116.028324,
+    "image_url": "https://511.idaho.gov/map/Cctv/1311",
+    "video_url": ""
+  },
+  {
+    "id": "id:1312",
+    "name": "Hwy 3, Creston, BC",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 49.11869,
+    "lng": -116.52389,
+    "image_url": "https://511.idaho.gov/map/Cctv/1312",
+    "video_url": ""
+  },
+  {
+    "id": "id:1315",
+    "name": "US-20 Ashton",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.067314,
+    "lng": -111.45642,
+    "image_url": "https://511.idaho.gov/map/Cctv/1315",
+    "video_url": ""
+  }
+]
