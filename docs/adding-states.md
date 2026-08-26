@@ -17,6 +17,8 @@ This generates ALL three files the app needs:
 
 Also update `src/lib/cameras.ts` STATES array with the new state entry (id, name, center, zoom, video support, camera count).
 
+**Always add a test camera to `public/status/index.html`** for every new state. Pick one camera that's known to work and add it to the `cameras` array. Include `videoUrl` if the state supports video.
+
 ---
 
 ## Automated Approach: 511 Platform States
