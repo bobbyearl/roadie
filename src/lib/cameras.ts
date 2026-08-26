@@ -54,6 +54,14 @@ export { parseCameraDB };
 
 export const STATES: StateConfig[] = [
   {
+    id: 'ak',
+    name: 'Alaska',
+    defaultCenter: { lat: 62.0, lng: -150.0 },
+    defaultZoom: 5,
+    supportsVideo: false,
+    cameraCount: 126,
+  },
+  {
     id: 'al',
     name: 'Alabama',
     defaultCenter: { lat: 32.8, lng: -86.8 },
@@ -102,6 +110,22 @@ export const STATES: StateConfig[] = [
     cameraCount: 4043,
   },
   {
+    id: 'id',
+    name: 'Idaho',
+    defaultCenter: { lat: 44.0, lng: -114.7 },
+    defaultZoom: 6,
+    supportsVideo: false,
+    cameraCount: 457,
+  },
+  {
+    id: 'la',
+    name: 'Louisiana',
+    defaultCenter: { lat: 30.5, lng: -91.9 },
+    defaultZoom: 7,
+    supportsVideo: true,
+    cameraCount: 251,
+  },
+  {
     id: 'md',
     name: 'Maryland',
     defaultCenter: { lat: 39.3, lng: -76.6 },
@@ -118,6 +142,14 @@ export const STATES: StateConfig[] = [
     cameraCount: 1112,
   },
   {
+    id: 'ne',
+    name: 'New England (ME/VT)',
+    defaultCenter: { lat: 44.5, lng: -69.5 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 403,
+  },
+  {
     id: 'nj',
     name: 'New Jersey',
     defaultCenter: { lat: 40.2, lng: -74.7 },
@@ -125,6 +157,14 @@ export const STATES: StateConfig[] = [
     supportsVideo: false,
     cameraCount: 484,
     offline: true,
+  },
+  {
+    id: 'nv',
+    name: 'Nevada',
+    defaultCenter: { lat: 39.5, lng: -116.9 },
+    defaultZoom: 6,
+    supportsVideo: true,
+    cameraCount: 640,
   },
   {
     id: 'pa',
@@ -165,6 +205,14 @@ export const STATES: StateConfig[] = [
     defaultZoom: 7,
     supportsVideo: true,
     cameraCount: 1692,
+  },
+  {
+    id: 'wi',
+    name: 'Wisconsin',
+    defaultCenter: { lat: 43.8, lng: -89.4 },
+    defaultZoom: 7,
+    supportsVideo: true,
+    cameraCount: 455,
   },
 ];
 

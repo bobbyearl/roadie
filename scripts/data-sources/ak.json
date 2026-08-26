@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "ak:1",
+    "name": "Seward Highway @ Portage Glacier Road MP 78.9",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.818883,
+    "lng": -148.975515,
+    "image_url": "https://511.alaska.gov/map/Cctv/1",
+    "video_url": ""
+  },
+  {
+    "id": "ak:10",
+    "name": "Seward Highway @ Bird Point MP 96.3",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.929619,
+    "lng": -149.346632,
+    "image_url": "https://511.alaska.gov/map/Cctv/10",
+    "video_url": ""
+  },
+  {
+    "id": "ak:17",
+    "name": "Seward Highway @ Huffman Road MP 120",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.10922,
+    "lng": -149.850897,
+    "image_url": "https://511.alaska.gov/map/Cctv/17",
+    "video_url": ""
+  },
+  {
+    "id": "ak:25",
+    "name": "Glenn Highway @ Eagle River Bridge MP 12.8",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.3117,
+    "lng": -149.576,
+    "image_url": "https://511.alaska.gov/map/Cctv/25",
+    "video_url": ""
+  },
+  {
+    "id": "ak:33",
+    "name": "Hillside Road @ Upper Huffman Road",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.107798,
+    "lng": -149.744807,
+    "image_url": "https://511.alaska.gov/map/Cctv/33",
+    "video_url": ""
+  },
+  {
+    "id": "ak:34",
+    "name": "Seward Highway @ McHugh Creek MP 111.8",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.015621,
+    "lng": -149.729834,
+    "image_url": "https://511.alaska.gov/map/Cctv/34",
+    "video_url": ""
+  },
+  {
+    "id": "ak:35",
+    "name": "Glenn Highway @ S Curves  MP 10",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.27593,
+    "lng": -149.632437,
+    "image_url": "https://511.alaska.gov/map/Cctv/35",
+    "video_url": ""
+  },
+  {
+    "id": "ak:36",
+    "name": "Glenn Highway @ 2nd Knik River Bridge MP 31.1",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.4908,
+    "lng": -149.2455,
+    "image_url": "https://511.alaska.gov/map/Cctv/36",
+    "video_url": ""
+  },
+  {
+    "id": "ak:44",
+    "name": "Parks Highway @ Hawk Lane MP 53.2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.585003,
+    "lng": -149.745264,
+    "image_url": "https://511.alaska.gov/map/Cctv/44",
+    "video_url": ""
+  },
+  {
+    "id": "ak:52",
+    "name": "Parks Highway @ Talkeetna Road MP 98.7",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 62.129099,
+    "lng": -150.037939,
+    "image_url": "https://511.alaska.gov/map/Cctv/52",
+    "video_url": ""
+  },
+  {
+    "id": "ak:62",
+    "name": "Seward Highway @ Summit Lake MP 45.8",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.640439,
+    "lng": -149.500788,
+    "image_url": "https://511.alaska.gov/map/Cctv/62",
+    "video_url": ""
+  },
+  {
+    "id": "ak:70",
+    "name": "Benson &amp; New Seward Hwy",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.193409,
+    "lng": -149.868074,
+    "image_url": "https://511.alaska.gov/map/Cctv/70",
+    "video_url": ""
+  },
+  {
+    "id": "ak:71",
+    "name": "Sterling Highway @ Russian River Ferry MP 54.8",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.487019,
+    "lng": -150.002009,
+    "image_url": "https://511.alaska.gov/map/Cctv/71",
+    "video_url": ""
+  },
+  {
+    "id": "ak:79",
+    "name": "Glenn Hwy &amp; Muldoon Road South Ramp",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.226054,
+    "lng": -149.733495,
+    "image_url": "https://511.alaska.gov/map/Cctv/79",
+    "video_url": ""
+  },
+  {
+    "id": "ak:81",
+    "name": "Sterling Highway @ Ninilchik River Bridge MP 135.2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.047761,
+    "lng": -151.658884,
+    "image_url": "https://511.alaska.gov/map/Cctv/81",
+    "video_url": ""
+  },
+  {
+    "id": "ak:82",
+    "name": "Egan Drive/Glacier Highway @ MP 3",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 58.320153,
+    "lng": -134.454085,
+    "image_url": "https://511.alaska.gov/map/Cctv/82",
+    "video_url": ""
+  },
+  {
+    "id": "ak:91",
+    "name": "Glacier Highway @ Cohen Drive MP 21",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 58.449655,
+    "lng": -134.770122,
+    "image_url": "https://511.alaska.gov/map/Cctv/91",
+    "video_url": ""
+  },
+  {
+    "id": "ak:92",
+    "name": "Haines Highway @ Chilkat River Bridge MP 23.8",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 59.413976,
+    "lng": -135.93196,
+    "image_url": "https://511.alaska.gov/map/Cctv/92",
+    "video_url": ""
+  },
+  {
+    "id": "ak:100",
+    "name": "Glenn Highway @ Gunsight Mountain MP 117",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.82303,
+    "lng": -147.425977,
+    "image_url": "https://511.alaska.gov/map/Cctv/100",
+    "video_url": ""
+  },
+  {
+    "id": "ak:110",
+    "name": "C St &amp; Dimond",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.144712,
+    "lng": -149.88683,
+    "image_url": "https://511.alaska.gov/map/Cctv/110",
+    "video_url": ""
+  },
+  {
+    "id": "ak:111",
+    "name": "Richardson Highway @ Sheep Creek MP 18.6",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.110941,
+    "lng": -145.812607,
+    "image_url": "https://511.alaska.gov/map/Cctv/111",
+    "video_url": ""
+  },
+  {
+    "id": "ak:119",
+    "name": "Kenai Spur Hwy &amp; Bridge Access",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.55732,
+    "lng": -151.241596,
+    "image_url": "https://511.alaska.gov/map/Cctv/119",
+    "video_url": ""
+  },
+  {
+    "id": "ak:120",
+    "name": "Richardson Highway @ Edgerton Highway MP 82.7",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.708652,
+    "lng": -145.16183,
+    "image_url": "https://511.alaska.gov/map/Cctv/120",
+    "video_url": ""
+  },
+  {
+    "id": "ak:128",
+    "name": "Richardson Highway @ Birch Lake MP 307.2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.315701,
+    "lng": -146.69147,
+    "image_url": "https://511.alaska.gov/map/Cctv/128",
+    "video_url": ""
+  },
+  {
+    "id": "ak:132",
+    "name": "Tok Cutoff @ Mentasta Pass MP 79.2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 62.902909,
+    "lng": -143.669369,
+    "image_url": "https://511.alaska.gov/map/Cctv/132",
+    "video_url": ""
+  },
+  {
+    "id": "ak:140",
+    "name": "Richardson Highway @ Trims DOT MS MP 218.2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 63.415446,
+    "lng": -145.748738,
+    "image_url": "https://511.alaska.gov/map/Cctv/140",
+    "video_url": ""
+  },
+  {
+    "id": "ak:148",
+    "name": "Alaska Highway @ Dot Lake MP 1355.2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 63.59155,
+    "lng": -143.9455,
+    "image_url": "https://511.alaska.gov/map/Cctv/148",
+    "video_url": ""
+  },
+  {
+    "id": "ak:156",
+    "name": "Richardson Highway @ Thompson Pass MP 25.7",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.128452,
+    "lng": -145.73279,
+    "image_url": "https://511.alaska.gov/map/Cctv/156",
+    "video_url": ""
+  },
+  {
+    "id": "ak:165",
+    "name": "University Avenue Fairbanks @ Chena River Bridge",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.8415,
+    "lng": -147.8125,
+    "image_url": "https://511.alaska.gov/map/Cctv/165",
+    "video_url": ""
+  },
+  {
+    "id": "ak:166",
+    "name": "Steese Highway @ Cleary Summit MP 20.9",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 65.046871,
+    "lng": -147.437112,
+    "image_url": "https://511.alaska.gov/map/Cctv/166",
+    "video_url": ""
+  },
+  {
+    "id": "ak:174",
+    "name": "Haines Highway @ Klehini MP 36.6",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 59.439289,
+    "lng": -136.272708,
+    "image_url": "https://511.alaska.gov/map/Cctv/174",
+    "video_url": ""
+  },
+  {
+    "id": "ak:175",
+    "name": "Parks Highway @ Little Coal Creek MP 163.2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 62.889492,
+    "lng": -149.768231,
+    "image_url": "https://511.alaska.gov/map/Cctv/175",
+    "video_url": ""
+  },
+  {
+    "id": "ak:184",
+    "name": "Whittier Access Road @ Tunnel MP 6.5 (Bear Valley)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.790241,
+    "lng": -148.81304,
+    "image_url": "https://511.alaska.gov/map/Cctv/184",
+    "video_url": ""
+  },
+  {
+    "id": "ak:192",
+    "name": "North Douglas Highway MP 4.4",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 58.333031,
+    "lng": -134.502251,
+    "image_url": "https://511.alaska.gov/map/Cctv/192",
+    "video_url": ""
+  },
+  {
+    "id": "ak:193",
+    "name": "Richardson Highway @ Stuart Creek MP 45.7",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.260581,
+    "lng": -145.283504,
+    "image_url": "https://511.alaska.gov/map/Cctv/193",
+    "video_url": ""
+  },
+  {
+    "id": "ak:195",
+    "name": "Richardson Highway @ Tenderfoot MP 292.6",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.28219,
+    "lng": -146.276866,
+    "image_url": "https://511.alaska.gov/map/Cctv/195",
+    "video_url": ""
+  },
+  {
+    "id": "ak:200",
+    "name": "Alaska Highway @ Canadian Border MP 1221.8",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 62.621359,
+    "lng": -141.010619,
+    "image_url": "https://511.alaska.gov/map/Cctv/200",
+    "video_url": ""
+  },
+  {
+    "id": "ak:208",
+    "name": "Parks Highway @ Nenana Hills MP 325.4",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.707598,
+    "lng": -148.631838,
+    "image_url": "https://511.alaska.gov/map/Cctv/208",
+    "video_url": ""
+  },
+  {
+    "id": "ak:216",
+    "name": "Parks Highway @ Antler Creek MP 244",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 63.809683,
+    "lng": -148.964518,
+    "image_url": "https://511.alaska.gov/map/Cctv/216",
+    "video_url": ""
+  },
+  {
+    "id": "ak:217",
+    "name": "Sterling Highway &amp; Birch St/Park",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.483891,
+    "lng": -151.064853,
+    "image_url": "https://511.alaska.gov/map/Cctv/217",
+    "video_url": ""
+  },
+  {
+    "id": "ak:218",
+    "name": "Parks Highway @ Rex Bridge MP 276",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.218261,
+    "lng": -149.276766,
+    "image_url": "https://511.alaska.gov/map/Cctv/218",
+    "video_url": ""
+  },
+  {
+    "id": "ak:226",
+    "name": "Glenn Highway @ MP 176.6",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 62.10634,
+    "lng": -145.852834,
+    "image_url": "https://511.alaska.gov/map/Cctv/226",
+    "video_url": ""
+  },
+  {
+    "id": "ak:234",
+    "name": "Seward Highway @ Turnagain Pass MP 69.9",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.804228,
+    "lng": -149.18476,
+    "image_url": "https://511.alaska.gov/map/Cctv/234",
+    "video_url": ""
+  },
+  {
+    "id": "ak:242",
+    "name": "Seward Highway @ Divide MP12",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.25128,
+    "lng": -149.35293,
+    "image_url": "https://511.alaska.gov/map/Cctv/242",
+    "video_url": ""
+  },
+  {
+    "id": "ak:243",
+    "name": "Sterling Highway @ Tern Lake MP 37",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.533264,
+    "lng": -149.554167,
+    "image_url": "https://511.alaska.gov/map/Cctv/243",
+    "video_url": ""
+  },
+  {
+    "id": "ak:251",
+    "name": "Glenn Highway @ Thunderbird Falls MP 24.5",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.438763,
+    "lng": -149.396087,
+    "image_url": "https://511.alaska.gov/map/Cctv/251",
+    "video_url": ""
+  },
+  {
+    "id": "ak:257",
+    "name": "Pasagshak Road Kodiak @ MP 3.8",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 57.530225,
+    "lng": -152.459724,
+    "image_url": "https://511.alaska.gov/map/Cctv/257",
+    "video_url": ""
+  },
+  {
+    "id": "ak:265",
+    "name": "Sterling Highway @ Jean Lake Hill MP 62.2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.523121,
+    "lng": -150.208952,
+    "image_url": "https://511.alaska.gov/map/Cctv/265",
+    "video_url": ""
+  },
+  {
+    "id": "ak:266",
+    "name": "Mitkof Highway @ Blaquiere Point MP 33",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 56.585419,
+    "lng": -132.54265,
+    "image_url": "https://511.alaska.gov/map/Cctv/266",
+    "video_url": ""
+  },
+  {
+    "id": "ak:268",
+    "name": "Mitkof Highway @ Banana Point 27.4",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 56.55018,
+    "lng": -132.65496,
+    "image_url": "https://511.alaska.gov/map/Cctv/268",
+    "video_url": ""
+  },
+  {
+    "id": "ak:269",
+    "name": "Richardson Highway @ Keystone Canyon MP 12.3",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.059403,
+    "lng": -145.934595,
+    "image_url": "https://511.alaska.gov/map/Cctv/269",
+    "video_url": ""
+  },
+  {
+    "id": "ak:277",
+    "name": "Camp Road @ Whittier Tunnel",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.77614,
+    "lng": -148.726101,
+    "image_url": "https://511.alaska.gov/map/Cctv/277",
+    "video_url": ""
+  },
+  {
+    "id": "ak:285",
+    "name": "Glenn Highway @ MP 34.5",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.54686,
+    "lng": -149.250609,
+    "image_url": "https://511.alaska.gov/map/Cctv/285",
+    "video_url": ""
+  },
+  {
+    "id": "ak:293",
+    "name": "Parks / Glenn Hwy Interchange",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.553523,
+    "lng": -149.247159,
+    "image_url": "https://511.alaska.gov/map/Cctv/293",
+    "video_url": ""
+  },
+  {
+    "id": "ak:301",
+    "name": "Glenn Highway @ MP 35.2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.554022,
+    "lng": -149.244717,
+    "image_url": "https://511.alaska.gov/map/Cctv/301",
+    "video_url": ""
+  },
+  {
+    "id": "ak:309",
+    "name": "Seward Highway @ Potter Marsh MP 117.3",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.076423,
+    "lng": -149.829526,
+    "image_url": "https://511.alaska.gov/map/Cctv/309",
+    "video_url": ""
+  },
+  {
+    "id": "ak:312",
+    "name": "Glenn Highway @ Bragaw",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.2193,
+    "lng": -149.8151,
+    "image_url": "https://511.alaska.gov/map/Cctv/312",
+    "video_url": ""
+  },
+  {
+    "id": "ak:315",
+    "name": "Thane Road @ Snowslide Creek Avalanche Path MP 1.9",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 58.2828,
+    "lng": -134.3748,
+    "image_url": "https://511.alaska.gov/map/Cctv/315",
+    "video_url": ""
+  },
+  {
+    "id": "ak:323",
+    "name": "Sterling Hwy &amp; Kenai Spur Hwy",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.486456,
+    "lng": -151.057212,
+    "image_url": "https://511.alaska.gov/map/Cctv/323",
+    "video_url": ""
+  },
+  {
+    "id": "ak:325",
+    "name": "Thane Road @ Snowslide Creek Avalanche Path MP 2.2",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 58.2812,
+    "lng": -134.369739,
+    "image_url": "https://511.alaska.gov/map/Cctv/325",
+    "video_url": ""
+  },
+  {
+    "id": "ak:326",
+    "name": "Thane Road @ Middle Pass MP 2.5",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 58.279335,
+    "lng": -134.363908,
+    "image_url": "https://511.alaska.gov/map/Cctv/326",
+    "video_url": ""
+  },
+  {
+    "id": "ak:327",
+    "name": "Thane Road @ Cross Bay MP 3.0",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 58.27399,
+    "lng": -134.353261,
+    "image_url": "https://511.alaska.gov/map/Cctv/327",
+    "video_url": ""
+  },
+  {
+    "id": "ak:328",
+    "name": "Airport Way @ Eielson Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.8353,
+    "lng": -147.7104,
+    "image_url": "https://511.alaska.gov/map/Cctv/328",
+    "video_url": ""
+  },
+  {
+    "id": "ak:336",
+    "name": "Badger Road @ Old Richardson Highway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.8105,
+    "lng": -147.5728,
+    "image_url": "https://511.alaska.gov/map/Cctv/336",
+    "video_url": ""
+  },
+  {
+    "id": "ak:343",
+    "name": "Airport Way @ Cowles Street Fairbanks",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.836853,
+    "lng": -147.739218,
+    "image_url": "https://511.alaska.gov/map/Cctv/343",
+    "video_url": ""
+  },
+  {
+    "id": "ak:351",
+    "name": "Lathrop Street @ 21st Avenue Fairbanks",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.828286,
+    "lng": -147.744991,
+    "image_url": "https://511.alaska.gov/map/Cctv/351",
+    "video_url": ""
+  },
+  {
+    "id": "ak:359",
+    "name": "Badger Road @ Elvira Avenue",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.770751,
+    "lng": -147.349962,
+    "image_url": "https://511.alaska.gov/map/Cctv/359",
+    "video_url": ""
+  },
+  {
+    "id": "ak:367",
+    "name": "Klawock Hwy @ Control Lake",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 55.694,
+    "lng": -132.87799,
+    "image_url": "https://511.alaska.gov/map/Cctv/367",
+    "video_url": ""
+  },
+  {
+    "id": "ak:374",
+    "name": "Hollis Highway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 55.45805,
+    "lng": -132.84125,
+    "image_url": "https://511.alaska.gov/map/Cctv/374",
+    "video_url": ""
+  },
+  {
+    "id": "ak:382",
+    "name": "Goldstream Road @ Old Steese Hwy",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.943933,
+    "lng": -147.653931,
+    "image_url": "https://511.alaska.gov/map/Cctv/382",
+    "video_url": ""
+  },
+  {
+    "id": "ak:389",
+    "name": "Fairbanks International Airport",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.8173,
+    "lng": -147.8686,
+    "image_url": "https://511.alaska.gov/map/Cctv/389",
+    "video_url": ""
+  },
+  {
+    "id": "ak:390",
+    "name": "Ballaine Road near Red Fox Drive",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.900824,
+    "lng": -147.830188,
+    "image_url": "https://511.alaska.gov/map/Cctv/390",
+    "video_url": ""
+  },
+  {
+    "id": "ak:395",
+    "name": "Eielson AFB Main Gate @ Richardson Hwy",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.692328,
+    "lng": -147.132182,
+    "image_url": "https://511.alaska.gov/map/Cctv/395",
+    "video_url": ""
+  },
+  {
+    "id": "ak:398",
+    "name": "Richardson Highway @ Tsina River MP 37",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.2079304,
+    "lng": -145.4834124,
+    "image_url": "https://511.alaska.gov/map/Cctv/398",
+    "video_url": ""
+  },
+  {
+    "id": "ak:406",
+    "name": "Seward Highway @ MP 98.5",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.949519,
+    "lng": -149.393218,
+    "image_url": "https://511.alaska.gov/map/Cctv/406",
+    "video_url": ""
+  },
+  {
+    "id": "ak:408",
+    "name": "Chena Hot Springs @ Roberts Roost Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.884396,
+    "lng": -147.369992,
+    "image_url": "https://511.alaska.gov/map/Cctv/408",
+    "video_url": ""
+  },
+  {
+    "id": "ak:412",
+    "name": "Hatcher Pass @ MP 15",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.765153,
+    "lng": -149.247004,
+    "image_url": "https://511.alaska.gov/map/Cctv/412",
+    "video_url": ""
+  },
+  {
+    "id": "ak:414",
+    "name": "Alaska Highway MP 1285",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 63.199797,
+    "lng": -142.180215,
+    "image_url": "https://511.alaska.gov/map/Cctv/414",
+    "video_url": ""
+  },
+  {
+    "id": "ak:416",
+    "name": "Tok Cutoff @ MP 18.5",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 62.432327,
+    "lng": -144.947914,
+    "image_url": "https://511.alaska.gov/map/Cctv/416",
+    "video_url": ""
+  },
+  {
+    "id": "ak:418",
+    "name": "Glenn Highway @ MP 106",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.791121,
+    "lng": -147.674865,
+    "image_url": "https://511.alaska.gov/map/Cctv/418",
+    "video_url": ""
+  },
+  {
+    "id": "ak:420",
+    "name": "Dalton Hwy @ Atigun Pass MP 244",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 68.12538,
+    "lng": -149.51233,
+    "image_url": "https://511.alaska.gov/map/Cctv/420",
+    "video_url": ""
+  },
+  {
+    "id": "ak:424",
+    "name": "Debarr &amp; Muldoon",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.209735,
+    "lng": -149.733541,
+    "image_url": "https://511.alaska.gov/map/Cctv/424",
+    "video_url": ""
+  },
+  {
+    "id": "ak:425",
+    "name": "O&#39;Malley &amp; Old Seward Hwy",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.123067,
+    "lng": -149.863749,
+    "image_url": "https://511.alaska.gov/map/Cctv/425",
+    "video_url": ""
+  },
+  {
+    "id": "ak:426",
+    "name": "Boniface &amp; Tudor",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.180749,
+    "lng": -149.778406,
+    "image_url": "https://511.alaska.gov/map/Cctv/426",
+    "video_url": ""
+  },
+  {
+    "id": "ak:427",
+    "name": "Glenn Hwy &amp; S Inner Springer Loop/Claire",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.57073,
+    "lng": -149.148249,
+    "image_url": "https://511.alaska.gov/map/Cctv/427",
+    "video_url": ""
+  },
+  {
+    "id": "ak:428",
+    "name": "Sterling Hwy &amp; Main St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 59.641436,
+    "lng": -151.544286,
+    "image_url": "https://511.alaska.gov/map/Cctv/428",
+    "video_url": ""
+  },
+  {
+    "id": "ak:429",
+    "name": "New Seward Hwy &amp; Northern Lights",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.195302,
+    "lng": -149.868062,
+    "image_url": "https://511.alaska.gov/map/Cctv/429",
+    "video_url": ""
+  },
+  {
+    "id": "ak:432",
+    "name": "Boniface &amp; Debarr",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.209744,
+    "lng": -149.778445,
+    "image_url": "https://511.alaska.gov/map/Cctv/432",
+    "video_url": ""
+  },
+  {
+    "id": "ak:433",
+    "name": "Glenn Hwy &amp; Palmer Wasilla Hwy / Evergreen Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.599429,
+    "lng": -149.12246,
+    "image_url": "https://511.alaska.gov/map/Cctv/433",
+    "video_url": ""
+  },
+  {
+    "id": "ak:436",
+    "name": "Lake Otis &amp; Tudor",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.180877,
+    "lng": -149.838131,
+    "image_url": "https://511.alaska.gov/map/Cctv/436",
+    "video_url": ""
+  },
+  {
+    "id": "ak:437",
+    "name": "International Airport &amp; Jewel Lake/Spenard",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.173817,
+    "lng": -149.943475,
+    "image_url": "https://511.alaska.gov/map/Cctv/437",
+    "video_url": ""
+  },
+  {
+    "id": "ak:439",
+    "name": "Boniface &amp; Northern Lights",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.195257,
+    "lng": -149.778377,
+    "image_url": "https://511.alaska.gov/map/Cctv/439",
+    "video_url": ""
+  },
+  {
+    "id": "ak:440",
+    "name": "Kachemak Bay at end of Main St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 59.63819,
+    "lng": -151.544387,
+    "image_url": "https://511.alaska.gov/map/Cctv/440",
+    "video_url": ""
+  },
+  {
+    "id": "ak:441",
+    "name": "Sterling Hwy &amp; Kalifornsky Beach Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.474899,
+    "lng": -151.084417,
+    "image_url": "https://511.alaska.gov/map/Cctv/441",
+    "video_url": ""
+  },
+  {
+    "id": "ak:442",
+    "name": "Old Seward &amp; Tudor",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.180779,
+    "lng": -149.868176,
+    "image_url": "https://511.alaska.gov/map/Cctv/442",
+    "video_url": ""
+  },
+  {
+    "id": "ak:444",
+    "name": "Sterling Hwy &amp; Lake St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 59.642368,
+    "lng": -151.524764,
+    "image_url": "https://511.alaska.gov/map/Cctv/444",
+    "video_url": ""
+  },
+  {
+    "id": "ak:445",
+    "name": "Elmore &amp; Tudor",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.180812,
+    "lng": -149.808276,
+    "image_url": "https://511.alaska.gov/map/Cctv/445",
+    "video_url": ""
+  },
+  {
+    "id": "ak:447",
+    "name": "Muldoon &amp; Northern Lights Blvd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.195298,
+    "lng": -149.733504,
+    "image_url": "https://511.alaska.gov/map/Cctv/447",
+    "video_url": ""
+  },
+  {
+    "id": "ak:448",
+    "name": "36th &amp; New Seward Hwy",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.188086,
+    "lng": -149.865291,
+    "image_url": "https://511.alaska.gov/map/Cctv/448",
+    "video_url": ""
+  },
+  {
+    "id": "ak:449",
+    "name": "5th Avenue / Glenn Hwy &amp; Airport Heights",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.217554,
+    "lng": -149.826598,
+    "image_url": "https://511.alaska.gov/map/Cctv/449",
+    "video_url": ""
+  },
+  {
+    "id": "ak:451",
+    "name": "5th Avenue &amp; Reeve Blvd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.217521,
+    "lng": -149.836675,
+    "image_url": "https://511.alaska.gov/map/Cctv/451",
+    "video_url": ""
+  },
+  {
+    "id": "ak:452",
+    "name": "Parks Hwy &amp; Crusey St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.580561,
+    "lng": -149.429696,
+    "image_url": "https://511.alaska.gov/map/Cctv/452",
+    "video_url": ""
+  },
+  {
+    "id": "ak:453",
+    "name": "Beluga Lake, Homer",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 59.641592,
+    "lng": -151.52127,
+    "image_url": "https://511.alaska.gov/map/Cctv/453",
+    "video_url": ""
+  },
+  {
+    "id": "ak:454",
+    "name": "Benson &amp; Minnesota",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.193658,
+    "lng": -149.91312,
+    "image_url": "https://511.alaska.gov/map/Cctv/454",
+    "video_url": ""
+  },
+  {
+    "id": "ak:455",
+    "name": "C St &amp; Dowling",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.16667,
+    "lng": -149.88655,
+    "image_url": "https://511.alaska.gov/map/Cctv/455",
+    "video_url": ""
+  },
+  {
+    "id": "ak:456",
+    "name": "Dowling &amp; Elmore",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.167108,
+    "lng": -149.808965,
+    "image_url": "https://511.alaska.gov/map/Cctv/456",
+    "video_url": ""
+  },
+  {
+    "id": "ak:457",
+    "name": "Parks Hwy &amp; Palmer Wasilla Hwy",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.576942,
+    "lng": -149.409608,
+    "image_url": "https://511.alaska.gov/map/Cctv/457",
+    "video_url": ""
+  },
+  {
+    "id": "ak:458",
+    "name": "Elmore &amp; MLK",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.177229,
+    "lng": -149.808235,
+    "image_url": "https://511.alaska.gov/map/Cctv/458",
+    "video_url": ""
+  },
+  {
+    "id": "ak:459",
+    "name": "Lower Kenai River from KSH &amp; Bridge Access",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.552707,
+    "lng": -151.241097,
+    "image_url": "https://511.alaska.gov/map/Cctv/459",
+    "video_url": ""
+  },
+  {
+    "id": "ak:461",
+    "name": "Glenn Hwy &amp; E Inner Springer lp/Jay St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.585115,
+    "lng": -149.130356,
+    "image_url": "https://511.alaska.gov/map/Cctv/461",
+    "video_url": ""
+  },
+  {
+    "id": "ak:462",
+    "name": "Parks Hwy &amp; Church St/S Mack Dr",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.579084,
+    "lng": -149.511342,
+    "image_url": "https://511.alaska.gov/map/Cctv/462",
+    "video_url": ""
+  },
+  {
+    "id": "ak:463",
+    "name": "Palmer Wasilla Hwy &amp; Trunk Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.599396,
+    "lng": -149.238058,
+    "image_url": "https://511.alaska.gov/map/Cctv/463",
+    "video_url": ""
+  },
+  {
+    "id": "ak:466",
+    "name": "Minnesota &amp; Northern Lights",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.195311,
+    "lng": -149.913129,
+    "image_url": "https://511.alaska.gov/map/Cctv/466",
+    "video_url": ""
+  },
+  {
+    "id": "ak:467",
+    "name": "Parks Hwy &amp; Big Lake Rd",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.575468,
+    "lng": -149.724209,
+    "image_url": "https://511.alaska.gov/map/Cctv/467",
+    "video_url": ""
+  },
+  {
+    "id": "ak:472",
+    "name": "Glenn Hwy &amp; Arctic St",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.606666,
+    "lng": -149.118472,
+    "image_url": "https://511.alaska.gov/map/Cctv/472",
+    "video_url": ""
+  },
+  {
+    "id": "ak:473",
+    "name": "Knik Goose Bay Rd &amp; Palmer Wasilla Hwy",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.5700378,
+    "lng": -149.444275,
+    "image_url": "https://511.alaska.gov/map/Cctv/473",
+    "video_url": ""
+  },
+  {
+    "id": "ak:475",
+    "name": "KGB &amp; Clapp",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.550278,
+    "lng": -149.53068,
+    "image_url": "https://511.alaska.gov/map/Cctv/475",
+    "video_url": ""
+  },
+  {
+    "id": "ak:476",
+    "name": "Parks 357 DMS Inbound",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.8430175781,
+    "lng": -147.8520050049,
+    "image_url": "https://511.alaska.gov/map/Cctv/476",
+    "video_url": ""
+  },
+  {
+    "id": "ak:477",
+    "name": "Rich Hwy 358 Weigh Station DMS Inbound",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.814453125,
+    "lng": -147.6191101074,
+    "image_url": "https://511.alaska.gov/map/Cctv/477",
+    "video_url": ""
+  },
+  {
+    "id": "ak:478",
+    "name": "Rich Hwy 358 Weigh Station DMS Outbound",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.814453125,
+    "lng": -147.6191101074,
+    "image_url": "https://511.alaska.gov/map/Cctv/478",
+    "video_url": ""
+  },
+  {
+    "id": "ak:479",
+    "name": "Parks 357 DMS Outbound",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.8430175781,
+    "lng": -147.8520050049,
+    "image_url": "https://511.alaska.gov/map/Cctv/479",
+    "video_url": ""
+  },
+  {
+    "id": "ak:488",
+    "name": "Kalifornski Beach Rd &amp; Bridge Access",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.517659,
+    "lng": -151.204231,
+    "image_url": "https://511.alaska.gov/map/Cctv/488",
+    "video_url": ""
+  },
+  {
+    "id": "ak:489",
+    "name": "Kenai River from KBR",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 60.522266,
+    "lng": -151.206568,
+    "image_url": "https://511.alaska.gov/map/Cctv/489",
+    "video_url": ""
+  },
+  {
+    "id": "ak:490",
+    "name": "Glenn Hwy &amp; Jimmy Dr",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.554319,
+    "lng": -149.175718,
+    "image_url": "https://511.alaska.gov/map/Cctv/490",
+    "video_url": ""
+  },
+  {
+    "id": "ak:491",
+    "name": "Glenn Hwy &amp; Outer Spring Loop / Rubymae Dr",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.565197,
+    "lng": -149.157651,
+    "image_url": "https://511.alaska.gov/map/Cctv/491",
+    "video_url": ""
+  },
+  {
+    "id": "ak:492",
+    "name": "Alaska Highway @ Yerrick Creek MP 1334",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 63.3862,
+    "lng": -143.60973,
+    "image_url": "https://511.alaska.gov/map/Cctv/492",
+    "video_url": ""
+  }
+]

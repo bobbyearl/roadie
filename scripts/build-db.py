@@ -21,7 +21,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "data-sources")
 OUTPUT = os.path.join(SCRIPT_DIR, "..", "public", "data", "cameras.db.json")
 
 # States that have working video (HLS streams confirmed accessible without DRM)
-VIDEO_STATES = {"sc", "va", "de", "md", "tn"}
+VIDEO_STATES = {"sc", "va", "de", "md", "tn", "wi", "la", "nv"}
 
 
 def parse_sc():
@@ -372,23 +372,65 @@ def parse_ca():
     return cameras
 
 
+def parse_wi():
+    """Wisconsin - 511wi.gov tooltip scrape + mapIcons coordinates"""
+    with open(os.path.join(DATA_DIR, "wi.json")) as f:
+        return json.load(f)
+
+
+def parse_la():
+    """Louisiana - 511la.org tooltip scrape + mapIcons coordinates"""
+    with open(os.path.join(DATA_DIR, "la.json")) as f:
+        return json.load(f)
+
+
+def parse_nv():
+    """Nevada - nvroads.com tooltip scrape + mapIcons coordinates"""
+    with open(os.path.join(DATA_DIR, "nv.json")) as f:
+        return json.load(f)
+
+
+def parse_id():
+    """Idaho - 511.idaho.gov tooltip scrape + mapIcons coordinates"""
+    with open(os.path.join(DATA_DIR, "id.json")) as f:
+        return json.load(f)
+
+
+def parse_ak():
+    """Alaska - 511.alaska.gov tooltip scrape + mapIcons coordinates"""
+    with open(os.path.join(DATA_DIR, "ak.json")) as f:
+        return json.load(f)
+
+
+def parse_ne():
+    """New England (ME/VT) - newengland511.org tooltip scrape + mapIcons coordinates"""
+    with open(os.path.join(DATA_DIR, "ne.json")) as f:
+        return json.load(f)
+
+
 # State registry: (state_id, parser_function)
 # Order here determines the state index in the DB
 STATES = [
+    ("ak", parse_ak),
     ("al", parse_al),
     ("ca", parse_ca),
     ("ct", parse_ct),
     ("de", parse_de),
     ("fl", parse_fl),
     ("ga", parse_ga),
+    ("id", parse_id),
+    ("la", parse_la),
     ("md", parse_md),
     ("nc", parse_nc),
+    ("ne", parse_ne),
     ("nj", parse_nj),
+    ("nv", parse_nv),
     ("pa", parse_pa),
     ("sc", parse_sc),
     ("tn", parse_tn),
     ("ut", parse_ut),
     ("va", parse_va),
+    ("wi", parse_wi),
 ]
 
 
@@ -432,10 +474,15 @@ def build_db():
             # Determine hasVideo: state supports video AND this camera has a video_url
             cam_has_video = 1 if (has_video and cam.get("video_url")) else 0
 
+            # Ensure camera ID has state prefix
+            cam_id = cam["id"]
+            if not cam_id.startswith(f"{state_id}:"):
+                cam_id = f"{state_id}:{cam_id}"
+
             cameras.append([
                 round(cam["lat"], 5),
                 round(cam["lng"], 5),
-                cam["id"],
+                cam_id,
                 state_index,
                 cam["name"],
                 r_idx,
