@@ -1,7 +1,7 @@
 import './Toolbar.css';
 
 import { autoUpdate, offset, useFloating, useHover, useInteractions } from '@floating-ui/react';
-import { Bookmark, Car, Grid2x2, Grid3x3, ImageIcon, LayoutGrid, MapIcon, List, Locate, Trash2 } from 'lucide-react';
+import { Bookmark, Car, Grid2x2, Grid3x3, ImageIcon, LayoutGrid, MapIcon, List, Trash2 } from 'lucide-react';
 import { useState } from 'react';
 
 import { useTraffic } from '../lib/TrafficContext';
@@ -45,16 +45,9 @@ function ToolbarButton({ icon: Icon, label, active, onClick, disabled }: {
 }
 
 export function Toolbar() {
-  const { showMap, showList, cardSize, toggleMap, toggleList, setGrid, setUserLocation, mode, setMode, selectedCameras, clearAll, isLoading, autoPilot, activeRouteName } = useTraffic();
+  const { showMap, showList, cardSize, toggleMap, toggleList, setGrid, mode, setMode, selectedCameras, clearAll, isLoading, autoPilot, activeRouteName } = useTraffic();
   const forceImages = mode === 'image';
   const [showDisclaimer, setShowDisclaimer] = useState(false);
-
-  const handleLocate = () => {
-    if (!navigator.geolocation) return;
-    navigator.geolocation.getCurrentPosition((pos) => {
-      setUserLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude });
-    });
-  };
 
   const handleAutoPilot = () => {
     if (autoPilot.active) {
@@ -87,7 +80,6 @@ export function Toolbar() {
         )}
       </div>
       <div className="toolbar-actions">
-        <ToolbarButton icon={Locate} label="Locate me" onClick={handleLocate} />
         <ToolbarButton icon={Car} label="Auto Pilot" active={autoPilot.active} onClick={handleAutoPilot} />
         <span className="toolbar-sep" />
         <ToolbarButton icon={MapIcon} label="Map" active={showMap} onClick={toggleMap} disabled={showMap && !showList} />

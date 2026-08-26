@@ -1,7 +1,7 @@
 import './CameraMap.css';
 
 import { AdvancedMarker, APIProvider, Map as GoogleMap, useMap } from '@vis.gl/react-google-maps';
-import { GripVertical } from 'lucide-react';
+import { GripVertical, Home, Locate } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { type Camera, getStateConfig } from '../lib/cameras';
@@ -472,8 +472,8 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
   return (
     <div className="map-wrapper">
       <GoogleMap
-      defaultCenter={getStateConfig(stateId).defaultCenter}
-      defaultZoom={getStateConfig(stateId).defaultZoom}
+      defaultCenter={mapPosition ? { lat: mapPosition.lat, lng: mapPosition.lng } : getStateConfig(stateId).defaultCenter}
+      defaultZoom={mapPosition ? mapPosition.z : getStateConfig(stateId).defaultZoom}
       mapId={mapId}
       colorScheme={resolvedTheme === 'dark' ? 'DARK' : 'LIGHT'}
       className="map-container"
@@ -546,6 +546,14 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
         );
       })}
     </GoogleMap>
+    <div className="map-controls">
+      <button className="map-control-btn" onClick={() => { if (!map) return; const config = getStateConfig(stateId); map.panTo(config.defaultCenter); map.setZoom(config.defaultZoom); }} title="Reset view" aria-label="Reset view">
+        <Home size={18} />
+      </button>
+      <button className="map-control-btn" onClick={handleLocate} title="Locate me" aria-label="Locate me">
+        <Locate size={18} />
+      </button>
+    </div>
     </div>
   );
 }
