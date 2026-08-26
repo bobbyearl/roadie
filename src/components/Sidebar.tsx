@@ -98,7 +98,17 @@ export function Sidebar({ open }: { open?: boolean }) {
                             const isActive = routeIds.every((id) => selectedIds.has(id));
                             return (
                               <label key={route.name} className="camera-row">
-                                <input type="checkbox" checked={isActive} onChange={() => selectRoute(isActive ? [] : routeIds)} />
+                                <input type="checkbox" checked={isActive} onChange={() => {
+                                  if (isActive) {
+                                    // Remove this route's cameras from selection
+                                    const next = [...selectedIds].filter((id) => !routeIds.includes(id));
+                                    selectRoute(next);
+                                  } else {
+                                    // Add this route's cameras to existing selection
+                                    const merged = new Set([...selectedIds, ...routeIds]);
+                                    selectRoute([...merged]);
+                                  }
+                                }} />
                                 <span className="camera-row-label">{route.name}</span>
                                 <span className="region-counter">{route.ids.length}</span>
                               </label>
