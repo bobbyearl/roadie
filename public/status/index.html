@@ -40,6 +40,7 @@
     .card-video { width: 100%; aspect-ratio: 16/9; background: #111; display: block; }
     .card-no-video { width: 100%; aspect-ratio: 16/9; background: #111; display: flex; align-items: center; justify-content: center; color: #555; font-size: 0.65rem; }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
 </head>
 <body>
   <div class="title-row">
@@ -181,10 +182,16 @@
       }
     }
     let currentMode = 'image';
+    const hlsInstances = [];
+
     function setMode(mode) {
       currentMode = mode;
       document.getElementById('modeImg').className = mode === 'image' ? 'active' : '';
       document.getElementById('modeVid').className = mode === 'video' ? 'active' : '';
+
+      // Destroy existing HLS instances
+      hlsInstances.forEach(h => h.destroy());
+      hlsInstances.length = 0;
 
       cameras.forEach(cam => {
         const card = grid.querySelector(`[data-state="${cam.state}"]`);
@@ -196,7 +203,22 @@
 
         if (mode === 'video') {
           if (cam.videoUrl) {
-            mediaSlot.innerHTML = `<video class="card-video" src="${cam.videoUrl}" autoplay muted playsinline></video>`;
+            const video = document.createElement('video');
+            video.className = 'card-video';
+            video.muted = true;
+            video.autoplay = true;
+            video.playsInline = true;
+            mediaSlot.innerHTML = '';
+            mediaSlot.appendChild(video);
+
+            if (Hls.isSupported()) {
+              const hls = new Hls({ maxBufferLength: 5, maxMaxBufferLength: 10 });
+              hls.loadSource(cam.videoUrl);
+              hls.attachMedia(video);
+              hlsInstances.push(hls);
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+              video.src = cam.videoUrl;
+            }
           } else {
             mediaSlot.innerHTML = `<div class="card-no-video">No video available</div>`;
           }
