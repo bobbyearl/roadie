@@ -472,8 +472,8 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
   return (
     <div className="map-wrapper">
       <GoogleMap
-      defaultCenter={getStateConfig(stateId).defaultCenter}
-      defaultZoom={getStateConfig(stateId).defaultZoom}
+      defaultCenter={mapPosition ? { lat: mapPosition.lat, lng: mapPosition.lng } : getStateConfig(stateId).defaultCenter}
+      defaultZoom={mapPosition ? mapPosition.z : getStateConfig(stateId).defaultZoom}
       mapId={mapId}
       colorScheme={resolvedTheme === 'dark' ? 'DARK' : 'LIGHT'}
       className="map-container"
