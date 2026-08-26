@@ -1,7 +1,7 @@
 import './CameraMap.css';
 
 import { AdvancedMarker, APIProvider, Map as GoogleMap, useMap } from '@vis.gl/react-google-maps';
-import { GripVertical, Home, Locate } from 'lucide-react';
+import { GripVertical, Home, Locate, BoxSelect } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { type Camera, getStateConfig } from '../lib/cameras';
@@ -37,7 +37,7 @@ export function CameraMap({ stateId, markersOnly }: CameraMapProps) {
 
 
 function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: string; markersOnly?: boolean }) {
-  const { cameras, selectedIds, selectedCameras, toggleCamera, mode, cardSize, setDetailCam, layoutKey, userLocation, setUserLocation, mapPosition, setMapPosition } = useTraffic();
+  const { cameras, selectedIds, selectedCameras, toggleCamera, selectRoute, mode, cardSize, setDetailCam, layoutKey, userLocation, setUserLocation, mapPosition, setMapPosition } = useTraffic();
   const { resolvedTheme } = useTheme();
   const map = useMap();
   const prevStateRef = useRef(stateId);
@@ -451,6 +451,157 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
     );
   };
 
+  // --- Draw-to-select (lasso) ---
+  const [selectMode, setSelectMode] = useState(false);
+  const [drawRect, setDrawRect] = useState<{ startX: number; startY: number; x: number; y: number; w: number; h: number } | null>(null);
+  const [drawCount, setDrawCount] = useState(0);
+  const drawingRef = useRef(false);
+  const startPointRef = useRef<{ x: number; y: number } | null>(null);
+  const rafRef = useRef<number>(0);
+
+  // Disable map dragging when in select mode
+  useEffect(() => {
+    if (!map) return;
+    map.setOptions({ gestureHandling: selectMode ? 'none' : 'auto' });
+  }, [map, selectMode]);
+
+  const handleDrawStart = useCallback((e: React.PointerEvent) => {
+    if (!selectMode) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    startPointRef.current = { x, y };
+    drawingRef.current = true;
+    setDrawRect({ startX: x, startY: y, x, y, w: 0, h: 0 });
+    setDrawCount(0);
+    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+  }, [selectMode]);
+
+  const handleDrawMove = useCallback((e: React.PointerEvent) => {
+    if (!drawingRef.current || !startPointRef.current) return;
+    e.preventDefault();
+    const clientX = e.clientX;
+    const clientY = e.clientY;
+    const target = e.currentTarget;
+    cancelAnimationFrame(rafRef.current);
+    rafRef.current = requestAnimationFrame(() => {
+      const rect = target.getBoundingClientRect();
+      const curX = clientX - rect.left;
+      const curY = clientY - rect.top;
+      if (!startPointRef.current) return;
+      const sx = startPointRef.current.x;
+      const sy = startPointRef.current.y;
+      const newRect = {
+        startX: sx, startY: sy,
+        x: Math.min(sx, curX),
+        y: Math.min(sy, curY),
+        w: Math.abs(curX - sx),
+        h: Math.abs(curY - sy),
+      };
+      setDrawRect(newRect);
+
+      // Count cameras in the drawn rect (use all cameras for accurate limit)
+      if (map && map.getBounds()) {
+        const bounds = map.getBounds()!;
+        const ne = bounds.getNorthEast();
+        const sw = bounds.getSouthWest();
+        const nwLat = ne.lat() - (newRect.y / rect.height) * (ne.lat() - sw.lat());
+        const nwLng = sw.lng() + (newRect.x / rect.width) * (ne.lng() - sw.lng());
+        const seLat = ne.lat() - ((newRect.y + newRect.h) / rect.height) * (ne.lat() - sw.lat());
+        const seLng = sw.lng() + ((newRect.x + newRect.w) / rect.width) * (ne.lng() - sw.lng());
+        let count = 0;
+        for (let i = 0; i < cameras.length; i++) {
+          const cam = cameras[i];
+          if (cam.lat <= nwLat && cam.lat >= seLat && cam.lng >= nwLng && cam.lng <= seLng) count++;
+          if (count > 50) break; // Stop counting past the limit
+        }
+        setDrawCount(count);
+      }
+    });
+  }, [map, cameras]);
+
+  const handleDrawEnd = useCallback((e: React.PointerEvent) => {
+    if (!drawingRef.current || !startPointRef.current || !map) {
+      drawingRef.current = false;
+      setDrawRect(null);
+      return;
+    }
+    e.preventDefault();
+    drawingRef.current = false;
+
+    const rect = e.currentTarget.getBoundingClientRect();
+    const curX = e.clientX - rect.left;
+    const curY = e.clientY - rect.top;
+    const sx = startPointRef.current.x;
+    const sy = startPointRef.current.y;
+
+    // Only process if dragged at least 10px
+    if (Math.abs(curX - sx) < 10 || Math.abs(curY - sy) < 10) {
+      setDrawRect(null);
+      startPointRef.current = null;
+      if (selectMode) setSelectMode(false);
+      return;
+    }
+
+    // Convert pixel bounds to lat/lng
+    const projection = map.getProjection();
+    const bounds = map.getBounds();
+    if (!projection || !bounds) { setDrawRect(null); if (selectMode) setSelectMode(false); return; }
+
+    const topRight = projection.fromLatLngToPoint(bounds.getNorthEast())!;
+    const bottomLeft = projection.fromLatLngToPoint(bounds.getSouthWest())!;
+    const scale = Math.pow(2, map.getZoom()!);
+
+    const pixelToLatLng = (px: number, py: number) => {
+      const worldPoint = new google.maps.Point(
+        bottomLeft.x + (px / scale) * (topRight.x - bottomLeft.x) / rect.width * scale,
+        topRight.y + (py / scale) * (bottomLeft.y - topRight.y) / rect.height * scale
+      );
+      // Simpler approach: use overlay projection or just compute from bounds
+      const ne = bounds.getNorthEast();
+      const sw = bounds.getSouthWest();
+      const lat = ne.lat() - (py / rect.height) * (ne.lat() - sw.lat());
+      const lng = sw.lng() + (px / rect.width) * (ne.lng() - sw.lng());
+      return { lat, lng };
+    };
+
+    const minX = Math.min(sx, curX);
+    const maxX = Math.max(sx, curX);
+    const minY = Math.min(sy, curY);
+    const maxY = Math.max(sy, curY);
+
+    const nw = pixelToLatLng(minX, minY);
+    const se = pixelToLatLng(maxX, maxY);
+
+    // Find all cameras within the rectangle
+    const MAX_DRAW_SELECT = 50;
+    const selectedInRect = cameras.filter(cam =>
+      cam.lat <= nw.lat && cam.lat >= se.lat &&
+      cam.lng >= nw.lng && cam.lng <= se.lng
+    ).map(cam => cam.id);
+
+    if (selectedInRect.length > 0 && selectedInRect.length <= MAX_DRAW_SELECT) {
+      // Add to existing selection
+      const merged = new Set([...selectedIds, ...selectedInRect]);
+      selectRoute([...merged]);
+    }
+
+    setDrawRect(null);
+    startPointRef.current = null;
+    if (selectMode) setSelectMode(false);
+  }, [map, cameras, selectedIds, selectRoute, selectMode, visibleCameras]);
+
+  // Shift key listener for power-user shortcut
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && selectMode) setSelectMode(false);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [selectMode]);
+
   // Pan to show user location + closest camera when findClosest/locate triggers
   const prevUserLocation = useRef(userLocation);
   useEffect(() => {
@@ -546,12 +697,28 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
         );
       })}
     </GoogleMap>
+    {/* Draw-to-select overlay */}
+    <div
+      className={`map-draw-overlay ${selectMode ? 'map-draw-active' : ''}`}
+      onPointerDown={handleDrawStart}
+      onPointerMove={handleDrawMove}
+      onPointerUp={handleDrawEnd}
+    >
+      {drawRect && drawRect.w > 0 && (
+        <div className={`map-draw-rect ${drawCount > 50 ? 'map-draw-rect-over' : ''}`} style={{ left: drawRect.x, top: drawRect.y, width: drawRect.w, height: drawRect.h }}>
+          {drawCount > 0 && <span className={`map-draw-count ${drawCount > 50 ? 'map-draw-count-over' : ''}`}>{drawCount > 50 ? `${drawCount} (50 max)` : drawCount}</span>}
+        </div>
+      )}
+    </div>
     <div className="map-controls">
-      <button className="map-control-btn" onClick={() => { if (!map) return; const config = getStateConfig(stateId); map.panTo(config.defaultCenter); map.setZoom(config.defaultZoom); }} title="Reset view" aria-label="Reset view">
+      <button className="map-control-btn" onClick={() => { if (!map) return; const config = getStateConfig(stateId); map.panTo(config.defaultCenter); map.setZoom(config.defaultZoom); }} data-tooltip="Reset view" aria-label="Reset view">
         <Home size={18} />
       </button>
-      <button className="map-control-btn" onClick={handleLocate} title="Locate me" aria-label="Locate me">
+      <button className="map-control-btn" onClick={handleLocate} data-tooltip="Locate me" aria-label="Locate me">
         <Locate size={18} />
+      </button>
+      <button className={`map-control-btn ${selectMode ? 'map-control-btn-active' : ''}`} onClick={() => setSelectMode(!selectMode)} data-tooltip="Draw to select" aria-label="Draw to select">
+        <BoxSelect size={18} />
       </button>
     </div>
     </div>
