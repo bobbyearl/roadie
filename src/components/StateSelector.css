@@ -9,9 +9,10 @@
   padding: var(--rd-space-xs) var(--rd-space-sm);
   font-size: var(--rd-text-sm);
   color: var(--color-foreground);
+  width: 9.5rem;
 }
 .state-selector-trigger-open {
-  @apply invisible;
+  @apply border-foreground/20;
 }
 .state-selector-caret {
   @apply text-muted-foreground transition-transform;
@@ -25,6 +26,44 @@
 
 .state-selector-dropdown {
   @apply z-50 bg-background border border-border rounded-md shadow-lg overflow-hidden;
+  padding: var(--rd-space-xs);
+  width: max-content;
+}
+
+.state-selector-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 3.5rem);
+  gap: 2px;
+}
+
+.state-selector-grid-item {
+  @apply cursor-pointer hover:bg-muted transition-colors rounded;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--rd-space-xs) var(--rd-space-sm);
+  font-size: var(--rd-text-sm);
+  color: var(--color-foreground);
+}
+
+.state-grid-name {
+  @apply font-semibold;
+  font-size: var(--rd-text-sm);
+}
+
+.state-grid-count {
+  @apply text-muted-foreground;
+  font-size: 0.6rem;
+}
+
+.state-grid-offline {
+  opacity: 0.4;
+}
+
+@media (max-width: 480px) {
+  .state-selector-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 .state-selector-option {
   @apply w-full text-left cursor-pointer hover:bg-muted transition-colors whitespace-nowrap;

@@ -28,17 +28,28 @@
     .ts { color: #666; }
     .title-row { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
     .title-row h1 { margin: 0; }
+    .mode-toggle { margin-left: auto; }
     .agg-badge { padding: 3px 10px; border-radius: 9px; font-size: 0.7rem; font-weight: 600; }
     .agg-badge.checking { background: #eab30833; color: #fbbf24; }
     .agg-badge.good { background: #22c55e33; color: #4ade80; }
     .agg-badge.degraded { background: #f9731633; color: #fb923c; }
     .agg-badge.down { background: #ef444433; color: #f87171; }
+    .mode-toggle { display: inline-flex; border-radius: 0.375rem; overflow: hidden; border: 1px solid #555; font-size: 0.7rem; }
+    .mode-toggle button { padding: 0.3rem 0.75rem; border: none; cursor: pointer; background: #333; color: #999; transition: background 0.15s, color 0.15s; }
+    .mode-toggle button.active { background: #2563eb; color: #fff; }
+    .card-video { width: 100%; aspect-ratio: 16/9; background: #111; display: block; }
+    .card-no-video { width: 100%; aspect-ratio: 16/9; background: #111; display: flex; align-items: center; justify-content: center; color: #555; font-size: 0.65rem; }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
 </head>
 <body>
   <div class="title-row">
-    <h1>Roadie Camera Status</h1>
+    <h1><a href="/roadie/" style="color:inherit;text-decoration:none;opacity:0.7;">🏠 Roadie App</a>: Camera Status</h1>
     <span class="agg-badge checking" id="agg">Checking...</span>
+    <div class="mode-toggle">
+      <button id="modeImg" class="active" onclick="setMode('image')">Images</button>
+      <button id="modeVid" onclick="setMode('video')">Video</button>
+    </div>
   </div>
   <p class="subtitle">One test camera per state. Verifies feeds are accessible.</p>
   <div class="grid" id="grid"></div>
@@ -54,30 +65,54 @@
       { state: 'FL', id: 'fl:614', name: 'I-4 @ MM 60.6 EB', url: 'https://fl511.com/map/Cctv/614', source: 'https://fl511.com' },
       { state: 'GA', id: 'ga:22445', name: 'Akers Mill Rd at Overton Park', url: 'https://511ga.org/map/Cctv/22445', source: 'https://511ga.org' },
       { state: 'ID', id: 'id:1', name: 'I-15 UT/ID State Line', url: 'https://511.idaho.gov/map/Cctv/1', source: 'https://511.idaho.gov' },
-      { state: 'LA', id: 'la:1', name: 'I-20 at I-220 Off Ramp', url: 'https://511la.org/map/Cctv/1', source: 'https://511la.org' },
+      { state: 'LA', id: 'la:1', name: 'I-20 at I-220 Off Ramp', url: 'https://511la.org/map/Cctv/1', videoUrl: 'https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-007.streams/playlist.m3u8', source: 'https://511la.org' },
       { state: 'MD', id: 'md:7a00a1dc01250075004d823633235daa', name: 'I-270 & Old Hundred Rd', url: 'https://chart.maryland.gov/wwwroot/thumbnails/7a00a1dc01250075004d823633235daa.jpg', source: 'https://chart.maryland.gov' },
       { state: 'NC', id: 'nc:4768', name: 'WLM 19 17TH@DELANEY', url: 'https://www.drivenc.gov/map/Cctv/4768', source: 'https://drivenc.gov' },
       { state: 'NE', id: 'ne:950', name: 'Waterbury I-89 North', url: 'https://newengland511.org/map/Cctv/950', source: 'https://newengland511.org' },
       { state: 'NJ', id: 'nj:51', name: 'NJ-21 @ Murray Street', url: '', note: 'offline (Wink CDN blocked)', source: 'https://511nj.org' },
-      { state: 'NV', id: 'nv:1', name: 'US-395 Reno', url: 'https://www.nvroads.com/map/Cctv/1', source: 'https://nvroads.com' },
+      { state: 'NV', id: 'nv:1', name: 'US-395 Reno', url: 'https://www.nvroads.com/map/Cctv/1', videoUrl: 'https://d2wse1.its.nv.gov:443/renoxcd02/976d8ebc-bf16-48dc-9aab-ecceddf97d3a_hspflirxcd02_public.stream/playlist.m3u8', source: 'https://nvroads.com' },
+      { state: 'NY', id: 'ny:4436', name: 'NY 33 at NY 198 Interchange', url: 'https://511ny.org/map/Cctv/4436', videoUrl: 'https://s52.nysdot.skyvdn.com/rtplive/R5_013/playlist.m3u8', source: 'https://511ny.org' },
       { state: 'PA', id: 'pa:4765', name: 'I-76 (PA Turnpike)', url: 'https://www.511pa.com/map/Cctv/4765', source: 'https://511pa.com' },
       { state: 'SC', id: 'sc:e72041b8-d2a0-11e6-8996-0123456789ab', name: 'US 501 N @ Intracoastal', url: 'https://scdotsnap.us-east-1.skyvdn.com/thumbs/50016.flv.png', source: 'https://511sc.org' },
       { state: 'TN', id: 'tn:3165', name: 'I-40/75 @ West Hills', url: 'https://tnsnapshots.com/thumbs/R1_010.flv.png', source: 'https://smartway.tn.gov/traffic' },
       { state: 'UT', id: 'ut:136011', name: 'Minuteman Dr @ 12450 S', url: 'https://www.udottraffic.utah.gov/map/Cctv/136011', source: 'https://udottraffic.utah.gov' },
       { state: 'VA', id: 'va:3958', name: 'University Dr & Sager Ave', url: 'https://snapshot.vdotcameras.com/thumbs/0i6a7bfbs60yq2lbgivq0b8xk3scij3c.flv.png', source: 'https://511virginia.org' },
-      { state: 'WI', id: 'wi:1089', name: 'I-90/94 at WIS 80', url: 'https://511wi.gov/map/Cctv/1089', source: 'https://511wi.gov' },
+      { state: 'WI', id: 'wi:1089', name: 'I-90/94 at WIS 80', url: 'https://511wi.gov/map/Cctv/1089', videoUrl: 'https://cctv2.dot.wi.gov/rtplive/CCTV-29-0144/playlist.m3u8', source: 'https://511wi.gov' },
     ];
 
     const grid = document.getElementById('grid');
     const summary = document.getElementById('summary');
     let ok = 0, fail = 0, offline = 0;
 
+    // Determine initial mode from URL hash before rendering
+    let currentMode = 'image';
+    const hlsInstances = [];
+    if (window.location.hash === '#video') {
+      currentMode = 'video';
+      document.getElementById('modeImg').className = '';
+      document.getElementById('modeVid').className = 'active';
+    }
+
     cameras.forEach(cam => {
       const card = document.createElement('div');
       card.className = 'card';
+      card.dataset.state = cam.state;
 
       const isOffline = !cam.url || cam.note?.includes('offline');
       const isHls = cam.note?.includes('HLS');
+
+      let mediaHtml;
+      if (isOffline) {
+        mediaHtml = `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#666;font-size:0.7rem;">${cam.note || 'No URL'}</div>`;
+      } else if (currentMode === 'video') {
+        mediaHtml = cam.videoUrl
+          ? `<video class="card-video" id="vid-${cam.state}" muted autoplay playsinline></video>`
+          : `<div class="card-no-video">No video available</div>`;
+      } else if (isHls) {
+        mediaHtml = `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#888;font-size:0.65rem;">HLS stream (no thumbnail)</div>`;
+      } else {
+        mediaHtml = `<img class="card-img" id="img-${cam.state}" src="${cam.url}" />`;
+      }
 
       card.innerHTML = `
         <div class="card-header">
@@ -86,15 +121,23 @@
             ${isOffline ? 'OFFLINE' : 'CHECKING'}
           </span>
         </div>
-        ${isOffline
-          ? `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#666;font-size:0.7rem;">${cam.note || 'No URL'}</div>`
-          : isHls
-            ? `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#888;font-size:0.65rem;">HLS stream (no thumbnail)</div>`
-            : `<img class="card-img" id="img-${cam.state}" src="${cam.url}" />`
-        }
+        <div class="card-media">${mediaHtml}</div>
         <div class="card-name"><a href="/roadie/view/${cam.state.toLowerCase()}?selected=${cam.id}" class="card-app-link">${cam.name}</a>${cam.source ? ` <a href="${cam.source}" target="_blank" class="card-source">source</a>` : ''}</div>
       `;
       grid.appendChild(card);
+
+      // Attach HLS.js for video mode on initial render
+      if (currentMode === 'video' && cam.videoUrl && !isOffline) {
+        const video = card.querySelector(`#vid-${cam.state}`);
+        if (video && Hls.isSupported()) {
+          const hls = new Hls({ maxBufferLength: 5, maxMaxBufferLength: 10 });
+          hls.loadSource(cam.videoUrl);
+          hls.attachMedia(video);
+          hlsInstances.push(hls);
+        } else if (video && video.canPlayType('application/vnd.apple.mpegurl')) {
+          video.src = cam.videoUrl;
+        }
+      }
 
       if (isOffline) {
         offline++;
@@ -163,6 +206,55 @@
         agg.textContent = `${ok}/${active} OK`;
         agg.className = 'agg-badge degraded';
       }
+    }
+    function setMode(mode) {
+      currentMode = mode;
+      document.getElementById('modeImg').className = mode === 'image' ? 'active' : '';
+      document.getElementById('modeVid').className = mode === 'video' ? 'active' : '';
+      window.location.hash = mode === 'video' ? 'video' : '';
+
+      // Destroy existing HLS instances
+      hlsInstances.forEach(h => h.destroy());
+      hlsInstances.length = 0;
+
+      cameras.forEach(cam => {
+        const card = grid.querySelector(`[data-state="${cam.state}"]`);
+        if (!card) return;
+        const mediaSlot = card.querySelector('.card-media');
+        if (!mediaSlot) return;
+        const isOffline = !cam.url || cam.note?.includes('offline');
+        if (isOffline) return;
+
+        if (mode === 'video') {
+          if (cam.videoUrl) {
+            const video = document.createElement('video');
+            video.className = 'card-video';
+            video.muted = true;
+            video.autoplay = true;
+            video.playsInline = true;
+            mediaSlot.innerHTML = '';
+            mediaSlot.appendChild(video);
+
+            if (Hls.isSupported()) {
+              const hls = new Hls({ maxBufferLength: 5, maxMaxBufferLength: 10 });
+              hls.loadSource(cam.videoUrl);
+              hls.attachMedia(video);
+              hlsInstances.push(hls);
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+              video.src = cam.videoUrl;
+            }
+          } else {
+            mediaSlot.innerHTML = `<div class="card-no-video">No video available</div>`;
+          }
+        } else {
+          const isHls = cam.note?.includes('HLS');
+          if (isHls) {
+            mediaSlot.innerHTML = `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#888;font-size:0.65rem;">HLS stream (no thumbnail)</div>`;
+          } else {
+            mediaSlot.innerHTML = `<img class="card-img" src="${cam.url}?t=${Date.now()}" />`;
+          }
+        }
+      });
     }
   </script>
 </body>
