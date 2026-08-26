@@ -86,6 +86,15 @@
     const summary = document.getElementById('summary');
     let ok = 0, fail = 0, offline = 0;
 
+    // Determine initial mode from URL hash before rendering
+    let currentMode = 'image';
+    const hlsInstances = [];
+    if (window.location.hash === '#video') {
+      currentMode = 'video';
+      document.getElementById('modeImg').className = '';
+      document.getElementById('modeVid').className = 'active';
+    }
+
     cameras.forEach(cam => {
       const card = document.createElement('div');
       card.className = 'card';
@@ -94,6 +103,19 @@
       const isOffline = !cam.url || cam.note?.includes('offline');
       const isHls = cam.note?.includes('HLS');
 
+      let mediaHtml;
+      if (isOffline) {
+        mediaHtml = `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#666;font-size:0.7rem;">${cam.note || 'No URL'}</div>`;
+      } else if (currentMode === 'video') {
+        mediaHtml = cam.videoUrl
+          ? `<video class="card-video" id="vid-${cam.state}" muted autoplay playsinline></video>`
+          : `<div class="card-no-video">No video available</div>`;
+      } else if (isHls) {
+        mediaHtml = `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#888;font-size:0.65rem;">HLS stream (no thumbnail)</div>`;
+      } else {
+        mediaHtml = `<img class="card-img" id="img-${cam.state}" src="${cam.url}" />`;
+      }
+
       card.innerHTML = `
         <div class="card-header">
           <span class="card-state">${cam.state}</span>
@@ -101,17 +123,23 @@
             ${isOffline ? 'OFFLINE' : 'CHECKING'}
           </span>
         </div>
-        <div class="card-media">
-        ${isOffline
-          ? `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#666;font-size:0.7rem;">${cam.note || 'No URL'}</div>`
-          : isHls
-            ? `<div class="card-img" style="display:flex;align-items:center;justify-content:center;color:#888;font-size:0.65rem;">HLS stream (no thumbnail)</div>`
-            : `<img class="card-img" id="img-${cam.state}" src="${cam.url}" />`
-        }
-        </div>
+        <div class="card-media">${mediaHtml}</div>
         <div class="card-name"><a href="/roadie/view/${cam.state.toLowerCase()}?selected=${cam.id}" class="card-app-link">${cam.name}</a>${cam.source ? ` <a href="${cam.source}" target="_blank" class="card-source">source</a>` : ''}</div>
       `;
       grid.appendChild(card);
+
+      // Attach HLS.js for video mode on initial render
+      if (currentMode === 'video' && cam.videoUrl && !isOffline) {
+        const video = card.querySelector(`#vid-${cam.state}`);
+        if (video && Hls.isSupported()) {
+          const hls = new Hls({ maxBufferLength: 5, maxMaxBufferLength: 10 });
+          hls.loadSource(cam.videoUrl);
+          hls.attachMedia(video);
+          hlsInstances.push(hls);
+        } else if (video && video.canPlayType('application/vnd.apple.mpegurl')) {
+          video.src = cam.videoUrl;
+        }
+      }
 
       if (isOffline) {
         offline++;
@@ -181,13 +209,11 @@
         agg.className = 'agg-badge degraded';
       }
     }
-    let currentMode = 'image';
-    const hlsInstances = [];
-
     function setMode(mode) {
       currentMode = mode;
       document.getElementById('modeImg').className = mode === 'image' ? 'active' : '';
       document.getElementById('modeVid').className = mode === 'video' ? 'active' : '';
+      window.location.hash = mode === 'video' ? 'video' : '';
 
       // Destroy existing HLS instances
       hlsInstances.forEach(h => h.destroy());
