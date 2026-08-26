@@ -21,7 +21,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "data-sources")
 OUTPUT = os.path.join(SCRIPT_DIR, "..", "public", "data", "cameras.db.json")
 
 # States that have working video (HLS streams confirmed accessible without DRM)
-VIDEO_STATES = {"sc", "va", "de", "md", "tn", "wi", "la", "nv"}
+VIDEO_STATES = {"sc", "va", "de", "md", "tn", "wi", "la", "nv", "ny"}
 
 
 def parse_sc():
@@ -408,6 +408,12 @@ def parse_ne():
         return json.load(f)
 
 
+def parse_ny():
+    """New York - 511ny.org tooltip scrape + mapIcons coordinates"""
+    with open(os.path.join(DATA_DIR, "ny.json")) as f:
+        return json.load(f)
+
+
 # State registry: (state_id, parser_function)
 # Order here determines the state index in the DB
 STATES = [
@@ -425,6 +431,7 @@ STATES = [
     ("ne", parse_ne),
     ("nj", parse_nj),
     ("nv", parse_nv),
+    ("ny", parse_ny),
     ("pa", parse_pa),
     ("sc", parse_sc),
     ("tn", parse_tn),
