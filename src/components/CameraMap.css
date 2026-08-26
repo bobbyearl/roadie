@@ -80,6 +80,50 @@
   height: 2.5rem;
 }
 
+.map-controls {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  gap: 0.375rem;
+}
+
+.map-control-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: white;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.map-control-btn:hover {
+  background: #f0f0f0;
+}
+
+.map-control-btn:active {
+  transform: scale(0.92);
+}
+
+:root[data-theme="dark"] .map-control-btn {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+:root[data-theme="dark"] .map-control-btn:hover {
+  background: #2a2a2a;
+}
+
 .map-user-pin {
   @apply w-4 h-4 rounded-full border-2;
   background-color: #2563eb;

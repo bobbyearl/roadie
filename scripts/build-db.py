@@ -21,7 +21,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "data-sources")
 OUTPUT = os.path.join(SCRIPT_DIR, "..", "public", "data", "cameras.db.json")
 
 # States that have working video (HLS streams confirmed accessible without DRM)
-VIDEO_STATES = {"sc", "va", "de", "md", "tn", "wi", "la", "nv"}
+VIDEO_STATES = {"sc", "va", "de", "md", "tn", "wi", "la", "nv", "ny"}
 
 
 def parse_sc():
@@ -408,6 +408,12 @@ def parse_ne():
         return json.load(f)
 
 
+def parse_ny():
+    """New York - 511ny.org tooltip scrape + mapIcons coordinates"""
+    with open(os.path.join(DATA_DIR, "ny.json")) as f:
+        return json.load(f)
+
+
 # State registry: (state_id, parser_function)
 # Order here determines the state index in the DB
 STATES = [
@@ -425,6 +431,7 @@ STATES = [
     ("ne", parse_ne),
     ("nj", parse_nj),
     ("nv", parse_nv),
+    ("ny", parse_ny),
     ("pa", parse_pa),
     ("sc", parse_sc),
     ("tn", parse_tn),
@@ -505,11 +512,27 @@ def build_db():
     with open(OUTPUT, "w") as f:
         json.dump(db, f, separators=(",", ":"))
 
+    # Generate pins.json: [[lat, lng, id], ...] - inlined into HTML for instant map render
+    pins = [[cam[0], cam[1], cam[2]] for cam in cameras]
+    pins_path = os.path.join(os.path.dirname(OUTPUT), "pins.json")
+    with open(pins_path, "w") as f:
+        json.dump(pins, f, separators=(",", ":"))
+
+    # Generate meta.json: {jurisdictions, routes, cameras: {id: [name, routeIdx, jurisdictionIdx, imageUrl, videoUrl, hasVideo]}}
+    meta_cameras = {}
+    for cam in cameras:
+        meta_cameras[cam[2]] = [cam[4], cam[5], cam[6], cam[7], cam[8], cam[9]]
+    meta = {"jurisdictions": jurisdictions, "routes": routes, "cameras": meta_cameras}
+    meta_path = os.path.join(os.path.dirname(OUTPUT), "meta.json")
+    with open(meta_path, "w") as f:
+        json.dump(meta, f, separators=(",", ":"))
+
     size_mb = os.path.getsize(OUTPUT) / 1024 / 1024
     print(f"\n  Output: {OUTPUT}")
     print(f"  States: {len(states)}")
     print(f"  Cameras: {len(cameras)}")
     print(f"  Size: {size_mb:.2f} MB")
+    print(f"  Also generated: pins.json ({len(pins)} pins), meta.json ({len(meta_cameras)} entries)")
 
 
 if __name__ == "__main__":

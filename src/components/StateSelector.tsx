@@ -27,7 +27,7 @@ export function StateSelector() {
     open,
     onOpenChange: setOpen,
     placement: 'bottom-start',
-    middleware: [offset(({ rects }) => -rects.reference.height), flip(), shift({ padding: 8 })],
+    middleware: [offset(4), flip(), shift({ padding: 8 })],
     whileElementsMounted: autoUpdate,
   });
 
@@ -45,27 +45,27 @@ export function StateSelector() {
       </button>
       {open && (
         <div className="state-selector-dropdown" ref={refs.setFloating} style={floatingStyles} {...getFloatingProps()}>
-          <button className="state-selector-option state-selector-option-active" onClick={() => setOpen(false)}>
-            <StateRow id={stateId} name={stateConfig.name} count={stateConfig.cameraCount ?? 0} video={stateConfig.supportsVideo} active open />
-          </button>
-          <div className="state-selector-sep" />
-          {showAll && (
-            <button
-              className="state-selector-option"
-              onClick={() => { setState('all'); setOpen(false); }}
-            >
-              <StateRow id="all" name={ALL_STATES_CONFIG.name} count={ALL_STATES_CONFIG.cameraCount ?? 0} video={ALL_STATES_CONFIG.supportsVideo} />
-            </button>
-          )}
-          {otherStates.map((s) => (
-            <button
-              key={s.id}
-              className="state-selector-option"
-              onClick={() => { setState(s.id); setOpen(false); }}
-            >
-              <StateRow id={s.id} name={s.name} count={s.cameraCount ?? 0} video={s.supportsVideo} offline={s.offline} />
-            </button>
-          ))}
+          <div className="state-selector-grid">
+            {showAll && (
+              <button
+                className="state-selector-grid-item"
+                onClick={() => { setState('all'); setOpen(false); }}
+              >
+                <span className="state-grid-name">ALL</span>
+                <span className="state-grid-count">{ALL_STATES_CONFIG.cameraCount?.toLocaleString()}</span>
+              </button>
+            )}
+            {otherStates.map((s) => (
+              <button
+                key={s.id}
+                className={`state-selector-grid-item ${s.offline ? 'state-grid-offline' : ''}`}
+                onClick={() => { setState(s.id); setOpen(false); }}
+              >
+                <span className="state-grid-name">{s.id.toUpperCase()}</span>
+                <span className="state-grid-count">{s.offline ? '—' : s.cameraCount?.toLocaleString()}</span>
+              </button>
+            ))}
+          </div>
         </div>
       )}
     </>
