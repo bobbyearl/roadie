@@ -117,31 +117,33 @@
   position: relative;
 }
 
-.map-control-btn[data-tooltip]::after {
-  content: attr(data-tooltip);
-  position: absolute;
-  left: calc(100% + 0.5rem);
-  top: 50%;
-  transform: translateY(-50%);
-  background: #1e1e1e;
-  color: #f0f0f0;
-  font-size: 0.65rem;
-  font-weight: 500;
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.12s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-}
+@media (hover: hover) {
+  .map-control-btn[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: calc(100% + 0.5rem);
+    top: 50%;
+    transform: translateY(-50%);
+    background: #1e1e1e;
+    color: #f0f0f0;
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.12s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
 
-.map-control-btn[data-tooltip]:hover::after {
-  opacity: 1;
-}
+  .map-control-btn[data-tooltip]:hover::after {
+    opacity: 1;
+  }
 
-.map-control-btn[data-tooltip]:hover {
-  z-index: 20;
+  .map-control-btn[data-tooltip]:hover {
+    z-index: 20;
+  }
 }
 
 .map-control-btn-active {
@@ -167,6 +169,7 @@
   pointer-events: auto;
   cursor: crosshair;
   z-index: 999;
+  touch-action: none;
 }
 
 .map-draw-rect {
