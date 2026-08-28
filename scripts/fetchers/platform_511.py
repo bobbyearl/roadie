@@ -54,13 +54,26 @@ async def fetch_coordinates(domain: str) -> list[dict]:
         resp.raise_for_status()
         data = resp.json()
 
-    # Parse the coordinate items
+    # Parse the coordinate items - response uses 'item' or 'item2' key
+    items = data.get("item", data.get("item2", []))
+    if isinstance(items, dict):
+        # Fallback: if 'item' is the metadata dict, use 'item2'
+        items = data.get("item2", [])
+
     cameras = []
-    for item in data.get("item", []):
+    for item in items:
+        loc = item.get("location", [0, 0])
+        if isinstance(loc, list):
+            lat, lng = loc[0], loc[1]
+        elif isinstance(loc, dict):
+            lat = float(loc.get("lat", 0))
+            lng = float(loc.get("lng", 0))
+        else:
+            continue
         cameras.append({
             "site_id": int(item["itemId"]),
-            "lat": float(item["lat"]),
-            "lng": float(item["lng"]),
+            "lat": lat,
+            "lng": lng,
         })
     return cameras
 
@@ -108,17 +121,22 @@ async def fetch_tooltip(domain: str, site_id: int, name_tag: str, client: httpx.
         return None
 
 
-async def fetch_tooltips_batch(domain: str, site_ids: list[int], name_tag: str, concurrency: int = 20) -> list[dict]:
+async def fetch_tooltips_batch(domain: str, site_ids: list[int], name_tag: str, concurrency: int = 50) -> list[dict]:
     """Fetch tooltips for all site IDs with concurrency limiting."""
     results = []
     semaphore = asyncio.Semaphore(concurrency)
 
-    async with httpx.AsyncClient(timeout=10, follow_redirects=True) as client:
+    async with httpx.AsyncClient(timeout=8, follow_redirects=True) as client:
         async def fetch_one(sid: int):
             async with semaphore:
-                result = await fetch_tooltip(domain, sid, name_tag, client)
-                if result:
-                    results.append(result)
+                # Try up to 2 times
+                for attempt in range(2):
+                    result = await fetch_tooltip(domain, sid, name_tag, client)
+                    if result:
+                        results.append(result)
+                        return
+                    if attempt == 0:
+                        await asyncio.sleep(0.1)  # Brief pause before retry
 
         tasks = [fetch_one(sid) for sid in site_ids]
         await asyncio.gather(*tasks)

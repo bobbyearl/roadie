@@ -94,19 +94,29 @@ async def fetch_ga() -> list[dict]:
 FL_URL = "https://fl511.com/map/mapIcons/Cameras"
 
 async def fetch_fl() -> list[dict]:
-    """Florida - fl511.com uses same Iteris platform but coordinates are public."""
-    # FL mapIcons is public (no cookie needed)
+    """Florida - fl511.com uses Iteris platform, coordinates are public."""
     data = await _get_json(FL_URL)
+    # Response uses 'item' or 'item2' key depending on version
+    items = data.get("item", data.get("item2", []))
     cameras = []
-    for item in data.get("item", []):
+    for item in items:
         cam_id = str(item["itemId"])
+        # Location can be [lat, lng] array or {lat, lng} object
+        loc = item.get("location", [0, 0])
+        if isinstance(loc, list):
+            lat, lng = loc[0], loc[1]
+        else:
+            lat = float(loc.get("lat", 0))
+            lng = float(loc.get("lng", 0))
+        if not lat or not lng:
+            continue
         cameras.append({
             "id": cam_id,
-            "name": item.get("description", f"Camera {cam_id}"),
+            "name": item.get("title", "") or item.get("description", f"Camera {cam_id}"),
             "route": "",
             "jurisdiction": "",
-            "lat": float(item["lat"]),
-            "lng": float(item["lng"]),
+            "lat": lat,
+            "lng": lng,
             "image_url": f"https://fl511.com/map/Cctv/{cam_id}",
             "video_url": "",
         })
@@ -120,22 +130,23 @@ async def fetch_al() -> list[dict]:
     data = await _get_json(AL_URL)
     cameras = []
     for cam in data:
-        lat = cam.get("latitude", 0)
-        lng = cam.get("longitude", 0)
+        loc = cam.get("location", {})
+        lat = loc.get("latitude", 0)
+        lng = loc.get("longitude", 0)
         if not lat or not lng:
             continue
         video_url = ""
-        playback = cam.get("playback", {})
+        playback = cam.get("playbackUrls", {})
         if playback:
             video_url = playback.get("hls", "")
         cameras.append({
             "id": str(cam["id"]),
-            "name": cam.get("displayName", cam.get("name", "")),
-            "route": cam.get("roadway", ""),
-            "jurisdiction": cam.get("jurisdiction", ""),
+            "name": f"{loc.get('displayRouteDesignator', '')} @ {loc.get('displayCrossStreet', '')}".strip(" @"),
+            "route": loc.get("displayRouteDesignator", ""),
+            "jurisdiction": loc.get("county", ""),
             "lat": lat,
             "lng": lng,
-            "image_url": f"https://api.algotraffic.com/v4/Cameras/{cam['id']}/snapshot.jpg",
+            "image_url": cam.get("snapshotImageUrl", f"https://api.algotraffic.com/v4/Cameras/{cam['id']}/snapshot.jpg"),
             "video_url": video_url,
         })
     return cameras

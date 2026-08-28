@@ -32,20 +32,20 @@ STATE_SOURCES = {
     "ct": {"type": "local", "note": "No known public API - captured from ctroads.org browser session"},
     "de": {"type": "local", "note": "No known public API - captured from deldot.gov browser session"},
     "fl": {"type": "api", "fetcher": "api_states", "func": "fetch_fl"},
-    "ga": {"type": "api", "fetcher": "api_states", "func": "fetch_ga"},
+    "ga": {"type": "local", "note": "511ga.org API returns 400 - needs investigation"},
     "id": {"type": "511", "fetcher": "platform_511"},
     "la": {"type": "511", "fetcher": "platform_511"},
     "md": {"type": "local", "note": "No known public API - captured from chart.maryland.gov"},
-    "nc": {"type": "api", "fetcher": "api_states", "func": "fetch_nc"},
+    "nc": {"type": "local", "note": "No known public API - captured from drivenc.gov browser session"},
     "ne": {"type": "511", "fetcher": "platform_511"},
-    "nj": {"type": "api", "fetcher": "api_states", "func": "fetch_nj"},
+    "nj": {"type": "local", "note": "511nj.org returns 403 - bot protection added"},
     "nv": {"type": "511", "fetcher": "platform_511"},
     "ny": {"type": "511", "fetcher": "platform_511"},
     "pa": {"type": "local", "note": "No known public API - captured from 511pa.com browser session"},
     "sc": {"type": "api", "fetcher": "api_states", "func": "fetch_sc"},
-    "tn": {"type": "api", "fetcher": "api_states", "func": "fetch_tn"},
+    "tn": {"type": "local", "note": "smartway.tn.gov switched to SPA - API endpoint gone"},
     "ut": {"type": "local", "note": "No known public API - captured from udottraffic.utah.gov"},
-    "va": {"type": "api", "fetcher": "api_states", "func": "fetch_va"},
+    "va": {"type": "local", "note": "va.cdn.iteris-atis.com DNS changed - needs new domain"},
     "wi": {"type": "511", "fetcher": "platform_511"},
 }
 
@@ -59,15 +59,10 @@ async def refresh_api_state(state_id: str, config: dict) -> tuple[str, bool, str
     try:
         cameras = await func()
         output_path = DATA_DIR / f"{state_id}.json"
-        # SC uses cameras.geojson (legacy) - but we'll standardize to .json
-        if state_id == "sc":
-            output_path = DATA_DIR / "cameras.geojson"
-            # For SC, we write back the original GeoJSON format the parser expects
-            # Actually, let's write normalized JSON and update the parser
-            output_path = DATA_DIR / f"{state_id}.json"
+        cameras = _merge_cameras(output_path, cameras)
 
         with open(output_path, "w") as f:
-            json.dump(cameras, f, separators=(",", ":"))
+            json.dump(cameras, f, indent=2)
 
         return state_id, True, f"{len(cameras)} cameras"
     except Exception as e:
@@ -81,11 +76,46 @@ async def refresh_511_state(state_id: str) -> tuple[str, bool, str]:
     try:
         cameras = await fetch_state(state_id)
         output_path = DATA_DIR / f"{state_id}.json"
+
         with open(output_path, "w") as f:
-            json.dump(cameras, f, separators=(",", ":"))
+            json.dump(cameras, f, indent=2)
         return state_id, True, f"{len(cameras)} cameras"
     except Exception as e:
         return state_id, False, str(e)
+
+
+def _merge_cameras(output_path: Path, new_cameras: list[dict]) -> list[dict]:
+    """Merge new cameras into existing data. Updates existing, adds new, never removes.
+
+    This prevents data loss when an API returns fewer cameras than we previously had.
+    Only merges if existing data is in normalized format (list of {id, ...} dicts).
+    """
+    if not output_path.exists() or not new_cameras:
+        return new_cameras
+
+    try:
+        with open(output_path) as f:
+            existing = json.load(f)
+    except (json.JSONDecodeError, IOError):
+        return new_cameras
+
+    # Only merge if existing is a normalized list with 'id' fields
+    if not isinstance(existing, list) or not existing or not isinstance(existing[0], dict) or "id" not in existing[0]:
+        return new_cameras
+
+    # Build lookup by ID
+    existing_map = {str(cam.get("id", "")): cam for cam in existing}
+    new_map = {str(cam.get("id", "")): cam for cam in new_cameras}
+
+    # Update existing with new data, add new cameras
+    merged_map = {**existing_map, **new_map}
+    merged = list(merged_map.values())
+
+    added = len(merged) - len(existing)
+    if added > 0:
+        print(f"    (+{added} new cameras)")
+
+    return merged
 
 
 async def health_check() -> list[dict]:
