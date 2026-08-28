@@ -1,0 +1,93 @@
+name: Camera Data Refresh
+
+on:
+  schedule:
+    # Run weekly on Sunday at 6am UTC (2am ET)
+    - cron: '0 6 * * 0'
+  workflow_dispatch:
+    inputs:
+      states:
+        description: 'Specific states to refresh (space-separated, empty = all)'
+        required: false
+        default: ''
+      api_only:
+        description: 'Skip states that need Playwright'
+        required: false
+        type: boolean
+        default: false
+      check_only:
+        description: 'Health check only (no data refresh)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install httpx playwright
+          playwright install chromium
+
+      - name: Health check
+        if: inputs.check_only == true || github.event_name == 'schedule'
+        run: |
+          python3 scripts/refresh-all.py --check || true
+        continue-on-error: true
+
+      - name: Refresh camera data
+        if: inputs.check_only != true
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.states }}" ]; then
+            ARGS="${{ inputs.states }}"
+          fi
+          if [ "${{ inputs.api_only }}" = "true" ]; then
+            ARGS="$ARGS --api-only"
+          fi
+          python3 scripts/refresh-all.py $ARGS
+
+      - name: Rebuild database
+        if: inputs.check_only != true
+        run: python3 scripts/build-db.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Create PR with updated data
+        if: steps.changes.outputs.changed == 'true' && inputs.check_only != true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          BRANCH="auto/camera-refresh-$(date +%Y%m%d)"
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "chore: refresh camera data $(date +%Y-%m-%d)
+
+          Automated weekly refresh from live data sources.
+          Run by: ${{ github.event_name }}"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "chore: refresh camera data $(date +%Y-%m-%d)" \
+            --body "Automated camera data refresh from live sources.
+
+          **Trigger:** ${{ github.event_name }}
+          **Changes:** $(git diff --stat HEAD~1 | tail -1)
+
+          Review the diff to confirm no data corruption, then merge." \
+            --base main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

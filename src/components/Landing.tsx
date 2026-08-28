@@ -72,7 +72,7 @@ export function Landing() {
           <p>
             Like the site? Share it with someone who white-knuckles their commute every day. Or help fund the gas money that keeps this thing running.
           </p>
-          <a href="https://www.paypal.com/paypalme/bobbyearl" target="_blank" rel="noopener" className="credits-btn">
+          <a href="https://www.paypal.com/paypalme/simplyearl" target="_blank" rel="noopener" className="credits-btn">
             Chip in for Gas
           </a>
         </div>

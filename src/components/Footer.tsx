@@ -19,7 +19,7 @@ export function Footer() {
       <nav className="site-footer-links">
         <a href="https://www.bobbyearl.com" target="_blank" rel="noopener">Bobby Earl</a>
         <span className="site-footer-divider">|</span>
-        <a href="https://www.paypal.com/paypalme/bobbyearl" target="_blank" rel="noopener">Gas Money</a>
+        <a href="https://www.paypal.com/paypalme/simplyearl" target="_blank" rel="noopener">Gas Money</a>
         <span className="site-footer-divider">|</span>
         <a href="https://github.com/bobbyearl/roadie/issues/new?labels=bug" target="_blank" rel="noopener">Backseat Driver</a>
         <span className="site-footer-divider">|</span>
