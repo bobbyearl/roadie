@@ -69,7 +69,7 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef, onMe
           )}
         </>
       ) : (
-        <img src={imgSrc} alt={camera.description} onError={() => imgSrc && setError(true)} ref={(el) => onMediaRef?.(el)} crossOrigin="anonymous" />
+        <img src={imgSrc} alt={camera.description} onError={() => imgSrc && setError(true)} ref={(el) => onMediaRef?.(el)} />
       )}
     </div>
   );
