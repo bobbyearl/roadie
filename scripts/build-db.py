@@ -40,7 +40,7 @@ def parse_sc():
             "jurisdiction": props.get("jurisdiction", ""),
             "lat": coords[1],
             "lng": coords[0],
-            "image_url": f"https://scdotsnap.us-east-1.skyvdn.com/thumbs/{props['name']}.flv.png",
+            "image_url": f"https://scdotsnap.us-east-1.skyvdn.com/{props['name']}.png",
             "video_url": props.get("ios_url", ""),
         })
     return cameras
