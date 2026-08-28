@@ -60,7 +60,7 @@
   opacity: 0.4;
 }
 
-@media (max-width: 480px) {
+@media (width < theme(--breakpoint-sm)) {
   .state-selector-grid {
     grid-template-columns: repeat(4, 1fr);
   }

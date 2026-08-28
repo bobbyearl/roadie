@@ -120,7 +120,7 @@
   @apply opacity-90;
 }
 
-@media (max-width: 768px) {
+@media (width < theme(--breakpoint-md)) {
   .snap-compare-body {
     @apply flex-col;
   }

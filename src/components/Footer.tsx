@@ -1,6 +1,6 @@
 import './Footer.css';
 
-import { Monitor, Moon, Sun } from 'lucide-react';
+import { Keyboard, Monitor, Moon, Sun } from 'lucide-react';
 
 import { useTheme } from '../lib/ThemeContext';
 
@@ -15,6 +15,7 @@ export function Footer() {
           <button className={`btn-icon ${theme === 'light' ? 'btn-active' : ''}`} onClick={() => setTheme('light')} title="Light"><Sun size={14} /></button>
           <button className={`btn-icon ${theme === 'dark' ? 'btn-active' : ''}`} onClick={() => setTheme('dark')} title="Dark"><Moon size={14} /></button>
         </div>
+        <button className="btn-kbd-shortcut" onClick={() => window.dispatchEvent(new KeyboardEvent('keydown', { key: '?' }))} title="Keyboard shortcuts (?)"><Keyboard size={14} /></button>
       </div>
       <nav className="site-footer-links">
         <a href="https://www.bobbyearl.com" target="_blank" rel="noopener">Bobby Earl</a>

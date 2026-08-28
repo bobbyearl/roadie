@@ -217,3 +217,75 @@
   border-color: white;
   box-shadow: 0 0 0 4px color-mix(in srgb, #2563eb 30%, transparent), 0 0 8px rgba(37, 99, 235, 0.5);
 }
+
+.shortcuts-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+}
+
+.shortcuts-modal {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  min-width: 240px;
+}
+
+.shortcuts-modal h3 {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.shortcuts-modal table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.shortcuts-modal td {
+  padding: 0.3rem 0;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.shortcuts-modal td:first-child {
+  width: 3rem;
+}
+
+.shortcuts-modal kbd {
+  display: inline-block;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.7rem;
+  font-family: inherit;
+  font-weight: 600;
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  color: #374151;
+}
+
+:root[data-theme="dark"] .shortcuts-modal {
+  background: #1e1e1e;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+:root[data-theme="dark"] .shortcuts-modal h3 {
+  color: #e0e0e0;
+}
+
+:root[data-theme="dark"] .shortcuts-modal td {
+  color: #aaa;
+}
+
+:root[data-theme="dark"] .shortcuts-modal kbd {
+  background: #2a2a2a;
+  border-color: #444;
+  color: #e0e0e0;
+}

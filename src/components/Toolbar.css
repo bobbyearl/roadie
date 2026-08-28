@@ -20,8 +20,8 @@
 }
 .toolbar-selected-clear {
   @apply flex items-center justify-center rounded text-muted-foreground hover:text-foreground hover:bg-muted transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-default;
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 2.25rem;
+  height: 2.25rem;
 }
 .toolbar-actions {
   @apply flex items-center ml-auto;
@@ -29,8 +29,8 @@
 }
 .toolbar-btn {
   @apply flex items-center justify-center rounded text-muted-foreground hover:text-foreground hover:bg-muted transition-colors cursor-pointer disabled:opacity-30 disabled:cursor-default;
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 2.25rem;
+  height: 2.25rem;
 }
 .toolbar-btn-active {
   color: var(--color-accent-marker);
@@ -42,6 +42,11 @@
   @apply self-stretch bg-border;
   width: 1px;
   margin: 0 var(--rd-space-xs);
+}
+@media (width < theme(--breakpoint-sm)) {
+  .toolbar-sep {
+    @apply hidden;
+  }
 }
 .toolbar-tooltip {
   @apply z-50 bg-foreground text-background rounded px-2 py-1 whitespace-nowrap pointer-events-none;
