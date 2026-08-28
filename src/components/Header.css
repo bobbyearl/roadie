@@ -149,7 +149,7 @@
   background-color: var(--color-accent-marker);
 }
 
-@media (max-width: 768px) {
+@media (width < theme(--breakpoint-md)) {
   .header-nav {
     @apply flex-wrap;
     gap: var(--rd-space-sm);

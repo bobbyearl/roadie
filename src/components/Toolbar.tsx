@@ -1,7 +1,7 @@
 import './Toolbar.css';
 
-import { autoUpdate, offset, useFloating, useHover, useInteractions } from '@floating-ui/react';
-import { Bookmark, Car, Grid2x2, Grid3x3, ImageIcon, LayoutGrid, MapIcon, List, Trash2 } from 'lucide-react';
+import { autoUpdate, offset, shift, useFloating, useDismiss, useHover, useInteractions } from '@floating-ui/react';
+import { Bookmark, Car, Columns2, Grid2x2, Grid3x3, ImageIcon, LayoutGrid, MapIcon, List, Trash2 } from 'lucide-react';
 import { useState } from 'react';
 
 import { useTraffic } from '../lib/TrafficContext';
@@ -18,11 +18,12 @@ function ToolbarButton({ icon: Icon, label, active, onClick, disabled }: {
     open,
     onOpenChange: setOpen,
     placement: 'bottom',
-    middleware: [offset(6)],
+    middleware: [offset(6), shift({ padding: 8 })],
     whileElementsMounted: autoUpdate,
   });
   const hover = useHover(context, { delay: { open: 0, close: 0 } });
-  const { getReferenceProps, getFloatingProps } = useInteractions([hover]);
+  const dismiss = useDismiss(context);
+  const { getReferenceProps, getFloatingProps } = useInteractions([hover, dismiss]);
 
   return (
     <>
@@ -30,10 +31,10 @@ function ToolbarButton({ icon: Icon, label, active, onClick, disabled }: {
         className={`toolbar-btn ${active ? 'toolbar-btn-active' : ''}`}
         ref={refs.setReference}
         {...getReferenceProps()}
-        onClick={onClick}
+        onClick={() => { setOpen(false); onClick(); }}
         disabled={disabled}
       >
-        <Icon size={14} />
+        <Icon size={16} />
       </button>
       {open && (
         <div className="toolbar-tooltip" ref={refs.setFloating} style={floatingStyles} {...getFloatingProps()}>
@@ -45,7 +46,7 @@ function ToolbarButton({ icon: Icon, label, active, onClick, disabled }: {
 }
 
 export function Toolbar() {
-  const { showMap, showList, cardSize, toggleMap, toggleList, setGrid, mode, setMode, selectedCameras, clearAll, isLoading, autoPilot, activeRouteName } = useTraffic();
+  const { showMap, showList, cardSize, toggleMap, toggleList, setViewMode, setGrid, mode, setMode, selectedCameras, clearAll, isLoading, autoPilot, activeRouteName } = useTraffic();
   const forceImages = mode === 'image';
   const [showDisclaimer, setShowDisclaimer] = useState(false);
 
@@ -70,26 +71,22 @@ export function Toolbar() {
         ) : (
           <>
             <span className="toolbar-selected-count">{selectedCameras.length} selected</span>
-            <button className="toolbar-selected-clear" onClick={clearAll} disabled={selectedCameras.length === 0}><Trash2 size={14} /></button>
+            <ToolbarButton icon={Trash2} label="Clear selection (X)" active={false} disabled={selectedCameras.length === 0} onClick={clearAll} />
             <span className="toolbar-sep" />
             {activeRouteName && <span className="toolbar-route-name">{activeRouteName}</span>}
-            <button className="toolbar-selected-clear" onClick={() => window.dispatchEvent(new Event('open-bookmarks-modal'))} title={activeRouteName ? 'Manage Bookmarks' : 'Save Bookmark'}>
-              <Bookmark size={14} />
-            </button>
+            <ToolbarButton icon={Bookmark} label={activeRouteName ? 'Manage bookmarks' : 'Save bookmark'} active={false} onClick={() => window.dispatchEvent(new Event('open-bookmarks-modal'))} />
           </>
         )}
       </div>
       <div className="toolbar-actions">
         <ToolbarButton icon={Car} label="Auto Pilot" active={autoPilot.active} onClick={handleAutoPilot} />
         <span className="toolbar-sep" />
-        <ToolbarButton icon={MapIcon} label="Map" active={showMap} onClick={toggleMap} disabled={showMap && !showList} />
-        <ToolbarButton icon={List} label="List" active={showList} onClick={toggleList} disabled={showList && !showMap} />
+        <ToolbarButton icon={ImageIcon} label="Force images (I)" active={forceImages} onClick={() => setMode(forceImages ? undefined : 'image')} />
         <span className="toolbar-sep" />
-        <ToolbarButton icon={ImageIcon} label="Force images" active={forceImages} onClick={() => setMode(forceImages ? undefined : 'image')} />
+        <ToolbarButton icon={MapIcon} label="Toggle map view" active={showMap} disabled={showMap && !showList} onClick={() => { if (showMap && !showList) return; setViewMode(showMap ? 'list' : 'split'); }} />
+        <ToolbarButton icon={List} label="Toggle list view" active={showList} disabled={showList && !showMap} onClick={() => { if (showList && !showMap) return; setViewMode(showList ? 'map' : 'split'); }} />
         <span className="toolbar-sep" />
-        <ToolbarButton icon={LayoutGrid} label="Small" active={cardSize === 'sm'} onClick={() => setGrid('sm')} />
-        <ToolbarButton icon={Grid3x3} label="Medium" active={cardSize === 'md'} onClick={() => setGrid('md')} />
-        <ToolbarButton icon={Grid2x2} label="Large" active={cardSize === 'lg'} onClick={() => setGrid('lg')} />
+        <ToolbarButton icon={cardSize === 'sm' ? LayoutGrid : cardSize === 'md' ? Grid3x3 : Grid2x2} label={`Grid: ${cardSize === 'sm' ? 'Small' : cardSize === 'md' ? 'Medium' : 'Large'}`} active={false} onClick={() => setGrid(cardSize === 'sm' ? 'md' : cardSize === 'md' ? 'lg' : 'sm')} />
       </div>
     </div>
 

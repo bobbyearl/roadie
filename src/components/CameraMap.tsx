@@ -37,7 +37,7 @@ export function CameraMap({ stateId, markersOnly }: CameraMapProps) {
 
 
 function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: string; markersOnly?: boolean }) {
-  const { cameras, selectedIds, selectedCameras, toggleCamera, selectRoute, mode, cardSize, setDetailCam, layoutKey, userLocation, setUserLocation, mapPosition, setMapPosition } = useTraffic();
+  const { cameras, selectedIds, selectedCameras, toggleCamera, selectRoute, clearAll, mode, setMode, cardSize, setDetailCam, layoutKey, userLocation, setUserLocation, mapPosition, setMapPosition } = useTraffic();
   const { resolvedTheme } = useTheme();
   const map = useMap();
   const prevStateRef = useRef(stateId);
@@ -453,6 +453,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
 
   // --- Draw-to-select (lasso) ---
   const [selectMode, setSelectMode] = useState(false);
+  const [showShortcuts, setShowShortcuts] = useState(false);
   const [drawRect, setDrawRect] = useState<{ startX: number; startY: number; x: number; y: number; w: number; h: number } | null>(null);
   const [drawCount, setDrawCount] = useState(0);
   const drawingRef = useRef(false);
@@ -596,11 +597,39 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
   // Shift key listener for power-user shortcut
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && selectMode) setSelectMode(false);
+      // Ignore when typing in inputs
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      // Ignore when modifier keys held (except Shift for ?)
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+      switch (e.key) {
+        case 'Escape':
+          if (selectMode) setSelectMode(false);
+          if (showShortcuts) setShowShortcuts(false);
+          break;
+        case 's':
+          setSelectMode(m => !m);
+          break;
+        case 'h':
+          if (map) { const config = getStateConfig(stateId); map.panTo(config.defaultCenter); map.setZoom(config.defaultZoom); }
+          break;
+        case 'l':
+          handleLocate();
+          break;
+        case 'x':
+          clearAll();
+          break;
+        case 'i':
+          setMode(mode === 'image' ? undefined : 'image');
+          break;
+        case '?':
+          setShowShortcuts(v => !v);
+          break;
+      }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [selectMode]);
+  }, [selectMode, showShortcuts, map, stateId, mode]);
 
   // Pan to show user location + closest camera when findClosest/locate triggers
   const prevUserLocation = useRef(userLocation);
@@ -711,16 +740,34 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       )}
     </div>
     <div className="map-controls">
-      <button className="map-control-btn" onClick={() => { if (!map) return; const config = getStateConfig(stateId); map.panTo(config.defaultCenter); map.setZoom(config.defaultZoom); }} data-tooltip="Reset view" aria-label="Reset view">
+      <button className="map-control-btn" onClick={() => { if (!map) return; const config = getStateConfig(stateId); map.panTo(config.defaultCenter); map.setZoom(config.defaultZoom); }} data-tooltip="Reset view (H)" aria-label="Reset view">
         <Home size={18} />
       </button>
-      <button className="map-control-btn" onClick={handleLocate} data-tooltip="Locate me" aria-label="Locate me">
+      <button className="map-control-btn" onClick={handleLocate} data-tooltip="Locate me (L)" aria-label="Locate me">
         <Locate size={18} />
       </button>
-      <button className={`map-control-btn ${selectMode ? 'map-control-btn-active' : ''}`} onClick={() => setSelectMode(!selectMode)} data-tooltip="Draw to select" aria-label="Draw to select">
+      <button className={`map-control-btn ${selectMode ? 'map-control-btn-active' : ''}`} onClick={() => setSelectMode(!selectMode)} data-tooltip="Draw to select (S)" aria-label="Draw to select">
         <BoxSelect size={18} />
       </button>
     </div>
+    {showShortcuts && (
+      <div className="shortcuts-overlay" onClick={() => setShowShortcuts(false)}>
+        <div className="shortcuts-modal" onClick={e => e.stopPropagation()}>
+          <h3>Keyboard Shortcuts</h3>
+          <table>
+            <tbody>
+              <tr><td><kbd>S</kbd></td><td>Toggle draw-to-select</td></tr>
+              <tr><td><kbd>H</kbd></td><td>Home (reset view)</td></tr>
+              <tr><td><kbd>L</kbd></td><td>Locate me</td></tr>
+              <tr><td><kbd>X</kbd></td><td>Clear selection</td></tr>
+              <tr><td><kbd>I</kbd></td><td>Toggle force images</td></tr>
+              <tr><td><kbd>Esc</kbd></td><td>Exit select mode</td></tr>
+              <tr><td><kbd>?</kbd></td><td>Show this help</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    )}
     </div>
   );
 }

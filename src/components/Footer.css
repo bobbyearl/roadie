@@ -20,7 +20,7 @@
   @apply text-border;
 }
 
-@media (max-width: 768px) {
+@media (width < theme(--breakpoint-md)) {
   .site-footer {
     gap: var(--rd-space-sm);
     padding: var(--rd-space-sm) var(--rd-space-sm);
@@ -28,5 +28,17 @@
   .site-footer-links {
     gap: var(--rd-space-sm);
     font-size: 0.625rem;
+  }
+}
+
+.btn-kbd-shortcut {
+  @apply hidden items-center justify-center border border-border rounded-md text-muted-foreground hover:bg-foreground/10 transition-colors cursor-pointer;
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (width >= theme(--breakpoint-sm)) {
+  .btn-kbd-shortcut {
+    @apply flex;
   }
 }

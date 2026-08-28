@@ -42,7 +42,7 @@
 .split-feeds-md { @apply grid-cols-2; }
 .split-feeds-lg { @apply grid-cols-1; }
 
-@media (max-width: 768px) {
+@media (width < theme(--breakpoint-md)) {
   .split-container { @apply flex-col; }
   .split-map-panel { width: 100% !important; height: var(--split-h, 50%); @apply overflow-hidden; }
   .split-map-panel .map-container { min-height: 0; }
