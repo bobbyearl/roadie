@@ -1,6 +1,6 @@
 [
   {
-    "id": "ne:950",
+    "id": "950",
     "name": "WATERBURY I-89 North",
     "route": "",
     "jurisdiction": "",
@@ -10,7 +10,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:953",
+    "id": "951",
+    "name": "MILTON I-89 North",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 44.629548,
+    "lng": -73.147801,
+    "image_url": "https://newengland511.org/map/Cctv/951",
+    "video_url": ""
+  },
+  {
+    "id": "953",
     "name": "MARLBORO VT-9 East",
     "route": "",
     "jurisdiction": "",
@@ -20,7 +30,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:954",
+    "id": "954",
     "name": "ROCKINGHAM I-91 South",
     "route": "",
     "jurisdiction": "",
@@ -30,7 +40,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:956",
+    "id": "956",
     "name": "MIDDLESEX I-89 North",
     "route": "",
     "jurisdiction": "",
@@ -40,7 +50,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:957",
+    "id": "957",
     "name": "BRANDON US-7 North",
     "route": "",
     "jurisdiction": "",
@@ -50,7 +60,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:958",
+    "id": "958",
     "name": "SHEFFIELD RW I-91 South",
     "route": "",
     "jurisdiction": "",
@@ -60,7 +70,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:959",
+    "id": "959",
     "name": "NEWBURY I-91 South",
     "route": "",
     "jurisdiction": "",
@@ -70,7 +80,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:960",
+    "id": "960",
     "name": "FAIR HAVEN VT-22A North",
     "route": "",
     "jurisdiction": "",
@@ -80,7 +90,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:962",
+    "id": "962",
     "name": "W RUTLAND US-4 West",
     "route": "",
     "jurisdiction": "",
@@ -90,7 +100,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:963",
+    "id": "963",
     "name": "Bellows Falls Arch Bridge CCTV",
     "route": "",
     "jurisdiction": "",
@@ -100,7 +110,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:964",
+    "id": "964",
     "name": "ST.JOHNSBURY I-91 South",
     "route": "",
     "jurisdiction": "",
@@ -110,7 +120,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:965",
+    "id": "965",
     "name": "FERRISBURGH US-7",
     "route": "",
     "jurisdiction": "",
@@ -120,7 +130,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:966",
+    "id": "966",
     "name": "HARTFORD I-89 South",
     "route": "",
     "jurisdiction": "",
@@ -130,7 +140,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:967",
+    "id": "967",
     "name": "LUDLOW VT-100 South",
     "route": "",
     "jurisdiction": "",
@@ -140,7 +150,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:968",
+    "id": "968",
     "name": "BOLTON I-89 SB RT2 North",
     "route": "",
     "jurisdiction": "",
@@ -150,7 +160,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:969",
+    "id": "969",
     "name": "Shaftsbury US-7",
     "route": "",
     "jurisdiction": "",
@@ -160,7 +170,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:970",
+    "id": "970",
     "name": "DERBY I-91 South",
     "route": "",
     "jurisdiction": "",
@@ -170,7 +180,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:971",
+    "id": "971",
     "name": "WESTFIELD VT-242 North",
     "route": "",
     "jurisdiction": "",
@@ -180,7 +190,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:972",
+    "id": "972",
     "name": "WESTFIELD VT-242 EB West",
     "route": "",
     "jurisdiction": "",
@@ -190,7 +200,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:973",
+    "id": "973",
     "name": "COLCHESTER Exit 16 NB",
     "route": "",
     "jurisdiction": "",
@@ -200,7 +210,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:975",
+    "id": "975",
     "name": "SEARSBURG VT-9 East",
     "route": "",
     "jurisdiction": "",
@@ -210,7 +220,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:976",
+    "id": "976",
     "name": "WINHALL VT-11 EB West",
     "route": "",
     "jurisdiction": "",
@@ -220,7 +230,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:979",
+    "id": "979",
     "name": "THETFORD I-91 North",
     "route": "",
     "jurisdiction": "",
@@ -230,7 +240,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:980",
+    "id": "980",
     "name": "Springfield VT-11 NH Border CCTV",
     "route": "",
     "jurisdiction": "",
@@ -240,7 +250,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:982",
+    "id": "982",
     "name": "WILLISTON I-89 North",
     "route": "",
     "jurisdiction": "",
@@ -250,7 +260,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:983",
+    "id": "983",
     "name": "CABOT US-2 East",
     "route": "",
     "jurisdiction": "",
@@ -260,7 +270,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:984",
+    "id": "984",
     "name": "BROOKFIELD GUA I-89 North",
     "route": "",
     "jurisdiction": "",
@@ -270,7 +280,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:985",
+    "id": "985",
     "name": "WESTMORE VT-5A South",
     "route": "",
     "jurisdiction": "",
@@ -280,7 +290,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:987",
+    "id": "987",
     "name": "CLARENDON US-7 North",
     "route": "",
     "jurisdiction": "",
@@ -290,7 +300,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:988",
+    "id": "988",
     "name": "MILTON BRIDGE I-89 NB North",
     "route": "",
     "jurisdiction": "",
@@ -300,7 +310,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:989",
+    "id": "989",
     "name": "GUILFORD I-91 North",
     "route": "",
     "jurisdiction": "",
@@ -310,7 +320,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:875",
+    "id": "875",
     "name": "101 WW 85.6",
     "route": "",
     "jurisdiction": "",
@@ -320,7 +330,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:990",
+    "id": "990",
     "name": "BROOKFIELD I-89 North",
     "route": "",
     "jurisdiction": "",
@@ -330,7 +340,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:991",
+    "id": "991",
     "name": "HARTFORD I-89 SB North",
     "route": "",
     "jurisdiction": "",
@@ -340,7 +350,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:992",
+    "id": "992",
     "name": "GEORGIA I-89 South",
     "route": "",
     "jurisdiction": "",
@@ -350,7 +360,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:993",
+    "id": "993",
     "name": "MENDON MOUNTAIN US-4 EB West",
     "route": "",
     "jurisdiction": "",
@@ -360,7 +370,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:994",
+    "id": "994",
     "name": "TOPSHAM US-302 West",
     "route": "",
     "jurisdiction": "",
@@ -370,7 +380,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:995",
+    "id": "995",
     "name": "WATERBURY I-89 Exit 10 South",
     "route": "",
     "jurisdiction": "",
@@ -380,7 +390,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:998",
+    "id": "998",
     "name": "HARDWICK VT-14",
     "route": "",
     "jurisdiction": "",
@@ -390,7 +400,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:999",
+    "id": "999",
     "name": "BRATTLEBORO BRIDGE I-91 South",
     "route": "",
     "jurisdiction": "",
@@ -400,7 +410,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1000",
+    "id": "1000",
     "name": "BRATTLEBORO BRIDGE I-91 SB North",
     "route": "",
     "jurisdiction": "",
@@ -410,7 +420,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1001",
+    "id": "1001",
     "name": "WOODFORD VT-9 East",
     "route": "",
     "jurisdiction": "",
@@ -420,7 +430,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1002",
+    "id": "1002",
     "name": "GRAND ISLE VT-314 West",
     "route": "",
     "jurisdiction": "",
@@ -430,7 +440,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1003",
+    "id": "1003",
     "name": "FAIR HAVEN 22A NB South",
     "route": "",
     "jurisdiction": "",
@@ -440,7 +450,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1005",
+    "id": "1005",
     "name": "MOUNT HOLLY VT-103 East",
     "route": "",
     "jurisdiction": "",
@@ -450,7 +460,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1006",
+    "id": "1006",
     "name": "Stowe VT-108",
     "route": "",
     "jurisdiction": "",
@@ -460,7 +470,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1007",
+    "id": "1007",
     "name": "FAIR HAVEN US-4 East",
     "route": "",
     "jurisdiction": "",
@@ -470,7 +480,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1008",
+    "id": "1008",
     "name": "WATERFORD I-93 South",
     "route": "",
     "jurisdiction": "",
@@ -480,7 +490,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1011",
+    "id": "1011",
     "name": "WINHALL VT-11 East",
     "route": "",
     "jurisdiction": "",
@@ -490,7 +500,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1012",
+    "id": "1012",
     "name": "MILTON BRIDGE I-89 South",
     "route": "",
     "jurisdiction": "",
@@ -500,7 +510,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1013",
+    "id": "1013",
     "name": "PANTON VT-22A South",
     "route": "",
     "jurisdiction": "",
@@ -510,7 +520,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1014",
+    "id": "1014",
     "name": "WESTMORE VT-5A NB North",
     "route": "",
     "jurisdiction": "",
@@ -520,7 +530,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1015",
+    "id": "1015",
     "name": "BOLTON I-89 South",
     "route": "",
     "jurisdiction": "",
@@ -530,7 +540,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1016",
+    "id": "1016",
     "name": "MAIDSTONE VT-102 North",
     "route": "",
     "jurisdiction": "",
@@ -540,7 +550,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1017",
+    "id": "1017",
     "name": "WESTMINSTER I-91 South",
     "route": "",
     "jurisdiction": "",
@@ -550,7 +560,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1018",
+    "id": "1018",
     "name": "MENDON MOUNTAIN US-4 East",
     "route": "",
     "jurisdiction": "",
@@ -560,7 +570,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1019",
+    "id": "1019",
     "name": "BROOKFIELD I-89 NB South",
     "route": "",
     "jurisdiction": "",
@@ -570,7 +580,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1020",
+    "id": "1020",
     "name": "COLCHESTER I-89 South",
     "route": "",
     "jurisdiction": "",
@@ -580,7 +590,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1021",
+    "id": "1021",
     "name": "GRAND ISLE VT-314 South",
     "route": "",
     "jurisdiction": "",
@@ -590,7 +600,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1022",
+    "id": "1022",
     "name": "I-89 MM 81.35 SB WILLISTON",
     "route": "",
     "jurisdiction": "",
@@ -600,7 +610,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1023",
+    "id": "1023",
     "name": "BETHEL I-89 North",
     "route": "",
     "jurisdiction": "",
@@ -610,7 +620,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1024",
+    "id": "1024",
     "name": "BUELS GORE VT-17 East",
     "route": "",
     "jurisdiction": "",
@@ -620,7 +630,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:759",
+    "id": "759",
     "name": "95 NS 0.6 CCTV AX MTA&#9;",
     "route": "",
     "jurisdiction": "",
@@ -630,7 +640,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1025",
+    "id": "1025",
     "name": "MILTON US-2 West",
     "route": "",
     "jurisdiction": "",
@@ -640,7 +650,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1026",
+    "id": "1026",
     "name": "WEATHERSFIELD I-91 South",
     "route": "",
     "jurisdiction": "",
@@ -650,7 +660,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1027",
+    "id": "1027",
     "name": "WATERBURY 1-89 Exit 10 North",
     "route": "",
     "jurisdiction": "",
@@ -660,7 +670,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1028",
+    "id": "1028",
     "name": "WILDER I-91 South",
     "route": "",
     "jurisdiction": "",
@@ -670,7 +680,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1029",
+    "id": "1029",
     "name": "I-89 NB Exit 10 Waterbury South",
     "route": "",
     "jurisdiction": "",
@@ -680,7 +690,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1030",
+    "id": "1030",
     "name": "HARTFORD I-91 North",
     "route": "",
     "jurisdiction": "",
@@ -690,7 +700,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1230",
+    "id": "1230",
     "name": "I-189 SOUTH BURLINGTON",
     "route": "",
     "jurisdiction": "",
@@ -700,37 +710,37 @@
     "video_url": ""
   },
   {
-    "id": "ne:1231",
-    "name": "Waterbury VT-100",
+    "id": "623",
+    "name": "Camera 623",
     "route": "",
     "jurisdiction": "",
     "lat": 44.419617,
     "lng": -72.72275,
-    "image_url": "https://newengland511.org/map/Cctv/1231",
+    "image_url": "https://newengland511.org/map/Cctv/623",
     "video_url": ""
   },
   {
-    "id": "ne:1232",
-    "name": "CANAAN VT-114 South",
+    "id": "624",
+    "name": "Camera 624",
     "route": "",
     "jurisdiction": "",
     "lat": 45.00595,
     "lng": -71.67818,
-    "image_url": "https://newengland511.org/map/Cctv/1232",
+    "image_url": "https://newengland511.org/map/Cctv/624",
     "video_url": ""
   },
   {
-    "id": "ne:1234",
-    "name": "Alburgh CCTV",
+    "id": "626",
+    "name": "Camera 626",
     "route": "",
     "jurisdiction": "",
     "lat": 44.975151,
     "lng": -73.227072,
-    "image_url": "https://newengland511.org/map/Cctv/1234",
+    "image_url": "https://newengland511.org/map/Cctv/626",
     "video_url": ""
   },
   {
-    "id": "ne:1235",
+    "id": "1235",
     "name": "Alburgh CCTV West",
     "route": "",
     "jurisdiction": "",
@@ -740,7 +750,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1236",
+    "id": "1236",
     "name": "FEE S 17.8 CCTV AX SWZ C-01",
     "route": "",
     "jurisdiction": "",
@@ -750,7 +760,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1239",
+    "id": "1239",
     "name": "FEE SS 0.5",
     "route": "",
     "jurisdiction": "",
@@ -760,7 +770,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1240",
+    "id": "1240",
     "name": "FEE SN 0.5",
     "route": "",
     "jurisdiction": "",
@@ -770,17 +780,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1244",
-    "name": "FEE S 9.2 CCTV AX - SWZ - C02",
+    "id": "636",
+    "name": "Camera 636",
     "route": "",
     "jurisdiction": "",
     "lat": 42.811388,
     "lng": -71.498445,
-    "image_url": "https://newengland511.org/map/Cctv/1244",
+    "image_url": "https://newengland511.org/map/Cctv/636",
     "video_url": ""
   },
   {
-    "id": "ne:1245",
+    "id": "1245",
     "name": "FEE S 8.4 - SWZ - C01",
     "route": "",
     "jurisdiction": "",
@@ -790,7 +800,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1246",
+    "id": "1246",
     "name": "93 MS 18.4",
     "route": "",
     "jurisdiction": "",
@@ -800,7 +810,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1247",
+    "id": "1247",
     "name": "95 NS 15.2",
     "route": "",
     "jurisdiction": "",
@@ -810,7 +820,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1248",
+    "id": "1248",
     "name": "FEE M 2.6",
     "route": "",
     "jurisdiction": "",
@@ -820,7 +830,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1252",
+    "id": "1252",
     "name": "101 W 88.3 - RWIS",
     "route": "",
     "jurisdiction": "",
@@ -830,7 +840,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1253",
+    "id": "1253",
     "name": "101 W 88.3",
     "route": "",
     "jurisdiction": "",
@@ -840,7 +850,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1254",
+    "id": "1254",
     "name": "101 E 86.9",
     "route": "",
     "jurisdiction": "",
@@ -850,7 +860,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1255",
+    "id": "1255",
     "name": "101 WE 85.6",
     "route": "",
     "jurisdiction": "",
@@ -860,7 +870,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1256",
+    "id": "1256",
     "name": "101 E 93.9",
     "route": "",
     "jurisdiction": "",
@@ -870,7 +880,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1257",
+    "id": "1257",
     "name": "101 E 76.5",
     "route": "",
     "jurisdiction": "",
@@ -880,7 +890,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1258",
+    "id": "1258",
     "name": "101 W 90.8",
     "route": "",
     "jurisdiction": "",
@@ -890,7 +900,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1259",
+    "id": "1259",
     "name": "101 W 61.2",
     "route": "",
     "jurisdiction": "",
@@ -900,7 +910,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1260",
+    "id": "1260",
     "name": "95 SS 1.3 CCTV AX MTA",
     "route": "",
     "jurisdiction": "",
@@ -910,7 +920,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1261",
+    "id": "1261",
     "name": "95 NS 0.6 CCTV AX MTA",
     "route": "",
     "jurisdiction": "",
@@ -920,7 +930,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1262",
+    "id": "1262",
     "name": "ST S MM 9.7",
     "route": "",
     "jurisdiction": "",
@@ -930,7 +940,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1263",
+    "id": "1263",
     "name": "ST N MM 8.2",
     "route": "",
     "jurisdiction": "",
@@ -940,7 +950,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1264",
+    "id": "1264",
     "name": "DENNETT RD NN MM 0.39 MTA",
     "route": "",
     "jurisdiction": "",
@@ -950,17 +960,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1265",
-    "name": "95 NN MM 15.6",
+    "id": "657",
+    "name": "Camera 657",
     "route": "",
     "jurisdiction": "",
     "lat": 43.086567,
     "lng": -70.771844,
-    "image_url": "https://newengland511.org/map/Cctv/1265",
+    "image_url": "https://newengland511.org/map/Cctv/657",
     "video_url": ""
   },
   {
-    "id": "ne:1266",
+    "id": "1266",
     "name": "95 S MM 15.5 RWIS",
     "route": "",
     "jurisdiction": "",
@@ -970,7 +980,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1267",
+    "id": "1267",
     "name": "95 SN MM 15.2",
     "route": "",
     "jurisdiction": "",
@@ -980,7 +990,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1268",
+    "id": "1268",
     "name": "95 NS MM 13.4",
     "route": "",
     "jurisdiction": "",
@@ -990,7 +1000,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1269",
+    "id": "1269",
     "name": "95 SS 2.4 CCTV MTA",
     "route": "",
     "jurisdiction": "",
@@ -1000,7 +1010,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1270",
+    "id": "1270",
     "name": "95 NN MM 0.6 CCTV MTA",
     "route": "",
     "jurisdiction": "",
@@ -1010,17 +1020,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1271",
-    "name": "95 N MM 3.1 CCTV MTA",
+    "id": "663",
+    "name": "Camera 663",
     "route": "",
     "jurisdiction": "",
     "lat": 43.123633,
     "lng": -70.723092,
-    "image_url": "https://newengland511.org/map/Cctv/1271",
+    "image_url": "https://newengland511.org/map/Cctv/663",
     "video_url": ""
   },
   {
-    "id": "ne:1273",
+    "id": "1273",
     "name": "106 N MM 8.0",
     "route": "",
     "jurisdiction": "",
@@ -1030,7 +1040,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1274",
+    "id": "1274",
     "name": "9 W MM 10.7 - RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -1040,7 +1050,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1275",
+    "id": "1275",
     "name": "16 NH 302 Barnes Rd",
     "route": "",
     "jurisdiction": "",
@@ -1050,7 +1060,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1276",
+    "id": "1276",
     "name": "16 NH 302 Eastman",
     "route": "",
     "jurisdiction": "",
@@ -1060,7 +1070,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1277",
+    "id": "1277",
     "name": "US 3 S Chambers Drive",
     "route": "",
     "jurisdiction": "",
@@ -1070,7 +1080,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1278",
+    "id": "1278",
     "name": "93 S MM 124.6 NH 302",
     "route": "",
     "jurisdiction": "",
@@ -1080,7 +1090,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1279",
+    "id": "1279",
     "name": "US-1 Bypass Coakley",
     "route": "",
     "jurisdiction": "",
@@ -1090,7 +1100,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1280",
+    "id": "1280",
     "name": "US-1 Bypass Borthwick",
     "route": "",
     "jurisdiction": "",
@@ -1100,7 +1110,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1281",
+    "id": "1281",
     "name": "93 S MM 13.9",
     "route": "",
     "jurisdiction": "",
@@ -1110,7 +1120,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1282",
+    "id": "1282",
     "name": "93 S MM 16.7",
     "route": "",
     "jurisdiction": "",
@@ -1120,7 +1130,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1283",
+    "id": "1283",
     "name": "NH 120 89 Exit 18",
     "route": "",
     "jurisdiction": "",
@@ -1130,7 +1140,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1284",
+    "id": "1284",
     "name": "US 1 S MM 1.5",
     "route": "",
     "jurisdiction": "",
@@ -1140,7 +1150,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1285",
+    "id": "1285",
     "name": "93 N 39.1 PCCTV",
     "route": "",
     "jurisdiction": "",
@@ -1150,7 +1160,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1286",
+    "id": "1286",
     "name": "ST N MM 13.6 - RWIS",
     "route": "",
     "jurisdiction": "",
@@ -1160,7 +1170,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1287",
+    "id": "1287",
     "name": "4 W MM 79.3 - RWIS",
     "route": "",
     "jurisdiction": "",
@@ -1170,7 +1180,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1288",
+    "id": "1288",
     "name": "ST SN MM 1.6",
     "route": "",
     "jurisdiction": "",
@@ -1180,7 +1190,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1289",
+    "id": "1289",
     "name": "16 N MM 56.6 - RWIS",
     "route": "",
     "jurisdiction": "",
@@ -1190,7 +1200,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1290",
+    "id": "1290",
     "name": "93 SN MM 27.8",
     "route": "",
     "jurisdiction": "",
@@ -1200,7 +1210,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1291",
+    "id": "1291",
     "name": "FEE N MM 1.3",
     "route": "",
     "jurisdiction": "",
@@ -1210,7 +1220,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1292",
+    "id": "1292",
     "name": "293 N MM 7.5",
     "route": "",
     "jurisdiction": "",
@@ -1220,7 +1230,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1293",
+    "id": "1293",
     "name": "93 N MM 13.5",
     "route": "",
     "jurisdiction": "",
@@ -1230,7 +1240,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1294",
+    "id": "1294",
     "name": "93 NN MM 25.8",
     "route": "",
     "jurisdiction": "",
@@ -1240,7 +1250,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1295",
+    "id": "1295",
     "name": "115 S MM 4.0 - RWIS",
     "route": "",
     "jurisdiction": "",
@@ -1250,7 +1260,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1296",
+    "id": "1296",
     "name": "ST N MM 12.4 RWIS",
     "route": "",
     "jurisdiction": "",
@@ -1260,7 +1270,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1297",
+    "id": "1297",
     "name": "101 W MM 23.7 - RWIS",
     "route": "",
     "jurisdiction": "",
@@ -1270,7 +1280,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1298",
+    "id": "1298",
     "name": "ST S MM 32.0 RWIS",
     "route": "",
     "jurisdiction": "",
@@ -1280,17 +1290,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1299",
-    "name": "ST S MM 27.5 - RWIS",
+    "id": "691",
+    "name": "Camera 691",
     "route": "",
     "jurisdiction": "",
     "lat": 43.403332,
     "lng": -71.007556,
-    "image_url": "https://newengland511.org/map/Cctv/1299",
+    "image_url": "https://newengland511.org/map/Cctv/691",
     "video_url": ""
   },
   {
-    "id": "ne:1300",
+    "id": "1300",
     "name": "ST S MM 18.6 - RWIS",
     "route": "",
     "jurisdiction": "",
@@ -1300,7 +1310,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1301",
+    "id": "1301",
     "name": "93 M MM 19.5",
     "route": "",
     "jurisdiction": "",
@@ -1310,7 +1320,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1302",
+    "id": "1302",
     "name": "106 S MM 16.6 - RWIS",
     "route": "",
     "jurisdiction": "",
@@ -1320,7 +1330,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1303",
+    "id": "1303",
     "name": "16 S MM 43.4 CCTV",
     "route": "",
     "jurisdiction": "",
@@ -1330,7 +1340,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1304",
+    "id": "1304",
     "name": "93 N MM 17.0",
     "route": "",
     "jurisdiction": "",
@@ -1340,7 +1350,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1305",
+    "id": "1305",
     "name": "93 N MM 17.2",
     "route": "",
     "jurisdiction": "",
@@ -1350,7 +1360,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1306",
+    "id": "1306",
     "name": "93 N MM 12.5",
     "route": "",
     "jurisdiction": "",
@@ -1360,7 +1370,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1307",
+    "id": "1307",
     "name": "106 S MM 10.8",
     "route": "",
     "jurisdiction": "",
@@ -1370,7 +1380,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1308",
+    "id": "1308",
     "name": "93 N MM 16.2",
     "route": "",
     "jurisdiction": "",
@@ -1380,7 +1390,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1309",
+    "id": "1309",
     "name": "93 S MM 17.8 CCTV",
     "route": "",
     "jurisdiction": "",
@@ -1390,7 +1400,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1310",
+    "id": "1310",
     "name": "93 NN MM 0.9",
     "route": "",
     "jurisdiction": "",
@@ -1400,7 +1410,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1311",
+    "id": "1311",
     "name": "93 S MM 28.9 CCTV",
     "route": "",
     "jurisdiction": "",
@@ -1410,7 +1420,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1312",
+    "id": "1312",
     "name": "93 NN MM 28.4",
     "route": "",
     "jurisdiction": "",
@@ -1420,7 +1430,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1313",
+    "id": "1313",
     "name": "89 S MM 60.4  - SWZ - C-02",
     "route": "",
     "jurisdiction": "",
@@ -1430,7 +1440,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1314",
+    "id": "1314",
     "name": "89 N MM 58.0 - SWZ - C-01",
     "route": "",
     "jurisdiction": "",
@@ -1440,7 +1450,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1315",
+    "id": "1315",
     "name": "93 NS MM 0.9",
     "route": "",
     "jurisdiction": "",
@@ -1450,7 +1460,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1316",
+    "id": "1316",
     "name": "93 S MM 11.6",
     "route": "",
     "jurisdiction": "",
@@ -1460,7 +1470,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1317",
+    "id": "1317",
     "name": "ST S MM 4.8",
     "route": "",
     "jurisdiction": "",
@@ -1470,7 +1480,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1318",
+    "id": "1318",
     "name": "93 N MM 26.9",
     "route": "",
     "jurisdiction": "",
@@ -1480,7 +1490,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1320",
+    "id": "1320",
     "name": "FEE S MM 6.2",
     "route": "",
     "jurisdiction": "",
@@ -1490,7 +1500,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1321",
+    "id": "1321",
     "name": "293 S MM 4.7",
     "route": "",
     "jurisdiction": "",
@@ -1500,7 +1510,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1322",
+    "id": "1322",
     "name": "293 N MM 6.1",
     "route": "",
     "jurisdiction": "",
@@ -1510,7 +1520,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1323",
+    "id": "1323",
     "name": "9 W MM 22.7- RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -1520,7 +1530,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1324",
+    "id": "1324",
     "name": "93 N MM 31.7",
     "route": "",
     "jurisdiction": "",
@@ -1530,7 +1540,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1325",
+    "id": "1325",
     "name": "93 N MM 33.4",
     "route": "",
     "jurisdiction": "",
@@ -1540,7 +1550,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1326",
+    "id": "1326",
     "name": "93 N MM 36.8",
     "route": "",
     "jurisdiction": "",
@@ -1550,7 +1560,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1327",
+    "id": "1327",
     "name": "93 S MM 10.0",
     "route": "",
     "jurisdiction": "",
@@ -1560,7 +1570,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1328",
+    "id": "1328",
     "name": "93 N MM 10.4",
     "route": "",
     "jurisdiction": "",
@@ -1570,7 +1580,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1329",
+    "id": "1329",
     "name": "93 S MM 8.5",
     "route": "",
     "jurisdiction": "",
@@ -1580,7 +1590,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1330",
+    "id": "1330",
     "name": "93 S MM 9.4",
     "route": "",
     "jurisdiction": "",
@@ -1590,7 +1600,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1331",
+    "id": "1331",
     "name": "93 S MM 61.1",
     "route": "",
     "jurisdiction": "",
@@ -1600,7 +1610,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1332",
+    "id": "1332",
     "name": "293 N MM 2.2",
     "route": "",
     "jurisdiction": "",
@@ -1610,7 +1620,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1333",
+    "id": "1333",
     "name": "ST SS 3.8 CCTV AX T",
     "route": "",
     "jurisdiction": "",
@@ -1620,7 +1630,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1334",
+    "id": "1334",
     "name": "ST SN 3.8 CCTV AX T",
     "route": "",
     "jurisdiction": "",
@@ -1630,7 +1640,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1335",
+    "id": "1335",
     "name": "ST NN 4.1 CCTV AX T",
     "route": "",
     "jurisdiction": "",
@@ -1640,7 +1650,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1336",
+    "id": "1336",
     "name": "ST NS 4.1 CCTV AX T",
     "route": "",
     "jurisdiction": "",
@@ -1650,7 +1660,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1337",
+    "id": "1337",
     "name": "93 SS 27.8",
     "route": "",
     "jurisdiction": "",
@@ -1660,7 +1670,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1338",
+    "id": "1338",
     "name": "93 S MM 70.6",
     "route": "",
     "jurisdiction": "",
@@ -1670,7 +1680,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1339",
+    "id": "1339",
     "name": "ST NS MM 3.4",
     "route": "",
     "jurisdiction": "",
@@ -1680,7 +1690,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1340",
+    "id": "1340",
     "name": "ST NN MM 3.4",
     "route": "",
     "jurisdiction": "",
@@ -1690,7 +1700,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1341",
+    "id": "1341",
     "name": "101 E MM 53.8",
     "route": "",
     "jurisdiction": "",
@@ -1700,7 +1710,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1342",
+    "id": "1342",
     "name": "93 N MM 56.6",
     "route": "",
     "jurisdiction": "",
@@ -1710,7 +1720,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1343",
+    "id": "1343",
     "name": "93 N MM 56.9",
     "route": "",
     "jurisdiction": "",
@@ -1720,7 +1730,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1344",
+    "id": "1344",
     "name": "93 N MM 4.2",
     "route": "",
     "jurisdiction": "",
@@ -1730,7 +1740,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1345",
+    "id": "1345",
     "name": "93 N 5.4",
     "route": "",
     "jurisdiction": "",
@@ -1740,7 +1750,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1346",
+    "id": "1346",
     "name": "293 S 1.4",
     "route": "",
     "jurisdiction": "",
@@ -1750,7 +1760,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1347",
+    "id": "1347",
     "name": "SLB Portsmouth Approach",
     "route": "",
     "jurisdiction": "",
@@ -1760,7 +1770,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1348",
+    "id": "1348",
     "name": "SLB Kittery Approach",
     "route": "",
     "jurisdiction": "",
@@ -1770,7 +1780,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1349",
+    "id": "1349",
     "name": "I 93 N MM 105.6 RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -1780,7 +1790,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1350",
+    "id": "1350",
     "name": "95N MM 4.0 CCTV",
     "route": "",
     "jurisdiction": "",
@@ -1790,7 +1800,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1351",
+    "id": "1351",
     "name": "3 S MM 163.1 CCTV",
     "route": "",
     "jurisdiction": "",
@@ -1800,7 +1810,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1352",
+    "id": "1352",
     "name": "93 NS 36.2",
     "route": "",
     "jurisdiction": "",
@@ -1810,7 +1820,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1353",
+    "id": "1353",
     "name": "93 NN 36.2",
     "route": "",
     "jurisdiction": "",
@@ -1820,7 +1830,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1354",
+    "id": "1354",
     "name": "93 S MM 4.7",
     "route": "",
     "jurisdiction": "",
@@ -1830,7 +1840,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1355",
+    "id": "1355",
     "name": "ST S MM 1.6",
     "route": "",
     "jurisdiction": "",
@@ -1840,7 +1850,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1356",
+    "id": "1356",
     "name": "ST N, MM 18",
     "route": "",
     "jurisdiction": "",
@@ -1850,7 +1860,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1357",
+    "id": "1357",
     "name": "95 SS, MM 15.4",
     "route": "",
     "jurisdiction": "",
@@ -1860,7 +1870,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1358",
+    "id": "1358",
     "name": "93 S, MM 14.4",
     "route": "",
     "jurisdiction": "",
@@ -1870,7 +1880,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1359",
+    "id": "1359",
     "name": "93 N, MM 2.6",
     "route": "",
     "jurisdiction": "",
@@ -1880,7 +1890,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1360",
+    "id": "1360",
     "name": "106 N MM 5.6",
     "route": "",
     "jurisdiction": "",
@@ -1890,7 +1900,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1361",
+    "id": "1361",
     "name": "124 N, MM 4.2, RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -1900,7 +1910,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1362",
+    "id": "1362",
     "name": "ST S, MM 5.8",
     "route": "",
     "jurisdiction": "",
@@ -1910,7 +1920,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1363",
+    "id": "1363",
     "name": "ST S, MM 5.0",
     "route": "",
     "jurisdiction": "",
@@ -1920,17 +1930,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1364",
-    "name": "ST S, MM 22.0",
+    "id": "756",
+    "name": "Camera 756",
     "route": "",
     "jurisdiction": "",
     "lat": 43.327832,
     "lng": -70.986322,
-    "image_url": "https://newengland511.org/map/Cctv/1364",
+    "image_url": "https://newengland511.org/map/Cctv/756",
     "video_url": ""
   },
   {
-    "id": "ne:1365",
+    "id": "1365",
     "name": "ST S, MM 15.9",
     "route": "",
     "jurisdiction": "",
@@ -1940,17 +1950,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1366",
-    "name": "ST N, MM 9",
+    "id": "758",
+    "name": "Camera 758",
     "route": "",
     "jurisdiction": "",
     "lat": 43.180051,
     "lng": -70.873188,
-    "image_url": "https://newengland511.org/map/Cctv/1366",
+    "image_url": "https://newengland511.org/map/Cctv/758",
     "video_url": ""
   },
   {
-    "id": "ne:1367",
+    "id": "1367",
     "name": "ST N, MM 2.6",
     "route": "",
     "jurisdiction": "",
@@ -1960,7 +1970,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1368",
+    "id": "1368",
     "name": "ST N, MM 17.0",
     "route": "",
     "jurisdiction": "",
@@ -1970,17 +1980,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1369",
-    "name": "ST N, MM 12.4",
+    "id": "761",
+    "name": "Camera 761",
     "route": "",
     "jurisdiction": "",
     "lat": 43.219067,
     "lng": -70.894683,
-    "image_url": "https://newengland511.org/map/Cctv/1369",
+    "image_url": "https://newengland511.org/map/Cctv/761",
     "video_url": ""
   },
   {
-    "id": "ne:1370",
+    "id": "1370",
     "name": "ST N, MM 12.0",
     "route": "",
     "jurisdiction": "",
@@ -1990,7 +2000,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1371",
+    "id": "1371",
     "name": "FEET S, MM 8",
     "route": "",
     "jurisdiction": "",
@@ -2000,7 +2010,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1372",
+    "id": "1372",
     "name": "95 S, MM 6.0",
     "route": "",
     "jurisdiction": "",
@@ -2010,7 +2020,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1373",
+    "id": "1373",
     "name": "95 SS, MM 5.6",
     "route": "",
     "jurisdiction": "",
@@ -2020,7 +2030,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1374",
+    "id": "1374",
     "name": "95 SN, MM 15.4",
     "route": "",
     "jurisdiction": "",
@@ -2030,7 +2040,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1375",
+    "id": "1375",
     "name": "95 SN, MM 12.6",
     "route": "",
     "jurisdiction": "",
@@ -2040,17 +2050,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1376",
-    "name": "95 SS, MM 12.6",
+    "id": "768",
+    "name": "Camera 768",
     "route": "",
     "jurisdiction": "",
     "lat": 43.053727,
     "lng": -70.810698,
-    "image_url": "https://newengland511.org/map/Cctv/1376",
+    "image_url": "https://newengland511.org/map/Cctv/768",
     "video_url": ""
   },
   {
-    "id": "ne:1377",
+    "id": "1377",
     "name": "95 SN, MM 10.0",
     "route": "",
     "jurisdiction": "",
@@ -2060,7 +2070,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1378",
+    "id": "1378",
     "name": "95 SS, MM 1.0",
     "route": "",
     "jurisdiction": "",
@@ -2070,7 +2080,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1379",
+    "id": "1379",
     "name": "95 SN, MM 5.6",
     "route": "",
     "jurisdiction": "",
@@ -2080,7 +2090,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1380",
+    "id": "1380",
     "name": "95 MS, MM 14.6",
     "route": "",
     "jurisdiction": "",
@@ -2090,7 +2100,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1381",
+    "id": "1381",
     "name": "95 MN, MM 14.6",
     "route": "",
     "jurisdiction": "",
@@ -2100,7 +2110,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1382",
+    "id": "1382",
     "name": "95 N, MM 13.4",
     "route": "",
     "jurisdiction": "",
@@ -2110,7 +2120,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1383",
+    "id": "1383",
     "name": "95 SS, MM 10.0",
     "route": "",
     "jurisdiction": "",
@@ -2120,7 +2130,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1384",
+    "id": "1384",
     "name": "95 SN, MM 1.0",
     "route": "",
     "jurisdiction": "",
@@ -2130,7 +2140,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1385",
+    "id": "1385",
     "name": "95 High Level BRG SW",
     "route": "",
     "jurisdiction": "",
@@ -2140,7 +2150,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1386",
+    "id": "1386",
     "name": "95 High Level BRG SE",
     "route": "",
     "jurisdiction": "",
@@ -2150,7 +2160,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1387",
+    "id": "1387",
     "name": "95 High Level BRG NW",
     "route": "",
     "jurisdiction": "",
@@ -2160,7 +2170,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1388",
+    "id": "1388",
     "name": "95 High Level BRG NE",
     "route": "",
     "jurisdiction": "",
@@ -2170,7 +2180,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1389",
+    "id": "1389",
     "name": "93 S, MM 95.9, RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -2180,7 +2190,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1390",
+    "id": "1390",
     "name": "93 S, MM 76.2, RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -2190,7 +2200,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1391",
+    "id": "1391",
     "name": "93 S, MM 7.2",
     "route": "",
     "jurisdiction": "",
@@ -2200,7 +2210,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1392",
+    "id": "1392",
     "name": "93 S, MM 60, RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -2210,7 +2220,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1393",
+    "id": "1393",
     "name": "93 S, MM 6.0",
     "route": "",
     "jurisdiction": "",
@@ -2220,7 +2230,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1394",
+    "id": "1394",
     "name": "93 S, MM 35.6",
     "route": "",
     "jurisdiction": "",
@@ -2230,7 +2240,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1395",
+    "id": "1395",
     "name": "93 S MM 3.8",
     "route": "",
     "jurisdiction": "",
@@ -2240,7 +2250,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1396",
+    "id": "1396",
     "name": "93 SS, MM 2.1",
     "route": "",
     "jurisdiction": "",
@@ -2250,7 +2260,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1397",
+    "id": "1397",
     "name": "93 S, MM 15.3",
     "route": "",
     "jurisdiction": "",
@@ -2260,7 +2270,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1398",
+    "id": "1398",
     "name": "93 S, MM 130.4 , RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -2270,7 +2280,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1399",
+    "id": "1399",
     "name": "93 S, MM 117.6",
     "route": "",
     "jurisdiction": "",
@@ -2280,7 +2290,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1400",
+    "id": "1400",
     "name": "93 S, MM 111.4",
     "route": "",
     "jurisdiction": "",
@@ -2290,7 +2300,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1401",
+    "id": "1401",
     "name": "93 S, MM 11.0",
     "route": "",
     "jurisdiction": "",
@@ -2300,7 +2310,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1402",
+    "id": "1402",
     "name": "93 S, MM 108.2",
     "route": "",
     "jurisdiction": "",
@@ -2310,7 +2320,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1403",
+    "id": "1403",
     "name": "93 N, MM 99.6",
     "route": "",
     "jurisdiction": "",
@@ -2320,7 +2330,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1404",
+    "id": "1404",
     "name": "93 N, MM 7.5",
     "route": "",
     "jurisdiction": "",
@@ -2330,17 +2340,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1405",
-    "name": "93 N, MM 50.8",
+    "id": "797",
+    "name": "Camera 797",
     "route": "",
     "jurisdiction": "",
     "lat": 43.373951,
     "lng": -71.609557,
-    "image_url": "https://newengland511.org/map/Cctv/1405",
+    "image_url": "https://newengland511.org/map/Cctv/797",
     "video_url": ""
   },
   {
-    "id": "ne:1406",
+    "id": "1406",
     "name": "93 N, MM 34.8",
     "route": "",
     "jurisdiction": "",
@@ -2350,7 +2360,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1407",
+    "id": "1407",
     "name": "93 N, MM 33.8",
     "route": "",
     "jurisdiction": "",
@@ -2360,7 +2370,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1408",
+    "id": "1408",
     "name": "93 SN, MM 2.1",
     "route": "",
     "jurisdiction": "",
@@ -2370,7 +2380,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1409",
+    "id": "1409",
     "name": "93 N, MM 102.6, RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -2380,7 +2390,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1410",
+    "id": "1410",
     "name": "93 N, MM 1.8",
     "route": "",
     "jurisdiction": "",
@@ -2390,7 +2400,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1411",
+    "id": "1411",
     "name": "93 M, MM 18.4",
     "route": "",
     "jurisdiction": "",
@@ -2400,7 +2410,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1412",
+    "id": "1412",
     "name": "89 S, MM 20.2",
     "route": "",
     "jurisdiction": "",
@@ -2410,17 +2420,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1413",
-    "name": "89 N, MM 39.6 RWIS Station",
+    "id": "805",
+    "name": "Camera 805",
     "route": "",
     "jurisdiction": "",
     "lat": 43.467963,
     "lng": -72.102455,
-    "image_url": "https://newengland511.org/map/Cctv/1413",
+    "image_url": "https://newengland511.org/map/Cctv/805",
     "video_url": ""
   },
   {
-    "id": "ne:1414",
+    "id": "1414",
     "name": "4 W, MM 101.6",
     "route": "",
     "jurisdiction": "",
@@ -2430,7 +2440,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1415",
+    "id": "1415",
     "name": "293 N MM 10.4,  RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -2440,7 +2450,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1416",
+    "id": "1416",
     "name": "112 N, MM 14.8, RWIS Station",
     "route": "",
     "jurisdiction": "",
@@ -2450,17 +2460,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1417",
-    "name": "1 Mem BRG S South",
+    "id": "809",
+    "name": "Camera 809",
     "route": "",
     "jurisdiction": "",
     "lat": 43.078113,
     "lng": -70.753412,
-    "image_url": "https://newengland511.org/map/Cctv/1417",
+    "image_url": "https://newengland511.org/map/Cctv/809",
     "video_url": ""
   },
   {
-    "id": "ne:1418",
+    "id": "1418",
     "name": "1 Mem BRG N North",
     "route": "",
     "jurisdiction": "",
@@ -2470,7 +2480,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1420",
+    "id": "1420",
     "name": "93 NN 86.8",
     "route": "",
     "jurisdiction": "",
@@ -2480,17 +2490,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1422",
-    "name": "BENNINGTON US-7 North",
+    "id": "814",
+    "name": "Camera 814",
     "route": "",
     "jurisdiction": "",
     "lat": 42.90512,
     "lng": -73.20299,
-    "image_url": "https://newengland511.org/map/Cctv/1422",
+    "image_url": "https://newengland511.org/map/Cctv/814",
     "video_url": ""
   },
   {
-    "id": "ne:1423",
+    "id": "1423",
     "name": "BERLIN I-89 South",
     "route": "",
     "jurisdiction": "",
@@ -2500,7 +2510,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1424",
+    "id": "1424",
     "name": "JAY VT-105 West",
     "route": "",
     "jurisdiction": "",
@@ -2510,17 +2520,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1425",
-    "name": "LOWELL VT-100 North",
+    "id": "817",
+    "name": "Camera 817",
     "route": "",
     "jurisdiction": "",
     "lat": 44.753611,
     "lng": -72.457778,
-    "image_url": "https://newengland511.org/map/Cctv/1425",
+    "image_url": "https://newengland511.org/map/Cctv/817",
     "video_url": ""
   },
   {
-    "id": "ne:1426",
+    "id": "1426",
     "name": "ALBURGH US-2 East",
     "route": "",
     "jurisdiction": "",
@@ -2530,7 +2540,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1427",
+    "id": "1427",
     "name": "BERKSHIRE VT-105",
     "route": "",
     "jurisdiction": "",
@@ -2540,17 +2550,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1428",
-    "name": "LOWELL VT-58",
+    "id": "820",
+    "name": "Camera 820",
     "route": "",
     "jurisdiction": "",
     "lat": 44.819214,
     "lng": -72.361728,
-    "image_url": "https://newengland511.org/map/Cctv/1428",
+    "image_url": "https://newengland511.org/map/Cctv/820",
     "video_url": ""
   },
   {
-    "id": "ne:1841",
+    "id": "1841",
     "name": "101 E 50.8  - Nashua Road",
     "route": "",
     "jurisdiction": "",
@@ -2560,17 +2570,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:1842",
-    "name": "101 E 52.1 ??? NH101 / NH114",
+    "id": "1234",
+    "name": "Camera 1234",
     "route": "",
     "jurisdiction": "",
     "lat": 42.957055,
     "lng": -71.505771,
-    "image_url": "https://newengland511.org/map/Cctv/1842",
+    "image_url": "https://newengland511.org/map/Cctv/1234",
     "video_url": ""
   },
   {
-    "id": "ne:1843",
+    "id": "1843",
     "name": "Ripton VT-125 Snowbowl",
     "route": "",
     "jurisdiction": "",
@@ -2580,7 +2590,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1848",
+    "id": "1848",
     "name": "QUECHEE US-4",
     "route": "",
     "jurisdiction": "",
@@ -2590,7 +2600,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:1849",
+    "id": "1849",
     "name": "LUDLOW VT-100",
     "route": "",
     "jurisdiction": "",
@@ -2600,7 +2610,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2064",
+    "id": "2064",
     "name": "I-89 South Burlington Exit-14 CCTV-1",
     "route": "",
     "jurisdiction": "",
@@ -2610,7 +2620,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2065",
+    "id": "2065",
     "name": "I-89 South Burlington Exit-14 CCTV-2",
     "route": "",
     "jurisdiction": "",
@@ -2620,7 +2630,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2066",
+    "id": "2066",
     "name": "I-89 South Burlington Exit-14 CCTV-3",
     "route": "",
     "jurisdiction": "",
@@ -2630,7 +2640,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2067",
+    "id": "2067",
     "name": "I-89 South Burlington Exit-14 CCTV-4",
     "route": "",
     "jurisdiction": "",
@@ -2640,7 +2650,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2076",
+    "id": "2076",
     "name": "I-95 Mile 161 SB (Plymouth)",
     "route": "",
     "jurisdiction": "",
@@ -2650,7 +2660,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2077",
+    "id": "2077",
     "name": "I-95 Mile 174 SB (Carmel)",
     "route": "",
     "jurisdiction": "",
@@ -2660,7 +2670,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2079",
+    "id": "2079",
     "name": "I-295 Mile 24 NB (Freeport)",
     "route": "",
     "jurisdiction": "",
@@ -2670,7 +2680,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2080",
+    "id": "2080",
     "name": "I-295 Mile 31 NB (Topsham)",
     "route": "",
     "jurisdiction": "",
@@ -2680,7 +2690,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2081",
+    "id": "2081",
     "name": "I-95 Mile 138 NB (Clinton)",
     "route": "",
     "jurisdiction": "",
@@ -2690,17 +2700,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:2082",
-    "name": "I-95 Mile 150 NB (Pittsfield)",
+    "id": "1474",
+    "name": "Camera 1474",
     "route": "",
     "jurisdiction": "",
     "lat": 44.791,
     "lng": -69.40029,
-    "image_url": "https://newengland511.org/map/Cctv/2082",
+    "image_url": "https://newengland511.org/map/Cctv/1474",
     "video_url": ""
   },
   {
-    "id": "ne:2084",
+    "id": "2084",
     "name": "I-95 Mile 161 NB (Plymouth)",
     "route": "",
     "jurisdiction": "",
@@ -2710,7 +2720,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2085",
+    "id": "2085",
     "name": "I-95 Mile 174 NB (Newburgh)",
     "route": "",
     "jurisdiction": "",
@@ -2720,7 +2730,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2086",
+    "id": "2086",
     "name": "I-95 Mile 180 NB (Bangor)",
     "route": "",
     "jurisdiction": "",
@@ -2730,7 +2740,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2087",
+    "id": "2087",
     "name": "I-95 Mile 191 NB (Orono)",
     "route": "",
     "jurisdiction": "",
@@ -2740,7 +2750,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2088",
+    "id": "2088",
     "name": "I-95 Mile 244 NB (Medway)",
     "route": "",
     "jurisdiction": "",
@@ -2750,7 +2760,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2089",
+    "id": "2089",
     "name": "I-95 Mile 264 NB (Sherman)",
     "route": "",
     "jurisdiction": "",
@@ -2760,7 +2770,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2090",
+    "id": "2090",
     "name": "I-95 Mile 277 NB (Island Falls)",
     "route": "",
     "jurisdiction": "",
@@ -2770,7 +2780,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2091",
+    "id": "2091",
     "name": "I-95 Mile 286 NB (Oakfield)",
     "route": "",
     "jurisdiction": "",
@@ -2780,7 +2790,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2092",
+    "id": "2092",
     "name": "I-95 Mile 291 NB (Smyrna)",
     "route": "",
     "jurisdiction": "",
@@ -2790,7 +2800,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2094",
+    "id": "2094",
     "name": "I-295 Mile 37 SB (Bowdoinham)",
     "route": "",
     "jurisdiction": "",
@@ -2800,7 +2810,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2095",
+    "id": "2095",
     "name": "I-295 Mile 43 SB (Bowdoinham)",
     "route": "",
     "jurisdiction": "",
@@ -2810,7 +2820,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2098",
+    "id": "2098",
     "name": "I-95 Mile 138 SB (Clinton)",
     "route": "",
     "jurisdiction": "",
@@ -2820,17 +2830,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:2099",
-    "name": "I-95 Mile 157 SB (Palmrya)",
+    "id": "1491",
+    "name": "Camera 1491",
     "route": "",
     "jurisdiction": "",
     "lat": 44.83606,
     "lng": -69.29977,
-    "image_url": "https://newengland511.org/map/Cctv/2099",
+    "image_url": "https://newengland511.org/map/Cctv/1491",
     "video_url": ""
   },
   {
-    "id": "ne:2100",
+    "id": "2100",
     "name": "I-95 Mile 167 SB (Etna)",
     "route": "",
     "jurisdiction": "",
@@ -2840,17 +2850,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:2101",
-    "name": "I-95 Mile 227 SB (Lincoln)",
+    "id": "1493",
+    "name": "Camera 1493",
     "route": "",
     "jurisdiction": "",
     "lat": 45.36761,
     "lng": -68.60567,
-    "image_url": "https://newengland511.org/map/Cctv/2101",
+    "image_url": "https://newengland511.org/map/Cctv/1493",
     "video_url": ""
   },
   {
-    "id": "ne:2102",
+    "id": "2102",
     "name": "I-95 Mile 276 SB (Island Falls)",
     "route": "",
     "jurisdiction": "",
@@ -2860,7 +2870,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2103",
+    "id": "2103",
     "name": "I-95 Mile 285 SB (Oakfield)",
     "route": "",
     "jurisdiction": "",
@@ -2870,7 +2880,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2105",
+    "id": "2105",
     "name": "I-95 Mile 197 NB (Old Town)",
     "route": "",
     "jurisdiction": "",
@@ -2880,7 +2890,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2106",
+    "id": "2106",
     "name": "I-95 Mile 227 NB (Lincoln)",
     "route": "",
     "jurisdiction": "",
@@ -2890,17 +2900,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:2107",
-    "name": "I-95 Mile 199 SB (Old Town)",
+    "id": "1499",
+    "name": "Camera 1499",
     "route": "",
     "jurisdiction": "",
     "lat": 44.97592,
     "lng": -68.70547,
-    "image_url": "https://newengland511.org/map/Cctv/2107",
+    "image_url": "https://newengland511.org/map/Cctv/1499",
     "video_url": ""
   },
   {
-    "id": "ne:2108",
+    "id": "2108",
     "name": "I-95 Mile 197 SB (Old Town)",
     "route": "",
     "jurisdiction": "",
@@ -2910,7 +2920,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2112",
+    "id": "2112",
     "name": "I-95 Mile 180 SB (Hermon)",
     "route": "",
     "jurisdiction": "",
@@ -2920,7 +2930,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2116",
+    "id": "2116",
     "name": "I-95 Mile 264 SB (Sherman)",
     "route": "",
     "jurisdiction": "",
@@ -2930,7 +2940,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2117",
+    "id": "2117",
     "name": "I-295 Mile 10 NB (Falmouth)",
     "route": "",
     "jurisdiction": "",
@@ -2940,7 +2950,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2119",
+    "id": "2119",
     "name": "I-95 Mile 109 NB (Augusta)",
     "route": "",
     "jurisdiction": "",
@@ -2950,7 +2960,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2121",
+    "id": "2121",
     "name": "I-295 Mile 49 SB (Richmond)",
     "route": "",
     "jurisdiction": "",
@@ -2960,7 +2970,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2122",
+    "id": "2122",
     "name": "I-295 Mile 51 SB (Gardiner)",
     "route": "",
     "jurisdiction": "",
@@ -2970,7 +2980,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2123",
+    "id": "2123",
     "name": "I-295 Mile 15 NB (Cumberland)",
     "route": "",
     "jurisdiction": "",
@@ -2980,7 +2990,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2124",
+    "id": "2124",
     "name": "I-295 Mile 28 NB (Brunswick)",
     "route": "",
     "jurisdiction": "",
@@ -2990,7 +3000,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2125",
+    "id": "2125",
     "name": "I-295 Mile 15 SB (Cumberland)",
     "route": "",
     "jurisdiction": "",
@@ -3000,7 +3010,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2126",
+    "id": "2126",
     "name": "I-295 Mile 49 NB (Gardiner)",
     "route": "",
     "jurisdiction": "",
@@ -3010,17 +3020,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:2128",
-    "name": "I-295 Mile 43 NB (Richmond)",
+    "id": "1520",
+    "name": "Camera 1520",
     "route": "",
     "jurisdiction": "",
     "lat": 44.10939,
     "lng": -69.86092,
-    "image_url": "https://newengland511.org/map/Cctv/2128",
+    "image_url": "https://newengland511.org/map/Cctv/1520",
     "video_url": ""
   },
   {
-    "id": "ne:2129",
+    "id": "2129",
     "name": "I-295 Mile 17 SB (Yarmouth)",
     "route": "",
     "jurisdiction": "",
@@ -3030,17 +3040,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:2130",
-    "name": "I-295 Mile 22 SB (Freeport)",
+    "id": "1522",
+    "name": "Camera 1522",
     "route": "",
     "jurisdiction": "",
     "lat": 43.8569,
     "lng": -70.11254,
-    "image_url": "https://newengland511.org/map/Cctv/2130",
+    "image_url": "https://newengland511.org/map/Cctv/1522",
     "video_url": ""
   },
   {
-    "id": "ne:2132",
+    "id": "2132",
     "name": "I-295 Mile 31 SB (Topsham)",
     "route": "",
     "jurisdiction": "",
@@ -3050,7 +3060,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2134",
+    "id": "2134",
     "name": "I-95 Mile 124 SB (Waterville)",
     "route": "",
     "jurisdiction": "",
@@ -3060,7 +3070,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2135",
+    "id": "2135",
     "name": "I-295 Mile 20 NB (Freeport)",
     "route": "",
     "jurisdiction": "",
@@ -3070,7 +3080,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2136",
+    "id": "2136",
     "name": "I-95 Mile 127 NB (Oakland)",
     "route": "",
     "jurisdiction": "",
@@ -3080,7 +3090,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2137",
+    "id": "2137",
     "name": "I-95 Mile 291 SB (Smyrna)",
     "route": "",
     "jurisdiction": "",
@@ -3090,7 +3100,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2138",
+    "id": "2138",
     "name": "I-295 Mile 09 NB (Falmouth)",
     "route": "",
     "jurisdiction": "",
@@ -3100,17 +3110,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:2141",
-    "name": "I-95 Mile 182 NB (Bangor)",
+    "id": "1533",
+    "name": "Camera 1533",
     "route": "",
     "jurisdiction": "",
     "lat": 44.79206,
     "lng": -68.80424,
-    "image_url": "https://newengland511.org/map/Cctv/2141",
+    "image_url": "https://newengland511.org/map/Cctv/1533",
     "video_url": ""
   },
   {
-    "id": "ne:2144",
+    "id": "2144",
     "name": "I-295 Mile 10 SB (Falmouth)",
     "route": "",
     "jurisdiction": "",
@@ -3120,47 +3130,47 @@
     "video_url": ""
   },
   {
-    "id": "ne:2149",
-    "name": "I-95 Mile 112 SB (Augusta)",
+    "id": "1541",
+    "name": "Camera 1541",
     "route": "",
     "jurisdiction": "",
     "lat": 44.342235,
     "lng": -69.80198,
-    "image_url": "https://newengland511.org/map/Cctv/2149",
+    "image_url": "https://newengland511.org/map/Cctv/1541",
     "video_url": ""
   },
   {
-    "id": "ne:2150",
-    "name": "I-95 Mile 130 SB (Waterville)",
+    "id": "1542",
+    "name": "Camera 1542",
     "route": "",
     "jurisdiction": "",
     "lat": 44.569099,
     "lng": -69.666572,
-    "image_url": "https://newengland511.org/map/Cctv/2150",
+    "image_url": "https://newengland511.org/map/Cctv/1542",
     "video_url": ""
   },
   {
-    "id": "ne:2151",
-    "name": "I-95 Mile 191 SB (Orono)",
+    "id": "1543",
+    "name": "Camera 1543",
     "route": "",
     "jurisdiction": "",
     "lat": 44.86223,
     "lng": -68.71454,
-    "image_url": "https://newengland511.org/map/Cctv/2151",
+    "image_url": "https://newengland511.org/map/Cctv/1543",
     "video_url": ""
   },
   {
-    "id": "ne:2153",
-    "name": "I-95 Mile 108 NB (Augusta)",
+    "id": "1545",
+    "name": "Camera 1545",
     "route": "",
     "jurisdiction": "",
     "lat": 44.296517,
     "lng": -69.807128,
-    "image_url": "https://newengland511.org/map/Cctv/2153",
+    "image_url": "https://newengland511.org/map/Cctv/1545",
     "video_url": ""
   },
   {
-    "id": "ne:2156",
+    "id": "2156",
     "name": "Rt 2 Mile 273 (Houlton)",
     "route": "",
     "jurisdiction": "",
@@ -3170,7 +3180,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2167",
+    "id": "2167",
     "name": "I-295 Mile 23 NB (Freeport)",
     "route": "",
     "jurisdiction": "",
@@ -3180,27 +3190,27 @@
     "video_url": ""
   },
   {
-    "id": "ne:2170",
-    "name": "Rt 1 Mile 094 (Wiscasset)",
+    "id": "1562",
+    "name": "Camera 1562",
     "route": "",
     "jurisdiction": "",
     "lat": 44.005099,
     "lng": -69.66958,
-    "image_url": "https://newengland511.org/map/Cctv/2170",
+    "image_url": "https://newengland511.org/map/Cctv/1562",
     "video_url": ""
   },
   {
-    "id": "ne:2171",
-    "name": "Rt 1 Mile 095 (Wiscasset)",
+    "id": "1563",
+    "name": "Camera 1563",
     "route": "",
     "jurisdiction": "",
     "lat": 44.002367,
     "lng": -69.66433,
-    "image_url": "https://newengland511.org/map/Cctv/2171",
+    "image_url": "https://newengland511.org/map/Cctv/1563",
     "video_url": ""
   },
   {
-    "id": "ne:2172",
+    "id": "2172",
     "name": "I-295 Mile 05 NB (Portland)",
     "route": "",
     "jurisdiction": "",
@@ -3210,17 +3220,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:2173",
-    "name": "I-295 Mile 03 SB (South Portland)",
+    "id": "1565",
+    "name": "Camera 1565",
     "route": "",
     "jurisdiction": "",
     "lat": 43.631305,
     "lng": -70.312418,
-    "image_url": "https://newengland511.org/map/Cctv/2173",
+    "image_url": "https://newengland511.org/map/Cctv/1565",
     "video_url": ""
   },
   {
-    "id": "ne:2174",
+    "id": "2174",
     "name": "I-295 Mile 08 SB (Portland)",
     "route": "",
     "jurisdiction": "",
@@ -3230,57 +3240,57 @@
     "video_url": ""
   },
   {
-    "id": "ne:2175",
-    "name": "I-295 Mile 08 NB (Portland)",
+    "id": "1567",
+    "name": "Camera 1567",
     "route": "",
     "jurisdiction": "",
     "lat": 43.678863,
     "lng": -70.256388,
-    "image_url": "https://newengland511.org/map/Cctv/2175",
+    "image_url": "https://newengland511.org/map/Cctv/1567",
     "video_url": ""
   },
   {
-    "id": "ne:2178",
-    "name": "I-295 Mile 17 SB (Yarmouth PTZ)",
+    "id": "1570",
+    "name": "Camera 1570",
     "route": "",
     "jurisdiction": "",
     "lat": 43.8085,
     "lng": -70.1652,
-    "image_url": "https://newengland511.org/map/Cctv/2178",
+    "image_url": "https://newengland511.org/map/Cctv/1570",
     "video_url": ""
   },
   {
-    "id": "ne:2179",
-    "name": "I-295 Mile 17 NB (Yarmouth PTZ)",
+    "id": "1571",
+    "name": "Camera 1571",
     "route": "",
     "jurisdiction": "",
     "lat": 43.808749,
     "lng": -70.164857,
-    "image_url": "https://newengland511.org/map/Cctv/2179",
+    "image_url": "https://newengland511.org/map/Cctv/1571",
     "video_url": ""
   },
   {
-    "id": "ne:2185",
-    "name": "Rt1 Prospect (RWIS)",
+    "id": "1577",
+    "name": "Camera 1577",
     "route": "",
     "jurisdiction": "",
     "lat": 44.557179,
     "lng": -68.807674,
-    "image_url": "https://newengland511.org/map/Cctv/2185",
+    "image_url": "https://newengland511.org/map/Cctv/1577",
     "video_url": ""
   },
   {
-    "id": "ne:2186",
-    "name": "Rt9 Clifton (RWIS)",
+    "id": "1578",
+    "name": "Camera 1578",
     "route": "",
     "jurisdiction": "",
     "lat": 44.820501,
     "lng": -68.467185,
-    "image_url": "https://newengland511.org/map/Cctv/2186",
+    "image_url": "https://newengland511.org/map/Cctv/1578",
     "video_url": ""
   },
   {
-    "id": "ne:2187",
+    "id": "2187",
     "name": "Rt6 Monson (RWIS)",
     "route": "",
     "jurisdiction": "",
@@ -3290,7 +3300,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2188",
+    "id": "2188",
     "name": "95 SS 2.4 CCTV AX MTA",
     "route": "",
     "jurisdiction": "",
@@ -3300,17 +3310,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:2189",
-    "name": "95 NN 0.6 CCTV AX MTA&#9;",
+    "id": "1581",
+    "name": "Camera 1581",
     "route": "",
     "jurisdiction": "",
     "lat": 43.09848,
     "lng": -70.75567,
-    "image_url": "https://newengland511.org/map/Cctv/2189",
+    "image_url": "https://newengland511.org/map/Cctv/1581",
     "video_url": ""
   },
   {
-    "id": "ne:2190",
+    "id": "2190",
     "name": "95 NS 3.1 CCTV AX MTA",
     "route": "",
     "jurisdiction": "",
@@ -3320,7 +3330,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2191",
+    "id": "2191",
     "name": "95 NN 13.4 CCTV AX T",
     "route": "",
     "jurisdiction": "",
@@ -3330,7 +3340,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2210",
+    "id": "2210",
     "name": "95 SS 1.3 HLB CCTV MTA",
     "route": "",
     "jurisdiction": "",
@@ -3340,7 +3350,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2212",
+    "id": "2212",
     "name": "Dennett Rd NN 0.39 CCTV AX MTA",
     "route": "",
     "jurisdiction": "",
@@ -3350,17 +3360,17 @@
     "video_url": ""
   },
   {
-    "id": "ne:2215",
-    "name": "Rockland Terminal approach",
+    "id": "1607",
+    "name": "Camera 1607",
     "route": "",
     "jurisdiction": "",
     "lat": 44.10724,
     "lng": -69.10861,
-    "image_url": "https://newengland511.org/map/Cctv/2215",
+    "image_url": "https://newengland511.org/map/Cctv/1607",
     "video_url": ""
   },
   {
-    "id": "ne:2224",
+    "id": "2224",
     "name": "lincolnville ferry port parking lot",
     "route": "",
     "jurisdiction": "",
@@ -3370,7 +3380,7 @@
     "video_url": ""
   },
   {
-    "id": "ne:2225",
+    "id": "2225",
     "name": "Rt9 Clifton",
     "route": "",
     "jurisdiction": "",
@@ -3380,653 +3390,653 @@
     "video_url": ""
   },
   {
-    "id": "ne:2226",
-    "name": "RT1A SB (Holden)",
+    "id": "1618",
+    "name": "Camera 1618",
     "route": "",
     "jurisdiction": "",
     "lat": 44.70851,
     "lng": -68.601259,
-    "image_url": "https://newengland511.org/map/Cctv/2226",
+    "image_url": "https://newengland511.org/map/Cctv/1618",
     "video_url": ""
   },
   {
-    "id": "ne:2227",
-    "name": "I-95 Mile 186 SB (bangor New)",
+    "id": "1619",
+    "name": "Camera 1619",
     "route": "",
     "jurisdiction": "",
     "lat": 44.822426,
     "lng": -68.76407,
-    "image_url": "https://newengland511.org/map/Cctv/2227",
+    "image_url": "https://newengland511.org/map/Cctv/1619",
     "video_url": ""
   },
   {
-    "id": "ne:2229",
-    "name": "RT1 Mile 77 NB (Brunswick)",
+    "id": "1621",
+    "name": "Camera 1621",
     "route": "",
     "jurisdiction": "",
     "lat": 43.914969,
     "lng": -69.943374,
-    "image_url": "https://newengland511.org/map/Cctv/2229",
+    "image_url": "https://newengland511.org/map/Cctv/1621",
     "video_url": ""
   },
   {
-    "id": "ne:2230",
-    "name": "I-95 Mile 132 SB (Fairfield New)",
+    "id": "1622",
+    "name": "Camera 1622",
     "route": "",
     "jurisdiction": "",
     "lat": 44.587044,
     "lng": -69.622952,
-    "image_url": "https://newengland511.org/map/Cctv/2230",
+    "image_url": "https://newengland511.org/map/Cctv/1622",
     "video_url": ""
   },
   {
-    "id": "ne:2231",
-    "name": "RT1 Mile 164 NB (Stockton Springs)",
+    "id": "1623",
+    "name": "Camera 1623",
     "route": "",
     "jurisdiction": "",
     "lat": 44.48534,
     "lng": -68.864995,
-    "image_url": "https://newengland511.org/map/Cctv/2231",
+    "image_url": "https://newengland511.org/map/Cctv/1623",
     "video_url": ""
   },
   {
-    "id": "ne:2232",
-    "name": "I-95 Mile 113 NB ( Augusta New)",
+    "id": "1624",
+    "name": "Camera 1624",
     "route": "",
     "jurisdiction": "",
     "lat": 44.364891,
     "lng": -69.776298,
-    "image_url": "https://newengland511.org/map/Cctv/2232",
+    "image_url": "https://newengland511.org/map/Cctv/1624",
     "video_url": ""
   },
   {
-    "id": "ne:2233",
-    "name": "I-95 Mile 124 NB (Waterville New)",
+    "id": "1625",
+    "name": "Camera 1625",
     "route": "",
     "jurisdiction": "",
     "lat": 44.521499,
     "lng": -69.698013,
-    "image_url": "https://newengland511.org/map/Cctv/2233",
+    "image_url": "https://newengland511.org/map/Cctv/1625",
     "video_url": ""
   },
   {
-    "id": "ne:2234",
-    "name": "RT1 Mile 172 SB (Verona Island)",
+    "id": "1626",
+    "name": "Camera 1626",
     "route": "",
     "jurisdiction": "",
     "lat": 44.562233,
     "lng": -68.791855,
-    "image_url": "https://newengland511.org/map/Cctv/2234",
+    "image_url": "https://newengland511.org/map/Cctv/1626",
     "video_url": ""
   },
   {
-    "id": "ne:2235",
-    "name": "RT1 Mile 430 NB (Mars Hill)",
+    "id": "1627",
+    "name": "Camera 1627",
     "route": "",
     "jurisdiction": "",
     "lat": 46.496084,
     "lng": -67.868565,
-    "image_url": "https://newengland511.org/map/Cctv/2235",
+    "image_url": "https://newengland511.org/map/Cctv/1627",
     "video_url": ""
   },
   {
-    "id": "ne:2237",
-    "name": "I-95 Mile 130 NB (Waterville New)",
+    "id": "1629",
+    "name": "Camera 1629",
     "route": "",
     "jurisdiction": "",
     "lat": 44.5734,
     "lng": -69.634507,
-    "image_url": "https://newengland511.org/map/Cctv/2237",
+    "image_url": "https://newengland511.org/map/Cctv/1629",
     "video_url": ""
   },
   {
-    "id": "ne:2238",
-    "name": "I-295 Mile 37 NB (Bowdoinham)",
+    "id": "1630",
+    "name": "Camera 1630",
     "route": "",
     "jurisdiction": "",
     "lat": 44.02549,
     "lng": -69.9156,
-    "image_url": "https://newengland511.org/map/Cctv/2238",
+    "image_url": "https://newengland511.org/map/Cctv/1630",
     "video_url": ""
   },
   {
-    "id": "ne:2239",
-    "name": "I-295 Mile 28 SB (Brunswick New)",
+    "id": "1631",
+    "name": "Camera 1631",
     "route": "",
     "jurisdiction": "",
     "lat": 43.907618,
     "lng": -70.05373,
-    "image_url": "https://newengland511.org/map/Cctv/2239",
+    "image_url": "https://newengland511.org/map/Cctv/1631",
     "video_url": ""
   },
   {
-    "id": "ne:2240",
-    "name": "I-395 Mile 4 WB (Brewer New)",
+    "id": "1632",
+    "name": "Camera 1632",
     "route": "",
     "jurisdiction": "",
     "lat": 44.77394,
     "lng": -68.7456,
-    "image_url": "https://newengland511.org/map/Cctv/2240",
+    "image_url": "https://newengland511.org/map/Cctv/1632",
     "video_url": ""
   },
   {
-    "id": "ne:2241",
-    "name": "I-95 Mile 133 NB (Fairfield new)",
+    "id": "1633",
+    "name": "Camera 1633",
     "route": "",
     "jurisdiction": "",
     "lat": 44.60551,
     "lng": -69.575742,
-    "image_url": "https://newengland511.org/map/Cctv/2241",
+    "image_url": "https://newengland511.org/map/Cctv/1633",
     "video_url": ""
   },
   {
-    "id": "ne:2242",
-    "name": "RT1 Mile 84 SB (Woolwich)",
+    "id": "1634",
+    "name": "Camera 1634",
     "route": "",
     "jurisdiction": "",
     "lat": 43.912847,
     "lng": -69.801662,
-    "image_url": "https://newengland511.org/map/Cctv/2242",
+    "image_url": "https://newengland511.org/map/Cctv/1634",
     "video_url": ""
   },
   {
-    "id": "ne:2243",
-    "name": "RT1 Mile 95 SB (Edgecomb)",
+    "id": "1635",
+    "name": "Camera 1635",
     "route": "",
     "jurisdiction": "",
     "lat": 43.999974,
     "lng": -69.646212,
-    "image_url": "https://newengland511.org/map/Cctv/2243",
+    "image_url": "https://newengland511.org/map/Cctv/1635",
     "video_url": ""
   },
   {
-    "id": "ne:2249",
-    "name": "RT1 Mile 431 SB (Blaine)",
+    "id": "1641",
+    "name": "Camera 1641",
     "route": "",
     "jurisdiction": "",
     "lat": 46.509377,
     "lng": -67.868393,
-    "image_url": "https://newengland511.org/map/Cctv/2249",
+    "image_url": "https://newengland511.org/map/Cctv/1641",
     "video_url": ""
   },
   {
-    "id": "ne:2250",
-    "name": "RT1A Mile 97 (Fort Fairfield)",
+    "id": "1642",
+    "name": "Camera 1642",
     "route": "",
     "jurisdiction": "",
     "lat": 46.756058,
     "lng": -67.866167,
-    "image_url": "https://newengland511.org/map/Cctv/2250",
+    "image_url": "https://newengland511.org/map/Cctv/1642",
     "video_url": ""
   },
   {
-    "id": "ne:2251",
-    "name": "RT1 Mile 445  (Presque Isle)",
+    "id": "1643",
+    "name": "Camera 1643",
     "route": "",
     "jurisdiction": "",
     "lat": 46.663497,
     "lng": -68.009633,
-    "image_url": "https://newengland511.org/map/Cctv/2251",
+    "image_url": "https://newengland511.org/map/Cctv/1643",
     "video_url": ""
   },
   {
-    "id": "ne:2252",
-    "name": "RT1 Mile 460 (Caribou)",
+    "id": "1644",
+    "name": "Camera 1644",
     "route": "",
     "jurisdiction": "",
     "lat": 46.871326,
     "lng": -68.000031,
-    "image_url": "https://newengland511.org/map/Cctv/2252",
+    "image_url": "https://newengland511.org/map/Cctv/1644",
     "video_url": ""
   },
   {
-    "id": "ne:2253",
-    "name": "Rt1 Mile 480 SB (Van Buren)",
+    "id": "1645",
+    "name": "Camera 1645",
     "route": "",
     "jurisdiction": "",
     "lat": 47.143029,
     "lng": -67.945779,
-    "image_url": "https://newengland511.org/map/Cctv/2253",
+    "image_url": "https://newengland511.org/map/Cctv/1645",
     "video_url": ""
   },
   {
-    "id": "ne:2254",
-    "name": "RT202 Mile 1 NB (Lebanon)",
+    "id": "1646",
+    "name": "Camera 1646",
     "route": "",
     "jurisdiction": "",
     "lat": 43.337364,
     "lng": -70.940272,
-    "image_url": "https://newengland511.org/map/Cctv/2254",
+    "image_url": "https://newengland511.org/map/Cctv/1646",
     "video_url": ""
   },
   {
-    "id": "ne:2255",
-    "name": "RT111 Mile 5 WB (Arundel)",
+    "id": "1647",
+    "name": "Camera 1647",
     "route": "",
     "jurisdiction": "",
     "lat": 43.474686,
     "lng": -70.544272,
-    "image_url": "https://newengland511.org/map/Cctv/2255",
+    "image_url": "https://newengland511.org/map/Cctv/1647",
     "video_url": ""
   },
   {
-    "id": "ne:2257",
-    "name": "I-295 Mile 5 SB (Portland PTZ)",
+    "id": "1649",
+    "name": "Camera 1649",
     "route": "",
     "jurisdiction": "",
     "lat": 43.655291,
     "lng": -70.285687,
-    "image_url": "https://newengland511.org/map/Cctv/2257",
+    "image_url": "https://newengland511.org/map/Cctv/1649",
     "video_url": ""
   },
   {
-    "id": "ne:2258",
-    "name": "Rt 236 Mile 10 SB (Berwick)",
+    "id": "1650",
+    "name": "Camera 1650",
     "route": "",
     "jurisdiction": "",
     "lat": 43.219569,
     "lng": -70.797333,
-    "image_url": "https://newengland511.org/map/Cctv/2258",
+    "image_url": "https://newengland511.org/map/Cctv/1650",
     "video_url": ""
   },
   {
-    "id": "ne:2259",
-    "name": "RT 111 Alfred",
+    "id": "1651",
+    "name": "Camera 1651",
     "route": "",
     "jurisdiction": "",
     "lat": 43.476083,
     "lng": -70.687592,
-    "image_url": "https://newengland511.org/map/Cctv/2259",
+    "image_url": "https://newengland511.org/map/Cctv/1651",
     "video_url": ""
   },
   {
-    "id": "ne:2260",
-    "name": "RT1A Dedham",
+    "id": "1652",
+    "name": "Camera 1652",
     "route": "",
     "jurisdiction": "",
     "lat": 44.654617,
     "lng": -68.56585,
-    "image_url": "https://newengland511.org/map/Cctv/2260",
+    "image_url": "https://newengland511.org/map/Cctv/1652",
     "video_url": ""
   },
   {
-    "id": "ne:2263",
-    "name": "RT1 Mile 133 NB (Rockport)",
+    "id": "1655",
+    "name": "Camera 1655",
     "route": "",
     "jurisdiction": "",
     "lat": 44.181811,
     "lng": -69.08237,
-    "image_url": "https://newengland511.org/map/Cctv/2263",
+    "image_url": "https://newengland511.org/map/Cctv/1655",
     "video_url": ""
   },
   {
-    "id": "ne:2268",
-    "name": "Rt 9  Mile 281 WB (Bailyville)",
+    "id": "1660",
+    "name": "Camera 1660",
     "route": "",
     "jurisdiction": "",
     "lat": 45.122814,
     "lng": -67.350846,
-    "image_url": "https://newengland511.org/map/Cctv/2268",
+    "image_url": "https://newengland511.org/map/Cctv/1660",
     "video_url": ""
   },
   {
-    "id": "ne:2269",
-    "name": "RT 302 Mile 53 EB (Fryeburg)",
+    "id": "1661",
+    "name": "Camera 1661",
     "route": "",
     "jurisdiction": "",
     "lat": 44.009469,
     "lng": -70.987533,
-    "image_url": "https://newengland511.org/map/Cctv/2269",
+    "image_url": "https://newengland511.org/map/Cctv/1661",
     "video_url": ""
   },
   {
-    "id": "ne:2277",
-    "name": "I-395 Mile 2 EB Bangor",
+    "id": "1669",
+    "name": "Camera 1669",
     "route": "",
     "jurisdiction": "",
     "lat": 44.786714,
     "lng": -68.792195,
-    "image_url": "https://newengland511.org/map/Cctv/2277",
+    "image_url": "https://newengland511.org/map/Cctv/1669",
     "video_url": ""
   },
   {
-    "id": "ne:2278",
-    "name": "Rt236 mile 1.5 (kittery)",
+    "id": "1670",
+    "name": "Camera 1670",
     "route": "",
     "jurisdiction": "",
     "lat": 43.107083,
     "lng": -70.748392,
-    "image_url": "https://newengland511.org/map/Cctv/2278",
+    "image_url": "https://newengland511.org/map/Cctv/1670",
     "video_url": ""
   },
   {
-    "id": "ne:2279",
-    "name": "I-89 SB MM 52.75 Montpelier",
+    "id": "1671",
+    "name": "Camera 1671",
     "route": "",
     "jurisdiction": "",
     "lat": 44.248912,
     "lng": -72.594131,
-    "image_url": "https://newengland511.org/map/Cctv/2279",
+    "image_url": "https://newengland511.org/map/Cctv/1671",
     "video_url": ""
   },
   {
-    "id": "ne:2280",
-    "name": "Readsboro VT-8",
+    "id": "1672",
+    "name": "Camera 1672",
     "route": "",
     "jurisdiction": "",
     "lat": 42.81419,
     "lng": -73.007568,
-    "image_url": "https://newengland511.org/map/Cctv/2280",
+    "image_url": "https://newengland511.org/map/Cctv/1672",
     "video_url": ""
   },
   {
-    "id": "ne:2281",
-    "name": "Maine DOT - I-95 Chester RWIS",
+    "id": "1673",
+    "name": "Camera 1673",
     "route": "",
     "jurisdiction": "",
     "lat": 45.37609,
     "lng": -68.60572,
-    "image_url": "https://newengland511.org/map/Cctv/2281",
+    "image_url": "https://newengland511.org/map/Cctv/1673",
     "video_url": ""
   },
   {
-    "id": "ne:2282",
-    "name": "Maine DOT - I-95 SB Ludlow RWIS",
+    "id": "1674",
+    "name": "Camera 1674",
     "route": "",
     "jurisdiction": "",
     "lat": 46.14158,
     "lng": -67.95653,
-    "image_url": "https://newengland511.org/map/Cctv/2282",
+    "image_url": "https://newengland511.org/map/Cctv/1674",
     "video_url": ""
   },
   {
-    "id": "ne:2283",
-    "name": "Maine DOT - Rt. 9 EB Wesley RWIS",
+    "id": "1675",
+    "name": "Camera 1675",
     "route": "",
     "jurisdiction": "",
     "lat": 44.96675,
     "lng": -67.6487,
-    "image_url": "https://newengland511.org/map/Cctv/2283",
+    "image_url": "https://newengland511.org/map/Cctv/1675",
     "video_url": ""
   },
   {
-    "id": "ne:2284",
-    "name": "Maine DOT - Rt. 1 NB Waldoboro RWIS",
+    "id": "1676",
+    "name": "Camera 1676",
     "route": "",
     "jurisdiction": "",
     "lat": 44.1031,
     "lng": -69.42804,
-    "image_url": "https://newengland511.org/map/Cctv/2284",
+    "image_url": "https://newengland511.org/map/Cctv/1676",
     "video_url": ""
   },
   {
-    "id": "ne:2285",
-    "name": "Maine DOT - Rt. 302 EB Fryeburg RWIS",
+    "id": "1677",
+    "name": "Camera 1677",
     "route": "",
     "jurisdiction": "",
     "lat": 44.02084,
     "lng": -70.95869,
-    "image_url": "https://newengland511.org/map/Cctv/2285",
+    "image_url": "https://newengland511.org/map/Cctv/1677",
     "video_url": ""
   },
   {
-    "id": "ne:2286",
-    "name": "Maine DOT - Rt. 4 SB Sandy River RWIS",
+    "id": "1678",
+    "name": "Camera 1678",
     "route": "",
     "jurisdiction": "",
     "lat": 44.92177,
     "lng": -70.61069,
-    "image_url": "https://newengland511.org/map/Cctv/2286",
+    "image_url": "https://newengland511.org/map/Cctv/1678",
     "video_url": ""
   },
   {
-    "id": "ne:2287",
-    "name": "Maine DOT - Rt.1A NB Fort Fairfield RWIS",
+    "id": "1679",
+    "name": "Camera 1679",
     "route": "",
     "jurisdiction": "",
     "lat": 46.71197,
     "lng": -67.86942,
-    "image_url": "https://newengland511.org/map/Cctv/2287",
+    "image_url": "https://newengland511.org/map/Cctv/1679",
     "video_url": ""
   },
   {
-    "id": "ne:2288",
-    "name": "Maine DOT - Rt. 202 EB Alfred RWIS",
+    "id": "1680",
+    "name": "Camera 1680",
     "route": "",
     "jurisdiction": "",
     "lat": 43.47009,
     "lng": -70.72171,
-    "image_url": "https://newengland511.org/map/Cctv/2288",
+    "image_url": "https://newengland511.org/map/Cctv/1680",
     "video_url": ""
   },
   {
-    "id": "ne:2289",
-    "name": "RT26 Mile 17 NB (Gray)",
+    "id": "1681",
+    "name": "Camera 1681",
     "route": "",
     "jurisdiction": "",
     "lat": 43.887164,
     "lng": -70.340733,
-    "image_url": "https://newengland511.org/map/Cctv/2289",
+    "image_url": "https://newengland511.org/map/Cctv/1681",
     "video_url": ""
   },
   {
-    "id": "ne:2290",
-    "name": "RT1A Mile 63 NB (Ellsworth)",
+    "id": "1682",
+    "name": "Camera 1682",
     "route": "",
     "jurisdiction": "",
     "lat": 44.56407,
     "lng": -68.444598,
-    "image_url": "https://newengland511.org/map/Cctv/2290",
+    "image_url": "https://newengland511.org/map/Cctv/1682",
     "video_url": ""
   },
   {
-    "id": "ne:2291",
-    "name": "RT1 Mile 6.7 SB Bath",
+    "id": "1683",
+    "name": "Camera 1683",
     "route": "",
     "jurisdiction": "",
     "lat": 43.911781,
     "lng": -69.843772,
-    "image_url": "https://newengland511.org/map/Cctv/2291",
+    "image_url": "https://newengland511.org/map/Cctv/1683",
     "video_url": ""
   },
   {
-    "id": "ne:2292",
-    "name": "RT1 rockport",
+    "id": "1684",
+    "name": "Camera 1684",
     "route": "",
     "jurisdiction": "",
     "lat": 44.189297,
     "lng": -69.080447,
-    "image_url": "https://newengland511.org/map/Cctv/2292",
+    "image_url": "https://newengland511.org/map/Cctv/1684",
     "video_url": ""
   },
   {
-    "id": "ne:2304",
-    "name": "Rt 9 Connector Mile 1 SB",
+    "id": "1696",
+    "name": "Camera 1696",
     "route": "",
     "jurisdiction": "",
     "lat": 44.77869,
     "lng": -68.71022,
-    "image_url": "https://newengland511.org/map/Cctv/2304",
+    "image_url": "https://newengland511.org/map/Cctv/1696",
     "video_url": ""
   },
   {
-    "id": "ne:2305",
-    "name": "RT 9 Connector SB",
+    "id": "1697",
+    "name": "Camera 1697",
     "route": "",
     "jurisdiction": "",
     "lat": 44.817428,
     "lng": -68.64685,
-    "image_url": "https://newengland511.org/map/Cctv/2305",
+    "image_url": "https://newengland511.org/map/Cctv/1697",
     "video_url": ""
   },
   {
-    "id": "ne:2306",
-    "name": "I-395 Mile 6 (RT9 connector)",
+    "id": "1698",
+    "name": "Camera 1698",
     "route": "",
     "jurisdiction": "",
     "lat": 44.77278,
     "lng": -68.744361,
-    "image_url": "https://newengland511.org/map/Cctv/2306",
+    "image_url": "https://newengland511.org/map/Cctv/1698",
     "video_url": ""
   },
   {
-    "id": "ne:2312",
-    "name": "NH 16 N 109.6 - US 2 Gorham",
+    "id": "1704",
+    "name": "Camera 1704",
     "route": "",
     "jurisdiction": "",
     "lat": 44.39806,
     "lng": -71.195327,
-    "image_url": "https://newengland511.org/map/Cctv/2312",
+    "image_url": "https://newengland511.org/map/Cctv/1704",
     "video_url": ""
   },
   {
-    "id": "ne:2313",
-    "name": "RT 2A Mile 4 (Macwahoc Plantation)",
+    "id": "1705",
+    "name": "Camera 1705",
     "route": "",
     "jurisdiction": "",
     "lat": 45.63305,
     "lng": -68.25941,
-    "image_url": "https://newengland511.org/map/Cctv/2313",
+    "image_url": "https://newengland511.org/map/Cctv/1705",
     "video_url": ""
   },
   {
-    "id": "ne:2314",
-    "name": "RT 2 mile 201 (Winn)",
+    "id": "1706",
+    "name": "Camera 1706",
     "route": "",
     "jurisdiction": "",
     "lat": 45.4835,
     "lng": -68.37739,
-    "image_url": "https://newengland511.org/map/Cctv/2314",
+    "image_url": "https://newengland511.org/map/Cctv/1706",
     "video_url": ""
   },
   {
-    "id": "ne:2315",
-    "name": "Rt 161 mile 81 (Allagash)",
+    "id": "1707",
+    "name": "Camera 1707",
     "route": "",
     "jurisdiction": "",
     "lat": 47.10757,
     "lng": -68.95663,
-    "image_url": "https://newengland511.org/map/Cctv/2315",
+    "image_url": "https://newengland511.org/map/Cctv/1707",
     "video_url": ""
   },
   {
-    "id": "ne:2316",
-    "name": "Rt11 mile 247 (Long A Twp)",
+    "id": "1708",
+    "name": "Camera 1708",
     "route": "",
     "jurisdiction": "",
     "lat": 45.53748,
     "lng": -68.88152,
-    "image_url": "https://newengland511.org/map/Cctv/2316",
+    "image_url": "https://newengland511.org/map/Cctv/1708",
     "video_url": ""
   },
   {
-    "id": "ne:2319",
-    "name": "Sidney",
+    "id": "1711",
+    "name": "Camera 1711",
     "route": "",
     "jurisdiction": "",
     "lat": 44.42279,
     "lng": -69.74111,
-    "image_url": "https://newengland511.org/map/Cctv/2319",
+    "image_url": "https://newengland511.org/map/Cctv/1711",
     "video_url": ""
   },
   {
-    "id": "ne:2320",
-    "name": "Hallowell",
+    "id": "1712",
+    "name": "Camera 1712",
     "route": "",
     "jurisdiction": "",
     "lat": 44.29677,
     "lng": -69.80695,
-    "image_url": "https://newengland511.org/map/Cctv/2320",
+    "image_url": "https://newengland511.org/map/Cctv/1712",
     "video_url": ""
   },
   {
-    "id": "ne:2321",
-    "name": "Hampden",
+    "id": "1713",
+    "name": "Camera 1713",
     "route": "",
     "jurisdiction": "",
     "lat": 44.76941,
     "lng": -68.87164,
-    "image_url": "https://newengland511.org/map/Cctv/2321",
+    "image_url": "https://newengland511.org/map/Cctv/1713",
     "video_url": ""
   },
   {
-    "id": "ne:2322",
-    "name": "Bangor",
+    "id": "1714",
+    "name": "Camera 1714",
     "route": "",
     "jurisdiction": "",
     "lat": 44.84629,
     "lng": -68.73081,
-    "image_url": "https://newengland511.org/map/Cctv/2322",
+    "image_url": "https://newengland511.org/map/Cctv/1714",
     "video_url": ""
   },
   {
-    "id": "ne:2323",
-    "name": "Portland",
+    "id": "1715",
+    "name": "Camera 1715",
     "route": "",
     "jurisdiction": "",
     "lat": 43.69306,
     "lng": -70.25681,
-    "image_url": "https://newengland511.org/map/Cctv/2323",
+    "image_url": "https://newengland511.org/map/Cctv/1715",
     "video_url": ""
   },
   {
-    "id": "ne:2325",
-    "name": "US 3 66.4 - NH 140",
+    "id": "1717",
+    "name": "Camera 1717",
     "route": "",
     "jurisdiction": "",
     "lat": 43.454565,
     "lng": -71.567628,
-    "image_url": "https://newengland511.org/map/Cctv/2325",
+    "image_url": "https://newengland511.org/map/Cctv/1717",
     "video_url": ""
   },
   {
-    "id": "ne:2326",
-    "name": "FEE S 13.1 SWZ C-02",
+    "id": "1718",
+    "name": "Camera 1718",
     "route": "",
     "jurisdiction": "",
     "lat": 42.868612,
     "lng": -71.502259,
-    "image_url": "https://newengland511.org/map/Cctv/2326",
+    "image_url": "https://newengland511.org/map/Cctv/1718",
     "video_url": ""
   },
   {
-    "id": "ne:2327",
-    "name": "FEE N 13.9 SWZ C-01",
+    "id": "1719",
+    "name": "Camera 1719",
     "route": "",
     "jurisdiction": "",
     "lat": 42.87677,
     "lng": -71.491149,
-    "image_url": "https://newengland511.org/map/Cctv/2327",
+    "image_url": "https://newengland511.org/map/Cctv/1719",
     "video_url": ""
   },
   {
-    "id": "ne:2330",
-    "name": "Rt 11 Soucy Hill (Rwis)",
+    "id": "1722",
+    "name": "Camera 1722",
     "route": "",
     "jurisdiction": "",
     "lat": 46.91515,
     "lng": -68.515699,
-    "image_url": "https://newengland511.org/map/Cctv/2330",
+    "image_url": "https://newengland511.org/map/Cctv/1722",
     "video_url": ""
   },
   {
-    "id": "ne:2338",
-    "name": "106 S 4.2 I393 W",
+    "id": "1730",
+    "name": "Camera 1730",
     "route": "",
     "jurisdiction": "",
     "lat": 43.235475,
     "lng": -71.470511,
-    "image_url": "https://newengland511.org/map/Cctv/2338",
+    "image_url": "https://newengland511.org/map/Cctv/1730",
     "video_url": ""
   },
   {
-    "id": "ne:2341",
-    "name": "I-395 Mile 6 NB (Brewer)",
+    "id": "1733",
+    "name": "Camera 1733",
     "route": "",
     "jurisdiction": "",
     "lat": 44.771244,
     "lng": -68.722354,
-    "image_url": "https://newengland511.org/map/Cctv/2341",
+    "image_url": "https://newengland511.org/map/Cctv/1733",
     "video_url": ""
   }
 ]
