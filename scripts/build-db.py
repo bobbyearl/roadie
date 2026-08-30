@@ -26,6 +26,15 @@ VIDEO_STATES = {"sc", "va", "de", "md", "tn", "wi", "la", "nv", "ny"}
 
 def parse_sc():
     """South Carolina - GeoJSON from sc.cdn.iteris-atis.com"""
+    # Refresh (fetchers/api_states.fetch_sc) writes a normalized list to sc.json.
+    # Legacy capture is the raw GeoJSON in cameras.geojson.
+    sc_json = os.path.join(DATA_DIR, "sc.json")
+    if os.path.exists(sc_json):
+        with open(sc_json) as f:
+            data = json.load(f)
+        if isinstance(data, list):
+            return data
+
     with open(os.path.join(DATA_DIR, "cameras.geojson")) as f:
         data = json.load(f)
 
@@ -100,6 +109,11 @@ def parse_fl():
     """Florida - 511 platform JSON from fl511.com"""
     with open(os.path.join(DATA_DIR, "fl.json")) as f:
         data = json.load(f)
+
+    # Refresh (fetchers/api_states.fetch_fl) writes a pre-normalized list.
+    # Legacy capture is the raw {"data": [...]} DataTables shape.
+    if isinstance(data, list):
+        return data
 
     cameras = []
     for cam in data["data"]:
