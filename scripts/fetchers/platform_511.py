@@ -121,22 +121,24 @@ async def fetch_tooltip(domain: str, site_id: int, name_tag: str, client: httpx.
         return None
 
 
-async def fetch_tooltips_batch(domain: str, site_ids: list[int], name_tag: str, concurrency: int = 50) -> list[dict]:
+async def fetch_tooltips_batch(domain: str, site_ids: list[int], name_tag: str, concurrency: int = 15) -> list[dict]:
     """Fetch tooltips for all site IDs with concurrency limiting."""
     results = []
     semaphore = asyncio.Semaphore(concurrency)
 
-    async with httpx.AsyncClient(timeout=8, follow_redirects=True) as client:
+    async with httpx.AsyncClient(timeout=15, follow_redirects=True) as client:
         async def fetch_one(sid: int):
             async with semaphore:
-                # Try up to 2 times
-                for attempt in range(2):
+                # Try up to 4 times with linear backoff. Tooltips are flaky
+                # (~35% miss at high concurrency); missing tooltips only cost a
+                # name/camera_id now (id is keyed on site_id), but retrying hard
+                # keeps names populated.
+                for attempt in range(4):
                     result = await fetch_tooltip(domain, sid, name_tag, client)
                     if result:
                         results.append(result)
                         return
-                    if attempt == 0:
-                        await asyncio.sleep(0.1)  # Brief pause before retry
+                    await asyncio.sleep(0.2 * (attempt + 1))
 
         tasks = [fetch_one(sid) for sid in site_ids]
         await asyncio.gather(*tasks)
@@ -162,7 +164,13 @@ async def fetch_state(state_id: str) -> list[dict]:
     # Build lookup from site_id to tooltip data
     tooltip_map = {t["site_id"]: t for t in tooltips}
 
-    # Merge coordinates + tooltips
+    # Merge coordinates + tooltips.
+    # Identity is keyed on site_id: it is unique (one per map marker), stable
+    # across runs, and always present from the coordinate feed. The tooltip's
+    # camera_id is only used to build the image URL and is NOT used as the id,
+    # because a missing tooltip used to fall back to site_id as a fake camera_id,
+    # colliding two distinct cameras onto one id and silently dropping ~100 ID
+    # cameras (whichever tooltips timed out that run) in the dict-keyed build.
     cameras = []
     for coord in coords:
         sid = coord["site_id"]
@@ -170,7 +178,7 @@ async def fetch_state(state_id: str) -> list[dict]:
         cam_id = tip.get("camera_id", str(sid))
 
         cameras.append({
-            "id": cam_id,
+            "id": str(sid),
             "name": tip.get("name", f"Camera {sid}"),
             "route": "",
             "jurisdiction": "",
