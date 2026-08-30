@@ -5,6 +5,7 @@ import { GripVertical, Home, Locate, BoxSelect } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { type Camera, getStateConfig } from '../lib/cameras';
+import { track } from '../lib/analytics';
 import { useTheme } from '../lib/ThemeContext';
 import { useTraffic } from '../lib/TrafficContext';
 import { CameraCard } from './CameraCard';
@@ -587,6 +588,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       // Add to existing selection
       const merged = new Set([...selectedIds, ...selectedInRect]);
       selectRoute([...merged]);
+      track('draw_select', { camera_count: selectedInRect.length });
     }
 
     setDrawRect(null);
@@ -601,6 +603,10 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
       // Ignore when modifier keys held (except Shift for ?)
       if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+      if (['Escape', 's', 'h', 'l', 'x', 'i', '?'].includes(e.key)) {
+        track('keyboard_shortcut', { key: e.key });
+      }
 
       switch (e.key) {
         case 'Escape':
