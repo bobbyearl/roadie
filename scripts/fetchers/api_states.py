@@ -199,14 +199,14 @@ async def fetch_ca() -> list[dict]:
                     cam_id = cam.get("index", "")
                     name = loc.get("locationName", f"Camera {cam_id}")
                     cameras.append({
-                        "id": str(cam_id),
+                        "id": f"d{loc.get('district', district)}_{cam_id}",
                         "name": name,
                         "route": loc.get("route", ""),
-                        "jurisdiction": f"District {district}",
+                        "jurisdiction": loc.get("county", f"District {district}"),
                         "lat": lat,
                         "lng": lng,
                         "image_url": img_data.get("currentImageURL", ""),
-                        "video_url": "",
+                        "video_url": cam.get("imageData", {}).get("streamingVideoURL", ""),
                     })
             except Exception:
                 continue
