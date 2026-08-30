@@ -301,6 +301,12 @@ def parse_al():
     with open(os.path.join(DATA_DIR, "al.json")) as f:
         data = json.load(f)
 
+    # Refresh (fetchers/api_states.fetch_al) writes a pre-normalized list
+    # (top-level lat/lng). Legacy captures are the raw algotraffic shape
+    # (coords nested under "location").
+    if data and isinstance(data, list) and "lat" in data[0]:
+        return data
+
     cameras = []
     for cam in data:
         loc = cam.get("location", {})
