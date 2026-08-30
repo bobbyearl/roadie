@@ -1,5 +1,7 @@
 import { useCallback, useSyncExternalStore } from 'react';
 
+import { track } from './analytics';
+
 const STORAGE_KEY = 'roadie-presets';
 
 export interface Preset {
@@ -43,17 +45,21 @@ export function usePresets() {
     const id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
     const next = [...readStorage(), { id, name, cameraIds, createdAt: Date.now() }];
     savePresets(next);
+    // Privacy: send only the count and name length, never the raw label text.
+    track('bookmark_created', { camera_count: cameraIds.length, name_length: name.length });
     return id;
   }, []);
 
   const removePreset = useCallback((id: string) => {
     const next = readStorage().filter((p) => p.id !== id);
     savePresets(next);
+    track('bookmark_removed');
   }, []);
 
   const renamePreset = useCallback((id: string, name: string) => {
     const next = readStorage().map((p) => (p.id === id ? { ...p, name } : p));
     savePresets(next);
+    track('bookmark_renamed', { name_length: name.length });
   }, []);
 
   const updatePreset = useCallback((id: string, cameraIds: string[]) => {

@@ -3,13 +3,14 @@ import { useQuery } from '@tanstack/react-query';
 import { useNavigate, useParams, useSearch } from '@tanstack/react-router';
 import { createContext, type ReactNode, useContext, useMemo, useState } from 'react';
 
-import { type Camera, getStateConfig, type StateConfig, STATES } from '../lib/cameras';
+import { track } from '../lib/analytics';
 import { fetchMeta, getPins, resolveCameras } from '../lib/cameraData';
+import { type Camera, getStateConfig, type StateConfig, STATES } from '../lib/cameras';
 import { CURATED_ROUTES } from '../lib/routes';
 import { type ViewSearchParams } from '../lib/types';
+import { useAutoPilot } from '../lib/useAutoPilot';
 import { usePrefs } from '../lib/usePrefs';
 import { usePresets } from '../lib/usePresets';
-import { useAutoPilot } from '../lib/useAutoPilot';
 
 interface TrafficState {
   // Data
@@ -124,14 +125,14 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   );
 
   const activeRouteName = useMemo(() => {
-    if (selectedIds.size === 0) return undefined;
+    if (selectedIds.size === 0) {return undefined;}
     const key = setKey([...selectedIds]);
     // Check curated routes
     const curated = CURATED_ROUTES.find((r) => setKey(r.ids.map((id) => `sc:${id}`)) === key);
-    if (curated) return curated.name;
+    if (curated) {return curated.name;}
     // Check bookmarks
     const match = bookmarks.find((p) => setKey(p.cameraIds) === key);
-    if (match) return match.name;
+    if (match) {return match.name;}
     return undefined;
   }, [selectedIds, bookmarks]);
 
@@ -148,7 +149,16 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   };
   const clearAll = () => setSelected(new Set());
   const resetAll = () => { prefs.resetPrefs(); navigate({ search: { selected: params.selected } as ViewSearchParams }); };
-  const selectRoute = (ids: string[]) => setSelected(new Set(ids));
+  const selectRoute = (ids: string[]) => {
+    setSelected(new Set(ids));
+    const key = setKey(ids);
+    const curated = CURATED_ROUTES.find((r) => setKey(r.ids.map((id) => `sc:${id}`)) === key);
+    const bookmark = bookmarks.find((p) => setKey(p.cameraIds) === key);
+    track('route_selected', {
+      route_name: curated?.name ?? bookmark?.name ?? 'ad-hoc',
+      camera_count: ids.length,
+    });
+  };
   const setDetailCam = (cam: Camera | null) =>
     navigate({ search: { ...params, detail: cam?.id || undefined } as ViewSearchParams });
   const toggleMap = () => prefs.setShowMap(!showMap);
@@ -156,6 +166,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   const setViewMode = (m: string) => {
     prefs.setShowMap(m !== 'list');
     prefs.setShowList(m !== 'map');
+    track('view_mode_changed', { view_mode: m as 'map' | 'list' | 'split' });
   };
   const setMode = (m: string | undefined) => prefs.setMode(m);
   const setGrid = (g: string | undefined) => prefs.setGrid(g);
@@ -190,6 +201,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const findClosest = () => {
     if (!navigator.geolocation || !cameras.length) { return; }
+    track('find_closest');
     navigator.geolocation.getCurrentPosition((pos) => {
       const { latitude, longitude } = pos.coords;
       setUserLocation({ lat: latitude, lng: longitude });

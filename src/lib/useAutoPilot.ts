@@ -1,4 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
+
+import { track } from './analytics';
 import { type Camera } from './cameras';
 
 interface AutoPilotState {
@@ -83,6 +85,7 @@ export function useAutoPilot(
 
   const start = useCallback(() => {
     setState((s) => ({ ...s, active: true }));
+    track('autopilot_started');
   }, []);
 
   const stop = useCallback(() => {
@@ -96,7 +99,7 @@ export function useAutoPilot(
 
   // Watch position when active
   useEffect(() => {
-    if (!state.active || !navigator.geolocation) return;
+    if (!state.active || !navigator.geolocation) {return;}
 
     watchIdRef.current = navigator.geolocation.watchPosition(
       (pos) => {
