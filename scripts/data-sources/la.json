@@ -1,7 +1,7 @@
 [
   {
-    "id": "la:1",
-    "name": "I-20 at I-220 Off Ramp",
+    "id": "1",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.538889,
@@ -10,8 +10,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-030.streams/playlist.m3u8"
   },
   {
-    "id": "la:2",
-    "name": "I-20 at Monkhouse Drive",
+    "id": "2",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.4609,
@@ -20,8 +20,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-002.streams/playlist.m3u8"
   },
   {
-    "id": "la:3",
-    "name": "I-20 at Greenwood Road (US 79)",
+    "id": "3",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.4844,
@@ -30,8 +30,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-005.streams/playlist.m3u8"
   },
   {
-    "id": "la:4",
-    "name": "I-20 at Lakeshore Drive",
+    "id": "4",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.4904,
@@ -40,8 +40,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-006.streams/playlist.m3u8"
   },
   {
-    "id": "la:5",
-    "name": "I-20 at Linwood Avenue",
+    "id": "5",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.4955,
@@ -50,8 +50,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-007.streams/playlist.m3u8"
   },
   {
-    "id": "la:6",
-    "name": "I-20 at I-49",
+    "id": "6",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.497017684654,
@@ -60,8 +60,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-008.streams/playlist.m3u8"
   },
   {
-    "id": "la:7",
-    "name": "I-20 at Sam Fertitta Drive",
+    "id": "7",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.5017,
@@ -70,8 +70,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-009.streams/playlist.m3u8"
   },
   {
-    "id": "la:8",
-    "name": "I-20 at Common Street",
+    "id": "8",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.5053,
@@ -80,8 +80,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-010.streams/playlist.m3u8"
   },
   {
-    "id": "la:9",
-    "name": "I-20 at Spring Street",
+    "id": "9",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.5102,
@@ -90,8 +90,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-011.streams/playlist.m3u8"
   },
   {
-    "id": "la:10",
-    "name": "I-20 at Traffic",
+    "id": "10",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.513553068,
@@ -100,8 +100,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-012.streams/playlist.m3u8"
   },
   {
-    "id": "la:11",
-    "name": "I-20 at Barksdale Avenue",
+    "id": "11",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.5137,
@@ -110,8 +110,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-014.streams/playlist.m3u8"
   },
   {
-    "id": "la:12",
-    "name": "I-20 at Old Minden Road",
+    "id": "12",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.51821345231,
@@ -120,8 +120,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-015.streams/playlist.m3u8"
   },
   {
-    "id": "la:13",
-    "name": "I-20 at Airline Drive",
+    "id": "13",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.5253710829875,
@@ -130,8 +130,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-016.streams/playlist.m3u8"
   },
   {
-    "id": "la:14",
-    "name": "I-20 at Well Rd",
+    "id": "14",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.5108037786353,
@@ -140,8 +140,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-005.streams/playlist.m3u8"
   },
   {
-    "id": "la:15",
-    "name": "I-20 at Thomas Rd",
+    "id": "15",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.5062188383432,
@@ -150,8 +150,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-004.streams/playlist.m3u8"
   },
   {
-    "id": "la:16",
-    "name": "I-20 at Stella St",
+    "id": "16",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.4980097035082,
@@ -160,8 +160,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-003.streams/playlist.m3u8"
   },
   {
-    "id": "la:17",
-    "name": "I-20 at 5th St",
+    "id": "17",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.4950763748415,
@@ -170,8 +170,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-001.streams/playlist.m3u8"
   },
   {
-    "id": "la:18",
-    "name": "I-20 at Jackson St",
+    "id": "18",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.4969854617395,
@@ -180,8 +180,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-002.streams/playlist.m3u8"
   },
   {
-    "id": "la:19",
-    "name": "LA 24 at N. Hollywood Rd.",
+    "id": "19",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.60677,
@@ -190,8 +190,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-002.streams/playlist.m3u8"
   },
   {
-    "id": "la:20",
-    "name": "I-49 at US 190",
+    "id": "20",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.53148651,
@@ -200,8 +200,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-036.streams/playlist.m3u8"
   },
   {
-    "id": "la:22",
-    "name": "I-55 at MM 4.5",
+    "id": "22",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.15134574,
@@ -210,8 +210,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-036.streams/playlist.m3u8"
   },
   {
-    "id": "la:24",
-    "name": "I-55 at MM 12.2",
+    "id": "24",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.25419097,
@@ -220,8 +220,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-030.streams/playlist.m3u8"
   },
   {
-    "id": "la:26",
-    "name": "I-55 at MM 19.1",
+    "id": "26",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.34837687,
@@ -230,8 +230,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-033.streams/playlist.m3u8"
   },
   {
-    "id": "la:28",
-    "name": "I-55 at LA 22",
+    "id": "28",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4385,
@@ -240,8 +240,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-022.streams/playlist.m3u8"
   },
   {
-    "id": "la:29",
-    "name": "I-55 N of I-12",
+    "id": "29",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.49133333,
@@ -250,8 +250,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-023.streams/playlist.m3u8"
   },
   {
-    "id": "la:30",
-    "name": "I-55 at US 190",
+    "id": "30",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.504,
@@ -260,8 +260,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-021.streams/playlist.m3u8"
   },
   {
-    "id": "la:31",
-    "name": "I-59 N of I-10/I-12/I-59 Split",
+    "id": "31",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.322,
@@ -270,8 +270,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-026.streams/playlist.m3u8"
   },
   {
-    "id": "la:32",
-    "name": "I-59 at Concord",
+    "id": "32",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.34266667,
@@ -280,8 +280,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-016.streams/playlist.m3u8"
   },
   {
-    "id": "la:33",
-    "name": "US 61 at Florida Blvd.",
+    "id": "33",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4530442717707,
@@ -290,8 +290,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-168.streams/playlist.m3u8"
   },
   {
-    "id": "la:35",
-    "name": "US 61 at Scenic",
+    "id": "35",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.5085549311101,
@@ -300,8 +300,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-188.streams/playlist.m3u8"
   },
   {
-    "id": "la:36",
-    "name": "US 61 at Plank Rd",
+    "id": "36",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.5093188180344,
@@ -310,8 +310,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-184.streams/playlist.m3u8"
   },
   {
-    "id": "la:37",
-    "name": "US 61 at Highland Rd.",
+    "id": "37",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3593106905663,
@@ -320,8 +320,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-172.streams/playlist.m3u8"
   },
   {
-    "id": "la:38",
-    "name": "US 61 at Prescott",
+    "id": "38",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4883038902307,
@@ -330,8 +330,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-185.streams/playlist.m3u8"
   },
   {
-    "id": "la:39",
-    "name": "US 61 at S. Choctaw",
+    "id": "39",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4712770865729,
@@ -340,8 +340,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-186.streams/playlist.m3u8"
   },
   {
-    "id": "la:40",
-    "name": "US 61 at Greenwell St.",
+    "id": "40",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.5023290860851,
@@ -350,8 +350,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-171.streams/playlist.m3u8"
   },
   {
-    "id": "la:41",
-    "name": "US 61 at Goodwood Blvd",
+    "id": "41",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4432018578934,
@@ -360,8 +360,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-025.streams/playlist.m3u8"
   },
   {
-    "id": "la:42",
-    "name": "US 61 at Sherwood Commons",
+    "id": "42",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4043683798029,
@@ -370,8 +370,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-189.streams/playlist.m3u8"
   },
   {
-    "id": "la:44",
-    "name": "US 61 at Siegen Lane",
+    "id": "44",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.399070058138,
@@ -380,8 +380,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-191.streams/playlist.m3u8"
   },
   {
-    "id": "la:45",
-    "name": "US 61 at Old Jefferson",
+    "id": "45",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3958943435194,
@@ -390,8 +390,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-182.streams/playlist.m3u8"
   },
   {
-    "id": "la:46",
-    "name": "US 61 at Pecue",
+    "id": "46",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3854966424065,
@@ -400,8 +400,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-183.streams/playlist.m3u8"
   },
   {
-    "id": "la:47",
-    "name": "US 61 at Barringer Foreman",
+    "id": "47",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.364479795081,
@@ -410,8 +410,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-167.streams/playlist.m3u8"
   },
   {
-    "id": "la:48",
-    "name": "US 61 at LA 22",
+    "id": "48",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.1904979144651,
@@ -420,8 +420,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-173.streams/playlist.m3u8"
   },
   {
-    "id": "la:49",
-    "name": "US 61 at State Fair Grounds",
+    "id": "49",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3496854041636,
@@ -430,8 +430,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-073.streams/playlist.m3u8"
   },
   {
-    "id": "la:50",
-    "name": "US 61 at LA 427",
+    "id": "50",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.333174840859,
@@ -440,8 +440,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-176.streams/playlist.m3u8"
   },
   {
-    "id": "la:51",
-    "name": "US 61 at LA 73",
+    "id": "51",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3042635251613,
@@ -450,8 +450,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-180.streams/playlist.m3u8"
   },
   {
-    "id": "la:52",
-    "name": "US 61 at LA 621",
+    "id": "52",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.26937,
@@ -460,8 +460,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-179.streams/playlist.m3u8"
   },
   {
-    "id": "la:53",
-    "name": "US 61 at LA 74",
+    "id": "53",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2570585516598,
@@ -470,8 +470,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-181.streams/playlist.m3u8"
   },
   {
-    "id": "la:54",
-    "name": "US 61 at LA 44",
+    "id": "54",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2462633964743,
@@ -480,8 +480,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-178.streams/playlist.m3u8"
   },
   {
-    "id": "la:55",
-    "name": "US 61 at LA 429",
+    "id": "55",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2361714396088,
@@ -490,8 +490,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-177.streams/playlist.m3u8"
   },
   {
-    "id": "la:56",
-    "name": "US 61 at LA 42",
+    "id": "56",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.31994009,
@@ -500,8 +500,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-175.streams/playlist.m3u8"
   },
   {
-    "id": "la:57",
-    "name": "US 61 at S of LA 22",
+    "id": "57",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.181126,
@@ -510,8 +510,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-187.streams/playlist.m3u8"
   },
   {
-    "id": "la:58",
-    "name": "US 61 at US 51",
+    "id": "58",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.0672499193392,
@@ -520,8 +520,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-042.streams/playlist.m3u8"
   },
   {
-    "id": "la:60",
-    "name": "US 190 at Oak Villa",
+    "id": "60",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.45411438,
@@ -530,8 +530,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-028.streams/playlist.m3u8"
   },
   {
-    "id": "la:61",
-    "name": "US 190 at Marilyn",
+    "id": "61",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.45569314,
@@ -540,8 +540,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-030.streams/playlist.m3u8"
   },
   {
-    "id": "la:62",
-    "name": "US 190 at Sherwood Forest",
+    "id": "62",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.45880406,
@@ -550,18 +550,18 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-029.streams/playlist.m3u8"
   },
   {
-    "id": "la:63",
-    "name": "US 190 at Choctaw/O Neal",
+    "id": "56",
+    "name": "Camera 56",
     "route": "",
     "jurisdiction": "",
     "lat": 30.466582,
     "lng": -91.00886118,
-    "image_url": "https://511la.org/map/Cctv/63",
-    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-032.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/56",
+    "video_url": ""
   },
   {
-    "id": "la:64",
-    "name": "US 190 at Stevendale",
+    "id": "64",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.46741981,
@@ -570,8 +570,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-033.streams/playlist.m3u8"
   },
   {
-    "id": "la:65",
-    "name": "US 190 N of I-12",
+    "id": "65",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.442263717927,
@@ -580,8 +580,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-024.streams/playlist.m3u8"
   },
   {
-    "id": "la:66",
-    "name": "US 190 at LA 22",
+    "id": "66",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3938822247228,
@@ -590,28 +590,28 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-009.streams/playlist.m3u8"
   },
   {
-    "id": "la:67",
-    "name": "I-220 at Blanchard Rd",
+    "id": "60",
+    "name": "Camera 60",
     "route": "",
     "jurisdiction": "",
     "lat": 32.520086,
     "lng": -93.809142,
-    "image_url": "https://511la.org/map/Cctv/67",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-026.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/60",
+    "video_url": ""
   },
   {
-    "id": "la:68",
-    "name": "I-220 at Jefferson Paige Rd",
+    "id": "61",
+    "name": "Camera 61",
     "route": "",
     "jurisdiction": "",
     "lat": 32.473056,
     "lng": -93.837778,
-    "image_url": "https://511la.org/map/Cctv/68",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-023.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/61",
+    "video_url": ""
   },
   {
-    "id": "la:69",
-    "name": "I-220 at Lakeshore Dr",
+    "id": "69",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.485278,
@@ -620,8 +620,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-024.streams/playlist.m3u8"
   },
   {
-    "id": "la:70",
-    "name": "I-220 at S Lakeshore Dr",
+    "id": "70",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.495708,
@@ -630,28 +630,28 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-025.streams/playlist.m3u8"
   },
   {
-    "id": "la:71",
-    "name": "I-220 at US 79/80",
+    "id": "64",
+    "name": "Camera 64",
     "route": "",
     "jurisdiction": "",
     "lat": 32.547522,
     "lng": -93.632439,
-    "image_url": "https://511la.org/map/Cctv/71",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-029.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/64",
+    "video_url": ""
   },
   {
-    "id": "la:72",
-    "name": "I-210 at US 90",
+    "id": "65",
+    "name": "Camera 65",
     "route": "",
     "jurisdiction": "",
     "lat": 30.235438,
     "lng": -93.1657986153846,
-    "image_url": "https://511la.org/map/Cctv/72",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-012.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/65",
+    "video_url": ""
   },
   {
-    "id": "la:73",
-    "name": "I-310 at US 61",
+    "id": "73",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9754048904634,
@@ -660,8 +660,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-044.streams/playlist.m3u8"
   },
   {
-    "id": "la:77",
-    "name": "LA 311 at S. Hollywood Rd.",
+    "id": "77",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.59929,
@@ -670,8 +670,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-009.streams/playlist.m3u8"
   },
   {
-    "id": "la:78",
-    "name": "I-610 at Canal Blvd.",
+    "id": "78",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.99507819,
@@ -680,8 +680,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-019.streams/playlist.m3u8"
   },
   {
-    "id": "la:79",
-    "name": "I-610 at St Bernard",
+    "id": "79",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9928041193548,
@@ -690,8 +690,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-105.streams/playlist.m3u8"
   },
   {
-    "id": "la:80",
-    "name": "I-610 at Elysian Fields",
+    "id": "80",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9909230949273,
@@ -700,8 +700,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-106.streams/playlist.m3u8"
   },
   {
-    "id": "la:82",
-    "name": "I-610 near City Park",
+    "id": "82",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9937185133638,
@@ -710,18 +710,18 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-104.streams/playlist.m3u8"
   },
   {
-    "id": "la:83",
-    "name": "LA 3040 at LA 24",
+    "id": "72",
+    "name": "Camera 72",
     "route": "",
     "jurisdiction": "",
     "lat": 29.63554,
     "lng": -90.75897,
-    "image_url": "https://511la.org/map/Cctv/83",
-    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-004.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/72",
+    "video_url": ""
   },
   {
-    "id": "la:84",
-    "name": "LA 3040 at St. Charles Ave.",
+    "id": "84",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.5950263364601,
@@ -730,8 +730,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-008.streams/playlist.m3u8"
   },
   {
-    "id": "la:85",
-    "name": "LA 3040 at S. Hollywood Rd.",
+    "id": "85",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.6055122754751,
@@ -740,28 +740,28 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-010.streams/playlist.m3u8"
   },
   {
-    "id": "la:87",
-    "name": "LA 3132 at 70th St",
+    "id": "75",
+    "name": "Camera 75",
     "route": "",
     "jurisdiction": "",
     "lat": 32.441879272,
     "lng": -93.84269714,
-    "image_url": "https://511la.org/map/Cctv/87",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-021.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/75",
+    "video_url": ""
   },
   {
-    "id": "la:150",
-    "name": "I-10 at US 165",
+    "id": "138",
+    "name": "Camera 138",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2483483697281,
     "lng": -92.9827331394232,
-    "image_url": "https://511la.org/map/Cctv/150",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-006.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/138",
+    "video_url": ""
   },
   {
-    "id": "la:152",
-    "name": "I-10 at Butte La Rose",
+    "id": "152",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3419489250621,
@@ -770,18 +770,18 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-059.streams/playlist.m3u8"
   },
   {
-    "id": "la:154",
-    "name": "I-10 at 10/12 Split",
+    "id": "140",
+    "name": "Camera 140",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4185009,
     "lng": -91.1191825604167,
-    "image_url": "https://511la.org/map/Cctv/154",
-    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-004.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/140",
+    "video_url": ""
   },
   {
-    "id": "la:156",
-    "name": "I-12 at Grays Creek",
+    "id": "156",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4604920744393,
@@ -790,8 +790,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-064.streams/playlist.m3u8"
   },
   {
-    "id": "la:159",
-    "name": "I-10 at Highland Rd.",
+    "id": "159",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.34597015,
@@ -800,8 +800,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-110.streams/playlist.m3u8"
   },
   {
-    "id": "la:161",
-    "name": "I-10 at LA 73",
+    "id": "161",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.26980019,
@@ -810,8 +810,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-120.streams/playlist.m3u8"
   },
   {
-    "id": "la:163",
-    "name": "I-10 at Old Henderson",
+    "id": "163",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3226849867257,
@@ -820,8 +820,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-062.streams/playlist.m3u8"
   },
   {
-    "id": "la:165",
-    "name": "I-10 at LA 30",
+    "id": "165",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2105202270196,
@@ -830,8 +830,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-088.streams/playlist.m3u8"
   },
   {
-    "id": "la:167",
-    "name": "I-20 East of I-220",
+    "id": "167",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.4568168355321,
@@ -840,8 +840,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-001.streams/playlist.m3u8"
   },
   {
-    "id": "la:168",
-    "name": "I-20 at Jewella Avenue",
+    "id": "168",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.472084,
@@ -850,8 +850,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-003.streams/playlist.m3u8"
   },
   {
-    "id": "la:169",
-    "name": "I-20 at Hearne Avenue",
+    "id": "169",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.47877,
@@ -860,8 +860,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-004.streams/playlist.m3u8"
   },
   {
-    "id": "la:170",
-    "name": "I-20 at Industrial Drive",
+    "id": "170",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.528267,
@@ -870,18 +870,18 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-017.streams/playlist.m3u8"
   },
   {
-    "id": "la:176",
-    "name": "I-220 at Swan Lake",
+    "id": "154",
+    "name": "Camera 154",
     "route": "",
     "jurisdiction": "",
     "lat": 32.5575095939227,
     "lng": -93.678758,
-    "image_url": "https://511la.org/map/Cctv/176",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-028.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/154",
+    "video_url": ""
   },
   {
-    "id": "la:177",
-    "name": "I-220 at US 71/Market St.",
+    "id": "177",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.55397172,
@@ -890,8 +890,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-027.streams/playlist.m3u8"
   },
   {
-    "id": "la:178",
-    "name": "LA 182 at LA 315",
+    "id": "178",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.5747221700949,
@@ -900,8 +900,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-006.streams/playlist.m3u8"
   },
   {
-    "id": "la:179",
-    "name": "LA 182 at LA 3040",
+    "id": "179",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.5911822083196,
@@ -910,8 +910,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-007.streams/playlist.m3u8"
   },
   {
-    "id": "la:180",
-    "name": "LA 24 at LA 182",
+    "id": "180",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.5985675822363,
@@ -920,8 +920,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-003.streams/playlist.m3u8"
   },
   {
-    "id": "la:181",
-    "name": "LA 24 at Intercoastal Waterway",
+    "id": "181",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.5989565335298,
@@ -930,8 +930,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-011.streams/playlist.m3u8"
   },
   {
-    "id": "la:182",
-    "name": "LA 24 at LA 3087",
+    "id": "182",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.5916041180556,
@@ -940,8 +940,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-013.streams/playlist.m3u8"
   },
   {
-    "id": "la:183",
-    "name": "LA 57 at LA 661",
+    "id": "183",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.58722,
@@ -950,8 +950,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-012.streams/playlist.m3u8"
   },
   {
-    "id": "la:184",
-    "name": "LA 659 at LA 3087",
+    "id": "184",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.5925351867816,
@@ -960,8 +960,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-014.streams/playlist.m3u8"
   },
   {
-    "id": "la:185",
-    "name": "US 90 at LA 24",
+    "id": "185",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.6796221990984,
@@ -970,8 +970,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/hou-cam-001.streams/playlist.m3u8"
   },
   {
-    "id": "la:187",
-    "name": "US 61 at Coursey/Bluebonnet",
+    "id": "187",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.416701,
@@ -980,8 +980,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-027.streams/playlist.m3u8"
   },
   {
-    "id": "la:188",
-    "name": "US 61 at Old Hammond Hwy.",
+    "id": "188",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4314675290452,
@@ -990,8 +990,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-026.streams/playlist.m3u8"
   },
   {
-    "id": "la:190",
-    "name": "I-110 at Florida St.",
+    "id": "190",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.449869,
@@ -1000,8 +1000,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-013.streams/playlist.m3u8"
   },
   {
-    "id": "la:191",
-    "name": "US 61 at Greenwell Springs Rd.",
+    "id": "191",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4768945159783,
@@ -1010,18 +1010,18 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-170.streams/playlist.m3u8"
   },
   {
-    "id": "la:192",
-    "name": "US 61 at LA 30",
+    "id": "170",
+    "name": "Camera 170",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2114275831492,
     "lng": -90.8810785511128,
-    "image_url": "https://511la.org/map/Cctv/192",
-    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-174.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/170",
+    "video_url": ""
   },
   {
-    "id": "la:193",
-    "name": "US 61 at Old Troop A",
+    "id": "193",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4022548297202,
@@ -1030,8 +1030,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-102.streams/playlist.m3u8"
   },
   {
-    "id": "la:194",
-    "name": "I-55 at Manchac Tower",
+    "id": "194",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3003656020762,
@@ -1040,8 +1040,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-028.streams/playlist.m3u8"
   },
   {
-    "id": "la:196",
-    "name": "US 90B Eastbank HOV Ramp - Magnolia",
+    "id": "196",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.94825976656,
@@ -1050,8 +1050,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-072.streams/playlist.m3u8"
   },
   {
-    "id": "la:197",
-    "name": "I-20 at LA 15",
+    "id": "197",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.50052875,
@@ -1060,8 +1060,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-007.streams/playlist.m3u8"
   },
   {
-    "id": "la:198",
-    "name": "I-20 at Texas Ave.",
+    "id": "198",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.5004990067114,
@@ -1070,18 +1070,18 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-008.streams/playlist.m3u8"
   },
   {
-    "id": "la:199",
-    "name": "I-20 at US 165",
+    "id": "176",
+    "name": "Camera 176",
     "route": "",
     "jurisdiction": "",
     "lat": 32.50040054,
     "lng": -92.07990265,
-    "image_url": "https://511la.org/map/Cctv/199",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-009.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/176",
+    "video_url": ""
   },
   {
-    "id": "la:201",
-    "name": "I-20 at Pecanland Mall",
+    "id": "201",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.4943559174147,
@@ -1090,8 +1090,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-011.streams/playlist.m3u8"
   },
   {
-    "id": "la:202",
-    "name": "US-165 at US 80",
+    "id": "202",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.522864,
@@ -1100,8 +1100,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-012.streams/playlist.m3u8"
   },
   {
-    "id": "la:203",
-    "name": "US 80 at Cypress",
+    "id": "203",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.50381996,
@@ -1110,8 +1110,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/mnr-cam-006.streams/playlist.m3u8"
   },
   {
-    "id": "la:204",
-    "name": "LA 70 S of LA 22",
+    "id": "204",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.148986,
@@ -1120,8 +1120,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-213.streams/playlist.m3u8"
   },
   {
-    "id": "la:205",
-    "name": "LA 70 N of LA 3125",
+    "id": "205",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.1201110000001,
@@ -1130,8 +1130,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-214.streams/playlist.m3u8"
   },
   {
-    "id": "la:206",
-    "name": "LA 70 at LA 3125",
+    "id": "206",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.1078593056027,
@@ -1140,8 +1140,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-215.streams/playlist.m3u8"
   },
   {
-    "id": "la:207",
-    "name": "LA 70 at LA 44",
+    "id": "207",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.0997224272476,
@@ -1150,8 +1150,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-216.streams/playlist.m3u8"
   },
   {
-    "id": "la:209",
-    "name": "LA 70 at LA 18",
+    "id": "209",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.096475663973,
@@ -1160,28 +1160,28 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-218.streams/playlist.m3u8"
   },
   {
-    "id": "la:211",
-    "name": "I-49 at US 71",
+    "id": "185",
+    "name": "Camera 185",
     "route": "",
     "jurisdiction": "",
     "lat": 31.24387573,
     "lng": -92.42940521,
-    "image_url": "https://511la.org/map/Cctv/211",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/alx-cam-001.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/185",
+    "video_url": ""
   },
   {
-    "id": "la:214",
-    "name": "I-49 at Pineville XWY",
+    "id": "186",
+    "name": "Camera 186",
     "route": "",
     "jurisdiction": "",
     "lat": 31.30288124,
     "lng": -92.44637299,
-    "image_url": "https://511la.org/map/Cctv/214",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/alx-cam-004.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/186",
+    "video_url": ""
   },
   {
-    "id": "la:217",
-    "name": "I-49 at US 165/71",
+    "id": "217",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 31.3240934874286,
@@ -1190,8 +1190,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/alx-cam-007.streams/playlist.m3u8"
   },
   {
-    "id": "la:220",
-    "name": "LA 1 at Intracoastal Canal",
+    "id": "220",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4345980192308,
@@ -1200,8 +1200,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-098.streams/playlist.m3u8"
   },
   {
-    "id": "la:222",
-    "name": "US 190 at Miss River Brdg. West",
+    "id": "222",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.5062413547249,
@@ -1210,8 +1210,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-252.streams/playlist.m3u8"
   },
   {
-    "id": "la:224",
-    "name": "US 190 at Miss River Brdg East",
+    "id": "224",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.5075162680851,
@@ -1220,18 +1220,18 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-250.streams/playlist.m3u8"
   },
   {
-    "id": "la:228",
-    "name": "I-12 at Amite River Brdg",
+    "id": "192",
+    "name": "Camera 192",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4467771596244,
     "lng": -90.98919,
-    "image_url": "https://511la.org/map/Cctv/228",
-    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-096.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/192",
+    "video_url": ""
   },
   {
-    "id": "la:230",
-    "name": "I-10 between Grosse Tete and LA 415",
+    "id": "230",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4533816356295,
@@ -1240,8 +1240,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-256.streams/playlist.m3u8"
   },
   {
-    "id": "la:231",
-    "name": "I-10 at BC Spillway MM 210",
+    "id": "231",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.0840466540992,
@@ -1250,8 +1250,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-040.streams/playlist.m3u8"
   },
   {
-    "id": "la:233",
-    "name": "I-10 at LA 77",
+    "id": "233",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4191102589378,
@@ -1260,8 +1260,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-027.streams/playlist.m3u8"
   },
   {
-    "id": "la:234",
-    "name": "I-10 at LA 95",
+    "id": "234",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2475981824756,
@@ -1270,8 +1270,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-023.streams/playlist.m3u8"
   },
   {
-    "id": "la:236",
-    "name": "I-10 at Dalrymple",
+    "id": "236",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4281236277412,
@@ -1280,8 +1280,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-037.streams/playlist.m3u8"
   },
   {
-    "id": "la:237",
-    "name": "O Neal at Old Hammond",
+    "id": "237",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4602324821043,
@@ -1290,18 +1290,18 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-053.streams/playlist.m3u8"
   },
   {
-    "id": "la:238",
-    "name": "I-10 between LA 415 and LA 1",
+    "id": "199",
+    "name": "Camera 199",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4449192217857,
     "lng": -91.23,
-    "image_url": "https://511la.org/map/Cctv/238",
-    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-210.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/199",
+    "video_url": ""
   },
   {
-    "id": "la:239",
-    "name": "I-12 at West Colyell Creek Brdg",
+    "id": "239",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4662018257971,
@@ -1310,8 +1310,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-092.streams/playlist.m3u8"
   },
   {
-    "id": "la:240",
-    "name": "I-10 at Slidell Welcome Center",
+    "id": "240",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2981095987974,
@@ -1320,8 +1320,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-044.streams/playlist.m3u8"
   },
   {
-    "id": "la:241",
-    "name": "I-59 at Welcome Center",
+    "id": "241",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3232494201656,
@@ -1330,8 +1330,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-045.streams/playlist.m3u8"
   },
   {
-    "id": "la:242",
-    "name": "I-10 at BC Spillway MM 212",
+    "id": "242",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.0778074325478,
@@ -1340,18 +1340,18 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-038.streams/playlist.m3u8"
   },
   {
-    "id": "la:244",
-    "name": "US 90 at Claiborne Ramp",
+    "id": "204",
+    "name": "Camera 204",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9508191962124,
     "lng": -90.0849527875762,
-    "image_url": "https://511la.org/map/Cctv/244",
-    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-140.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/204",
+    "video_url": ""
   },
   {
-    "id": "la:247",
-    "name": "I-10 at Henderson DMS",
+    "id": "247",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3093,
@@ -1360,18 +1360,18 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-063.streams/playlist.m3u8"
   },
   {
-    "id": "la:248",
-    "name": "I-10 at Louisiana Ave. DMS",
+    "id": "206",
+    "name": "Camera 206",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2791071460734,
     "lng": -91.95602,
-    "image_url": "https://511la.org/map/Cctv/248",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-064.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/206",
+    "video_url": ""
   },
   {
-    "id": "la:249",
-    "name": "I-10 at LA 397",
+    "id": "249",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2443368968803,
@@ -1380,8 +1380,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-361.streams/playlist.m3u8"
   },
   {
-    "id": "la:251",
-    "name": "I-10 at I-210 East",
+    "id": "251",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.245708198278,
@@ -1390,8 +1390,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-341.streams/playlist.m3u8"
   },
   {
-    "id": "la:254",
-    "name": "I-10 at Fruge Street",
+    "id": "254",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2363708806297,
@@ -1400,8 +1400,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-321.streams/playlist.m3u8"
   },
   {
-    "id": "la:256",
-    "name": "I-10 at Enterprise Blvd",
+    "id": "256",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2358226210778,
@@ -1410,28 +1410,28 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-311.streams/playlist.m3u8"
   },
   {
-    "id": "la:258",
-    "name": "I-10 at Ryan Street",
+    "id": "211",
+    "name": "Camera 211",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2357964326901,
     "lng": -93.2168652649439,
-    "image_url": "https://511la.org/map/Cctv/258",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-301.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/211",
+    "video_url": ""
   },
   {
-    "id": "la:260",
-    "name": "I-10 at Calcasieu River Bridge",
+    "id": "212",
+    "name": "Camera 212",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2370839728433,
     "lng": -93.2369686614743,
-    "image_url": "https://511la.org/map/Cctv/260",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-291.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/212",
+    "video_url": ""
   },
   {
-    "id": "la:262",
-    "name": "I-10 at LA 378",
+    "id": "262",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2369569105655,
@@ -1440,18 +1440,18 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-271.streams/playlist.m3u8"
   },
   {
-    "id": "la:264",
-    "name": "I-10 at US 90",
+    "id": "214",
+    "name": "Camera 214",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2367947204975,
     "lng": -93.2799322436941,
-    "image_url": "https://511la.org/map/Cctv/264",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-261.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/214",
+    "video_url": ""
   },
   {
-    "id": "la:266",
-    "name": "I-10 at I-210 Sulphur",
+    "id": "266",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2280125152755,
@@ -1460,18 +1460,18 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-251.streams/playlist.m3u8"
   },
   {
-    "id": "la:269",
-    "name": "I-10 near Praiter Road",
+    "id": "216",
+    "name": "Camera 216",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2208449894648,
     "lng": -93.3174383303067,
-    "image_url": "https://511la.org/map/Cctv/269",
-    "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-241.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/216",
+    "video_url": ""
   },
   {
-    "id": "la:271",
-    "name": "I-10 at LA 108",
+    "id": "271",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2160271755088,
@@ -1480,8 +1480,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-231.streams/playlist.m3u8"
   },
   {
-    "id": "la:273",
-    "name": "I-10 at LA 27",
+    "id": "273",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2156686935241,
@@ -1490,8 +1490,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-211.streams/playlist.m3u8"
   },
   {
-    "id": "la:275",
-    "name": "I-10 at Ruth Street",
+    "id": "275",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2156207276061,
@@ -1500,28 +1500,28 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-201.streams/playlist.m3u8"
   },
   {
-    "id": "la:277",
-    "name": "US 90B at Terry Parkway",
+    "id": "220",
+    "name": "Camera 220",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9261224966813,
     "lng": -90.0396764238088,
-    "image_url": "https://511la.org/map/Cctv/277",
-    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-082.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/220",
+    "video_url": ""
   },
   {
-    "id": "la:278",
-    "name": "HOV Ramp at General Degualle Exit",
+    "id": "221",
+    "name": "Camera 221",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9292030509628,
     "lng": -90.038063679996,
-    "image_url": "https://511la.org/map/Cctv/278",
-    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-081.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/221",
+    "video_url": ""
   },
   {
-    "id": "la:279",
-    "name": "US 90B Westbank Expwy at Newton",
+    "id": "279",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9089596979173,
@@ -1530,8 +1530,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-084.streams/playlist.m3u8"
   },
   {
-    "id": "la:280",
-    "name": "US 90B at 2nd Ave",
+    "id": "280",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.8971005622346,
@@ -1540,8 +1540,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-086.streams/playlist.m3u8"
   },
   {
-    "id": "la:281",
-    "name": "US 90B at Eastbank CCC Bridge",
+    "id": "281",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.938923760141,
@@ -1550,18 +1550,18 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-078.streams/playlist.m3u8"
   },
   {
-    "id": "la:282",
-    "name": "US 90B at Avenue K",
+    "id": "225",
+    "name": "Camera 225",
     "route": "",
     "jurisdiction": "",
     "lat": 29.893929347902,
     "lng": -90.10594,
-    "image_url": "https://511la.org/map/Cctv/282",
-    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-087.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/225",
+    "video_url": ""
   },
   {
-    "id": "la:283",
-    "name": "US 90B at Lafayette Street DMS",
+    "id": "283",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9097399215013,
@@ -1570,8 +1570,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-089.streams/playlist.m3u8"
   },
   {
-    "id": "la:284",
-    "name": "US 90B at LA 428",
+    "id": "284",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9325270070306,
@@ -1580,8 +1580,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-128.streams/playlist.m3u8"
   },
   {
-    "id": "la:286",
-    "name": "I-10 Twin Spans at Southshore",
+    "id": "286",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.153753,
@@ -1590,8 +1590,8 @@
     "video_url": "https://itsstreamingno.dotd.la.gov/public/ns-cam-254.streams/playlist.m3u8"
   },
   {
-    "id": "la:288",
-    "name": "I-10 Twin Spans at MM 256.5",
+    "id": "288",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.169801,
@@ -1600,8 +1600,8 @@
     "video_url": "https://itsstreamingno.dotd.la.gov/public/ns-cam-256.streams/playlist.m3u8"
   },
   {
-    "id": "la:290",
-    "name": "I-10 Twin Spans at MM 258",
+    "id": "290",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.185375,
@@ -1610,8 +1610,8 @@
     "video_url": "https://itsstreamingno.dotd.la.gov/public/ns-cam-258.streams/playlist.m3u8"
   },
   {
-    "id": "la:292",
-    "name": "I-10 Twin Spans at Northshore",
+    "id": "292",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.21209,
@@ -1620,8 +1620,8 @@
     "video_url": "https://itsstreamingno.dotd.la.gov/public/ns-cam-260.streams/playlist.m3u8"
   },
   {
-    "id": "la:294",
-    "name": "LA 1 North Leeville",
+    "id": "294",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.2696,
@@ -1630,8 +1630,8 @@
     "video_url": "https://itsstreamingno.dotd.la.gov/public/lee-cam-001.streams/playlist.m3u8"
   },
   {
-    "id": "la:295",
-    "name": "LA 1 @ Leeville Toll Plaza",
+    "id": "295",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.258909,
@@ -1640,8 +1640,8 @@
     "video_url": "https://itsstreamingno.dotd.la.gov/public/lee-cam-002.streams/playlist.m3u8"
   },
   {
-    "id": "la:301",
-    "name": "LA1 at American Way",
+    "id": "301",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.41434,
@@ -1650,8 +1650,8 @@
     "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-101.streams/playlist.m3u8"
   },
   {
-    "id": "la:302",
-    "name": "US 165 at Finks Hideaway",
+    "id": "302",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.568231,
@@ -1660,8 +1660,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/mnr-cam-013.streams/playlist.m3u8"
   },
   {
-    "id": "la:304",
-    "name": "US 165 before Forsythe Bypass",
+    "id": "304",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.551441,
@@ -1670,8 +1670,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/mnr-cam-015.streams/playlist.m3u8"
   },
   {
-    "id": "la:306",
-    "name": "US 165 at Ferrand Street",
+    "id": "306",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.529653,
@@ -1680,8 +1680,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/mnr-cam-017.streams/playlist.m3u8"
   },
   {
-    "id": "la:308",
-    "name": "US 165 at Renwick",
+    "id": "308",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.51398,
@@ -1690,8 +1690,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/mnr-cam-019.streams/playlist.m3u8"
   },
   {
-    "id": "la:310",
-    "name": "US 165 at Winsboro",
+    "id": "310",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.482146,
@@ -1700,8 +1700,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/mnr-cam-021.streams/playlist.m3u8"
   },
   {
-    "id": "la:312",
-    "name": "US 165 at Richwood",
+    "id": "312",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.448785,
@@ -1710,8 +1710,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/mnr-cam-023.streams/playlist.m3u8"
   },
   {
-    "id": "la:314",
-    "name": "I-10 at Aris Ave",
+    "id": "314",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.99622089,
@@ -1720,8 +1720,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-010.streams/playlist.m3u8"
   },
   {
-    "id": "la:315",
-    "name": "I-10 at Mound Ave.",
+    "id": "315",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.987933,
@@ -1730,8 +1730,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-013.streams/playlist.m3u8"
   },
   {
-    "id": "la:316",
-    "name": "I-10 at Carrolton",
+    "id": "316",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9687761369347,
@@ -1740,8 +1740,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-124.streams/playlist.m3u8"
   },
   {
-    "id": "la:318",
-    "name": "I-10 at Airline Hwy",
+    "id": "318",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9708550236876,
@@ -1750,8 +1750,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-116.streams/playlist.m3u8"
   },
   {
-    "id": "la:320",
-    "name": "I-10 at Jefferson Davis Pkwy.",
+    "id": "320",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.96214,
@@ -1760,8 +1760,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-016.streams/playlist.m3u8"
   },
   {
-    "id": "la:321",
-    "name": "I-10 at Jefferson Davis DMS",
+    "id": "321",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.95965195,
@@ -1770,8 +1770,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-127.streams/playlist.m3u8"
   },
   {
-    "id": "la:323",
-    "name": "I-10 at US 90 Claiborne Overpass",
+    "id": "323",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9539701806554,
@@ -1780,8 +1780,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-114.streams/playlist.m3u8"
   },
   {
-    "id": "la:325",
-    "name": "I-10 at Orleans Ave",
+    "id": "325",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9634311897707,
@@ -1790,8 +1790,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-113.streams/playlist.m3u8"
   },
   {
-    "id": "la:336",
-    "name": "I-10 at Claiborne",
+    "id": "336",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9746442865292,
@@ -1800,8 +1800,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-111.streams/playlist.m3u8"
   },
   {
-    "id": "la:341",
-    "name": "I-10 at Elysian Fields",
+    "id": "341",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9810922157123,
@@ -1810,8 +1810,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-110.streams/playlist.m3u8"
   },
   {
-    "id": "la:342",
-    "name": "I-10/I-610 at 17th Street Canal",
+    "id": "342",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9954798411796,
@@ -1820,8 +1820,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-125.streams/playlist.m3u8"
   },
   {
-    "id": "la:343",
-    "name": "I-10 at Louisa",
+    "id": "343",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.0028292657005,
@@ -1830,8 +1830,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-063.streams/playlist.m3u8"
   },
   {
-    "id": "la:345",
-    "name": "I-10 at Chef Menteur",
+    "id": "345",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.011324,
@@ -1840,8 +1840,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-069.streams/playlist.m3u8"
   },
   {
-    "id": "la:346",
-    "name": "I-10 at Oak Harbor Blvd",
+    "id": "346",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.222,
@@ -1850,8 +1850,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-018.streams/playlist.m3u8"
   },
   {
-    "id": "la:347",
-    "name": "I-10 at Old Spanish Trail",
+    "id": "347",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.24706,
@@ -1860,8 +1860,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-017.streams/playlist.m3u8"
   },
   {
-    "id": "la:348",
-    "name": "I-10 at US 190",
+    "id": "348",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.28516667,
@@ -1870,8 +1870,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-015.streams/playlist.m3u8"
   },
   {
-    "id": "la:349",
-    "name": "I-10/I-12/I-59 Interchange #1",
+    "id": "349",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3038791115017,
@@ -1880,8 +1880,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-040.streams/playlist.m3u8"
   },
   {
-    "id": "la:351",
-    "name": "LA 1 (Bolton Ave.) at US 71",
+    "id": "351",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 31.317081,
@@ -1890,8 +1890,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/alx-cam-010.streams/playlist.m3u8"
   },
   {
-    "id": "la:352",
-    "name": "US 71 at LA 28 (Monroe St.)",
+    "id": "352",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 31.299614,
@@ -1900,8 +1900,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/alx-cam-011.streams/playlist.m3u8"
   },
   {
-    "id": "la:353",
-    "name": "LA 28 at John Eskew",
+    "id": "353",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 31.295149,
@@ -1910,8 +1910,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/alx-cam-012.streams/playlist.m3u8"
   },
   {
-    "id": "la:354",
-    "name": "US 71 at LA 1208 ( Jackson St.)",
+    "id": "354",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 31.286772,
@@ -1920,8 +1920,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/alx-cam-013.streams/playlist.m3u8"
   },
   {
-    "id": "la:355",
-    "name": "US 71 at Masonic Circle (NW)",
+    "id": "355",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 31.275518,
@@ -1930,8 +1930,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/alx-cam-014.streams/playlist.m3u8"
   },
   {
-    "id": "la:357",
-    "name": "US 71 at Masonic Circle (SW)",
+    "id": "357",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 31.272272,
@@ -1940,8 +1940,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/alx-cam-016.streams/playlist.m3u8"
   },
   {
-    "id": "la:358",
-    "name": "US 71 at Masonic Circle (SE)",
+    "id": "358",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 31.272743,
@@ -1950,8 +1950,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/alx-cam-017.streams/playlist.m3u8"
   },
   {
-    "id": "la:360",
-    "name": "US 71 at LEE St./Horseshoe Dr.",
+    "id": "360",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 31.262054,
@@ -1960,8 +1960,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/alx-cam-019.streams/playlist.m3u8"
   },
   {
-    "id": "la:361",
-    "name": "US 71 at LA 3250 (Sugarhouse Rd.)",
+    "id": "361",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 31.252947,
@@ -1970,8 +1970,8 @@
     "video_url": "https://itsstreamingbr2.dotd.la.gov/public/alx-cam-020.streams/playlist.m3u8"
   },
   {
-    "id": "la:362",
-    "name": "I-10 East of I-10/I-12/I-59 Split",
+    "id": "362",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2984104477655,
@@ -1980,8 +1980,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-012.streams/playlist.m3u8"
   },
   {
-    "id": "la:363",
-    "name": "I-110 at Government St.",
+    "id": "363",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.443799973,
@@ -1990,8 +1990,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-012.streams/playlist.m3u8"
   },
   {
-    "id": "la:364",
-    "name": "I-110 at Governors Mansion",
+    "id": "364",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4570245,
@@ -2000,8 +2000,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-017.streams/playlist.m3u8"
   },
   {
-    "id": "la:365",
-    "name": "I-110 at North 22nd St.",
+    "id": "365",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.458950043,
@@ -2010,8 +2010,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-018.streams/playlist.m3u8"
   },
   {
-    "id": "la:366",
-    "name": "I-110 at Chippewa",
+    "id": "366",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.47113,
@@ -2020,8 +2020,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-036.streams/playlist.m3u8"
   },
   {
-    "id": "la:367",
-    "name": "I-110 at US 61",
+    "id": "367",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.509044,
@@ -2030,8 +2030,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-131.streams/playlist.m3u8"
   },
   {
-    "id": "la:371",
-    "name": "I-110 at 72nd St",
+    "id": "371",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.51702127,
@@ -2040,8 +2040,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-130.streams/playlist.m3u8"
   },
   {
-    "id": "la:372",
-    "name": "I-12 E of I-12 Split",
+    "id": "372",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4178512892951,
@@ -2050,8 +2050,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-003.streams/playlist.m3u8"
   },
   {
-    "id": "la:373",
-    "name": "I-12 at Essen Lane",
+    "id": "373",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.41735,
@@ -2060,8 +2060,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-002.streams/playlist.m3u8"
   },
   {
-    "id": "la:374",
-    "name": "I-12 at Drusilla Lane",
+    "id": "374",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.417716,
@@ -2070,8 +2070,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-001.streams/playlist.m3u8"
   },
   {
-    "id": "la:376",
-    "name": "I-12 at Sherwood",
+    "id": "376",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.43048668,
@@ -2080,8 +2080,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-039.streams/playlist.m3u8"
   },
   {
-    "id": "la:377",
-    "name": "I-12 at Jones Creek",
+    "id": "377",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.43413,
@@ -2090,8 +2090,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-043.streams/playlist.m3u8"
   },
   {
-    "id": "la:379",
-    "name": "I-12 at Airline Hwy.",
+    "id": "379",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4238284536743,
@@ -2100,8 +2100,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-024.streams/playlist.m3u8"
   },
   {
-    "id": "la:380",
-    "name": "I-12 at Millerville",
+    "id": "380",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4379880678812,
@@ -2110,8 +2110,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-046.streams/playlist.m3u8"
   },
   {
-    "id": "la:382",
-    "name": "I-12 at O Neal Lane",
+    "id": "382",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.44300652,
@@ -2120,8 +2120,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-051.streams/playlist.m3u8"
   },
   {
-    "id": "la:384",
-    "name": "I-12 at 4H Club Road",
+    "id": "384",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4514395438341,
@@ -2130,8 +2130,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-135.streams/playlist.m3u8"
   },
   {
-    "id": "la:386",
-    "name": "I-12 at Range Ave",
+    "id": "386",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.45526314,
@@ -2140,28 +2140,28 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-059.streams/playlist.m3u8"
   },
   {
-    "id": "la:388",
-    "name": "I-12 at Juban Rd",
+    "id": "300",
+    "name": "Camera 300",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4644361675972,
     "lng": -90.9174639598624,
-    "image_url": "https://511la.org/map/Cctv/388",
-    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-067.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/300",
+    "video_url": ""
   },
   {
-    "id": "la:390",
-    "name": "I-12 at Walker",
+    "id": "301",
+    "name": "Camera 301",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4700052,
     "lng": -90.86262335,
-    "image_url": "https://511la.org/map/Cctv/390",
-    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-072.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/301",
+    "video_url": ""
   },
   {
-    "id": "la:392",
-    "name": "I-12 W of I-55",
+    "id": "392",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.47966667,
@@ -2170,8 +2170,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-003.streams/playlist.m3u8"
   },
   {
-    "id": "la:393",
-    "name": "I-12 at I-12/I-55 Junction",
+    "id": "393",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.47885731,
@@ -2180,8 +2180,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-001.streams/playlist.m3u8"
   },
   {
-    "id": "la:395",
-    "name": "I-12 E of I-55",
+    "id": "395",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.47866667,
@@ -2190,8 +2190,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-004.streams/playlist.m3u8"
   },
   {
-    "id": "la:396",
-    "name": "I-12 W of US 190",
+    "id": "396",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.43816667,
@@ -2200,8 +2200,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-011.streams/playlist.m3u8"
   },
   {
-    "id": "la:397",
-    "name": "I-12 E of US 190",
+    "id": "397",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.425290166701,
@@ -2210,8 +2210,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-010.streams/playlist.m3u8"
   },
   {
-    "id": "la:398",
-    "name": "I-12 at US 190",
+    "id": "398",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.428913,
@@ -2220,8 +2220,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-005.streams/playlist.m3u8"
   },
   {
-    "id": "la:402",
-    "name": "I-12 W of US 11",
+    "id": "402",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.30983333,
@@ -2230,8 +2230,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-025.streams/playlist.m3u8"
   },
   {
-    "id": "la:403",
-    "name": "I-12 W of I-10/I-12/I-59",
+    "id": "403",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.30682945,
@@ -2240,8 +2240,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/ns-cam-042.streams/playlist.m3u8"
   },
   {
-    "id": "la:405",
-    "name": "I-20 at Pines Rd",
+    "id": "405",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.451111,
@@ -2250,8 +2250,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-019.streams/playlist.m3u8"
   },
   {
-    "id": "la:406",
-    "name": "I-20 at Bert Kouns",
+    "id": "406",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 32.447778,
@@ -2260,8 +2260,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/shr-cam-018.streams/playlist.m3u8"
   },
   {
-    "id": "la:407",
-    "name": "I-610 at West End",
+    "id": "407",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 29.9954220789946,
@@ -2270,8 +2270,8 @@
     "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-122.streams/playlist.m3u8"
   },
   {
-    "id": "la:409",
-    "name": "I-10 at LA 44",
+    "id": "409",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.19261,
@@ -2280,8 +2280,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-115.streams/playlist.m3u8"
   },
   {
-    "id": "la:411",
-    "name": "LA 22 at LA 70",
+    "id": "411",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.16645,
@@ -2290,8 +2290,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-212.streams/playlist.m3u8"
   },
   {
-    "id": "la:412",
-    "name": "I-10 at US 171",
+    "id": "412",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2464337865854,
@@ -2300,8 +2300,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/lkc-cam-331.streams/playlist.m3u8"
   },
   {
-    "id": "la:413",
-    "name": "I-10 at Ambassador Caffery",
+    "id": "413",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.24681877,
@@ -2310,8 +2310,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-031.streams/playlist.m3u8"
   },
   {
-    "id": "la:414",
-    "name": "I-10 at I-49",
+    "id": "414",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.25916297,
@@ -2320,8 +2320,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-038.streams/playlist.m3u8"
   },
   {
-    "id": "la:416",
-    "name": "I-10 at Louisiana Ave",
+    "id": "416",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.26761055,
@@ -2330,8 +2330,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-001.streams/playlist.m3u8"
   },
   {
-    "id": "la:418",
-    "name": "I-10 at Breaux Bridge",
+    "id": "418",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2949332751638,
@@ -2340,8 +2340,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-003.streams/playlist.m3u8"
   },
   {
-    "id": "la:420",
-    "name": "I-10 at LA 347",
+    "id": "420",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3150284941001,
@@ -2350,8 +2350,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-005.streams/playlist.m3u8"
   },
   {
-    "id": "la:422",
-    "name": "I-10 at MM 119.5",
+    "id": "422",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3320754829659,
@@ -2360,8 +2360,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-007.streams/playlist.m3u8"
   },
   {
-    "id": "la:424",
-    "name": "I-10 at MM 124.5",
+    "id": "424",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.3540743217621,
@@ -2370,8 +2370,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-009.streams/playlist.m3u8"
   },
   {
-    "id": "la:426",
-    "name": "I-10 at Whiskey Bay",
+    "id": "426",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.36804925,
@@ -2380,8 +2380,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-048.streams/playlist.m3u8"
   },
   {
-    "id": "la:428",
-    "name": "I-10 at MM 131.5",
+    "id": "428",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.38439941,
@@ -2390,8 +2390,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-011.streams/playlist.m3u8"
   },
   {
-    "id": "la:430",
-    "name": "I-10 at Ramah",
+    "id": "430",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4004653,
@@ -2400,8 +2400,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-051.streams/playlist.m3u8"
   },
   {
-    "id": "la:432",
-    "name": "I-10 at Grosse Tete Tower",
+    "id": "432",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.412639,
@@ -2410,8 +2410,8 @@
     "video_url": "https://ITSStreamingBR2.dotd.la.gov/public/laf-cam-025.streams/playlist.m3u8"
   },
   {
-    "id": "la:433",
-    "name": "I-10 at LA 415",
+    "id": "433",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.446,
@@ -2420,8 +2420,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-016.streams/playlist.m3u8"
   },
   {
-    "id": "la:434",
-    "name": "I-10 at LA 1",
+    "id": "434",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.44021347,
@@ -2430,8 +2430,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-015.streams/playlist.m3u8"
   },
   {
-    "id": "la:435",
-    "name": "I-10 at Nicholson",
+    "id": "435",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4389182592004,
@@ -2440,8 +2440,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-014.streams/playlist.m3u8"
   },
   {
-    "id": "la:436",
-    "name": "I-10 at I-110 Split",
+    "id": "436",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.43832,
@@ -2450,8 +2450,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-011.streams/playlist.m3u8"
   },
   {
-    "id": "la:437",
-    "name": "I-10 at Washington Street",
+    "id": "437",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4309177274243,
@@ -2460,8 +2460,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-010.streams/playlist.m3u8"
   },
   {
-    "id": "la:438",
-    "name": "I-10 at Perkins Road",
+    "id": "438",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.42511,
@@ -2470,8 +2470,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-009.streams/playlist.m3u8"
   },
   {
-    "id": "la:440",
-    "name": "I-10 at Acadian Thruway",
+    "id": "440",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.423879623,
@@ -2480,8 +2480,8 @@
     "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-040.streams/playlist.m3u8"
   },
   {
-    "id": "la:441",
-    "name": "I-10 at College Dr.",
+    "id": "441",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4228608785919,
@@ -2490,8 +2490,8 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-007.streams/playlist.m3u8"
   },
   {
-    "id": "la:442",
-    "name": "I-10 at Citiplace",
+    "id": "442",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4218196877623,
@@ -2500,13 +2500,863 @@
     "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-006.streams/playlist.m3u8"
   },
   {
-    "id": "la:443",
-    "name": "I-10 at Essen Lane",
+    "id": "336",
+    "name": "Camera 336",
     "route": "",
     "jurisdiction": "",
     "lat": 30.4076134863822,
     "lng": -91.10179138,
-    "image_url": "https://511la.org/map/Cctv/443",
-    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-019.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/336",
+    "video_url": ""
+  },
+  {
+    "id": "445",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.53374,
+    "lng": -91.40775,
+    "image_url": "https://511la.org/map/Cctv/445",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-261.streams/playlist.m3u8"
+  },
+  {
+    "id": "338",
+    "name": "Camera 338",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.554552,
+    "lng": -91.55668,
+    "image_url": "https://511la.org/map/Cctv/338",
+    "video_url": ""
+  },
+  {
+    "id": "449",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.39530182,
+    "lng": -91.086287114359,
+    "image_url": "https://511la.org/map/Cctv/449",
+    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-020.streams/playlist.m3u8"
+  },
+  {
+    "id": "451",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.389948511684,
+    "lng": -91.078108079865,
+    "image_url": "https://511la.org/map/Cctv/451",
+    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-021.streams/playlist.m3u8"
+  },
+  {
+    "id": "341",
+    "name": "Camera 341",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.38162994,
+    "lng": -91.06578827,
+    "image_url": "https://511la.org/map/Cctv/341",
+    "video_url": ""
+  },
+  {
+    "id": "454",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.493825,
+    "lng": -91.254695,
+    "image_url": "https://511la.org/map/Cctv/454",
+    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-254.streams/playlist.m3u8"
+  },
+  {
+    "id": "344",
+    "name": "Camera 344",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.31880048,
+    "lng": -91.00264238,
+    "image_url": "https://511la.org/map/Cctv/344",
+    "video_url": ""
+  },
+  {
+    "id": "459",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.171504046368,
+    "lng": -90.8766779613954,
+    "image_url": "https://511la.org/map/Cctv/459",
+    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-111.streams/playlist.m3u8"
+  },
+  {
+    "id": "461",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.1537600464341,
+    "lng": -90.80609894,
+    "image_url": "https://511la.org/map/Cctv/461",
+    "video_url": "https://ITSStreamingBR.dotd.la.gov/public/br-cam-126.streams/playlist.m3u8"
+  },
+  {
+    "id": "465",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.10022463,
+    "lng": -90.481526,
+    "image_url": "https://511la.org/map/Cctv/465",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-049.streams/playlist.m3u8"
+  },
+  {
+    "id": "467",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.0884,
+    "lng": -90.44127,
+    "image_url": "https://511la.org/map/Cctv/467",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-048.streams/playlist.m3u8"
+  },
+  {
+    "id": "469",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.06802,
+    "lng": -90.3897,
+    "image_url": "https://511la.org/map/Cctv/469",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-036.streams/playlist.m3u8"
+  },
+  {
+    "id": "471",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.05645943,
+    "lng": -90.37249756,
+    "image_url": "https://511la.org/map/Cctv/471",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-034.streams/playlist.m3u8"
+  },
+  {
+    "id": "473",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.04453087,
+    "lng": -90.3559108337066,
+    "image_url": "https://511la.org/map/Cctv/473",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-032.streams/playlist.m3u8"
+  },
+  {
+    "id": "475",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.0320957237701,
+    "lng": -90.3375259160601,
+    "image_url": "https://511la.org/map/Cctv/475",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-030.streams/playlist.m3u8"
+  },
+  {
+    "id": "477",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.01773071,
+    "lng": -90.316444060294,
+    "image_url": "https://511la.org/map/Cctv/477",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-028.streams/playlist.m3u8"
+  },
+  {
+    "id": "354",
+    "name": "Camera 354",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.0064210937083,
+    "lng": -90.29219818,
+    "image_url": "https://511la.org/map/Cctv/354",
+    "video_url": ""
+  },
+  {
+    "id": "481",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.00754224352,
+    "lng": -90.2659846311778,
+    "image_url": "https://511la.org/map/Cctv/481",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-024.streams/playlist.m3u8"
+  },
+  {
+    "id": "483",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.0092113089713,
+    "lng": -90.2405014,
+    "image_url": "https://511la.org/map/Cctv/483",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-022.streams/playlist.m3u8"
+  },
+  {
+    "id": "485",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.0080280250151,
+    "lng": -90.2219107776034,
+    "image_url": "https://511la.org/map/Cctv/485",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-007.streams/playlist.m3u8"
+  },
+  {
+    "id": "486",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.005107605985,
+    "lng": -90.2085,
+    "image_url": "https://511la.org/map/Cctv/486",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-118.streams/playlist.m3u8"
+  },
+  {
+    "id": "487",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 29.9988945257732,
+    "lng": -90.184305,
+    "image_url": "https://511la.org/map/Cctv/487",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-119.streams/playlist.m3u8"
+  },
+  {
+    "id": "488",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 29.9973276669981,
+    "lng": -90.15544891,
+    "image_url": "https://511la.org/map/Cctv/488",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-121.streams/playlist.m3u8"
+  },
+  {
+    "id": "490",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 29.99730013,
+    "lng": -90.15478115,
+    "image_url": "https://511la.org/map/Cctv/490",
+    "video_url": "https://ITSStreamingNO.dotd.la.gov/public/nor-cam-004.streams/playlist.m3u8"
+  },
+  {
+    "id": "362",
+    "name": "Camera 362",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 29.99686822,
+    "lng": -90.14278891,
+    "image_url": "https://511la.org/map/Cctv/362",
+    "video_url": ""
+  },
+  {
+    "id": "363",
+    "name": "Camera 363",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 29.99301529,
+    "lng": -90.0483982196295,
+    "image_url": "https://511la.org/map/Cctv/363",
+    "video_url": ""
+  },
+  {
+    "id": "494",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.1956,
+    "lng": -93.2665,
+    "image_url": "https://511la.org/map/Cctv/494",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-831.streams/playlist.m3u8"
+  },
+  {
+    "id": "365",
+    "name": "Camera 365",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.247608,
+    "lng": -93.03494,
+    "image_url": "https://511la.org/map/Cctv/365",
+    "video_url": ""
+  },
+  {
+    "id": "497",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.2132,
+    "lng": -93.2904,
+    "image_url": "https://511la.org/map/Cctv/497",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-811.streams/playlist.m3u8"
+  },
+  {
+    "id": "499",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.197,
+    "lng": -93.2491,
+    "image_url": "https://511la.org/map/Cctv/499",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-841.streams/playlist.m3u8"
+  },
+  {
+    "id": "501",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.1972,
+    "lng": -93.2328,
+    "image_url": "https://511la.org/map/Cctv/501",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-851.streams/playlist.m3u8"
+  },
+  {
+    "id": "503",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.1968,
+    "lng": -93.2183,
+    "image_url": "https://511la.org/map/Cctv/503",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-861.streams/playlist.m3u8"
+  },
+  {
+    "id": "505",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.1971,
+    "lng": -93.2049,
+    "image_url": "https://511la.org/map/Cctv/505",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-871.streams/playlist.m3u8"
+  },
+  {
+    "id": "507",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.1976,
+    "lng": -93.1805,
+    "image_url": "https://511la.org/map/Cctv/507",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-881.streams/playlist.m3u8"
+  },
+  {
+    "id": "509",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.2057,
+    "lng": -93.1703,
+    "image_url": "https://511la.org/map/Cctv/509",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-891.streams/playlist.m3u8"
+  },
+  {
+    "id": "511",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.2281,
+    "lng": -93.1681,
+    "image_url": "https://511la.org/map/Cctv/511",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-896.streams/playlist.m3u8"
+  },
+  {
+    "id": "374",
+    "name": "Camera 374",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.481329,
+    "lng": -90.955986,
+    "image_url": "https://511la.org/map/Cctv/374",
+    "video_url": ""
+  },
+  {
+    "id": "514",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.447161,
+    "lng": -90.142036,
+    "image_url": "https://511la.org/map/Cctv/514",
+    "video_url": ""
+  },
+  {
+    "id": "376",
+    "name": "Camera 376",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.487306,
+    "lng": -90.95599,
+    "image_url": "https://511la.org/map/Cctv/376",
+    "video_url": ""
+  },
+  {
+    "id": "377",
+    "name": "Camera 377",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.447161,
+    "lng": -90.142036,
+    "image_url": "https://511la.org/map/Cctv/377",
+    "video_url": ""
+  },
+  {
+    "id": "519",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.41434,
+    "lng": -91.22457,
+    "image_url": "https://511la.org/map/Cctv/519",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-100.streams/playlist.m3u8"
+  },
+  {
+    "id": "522",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.236103,
+    "lng": -92.601707,
+    "image_url": "https://511la.org/map/Cctv/522",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/laf-cam-068.streams/playlist.m3u8"
+  },
+  {
+    "id": "383",
+    "name": "Camera 383",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.231508,
+    "lng": -92.530342,
+    "image_url": "https://511la.org/map/Cctv/383",
+    "video_url": ""
+  },
+  {
+    "id": "525",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.23348,
+    "lng": -92.463776,
+    "image_url": "https://511la.org/map/Cctv/525",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/laf-cam-076.streams/playlist.m3u8"
+  },
+  {
+    "id": "527",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.246655,
+    "lng": -92.065804,
+    "image_url": "https://511la.org/map/Cctv/527",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/laf-cam-099.streams/playlist.m3u8"
+  },
+  {
+    "id": "529",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.250883,
+    "lng": -92.035797,
+    "image_url": "https://511la.org/map/Cctv/529",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/laf-cam-101.streams/playlist.m3u8"
+  },
+  {
+    "id": "531",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.235277,
+    "lng": -92.38549,
+    "image_url": "https://511la.org/map/Cctv/531",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/laf-cam-080.streams/playlist.m3u8"
+  },
+  {
+    "id": "533",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.2519,
+    "lng": -92.269997,
+    "image_url": "https://511la.org/map/Cctv/533",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/laf-cam-087.streams/playlist.m3u8"
+  },
+  {
+    "id": "535",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.24688,
+    "lng": -92.107094,
+    "image_url": "https://511la.org/map/Cctv/535",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/laf-cam-097.streams/playlist.m3u8"
+  },
+  {
+    "id": "537",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.246246,
+    "lng": -92.929688,
+    "image_url": "https://511la.org/map/Cctv/537",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-481.streams/playlist.m3u8"
+  },
+  {
+    "id": "539",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.247118,
+    "lng": -92.822067,
+    "image_url": "https://511la.org/map/Cctv/539",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-541.streams/playlist.m3u8"
+  },
+  {
+    "id": "541",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.247999,
+    "lng": -92.740891,
+    "image_url": "https://511la.org/map/Cctv/541",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-591.streams/playlist.m3u8"
+  },
+  {
+    "id": "543",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.246231,
+    "lng": -92.66317,
+    "image_url": "https://511la.org/map/Cctv/543",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-641.streams/playlist.m3u8"
+  },
+  {
+    "id": "545",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.243298,
+    "lng": -92.631722,
+    "image_url": "https://511la.org/map/Cctv/545",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-651.streams/playlist.m3u8"
+  },
+  {
+    "id": "547",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.481474,
+    "lng": -91.165924,
+    "image_url": "https://511la.org/map/Cctv/547",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-831.streams/playlist.m3u8"
+  },
+  {
+    "id": "549",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.492464,
+    "lng": -91.163231,
+    "image_url": "https://511la.org/map/Cctv/549",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-841.streams/playlist.m3u8"
+  },
+  {
+    "id": "551",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.52754,
+    "lng": -91.165535,
+    "image_url": "https://511la.org/map/Cctv/551",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-871.streams/playlist.m3u8"
+  },
+  {
+    "id": "553",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.457621,
+    "lng": -91.176003,
+    "image_url": "https://511la.org/map/Cctv/553",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-817.streams/playlist.m3u8"
+  },
+  {
+    "id": "554",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.45895,
+    "lng": -91.166122,
+    "image_url": "https://511la.org/map/Cctv/554",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-828.streams/playlist.m3u8"
+  },
+  {
+    "id": "555",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.449881,
+    "lng": -91.180473,
+    "image_url": "https://511la.org/map/Cctv/555",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-813.streams/playlist.m3u8"
+  },
+  {
+    "id": "556",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.4438,
+    "lng": -91.178719,
+    "image_url": "https://511la.org/map/Cctv/556",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-812.streams/playlist.m3u8"
+  },
+  {
+    "id": "557",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.536354,
+    "lng": -91.177818,
+    "image_url": "https://511la.org/map/Cctv/557",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-881.streams/playlist.m3u8"
+  },
+  {
+    "id": "559",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.536087,
+    "lng": -91.187958,
+    "image_url": "https://511la.org/map/Cctv/559",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-891.streams/playlist.m3u8"
+  },
+  {
+    "id": "561",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 32.513699,
+    "lng": -93.714996,
+    "image_url": "https://511la.org/map/Cctv/561",
+    "video_url": "https://ITSstreamingbr2.dotd.la.gov/public/shr-cam-013.streams/playlist.m3u8"
+  },
+  {
+    "id": "562",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 32.4656,
+    "lng": -93.816,
+    "image_url": "https://511la.org/map/Cctv/562",
+    "video_url": "https://ITSstreamingbr2.dotd.la.gov/public/shr-cam-031.streams/playlist.m3u8"
+  },
+  {
+    "id": "563",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 32.49489,
+    "lng": -93.76499,
+    "image_url": "https://511la.org/map/Cctv/563",
+    "video_url": "https://ITSstreamingbr2.dotd.la.gov/public/shr-cam-032.streams/playlist.m3u8"
+  },
+  {
+    "id": "564",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 32.447778,
+    "lng": -93.898611,
+    "image_url": "https://511la.org/map/Cctv/564",
+    "video_url": "https://ITSstreamingbr2.dotd.la.gov/public/shr-cam-118.streams/playlist.m3u8"
+  },
+  {
+    "id": "565",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 32.538889,
+    "lng": -93.630833,
+    "image_url": "https://511la.org/map/Cctv/565",
+    "video_url": "https://ITSstreamingbr2.dotd.la.gov/public/shr-cam-130.streams/playlist.m3u8"
+  },
+  {
+    "id": "566",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.437586,
+    "lng": -91.178406,
+    "image_url": "https://511la.org/map/Cctv/566",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-192.streams/playlist.m3u8"
+  },
+  {
+    "id": "567",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.437586,
+    "lng": -91.178406,
+    "image_url": "https://511la.org/map/Cctv/567",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-193.streams/playlist.m3u8"
+  },
+  {
+    "id": "568",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.44561,
+    "lng": -91.2322,
+    "image_url": "https://511la.org/map/Cctv/568",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-259.streams/playlist.m3u8"
+  },
+  {
+    "id": "569",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.4214,
+    "lng": -91.127,
+    "image_url": "https://511la.org/map/Cctv/569",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-103.streams/playlist.m3u8"
+  },
+  {
+    "id": "570",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.453011,
+    "lng": -91.274544,
+    "image_url": "https://511la.org/map/Cctv/570",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-260.streams/playlist.m3u8"
+  },
+  {
+    "id": "414",
+    "name": "Camera 414",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.411501,
+    "lng": -91.466003,
+    "image_url": "https://511la.org/map/Cctv/414",
+    "video_url": ""
+  },
+  {
+    "id": "572",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.54623,
+    "lng": -91.96369,
+    "image_url": "https://511la.org/map/Cctv/572",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/laf-cam-017.streams/playlist.m3u8"
+  },
+  {
+    "id": "574",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.42136,
+    "lng": -91.219284,
+    "image_url": "https://511la.org/map/Cctv/574",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-297.streams/playlist.m3u8"
+  },
+  {
+    "id": "575",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.144375,
+    "lng": -90.76096,
+    "image_url": "https://511la.org/map/Cctv/575",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-230.streams/playlist.m3u8"
+  },
+  {
+    "id": "576",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.129635,
+    "lng": -90.712166,
+    "image_url": "https://511la.org/map/Cctv/576",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-233.streams/playlist.m3u8"
+  },
+  {
+    "id": "577",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.12362,
+    "lng": -90.68197,
+    "image_url": "https://511la.org/map/Cctv/577",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-234.streams/playlist.m3u8"
+  },
+  {
+    "id": "579",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.119984,
+    "lng": -90.64112,
+    "image_url": "https://511la.org/map/Cctv/579",
+    "video_url": "https://itsstreamingno.dotd.la.gov/public/nor-cam-197.streams/playlist.m3u8"
+  },
+  {
+    "id": "580",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.112862,
+    "lng": -90.56411,
+    "image_url": "https://511la.org/map/Cctv/580",
+    "video_url": "https://itsstreamingno.dotd.la.gov/public/nor-cam-202.streams/playlist.m3u8"
+  },
+  {
+    "id": "581",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.107485,
+    "lng": -90.50545,
+    "image_url": "https://511la.org/map/Cctv/581",
+    "video_url": "https://itsstreamingno.dotd.la.gov/public/nor-cam-204.streams/playlist.m3u8"
+  },
+  {
+    "id": "425",
+    "name": "Camera 425",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.106136,
+    "lng": -90.4987,
+    "image_url": "https://511la.org/map/Cctv/425",
+    "video_url": ""
+  },
+  {
+    "id": "585",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.049688,
+    "lng": -89.95535,
+    "image_url": "https://511la.org/map/Cctv/585",
+    "video_url": "https://itsstreamingno.dotd.la.gov/public/nor-cam-245.streams/playlist.m3u8"
+  },
+  {
+    "id": "586",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.027666,
+    "lng": -90.003151,
+    "image_url": "https://511la.org/map/Cctv/586",
+    "video_url": "https://itsstreamingno.dotd.la.gov/public/nor-cam-242.streams/playlist.m3u8"
   }
 ]

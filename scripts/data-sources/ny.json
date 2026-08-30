@@ -520,14 +520,14 @@
     "video_url": "https://s53.nysdot.skyvdn.com/rtplive/TA_146/playlist.m3u8"
   },
   {
-    "id": "97",
-    "name": "Camera 97",
+    "id": "4490",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511ny.org/map/Cctv/97",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4490",
+    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/TA_Falcon/playlist.m3u8"
   },
   {
     "id": "4491",
@@ -570,24 +570,24 @@
     "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_004/playlist.m3u8"
   },
   {
-    "id": "316",
-    "name": "Camera 316",
+    "id": "4495",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.04579,
     "lng": -73.79263,
-    "image_url": "https://511ny.org/map/Cctv/316",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4495",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_005/playlist.m3u8"
   },
   {
-    "id": "317",
-    "name": "Camera 317",
+    "id": "4496",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.04242,
     "lng": -73.78608,
-    "image_url": "https://511ny.org/map/Cctv/317",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4496",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_006/playlist.m3u8"
   },
   {
     "id": "4497",
@@ -610,434 +610,434 @@
     "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_008/playlist.m3u8"
   },
   {
-    "id": "320",
-    "name": "Camera 320",
+    "id": "4499",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.04093,
     "lng": -73.76253,
-    "image_url": "https://511ny.org/map/Cctv/320",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4499",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_009/playlist.m3u8"
   },
   {
-    "id": "321",
-    "name": "Camera 321",
+    "id": "4500",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.03282,
     "lng": -73.75333,
-    "image_url": "https://511ny.org/map/Cctv/321",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4500",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_010/playlist.m3u8"
   },
   {
-    "id": "322",
-    "name": "Camera 322",
+    "id": "4501",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.07144,
     "lng": -73.91165,
-    "image_url": "https://511ny.org/map/Cctv/322",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4501",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_031/playlist.m3u8"
   },
   {
-    "id": "323",
-    "name": "Camera 323",
+    "id": "4502",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.09369,
     "lng": -73.93162,
-    "image_url": "https://511ny.org/map/Cctv/323",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4502",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_033/playlist.m3u8"
   },
   {
-    "id": "324",
-    "name": "Camera 324",
+    "id": "4503",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.10093,
     "lng": -73.95606,
-    "image_url": "https://511ny.org/map/Cctv/324",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4503",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_034/playlist.m3u8"
   },
   {
-    "id": "325",
-    "name": "Camera 325",
+    "id": "4504",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.10115,
     "lng": -73.98879,
-    "image_url": "https://511ny.org/map/Cctv/325",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4504",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_035/playlist.m3u8"
   },
   {
-    "id": "326",
-    "name": "Camera 326",
+    "id": "4505",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.10399,
     "lng": -74.02351,
-    "image_url": "https://511ny.org/map/Cctv/326",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4505",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_036/playlist.m3u8"
   },
   {
-    "id": "327",
-    "name": "Camera 327",
+    "id": "4506",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.0978,
     "lng": -74.03863,
-    "image_url": "https://511ny.org/map/Cctv/327",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4506",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_037/playlist.m3u8"
   },
   {
-    "id": "329",
-    "name": "Camera 329",
+    "id": "4508",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.11739,
     "lng": -74.16194,
-    "image_url": "https://511ny.org/map/Cctv/329",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4508",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_039/playlist.m3u8"
   },
   {
-    "id": "330",
-    "name": "Camera 330",
+    "id": "4509",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.12695,
     "lng": -74.16684,
-    "image_url": "https://511ny.org/map/Cctv/330",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4509",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_040/playlist.m3u8"
   },
   {
-    "id": "331",
-    "name": "Camera 331",
+    "id": "4510",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.48272,
     "lng": -73.66856,
-    "image_url": "https://511ny.org/map/Cctv/331",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4510",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_061/playlist.m3u8"
   },
   {
-    "id": "332",
-    "name": "Camera 332",
+    "id": "4511",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.41988,
     "lng": -73.54852,
-    "image_url": "https://511ny.org/map/Cctv/332",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4511",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_062/playlist.m3u8"
   },
   {
-    "id": "333",
-    "name": "Camera 333",
+    "id": "4512",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.39744,
     "lng": -73.5048,
-    "image_url": "https://511ny.org/map/Cctv/333",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4512",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_063/playlist.m3u8"
   },
   {
-    "id": "334",
-    "name": "Camera 334",
+    "id": "4513",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.35664,
     "lng": -73.42631,
-    "image_url": "https://511ny.org/map/Cctv/334",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4513",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_064/playlist.m3u8"
   },
   {
-    "id": "335",
-    "name": "Camera 335",
+    "id": "4514",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.94542,
     "lng": -74.02934,
-    "image_url": "https://511ny.org/map/Cctv/335",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4514",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_065/playlist.m3u8"
   },
   {
-    "id": "336",
-    "name": "Camera 336",
+    "id": "4515",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.08352,
     "lng": -73.97349,
-    "image_url": "https://511ny.org/map/Cctv/336",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4515",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_066/playlist.m3u8"
   },
   {
-    "id": "337",
-    "name": "Camera 337",
+    "id": "4516",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.25029,
     "lng": -73.8837,
-    "image_url": "https://511ny.org/map/Cctv/337",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4516",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_067/playlist.m3u8"
   },
   {
-    "id": "338",
-    "name": "Camera 338",
+    "id": "4517",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.39369,
     "lng": -73.82531,
-    "image_url": "https://511ny.org/map/Cctv/338",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4517",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_068/playlist.m3u8"
   },
   {
-    "id": "339",
-    "name": "Camera 339",
+    "id": "4518",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.51567,
     "lng": -73.78917,
-    "image_url": "https://511ny.org/map/Cctv/339",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4518",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_069/playlist.m3u8"
   },
   {
-    "id": "340",
-    "name": "Camera 340",
+    "id": "4519",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.53454,
     "lng": -73.78364,
-    "image_url": "https://511ny.org/map/Cctv/340",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4519",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_070/playlist.m3u8"
   },
   {
-    "id": "341",
-    "name": "Camera 341",
+    "id": "4520",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.09509,
     "lng": -76.04384,
-    "image_url": "https://511ny.org/map/Cctv/341",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4520",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_091/playlist.m3u8"
   },
   {
-    "id": "342",
-    "name": "Camera 342",
+    "id": "4521",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.09255,
     "lng": -76.08988,
-    "image_url": "https://511ny.org/map/Cctv/342",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4521",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_092/playlist.m3u8"
   },
   {
-    "id": "343",
-    "name": "Camera 343",
+    "id": "4522",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.09421,
     "lng": -76.16775,
-    "image_url": "https://511ny.org/map/Cctv/343",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4522",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_093/playlist.m3u8"
   },
   {
-    "id": "344",
-    "name": "Camera 344",
+    "id": "4523",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.10238,
     "lng": -76.18137,
-    "image_url": "https://511ny.org/map/Cctv/344",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4523",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_094/playlist.m3u8"
   },
   {
-    "id": "345",
-    "name": "Camera 345",
+    "id": "4524",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.11607,
     "lng": -76.21368,
-    "image_url": "https://511ny.org/map/Cctv/345",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4524",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_095/playlist.m3u8"
   },
   {
-    "id": "346",
-    "name": "Camera 346",
+    "id": "4525",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.10783,
     "lng": -76.28718,
-    "image_url": "https://511ny.org/map/Cctv/346",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4525",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_096/playlist.m3u8"
   },
   {
-    "id": "347",
-    "name": "Camera 347",
+    "id": "4526",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.0608,
     "lng": -76.56413,
-    "image_url": "https://511ny.org/map/Cctv/347",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4526",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_097/playlist.m3u8"
   },
   {
-    "id": "348",
-    "name": "Camera 348",
+    "id": "4527",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.96719,
     "lng": -76.85257,
-    "image_url": "https://511ny.org/map/Cctv/348",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4527",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_098/playlist.m3u8"
   },
   {
-    "id": "349",
-    "name": "Camera 349",
+    "id": "4528",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.95468,
     "lng": -76.98203,
-    "image_url": "https://511ny.org/map/Cctv/349",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4528",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_099/playlist.m3u8"
   },
   {
-    "id": "350",
-    "name": "Camera 350",
+    "id": "4529",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.97839,
     "lng": -77.23241,
-    "image_url": "https://511ny.org/map/Cctv/350",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4529",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_100/playlist.m3u8"
   },
   {
-    "id": "351",
-    "name": "Camera 351",
+    "id": "4530",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.86921,
     "lng": -78.7911,
-    "image_url": "https://511ny.org/map/Cctv/351",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4530",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_121/playlist.m3u8"
   },
   {
-    "id": "352",
-    "name": "Camera 352",
+    "id": "4531",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.85617,
     "lng": -78.792,
-    "image_url": "https://511ny.org/map/Cctv/352",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4531",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_122/playlist.m3u8"
   },
   {
-    "id": "353",
-    "name": "Camera 353",
+    "id": "4532",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.84964,
     "lng": -78.78992,
-    "image_url": "https://511ny.org/map/Cctv/353",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4532",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_123/playlist.m3u8"
   },
   {
-    "id": "354",
-    "name": "Camera 354",
+    "id": "4533",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.84484,
     "lng": -78.79293,
-    "image_url": "https://511ny.org/map/Cctv/354",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4533",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_124/playlist.m3u8"
   },
   {
-    "id": "355",
-    "name": "Camera 355",
+    "id": "4534",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.82857,
     "lng": -78.7915,
-    "image_url": "https://511ny.org/map/Cctv/355",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4534",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_125/playlist.m3u8"
   },
   {
-    "id": "356",
-    "name": "Camera 356",
+    "id": "4535",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.8141,
     "lng": -78.7928,
-    "image_url": "https://511ny.org/map/Cctv/356",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4535",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_126/playlist.m3u8"
   },
   {
-    "id": "357",
-    "name": "Camera 357",
+    "id": "4536",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.8141,
     "lng": -78.7928,
-    "image_url": "https://511ny.org/map/Cctv/357",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4536",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_127/playlist.m3u8"
   },
   {
-    "id": "358",
-    "name": "Camera 358",
+    "id": "4537",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.80846,
     "lng": -78.80577,
-    "image_url": "https://511ny.org/map/Cctv/358",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4537",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_128/playlist.m3u8"
   },
   {
-    "id": "360",
-    "name": "Camera 360",
+    "id": "4538",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.80227,
     "lng": -78.81487,
-    "image_url": "https://511ny.org/map/Cctv/360",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4538",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_129/playlist.m3u8"
   },
   {
-    "id": "361",
-    "name": "Camera 361",
+    "id": "4539",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.79323,
     "lng": -78.81745,
-    "image_url": "https://511ny.org/map/Cctv/361",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4539",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_130/playlist.m3u8"
   },
   {
-    "id": "362",
-    "name": "Camera 362",
+    "id": "4540",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.93482,
     "lng": -78.90335,
-    "image_url": "https://511ny.org/map/Cctv/362",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4540",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_151/playlist.m3u8"
   },
   {
-    "id": "363",
-    "name": "Camera 363",
+    "id": "4541",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.9443,
     "lng": -78.90804,
-    "image_url": "https://511ny.org/map/Cctv/363",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4541",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_152/playlist.m3u8"
   },
   {
-    "id": "364",
-    "name": "Camera 364",
+    "id": "4542",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.97312,
     "lng": -78.91179,
-    "image_url": "https://511ny.org/map/Cctv/364",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4542",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_153/playlist.m3u8"
   },
   {
     "id": "4543",
@@ -1050,54 +1050,54 @@
     "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_154/playlist.m3u8"
   },
   {
-    "id": "366",
-    "name": "Camera 366",
+    "id": "4544",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.9876,
     "lng": -78.9139,
-    "image_url": "https://511ny.org/map/Cctv/366",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4544",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_155/playlist.m3u8"
   },
   {
-    "id": "367",
-    "name": "Camera 367",
+    "id": "4545",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.9949,
     "lng": -78.9307,
-    "image_url": "https://511ny.org/map/Cctv/367",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4545",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_156/playlist.m3u8"
   },
   {
-    "id": "369",
-    "name": "Camera 369",
+    "id": "4547",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.02117,
     "lng": -78.97371,
-    "image_url": "https://511ny.org/map/Cctv/369",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4547",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_158/playlist.m3u8"
   },
   {
-    "id": "370",
-    "name": "Camera 370",
+    "id": "4548",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.04827,
     "lng": -78.99087,
-    "image_url": "https://511ny.org/map/Cctv/370",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4548",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_159/playlist.m3u8"
   },
   {
-    "id": "371",
-    "name": "Camera 371",
+    "id": "4549",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.05314,
     "lng": -78.99095,
-    "image_url": "https://511ny.org/map/Cctv/371",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4549",
+    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/TA_160/playlist.m3u8"
   },
   {
     "id": "4550",
@@ -1230,6 +1230,16 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_157/playlist.m3u8"
   },
   {
+    "id": "4568",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 40.666,
+    "lng": -73.80151,
+    "image_url": "https://511ny.org/map/Cctv/4568",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_158/playlist.m3u8"
+  },
+  {
     "id": "4569",
     "name": "",
     "route": "",
@@ -1310,14 +1320,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R10_303/playlist.m3u8"
   },
   {
-    "id": "399",
-    "name": "Camera 399",
+    "id": "4577",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.606072,
     "lng": -73.739671,
-    "image_url": "https://511ny.org/map/Cctv/399",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4577",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R10_304/playlist.m3u8"
   },
   {
     "id": "4578",
@@ -1400,84 +1410,84 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R10_333/playlist.m3u8"
   },
   {
-    "id": "410",
-    "name": "Camera 410",
+    "id": "4587",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.655066,
     "lng": -73.671912,
-    "image_url": "https://511ny.org/map/Cctv/410",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4587",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R10_332/playlist.m3u8"
   },
   {
-    "id": "411",
-    "name": "Camera 411",
+    "id": "4588",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.655867,
     "lng": -73.677555,
-    "image_url": "https://511ny.org/map/Cctv/411",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4588",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R10_331/playlist.m3u8"
   },
   {
-    "id": "412",
-    "name": "Camera 412",
+    "id": "4589",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.151516,
     "lng": -77.570611,
-    "image_url": "https://511ny.org/map/Cctv/412",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4589",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_200/playlist.m3u8"
   },
   {
-    "id": "413",
-    "name": "Camera 413",
+    "id": "4590",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.155226,
     "lng": -77.603193,
-    "image_url": "https://511ny.org/map/Cctv/413",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4590",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_201/playlist.m3u8"
   },
   {
-    "id": "414",
-    "name": "Camera 414",
+    "id": "4591",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.125655,
     "lng": -77.59284,
-    "image_url": "https://511ny.org/map/Cctv/414",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4591",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_202/playlist.m3u8"
   },
   {
-    "id": "415",
-    "name": "Camera 415",
+    "id": "4592",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.161207,
     "lng": -77.611041,
-    "image_url": "https://511ny.org/map/Cctv/415",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4592",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_204/playlist.m3u8"
   },
   {
-    "id": "416",
-    "name": "Camera 416",
+    "id": "4593",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.142345,
     "lng": -77.58656,
-    "image_url": "https://511ny.org/map/Cctv/416",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4593",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_207/playlist.m3u8"
   },
   {
-    "id": "417",
-    "name": "Camera 417",
+    "id": "4594",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.15854,
     "lng": -77.609655,
-    "image_url": "https://511ny.org/map/Cctv/417",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4594",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_209/playlist.m3u8"
   },
   {
     "id": "4595",
@@ -1490,14 +1500,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_231/playlist.m3u8"
   },
   {
-    "id": "419",
-    "name": "Camera 419",
+    "id": "4596",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.15348,
     "lng": -77.588819,
-    "image_url": "https://511ny.org/map/Cctv/419",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4596",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_232/playlist.m3u8"
   },
   {
     "id": "4597",
@@ -1520,14 +1530,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_234/playlist.m3u8"
   },
   {
-    "id": "422",
-    "name": "Camera 422",
+    "id": "4599",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.136219,
     "lng": -77.57548,
-    "image_url": "https://511ny.org/map/Cctv/422",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4599",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_235/playlist.m3u8"
   },
   {
     "id": "4600",
@@ -1600,14 +1610,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_262/playlist.m3u8"
   },
   {
-    "id": "430",
-    "name": "Camera 430",
+    "id": "4607",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.2439778,
     "lng": -77.61843437,
-    "image_url": "https://511ny.org/map/Cctv/430",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4607",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_263/playlist.m3u8"
   },
   {
     "id": "4608",
@@ -1640,14 +1650,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_266/playlist.m3u8"
   },
   {
-    "id": "434",
-    "name": "Camera 434",
+    "id": "4611",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.14488902,
     "lng": -77.55581638,
-    "image_url": "https://511ny.org/map/Cctv/434",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4611",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_267/playlist.m3u8"
   },
   {
     "id": "4612",
@@ -1660,34 +1670,34 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_268/playlist.m3u8"
   },
   {
-    "id": "436",
-    "name": "Camera 436",
+    "id": "4613",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.124711,
     "lng": -77.617413,
-    "image_url": "https://511ny.org/map/Cctv/436",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4613",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_269/playlist.m3u8"
   },
   {
-    "id": "4614",
-    "name": "",
+    "id": "437",
+    "name": "Camera 437",
     "route": "",
     "jurisdiction": "",
     "lat": 43.15028,
     "lng": -77.636129,
-    "image_url": "https://511ny.org/map/Cctv/4614",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_270/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/437",
+    "video_url": ""
   },
   {
-    "id": "4615",
-    "name": "",
+    "id": "438",
+    "name": "Camera 438",
     "route": "",
     "jurisdiction": "",
     "lat": 43.210683,
     "lng": -77.598244,
-    "image_url": "https://511ny.org/map/Cctv/4615",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_291/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/438",
+    "video_url": ""
   },
   {
     "id": "439",
@@ -1760,24 +1770,24 @@
     "video_url": ""
   },
   {
-    "id": "4623",
-    "name": "",
+    "id": "446",
+    "name": "Camera 446",
     "route": "",
     "jurisdiction": "",
     "lat": 43.131711,
     "lng": -77.590216,
-    "image_url": "https://511ny.org/map/Cctv/4623",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_299/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/446",
+    "video_url": ""
   },
   {
-    "id": "4624",
-    "name": "",
+    "id": "447",
+    "name": "Camera 447",
     "route": "",
     "jurisdiction": "",
     "lat": 42.115451,
     "lng": -75.937751,
-    "image_url": "https://511ny.org/map/Cctv/4624",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R9_007/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/447",
+    "video_url": ""
   },
   {
     "id": "448",
@@ -1880,14 +1890,14 @@
     "video_url": ""
   },
   {
-    "id": "460",
-    "name": "Camera 460",
+    "id": "4635",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.61569,
     "lng": -74.15778,
-    "image_url": "https://511ny.org/map/Cctv/460",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4635",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_211/playlist.m3u8"
   },
   {
     "id": "461",
@@ -1900,14 +1910,14 @@
     "video_url": ""
   },
   {
-    "id": "4637",
-    "name": "",
+    "id": "462",
+    "name": "Camera 462",
     "route": "",
     "jurisdiction": "",
     "lat": 40.60933,
     "lng": -74.15041,
-    "image_url": "https://511ny.org/map/Cctv/4637",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_213/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/462",
+    "video_url": ""
   },
   {
     "id": "463",
@@ -1920,24 +1930,24 @@
     "video_url": ""
   },
   {
-    "id": "464",
-    "name": "Camera 464",
+    "id": "4639",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.60749,
     "lng": -74.14071,
-    "image_url": "https://511ny.org/map/Cctv/464",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4639",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_215/playlist.m3u8"
   },
   {
-    "id": "465",
-    "name": "Camera 465",
+    "id": "4640",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.60797,
     "lng": -74.1319,
-    "image_url": "https://511ny.org/map/Cctv/465",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4640",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_216/playlist.m3u8"
   },
   {
     "id": "466",
@@ -1960,14 +1970,14 @@
     "video_url": ""
   },
   {
-    "id": "468",
-    "name": "Camera 468",
+    "id": "4643",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.60651,
     "lng": -74.07783,
-    "image_url": "https://511ny.org/map/Cctv/468",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4643",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_219/playlist.m3u8"
   },
   {
     "id": "469",
@@ -1990,14 +2000,14 @@
     "video_url": ""
   },
   {
-    "id": "472",
-    "name": "Camera 472",
+    "id": "4647",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.64556,
     "lng": -73.71132,
-    "image_url": "https://511ny.org/map/Cctv/472",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4647",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_061/playlist.m3u8"
   },
   {
     "id": "473",
@@ -2030,24 +2040,24 @@
     "video_url": ""
   },
   {
-    "id": "476",
-    "name": "Camera 476",
+    "id": "4651",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.12489,
     "lng": -76.245781,
-    "image_url": "https://511ny.org/map/Cctv/476",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4651",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_040/playlist.m3u8"
   },
   {
-    "id": "477",
-    "name": "Camera 477",
+    "id": "4652",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.996229,
     "lng": -73.80374,
-    "image_url": "https://511ny.org/map/Cctv/477",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4652",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_065/playlist.m3u8"
   },
   {
     "id": "4653",
@@ -2060,24 +2070,24 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_066/playlist.m3u8"
   },
   {
-    "id": "479",
-    "name": "Camera 479",
+    "id": "4654",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.761237,
     "lng": -73.698269,
-    "image_url": "https://511ny.org/map/Cctv/479",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4654",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_068/playlist.m3u8"
   },
   {
-    "id": "480",
-    "name": "Camera 480",
+    "id": "4655",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.749962,
     "lng": -73.699007,
-    "image_url": "https://511ny.org/map/Cctv/480",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4655",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_067/playlist.m3u8"
   },
   {
     "id": "481",
@@ -2090,84 +2100,84 @@
     "video_url": ""
   },
   {
-    "id": "482",
-    "name": "Camera 482",
+    "id": "4657",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.8789,
     "lng": -73.751912,
-    "image_url": "https://511ny.org/map/Cctv/482",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4657",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_070/playlist.m3u8"
   },
   {
-    "id": "483",
-    "name": "Camera 483",
+    "id": "4658",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.2428,
     "lng": -76.140983,
-    "image_url": "https://511ny.org/map/Cctv/483",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4658",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_061/playlist.m3u8"
   },
   {
-    "id": "484",
-    "name": "Camera 484",
+    "id": "4659",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.232565,
     "lng": -76.13962,
-    "image_url": "https://511ny.org/map/Cctv/484",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4659",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_062/playlist.m3u8"
   },
   {
-    "id": "485",
-    "name": "Camera 485",
+    "id": "4660",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.892099,
     "lng": -76.105441,
-    "image_url": "https://511ny.org/map/Cctv/485",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4660",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_063/playlist.m3u8"
   },
   {
-    "id": "486",
-    "name": "Camera 486",
+    "id": "4661",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.799011,
     "lng": -76.122117,
-    "image_url": "https://511ny.org/map/Cctv/486",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4661",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_064/playlist.m3u8"
   },
   {
-    "id": "487",
-    "name": "Camera 487",
+    "id": "4662",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 44.053203,
     "lng": -75.834256,
-    "image_url": "https://511ny.org/map/Cctv/487",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4662",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R7_001/playlist.m3u8"
   },
   {
-    "id": "488",
-    "name": "Camera 488",
+    "id": "4663",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 44.054775,
     "lng": -75.834225,
-    "image_url": "https://511ny.org/map/Cctv/488",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4663",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R7_002/playlist.m3u8"
   },
   {
-    "id": "489",
-    "name": "Camera 489",
+    "id": "4664",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 44.053111,
     "lng": -75.830531,
-    "image_url": "https://511ny.org/map/Cctv/489",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4664",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R7_003/playlist.m3u8"
   },
   {
     "id": "4665",
@@ -2180,54 +2190,54 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R7_004/playlist.m3u8"
   },
   {
-    "id": "491",
-    "name": "Camera 491",
+    "id": "4666",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.809305,
     "lng": -76.024523,
-    "image_url": "https://511ny.org/map/Cctv/491",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4666",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R7_005/playlist.m3u8"
   },
   {
-    "id": "492",
-    "name": "Camera 492",
+    "id": "4667",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.811311,
     "lng": -76.034626,
-    "image_url": "https://511ny.org/map/Cctv/492",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4667",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R7_006/playlist.m3u8"
   },
   {
-    "id": "493",
-    "name": "Camera 493",
+    "id": "4668",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 44.289664,
     "lng": -75.970898,
-    "image_url": "https://511ny.org/map/Cctv/493",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4668",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R7_007/playlist.m3u8"
   },
   {
-    "id": "505",
-    "name": "Camera 505",
+    "id": "4679",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.59567,
     "lng": -76.100789,
-    "image_url": "https://511ny.org/map/Cctv/505",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4679",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_065/playlist.m3u8"
   },
   {
-    "id": "506",
-    "name": "Camera 506",
+    "id": "4680",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.483059,
     "lng": -76.120311,
-    "image_url": "https://511ny.org/map/Cctv/506",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4680",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_066/playlist.m3u8"
   },
   {
     "id": "4681",
@@ -2240,14 +2250,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_068/playlist.m3u8"
   },
   {
-    "id": "4682",
-    "name": "",
+    "id": "508",
+    "name": "Camera 508",
     "route": "",
     "jurisdiction": "",
     "lat": 42.905305,
     "lng": -76.114676,
-    "image_url": "https://511ny.org/map/Cctv/4682",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_069/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/508",
+    "video_url": ""
   },
   {
     "id": "4683",
@@ -2280,14 +2290,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R6_029/playlist.m3u8"
   },
   {
-    "id": "4688",
-    "name": "",
+    "id": "514",
+    "name": "Camera 514",
     "route": "",
     "jurisdiction": "",
     "lat": 42.147616,
     "lng": -76.806345,
-    "image_url": "https://511ny.org/map/Cctv/4688",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R6_030/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/514",
+    "video_url": ""
   },
   {
     "id": "4691",
@@ -2350,24 +2360,24 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_232/playlist.m3u8"
   },
   {
-    "id": "523",
-    "name": "Camera 523",
+    "id": "4697",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.67174,
     "lng": -73.99875,
-    "image_url": "https://511ny.org/map/Cctv/523",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4697",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_234/playlist.m3u8"
   },
   {
-    "id": "524",
-    "name": "Camera 524",
+    "id": "4698",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.073326,
     "lng": -75.287674,
-    "image_url": "https://511ny.org/map/Cctv/524",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4698",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R2_047/playlist.m3u8"
   },
   {
     "id": "4699",
@@ -2380,14 +2390,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R2_045/playlist.m3u8"
   },
   {
-    "id": "526",
-    "name": "Camera 526",
+    "id": "4700",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.954324,
     "lng": -74.376889,
-    "image_url": "https://511ny.org/map/Cctv/526",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4700",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R2_046/playlist.m3u8"
   },
   {
     "id": "4701",
@@ -2400,44 +2410,44 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R2_044/playlist.m3u8"
   },
   {
-    "id": "528",
-    "name": "Camera 528",
+    "id": "4702",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.8483,
     "lng": -73.87133,
-    "image_url": "https://511ny.org/map/Cctv/528",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4702",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_236/playlist.m3u8"
   },
   {
-    "id": "529",
-    "name": "Camera 529",
+    "id": "4703",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.87852,
     "lng": -73.87018,
-    "image_url": "https://511ny.org/map/Cctv/529",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4703",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_238/playlist.m3u8"
   },
   {
-    "id": "530",
-    "name": "Camera 530",
+    "id": "4704",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.60381,
     "lng": -74.06939,
-    "image_url": "https://511ny.org/map/Cctv/530",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4704",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_243/playlist.m3u8"
   },
   {
-    "id": "531",
-    "name": "Camera 531",
+    "id": "4705",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.77202,
     "lng": -73.87465,
-    "image_url": "https://511ny.org/map/Cctv/531",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4705",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_244/playlist.m3u8"
   },
   {
     "id": "4706",
@@ -2450,34 +2460,34 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_245/playlist.m3u8"
   },
   {
-    "id": "533",
-    "name": "Camera 533",
+    "id": "4707",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.77008,
     "lng": -73.86752,
-    "image_url": "https://511ny.org/map/Cctv/533",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4707",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_246/playlist.m3u8"
   },
   {
-    "id": "534",
-    "name": "Camera 534",
+    "id": "4708",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.64071,
     "lng": -74.0219,
-    "image_url": "https://511ny.org/map/Cctv/534",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4708",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_247/playlist.m3u8"
   },
   {
-    "id": "535",
-    "name": "Camera 535",
+    "id": "4709",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.60928,
     "lng": -74.12229,
-    "image_url": "https://511ny.org/map/Cctv/535",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4709",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_248/playlist.m3u8"
   },
   {
     "id": "4710",
@@ -2490,24 +2500,24 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_249/playlist.m3u8"
   },
   {
-    "id": "537",
-    "name": "Camera 537",
+    "id": "4711",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.85244,
     "lng": -73.87125,
-    "image_url": "https://511ny.org/map/Cctv/537",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4711",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_250/playlist.m3u8"
   },
   {
-    "id": "539",
-    "name": "Camera 539",
+    "id": "4712",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.247226,
     "lng": -77.597088,
-    "image_url": "https://511ny.org/map/Cctv/539",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4712",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_300/playlist.m3u8"
   },
   {
     "id": "4713",
@@ -2520,24 +2530,24 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_205/playlist.m3u8"
   },
   {
-    "id": "541",
-    "name": "Camera 541",
+    "id": "4714",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.181032,
     "lng": -77.625284,
-    "image_url": "https://511ny.org/map/Cctv/541",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4714",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_206/playlist.m3u8"
   },
   {
-    "id": "542",
-    "name": "Camera 542",
+    "id": "4715",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.145866,
     "lng": -77.592488,
-    "image_url": "https://511ny.org/map/Cctv/542",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4715",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_208/playlist.m3u8"
   },
   {
     "id": "4716",
@@ -2560,24 +2570,24 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_255/playlist.m3u8"
   },
   {
-    "id": "4718",
-    "name": "",
+    "id": "545",
+    "name": "Camera 545",
     "route": "",
     "jurisdiction": "",
     "lat": 40.61152,
     "lng": -74.11515,
-    "image_url": "https://511ny.org/map/Cctv/4718",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_256/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/545",
+    "video_url": ""
   },
   {
-    "id": "4719",
-    "name": "",
+    "id": "546",
+    "name": "Camera 546",
     "route": "",
     "jurisdiction": "",
     "lat": 40.81592,
     "lng": -73.96364,
-    "image_url": "https://511ny.org/map/Cctv/4719",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_258/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/546",
+    "video_url": ""
   },
   {
     "id": "4721",
@@ -2590,14 +2600,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_265/playlist.m3u8"
   },
   {
-    "id": "551",
-    "name": "Camera 551",
+    "id": "4724",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.246601,
     "lng": -76.132081,
-    "image_url": "https://511ny.org/map/Cctv/551",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4724",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_067/playlist.m3u8"
   },
   {
     "id": "4726",
@@ -2660,24 +2670,24 @@
     "video_url": ""
   },
   {
-    "id": "4740",
-    "name": "",
+    "id": "567",
+    "name": "Camera 567",
     "route": "",
     "jurisdiction": "",
     "lat": 43.102777,
     "lng": -75.228598,
-    "image_url": "https://511ny.org/map/Cctv/4740",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R2_040/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/567",
+    "video_url": ""
   },
   {
-    "id": "4741",
-    "name": "",
+    "id": "568",
+    "name": "Camera 568",
     "route": "",
     "jurisdiction": "",
     "lat": 43.476953,
     "lng": -75.318352,
-    "image_url": "https://511ny.org/map/Cctv/4741",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R2_048/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/568",
+    "video_url": ""
   },
   {
     "id": "569",
@@ -2720,14 +2730,14 @@
     "video_url": ""
   },
   {
-    "id": "4746",
-    "name": "",
+    "id": "573",
+    "name": "Camera 573",
     "route": "",
     "jurisdiction": "",
     "lat": 43.148678,
     "lng": -77.606328,
-    "image_url": "https://511ny.org/map/Cctv/4746",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_274/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/573",
+    "video_url": ""
   },
   {
     "id": "574",
@@ -2770,24 +2780,24 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_302/playlist.m3u8"
   },
   {
-    "id": "4756",
-    "name": "",
+    "id": "583",
+    "name": "Camera 583",
     "route": "",
     "jurisdiction": "",
     "lat": 43.15142928,
     "lng": -77.60223764,
-    "image_url": "https://511ny.org/map/Cctv/4756",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_304/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/583",
+    "video_url": ""
   },
   {
-    "id": "4759",
-    "name": "",
+    "id": "586",
+    "name": "Camera 586",
     "route": "",
     "jurisdiction": "",
     "lat": 43.12489337,
     "lng": -77.61407365,
-    "image_url": "https://511ny.org/map/Cctv/4759",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_308/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/586",
+    "video_url": ""
   },
   {
     "id": "588",
@@ -2800,34 +2810,34 @@
     "video_url": ""
   },
   {
-    "id": "4762",
-    "name": "",
+    "id": "589",
+    "name": "Camera 589",
     "route": "",
     "jurisdiction": "",
     "lat": 40.62468,
     "lng": -74.14613,
-    "image_url": "https://511ny.org/map/Cctv/4762",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_193/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/589",
+    "video_url": ""
   },
   {
-    "id": "4763",
-    "name": "",
+    "id": "590",
+    "name": "Camera 590",
     "route": "",
     "jurisdiction": "",
     "lat": 40.63076,
     "lng": -74.14554,
-    "image_url": "https://511ny.org/map/Cctv/4763",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_194/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/590",
+    "video_url": ""
   },
   {
-    "id": "4764",
-    "name": "",
+    "id": "591",
+    "name": "Camera 591",
     "route": "",
     "jurisdiction": "",
     "lat": 40.5324,
     "lng": -74.22363,
-    "image_url": "https://511ny.org/map/Cctv/4764",
-    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R11_195/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/591",
+    "video_url": ""
   },
   {
     "id": "593",
@@ -2890,24 +2900,24 @@
     "video_url": ""
   },
   {
-    "id": "600",
-    "name": "Camera 600",
+    "id": "4772",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.157244,
     "lng": -77.094477,
-    "image_url": "https://511ny.org/map/Cctv/600",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4772",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R6_011/playlist.m3u8"
   },
   {
-    "id": "602",
-    "name": "Camera 602",
+    "id": "4774",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.153833,
     "lng": -77.099381,
-    "image_url": "https://511ny.org/map/Cctv/602",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4774",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R6_013/playlist.m3u8"
   },
   {
     "id": "603",
@@ -2920,24 +2930,24 @@
     "video_url": ""
   },
   {
-    "id": "604",
-    "name": "Camera 604",
+    "id": "4776",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.170247,
     "lng": -77.104444,
-    "image_url": "https://511ny.org/map/Cctv/604",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4776",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R6_016/playlist.m3u8"
   },
   {
-    "id": "605",
-    "name": "Camera 605",
+    "id": "4777",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.7603,
     "lng": -73.7542,
-    "image_url": "https://511ny.org/map/Cctv/605",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4777",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_048/playlist.m3u8"
   },
   {
     "id": "606",
@@ -2970,14 +2980,14 @@
     "video_url": ""
   },
   {
-    "id": "609",
-    "name": "Camera 609",
+    "id": "4781",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.072776,
     "lng": -76.20679,
-    "image_url": "https://511ny.org/map/Cctv/609",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4781",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_042/playlist.m3u8"
   },
   {
     "id": "610",
@@ -3000,74 +3010,74 @@
     "video_url": ""
   },
   {
-    "id": "612",
-    "name": "Camera 612",
+    "id": "4784",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.966387,
     "lng": -76.135302,
-    "image_url": "https://511ny.org/map/Cctv/612",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4784",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_046/playlist.m3u8"
   },
   {
-    "id": "613",
-    "name": "Camera 613",
+    "id": "4785",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511ny.org/map/Cctv/613",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4785",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_047/playlist.m3u8"
   },
   {
-    "id": "614",
-    "name": "Camera 614",
+    "id": "4786",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511ny.org/map/Cctv/614",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4786",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_048/playlist.m3u8"
   },
   {
-    "id": "615",
-    "name": "Camera 615",
+    "id": "4787",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.1645,
     "lng": -77.683375,
-    "image_url": "https://511ny.org/map/Cctv/615",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4787",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_014/playlist.m3u8"
   },
   {
-    "id": "616",
-    "name": "Camera 616",
+    "id": "4788",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.157296,
     "lng": -76.822627,
-    "image_url": "https://511ny.org/map/Cctv/616",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4788",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R6_017/playlist.m3u8"
   },
   {
-    "id": "618",
-    "name": "Camera 618",
+    "id": "4790",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.162678,
     "lng": -76.839505,
-    "image_url": "https://511ny.org/map/Cctv/618",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4790",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R6_019/playlist.m3u8"
   },
   {
-    "id": "619",
-    "name": "Camera 619",
+    "id": "4791",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.152282,
     "lng": -77.079302,
-    "image_url": "https://511ny.org/map/Cctv/619",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4791",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R6_020/playlist.m3u8"
   },
   {
     "id": "4792",
@@ -3100,54 +3110,54 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_073/playlist.m3u8"
   },
   {
-    "id": "623",
-    "name": "Camera 623",
+    "id": "4795",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.774864,
     "lng": -74.051676,
-    "image_url": "https://511ny.org/map/Cctv/623",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4795",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_074/playlist.m3u8"
   },
   {
-    "id": "624",
-    "name": "Camera 624",
+    "id": "4796",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.309423,
     "lng": -73.676267,
-    "image_url": "https://511ny.org/map/Cctv/624",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4796",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_075/playlist.m3u8"
   },
   {
-    "id": "625",
-    "name": "Camera 625",
+    "id": "4797",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.410878,
     "lng": -73.721917,
-    "image_url": "https://511ny.org/map/Cctv/625",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4797",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R1_076/playlist.m3u8"
   },
   {
-    "id": "626",
-    "name": "Camera 626",
+    "id": "4798",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.583496,
     "lng": -76.110656,
-    "image_url": "https://511ny.org/map/Cctv/626",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4798",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_049/playlist.m3u8"
   },
   {
-    "id": "627",
-    "name": "Camera 627",
+    "id": "4799",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.519547,
     "lng": -76.120216,
-    "image_url": "https://511ny.org/map/Cctv/627",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4799",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_050/playlist.m3u8"
   },
   {
     "id": "4800",
@@ -3180,14 +3190,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_072/playlist.m3u8"
   },
   {
-    "id": "641",
-    "name": "Camera 641",
+    "id": "4812",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.464447,
     "lng": -76.046324,
-    "image_url": "https://511ny.org/map/Cctv/641",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4812",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_073/playlist.m3u8"
   },
   {
     "id": "4813",
@@ -3210,14 +3220,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_075/playlist.m3u8"
   },
   {
-    "id": "644",
-    "name": "Camera 644",
+    "id": "4815",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.440948,
     "lng": -76.510631,
-    "image_url": "https://511ny.org/map/Cctv/644",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4815",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R3_076/playlist.m3u8"
   },
   {
     "id": "4816",
@@ -3250,14 +3260,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_096/playlist.m3u8"
   },
   {
-    "id": "652",
-    "name": "Camera 652",
+    "id": "4823",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.095348,
     "lng": -77.601979,
-    "image_url": "https://511ny.org/map/Cctv/652",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4823",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/R4_095/playlist.m3u8"
   },
   {
     "id": "4824",
@@ -3290,14 +3300,14 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/TA_167/playlist.m3u8"
   },
   {
-    "id": "656",
-    "name": "Camera 656",
+    "id": "4827",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.01161,
     "lng": -78.328695,
-    "image_url": "https://511ny.org/map/Cctv/656",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4827",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/TA_191/playlist.m3u8"
   },
   {
     "id": "4828",
@@ -3420,44 +3430,44 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/TA_216/playlist.m3u8"
   },
   {
-    "id": "669",
-    "name": "Camera 669",
+    "id": "4840",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.09185,
     "lng": -76.31924,
-    "image_url": "https://511ny.org/map/Cctv/669",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4840",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/TA_217/playlist.m3u8"
   },
   {
-    "id": "670",
-    "name": "Camera 670",
+    "id": "4841",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.07064,
     "lng": -73.87328,
-    "image_url": "https://511ny.org/map/Cctv/670",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4841",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/TA_164/playlist.m3u8"
   },
   {
-    "id": "671",
-    "name": "Camera 671",
+    "id": "4842",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.07093,
     "lng": -73.90785,
-    "image_url": "https://511ny.org/map/Cctv/671",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4842",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/TA_165/playlist.m3u8"
   },
   {
-    "id": "672",
-    "name": "Camera 672",
+    "id": "4843",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.07311,
     "lng": -73.91839,
-    "image_url": "https://511ny.org/map/Cctv/672",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4843",
+    "video_url": "https://s7.nysdot.skyvdn.com/rtplive/TA_166/playlist.m3u8"
   },
   {
     "id": "4844",
@@ -3470,24 +3480,24 @@
     "video_url": "https://s7.nysdot.skyvdn.com/rtplive/TA_208/playlist.m3u8"
   },
   {
-    "id": "679",
-    "name": "Camera 679",
+    "id": "4845",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.15951391,
     "lng": -77.54698428,
-    "image_url": "https://511ny.org/map/Cctv/679",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4845",
+    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_213/playlist.m3u8"
   },
   {
-    "id": "680",
-    "name": "Camera 680",
+    "id": "4846",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.01503,
     "lng": -73.72309,
-    "image_url": "https://511ny.org/map/Cctv/680",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4846",
+    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_011/playlist.m3u8"
   },
   {
     "id": "4847",
@@ -3500,14 +3510,14 @@
     "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_012/playlist.m3u8"
   },
   {
-    "id": "4848",
-    "name": "",
+    "id": "682",
+    "name": "Camera 682",
     "route": "",
     "jurisdiction": "",
     "lat": 41.0929,
     "lng": -74.03941,
-    "image_url": "https://511ny.org/map/Cctv/4848",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_013/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/682",
+    "video_url": ""
   },
   {
     "id": "4849",
@@ -3520,14 +3530,14 @@
     "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_014/playlist.m3u8"
   },
   {
-    "id": "684",
-    "name": "Camera 684",
+    "id": "4850",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.9167,
     "lng": -73.87181,
-    "image_url": "https://511ny.org/map/Cctv/684",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4850",
+    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_015/playlist.m3u8"
   },
   {
     "id": "685",
@@ -3560,14 +3570,14 @@
     "video_url": ""
   },
   {
-    "id": "688",
-    "name": "Camera 688",
+    "id": "4854",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.95576,
     "lng": -73.86142,
-    "image_url": "https://511ny.org/map/Cctv/688",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4854",
+    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_019/playlist.m3u8"
   },
   {
     "id": "689",
@@ -3590,34 +3600,34 @@
     "video_url": ""
   },
   {
-    "id": "4857",
-    "name": "",
+    "id": "691",
+    "name": "Camera 691",
     "route": "",
     "jurisdiction": "",
     "lat": 41.30746,
     "lng": -74.12826,
-    "image_url": "https://511ny.org/map/Cctv/4857",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_042/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/691",
+    "video_url": ""
   },
   {
-    "id": "4858",
-    "name": "",
+    "id": "692",
+    "name": "Camera 692",
     "route": "",
     "jurisdiction": "",
     "lat": 41.31077,
     "lng": -74.1218,
-    "image_url": "https://511ny.org/map/Cctv/4858",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_043/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/692",
+    "video_url": ""
   },
   {
-    "id": "4859",
-    "name": "",
+    "id": "693",
+    "name": "Camera 693",
     "route": "",
     "jurisdiction": "",
     "lat": 41.51338,
     "lng": -74.07198,
-    "image_url": "https://511ny.org/map/Cctv/4859",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_044/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/693",
+    "video_url": ""
   },
   {
     "id": "694",
@@ -3660,14 +3670,14 @@
     "video_url": ""
   },
   {
-    "id": "4864",
-    "name": "",
+    "id": "698",
+    "name": "Camera 698",
     "route": "",
     "jurisdiction": "",
     "lat": 40.86897,
     "lng": -73.83258,
-    "image_url": "https://511ny.org/map/Cctv/4864",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_049/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/698",
+    "video_url": ""
   },
   {
     "id": "699",
@@ -3700,14 +3710,14 @@
     "video_url": ""
   },
   {
-    "id": "702",
-    "name": "Camera 702",
+    "id": "4868",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.69611,
     "lng": -73.84414,
-    "image_url": "https://511ny.org/map/Cctv/702",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4868",
+    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_073/playlist.m3u8"
   },
   {
     "id": "703",
@@ -3720,54 +3730,54 @@
     "video_url": ""
   },
   {
-    "id": "4870",
-    "name": "",
+    "id": "704",
+    "name": "Camera 704",
     "route": "",
     "jurisdiction": "",
     "lat": 42.74476,
     "lng": -73.91938,
-    "image_url": "https://511ny.org/map/Cctv/4870",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_075/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/704",
+    "video_url": ""
   },
   {
-    "id": "4871",
-    "name": "",
+    "id": "705",
+    "name": "Camera 705",
     "route": "",
     "jurisdiction": "",
     "lat": 42.75434,
     "lng": -73.9335,
-    "image_url": "https://511ny.org/map/Cctv/4871",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_076/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/705",
+    "video_url": ""
   },
   {
-    "id": "4872",
-    "name": "",
+    "id": "706",
+    "name": "Camera 706",
     "route": "",
     "jurisdiction": "",
     "lat": 42.79013,
     "lng": -74.01626,
-    "image_url": "https://511ny.org/map/Cctv/4872",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_077/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/706",
+    "video_url": ""
   },
   {
-    "id": "4873",
-    "name": "",
+    "id": "707",
+    "name": "Camera 707",
     "route": "",
     "jurisdiction": "",
     "lat": 42.83936,
     "lng": -74.01306,
-    "image_url": "https://511ny.org/map/Cctv/4873",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_078/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/707",
+    "video_url": ""
   },
   {
-    "id": "4874",
-    "name": "",
+    "id": "708",
+    "name": "Camera 708",
     "route": "",
     "jurisdiction": "",
     "lat": 42.92321,
     "lng": -74.19655,
-    "image_url": "https://511ny.org/map/Cctv/4874",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_079/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/708",
+    "video_url": ""
   },
   {
     "id": "709",
@@ -3780,54 +3790,54 @@
     "video_url": ""
   },
   {
-    "id": "710",
-    "name": "Camera 710",
+    "id": "4876",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.99528,
     "lng": -77.36722,
-    "image_url": "https://511ny.org/map/Cctv/710",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4876",
+    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_101/playlist.m3u8"
   },
   {
-    "id": "4877",
-    "name": "",
+    "id": "711",
+    "name": "Camera 711",
     "route": "",
     "jurisdiction": "",
     "lat": 43.00942,
     "lng": -77.43917,
-    "image_url": "https://511ny.org/map/Cctv/4877",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_102/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/711",
+    "video_url": ""
   },
   {
-    "id": "4878",
-    "name": "",
+    "id": "712",
+    "name": "Camera 712",
     "route": "",
     "jurisdiction": "",
     "lat": 43.04809,
     "lng": -77.65161,
-    "image_url": "https://511ny.org/map/Cctv/4878",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_103/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/712",
+    "video_url": ""
   },
   {
-    "id": "4879",
-    "name": "",
+    "id": "713",
+    "name": "Camera 713",
     "route": "",
     "jurisdiction": "",
     "lat": 43.02926,
     "lng": -77.96506,
-    "image_url": "https://511ny.org/map/Cctv/4879",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_104/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/713",
+    "video_url": ""
   },
   {
-    "id": "4880",
-    "name": "",
+    "id": "714",
+    "name": "Camera 714",
     "route": "",
     "jurisdiction": "",
     "lat": 43.01839,
     "lng": -78.18627,
-    "image_url": "https://511ny.org/map/Cctv/4880",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_105/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/714",
+    "video_url": ""
   },
   {
     "id": "715",
@@ -3840,14 +3850,14 @@
     "video_url": ""
   },
   {
-    "id": "4882",
-    "name": "",
+    "id": "716",
+    "name": "Camera 716",
     "route": "",
     "jurisdiction": "",
     "lat": 42.95007,
     "lng": -78.69663,
-    "image_url": "https://511ny.org/map/Cctv/4882",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_107/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/716",
+    "video_url": ""
   },
   {
     "id": "717",
@@ -3870,14 +3880,14 @@
     "video_url": ""
   },
   {
-    "id": "4885",
-    "name": "",
+    "id": "719",
+    "name": "Camera 719",
     "route": "",
     "jurisdiction": "",
     "lat": 42.95179,
     "lng": -78.75938,
-    "image_url": "https://511ny.org/map/Cctv/4885",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_110/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/719",
+    "video_url": ""
   },
   {
     "id": "720",
@@ -3890,34 +3900,34 @@
     "video_url": ""
   },
   {
-    "id": "721",
-    "name": "Camera 721",
+    "id": "4887",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 42.65924,
     "lng": -78.96066,
-    "image_url": "https://511ny.org/map/Cctv/721",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4887",
+    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_132/playlist.m3u8"
   },
   {
-    "id": "4888",
-    "name": "",
+    "id": "722",
+    "name": "Camera 722",
     "route": "",
     "jurisdiction": "",
     "lat": 42.55086,
     "lng": -79.10762,
-    "image_url": "https://511ny.org/map/Cctv/4888",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_133/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/722",
+    "video_url": ""
   },
   {
-    "id": "4889",
-    "name": "",
+    "id": "723",
+    "name": "Camera 723",
     "route": "",
     "jurisdiction": "",
     "lat": 42.46166,
     "lng": -79.30563,
-    "image_url": "https://511ny.org/map/Cctv/4889",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/TA_134/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/723",
+    "video_url": ""
   },
   {
     "id": "724",
@@ -4010,14 +4020,14 @@
     "video_url": ""
   },
   {
-    "id": "4901",
-    "name": "",
+    "id": "753",
+    "name": "Camera 753",
     "route": "",
     "jurisdiction": "",
     "lat": 42.058224,
     "lng": -76.806253,
-    "image_url": "https://511ny.org/map/Cctv/4901",
-    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R6_033/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/753",
+    "video_url": ""
   },
   {
     "id": "754",
@@ -4090,14 +4100,14 @@
     "video_url": ""
   },
   {
-    "id": "767",
-    "name": "Camera 767",
+    "id": "4915",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.73122,
     "lng": -73.91717,
-    "image_url": "https://511ny.org/map/Cctv/767",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4915",
+    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R11_230/playlist.m3u8"
   },
   {
     "id": "768",
@@ -4170,14 +4180,14 @@
     "video_url": ""
   },
   {
-    "id": "4924",
-    "name": "",
+    "id": "776",
+    "name": "Camera 776",
     "route": "",
     "jurisdiction": "",
     "lat": 40.77125,
     "lng": -73.83317,
-    "image_url": "https://511ny.org/map/Cctv/4924",
-    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R11_241/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/776",
+    "video_url": ""
   },
   {
     "id": "777",
@@ -4190,14 +4200,14 @@
     "video_url": ""
   },
   {
-    "id": "778",
-    "name": "Camera 778",
+    "id": "4926",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 40.8244,
     "lng": -73.93467,
-    "image_url": "https://511ny.org/map/Cctv/778",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4926",
+    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R11_253/playlist.m3u8"
   },
   {
     "id": "779",
@@ -4230,24 +4240,24 @@
     "video_url": ""
   },
   {
-    "id": "4930",
-    "name": "",
+    "id": "782",
+    "name": "Camera 782",
     "route": "",
     "jurisdiction": "",
     "lat": 43.164681,
     "lng": -77.63409,
-    "image_url": "https://511ny.org/map/Cctv/4930",
-    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R4_309/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/782",
+    "video_url": ""
   },
   {
-    "id": "4931",
-    "name": "",
+    "id": "783",
+    "name": "Camera 783",
     "route": "",
     "jurisdiction": "",
     "lat": 40.75482,
     "lng": -73.74305,
-    "image_url": "https://511ny.org/map/Cctv/4931",
-    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R11_254/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/783",
+    "video_url": ""
   },
   {
     "id": "787",
@@ -4260,24 +4270,24 @@
     "video_url": ""
   },
   {
-    "id": "4936",
-    "name": "",
+    "id": "788",
+    "name": "Camera 788",
     "route": "",
     "jurisdiction": "",
     "lat": 42.857899,
     "lng": -76.118887,
-    "image_url": "https://511ny.org/map/Cctv/4936",
-    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R3_084/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/788",
+    "video_url": ""
   },
   {
-    "id": "4937",
-    "name": "",
+    "id": "789",
+    "name": "Camera 789",
     "route": "",
     "jurisdiction": "",
     "lat": 43.111962,
     "lng": -76.284747,
-    "image_url": "https://511ny.org/map/Cctv/4937",
-    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R3_083/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/789",
+    "video_url": ""
   },
   {
     "id": "790",
@@ -4310,14 +4320,14 @@
     "video_url": ""
   },
   {
-    "id": "4943",
-    "name": "",
+    "id": "795",
+    "name": "Camera 795",
     "route": "",
     "jurisdiction": "",
     "lat": 41.028106,
     "lng": -73.728128,
-    "image_url": "https://511ny.org/map/Cctv/4943",
-    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R8_162/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/795",
+    "video_url": ""
   },
   {
     "id": "797",
@@ -4350,24 +4360,24 @@
     "video_url": ""
   },
   {
-    "id": "801",
-    "name": "Camera 801",
+    "id": "4949",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.063528,
     "lng": -73.8625,
-    "image_url": "https://511ny.org/map/Cctv/801",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4949",
+    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R8_168/playlist.m3u8"
   },
   {
-    "id": "802",
-    "name": "Camera 802",
+    "id": "4950",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.05138,
     "lng": -73.812818,
-    "image_url": "https://511ny.org/map/Cctv/802",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4950",
+    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R8_169/playlist.m3u8"
   },
   {
     "id": "803",
@@ -4440,14 +4450,14 @@
     "video_url": ""
   },
   {
-    "id": "810",
-    "name": "Camera 810",
+    "id": "4958",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.096836,
     "lng": -74.012037,
-    "image_url": "https://511ny.org/map/Cctv/810",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4958",
+    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R8_177/playlist.m3u8"
   },
   {
     "id": "811",
@@ -4470,14 +4480,14 @@
     "video_url": ""
   },
   {
-    "id": "813",
-    "name": "Camera 813",
+    "id": "4961",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 41.103826,
     "lng": -74.030053,
-    "image_url": "https://511ny.org/map/Cctv/813",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4961",
+    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R8_180/playlist.m3u8"
   },
   {
     "id": "814",
@@ -4500,14 +4510,14 @@
     "video_url": ""
   },
   {
-    "id": "822",
-    "name": "Camera 822",
+    "id": "4970",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 43.099803,
     "lng": -73.579944,
-    "image_url": "https://511ny.org/map/Cctv/822",
-    "video_url": ""
+    "image_url": "https://511ny.org/map/Cctv/4970",
+    "video_url": "https://s9.nysdot.skyvdn.com/rtplive/R1_090/playlist.m3u8"
   },
   {
     "id": "831",
@@ -9040,6 +9050,16 @@
     "video_url": ""
   },
   {
+    "id": "1537",
+    "name": "Camera 1537",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 40.84964,
+    "lng": -73.92306,
+    "image_url": "https://511ny.org/map/Cctv/1537",
+    "video_url": ""
+  },
+  {
     "id": "1538",
     "name": "Camera 1538",
     "route": "",
@@ -11370,6 +11390,16 @@
     "video_url": ""
   },
   {
+    "id": "1804",
+    "name": "Camera 1804",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 40.74287,
+    "lng": -73.82789,
+    "image_url": "https://511ny.org/map/Cctv/1804",
+    "video_url": ""
+  },
+  {
     "id": "1806",
     "name": "Camera 1806",
     "route": "",
@@ -11417,6 +11447,16 @@
     "lat": 40.74009,
     "lng": -73.79032,
     "image_url": "https://511ny.org/map/Cctv/1810",
+    "video_url": ""
+  },
+  {
+    "id": "1811",
+    "name": "Camera 1811",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 40.69706,
+    "lng": -73.81367,
+    "image_url": "https://511ny.org/map/Cctv/1811",
     "video_url": ""
   },
   {
@@ -11530,13 +11570,13 @@
     "video_url": ""
   },
   {
-    "id": "3228",
-    "name": "",
+    "id": "2402",
+    "name": "Camera 2402",
     "route": "",
     "jurisdiction": "",
     "lat": 40.748037,
     "lng": -73.969488,
-    "image_url": "https://511ny.org/map/Cctv/3228",
+    "image_url": "https://511ny.org/map/Cctv/2402",
     "video_url": ""
   },
   {
@@ -11600,13 +11640,13 @@
     "video_url": ""
   },
   {
-    "id": "3236",
-    "name": "",
+    "id": "2410",
+    "name": "Camera 2410",
     "route": "",
     "jurisdiction": "",
     "lat": 40.756295,
     "lng": -74.004507,
-    "image_url": "https://511ny.org/map/Cctv/3236",
+    "image_url": "https://511ny.org/map/Cctv/2410",
     "video_url": ""
   },
   {
@@ -11660,13 +11700,13 @@
     "video_url": ""
   },
   {
-    "id": "3243",
-    "name": "",
+    "id": "2417",
+    "name": "Camera 2417",
     "route": "",
     "jurisdiction": "",
     "lat": 40.753402,
     "lng": -73.968844,
-    "image_url": "https://511ny.org/map/Cctv/3243",
+    "image_url": "https://511ny.org/map/Cctv/2417",
     "video_url": ""
   },
   {
@@ -11690,13 +11730,13 @@
     "video_url": ""
   },
   {
-    "id": "3247",
-    "name": "",
+    "id": "2421",
+    "name": "Camera 2421",
     "route": "",
     "jurisdiction": "",
     "lat": 40.759903,
     "lng": -73.964124,
-    "image_url": "https://511ny.org/map/Cctv/3247",
+    "image_url": "https://511ny.org/map/Cctv/2421",
     "video_url": ""
   },
   {
@@ -11720,13 +11760,13 @@
     "video_url": ""
   },
   {
-    "id": "3250",
-    "name": "",
+    "id": "2424",
+    "name": "Camera 2424",
     "route": "",
     "jurisdiction": "",
     "lat": 40.744818,
     "lng": -73.977985,
-    "image_url": "https://511ny.org/map/Cctv/3250",
+    "image_url": "https://511ny.org/map/Cctv/2424",
     "video_url": ""
   },
   {
@@ -11740,13 +11780,13 @@
     "video_url": ""
   },
   {
-    "id": "3252",
-    "name": "",
+    "id": "2426",
+    "name": "Camera 2426",
     "route": "",
     "jurisdiction": "",
     "lat": 40.754409,
     "lng": -73.971162,
-    "image_url": "https://511ny.org/map/Cctv/3252",
+    "image_url": "https://511ny.org/map/Cctv/2426",
     "video_url": ""
   },
   {
@@ -11760,13 +11800,13 @@
     "video_url": ""
   },
   {
-    "id": "3255",
-    "name": "",
+    "id": "2429",
+    "name": "Camera 2429",
     "route": "",
     "jurisdiction": "",
     "lat": 40.740689,
     "lng": -73.989444,
-    "image_url": "https://511ny.org/map/Cctv/3255",
+    "image_url": "https://511ny.org/map/Cctv/2429",
     "video_url": ""
   },
   {
@@ -11780,173 +11820,173 @@
     "video_url": ""
   },
   {
-    "id": "3257",
-    "name": "",
+    "id": "2431",
+    "name": "Camera 2431",
     "route": "",
     "jurisdiction": "",
     "lat": 40.752621,
     "lng": -73.980689,
-    "image_url": "https://511ny.org/map/Cctv/3257",
+    "image_url": "https://511ny.org/map/Cctv/2431",
     "video_url": ""
   },
   {
-    "id": "3258",
-    "name": "",
+    "id": "2432",
+    "name": "Camera 2432",
     "route": "",
     "jurisdiction": "",
     "lat": 40.757108,
     "lng": -73.977556,
-    "image_url": "https://511ny.org/map/Cctv/3258",
+    "image_url": "https://511ny.org/map/Cctv/2432",
     "video_url": ""
   },
   {
-    "id": "3259",
-    "name": "",
+    "id": "2433",
+    "name": "Camera 2433",
     "route": "",
     "jurisdiction": "",
     "lat": 40.762179,
     "lng": -73.97378,
-    "image_url": "https://511ny.org/map/Cctv/3259",
+    "image_url": "https://511ny.org/map/Cctv/2433",
     "video_url": ""
   },
   {
-    "id": "3260",
-    "name": "",
+    "id": "2434",
+    "name": "Camera 2434",
     "route": "",
     "jurisdiction": "",
     "lat": 40.771539,
     "lng": -73.966913,
-    "image_url": "https://511ny.org/map/Cctv/3260",
+    "image_url": "https://511ny.org/map/Cctv/2434",
     "video_url": ""
   },
   {
-    "id": "3261",
-    "name": "",
+    "id": "2435",
+    "name": "Camera 2435",
     "route": "",
     "jurisdiction": "",
     "lat": 40.736494,
     "lng": -73.996568,
-    "image_url": "https://511ny.org/map/Cctv/3261",
+    "image_url": "https://511ny.org/map/Cctv/2435",
     "video_url": ""
   },
   {
-    "id": "3262",
-    "name": "",
+    "id": "2436",
+    "name": "Camera 2436",
     "route": "",
     "jurisdiction": "",
     "lat": 40.742087,
     "lng": -73.992662,
-    "image_url": "https://511ny.org/map/Cctv/3262",
+    "image_url": "https://511ny.org/map/Cctv/2436",
     "video_url": ""
   },
   {
-    "id": "3263",
-    "name": "",
+    "id": "2437",
+    "name": "Camera 2437",
     "route": "",
     "jurisdiction": "",
     "lat": 40.748818,
     "lng": -73.98747,
-    "image_url": "https://511ny.org/map/Cctv/3263",
+    "image_url": "https://511ny.org/map/Cctv/2437",
     "video_url": ""
   },
   {
-    "id": "3264",
-    "name": "",
+    "id": "2438",
+    "name": "Camera 2438",
     "route": "",
     "jurisdiction": "",
     "lat": 40.754084,
     "lng": -73.983908,
-    "image_url": "https://511ny.org/map/Cctv/3264",
+    "image_url": "https://511ny.org/map/Cctv/2438",
     "video_url": ""
   },
   {
-    "id": "3265",
-    "name": "",
+    "id": "2439",
+    "name": "Camera 2439",
     "route": "",
     "jurisdiction": "",
     "lat": 40.759281,
     "lng": -73.980898,
-    "image_url": "https://511ny.org/map/Cctv/3265",
+    "image_url": "https://511ny.org/map/Cctv/2439",
     "video_url": ""
   },
   {
-    "id": "3266",
-    "name": "",
+    "id": "2440",
+    "name": "Camera 2440",
     "route": "",
     "jurisdiction": "",
     "lat": 40.763446,
     "lng": -73.976955,
-    "image_url": "https://511ny.org/map/Cctv/3266",
+    "image_url": "https://511ny.org/map/Cctv/2440",
     "video_url": ""
   },
   {
-    "id": "3267",
-    "name": "",
+    "id": "2441",
+    "name": "Camera 2441",
     "route": "",
     "jurisdiction": "",
     "lat": 40.764291,
     "lng": -73.976526,
-    "image_url": "https://511ny.org/map/Cctv/3267",
+    "image_url": "https://511ny.org/map/Cctv/2441",
     "video_url": ""
   },
   {
-    "id": "3268",
-    "name": "",
+    "id": "2442",
+    "name": "Camera 2442",
     "route": "",
     "jurisdiction": "",
     "lat": 40.728348,
     "lng": -74.002878,
-    "image_url": "https://511ny.org/map/Cctv/3268",
+    "image_url": "https://511ny.org/map/Cctv/2442",
     "video_url": ""
   },
   {
-    "id": "3269",
-    "name": "",
+    "id": "2443",
+    "name": "Camera 2443",
     "route": "",
     "jurisdiction": "",
     "lat": 40.80806,
     "lng": -73.948159,
-    "image_url": "https://511ny.org/map/Cctv/3269",
+    "image_url": "https://511ny.org/map/Cctv/2443",
     "video_url": ""
   },
   {
-    "id": "3271",
-    "name": "",
+    "id": "2445",
+    "name": "Camera 2445",
     "route": "",
     "jurisdiction": "",
     "lat": 40.743323,
     "lng": -73.995452,
-    "image_url": "https://511ny.org/map/Cctv/3271",
+    "image_url": "https://511ny.org/map/Cctv/2445",
     "video_url": ""
   },
   {
-    "id": "3272",
-    "name": "",
+    "id": "2446",
+    "name": "Camera 2446",
     "route": "",
     "jurisdiction": "",
     "lat": 40.750151,
     "lng": -73.99056,
-    "image_url": "https://511ny.org/map/Cctv/3272",
+    "image_url": "https://511ny.org/map/Cctv/2446",
     "video_url": ""
   },
   {
-    "id": "3273",
-    "name": "",
+    "id": "2447",
+    "name": "Camera 2447",
     "route": "",
     "jurisdiction": "",
     "lat": 40.756691,
     "lng": -73.986476,
-    "image_url": "https://511ny.org/map/Cctv/3273",
+    "image_url": "https://511ny.org/map/Cctv/2447",
     "video_url": ""
   },
   {
-    "id": "3274",
-    "name": "",
+    "id": "2448",
+    "name": "Camera 2448",
     "route": "",
     "jurisdiction": "",
     "lat": 40.759643,
     "lng": -73.983564,
-    "image_url": "https://511ny.org/map/Cctv/3274",
+    "image_url": "https://511ny.org/map/Cctv/2448",
     "video_url": ""
   },
   {
@@ -11960,323 +12000,323 @@
     "video_url": ""
   },
   {
-    "id": "3276",
-    "name": "",
+    "id": "2450",
+    "name": "Camera 2450",
     "route": "",
     "jurisdiction": "",
     "lat": 40.738966,
     "lng": -74.002318,
-    "image_url": "https://511ny.org/map/Cctv/3276",
+    "image_url": "https://511ny.org/map/Cctv/2450",
     "video_url": ""
   },
   {
-    "id": "3277",
-    "name": "",
+    "id": "2451",
+    "name": "Camera 2451",
     "route": "",
     "jurisdiction": "",
     "lat": 40.744396,
     "lng": -73.998113,
-    "image_url": "https://511ny.org/map/Cctv/3277",
+    "image_url": "https://511ny.org/map/Cctv/2451",
     "video_url": ""
   },
   {
-    "id": "3278",
-    "name": "",
+    "id": "2452",
+    "name": "Camera 2452",
     "route": "",
     "jurisdiction": "",
     "lat": 40.751353,
     "lng": -73.993392,
-    "image_url": "https://511ny.org/map/Cctv/3278",
+    "image_url": "https://511ny.org/map/Cctv/2452",
     "video_url": ""
   },
   {
-    "id": "3279",
-    "name": "",
+    "id": "2453",
+    "name": "Camera 2453",
     "route": "",
     "jurisdiction": "",
     "lat": 40.756295,
     "lng": -73.989573,
-    "image_url": "https://511ny.org/map/Cctv/3279",
+    "image_url": "https://511ny.org/map/Cctv/2453",
     "video_url": ""
   },
   {
-    "id": "3280",
-    "name": "",
+    "id": "2454",
+    "name": "Camera 2454",
     "route": "",
     "jurisdiction": "",
     "lat": 40.760813,
     "lng": -73.986397,
-    "image_url": "https://511ny.org/map/Cctv/3280",
+    "image_url": "https://511ny.org/map/Cctv/2454",
     "video_url": ""
   },
   {
-    "id": "3281",
-    "name": "",
+    "id": "2455",
+    "name": "Camera 2455",
     "route": "",
     "jurisdiction": "",
     "lat": 40.766969,
     "lng": -73.982265,
-    "image_url": "https://511ny.org/map/Cctv/3281",
+    "image_url": "https://511ny.org/map/Cctv/2455",
     "video_url": ""
   },
   {
-    "id": "3282",
-    "name": "",
+    "id": "2456",
+    "name": "Camera 2456",
     "route": "",
     "jurisdiction": "",
     "lat": 40.750151,
     "lng": -73.997898,
-    "image_url": "https://511ny.org/map/Cctv/3282",
+    "image_url": "https://511ny.org/map/Cctv/2456",
     "video_url": ""
   },
   {
-    "id": "3283",
-    "name": "",
+    "id": "2457",
+    "name": "Camera 2457",
     "route": "",
     "jurisdiction": "",
     "lat": 40.752459,
     "lng": -73.996139,
-    "image_url": "https://511ny.org/map/Cctv/3283",
+    "image_url": "https://511ny.org/map/Cctv/2457",
     "video_url": ""
   },
   {
-    "id": "3284",
-    "name": "",
+    "id": "2458",
+    "name": "Camera 2458",
     "route": "",
     "jurisdiction": "",
     "lat": 40.754474,
     "lng": -73.994637,
-    "image_url": "https://511ny.org/map/Cctv/3284",
+    "image_url": "https://511ny.org/map/Cctv/2458",
     "video_url": ""
   },
   {
-    "id": "3285",
-    "name": "",
+    "id": "2459",
+    "name": "Camera 2459",
     "route": "",
     "jurisdiction": "",
     "lat": 40.757595,
     "lng": -73.992448,
-    "image_url": "https://511ny.org/map/Cctv/3285",
+    "image_url": "https://511ny.org/map/Cctv/2459",
     "video_url": ""
   },
   {
-    "id": "3287",
-    "name": "",
+    "id": "2461",
+    "name": "Camera 2461",
     "route": "",
     "jurisdiction": "",
     "lat": 40.761983,
     "lng": -73.989229,
-    "image_url": "https://511ny.org/map/Cctv/3287",
+    "image_url": "https://511ny.org/map/Cctv/2461",
     "video_url": ""
   },
   {
-    "id": "3288",
-    "name": "",
+    "id": "2462",
+    "name": "Camera 2462",
     "route": "",
     "jurisdiction": "",
     "lat": 40.767119,
     "lng": -73.985496,
-    "image_url": "https://511ny.org/map/Cctv/3288",
+    "image_url": "https://511ny.org/map/Cctv/2462",
     "video_url": ""
   },
   {
-    "id": "3289",
-    "name": "",
+    "id": "2463",
+    "name": "Camera 2463",
     "route": "",
     "jurisdiction": "",
     "lat": 40.696346,
     "lng": -73.988845,
-    "image_url": "https://511ny.org/map/Cctv/3289",
+    "image_url": "https://511ny.org/map/Cctv/2463",
     "video_url": ""
   },
   {
-    "id": "3290",
-    "name": "",
+    "id": "2464",
+    "name": "Camera 2464",
     "route": "",
     "jurisdiction": "",
     "lat": 40.850354,
     "lng": -73.940604,
-    "image_url": "https://511ny.org/map/Cctv/3290",
+    "image_url": "https://511ny.org/map/Cctv/2464",
     "video_url": ""
   },
   {
-    "id": "3292",
-    "name": "",
+    "id": "2466",
+    "name": "Camera 2466",
     "route": "",
     "jurisdiction": "",
     "lat": 40.786878,
     "lng": -73.974895,
-    "image_url": "https://511ny.org/map/Cctv/3292",
+    "image_url": "https://511ny.org/map/Cctv/2466",
     "video_url": ""
   },
   {
-    "id": "3293",
-    "name": "",
+    "id": "2467",
+    "name": "Camera 2467",
     "route": "",
     "jurisdiction": "",
     "lat": 40.813323,
     "lng": -73.956265,
-    "image_url": "https://511ny.org/map/Cctv/3293",
+    "image_url": "https://511ny.org/map/Cctv/2467",
     "video_url": ""
   },
   {
-    "id": "3294",
-    "name": "",
+    "id": "2468",
+    "name": "Camera 2468",
     "route": "",
     "jurisdiction": "",
     "lat": 40.770207,
     "lng": -73.986869,
-    "image_url": "https://511ny.org/map/Cctv/3294",
+    "image_url": "https://511ny.org/map/Cctv/2468",
     "video_url": ""
   },
   {
-    "id": "3295",
-    "name": "",
+    "id": "2469",
+    "name": "Camera 2469",
     "route": "",
     "jurisdiction": "",
     "lat": 40.688416,
     "lng": -73.990259,
-    "image_url": "https://511ny.org/map/Cctv/3295",
+    "image_url": "https://511ny.org/map/Cctv/2469",
     "video_url": ""
   },
   {
-    "id": "3296",
-    "name": "",
+    "id": "2470",
+    "name": "Camera 2470",
     "route": "",
     "jurisdiction": "",
     "lat": 40.690759,
     "lng": -73.998413,
-    "image_url": "https://511ny.org/map/Cctv/3296",
+    "image_url": "https://511ny.org/map/Cctv/2470",
     "video_url": ""
   },
   {
-    "id": "3297",
-    "name": "",
+    "id": "2471",
+    "name": "Camera 2471",
     "route": "",
     "jurisdiction": "",
     "lat": 40.680963,
     "lng": -73.967042,
-    "image_url": "https://511ny.org/map/Cctv/3297",
+    "image_url": "https://511ny.org/map/Cctv/2471",
     "video_url": ""
   },
   {
-    "id": "3298",
-    "name": "",
+    "id": "2472",
+    "name": "Camera 2472",
     "route": "",
     "jurisdiction": "",
     "lat": 40.6666,
     "lng": -73.8104,
-    "image_url": "https://511ny.org/map/Cctv/3298",
+    "image_url": "https://511ny.org/map/Cctv/2472",
     "video_url": ""
   },
   {
-    "id": "3300",
-    "name": "",
+    "id": "2474",
+    "name": "Camera 2474",
     "route": "",
     "jurisdiction": "",
     "lat": 40.659301,
     "lng": -73.854457,
-    "image_url": "https://511ny.org/map/Cctv/3300",
+    "image_url": "https://511ny.org/map/Cctv/2474",
     "video_url": ""
   },
   {
-    "id": "3302",
-    "name": "",
+    "id": "2476",
+    "name": "Camera 2476",
     "route": "",
     "jurisdiction": "",
     "lat": 40.639032,
     "lng": -74.035621,
-    "image_url": "https://511ny.org/map/Cctv/3302",
+    "image_url": "https://511ny.org/map/Cctv/2476",
     "video_url": ""
   },
   {
-    "id": "3303",
-    "name": "",
+    "id": "2477",
+    "name": "Camera 2477",
     "route": "",
     "jurisdiction": "",
     "lat": 40.604393,
     "lng": -74.016986,
-    "image_url": "https://511ny.org/map/Cctv/3303",
+    "image_url": "https://511ny.org/map/Cctv/2477",
     "video_url": ""
   },
   {
-    "id": "3304",
-    "name": "",
+    "id": "2478",
+    "name": "Camera 2478",
     "route": "",
     "jurisdiction": "",
     "lat": 40.665275,
     "lng": -73.740406,
-    "image_url": "https://511ny.org/map/Cctv/3304",
+    "image_url": "https://511ny.org/map/Cctv/2478",
     "video_url": ""
   },
   {
-    "id": "3305",
-    "name": "",
+    "id": "2479",
+    "name": "Camera 2479",
     "route": "",
     "jurisdiction": "",
     "lat": 40.682884,
     "lng": -73.726459,
-    "image_url": "https://511ny.org/map/Cctv/3305",
+    "image_url": "https://511ny.org/map/Cctv/2479",
     "video_url": ""
   },
   {
-    "id": "3306",
-    "name": "",
+    "id": "2480",
+    "name": "Camera 2480",
     "route": "",
     "jurisdiction": "",
     "lat": 40.650918,
     "lng": -73.865762,
-    "image_url": "https://511ny.org/map/Cctv/3306",
+    "image_url": "https://511ny.org/map/Cctv/2480",
     "video_url": ""
   },
   {
-    "id": "3307",
-    "name": "",
+    "id": "2481",
+    "name": "Camera 2481",
     "route": "",
     "jurisdiction": "",
     "lat": 40.595641,
     "lng": -73.907647,
-    "image_url": "https://511ny.org/map/Cctv/3307",
+    "image_url": "https://511ny.org/map/Cctv/2481",
     "video_url": ""
   },
   {
-    "id": "3308",
-    "name": "",
+    "id": "2482",
+    "name": "Camera 2482",
     "route": "",
     "jurisdiction": "",
     "lat": 40.66674,
     "lng": -73.770962,
-    "image_url": "https://511ny.org/map/Cctv/3308",
+    "image_url": "https://511ny.org/map/Cctv/2482",
     "video_url": ""
   },
   {
-    "id": "3309",
-    "name": "",
+    "id": "2483",
+    "name": "Camera 2483",
     "route": "",
     "jurisdiction": "",
     "lat": 40.583257,
     "lng": -73.966656,
-    "image_url": "https://511ny.org/map/Cctv/3309",
+    "image_url": "https://511ny.org/map/Cctv/2483",
     "video_url": ""
   },
   {
-    "id": "3311",
-    "name": "",
+    "id": "2485",
+    "name": "Camera 2485",
     "route": "",
     "jurisdiction": "",
     "lat": 40.642517,
     "lng": -73.87589,
-    "image_url": "https://511ny.org/map/Cctv/3311",
+    "image_url": "https://511ny.org/map/Cctv/2485",
     "video_url": ""
   },
   {
-    "id": "3312",
-    "name": "",
+    "id": "2486",
+    "name": "Camera 2486",
     "route": "",
     "jurisdiction": "",
     "lat": 40.665275,
     "lng": -73.757572,
-    "image_url": "https://511ny.org/map/Cctv/3312",
+    "image_url": "https://511ny.org/map/Cctv/2486",
     "video_url": ""
   },
   {
@@ -12290,43 +12330,43 @@
     "video_url": ""
   },
   {
-    "id": "3321",
-    "name": "",
+    "id": "2495",
+    "name": "Camera 2495",
     "route": "",
     "jurisdiction": "",
     "lat": 40.81575,
     "lng": -73.9585,
-    "image_url": "https://511ny.org/map/Cctv/3321",
+    "image_url": "https://511ny.org/map/Cctv/2495",
     "video_url": ""
   },
   {
-    "id": "3322",
-    "name": "",
+    "id": "2496",
+    "name": "Camera 2496",
     "route": "",
     "jurisdiction": "",
     "lat": 40.84086,
     "lng": -73.939147,
-    "image_url": "https://511ny.org/map/Cctv/3322",
+    "image_url": "https://511ny.org/map/Cctv/2496",
     "video_url": ""
   },
   {
-    "id": "3323",
-    "name": "",
+    "id": "2497",
+    "name": "Camera 2497",
     "route": "",
     "jurisdiction": "",
     "lat": 40.7558094297322,
     "lng": -73.986412,
-    "image_url": "https://511ny.org/map/Cctv/3323",
+    "image_url": "https://511ny.org/map/Cctv/2497",
     "video_url": ""
   },
   {
-    "id": "3325",
-    "name": "",
+    "id": "2499",
+    "name": "Camera 2499",
     "route": "",
     "jurisdiction": "",
     "lat": 40.761268,
     "lng": -73.983564,
-    "image_url": "https://511ny.org/map/Cctv/3325",
+    "image_url": "https://511ny.org/map/Cctv/2499",
     "video_url": ""
   },
   {
@@ -12340,13 +12380,13 @@
     "video_url": ""
   },
   {
-    "id": "3332",
-    "name": "",
+    "id": "2506",
+    "name": "Camera 2506",
     "route": "",
     "jurisdiction": "",
     "lat": 40.710638,
     "lng": -74.008541,
-    "image_url": "https://511ny.org/map/Cctv/3332",
+    "image_url": "https://511ny.org/map/Cctv/2506",
     "video_url": ""
   },
   {
@@ -12680,23 +12720,23 @@
     "video_url": ""
   },
   {
-    "id": "3384",
-    "name": "",
+    "id": "2558",
+    "name": "Camera 2558",
     "route": "",
     "jurisdiction": "",
     "lat": 40.703155,
     "lng": -74.007039,
-    "image_url": "https://511ny.org/map/Cctv/3384",
+    "image_url": "https://511ny.org/map/Cctv/2558",
     "video_url": ""
   },
   {
-    "id": "3385",
-    "name": "",
+    "id": "2559",
+    "name": "Camera 2559",
     "route": "",
     "jurisdiction": "",
     "lat": 40.683892,
     "lng": -73.977942,
-    "image_url": "https://511ny.org/map/Cctv/3385",
+    "image_url": "https://511ny.org/map/Cctv/2559",
     "video_url": ""
   },
   {
@@ -12820,113 +12860,113 @@
     "video_url": ""
   },
   {
-    "id": "3402",
-    "name": "",
+    "id": "2576",
+    "name": "Camera 2576",
     "route": "",
     "jurisdiction": "",
     "lat": 40.716558,
     "lng": -73.990946,
-    "image_url": "https://511ny.org/map/Cctv/3402",
+    "image_url": "https://511ny.org/map/Cctv/2576",
     "video_url": ""
   },
   {
-    "id": "3403",
-    "name": "",
+    "id": "2577",
+    "name": "Camera 2577",
     "route": "",
     "jurisdiction": "",
     "lat": 40.720006,
     "lng": -74.000516,
-    "image_url": "https://511ny.org/map/Cctv/3403",
+    "image_url": "https://511ny.org/map/Cctv/2577",
     "video_url": ""
   },
   {
-    "id": "3404",
-    "name": "",
+    "id": "2578",
+    "name": "Camera 2578",
     "route": "",
     "jurisdiction": "",
     "lat": 40.715908,
     "lng": -73.9888,
-    "image_url": "https://511ny.org/map/Cctv/3404",
+    "image_url": "https://511ny.org/map/Cctv/2578",
     "video_url": ""
   },
   {
-    "id": "3406",
-    "name": "",
+    "id": "2580",
+    "name": "Camera 2580",
     "route": "",
     "jurisdiction": "",
     "lat": 40.779014,
     "lng": -73.988328,
-    "image_url": "https://511ny.org/map/Cctv/3406",
+    "image_url": "https://511ny.org/map/Cctv/2580",
     "video_url": ""
   },
   {
-    "id": "3407",
-    "name": "",
+    "id": "2581",
+    "name": "Camera 2581",
     "route": "",
     "jurisdiction": "",
     "lat": 40.795618,
     "lng": -73.976183,
-    "image_url": "https://511ny.org/map/Cctv/3407",
+    "image_url": "https://511ny.org/map/Cctv/2581",
     "video_url": ""
   },
   {
-    "id": "3408",
-    "name": "",
+    "id": "2582",
+    "name": "Camera 2582",
     "route": "",
     "jurisdiction": "",
     "lat": 40.821994,
     "lng": -73.957257,
-    "image_url": "https://511ny.org/map/Cctv/3408",
+    "image_url": "https://511ny.org/map/Cctv/2582",
     "video_url": ""
   },
   {
-    "id": "3409",
-    "name": "",
+    "id": "2583",
+    "name": "Camera 2583",
     "route": "",
     "jurisdiction": "",
     "lat": 40.835892,
     "lng": -73.948717,
-    "image_url": "https://511ny.org/map/Cctv/3409",
+    "image_url": "https://511ny.org/map/Cctv/2583",
     "video_url": ""
   },
   {
-    "id": "3410",
-    "name": "",
+    "id": "2584",
+    "name": "Camera 2584",
     "route": "",
     "jurisdiction": "",
     "lat": 40.883831,
     "lng": -73.914514,
-    "image_url": "https://511ny.org/map/Cctv/3410",
+    "image_url": "https://511ny.org/map/Cctv/2584",
     "video_url": ""
   },
   {
-    "id": "3411",
-    "name": "",
+    "id": "2585",
+    "name": "Camera 2585",
     "route": "",
     "jurisdiction": "",
     "lat": 40.736207,
     "lng": -73.713777,
-    "image_url": "https://511ny.org/map/Cctv/3411",
+    "image_url": "https://511ny.org/map/Cctv/2585",
     "video_url": ""
   },
   {
-    "id": "3412",
-    "name": "",
+    "id": "2586",
+    "name": "Camera 2586",
     "route": "",
     "jurisdiction": "",
     "lat": 40.725925,
     "lng": -74.009506,
-    "image_url": "https://511ny.org/map/Cctv/3412",
+    "image_url": "https://511ny.org/map/Cctv/2586",
     "video_url": ""
   },
   {
-    "id": "3413",
-    "name": "",
+    "id": "2587",
+    "name": "Camera 2587",
     "route": "",
     "jurisdiction": "",
     "lat": 40.724348,
     "lng": -73.992623,
-    "image_url": "https://511ny.org/map/Cctv/3413",
+    "image_url": "https://511ny.org/map/Cctv/2587",
     "video_url": ""
   },
   {
@@ -12940,63 +12980,63 @@
     "video_url": ""
   },
   {
-    "id": "3415",
-    "name": "",
+    "id": "2589",
+    "name": "Camera 2589",
     "route": "",
     "jurisdiction": "",
     "lat": 40.724006,
     "lng": -73.990992,
-    "image_url": "https://511ny.org/map/Cctv/3415",
+    "image_url": "https://511ny.org/map/Cctv/2589",
     "video_url": ""
   },
   {
-    "id": "3416",
-    "name": "",
+    "id": "2590",
+    "name": "Camera 2590",
     "route": "",
     "jurisdiction": "",
     "lat": 40.725063,
     "lng": -73.995413,
-    "image_url": "https://511ny.org/map/Cctv/3416",
+    "image_url": "https://511ny.org/map/Cctv/2590",
     "video_url": ""
   },
   {
-    "id": "3417",
-    "name": "",
+    "id": "2591",
+    "name": "Camera 2591",
     "route": "",
     "jurisdiction": "",
     "lat": 40.570469,
     "lng": -74.109749,
-    "image_url": "https://511ny.org/map/Cctv/3417",
+    "image_url": "https://511ny.org/map/Cctv/2591",
     "video_url": ""
   },
   {
-    "id": "3418",
-    "name": "",
+    "id": "2592",
+    "name": "Camera 2592",
     "route": "",
     "jurisdiction": "",
     "lat": 40.813322,
     "lng": -73.940606,
-    "image_url": "https://511ny.org/map/Cctv/3418",
+    "image_url": "https://511ny.org/map/Cctv/2592",
     "video_url": ""
   },
   {
-    "id": "3420",
-    "name": "",
+    "id": "2594",
+    "name": "Camera 2594",
     "route": "",
     "jurisdiction": "",
     "lat": 40.745696,
     "lng": -73.979616,
-    "image_url": "https://511ny.org/map/Cctv/3420",
+    "image_url": "https://511ny.org/map/Cctv/2594",
     "video_url": ""
   },
   {
-    "id": "3421",
-    "name": "",
+    "id": "2595",
+    "name": "Camera 2595",
     "route": "",
     "jurisdiction": "",
     "lat": 40.750638,
     "lng": -73.975925,
-    "image_url": "https://511ny.org/map/Cctv/3421",
+    "image_url": "https://511ny.org/map/Cctv/2595",
     "video_url": ""
   },
   {
@@ -13010,63 +13050,63 @@
     "video_url": ""
   },
   {
-    "id": "3426",
-    "name": "",
+    "id": "2600",
+    "name": "Camera 2600",
     "route": "",
     "jurisdiction": "",
     "lat": 40.738943,
     "lng": -73.815047,
-    "image_url": "https://511ny.org/map/Cctv/3426",
+    "image_url": "https://511ny.org/map/Cctv/2600",
     "video_url": ""
   },
   {
-    "id": "3427",
-    "name": "",
+    "id": "2601",
+    "name": "Camera 2601",
     "route": "",
     "jurisdiction": "",
     "lat": 40.760716,
     "lng": -73.73183,
-    "image_url": "https://511ny.org/map/Cctv/3427",
+    "image_url": "https://511ny.org/map/Cctv/2601",
     "video_url": ""
   },
   {
-    "id": "3428",
-    "name": "",
+    "id": "2602",
+    "name": "Camera 2602",
     "route": "",
     "jurisdiction": "",
     "lat": 40.828115,
     "lng": -73.931447,
-    "image_url": "https://511ny.org/map/Cctv/3428",
+    "image_url": "https://511ny.org/map/Cctv/2602",
     "video_url": ""
   },
   {
-    "id": "3429",
-    "name": "",
+    "id": "2603",
+    "name": "Camera 2603",
     "route": "",
     "jurisdiction": "",
     "lat": 40.746867,
     "lng": -73.982835,
-    "image_url": "https://511ny.org/map/Cctv/3429",
+    "image_url": "https://511ny.org/map/Cctv/2603",
     "video_url": ""
   },
   {
-    "id": "3430",
-    "name": "",
+    "id": "2604",
+    "name": "Camera 2604",
     "route": "",
     "jurisdiction": "",
     "lat": 40.751971,
     "lng": -73.979015,
-    "image_url": "https://511ny.org/map/Cctv/3430",
+    "image_url": "https://511ny.org/map/Cctv/2604",
     "video_url": ""
   },
   {
-    "id": "3431",
-    "name": "",
+    "id": "2605",
+    "name": "Camera 2605",
     "route": "",
     "jurisdiction": "",
     "lat": 40.75636,
     "lng": -73.97584,
-    "image_url": "https://511ny.org/map/Cctv/3431",
+    "image_url": "https://511ny.org/map/Cctv/2605",
     "video_url": ""
   },
   {
@@ -13080,53 +13120,53 @@
     "video_url": ""
   },
   {
-    "id": "3433",
-    "name": "",
+    "id": "2607",
+    "name": "Camera 2607",
     "route": "",
     "jurisdiction": "",
     "lat": 40.786455,
     "lng": -73.953996,
-    "image_url": "https://511ny.org/map/Cctv/3433",
+    "image_url": "https://511ny.org/map/Cctv/2607",
     "video_url": ""
   },
   {
-    "id": "3442",
-    "name": "",
+    "id": "2616",
+    "name": "Camera 2616",
     "route": "",
     "jurisdiction": "",
     "lat": 40.710689,
     "lng": -73.984656,
-    "image_url": "https://511ny.org/map/Cctv/3442",
+    "image_url": "https://511ny.org/map/Cctv/2616",
     "video_url": ""
   },
   {
-    "id": "3443",
-    "name": "",
+    "id": "2617",
+    "name": "Camera 2617",
     "route": "",
     "jurisdiction": "",
     "lat": 40.868476,
     "lng": -73.832667,
-    "image_url": "https://511ny.org/map/Cctv/3443",
+    "image_url": "https://511ny.org/map/Cctv/2617",
     "video_url": ""
   },
   {
-    "id": "3444",
-    "name": "",
+    "id": "2618",
+    "name": "Camera 2618",
     "route": "",
     "jurisdiction": "",
     "lat": 40.8839,
     "lng": -73.8259,
-    "image_url": "https://511ny.org/map/Cctv/3444",
+    "image_url": "https://511ny.org/map/Cctv/2618",
     "video_url": ""
   },
   {
-    "id": "3447",
-    "name": "",
+    "id": "2621",
+    "name": "Camera 2621",
     "route": "",
     "jurisdiction": "",
     "lat": 40.753662,
     "lng": -73.898592,
-    "image_url": "https://511ny.org/map/Cctv/3447",
+    "image_url": "https://511ny.org/map/Cctv/2621",
     "video_url": ""
   },
   {
@@ -13140,263 +13180,263 @@
     "video_url": ""
   },
   {
-    "id": "3450",
-    "name": "",
+    "id": "2624",
+    "name": "Camera 2624",
     "route": "",
     "jurisdiction": "",
     "lat": 40.770649,
     "lng": -73.735503,
-    "image_url": "https://511ny.org/map/Cctv/3450",
+    "image_url": "https://511ny.org/map/Cctv/2624",
     "video_url": ""
   },
   {
-    "id": "3451",
-    "name": "",
+    "id": "2625",
+    "name": "Camera 2625",
     "route": "",
     "jurisdiction": "",
     "lat": 40.636159,
     "lng": -73.972751,
-    "image_url": "https://511ny.org/map/Cctv/3451",
+    "image_url": "https://511ny.org/map/Cctv/2625",
     "video_url": ""
   },
   {
-    "id": "3453",
-    "name": "",
+    "id": "2627",
+    "name": "Camera 2627",
     "route": "",
     "jurisdiction": "",
     "lat": 40.636159,
     "lng": -73.972751,
-    "image_url": "https://511ny.org/map/Cctv/3453",
+    "image_url": "https://511ny.org/map/Cctv/2627",
     "video_url": ""
   },
   {
-    "id": "3456",
-    "name": "",
+    "id": "2630",
+    "name": "Camera 2630",
     "route": "",
     "jurisdiction": "",
     "lat": 40.739388,
     "lng": -73.986311,
-    "image_url": "https://511ny.org/map/Cctv/3456",
+    "image_url": "https://511ny.org/map/Cctv/2630",
     "video_url": ""
   },
   {
-    "id": "3457",
-    "name": "",
+    "id": "2631",
+    "name": "Camera 2631",
     "route": "",
     "jurisdiction": "",
     "lat": 40.746184,
     "lng": -73.981247,
-    "image_url": "https://511ny.org/map/Cctv/3457",
+    "image_url": "https://511ny.org/map/Cctv/2631",
     "video_url": ""
   },
   {
-    "id": "3458",
-    "name": "",
+    "id": "2632",
+    "name": "Camera 2632",
     "route": "",
     "jurisdiction": "",
     "lat": 40.760846,
     "lng": -73.970518,
-    "image_url": "https://511ny.org/map/Cctv/3458",
+    "image_url": "https://511ny.org/map/Cctv/2632",
     "video_url": ""
   },
   {
-    "id": "3459",
-    "name": "",
+    "id": "2633",
+    "name": "Camera 2633",
     "route": "",
     "jurisdiction": "",
     "lat": 40.708686,
     "lng": -74.001932,
-    "image_url": "https://511ny.org/map/Cctv/3459",
+    "image_url": "https://511ny.org/map/Cctv/2633",
     "video_url": ""
   },
   {
-    "id": "3460",
-    "name": "",
+    "id": "2634",
+    "name": "Camera 2634",
     "route": "",
     "jurisdiction": "",
     "lat": 40.710475,
     "lng": -74.000216,
-    "image_url": "https://511ny.org/map/Cctv/3460",
+    "image_url": "https://511ny.org/map/Cctv/2634",
     "video_url": ""
   },
   {
-    "id": "3461",
-    "name": "",
+    "id": "2635",
+    "name": "Camera 2635",
     "route": "",
     "jurisdiction": "",
     "lat": 40.666593,
     "lng": -73.994958,
-    "image_url": "https://511ny.org/map/Cctv/3461",
+    "image_url": "https://511ny.org/map/Cctv/2635",
     "video_url": ""
   },
   {
-    "id": "3462",
-    "name": "",
+    "id": "2636",
+    "name": "Camera 2636",
     "route": "",
     "jurisdiction": "",
     "lat": 40.750281,
     "lng": -73.940134,
-    "image_url": "https://511ny.org/map/Cctv/3462",
+    "image_url": "https://511ny.org/map/Cctv/2636",
     "video_url": ""
   },
   {
-    "id": "3463",
-    "name": "",
+    "id": "2637",
+    "name": "Camera 2637",
     "route": "",
     "jurisdiction": "",
     "lat": 40.752686,
     "lng": -73.946443,
-    "image_url": "https://511ny.org/map/Cctv/3463",
+    "image_url": "https://511ny.org/map/Cctv/2637",
     "video_url": ""
   },
   {
-    "id": "3465",
-    "name": "",
+    "id": "2639",
+    "name": "Camera 2639",
     "route": "",
     "jurisdiction": "",
     "lat": 40.758733,
     "lng": -73.96009,
-    "image_url": "https://511ny.org/map/Cctv/3465",
+    "image_url": "https://511ny.org/map/Cctv/2639",
     "video_url": ""
   },
   {
-    "id": "3467",
-    "name": "",
+    "id": "2641",
+    "name": "Camera 2641",
     "route": "",
     "jurisdiction": "",
     "lat": 40.754734,
     "lng": -73.951292,
-    "image_url": "https://511ny.org/map/Cctv/3467",
+    "image_url": "https://511ny.org/map/Cctv/2641",
     "video_url": ""
   },
   {
-    "id": "3468",
-    "name": "",
+    "id": "2642",
+    "name": "Camera 2642",
     "route": "",
     "jurisdiction": "",
     "lat": 40.756197,
     "lng": -73.954682,
-    "image_url": "https://511ny.org/map/Cctv/3468",
+    "image_url": "https://511ny.org/map/Cctv/2642",
     "video_url": ""
   },
   {
-    "id": "3469",
-    "name": "",
+    "id": "2643",
+    "name": "Camera 2643",
     "route": "",
     "jurisdiction": "",
     "lat": 40.75857,
     "lng": -73.96039,
-    "image_url": "https://511ny.org/map/Cctv/3469",
+    "image_url": "https://511ny.org/map/Cctv/2643",
     "video_url": ""
   },
   {
-    "id": "3471",
-    "name": "",
+    "id": "2645",
+    "name": "Camera 2645",
     "route": "",
     "jurisdiction": "",
     "lat": 40.744033,
     "lng": -73.926203,
-    "image_url": "https://511ny.org/map/Cctv/3471",
+    "image_url": "https://511ny.org/map/Cctv/2645",
     "video_url": ""
   },
   {
-    "id": "3472",
-    "name": "",
+    "id": "2646",
+    "name": "Camera 2646",
     "route": "",
     "jurisdiction": "",
     "lat": 40.727974,
     "lng": -73.857651,
-    "image_url": "https://511ny.org/map/Cctv/3472",
+    "image_url": "https://511ny.org/map/Cctv/2646",
     "video_url": ""
   },
   {
-    "id": "3473",
-    "name": "",
+    "id": "2647",
+    "name": "Camera 2647",
     "route": "",
     "jurisdiction": "",
     "lat": 40.741495,
     "lng": -73.898293,
-    "image_url": "https://511ny.org/map/Cctv/3473",
+    "image_url": "https://511ny.org/map/Cctv/2647",
     "video_url": ""
   },
   {
-    "id": "3474",
-    "name": "",
+    "id": "2648",
+    "name": "Camera 2648",
     "route": "",
     "jurisdiction": "",
     "lat": 40.748948,
     "lng": -73.937377,
-    "image_url": "https://511ny.org/map/Cctv/3474",
+    "image_url": "https://511ny.org/map/Cctv/2648",
     "video_url": ""
   },
   {
-    "id": "3475",
-    "name": "",
+    "id": "2649",
+    "name": "Camera 2649",
     "route": "",
     "jurisdiction": "",
     "lat": 40.733568,
     "lng": -73.869324,
-    "image_url": "https://511ny.org/map/Cctv/3475",
+    "image_url": "https://511ny.org/map/Cctv/2649",
     "video_url": ""
   },
   {
-    "id": "3476",
-    "name": "",
+    "id": "2650",
+    "name": "Camera 2650",
     "route": "",
     "jurisdiction": "",
     "lat": 40.746032,
     "lng": -73.934449,
-    "image_url": "https://511ny.org/map/Cctv/3476",
+    "image_url": "https://511ny.org/map/Cctv/2650",
     "video_url": ""
   },
   {
-    "id": "3477",
-    "name": "",
+    "id": "2651",
+    "name": "Camera 2651",
     "route": "",
     "jurisdiction": "",
     "lat": 40.743034,
     "lng": -73.934624,
-    "image_url": "https://511ny.org/map/Cctv/3477",
+    "image_url": "https://511ny.org/map/Cctv/2651",
     "video_url": ""
   },
   {
-    "id": "3478",
-    "name": "",
+    "id": "2652",
+    "name": "Camera 2652",
     "route": "",
     "jurisdiction": "",
     "lat": 40.747615,
     "lng": -73.936121,
-    "image_url": "https://511ny.org/map/Cctv/3478",
+    "image_url": "https://511ny.org/map/Cctv/2652",
     "video_url": ""
   },
   {
-    "id": "3479",
-    "name": "",
+    "id": "2653",
+    "name": "Camera 2653",
     "route": "",
     "jurisdiction": "",
     "lat": 40.750323,
     "lng": -73.938321,
-    "image_url": "https://511ny.org/map/Cctv/3479",
+    "image_url": "https://511ny.org/map/Cctv/2653",
     "video_url": ""
   },
   {
-    "id": "3481",
-    "name": "",
+    "id": "2655",
+    "name": "Camera 2655",
     "route": "",
     "jurisdiction": "",
     "lat": 40.75844,
     "lng": -73.964939,
-    "image_url": "https://511ny.org/map/Cctv/3481",
+    "image_url": "https://511ny.org/map/Cctv/2655",
     "video_url": ""
   },
   {
-    "id": "3482",
-    "name": "",
+    "id": "2656",
+    "name": "Camera 2656",
     "route": "",
     "jurisdiction": "",
     "lat": 40.761918,
     "lng": -73.961377,
-    "image_url": "https://511ny.org/map/Cctv/3482",
+    "image_url": "https://511ny.org/map/Cctv/2656",
     "video_url": ""
   },
   {
@@ -13410,13 +13450,13 @@
     "video_url": ""
   },
   {
-    "id": "3484",
-    "name": "",
+    "id": "2658",
+    "name": "Camera 2658",
     "route": "",
     "jurisdiction": "",
     "lat": 40.810951,
     "lng": -73.934383,
-    "image_url": "https://511ny.org/map/Cctv/3484",
+    "image_url": "https://511ny.org/map/Cctv/2658",
     "video_url": ""
   },
   {
@@ -13430,13 +13470,13 @@
     "video_url": ""
   },
   {
-    "id": "3486",
-    "name": "",
+    "id": "2660",
+    "name": "Camera 2660",
     "route": "",
     "jurisdiction": "",
     "lat": 40.719648,
     "lng": -74.01206,
-    "image_url": "https://511ny.org/map/Cctv/3486",
+    "image_url": "https://511ny.org/map/Cctv/2660",
     "video_url": ""
   },
   {
@@ -13450,13 +13490,13 @@
     "video_url": ""
   },
   {
-    "id": "3488",
-    "name": "",
+    "id": "2662",
+    "name": "Camera 2662",
     "route": "",
     "jurisdiction": "",
     "lat": 40.699577,
     "lng": -73.988543,
-    "image_url": "https://511ny.org/map/Cctv/3488",
+    "image_url": "https://511ny.org/map/Cctv/2662",
     "video_url": ""
   },
   {
@@ -13540,13 +13580,13 @@
     "video_url": ""
   },
   {
-    "id": "3499",
-    "name": "",
+    "id": "2673",
+    "name": "Camera 2673",
     "route": "",
     "jurisdiction": "",
     "lat": 40.735226,
     "lng": -73.990946,
-    "image_url": "https://511ny.org/map/Cctv/3499",
+    "image_url": "https://511ny.org/map/Cctv/2673",
     "video_url": ""
   },
   {
@@ -13790,13 +13830,13 @@
     "video_url": ""
   },
   {
-    "id": "3559",
-    "name": "",
+    "id": "2733",
+    "name": "Camera 2733",
     "route": "",
     "jurisdiction": "",
     "lat": 40.965544,
     "lng": -73.680858,
-    "image_url": "https://511ny.org/map/Cctv/3559",
+    "image_url": "https://511ny.org/map/Cctv/2733",
     "video_url": ""
   },
   {
@@ -13860,23 +13900,23 @@
     "video_url": ""
   },
   {
-    "id": "3569",
-    "name": "",
+    "id": "2743",
+    "name": "Camera 2743",
     "route": "",
     "jurisdiction": "",
     "lat": 41.003494,
     "lng": -73.663581,
-    "image_url": "https://511ny.org/map/Cctv/3569",
+    "image_url": "https://511ny.org/map/Cctv/2743",
     "video_url": ""
   },
   {
-    "id": "3574",
-    "name": "",
+    "id": "2748",
+    "name": "Camera 2748",
     "route": "",
     "jurisdiction": "",
     "lat": 40.913628,
     "lng": -73.850267,
-    "image_url": "https://511ny.org/map/Cctv/3574",
+    "image_url": "https://511ny.org/map/Cctv/2748",
     "video_url": ""
   },
   {
@@ -13900,124 +13940,124 @@
     "video_url": ""
   },
   {
-    "id": "5755",
-    "name": "",
+    "id": "2763",
+    "name": "Camera 2763",
     "route": "",
     "jurisdiction": "",
     "lat": 43.17534,
     "lng": -77.598783,
-    "image_url": "https://511ny.org/map/Cctv/5755",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_223/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2763",
+    "video_url": ""
   },
   {
-    "id": "5756",
-    "name": "",
+    "id": "2764",
+    "name": "Camera 2764",
     "route": "",
     "jurisdiction": "",
     "lat": 43.186914,
     "lng": -77.701503,
-    "image_url": "https://511ny.org/map/Cctv/5756",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_225/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2764",
+    "video_url": ""
   },
   {
-    "id": "5757",
-    "name": "",
+    "id": "2765",
+    "name": "Camera 2765",
     "route": "",
     "jurisdiction": "",
     "lat": 43.15408,
     "lng": -77.605079,
-    "image_url": "https://511ny.org/map/Cctv/5757",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_227/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2765",
+    "video_url": ""
   },
   {
-    "id": "5758",
-    "name": "",
+    "id": "2766",
+    "name": "Camera 2766",
     "route": "",
     "jurisdiction": "",
     "lat": 43.180934,
     "lng": -77.639457,
-    "image_url": "https://511ny.org/map/Cctv/5758",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_228/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2766",
+    "video_url": ""
   },
   {
-    "id": "5759",
-    "name": "",
+    "id": "2767",
+    "name": "Camera 2767",
     "route": "",
     "jurisdiction": "",
     "lat": 43.18764348,
     "lng": -77.57635343,
-    "image_url": "https://511ny.org/map/Cctv/5759",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_230/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2767",
+    "video_url": ""
   },
   {
-    "id": "5760",
-    "name": "",
+    "id": "2768",
+    "name": "Camera 2768",
     "route": "",
     "jurisdiction": "",
     "lat": 43.231096,
     "lng": -77.696694,
-    "image_url": "https://511ny.org/map/Cctv/5760",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_251/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2768",
+    "video_url": ""
   },
   {
-    "id": "5761",
-    "name": "",
+    "id": "2769",
+    "name": "Camera 2769",
     "route": "",
     "jurisdiction": "",
     "lat": 43.22322,
     "lng": -77.641363,
-    "image_url": "https://511ny.org/map/Cctv/5761",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_252/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2769",
+    "video_url": ""
   },
   {
-    "id": "5762",
-    "name": "",
+    "id": "2770",
+    "name": "Camera 2770",
     "route": "",
     "jurisdiction": "",
     "lat": 43.195103,
     "lng": -77.608976,
-    "image_url": "https://511ny.org/map/Cctv/5762",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_253/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2770",
+    "video_url": ""
   },
   {
-    "id": "5763",
-    "name": "",
+    "id": "2771",
+    "name": "Camera 2771",
     "route": "",
     "jurisdiction": "",
     "lat": 43.139815,
     "lng": -77.596089,
-    "image_url": "https://511ny.org/map/Cctv/5763",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_254/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2771",
+    "video_url": ""
   },
   {
-    "id": "5764",
-    "name": "",
+    "id": "2772",
+    "name": "Camera 2772",
     "route": "",
     "jurisdiction": "",
     "lat": 43.176365,
     "lng": -77.557403,
-    "image_url": "https://511ny.org/map/Cctv/5764",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_255/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2772",
+    "video_url": ""
   },
   {
-    "id": "5765",
-    "name": "",
+    "id": "2773",
+    "name": "Camera 2773",
     "route": "",
     "jurisdiction": "",
     "lat": 43.186462,
     "lng": -77.613773,
-    "image_url": "https://511ny.org/map/Cctv/5765",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_256/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2773",
+    "video_url": ""
   },
   {
-    "id": "5766",
-    "name": "",
+    "id": "2774",
+    "name": "Camera 2774",
     "route": "",
     "jurisdiction": "",
     "lat": 43.083005,
     "lng": -77.629683,
-    "image_url": "https://511ny.org/map/Cctv/5766",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_257/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2774",
+    "video_url": ""
   },
   {
     "id": "2775",
@@ -14030,34 +14070,34 @@
     "video_url": ""
   },
   {
-    "id": "5768",
-    "name": "",
+    "id": "2776",
+    "name": "Camera 2776",
     "route": "",
     "jurisdiction": "",
     "lat": 43.196144,
     "lng": -77.600153,
-    "image_url": "https://511ny.org/map/Cctv/5768",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_259/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2776",
+    "video_url": ""
   },
   {
-    "id": "5770",
-    "name": "",
+    "id": "2778",
+    "name": "Camera 2778",
     "route": "",
     "jurisdiction": "",
     "lat": 43.157127,
     "lng": -77.606365,
-    "image_url": "https://511ny.org/map/Cctv/5770",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_281/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2778",
+    "video_url": ""
   },
   {
-    "id": "5772",
-    "name": "",
+    "id": "2780",
+    "name": "Camera 2780",
     "route": "",
     "jurisdiction": "",
     "lat": 43.115351,
     "lng": -77.597022,
-    "image_url": "https://511ny.org/map/Cctv/5772",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_283/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2780",
+    "video_url": ""
   },
   {
     "id": "2781",
@@ -14070,14 +14110,14 @@
     "video_url": ""
   },
   {
-    "id": "5774",
-    "name": "",
+    "id": "2782",
+    "name": "Camera 2782",
     "route": "",
     "jurisdiction": "",
     "lat": 43.159725,
     "lng": -77.566275,
-    "image_url": "https://511ny.org/map/Cctv/5774",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_285/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2782",
+    "video_url": ""
   },
   {
     "id": "2783",
@@ -14090,14 +14130,14 @@
     "video_url": ""
   },
   {
-    "id": "5776",
-    "name": "",
+    "id": "2784",
+    "name": "Camera 2784",
     "route": "",
     "jurisdiction": "",
     "lat": 43.193889,
     "lng": -77.659349,
-    "image_url": "https://511ny.org/map/Cctv/5776",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_287/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2784",
+    "video_url": ""
   },
   {
     "id": "2785",
@@ -14120,314 +14160,314 @@
     "video_url": ""
   },
   {
-    "id": "5779",
-    "name": "",
+    "id": "2787",
+    "name": "Camera 2787",
     "route": "",
     "jurisdiction": "",
     "lat": 43.23077455,
     "lng": -77.62585527,
-    "image_url": "https://511ny.org/map/Cctv/5779",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_290/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2787",
+    "video_url": ""
   },
   {
-    "id": "5780",
-    "name": "",
+    "id": "2788",
+    "name": "Camera 2788",
     "route": "",
     "jurisdiction": "",
     "lat": 43.124882,
     "lng": -77.614182,
-    "image_url": "https://511ny.org/map/Cctv/5780",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_212/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2788",
+    "video_url": ""
   },
   {
-    "id": "5781",
-    "name": "",
+    "id": "2789",
+    "name": "Camera 2789",
     "route": "",
     "jurisdiction": "",
     "lat": 43.193829,
     "lng": -77.638881,
-    "image_url": "https://511ny.org/map/Cctv/5781",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_214/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2789",
+    "video_url": ""
   },
   {
-    "id": "5782",
-    "name": "",
+    "id": "2790",
+    "name": "Camera 2790",
     "route": "",
     "jurisdiction": "",
     "lat": 43.141375,
     "lng": -77.57622,
-    "image_url": "https://511ny.org/map/Cctv/5782",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_215/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2790",
+    "video_url": ""
   },
   {
-    "id": "5783",
-    "name": "",
+    "id": "2791",
+    "name": "Camera 2791",
     "route": "",
     "jurisdiction": "",
     "lat": 43.114509,
     "lng": -77.62256,
-    "image_url": "https://511ny.org/map/Cctv/5783",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_216/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2791",
+    "video_url": ""
   },
   {
-    "id": "5784",
-    "name": "",
+    "id": "2792",
+    "name": "Camera 2792",
     "route": "",
     "jurisdiction": "",
     "lat": 43.17361,
     "lng": -77.639211,
-    "image_url": "https://511ny.org/map/Cctv/5784",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_218/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2792",
+    "video_url": ""
   },
   {
-    "id": "5785",
-    "name": "",
+    "id": "2793",
+    "name": "Camera 2793",
     "route": "",
     "jurisdiction": "",
     "lat": 43.159445,
     "lng": -77.596119,
-    "image_url": "https://511ny.org/map/Cctv/5785",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_241/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2793",
+    "video_url": ""
   },
   {
-    "id": "5786",
-    "name": "",
+    "id": "2794",
+    "name": "Camera 2794",
     "route": "",
     "jurisdiction": "",
     "lat": 43.159565,
     "lng": -77.619603,
-    "image_url": "https://511ny.org/map/Cctv/5786",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_242/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2794",
+    "video_url": ""
   },
   {
-    "id": "5787",
-    "name": "",
+    "id": "2795",
+    "name": "Camera 2795",
     "route": "",
     "jurisdiction": "",
     "lat": 43.210131,
     "lng": -77.703415,
-    "image_url": "https://511ny.org/map/Cctv/5787",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_243/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2795",
+    "video_url": ""
   },
   {
-    "id": "5788",
-    "name": "",
+    "id": "2796",
+    "name": "Camera 2796",
     "route": "",
     "jurisdiction": "",
     "lat": 43.161256,
     "lng": -77.60293,
-    "image_url": "https://511ny.org/map/Cctv/5788",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_244/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2796",
+    "video_url": ""
   },
   {
-    "id": "5789",
-    "name": "",
+    "id": "2797",
+    "name": "Camera 2797",
     "route": "",
     "jurisdiction": "",
     "lat": 43.155017,
     "lng": -77.615689,
-    "image_url": "https://511ny.org/map/Cctv/5789",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_245/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2797",
+    "video_url": ""
   },
   {
-    "id": "5790",
-    "name": "",
+    "id": "2798",
+    "name": "Camera 2798",
     "route": "",
     "jurisdiction": "",
     "lat": 43.115972,
     "lng": -77.571282,
-    "image_url": "https://511ny.org/map/Cctv/5790",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_246/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2798",
+    "video_url": ""
   },
   {
-    "id": "5791",
-    "name": "",
+    "id": "2799",
+    "name": "Camera 2799",
     "route": "",
     "jurisdiction": "",
     "lat": 43.076131,
     "lng": -77.626928,
-    "image_url": "https://511ny.org/map/Cctv/5791",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_247/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2799",
+    "video_url": ""
   },
   {
-    "id": "5792",
-    "name": "",
+    "id": "2800",
+    "name": "Camera 2800",
     "route": "",
     "jurisdiction": "",
     "lat": 43.155686,
     "lng": -77.612489,
-    "image_url": "https://511ny.org/map/Cctv/5792",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_248/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2800",
+    "video_url": ""
   },
   {
-    "id": "5793",
-    "name": "",
+    "id": "2801",
+    "name": "Camera 2801",
     "route": "",
     "jurisdiction": "",
     "lat": 43.153084,
     "lng": -77.611403,
-    "image_url": "https://511ny.org/map/Cctv/5793",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_249/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2801",
+    "video_url": ""
   },
   {
-    "id": "5794",
-    "name": "",
+    "id": "2802",
+    "name": "Camera 2802",
     "route": "",
     "jurisdiction": "",
     "lat": 43.142635,
     "lng": -77.616114,
-    "image_url": "https://511ny.org/map/Cctv/5794",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_250/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2802",
+    "video_url": ""
   },
   {
-    "id": "5795",
-    "name": "",
+    "id": "2803",
+    "name": "Camera 2803",
     "route": "",
     "jurisdiction": "",
     "lat": 43.09932429,
     "lng": -77.58027008,
-    "image_url": "https://511ny.org/map/Cctv/5795",
-    "video_url": "https://s52.nysdot.skyvdn.com/rtplive/R4_271/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2803",
+    "video_url": ""
   },
   {
-    "id": "3630",
-    "name": "",
+    "id": "2804",
+    "name": "Camera 2804",
     "route": "",
     "jurisdiction": "",
     "lat": 42.132454,
     "lng": -75.903807,
-    "image_url": "https://511ny.org/map/Cctv/3630",
+    "image_url": "https://511ny.org/map/Cctv/2804",
     "video_url": ""
   },
   {
-    "id": "5796",
-    "name": "",
+    "id": "2877",
+    "name": "Camera 2877",
     "route": "",
     "jurisdiction": "",
     "lat": 43.197769,
     "lng": -77.548247,
-    "image_url": "https://511ny.org/map/Cctv/5796",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_001/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2877",
+    "video_url": ""
   },
   {
-    "id": "5797",
-    "name": "",
+    "id": "2878",
+    "name": "Camera 2878",
     "route": "",
     "jurisdiction": "",
     "lat": 43.213975,
     "lng": -77.475302,
-    "image_url": "https://511ny.org/map/Cctv/5797",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_002/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2878",
+    "video_url": ""
   },
   {
-    "id": "5798",
-    "name": "",
+    "id": "2879",
+    "name": "Camera 2879",
     "route": "",
     "jurisdiction": "",
     "lat": 43.215519,
     "lng": -77.446145,
-    "image_url": "https://511ny.org/map/Cctv/5798",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_003/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2879",
+    "video_url": ""
   },
   {
-    "id": "5799",
-    "name": "",
+    "id": "2880",
+    "name": "Camera 2880",
     "route": "",
     "jurisdiction": "",
     "lat": 43.214132,
     "lng": -77.515758,
-    "image_url": "https://511ny.org/map/Cctv/5799",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_004/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2880",
+    "video_url": ""
   },
   {
-    "id": "5800",
-    "name": "",
+    "id": "2881",
+    "name": "Camera 2881",
     "route": "",
     "jurisdiction": "",
     "lat": 43.212671,
     "lng": -77.52982,
-    "image_url": "https://511ny.org/map/Cctv/5800",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_007/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2881",
+    "video_url": ""
   },
   {
-    "id": "5801",
-    "name": "",
+    "id": "2882",
+    "name": "Camera 2882",
     "route": "",
     "jurisdiction": "",
     "lat": 43.209868,
     "lng": -77.543682,
-    "image_url": "https://511ny.org/map/Cctv/5801",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_008/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2882",
+    "video_url": ""
   },
   {
-    "id": "5802",
-    "name": "",
+    "id": "2883",
+    "name": "Camera 2883",
     "route": "",
     "jurisdiction": "",
     "lat": 43.193499,
     "lng": -77.621965,
-    "image_url": "https://511ny.org/map/Cctv/5802",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_009/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2883",
+    "video_url": ""
   },
   {
-    "id": "5803",
-    "name": "",
+    "id": "2884",
+    "name": "Camera 2884",
     "route": "",
     "jurisdiction": "",
     "lat": 43.094943,
     "lng": -77.611615,
-    "image_url": "https://511ny.org/map/Cctv/5803",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_010/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2884",
+    "video_url": ""
   },
   {
-    "id": "5804",
-    "name": "",
+    "id": "2885",
+    "name": "Camera 2885",
     "route": "",
     "jurisdiction": "",
     "lat": 43.179424,
     "lng": -77.631905,
-    "image_url": "https://511ny.org/map/Cctv/5804",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_031/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2885",
+    "video_url": ""
   },
   {
-    "id": "5805",
-    "name": "",
+    "id": "2886",
+    "name": "Camera 2886",
     "route": "",
     "jurisdiction": "",
     "lat": 43.164725,
     "lng": -77.623173,
-    "image_url": "https://511ny.org/map/Cctv/5805",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_032/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2886",
+    "video_url": ""
   },
   {
-    "id": "5806",
-    "name": "",
+    "id": "2887",
+    "name": "Camera 2887",
     "route": "",
     "jurisdiction": "",
     "lat": 43.164516,
     "lng": -77.623372,
-    "image_url": "https://511ny.org/map/Cctv/5806",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_033/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2887",
+    "video_url": ""
   },
   {
-    "id": "5808",
-    "name": "",
+    "id": "2889",
+    "name": "Camera 2889",
     "route": "",
     "jurisdiction": "",
     "lat": 43.127295,
     "lng": -77.565394,
-    "image_url": "https://511ny.org/map/Cctv/5808",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_037/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2889",
+    "video_url": ""
   },
   {
-    "id": "5810",
-    "name": "",
+    "id": "2891",
+    "name": "Camera 2891",
     "route": "",
     "jurisdiction": "",
     "lat": 43.10992,
     "lng": -77.600228,
-    "image_url": "https://511ny.org/map/Cctv/5810",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_039/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2891",
+    "video_url": ""
   },
   {
     "id": "2892",
@@ -14440,34 +14480,34 @@
     "video_url": ""
   },
   {
-    "id": "5812",
-    "name": "",
+    "id": "2893",
+    "name": "Camera 2893",
     "route": "",
     "jurisdiction": "",
     "lat": 43.155694,
     "lng": -77.678748,
-    "image_url": "https://511ny.org/map/Cctv/5812",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_061/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2893",
+    "video_url": ""
   },
   {
-    "id": "5813",
-    "name": "",
+    "id": "2894",
+    "name": "Camera 2894",
     "route": "",
     "jurisdiction": "",
     "lat": 43.158043,
     "lng": -77.682788,
-    "image_url": "https://511ny.org/map/Cctv/5813",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_062/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2894",
+    "video_url": ""
   },
   {
-    "id": "5816",
-    "name": "",
+    "id": "2897",
+    "name": "Camera 2897",
     "route": "",
     "jurisdiction": "",
     "lat": 43.252735,
     "lng": -77.668542,
-    "image_url": "https://511ny.org/map/Cctv/5816",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R4_065/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2897",
+    "video_url": ""
   },
   {
     "id": "2898",
@@ -14480,14 +14520,14 @@
     "video_url": ""
   },
   {
-    "id": "5819",
-    "name": "",
+    "id": "2900",
+    "name": "Camera 2900",
     "route": "",
     "jurisdiction": "",
     "lat": 42.666139,
     "lng": -73.733011,
-    "image_url": "https://511ny.org/map/Cctv/5819",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R1_001/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2900",
+    "video_url": ""
   },
   {
     "id": "2901",
@@ -14500,14 +14540,14 @@
     "video_url": ""
   },
   {
-    "id": "5821",
-    "name": "",
+    "id": "2902",
+    "name": "Camera 2902",
     "route": "",
     "jurisdiction": "",
     "lat": 42.792636,
     "lng": -73.762889,
-    "image_url": "https://511ny.org/map/Cctv/5821",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R1_003/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2902",
+    "video_url": ""
   },
   {
     "id": "2903",
@@ -14520,14 +14560,14 @@
     "video_url": ""
   },
   {
-    "id": "5823",
-    "name": "",
+    "id": "2904",
+    "name": "Camera 2904",
     "route": "",
     "jurisdiction": "",
     "lat": 42.697926,
     "lng": -73.837225,
-    "image_url": "https://511ny.org/map/Cctv/5823",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R1_005/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2904",
+    "video_url": ""
   },
   {
     "id": "2905",
@@ -14540,14 +14580,14 @@
     "video_url": ""
   },
   {
-    "id": "5825",
-    "name": "",
+    "id": "2906",
+    "name": "Camera 2906",
     "route": "",
     "jurisdiction": "",
     "lat": 42.682437,
     "lng": -73.7848,
-    "image_url": "https://511ny.org/map/Cctv/5825",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R1_007/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2906",
+    "video_url": ""
   },
   {
     "id": "2907",
@@ -14570,14 +14610,14 @@
     "video_url": ""
   },
   {
-    "id": "5828",
-    "name": "",
+    "id": "2909",
+    "name": "Camera 2909",
     "route": "",
     "jurisdiction": "",
     "lat": 42.756718,
     "lng": -73.735943,
-    "image_url": "https://511ny.org/map/Cctv/5828",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R1_010/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2909",
+    "video_url": ""
   },
   {
     "id": "2910",
@@ -14990,74 +15030,74 @@
     "video_url": ""
   },
   {
-    "id": "5876",
-    "name": "",
+    "id": "2959",
+    "name": "Camera 2959",
     "route": "",
     "jurisdiction": "",
     "lat": 42.930166,
     "lng": -78.855041,
-    "image_url": "https://511ny.org/map/Cctv/5876",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R5_064/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2959",
+    "video_url": ""
   },
   {
-    "id": "5877",
-    "name": "",
+    "id": "2960",
+    "name": "Camera 2960",
     "route": "",
     "jurisdiction": "",
     "lat": 42.934089,
     "lng": -78.865254,
-    "image_url": "https://511ny.org/map/Cctv/5877",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R5_065/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2960",
+    "video_url": ""
   },
   {
-    "id": "5878",
-    "name": "",
+    "id": "2961",
+    "name": "Camera 2961",
     "route": "",
     "jurisdiction": "",
     "lat": 42.934089,
     "lng": -78.865254,
-    "image_url": "https://511ny.org/map/Cctv/5878",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R5_066/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2961",
+    "video_url": ""
   },
   {
-    "id": "5879",
-    "name": "",
+    "id": "2962",
+    "name": "Camera 2962",
     "route": "",
     "jurisdiction": "",
     "lat": 42.934471,
     "lng": -78.872363,
-    "image_url": "https://511ny.org/map/Cctv/5879",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R5_067/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2962",
+    "video_url": ""
   },
   {
-    "id": "5880",
-    "name": "",
+    "id": "2963",
+    "name": "Camera 2963",
     "route": "",
     "jurisdiction": "",
     "lat": 42.934471,
     "lng": -78.872363,
-    "image_url": "https://511ny.org/map/Cctv/5880",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R5_068/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2963",
+    "video_url": ""
   },
   {
-    "id": "5881",
-    "name": "",
+    "id": "2964",
+    "name": "Camera 2964",
     "route": "",
     "jurisdiction": "",
     "lat": 42.9341,
     "lng": -78.877648,
-    "image_url": "https://511ny.org/map/Cctv/5881",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R5_069/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2964",
+    "video_url": ""
   },
   {
-    "id": "5882",
-    "name": "",
+    "id": "2965",
+    "name": "Camera 2965",
     "route": "",
     "jurisdiction": "",
     "lat": 42.936667,
     "lng": -78.882272,
-    "image_url": "https://511ny.org/map/Cctv/5882",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R5_070/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2965",
+    "video_url": ""
   },
   {
     "id": "2966",
@@ -15070,324 +15110,324 @@
     "video_url": ""
   },
   {
-    "id": "5885",
-    "name": "",
+    "id": "2968",
+    "name": "Camera 2968",
     "route": "",
     "jurisdiction": "",
     "lat": 42.371825,
     "lng": -77.353672,
-    "image_url": "https://511ny.org/map/Cctv/5885",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R6_003/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2968",
+    "video_url": ""
   },
   {
-    "id": "5886",
-    "name": "",
+    "id": "2969",
+    "name": "Camera 2969",
     "route": "",
     "jurisdiction": "",
     "lat": 42.305639,
     "lng": -77.874642,
-    "image_url": "https://511ny.org/map/Cctv/5886",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R6_004/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2969",
+    "video_url": ""
   },
   {
-    "id": "5887",
-    "name": "",
+    "id": "2970",
+    "name": "Camera 2970",
     "route": "",
     "jurisdiction": "",
     "lat": 42.027968,
     "lng": -76.687371,
-    "image_url": "https://511ny.org/map/Cctv/5887",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R6_006/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2970",
+    "video_url": ""
   },
   {
-    "id": "5889",
-    "name": "",
+    "id": "2972",
+    "name": "Camera 2972",
     "route": "",
     "jurisdiction": "",
     "lat": 42.531311,
     "lng": -77.556908,
-    "image_url": "https://511ny.org/map/Cctv/5889",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R6_008/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2972",
+    "video_url": ""
   },
   {
-    "id": "5890",
-    "name": "",
+    "id": "2973",
+    "name": "Camera 2973",
     "route": "",
     "jurisdiction": "",
     "lat": 42.602611,
     "lng": -77.037842,
-    "image_url": "https://511ny.org/map/Cctv/5890",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R6_009/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2973",
+    "video_url": ""
   },
   {
-    "id": "5894",
-    "name": "",
+    "id": "2977",
+    "name": "Camera 2977",
     "route": "",
     "jurisdiction": "",
     "lat": 40.892385,
     "lng": -73.815888,
-    "image_url": "https://511ny.org/map/Cctv/5894",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R8_036/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2977",
+    "video_url": ""
   },
   {
-    "id": "5896",
-    "name": "",
+    "id": "2979",
+    "name": "Camera 2979",
     "route": "",
     "jurisdiction": "",
     "lat": 41.018539,
     "lng": -73.715333,
-    "image_url": "https://511ny.org/map/Cctv/5896",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R8_040/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2979",
+    "video_url": ""
   },
   {
-    "id": "5897",
-    "name": "",
+    "id": "2980",
+    "name": "Camera 2980",
     "route": "",
     "jurisdiction": "",
     "lat": 42.112881,
     "lng": -75.920211,
-    "image_url": "https://511ny.org/map/Cctv/5897",
-    "video_url": "https://s51.nysdot.skyvdn.com:443/rtplive/R9_001/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2980",
+    "video_url": ""
   },
   {
-    "id": "5898",
-    "name": "",
+    "id": "2981",
+    "name": "Camera 2981",
     "route": "",
     "jurisdiction": "",
     "lat": 42.112268,
     "lng": -75.910201,
-    "image_url": "https://511ny.org/map/Cctv/5898",
-    "video_url": "https://s51.nysdot.skyvdn.com:443/rtplive/R9_002/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2981",
+    "video_url": ""
   },
   {
-    "id": "5899",
-    "name": "",
+    "id": "2982",
+    "name": "Camera 2982",
     "route": "",
     "jurisdiction": "",
     "lat": 42.114588,
     "lng": -75.910214,
-    "image_url": "https://511ny.org/map/Cctv/5899",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R9_003/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2982",
+    "video_url": ""
   },
   {
-    "id": "5900",
-    "name": "",
+    "id": "2983",
+    "name": "Camera 2983",
     "route": "",
     "jurisdiction": "",
     "lat": 42.123578,
     "lng": -75.905098,
-    "image_url": "https://511ny.org/map/Cctv/5900",
-    "video_url": "https://s51.nysdot.skyvdn.com:443/rtplive/R9_004/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2983",
+    "video_url": ""
   },
   {
-    "id": "5901",
-    "name": "",
+    "id": "2984",
+    "name": "Camera 2984",
     "route": "",
     "jurisdiction": "",
     "lat": 42.11449,
     "lng": -75.89879,
-    "image_url": "https://511ny.org/map/Cctv/5901",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R9_005/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2984",
+    "video_url": ""
   },
   {
-    "id": "5902",
-    "name": "",
+    "id": "2985",
+    "name": "Camera 2985",
     "route": "",
     "jurisdiction": "",
     "lat": 42.119776,
     "lng": -75.944232,
-    "image_url": "https://511ny.org/map/Cctv/5902",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R9_006/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2985",
+    "video_url": ""
   },
   {
-    "id": "5904",
-    "name": "",
+    "id": "2987",
+    "name": "Camera 2987",
     "route": "",
     "jurisdiction": "",
     "lat": 40.738692,
     "lng": -73.814765,
-    "image_url": "https://511ny.org/map/Cctv/5904",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_002/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2987",
+    "video_url": ""
   },
   {
-    "id": "5905",
-    "name": "",
+    "id": "2988",
+    "name": "Camera 2988",
     "route": "",
     "jurisdiction": "",
     "lat": 40.738011,
     "lng": -73.79712,
-    "image_url": "https://511ny.org/map/Cctv/5905",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_003/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2988",
+    "video_url": ""
   },
   {
-    "id": "5906",
-    "name": "",
+    "id": "2989",
+    "name": "Camera 2989",
     "route": "",
     "jurisdiction": "",
     "lat": 40.746698,
     "lng": -73.763638,
-    "image_url": "https://511ny.org/map/Cctv/5906",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_005/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2989",
+    "video_url": ""
   },
   {
-    "id": "5907",
-    "name": "",
+    "id": "2990",
+    "name": "Camera 2990",
     "route": "",
     "jurisdiction": "",
     "lat": 40.750563,
     "lng": -73.750172,
-    "image_url": "https://511ny.org/map/Cctv/5907",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_006/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2990",
+    "video_url": ""
   },
   {
-    "id": "5908",
-    "name": "",
+    "id": "2991",
+    "name": "Camera 2991",
     "route": "",
     "jurisdiction": "",
     "lat": 40.754822,
     "lng": -73.743048,
-    "image_url": "https://511ny.org/map/Cctv/5908",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_007/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2991",
+    "video_url": ""
   },
   {
-    "id": "5909",
-    "name": "",
+    "id": "2992",
+    "name": "Camera 2992",
     "route": "",
     "jurisdiction": "",
     "lat": 40.759981,
     "lng": -73.734234,
-    "image_url": "https://511ny.org/map/Cctv/5909",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_008/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2992",
+    "video_url": ""
   },
   {
-    "id": "5910",
-    "name": "",
+    "id": "2993",
+    "name": "Camera 2993",
     "route": "",
     "jurisdiction": "",
     "lat": 40.764521,
     "lng": -73.72349,
-    "image_url": "https://511ny.org/map/Cctv/5910",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_009/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2993",
+    "video_url": ""
   },
   {
-    "id": "5911",
-    "name": "",
+    "id": "2994",
+    "name": "Camera 2994",
     "route": "",
     "jurisdiction": "",
     "lat": 40.76978,
     "lng": -73.706321,
-    "image_url": "https://511ny.org/map/Cctv/5911",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_010/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2994",
+    "video_url": ""
   },
   {
-    "id": "5912",
-    "name": "",
+    "id": "2995",
+    "name": "Camera 2995",
     "route": "",
     "jurisdiction": "",
     "lat": 40.791743,
     "lng": -73.363223,
-    "image_url": "https://511ny.org/map/Cctv/5912",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_031/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2995",
+    "video_url": ""
   },
   {
-    "id": "5913",
-    "name": "",
+    "id": "2996",
+    "name": "Camera 2996",
     "route": "",
     "jurisdiction": "",
     "lat": 40.801269,
     "lng": -73.333628,
-    "image_url": "https://511ny.org/map/Cctv/5913",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_032/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2996",
+    "video_url": ""
   },
   {
-    "id": "5914",
-    "name": "",
+    "id": "2997",
+    "name": "Camera 2997",
     "route": "",
     "jurisdiction": "",
     "lat": 40.803776,
     "lng": -73.315147,
-    "image_url": "https://511ny.org/map/Cctv/5914",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_033/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2997",
+    "video_url": ""
   },
   {
-    "id": "5915",
-    "name": "",
+    "id": "2998",
+    "name": "Camera 2998",
     "route": "",
     "jurisdiction": "",
     "lat": 40.804787,
     "lng": -73.296796,
-    "image_url": "https://511ny.org/map/Cctv/5915",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_034/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2998",
+    "video_url": ""
   },
   {
-    "id": "5916",
-    "name": "",
+    "id": "2999",
+    "name": "Camera 2999",
     "route": "",
     "jurisdiction": "",
     "lat": 40.805363,
     "lng": -73.277557,
-    "image_url": "https://511ny.org/map/Cctv/5916",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_035/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/2999",
+    "video_url": ""
   },
   {
-    "id": "5917",
-    "name": "",
+    "id": "3000",
+    "name": "Camera 3000",
     "route": "",
     "jurisdiction": "",
     "lat": 40.804156,
     "lng": -73.265629,
-    "image_url": "https://511ny.org/map/Cctv/5917",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_036/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3000",
+    "video_url": ""
   },
   {
-    "id": "5918",
-    "name": "",
+    "id": "3001",
+    "name": "Camera 3001",
     "route": "",
     "jurisdiction": "",
     "lat": 40.805198,
     "lng": -73.260317,
-    "image_url": "https://511ny.org/map/Cctv/5918",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_037/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3001",
+    "video_url": ""
   },
   {
-    "id": "5919",
-    "name": "",
+    "id": "3003",
+    "name": "Camera 3003",
     "route": "",
     "jurisdiction": "",
     "lat": 40.805798,
     "lng": -73.24886,
-    "image_url": "https://511ny.org/map/Cctv/5919",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_038/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3003",
+    "video_url": ""
   },
   {
-    "id": "5920",
-    "name": "",
+    "id": "3004",
+    "name": "Camera 3004",
     "route": "",
     "jurisdiction": "",
     "lat": 40.808563,
     "lng": -73.22341,
-    "image_url": "https://511ny.org/map/Cctv/5920",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_039/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3004",
+    "video_url": ""
   },
   {
-    "id": "5921",
-    "name": "",
+    "id": "3005",
+    "name": "Camera 3005",
     "route": "",
     "jurisdiction": "",
     "lat": 40.809443,
     "lng": -73.20505,
-    "image_url": "https://511ny.org/map/Cctv/5921",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_040/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3005",
+    "video_url": ""
   },
   {
-    "id": "5922",
-    "name": "",
+    "id": "3006",
+    "name": "Camera 3006",
     "route": "",
     "jurisdiction": "",
     "lat": 40.781224,
     "lng": -73.639583,
-    "image_url": "https://511ny.org/map/Cctv/5922",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_061/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3006",
+    "video_url": ""
   },
   {
     "id": "3007",
@@ -15410,194 +15450,194 @@
     "video_url": ""
   },
   {
-    "id": "5925",
-    "name": "",
+    "id": "3009",
+    "name": "Camera 3009",
     "route": "",
     "jurisdiction": "",
     "lat": 40.760097,
     "lng": -73.623688,
-    "image_url": "https://511ny.org/map/Cctv/5925",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_064/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3009",
+    "video_url": ""
   },
   {
-    "id": "5926",
-    "name": "",
+    "id": "3010",
+    "name": "Camera 3010",
     "route": "",
     "jurisdiction": "",
     "lat": 40.756628,
     "lng": -73.620456,
-    "image_url": "https://511ny.org/map/Cctv/5926",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_065/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3010",
+    "video_url": ""
   },
   {
-    "id": "5927",
-    "name": "",
+    "id": "3011",
+    "name": "Camera 3011",
     "route": "",
     "jurisdiction": "",
     "lat": 40.759258,
     "lng": -73.604629,
-    "image_url": "https://511ny.org/map/Cctv/5927",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_066/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3011",
+    "video_url": ""
   },
   {
-    "id": "5928",
-    "name": "",
+    "id": "3012",
+    "name": "Camera 3012",
     "route": "",
     "jurisdiction": "",
     "lat": 40.7498,
     "lng": -73.61615,
-    "image_url": "https://511ny.org/map/Cctv/5928",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_067/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3012",
+    "video_url": ""
   },
   {
-    "id": "5929",
-    "name": "",
+    "id": "3013",
+    "name": "Camera 3013",
     "route": "",
     "jurisdiction": "",
     "lat": 40.762241,
     "lng": -73.593974,
-    "image_url": "https://511ny.org/map/Cctv/5929",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_068/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3013",
+    "video_url": ""
   },
   {
-    "id": "5930",
-    "name": "",
+    "id": "3014",
+    "name": "Camera 3014",
     "route": "",
     "jurisdiction": "",
     "lat": 40.764556,
     "lng": -73.584515,
-    "image_url": "https://511ny.org/map/Cctv/5930",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_069/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3014",
+    "video_url": ""
   },
   {
-    "id": "5931",
-    "name": "",
+    "id": "3015",
+    "name": "Camera 3015",
     "route": "",
     "jurisdiction": "",
     "lat": 40.766555,
     "lng": -73.575768,
-    "image_url": "https://511ny.org/map/Cctv/5931",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_070/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3015",
+    "video_url": ""
   },
   {
-    "id": "5932",
-    "name": "",
+    "id": "3016",
+    "name": "Camera 3016",
     "route": "",
     "jurisdiction": "",
     "lat": 40.687094,
     "lng": -73.71849,
-    "image_url": "https://511ny.org/map/Cctv/5932",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_091/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3016",
+    "video_url": ""
   },
   {
-    "id": "5933",
-    "name": "",
+    "id": "3017",
+    "name": "Camera 3017",
     "route": "",
     "jurisdiction": "",
     "lat": 40.68694,
     "lng": -73.715118,
-    "image_url": "https://511ny.org/map/Cctv/5933",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_092/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3017",
+    "video_url": ""
   },
   {
-    "id": "5934",
-    "name": "",
+    "id": "3018",
+    "name": "Camera 3018",
     "route": "",
     "jurisdiction": "",
     "lat": 40.67886,
     "lng": -73.698945,
-    "image_url": "https://511ny.org/map/Cctv/5934",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_093/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3018",
+    "video_url": ""
   },
   {
-    "id": "5935",
-    "name": "",
+    "id": "3019",
+    "name": "Camera 3019",
     "route": "",
     "jurisdiction": "",
     "lat": 40.683492,
     "lng": -73.687885,
-    "image_url": "https://511ny.org/map/Cctv/5935",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_094/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3019",
+    "video_url": ""
   },
   {
-    "id": "5936",
-    "name": "",
+    "id": "3020",
+    "name": "Camera 3020",
     "route": "",
     "jurisdiction": "",
     "lat": 40.683275,
     "lng": -73.674713,
-    "image_url": "https://511ny.org/map/Cctv/5936",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_095/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3020",
+    "video_url": ""
   },
   {
-    "id": "5937",
-    "name": "",
+    "id": "3021",
+    "name": "Camera 3021",
     "route": "",
     "jurisdiction": "",
     "lat": 40.682086,
     "lng": -73.663001,
-    "image_url": "https://511ny.org/map/Cctv/5937",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_096/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3021",
+    "video_url": ""
   },
   {
-    "id": "5938",
-    "name": "",
+    "id": "3022",
+    "name": "Camera 3022",
     "route": "",
     "jurisdiction": "",
     "lat": 40.683697,
     "lng": -73.655318,
-    "image_url": "https://511ny.org/map/Cctv/5938",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_097/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3022",
+    "video_url": ""
   },
   {
-    "id": "5939",
-    "name": "",
+    "id": "3023",
+    "name": "Camera 3023",
     "route": "",
     "jurisdiction": "",
     "lat": 40.684314,
     "lng": -73.64297,
-    "image_url": "https://511ny.org/map/Cctv/5939",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_098/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3023",
+    "video_url": ""
   },
   {
-    "id": "5940",
-    "name": "",
+    "id": "3024",
+    "name": "Camera 3024",
     "route": "",
     "jurisdiction": "",
     "lat": 40.690522,
     "lng": -73.633392,
-    "image_url": "https://511ny.org/map/Cctv/5940",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_099/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3024",
+    "video_url": ""
   },
   {
-    "id": "5941",
-    "name": "",
+    "id": "3025",
+    "name": "Camera 3025",
     "route": "",
     "jurisdiction": "",
     "lat": 40.687638,
     "lng": -73.624864,
-    "image_url": "https://511ny.org/map/Cctv/5941",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_100/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3025",
+    "video_url": ""
   },
   {
-    "id": "5942",
-    "name": "",
+    "id": "3026",
+    "name": "Camera 3026",
     "route": "",
     "jurisdiction": "",
     "lat": 40.710518,
     "lng": -73.414016,
-    "image_url": "https://511ny.org/map/Cctv/5942",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_121/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3026",
+    "video_url": ""
   },
   {
-    "id": "5943",
-    "name": "",
+    "id": "3027",
+    "name": "Camera 3027",
     "route": "",
     "jurisdiction": "",
     "lat": 40.718396,
     "lng": -73.40846,
-    "image_url": "https://511ny.org/map/Cctv/5943",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_122/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3027",
+    "video_url": ""
   },
   {
     "id": "3028",
@@ -15620,14 +15660,14 @@
     "video_url": ""
   },
   {
-    "id": "5946",
-    "name": "",
+    "id": "3030",
+    "name": "Camera 3030",
     "route": "",
     "jurisdiction": "",
     "lat": 40.732597,
     "lng": -73.358332,
-    "image_url": "https://511ny.org/map/Cctv/5946",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_126/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3030",
+    "video_url": ""
   },
   {
     "id": "3031",
@@ -15660,14 +15700,14 @@
     "video_url": ""
   },
   {
-    "id": "5950",
-    "name": "",
+    "id": "3034",
+    "name": "Camera 3034",
     "route": "",
     "jurisdiction": "",
     "lat": 40.733579,
     "lng": -73.307851,
-    "image_url": "https://511ny.org/map/Cctv/5950",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_130/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3034",
+    "video_url": ""
   },
   {
     "id": "3035",
@@ -15720,14 +15760,14 @@
     "video_url": ""
   },
   {
-    "id": "5956",
-    "name": "",
+    "id": "3040",
+    "name": "Camera 3040",
     "route": "",
     "jurisdiction": "",
     "lat": 40.67441,
     "lng": -73.493124,
-    "image_url": "https://511ny.org/map/Cctv/5956",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_156/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3040",
+    "video_url": ""
   },
   {
     "id": "3041",
@@ -16090,44 +16130,44 @@
     "video_url": ""
   },
   {
-    "id": "5995",
-    "name": "",
+    "id": "3079",
+    "name": "Camera 3079",
     "route": "",
     "jurisdiction": "",
     "lat": 40.737038,
     "lng": -73.671085,
-    "image_url": "https://511ny.org/map/Cctv/5995",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_276/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3079",
+    "video_url": ""
   },
   {
-    "id": "5996",
-    "name": "",
+    "id": "3080",
+    "name": "Camera 3080",
     "route": "",
     "jurisdiction": "",
     "lat": 40.733604,
     "lng": -73.679901,
-    "image_url": "https://511ny.org/map/Cctv/5996",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_277/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3080",
+    "video_url": ""
   },
   {
-    "id": "5997",
-    "name": "",
+    "id": "3081",
+    "name": "Camera 3081",
     "route": "",
     "jurisdiction": "",
     "lat": 40.727084,
     "lng": -73.710428,
-    "image_url": "https://511ny.org/map/Cctv/5997",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_278/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3081",
+    "video_url": ""
   },
   {
-    "id": "5998",
-    "name": "",
+    "id": "3082",
+    "name": "Camera 3082",
     "route": "",
     "jurisdiction": "",
     "lat": 40.724368,
     "lng": -73.724057,
-    "image_url": "https://511ny.org/map/Cctv/5998",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R10_279/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3082",
+    "video_url": ""
   },
   {
     "id": "3083",
@@ -16140,94 +16180,94 @@
     "video_url": ""
   },
   {
-    "id": "6000",
-    "name": "",
+    "id": "3084",
+    "name": "Camera 3084",
     "route": "",
     "jurisdiction": "",
     "lat": 40.83441,
     "lng": -73.87417,
-    "image_url": "https://511ny.org/map/Cctv/6000",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_001/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3084",
+    "video_url": ""
   },
   {
-    "id": "6001",
-    "name": "",
+    "id": "3085",
+    "name": "Camera 3085",
     "route": "",
     "jurisdiction": "",
     "lat": 40.80998,
     "lng": -73.9027,
-    "image_url": "https://511ny.org/map/Cctv/6001",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_002/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3085",
+    "video_url": ""
   },
   {
-    "id": "6002",
-    "name": "",
+    "id": "3086",
+    "name": "Camera 3086",
     "route": "",
     "jurisdiction": "",
     "lat": 40.82062,
     "lng": -73.8895,
-    "image_url": "https://511ny.org/map/Cctv/6002",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_003/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3086",
+    "video_url": ""
   },
   {
-    "id": "6004",
-    "name": "",
+    "id": "3088",
+    "name": "Camera 3088",
     "route": "",
     "jurisdiction": "",
     "lat": 40.82739,
     "lng": -73.8502,
-    "image_url": "https://511ny.org/map/Cctv/6004",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_006/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3088",
+    "video_url": ""
   },
   {
-    "id": "6005",
-    "name": "",
+    "id": "3089",
+    "name": "Camera 3089",
     "route": "",
     "jurisdiction": "",
     "lat": 40.82976,
     "lng": -73.83482,
-    "image_url": "https://511ny.org/map/Cctv/6005",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_007/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3089",
+    "video_url": ""
   },
   {
-    "id": "6006",
-    "name": "",
+    "id": "3090",
+    "name": "Camera 3090",
     "route": "",
     "jurisdiction": "",
     "lat": 40.83165,
     "lng": -73.83044,
-    "image_url": "https://511ny.org/map/Cctv/6006",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_008/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3090",
+    "video_url": ""
   },
   {
-    "id": "6007",
-    "name": "",
+    "id": "3091",
+    "name": "Camera 3091",
     "route": "",
     "jurisdiction": "",
     "lat": 40.83811,
     "lng": -73.82494,
-    "image_url": "https://511ny.org/map/Cctv/6007",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_009/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3091",
+    "video_url": ""
   },
   {
-    "id": "6008",
-    "name": "",
+    "id": "3092",
+    "name": "Camera 3092",
     "route": "",
     "jurisdiction": "",
     "lat": 40.84082,
     "lng": -73.82589,
-    "image_url": "https://511ny.org/map/Cctv/6008",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_010/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3092",
+    "video_url": ""
   },
   {
-    "id": "6009",
-    "name": "",
+    "id": "3093",
+    "name": "Camera 3093",
     "route": "",
     "jurisdiction": "",
     "lat": 40.82014,
     "lng": -73.83609,
-    "image_url": "https://511ny.org/map/Cctv/6009",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_031/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3093",
+    "video_url": ""
   },
   {
     "id": "3094",
@@ -16250,84 +16290,84 @@
     "video_url": ""
   },
   {
-    "id": "6012",
-    "name": "",
+    "id": "3096",
+    "name": "Camera 3096",
     "route": "",
     "jurisdiction": "",
     "lat": 40.83488,
     "lng": -73.83826,
-    "image_url": "https://511ny.org/map/Cctv/6012",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_034/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3096",
+    "video_url": ""
   },
   {
-    "id": "6013",
-    "name": "",
+    "id": "3097",
+    "name": "Camera 3097",
     "route": "",
     "jurisdiction": "",
     "lat": 40.85176,
     "lng": -73.83601,
-    "image_url": "https://511ny.org/map/Cctv/6013",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_035/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3097",
+    "video_url": ""
   },
   {
-    "id": "6014",
-    "name": "",
+    "id": "3098",
+    "name": "Camera 3098",
     "route": "",
     "jurisdiction": "",
     "lat": 40.8573,
     "lng": -73.83111,
-    "image_url": "https://511ny.org/map/Cctv/6014",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_036/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3098",
+    "video_url": ""
   },
   {
-    "id": "6015",
-    "name": "",
+    "id": "3099",
+    "name": "Camera 3099",
     "route": "",
     "jurisdiction": "",
     "lat": 40.86118,
     "lng": -73.82837,
-    "image_url": "https://511ny.org/map/Cctv/6015",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_037/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3099",
+    "video_url": ""
   },
   {
-    "id": "6016",
-    "name": "",
+    "id": "3100",
+    "name": "Camera 3100",
     "route": "",
     "jurisdiction": "",
     "lat": 40.86679,
     "lng": -73.8234,
-    "image_url": "https://511ny.org/map/Cctv/6016",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_038/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3100",
+    "video_url": ""
   },
   {
-    "id": "6017",
-    "name": "",
+    "id": "3101",
+    "name": "Camera 3101",
     "route": "",
     "jurisdiction": "",
     "lat": 40.80355,
     "lng": -73.91611,
-    "image_url": "https://511ny.org/map/Cctv/6017",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_039/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3101",
+    "video_url": ""
   },
   {
-    "id": "6018",
-    "name": "",
+    "id": "3103",
+    "name": "Camera 3103",
     "route": "",
     "jurisdiction": "",
     "lat": 40.80662,
     "lng": -73.9234,
-    "image_url": "https://511ny.org/map/Cctv/6018",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_040/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3103",
+    "video_url": ""
   },
   {
-    "id": "6019",
-    "name": "",
+    "id": "3104",
+    "name": "Camera 3104",
     "route": "",
     "jurisdiction": "",
     "lat": 40.68473,
     "lng": -74.00122,
-    "image_url": "https://511ny.org/map/Cctv/6019",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_061/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3104",
+    "video_url": ""
   },
   {
     "id": "3106",
@@ -16340,314 +16380,314 @@
     "video_url": ""
   },
   {
-    "id": "6023",
-    "name": "",
+    "id": "3108",
+    "name": "Camera 3108",
     "route": "",
     "jurisdiction": "",
     "lat": 40.6906,
     "lng": -73.99855,
-    "image_url": "https://511ny.org/map/Cctv/6023",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_065/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3108",
+    "video_url": ""
   },
   {
-    "id": "6024",
-    "name": "",
+    "id": "3109",
+    "name": "Camera 3109",
     "route": "",
     "jurisdiction": "",
     "lat": 40.69255,
     "lng": -73.99964,
-    "image_url": "https://511ny.org/map/Cctv/6024",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_066/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3109",
+    "video_url": ""
   },
   {
-    "id": "6025",
-    "name": "",
+    "id": "3110",
+    "name": "Camera 3110",
     "route": "",
     "jurisdiction": "",
     "lat": 40.69255,
     "lng": -73.99964,
-    "image_url": "https://511ny.org/map/Cctv/6025",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_067/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3110",
+    "video_url": ""
   },
   {
-    "id": "6026",
-    "name": "",
+    "id": "3111",
+    "name": "Camera 3111",
     "route": "",
     "jurisdiction": "",
     "lat": 40.69994,
     "lng": -73.99625,
-    "image_url": "https://511ny.org/map/Cctv/6026",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_068/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3111",
+    "video_url": ""
   },
   {
-    "id": "6027",
-    "name": "",
+    "id": "3112",
+    "name": "Camera 3112",
     "route": "",
     "jurisdiction": "",
     "lat": 40.69993,
     "lng": -73.99626,
-    "image_url": "https://511ny.org/map/Cctv/6027",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_069/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3112",
+    "video_url": ""
   },
   {
-    "id": "6028",
-    "name": "",
+    "id": "3113",
+    "name": "Camera 3113",
     "route": "",
     "jurisdiction": "",
     "lat": 40.70122,
     "lng": -73.99447,
-    "image_url": "https://511ny.org/map/Cctv/6028",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_070/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3113",
+    "video_url": ""
   },
   {
-    "id": "6030",
-    "name": "",
+    "id": "3115",
+    "name": "Camera 3115",
     "route": "",
     "jurisdiction": "",
     "lat": 40.64523,
     "lng": -74.01694,
-    "image_url": "https://511ny.org/map/Cctv/6030",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_093/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3115",
+    "video_url": ""
   },
   {
-    "id": "6032",
-    "name": "",
+    "id": "3117",
+    "name": "Camera 3117",
     "route": "",
     "jurisdiction": "",
     "lat": 40.73237,
     "lng": -73.92463,
-    "image_url": "https://511ny.org/map/Cctv/6032",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_096/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3117",
+    "video_url": ""
   },
   {
-    "id": "6033",
-    "name": "",
+    "id": "3118",
+    "name": "Camera 3118",
     "route": "",
     "jurisdiction": "",
     "lat": 40.73477,
     "lng": -73.92189,
-    "image_url": "https://511ny.org/map/Cctv/6033",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_097/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3118",
+    "video_url": ""
   },
   {
-    "id": "6034",
-    "name": "",
+    "id": "3119",
+    "name": "Camera 3119",
     "route": "",
     "jurisdiction": "",
     "lat": 40.73503,
     "lng": -73.92117,
-    "image_url": "https://511ny.org/map/Cctv/6034",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_098/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3119",
+    "video_url": ""
   },
   {
-    "id": "6035",
-    "name": "",
+    "id": "3120",
+    "name": "Camera 3120",
     "route": "",
     "jurisdiction": "",
     "lat": 40.7377,
     "lng": -73.90464,
-    "image_url": "https://511ny.org/map/Cctv/6035",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_099/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3120",
+    "video_url": ""
   },
   {
-    "id": "6036",
-    "name": "",
+    "id": "3121",
+    "name": "Camera 3121",
     "route": "",
     "jurisdiction": "",
     "lat": 40.74928,
     "lng": -73.89678,
-    "image_url": "https://511ny.org/map/Cctv/6036",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_100/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3121",
+    "video_url": ""
   },
   {
-    "id": "6037",
-    "name": "",
+    "id": "3122",
+    "name": "Camera 3122",
     "route": "",
     "jurisdiction": "",
     "lat": 40.73408,
     "lng": -73.84448,
-    "image_url": "https://511ny.org/map/Cctv/6037",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_121/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3122",
+    "video_url": ""
   },
   {
-    "id": "6038",
-    "name": "",
+    "id": "3123",
+    "name": "Camera 3123",
     "route": "",
     "jurisdiction": "",
     "lat": 40.7267,
     "lng": -73.83788,
-    "image_url": "https://511ny.org/map/Cctv/6038",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_122/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3123",
+    "video_url": ""
   },
   {
-    "id": "6039",
-    "name": "",
+    "id": "3124",
+    "name": "Camera 3124",
     "route": "",
     "jurisdiction": "",
     "lat": 40.72098,
     "lng": -73.83505,
-    "image_url": "https://511ny.org/map/Cctv/6039",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_123/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3124",
+    "video_url": ""
   },
   {
-    "id": "6040",
-    "name": "",
+    "id": "3125",
+    "name": "Camera 3125",
     "route": "",
     "jurisdiction": "",
     "lat": 40.71741,
     "lng": -73.83066,
-    "image_url": "https://511ny.org/map/Cctv/6040",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_124/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3125",
+    "video_url": ""
   },
   {
-    "id": "6041",
-    "name": "",
+    "id": "3126",
+    "name": "Camera 3126",
     "route": "",
     "jurisdiction": "",
     "lat": 40.75811,
     "lng": -73.8507,
-    "image_url": "https://511ny.org/map/Cctv/6041",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_125/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3126",
+    "video_url": ""
   },
   {
-    "id": "6042",
-    "name": "",
+    "id": "3127",
+    "name": "Camera 3127",
     "route": "",
     "jurisdiction": "",
     "lat": 40.75969,
     "lng": -73.84674,
-    "image_url": "https://511ny.org/map/Cctv/6042",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_126/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3127",
+    "video_url": ""
   },
   {
-    "id": "6043",
-    "name": "",
+    "id": "3128",
+    "name": "Camera 3128",
     "route": "",
     "jurisdiction": "",
     "lat": 40.7415,
     "lng": -73.9504,
-    "image_url": "https://511ny.org/map/Cctv/6043",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_127/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3128",
+    "video_url": ""
   },
   {
-    "id": "6044",
-    "name": "",
+    "id": "3129",
+    "name": "Camera 3129",
     "route": "",
     "jurisdiction": "",
     "lat": 40.73957,
     "lng": -73.94227,
-    "image_url": "https://511ny.org/map/Cctv/6044",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_128/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3129",
+    "video_url": ""
   },
   {
-    "id": "6045",
-    "name": "",
+    "id": "3130",
+    "name": "Camera 3130",
     "route": "",
     "jurisdiction": "",
     "lat": 40.73636,
     "lng": -73.92886,
-    "image_url": "https://511ny.org/map/Cctv/6045",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_129/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3130",
+    "video_url": ""
   },
   {
-    "id": "6046",
-    "name": "",
+    "id": "3131",
+    "name": "Camera 3131",
     "route": "",
     "jurisdiction": "",
     "lat": 40.74274,
     "lng": -73.78062,
-    "image_url": "https://511ny.org/map/Cctv/6046",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_151/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3131",
+    "video_url": ""
   },
   {
-    "id": "6047",
-    "name": "",
+    "id": "3132",
+    "name": "Camera 3132",
     "route": "",
     "jurisdiction": "",
     "lat": 40.74335,
     "lng": -73.7745,
-    "image_url": "https://511ny.org/map/Cctv/6047",
-    "video_url": "https://s51.nysdot.skyvdn.com/rtplive/R11_152/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3132",
+    "video_url": ""
   },
   {
-    "id": "6048",
-    "name": "",
+    "id": "3134",
+    "name": "Camera 3134",
     "route": "",
     "jurisdiction": "",
     "lat": 40.71159,
     "lng": -73.82199,
-    "image_url": "https://511ny.org/map/Cctv/6048",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_176/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3134",
+    "video_url": ""
   },
   {
-    "id": "6049",
-    "name": "",
+    "id": "3135",
+    "name": "Camera 3135",
     "route": "",
     "jurisdiction": "",
     "lat": 40.71158,
     "lng": -73.82199,
-    "image_url": "https://511ny.org/map/Cctv/6049",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_177/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3135",
+    "video_url": ""
   },
   {
-    "id": "6051",
-    "name": "",
+    "id": "3137",
+    "name": "Camera 3137",
     "route": "",
     "jurisdiction": "",
     "lat": 40.71637,
     "lng": -73.82596,
-    "image_url": "https://511ny.org/map/Cctv/6051",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_179/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3137",
+    "video_url": ""
   },
   {
-    "id": "6052",
-    "name": "",
+    "id": "3138",
+    "name": "Camera 3138",
     "route": "",
     "jurisdiction": "",
     "lat": 40.71847,
     "lng": -73.82591,
-    "image_url": "https://511ny.org/map/Cctv/6052",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_180/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3138",
+    "video_url": ""
   },
   {
-    "id": "6053",
-    "name": "",
+    "id": "3139",
+    "name": "Camera 3139",
     "route": "",
     "jurisdiction": "",
     "lat": 40.57893,
     "lng": -74.19067,
-    "image_url": "https://511ny.org/map/Cctv/6053",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_201/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3139",
+    "video_url": ""
   },
   {
-    "id": "6054",
-    "name": "",
+    "id": "3140",
+    "name": "Camera 3140",
     "route": "",
     "jurisdiction": "",
     "lat": 40.58983,
     "lng": -74.19365,
-    "image_url": "https://511ny.org/map/Cctv/6054",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_202/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3140",
+    "video_url": ""
   },
   {
-    "id": "6055",
-    "name": "",
+    "id": "3141",
+    "name": "Camera 3141",
     "route": "",
     "jurisdiction": "",
     "lat": 40.59732,
     "lng": -74.19156,
-    "image_url": "https://511ny.org/map/Cctv/6055",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_203/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3141",
+    "video_url": ""
   },
   {
-    "id": "6056",
-    "name": "",
+    "id": "3142",
+    "name": "Camera 3142",
     "route": "",
     "jurisdiction": "",
     "lat": 40.60226,
     "lng": -74.18799,
-    "image_url": "https://511ny.org/map/Cctv/6056",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_204/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3142",
+    "video_url": ""
   },
   {
     "id": "3143",
@@ -16660,34 +16700,34 @@
     "video_url": ""
   },
   {
-    "id": "6058",
-    "name": "",
+    "id": "3144",
+    "name": "Camera 3144",
     "route": "",
     "jurisdiction": "",
     "lat": 40.61255,
     "lng": -74.18025,
-    "image_url": "https://511ny.org/map/Cctv/6058",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_206/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3144",
+    "video_url": ""
   },
   {
-    "id": "6059",
-    "name": "",
+    "id": "3145",
+    "name": "Camera 3145",
     "route": "",
     "jurisdiction": "",
     "lat": 40.62535,
     "lng": -74.17783,
-    "image_url": "https://511ny.org/map/Cctv/6059",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_207/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3145",
+    "video_url": ""
   },
   {
-    "id": "6060",
-    "name": "",
+    "id": "3146",
+    "name": "Camera 3146",
     "route": "",
     "jurisdiction": "",
     "lat": 40.62235,
     "lng": -74.17493,
-    "image_url": "https://511ny.org/map/Cctv/6060",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_208/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3146",
+    "video_url": ""
   },
   {
     "id": "3147",
@@ -16700,14 +16740,14 @@
     "video_url": ""
   },
   {
-    "id": "6062",
-    "name": "",
+    "id": "3148",
+    "name": "Camera 3148",
     "route": "",
     "jurisdiction": "",
     "lat": 40.61805,
     "lng": -74.16143,
-    "image_url": "https://511ny.org/map/Cctv/6062",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R11_210/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3148",
+    "video_url": ""
   },
   {
     "id": "3149",
@@ -16730,23 +16770,23 @@
     "video_url": ""
   },
   {
-    "id": "6065",
-    "name": "",
+    "id": "3151",
+    "name": "Camera 3151",
     "route": "",
     "jurisdiction": "",
     "lat": 43.16478,
     "lng": -77.659679,
-    "image_url": "https://511ny.org/map/Cctv/6065",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R4_081/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3151",
+    "video_url": ""
   },
   {
-    "id": "3981",
-    "name": "",
+    "id": "3155",
+    "name": "Camera 3155",
     "route": "",
     "jurisdiction": "",
     "lat": 41.117475,
     "lng": -73.77106,
-    "image_url": "https://511ny.org/map/Cctv/3981",
+    "image_url": "https://511ny.org/map/Cctv/3155",
     "video_url": ""
   },
   {
@@ -16770,14 +16810,14 @@
     "video_url": ""
   },
   {
-    "id": "6067",
-    "name": "",
+    "id": "3160",
+    "name": "Camera 3160",
     "route": "",
     "jurisdiction": "",
     "lat": 42.68398,
     "lng": -73.84729,
-    "image_url": "https://511ny.org/map/Cctv/6067",
-    "video_url": "https://s53.nysdot.skyvdn.com/rtplive/R1_052/playlist.m3u8"
+    "image_url": "https://511ny.org/map/Cctv/3160",
+    "video_url": ""
   },
   {
     "id": "3161",
