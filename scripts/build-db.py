@@ -343,6 +343,11 @@ def parse_ca():
     with open(os.path.join(DATA_DIR, "ca.json")) as f:
         data = json.load(f)
 
+    # Refresh (fetchers/api_states.fetch_ca) writes a pre-normalized list.
+    # Legacy captures are the raw Caltrans {"data": [...]} shape.
+    if isinstance(data, list):
+        return data
+
     cameras = []
     for entry in data["data"]:
         cam = entry.get("cctv", {})
