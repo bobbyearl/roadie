@@ -31,19 +31,30 @@
   background-color: var(--color-pin-dark);
 }
 .map-pin-selected {
-  @apply w-5 h-5 rounded-full relative flex items-center justify-center border-2 border-white shadow;
-  background-color: var(--color-accent-marker);
-  transform: translateY(50%);
+  @apply relative flex items-start justify-center bg-center bg-no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  /* Same teardrop as the map markers (viewBox 0 0 22 22, white stroke 1.6),
+     pink #e836b8 fill, no white head-circle — the selection number sits there. */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='30'%20height='30'%20viewBox='0%200%2022%2022'%3E%3Cpath%20d='M11%201C6.6%201%203%204.5%203%208.8c0%205.9%208%2012.2%208%2012.2s8-6.3%208-12.2C19%204.5%2015.4%201%2011%201z'%20fill='%23e836b8'%20stroke='%23fff'%20stroke-width='1.6'/%3E%3C/svg%3E");
 }
 .map-pin-number {
-  @apply absolute inset-0 flex items-center justify-center text-white font-bold text-[9px] leading-none;
+  @apply absolute flex items-center justify-center text-white font-bold text-[10px] leading-none;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 24px;
 }
 .map-feed-anchor {
   @apply relative;
 }
 .map-pin-active {
-  @apply w-5 h-5 rounded-full border-2 border-white shadow-lg relative flex items-center justify-center;
-  background-color: var(--color-accent-marker);
+  @apply relative flex items-start justify-center bg-center bg-no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='30'%20height='30'%20viewBox='0%200%2022%2022'%3E%3Cpath%20d='M11%201C6.6%201%203%204.5%203%208.8c0%205.9%208%2012.2%208%2012.2s8-6.3%208-12.2C19%204.5%2015.4%201%2011%201z'%20fill='%23e836b8'%20stroke='%23fff'%20stroke-width='1.6'/%3E%3C/svg%3E");
 }
 .map-feed {
   @apply bg-background rounded-lg shadow-lg border-2 relative;
@@ -146,16 +157,18 @@
   }
 }
 
-.map-control-btn-active {
-  background: #2563eb !important;
-  color: white !important;
-  border-color: #2563eb !important;
+button.map-control-btn.map-control-btn-active {
+  background: #1e293b;
+  color: white;
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
-:root[data-theme="dark"] .map-control-btn-active {
-  background: #3b82f6 !important;
-  color: white !important;
-  border-color: #3b82f6 !important;
+:root[data-theme="dark"] button.map-control-btn.map-control-btn-active {
+  background: #f1f5f9;
+  color: #0f172a;
+  border-color: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .map-draw-overlay {
