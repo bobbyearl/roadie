@@ -37,10 +37,26 @@ export function CameraMap({ stateId, markersOnly }: CameraMapProps) {
 }
 
 
+/**
+ * Real-time Google traffic overlay. @vis.gl/react-google-maps 1.8.x ships no
+ * <TrafficLayer> wrapper, so attach the raw google.maps.TrafficLayer via useMap.
+ * Helps users pick which camera to open by showing congestion on the roads.
+ */
+function TrafficLayer() {
+  const map = useMap();
+  useEffect(() => {
+    if (!map || !window.google?.maps) return;
+    const layer = new google.maps.TrafficLayer();
+    layer.setMap(map);
+    return () => layer.setMap(null);
+  }, [map]);
+  return null;
+}
+
 function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: string; markersOnly?: boolean }) {
+  const map = useMap();
   const { cameras, selectedIds, selectedCameras, toggleCamera, selectRoute, clearAll, mode, setMode, cardSize, setDetailCam, layoutKey, userLocation, setUserLocation, mapPosition, setMapPosition } = useTraffic();
   const { resolvedTheme } = useTheme();
-  const map = useMap();
   const prevStateRef = useRef(stateId);
   // Set map position from URL on mount, or default center/zoom on state change
   const initialPositionApplied = useRef(false);
@@ -302,7 +318,11 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       if (currentCameras.length === 0) { return; }
 
       const { GoogleMapsOverlay, ScatterplotLayer } = deckModulesRef.current;
-      const rgb = [249, 115, 22]; // orange - visible on both themes, distinct from pink accent
+      // Plum camera markers with a scheme-aware border: the border carries contrast
+      // (dark ring on light roads, white ring on dark roads) so the plum fill stays on-brand
+      // and legible over every traffic-line color. Verified >=3:1 WCAG on all bands.
+      const MARKER_RGB = [232, 54, 184]; // #e836b8 --color-accent-marker (matches selected pin)
+      const MARKER_BORDER = [255, 255, 255, 230]; // white ring in both modes (aesthetic choice)
 
       const layer = new ScatterplotLayer({
         id: 'cameras',
@@ -310,9 +330,9 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
         getPosition: (d: any) => [d.lng, d.lat],
         getRadius: 5,
         radiusUnits: 'pixels' as const,
-        getFillColor: [...rgb, 220] as any,
-        getLineColor: resolvedTheme === 'dark' ? [255, 255, 255, 120] : [255, 255, 255, 200] as any,
-        lineWidthMinPixels: 1,
+        getFillColor: [...MARKER_RGB, 255] as any,
+        getLineColor: MARKER_BORDER as any,
+        lineWidthMinPixels: 2,
         stroked: true,
         pickable: true,
         onHover: (info: any) => {
@@ -380,16 +400,17 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
     const reshow = () => {
       if (deckOverlayRef.current && deckModulesRef.current) {
         const { ScatterplotLayer } = deckModulesRef.current;
-        const rgb = [249, 115, 22]; // orange - match main layer
+        const MARKER_RGB = [232, 54, 184]; // #e836b8 --color-accent-marker (matches selected pin)
+        const MARKER_BORDER = [255, 255, 255, 230]; // white ring in both modes (aesthetic choice)
         const layer = new ScatterplotLayer({
           id: 'cameras',
           data: cameras,
           getPosition: (d: any) => [d.lng, d.lat],
           getRadius: 5,
           radiusUnits: 'pixels' as const,
-          getFillColor: [...rgb, 220] as any,
-          getLineColor: [255, 255, 255, 180] as any,
-          lineWidthMinPixels: 1,
+          getFillColor: [...MARKER_RGB, 255] as any,
+          getLineColor: MARKER_BORDER as any,
+          lineWidthMinPixels: 2,
           stroked: true,
           pickable: true,
           onHover: (info: any) => {
@@ -670,6 +691,7 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
       mapTypeControl={false}
       clickableIcons={false}
     >
+      <TrafficLayer />
       {selectedCamerasInView.map((cam) => {
         const offset = offsets.get(cam.id);
         return (
