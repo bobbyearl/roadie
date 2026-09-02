@@ -489,6 +489,15 @@ def build_db():
             if not cam.get("lat") or not cam.get("lng"):
                 continue
 
+            # Sanity-fix upstream sign-drops. Every feed is US (CONUS/AK/HI), so
+            # longitude is ALWAYS negative; a positive value is a dropped minus in
+            # the source data (e.g. VDOT va:3656, NY 511 ny:4822 land in Asia).
+            # Negate it so one bad source record can't put a marker in China.
+            # NOTE: US-only assumption — revisit if we ever ingest worldwide data.
+            if cam["lng"] > 0:
+                print(f"    WARN {cam.get('id')} positive lng {cam['lng']} -> negating (assumed upstream dropped sign)")
+                cam["lng"] = -cam["lng"]
+
             # Get or create jurisdiction index
             j = cam.get("jurisdiction", "")
             if j not in jurisdiction_idx:

@@ -1,8 +1,9 @@
 import './CameraMap.css';
 
 import { AdvancedMarker, APIProvider, Map as GoogleMap, useMap } from '@vis.gl/react-google-maps';
-import { GripVertical, Home, Locate, BoxSelect } from 'lucide-react';
+import { GripVertical, Home, Locate, BoxSelect, Layers } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
+import Supercluster from 'supercluster';
 
 import { type Camera, getStateConfig } from '../lib/cameras';
 import { track } from '../lib/analytics';
@@ -53,10 +54,81 @@ function TrafficLayer() {
   return null;
 }
 
+/* ── Camera marker design system ──────────────────────────────────────────
+ * Individual cameras render as teardrop pins colored by media type. The pair is
+ * two analogous, equally-saturated hues (video vs image) — NOT light/dark shades
+ * of one hue (a pale shade read as "disabled"). Colors are SCHEME-AWARE: the
+ * light basemap and the dark basemap need different hues to stay legible over
+ * the fixed Google traffic palette (green/amber/red/maroon, same in both modes).
+ *   LIGHT: violet + indigo (reads on the pale basemap).
+ *   DARK:  bright cyan + bright indigo (high-luminance so it lifts off the dark
+ *          road and doesn't drown in the green congestion band).
+ * SELECTED cameras are the loud pink #e836b8 (.map-pin-active, unchanged).
+ * Clusters render as round slate bubbles sized by count (an aggregate, not a pin).
+ * Wow-mode (clustering off) renders small dots: shadow-only on LIGHT (a big border
+ * chokes a tiny dot's color), but with a thin light ring on DARK so they don't
+ * vanish on a dark road. Teardrops always carry a white border for traffic contrast.
+ */
+type MarkerColors = { video: string; image: string; videoRgb: [number, number, number]; imageRgb: [number, number, number] };
+const MARKER_LIGHT: MarkerColors = {
+  video: '#7c3aed', videoRgb: [124, 58, 237],   // violet-600
+  image: '#4f46e5', imageRgb: [79, 70, 229],     // indigo-600
+};
+const MARKER_DARK: MarkerColors = {
+  video: '#22d3ee', videoRgb: [34, 211, 238],    // cyan-400 (bright, lifts off dark)
+  image: '#818cf8', imageRgb: [129, 140, 248],   // indigo-400 (bright analogous neighbor)
+};
+const markerColors = (isDark: boolean): MarkerColors => (isDark ? MARKER_DARK : MARKER_LIGHT);
+
+const CLUSTER_LIGHT = '#d946ef'; // fuchsia-500 — light basemap
+const CLUSTER_DARK = '#e879f9';  // fuchsia-400 — brighter, lifts off dark basemap (same delta as markers)
+const clusterColor = (isDark: boolean): string => (isDark ? CLUSTER_DARK : CLUSTER_LIGHT);
+// Groups smaller than this render as individual teardrops, not a count bubble.
+// (supercluster minPoints: a "cluster" needs at least this many points.)
+const CLUSTER_MIN_POINTS = 10;
+
+// Build a teardrop-pin SVG data-URI (fill = media color, white stroke). Authored
+// at 120px (viewBox stays 0 0 22 22, so shape is identical) so deck.gl's atlas has
+// 4x the pixels and DOWNSAMPLES to the 30px display size — crisp, not mushy.
+function teardropIcon(fill: string): string {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 22 22"><path d="M11 1C6.6 1 3 4.5 3 8.8c0 5.9 8 12.2 8 12.2s8-6.3 8-12.2C19 4.5 15.4 1 11 1z" fill="${fill}" stroke="#fff" stroke-width="1.6"/><circle cx="11" cy="8.6" r="3" fill="#fff"/></svg>`;
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+// Wispy cluster bubble — all ONE hue (fuchsia) at graduated opacity so there's no
+// grey conflicting with the core: a faint outer halo, a mid ring, and a
+// semi-transparent core (not solid, so it reads as a density cloud). Authored at
+// 208px (viewBox stays 52) for the same downsample-for-crispness reason.
+function clusterIcon(color: string): string {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="208" height="208" viewBox="0 0 52 52"><circle cx="26" cy="26" r="23" fill="${color}" fill-opacity="0.7"/><circle cx="26" cy="26" r="15" fill="${color}" fill-opacity="0.95"/></svg>`;
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+// Cluster bubble pixel size grows with member count (wide ramp for clear magnitude).
+function clusterSize(count: number): number {
+  if (count >= 1000) return 64;
+  if (count >= 250) return 54;
+  if (count >= 100) return 46;
+  if (count >= 50) return 38;
+  return 30;
+}
+
 function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: string; markersOnly?: boolean }) {
   const map = useMap();
   const { cameras, selectedIds, selectedCameras, toggleCamera, selectRoute, clearAll, mode, setMode, cardSize, setDetailCam, layoutKey, userLocation, setUserLocation, mapPosition, setMapPosition } = useTraffic();
   const { resolvedTheme } = useTheme();
+  // Clustering toggle (default ON for usability). Off = "wow-mode" sea of dots.
+  // Synced to the ?cluster URL param (cluster=0 when off) so a view is shareable.
+  const [clustered, setClusteredState] = useState(() => {
+    return new URLSearchParams(window.location.search).get('cluster') !== '0';
+  });
+  const setClustered = useCallback((on: boolean) => {
+    setClusteredState(on);
+    const url = new URL(window.location.href);
+    if (on) { url.searchParams.delete('cluster'); } else { url.searchParams.set('cluster', '0'); }
+    window.history.replaceState(null, '', url.toString());
+  }, []);
+  const clusteredRef = useRef(clustered);
+  clusteredRef.current = clustered;
+  const [reshowTick, setReshowTick] = useState(0);
   const prevStateRef = useRef(stateId);
   // Set map position from URL on mount, or default center/zoom on state change
   const initialPositionApplied = useRef(false);
@@ -299,131 +371,130 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
   // deck.gl overlay for all markers (WebGL, handles thousands instantly)
   /* eslint-disable @typescript-eslint/no-explicit-any */
   const deckOverlayRef = useRef<any>(null);
-  const deckModulesRef = useRef<{ GoogleMapsOverlay: any; ScatterplotLayer: any } | null>(null);
+  const deckModulesRef = useRef<{ GoogleMapsOverlay: any; ScatterplotLayer: any; IconLayer: any } | null>(null);
+  const superRef = useRef<any>(null);
   const handleMarkerClickRef = useRef(handleMarkerClick);
   handleMarkerClickRef.current = handleMarkerClick; // eslint-disable-line react-hooks/refs
   const camerasRef = useRef(cameras);
   camerasRef.current = cameras;
+  const selectedIdsRef = useRef(selectedIds);
+  selectedIdsRef.current = selectedIds;
 
   useEffect(() => {
     if (!map || cameras.length === 0) { return; }
 
+    let idleListener: any = null;
+    let cancelled = false;
+
     const run = async () => {
       if (!deckModulesRef.current) {
         const [gm, layers] = await Promise.all([import('@deck.gl/google-maps'), import('@deck.gl/layers')]);
-        deckModulesRef.current = { GoogleMapsOverlay: gm.GoogleMapsOverlay, ScatterplotLayer: layers.ScatterplotLayer };
+        deckModulesRef.current = { GoogleMapsOverlay: gm.GoogleMapsOverlay, ScatterplotLayer: layers.ScatterplotLayer, IconLayer: layers.IconLayer };
       }
-      // Always read latest cameras from ref after await
+      if (cancelled) { return; }
       const currentCameras = camerasRef.current;
       if (currentCameras.length === 0) { return; }
 
-      const { GoogleMapsOverlay, ScatterplotLayer } = deckModulesRef.current;
-      // Plum camera markers with a scheme-aware border: the border carries contrast
-      // (dark ring on light roads, white ring on dark roads) so the plum fill stays on-brand
-      // and legible over every traffic-line color. Verified >=3:1 WCAG on all bands.
-      const MARKER_RGB = [232, 54, 184]; // #e836b8 --color-accent-marker (matches selected pin)
-      const MARKER_BORDER = [255, 255, 255, 230]; // white ring in both modes (aesthetic choice)
+      const { GoogleMapsOverlay, ScatterplotLayer, IconLayer } = deckModulesRef.current;
 
-      const layer = new ScatterplotLayer({
-        id: 'cameras',
-        data: currentCameras,
-        getPosition: (d: any) => [d.lng, d.lat],
-        getRadius: 5,
-        radiusUnits: 'pixels' as const,
-        getFillColor: [...MARKER_RGB, 255] as any,
-        getLineColor: MARKER_BORDER as any,
-        lineWidthMinPixels: 2,
-        stroked: true,
-        pickable: true,
-        onHover: (info: any) => {
-          const wrapper = map.getDiv().closest('.map-wrapper');
-          if (wrapper) { (wrapper as HTMLElement).classList.toggle('map-pointer', !!info.object); }
-        },
-        onClick: (info: any) => {
-          if (info.object) {
-            // Check if multiple cameras overlap at this pixel location
-            const clickLat = info.object.lat;
-            const clickLng = info.object.lng;
-            const zoom = map.getZoom() || 10;
-            // At high zoom, markers are well separated. At low zoom, check for neighbors.
-            const threshold = 0.5 / Math.pow(2, zoom - 5); // ~pixel proximity in degrees
-            const nearby = camerasRef.current.filter((c) =>
-              Math.abs(c.lat - clickLat) < threshold && Math.abs(c.lng - clickLng) < threshold
-            );
-            if (nearby.length > 1 && zoom < 15) {
-              // Multiple cameras at this location - zoom in to separate them
-              map.panTo({ lat: clickLat, lng: clickLng });
-              map.setZoom(Math.min(zoom + 3, 17));
-            } else {
-              handleMarkerClickRef.current(info.object.id);
-            }
+      // One code path for both modes: cameras are ALWAYS teardrops. The toggle
+      // only controls whether nearby cameras collapse into count-clouds — modeled
+      // as supercluster minPoints (Infinity = never cluster = all leaf teardrops).
+      const effMinPoints = clusteredRef.current ? CLUSTER_MIN_POINTS : Infinity;
+      const buildIndex = () => {
+        const idx = new Supercluster({ radius: 90, maxZoom: 16, minPoints: effMinPoints });
+        idx.load(currentCameras.map((c: any) => ({
+          type: 'Feature',
+          properties: { cameraId: c.id, hasVideo: c.hasVideo },
+          geometry: { type: 'Point', coordinates: [c.lng, c.lat] },
+        })));
+        return idx;
+      };
+      // Rebuild when the camera set changes OR the clustering mode flips (both are
+      // infrequent — never on pan/zoom, so no churn).
+      if (!superRef.current || superRef.current._n !== currentCameras.length || superRef.current._mp !== effMinPoints) {
+        superRef.current = buildIndex();
+        superRef.current._n = currentCameras.length;
+        superRef.current._mp = effMinPoints;
+      }
+
+      // Selected cameras are drawn by the pink numbered AdvancedMarker, so exclude
+      // them from the deck layer (otherwise a plain teardrop draws under the pin,
+      // or they get swallowed into a cluster count).
+      const selSet = selectedIdsRef.current;
+
+      const isDark = resolvedTheme === 'dark';
+      const colors = markerColors(isDark);
+
+      // Assemble the camera layer. Query supercluster for the viewport + zoom;
+      // with minPoints=Infinity (toggle off) everything comes back as leaf teardrops.
+      const cameraLayers = (): any[] => {
+        const zoom = Math.round(map.getZoom() ?? 4);
+        const b = map.getBounds();
+        const bbox: [number, number, number, number] = b
+          ? [b.getSouthWest().lng(), b.getSouthWest().lat(), b.getNorthEast().lng(), b.getNorthEast().lat()]
+          : [-180, -85, 180, 85];
+        const feats = superRef.current.getClusters(bbox, zoom);
+
+        const iconData = feats
+          .filter((f: any) => f.properties.cluster || !selSet.has(f.properties.cameraId))
+          .map((f: any) => {
+          const [lng, lat] = f.geometry.coordinates;
+          if (f.properties.cluster) {
+            const count = f.properties.point_count;
+            return { lng, lat, cluster: true, clusterId: f.properties.cluster_id, count, icon: clusterIcon(clusterColor(isDark)), size: clusterSize(count) };
           }
-        },
-      });
+          const hasVideo = f.properties.hasVideo;
+          return { lng, lat, cluster: false, cameraId: f.properties.cameraId, icon: teardropIcon(hasVideo ? colors.video : colors.image), size: 30 };
+        });
 
-      const layers: any[] = [layer];
-      if (userLocation) {
-        layers.push(new ScatterplotLayer({
-          id: 'user-location',
-          data: [userLocation],
+        return [new IconLayer({
+          id: 'cameras-icons',
+          data: iconData,
           getPosition: (d: any) => [d.lng, d.lat],
-          getRadius: 8,
-          radiusUnits: 'pixels' as const,
-          getFillColor: [37, 99, 235, 255] as any,
-          getLineColor: [255, 255, 255, 255] as any,
-          lineWidthMinPixels: 2,
-          stroked: true,
-          pickable: false,
-        }));
-      }
-
-      if (!deckOverlayRef.current || deckOverlayRef.current._map !== map) {
-        if (deckOverlayRef.current) { deckOverlayRef.current.setMap(null); }
-        const overlay = new GoogleMapsOverlay({ layers });
-        overlay.setMap(map);
-        (overlay as any)._map = map;
-        deckOverlayRef.current = overlay;
-      } else {
-        deckOverlayRef.current.setProps({ layers });
-      }
-    };
-    run();
-  }, [map, cameras, resolvedTheme, userLocation]);
-
-  // Hide/show deck.gl layers during split resize to prevent flicker
-  useEffect(() => {
-    const hide = () => {
-      if (deckOverlayRef.current) {
-        deckOverlayRef.current.setProps({ layers: [] });
-      }
-    };
-    const reshow = () => {
-      if (deckOverlayRef.current && deckModulesRef.current) {
-        const { ScatterplotLayer } = deckModulesRef.current;
-        const MARKER_RGB = [232, 54, 184]; // #e836b8 --color-accent-marker (matches selected pin)
-        const MARKER_BORDER = [255, 255, 255, 230]; // white ring in both modes (aesthetic choice)
-        const layer = new ScatterplotLayer({
-          id: 'cameras',
-          data: cameras,
-          getPosition: (d: any) => [d.lng, d.lat],
-          getRadius: 5,
-          radiusUnits: 'pixels' as const,
-          getFillColor: [...MARKER_RGB, 255] as any,
-          getLineColor: MARKER_BORDER as any,
-          lineWidthMinPixels: 2,
-          stroked: true,
+          getIcon: (d: any) => (d.cluster
+            ? { url: d.icon, width: 208, height: 208, anchorY: 104 }
+            : { url: d.icon, width: 120, height: 120, anchorY: 120 }),
+          getSize: (d: any) => d.size,
+          sizeUnits: 'pixels' as const,
           pickable: true,
           onHover: (info: any) => {
-            const wrapper = map?.getDiv().closest('.map-wrapper');
+            const wrapper = map.getDiv().closest('.map-wrapper');
             if (wrapper) { (wrapper as HTMLElement).classList.toggle('map-pointer', !!info.object); }
           },
-          onClick: (info: any) => {
-            if (info.object) { handleMarkerClickRef.current(info.object.id); }
-          },
-        });
-        const reshowLayers: any[] = [layer];
+          onClick: (info: any) => { if (info.object) { handleClusterOrCamera(info.object, zoom); } },
+        })];
+      };
+
+      // Click routing: a cluster zooms to expand; a camera opens (with the
+      // legacy overlap-zoom fallback for wow-mode dots stacked at low zoom).
+      const handleClusterOrCamera = (obj: any, zoom: number) => {
+        if (obj.cluster) {
+          const expansion = superRef.current.getClusterExpansionZoom(obj.clusterId);
+          map.panTo({ lat: obj.lat, lng: obj.lng });
+          map.setZoom(Math.min(expansion, 18));
+          return;
+        }
+        const id = obj.cameraId ?? obj.id;
+        if (!clusteredRef.current) {
+          // wow-mode overlap fallback
+          const threshold = 0.5 / Math.pow(2, zoom - 5);
+          const nearby = camerasRef.current.filter((c: any) =>
+            Math.abs(c.lat - obj.lat) < threshold && Math.abs(c.lng - obj.lng) < threshold);
+          if (nearby.length > 1 && zoom < 15) {
+            map.panTo({ lat: obj.lat, lng: obj.lng });
+            map.setZoom(Math.min(zoom + 3, 17));
+            return;
+          }
+        }
+        handleMarkerClickRef.current(id);
+      };
+
+      // Rebuild layers now and on every idle (zoom/pan changes cluster shape).
+      const render = () => {
+        const layers: any[] = cameraLayers();
         if (userLocation) {
-          reshowLayers.push(new ScatterplotLayer({
+          layers.push(new ScatterplotLayer({
             id: 'user-location',
             data: [userLocation],
             getPosition: (d: any) => [d.lng, d.lat],
@@ -436,13 +507,40 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
             pickable: false,
           }));
         }
-        deckOverlayRef.current.setProps({ layers: reshowLayers });
-      }
+        if (!deckOverlayRef.current || deckOverlayRef.current._map !== map) {
+          if (deckOverlayRef.current) { deckOverlayRef.current.setMap(null); }
+          // interleaved:false composites deck as a plane ON TOP of the vector
+          // basemap (incl. road/place labels) so markers are never drawn under
+          // labels. Interleaved (the default) obeys the map's internal draw order,
+          // which lets labels paint over overlay geometry.
+          const overlay = new GoogleMapsOverlay({ layers, interleaved: false });
+          overlay.setMap(map);
+          (overlay as any)._map = map;
+          deckOverlayRef.current = overlay;
+        } else {
+          deckOverlayRef.current.setProps({ layers });
+        }
+      };
+      if (cancelled) { return; }
+      render();
+      idleListener = map.addListener('idle', render);
     };
+    run();
+    return () => { cancelled = true; if (idleListener) { idleListener.remove(); } };
+  }, [map, cameras, resolvedTheme, userLocation, clustered, reshowTick, selectedIds]);
+
+  // Hide/show deck.gl layers during split resize to prevent flicker.
+  // Reshow just re-runs the main render effect (via a tick) so it rebuilds with
+  // the current cluster/zoom state rather than duplicating the layer builder.
+  useEffect(() => {
+    const hide = () => {
+      if (deckOverlayRef.current) { deckOverlayRef.current.setProps({ layers: [] }); }
+    };
+    const reshow = () => { setReshowTick((t) => t + 1); };
     window.addEventListener('deckHide', hide);
     window.addEventListener('deckReshow', reshow);
     return () => { window.removeEventListener('deckHide', hide); window.removeEventListener('deckReshow', reshow); };
-  }, [map, cameras, userLocation]);
+  }, []);
 
   // Cleanup only on unmount
   useEffect(() => {
@@ -770,6 +868,9 @@ function MapInner({ mapId, stateId, markersOnly }: { mapId: string; stateId: str
     <div className="map-controls">
       <button className="map-control-btn" onClick={() => { if (!map) return; const config = getStateConfig(stateId); map.panTo(config.defaultCenter); map.setZoom(config.defaultZoom); }} data-tooltip="Reset view (H)" aria-label="Reset view">
         <Home size={18} />
+      </button>
+      <button className={`map-control-btn ${clustered ? 'map-control-btn-active' : ''}`} onClick={() => setClustered(!clustered)} data-tooltip={clustered ? 'Clustering on' : 'Clustering off (all cameras)'} aria-label="Toggle clustering">
+        <Layers size={18} />
       </button>
       <button className="map-control-btn" onClick={handleLocate} data-tooltip="Locate me (L)" aria-label="Locate me">
         <Locate size={18} />
