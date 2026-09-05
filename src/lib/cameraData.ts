@@ -22,7 +22,11 @@ export function getPins(): PinData[] {
 
 /** Fetch metadata (names, URLs, etc.) - called eagerly on mount */
 export async function fetchMeta(): Promise<CameraMeta> {
-  const res = await fetch(import.meta.env.BASE_URL + 'data/meta.json');
+  // Cache-bust with the build-inlined data hash so a data refresh is picked up
+  // immediately; the hash only changes when the camera data changes.
+  const version = (window as unknown as { __DATA_VERSION__?: string }).__DATA_VERSION__;
+  const query = version ? `?v=${version}` : '';
+  const res = await fetch(import.meta.env.BASE_URL + 'data/meta.json' + query);
   return res.json();
 }
 

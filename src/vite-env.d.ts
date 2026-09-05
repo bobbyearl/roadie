@@ -2,4 +2,5 @@
 
 interface Window {
   __PINS__?: [number, number, string][];
+  __DATA_VERSION__?: string;
 }

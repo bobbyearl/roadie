@@ -3,6 +3,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { TanStackRouterVite } from '@tanstack/router-plugin/vite'
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
+import { inlineDataVersion } from './src/plugins/inlineDataVersion'
 import { inlinePins } from './src/plugins/inlinePins'
 
 export default defineConfig({
@@ -12,6 +13,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     inlinePins(),
+    inlineDataVersion(),
     {
       name: 'static-dir-index',
       configureServer(server) {
