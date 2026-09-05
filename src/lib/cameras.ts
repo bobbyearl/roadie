@@ -23,6 +23,21 @@ export interface StateConfig {
   offline?: boolean;
 }
 
+// Build a pre-filled GitHub issue URL for reporting a broken/intermittent camera.
+// The id (state:site_id), name and type go in the title + body so the user only
+// clicks Submit; the broken-camera label lets a bot filter and re-probe it later.
+export function reportCameraUrl(camera: Camera): string {
+  const title = `Broken camera: ${camera.id}`;
+  const body = [
+    `**Camera:** ${camera.name || camera.description || '(unnamed)'}`,
+    `**ID:** ${camera.id}`,
+    `**Type:** ${camera.hasVideo ? 'video' : 'image'}`,
+    '',
+    'This camera is broken or intermittent in the app. (Auto-filled — add anything useful and submit.)',
+  ].join('\n');
+  return `https://github.com/bobbyearl/roadie/issues/new?labels=broken-camera&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+}
+
 // Raw database format from cameras.db.json
 export interface CameraDB {
   states: string[];

@@ -99,7 +99,7 @@ function teardropIcon(fill: string): string {
 // semi-transparent core (not solid, so it reads as a density cloud). Authored at
 // 208px (viewBox stays 52) for the same downsample-for-crispness reason.
 function clusterIcon(color: string): string {
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="208" height="208" viewBox="0 0 52 52"><circle cx="26" cy="26" r="23" fill="${color}" fill-opacity="0.7"/><circle cx="26" cy="26" r="15" fill="${color}" fill-opacity="0.95"/></svg>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="208" height="208" viewBox="0 0 52 52"><circle cx="26" cy="26" r="23" fill="${color}" fill-opacity="0.7"/><circle cx="26" cy="26" r="15" fill="${color}" fill-opacity="0.8"/></svg>`;
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 // Cluster bubble pixel size grows with member count (wide ramp for clear magnitude).

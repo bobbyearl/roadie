@@ -22,6 +22,14 @@
   @apply text-primary hover:underline;
   font-size: var(--rd-text-xs);
 }
+.feed-error-actions {
+  @apply flex items-center;
+  gap: var(--rd-space-md);
+}
+.feed-error-report {
+  @apply text-muted-foreground hover:text-foreground hover:underline;
+  font-size: var(--rd-text-xs);
+}
 .feed-stalled-overlay {
   @apply absolute;
   top: var(--rd-space-sm);
