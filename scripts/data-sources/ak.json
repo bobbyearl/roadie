@@ -61,7 +61,7 @@
   },
   {
     "id": "8",
-    "name": "Glenn Highway @ S Curves  MP 10",
+    "name": "Glenn Highway @ S Curves MP 10",
     "route": "",
     "jurisdiction": "",
     "lat": 61.27593,
@@ -81,7 +81,7 @@
   },
   {
     "id": "10",
-    "name": "Parks Highway @ Hawk Lane MP 53.2",
+    "name": "Parks Highway @ Hawk Lane MP 53.2 (CCS # 9992)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.585003,
@@ -151,11 +151,11 @@
   },
   {
     "id": "19",
-    "name": "Egan Drive/Glacier Highway @ MP 3",
+    "name": "Egan Drive / Glacier Highway @ MP 3",
     "route": "",
     "jurisdiction": "",
-    "lat": 58.320153,
-    "lng": -134.454085,
+    "lat": 58.321368,
+    "lng": -134.455524,
     "image_url": "https://511.alaska.gov/map/Cctv/82",
     "video_url": ""
   },
@@ -164,18 +164,18 @@
     "name": "Glacier Highway @ Cohen Drive MP 21",
     "route": "",
     "jurisdiction": "",
-    "lat": 58.449655,
-    "lng": -134.770122,
+    "lat": 58.449615,
+    "lng": -134.770087,
     "image_url": "https://511.alaska.gov/map/Cctv/91",
     "video_url": ""
   },
   {
     "id": "22",
-    "name": "Haines Highway @ Chilkat River Bridge MP 23.8",
+    "name": "Haines Highway @ MP 25",
     "route": "",
     "jurisdiction": "",
-    "lat": 59.413976,
-    "lng": -135.93196,
+    "lat": 59.409787,
+    "lng": -135.960331,
     "image_url": "https://511.alaska.gov/map/Cctv/92",
     "video_url": ""
   },
@@ -244,14 +244,14 @@
     "name": "Tok Cutoff @ Mentasta Pass MP 79.2",
     "route": "",
     "jurisdiction": "",
-    "lat": 62.902909,
-    "lng": -143.669369,
+    "lat": 62.902898,
+    "lng": -143.669235,
     "image_url": "https://511.alaska.gov/map/Cctv/132",
     "video_url": ""
   },
   {
     "id": "31",
-    "name": "Richardson Highway @ Trims DOT MS MP 218.2",
+    "name": "Richardson Highway @ Trims DOT Maintenance Station MP 218.2",
     "route": "",
     "jurisdiction": "",
     "lat": 63.415446,
@@ -281,7 +281,7 @@
   },
   {
     "id": "35",
-    "name": "University Avenue Fairbanks @ Chena River Bridge",
+    "name": "University Avenue @ Chena River Bridge",
     "route": "",
     "jurisdiction": "",
     "lat": 64.8415,
@@ -304,8 +304,8 @@
     "name": "Haines Highway @ Klehini MP 36.6",
     "route": "",
     "jurisdiction": "",
-    "lat": 59.439289,
-    "lng": -136.272708,
+    "lat": 59.438724,
+    "lng": -136.272717,
     "image_url": "https://511.alaska.gov/map/Cctv/174",
     "video_url": ""
   },
@@ -320,8 +320,18 @@
     "video_url": ""
   },
   {
+    "id": "39",
+    "name": "Klondike Highway @ US/Canada Border MP 14.9",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 59.628724,
+    "lng": -135.164067,
+    "image_url": "https://511.alaska.gov/map/Cctv/176",
+    "video_url": ""
+  },
+  {
     "id": "40",
-    "name": "Whittier Access Road @ Tunnel MP 6.5 (Bear Valley)",
+    "name": "Whittier Access Road @ Whittier Tunnel - Bear Valley Entrance MP 6.5",
     "route": "",
     "jurisdiction": "",
     "lat": 60.790241,
@@ -331,11 +341,11 @@
   },
   {
     "id": "41",
-    "name": "North Douglas Highway MP 4.4",
+    "name": "North Douglas Highway @ MP 4.4",
     "route": "",
     "jurisdiction": "",
-    "lat": 58.333031,
-    "lng": -134.502251,
+    "lat": 58.332895,
+    "lng": -134.502183,
     "image_url": "https://511.alaska.gov/map/Cctv/192",
     "video_url": ""
   },
@@ -431,7 +441,7 @@
   },
   {
     "id": "51",
-    "name": "Seward Highway @ Divide MP12",
+    "name": "Seward Highway @ Divide MP 12",
     "route": "",
     "jurisdiction": "",
     "lat": 60.25128,
@@ -461,7 +471,7 @@
   },
   {
     "id": "54",
-    "name": "Pasagshak Road Kodiak @ MP 3.8",
+    "name": "Pasagshak Road @ MP 3.8 (CCS # 9994)",
     "route": "",
     "jurisdiction": "",
     "lat": 57.530225,
@@ -491,7 +501,7 @@
   },
   {
     "id": "57",
-    "name": "Mitkof Highway @ Banana Point 27.4",
+    "name": "Mitkof Highway @ Banana Point MP 27.4",
     "route": "",
     "jurisdiction": "",
     "lat": 56.55018,
@@ -511,7 +521,7 @@
   },
   {
     "id": "59",
-    "name": "Camp Road @ Whittier Tunnel",
+    "name": "Camp Road @ Whittier Tunnel - Whittier Entrance",
     "route": "",
     "jurisdiction": "",
     "lat": 60.77614,
@@ -531,7 +541,7 @@
   },
   {
     "id": "61",
-    "name": "Parks / Glenn Hwy Interchange",
+    "name": "Parks Highway / Glenn Highway Interchange",
     "route": "",
     "jurisdiction": "",
     "lat": 61.553523,
@@ -561,7 +571,7 @@
   },
   {
     "id": "64",
-    "name": "Glenn Highway @ Bragaw",
+    "name": "Glenn Highway @ Bragaw Street",
     "route": "",
     "jurisdiction": "",
     "lat": 61.2193,
@@ -574,8 +584,8 @@
     "name": "Thane Road @ Snowslide Creek Avalanche Path MP 1.9",
     "route": "",
     "jurisdiction": "",
-    "lat": 58.2828,
-    "lng": -134.3748,
+    "lat": 58.282965,
+    "lng": -134.37551,
     "image_url": "https://511.alaska.gov/map/Cctv/315",
     "video_url": ""
   },
@@ -594,8 +604,8 @@
     "name": "Thane Road @ Snowslide Creek Avalanche Path MP 2.2",
     "route": "",
     "jurisdiction": "",
-    "lat": 58.2812,
-    "lng": -134.369739,
+    "lat": 58.281184,
+    "lng": -139.0,
     "image_url": "https://511.alaska.gov/map/Cctv/325",
     "video_url": ""
   },
@@ -604,8 +614,8 @@
     "name": "Thane Road @ Middle Pass MP 2.5",
     "route": "",
     "jurisdiction": "",
-    "lat": 58.279335,
-    "lng": -134.363908,
+    "lat": 58.278937,
+    "lng": -134.363684,
     "image_url": "https://511.alaska.gov/map/Cctv/326",
     "video_url": ""
   },
@@ -614,8 +624,8 @@
     "name": "Thane Road @ Cross Bay MP 3.0",
     "route": "",
     "jurisdiction": "",
-    "lat": 58.27399,
-    "lng": -134.353261,
+    "lat": 58.273394,
+    "lng": -134.352596,
     "image_url": "https://511.alaska.gov/map/Cctv/327",
     "video_url": ""
   },
@@ -641,7 +651,7 @@
   },
   {
     "id": "73",
-    "name": "Airport Way @ Cowles Street Fairbanks",
+    "name": "Airport Way @ Cowles Street",
     "route": "",
     "jurisdiction": "",
     "lat": 64.836853,
@@ -651,7 +661,7 @@
   },
   {
     "id": "74",
-    "name": "Lathrop Street @ 21st Avenue Fairbanks",
+    "name": "Lathrop Street @ 21st Avenue",
     "route": "",
     "jurisdiction": "",
     "lat": 64.828286,
@@ -661,7 +671,7 @@
   },
   {
     "id": "75",
-    "name": "Badger Road @ Elvira Avenue",
+    "name": "Badger Road @ Beulah Court",
     "route": "",
     "jurisdiction": "",
     "lat": 64.770751,
@@ -671,7 +681,7 @@
   },
   {
     "id": "76",
-    "name": "Klawock Hwy @ Control Lake",
+    "name": "Klawock Highway @ Control Lake",
     "route": "",
     "jurisdiction": "",
     "lat": 55.694,
@@ -691,7 +701,7 @@
   },
   {
     "id": "78",
-    "name": "Goldstream Road @ Old Steese Hwy",
+    "name": "Goldstream Road @ Old Steese Highway",
     "route": "",
     "jurisdiction": "",
     "lat": 64.943933,
@@ -721,7 +731,7 @@
   },
   {
     "id": "81",
-    "name": "Eielson AFB Main Gate @ Richardson Hwy",
+    "name": "Eielson AFB Main Gate @ Richardson Highway MP 341.3",
     "route": "",
     "jurisdiction": "",
     "lat": 64.692328,
@@ -751,12 +761,22 @@
   },
   {
     "id": "84",
-    "name": "Chena Hot Springs @ Roberts Roost Rd",
+    "name": "Chena Hot Springs @ Roberts Roost Road",
     "route": "",
     "jurisdiction": "",
     "lat": 64.884396,
     "lng": -147.369992,
     "image_url": "https://511.alaska.gov/map/Cctv/408",
+    "video_url": ""
+  },
+  {
+    "id": "85",
+    "name": "Seward Highway @ MP 113.5",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.030516,
+    "lng": -149.763016,
+    "image_url": "https://511.alaska.gov/map/Cctv/410",
     "video_url": ""
   },
   {
@@ -771,7 +791,7 @@
   },
   {
     "id": "87",
-    "name": "Alaska Highway MP 1285",
+    "name": "Alaska Highway @ MP 1285",
     "route": "",
     "jurisdiction": "",
     "lat": 63.199797,
@@ -801,7 +821,7 @@
   },
   {
     "id": "90",
-    "name": "Dalton Hwy @ Atigun Pass MP 244",
+    "name": "Atigun Pass South",
     "route": "",
     "jurisdiction": "",
     "lat": 68.12538,
@@ -1254,9 +1274,19 @@
     "name": "Alaska Highway @ Yerrick Creek MP 1334",
     "route": "",
     "jurisdiction": "",
-    "lat": 63.3862,
-    "lng": -143.60973,
+    "lat": 63.38619,
+    "lng": -143.6098,
     "image_url": "https://511.alaska.gov/map/Cctv/492",
+    "video_url": ""
+  },
+  {
+    "id": "154",
+    "name": "#381 Richardson Highway @ South Three Pigs Summit Advanced (Winter Hazards) RWIS Station MP 39",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.231746,
+    "lng": -145.429283,
+    "image_url": "https://511.alaska.gov/map/Cctv/500",
     "video_url": ""
   }
 ]

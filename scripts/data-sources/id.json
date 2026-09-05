@@ -51,7 +51,7 @@
   },
   {
     "id": "31",
-    "name": "I-84 Vista",
+    "name": "D3 I-84 53.5 Vista 553",
     "route": "",
     "jurisdiction": "",
     "lat": 43.571686,
@@ -171,7 +171,7 @@
   },
   {
     "id": "138",
-    "name": "I-90 Northwest Blvd EB Ramp",
+    "name": "D1 NW Blvd 430.62 I-90E ramp1-14",
     "route": "",
     "jurisdiction": "",
     "lat": 47.698906,
@@ -181,7 +181,7 @@
   },
   {
     "id": "139",
-    "name": "I-90 Northwest Blvd",
+    "name": "D1 NW Blvd 430.68 I-90ovrpas1-13",
     "route": "",
     "jurisdiction": "",
     "lat": 47.699787,
@@ -191,7 +191,7 @@
   },
   {
     "id": "141",
-    "name": "SH-57 Priest Lake FS Airport 67S",
+    "name": "D1 SH-57 32.1 Priest Lake 1-17",
     "route": "",
     "jurisdiction": "",
     "lat": 48.57423,
@@ -311,7 +311,7 @@
   },
   {
     "id": "180",
-    "name": "US-95 S SH-8 Jackson 3rd",
+    "name": "D2 US-95 0.3 Jackson Third 2-13",
     "route": "",
     "jurisdiction": "",
     "lat": 46.732224,
@@ -321,7 +321,7 @@
   },
   {
     "id": "181",
-    "name": "US-95 S Jackson 6th W-E",
+    "name": "D2 US-95 0.1 Jackson Sixth_2-14",
     "route": "",
     "jurisdiction": "",
     "lat": 46.730015,
@@ -331,7 +331,7 @@
   },
   {
     "id": "182",
-    "name": "US-95 S Jackson 6th",
+    "name": "D2 US-95 0.1 Jackson Sixth 2-15",
     "route": "",
     "jurisdiction": "",
     "lat": 46.729935,
@@ -2851,22 +2851,22 @@
   },
   {
     "id": "551",
-    "name": "Camera 551",
+    "name": "Capitol &amp; Main",
     "route": "",
     "jurisdiction": "",
     "lat": 43.614883,
     "lng": -116.202324,
-    "image_url": "https://511.idaho.gov/map/Cctv/551",
+    "image_url": "https://511.idaho.gov/map/Cctv/748",
     "video_url": ""
   },
   {
     "id": "552",
-    "name": "Camera 552",
+    "name": "SH-16 &amp; Boise River",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6696,
     "lng": -116.468,
-    "image_url": "https://511.idaho.gov/map/Cctv/552",
+    "image_url": "https://511.idaho.gov/map/Cctv/749",
     "video_url": ""
   },
   {
@@ -2901,12 +2901,12 @@
   },
   {
     "id": "556",
-    "name": "US-20 Chinden &amp; Five Mile Rd",
+    "name": "Camera 556",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6606,
     "lng": -116.317,
-    "image_url": "https://511.idaho.gov/map/Cctv/753",
+    "image_url": "https://511.idaho.gov/map/Cctv/556",
     "video_url": ""
   },
   {
@@ -2941,12 +2941,12 @@
   },
   {
     "id": "560",
-    "name": "SH-55 Eagle &amp; Riverside Rivershore",
+    "name": "Camera 560",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6878,
     "lng": -116.35379,
-    "image_url": "https://511.idaho.gov/map/Cctv/757",
+    "image_url": "https://511.idaho.gov/map/Cctv/560",
     "video_url": ""
   },
   {
@@ -2971,12 +2971,12 @@
   },
   {
     "id": "563",
-    "name": "Camera 563",
+    "name": "Franklin &amp; TenMile",
     "route": "",
     "jurisdiction": "",
     "lat": 43.60458,
     "lng": -116.433495,
-    "image_url": "https://511.idaho.gov/map/Cctv/563",
+    "image_url": "https://511.idaho.gov/map/Cctv/760",
     "video_url": ""
   },
   {
@@ -3011,12 +3011,12 @@
   },
   {
     "id": "567",
-    "name": "Camera 567",
+    "name": "Lincoln &amp; Beacon",
     "route": "",
     "jurisdiction": "",
     "lat": 43.598537,
     "lng": -116.2022,
-    "image_url": "https://511.idaho.gov/map/Cctv/567",
+    "image_url": "https://511.idaho.gov/map/Cctv/764",
     "video_url": ""
   },
   {
@@ -3031,22 +3031,22 @@
   },
   {
     "id": "569",
-    "name": "Emerald &amp; Rifleman",
+    "name": "Camera 569",
     "route": "",
     "jurisdiction": "",
     "lat": 43.611946,
     "lng": -116.280464,
-    "image_url": "https://511.idaho.gov/map/Cctv/766",
+    "image_url": "https://511.idaho.gov/map/Cctv/569",
     "video_url": ""
   },
   {
     "id": "570",
-    "name": "Emerald &amp; MapleGrove",
+    "name": "Camera 570",
     "route": "",
     "jurisdiction": "",
     "lat": 43.611515,
     "lng": -116.29388,
-    "image_url": "https://511.idaho.gov/map/Cctv/767",
+    "image_url": "https://511.idaho.gov/map/Cctv/570",
     "video_url": ""
   },
   {
@@ -3071,12 +3071,12 @@
   },
   {
     "id": "573",
-    "name": "Camera 573",
+    "name": "SH-44 Glenwood &amp; Riverside",
     "route": "",
     "jurisdiction": "",
     "lat": 43.65938,
     "lng": -116.279594,
-    "image_url": "https://511.idaho.gov/map/Cctv/573",
+    "image_url": "https://511.idaho.gov/map/Cctv/770",
     "video_url": ""
   },
   {
@@ -3091,12 +3091,12 @@
   },
   {
     "id": "575",
-    "name": "Fairview &amp; Mitchell",
+    "name": "Camera 575",
     "route": "",
     "jurisdiction": "",
     "lat": 43.619625,
     "lng": -116.30439,
-    "image_url": "https://511.idaho.gov/map/Cctv/772",
+    "image_url": "https://511.idaho.gov/map/Cctv/575",
     "video_url": ""
   },
   {

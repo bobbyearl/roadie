@@ -7658,5 +7658,65 @@
     "lng": -80.0479,
     "image_url": "https://scdotsnap.us-east-1.skyvdn.com/86376.png",
     "video_url": "https://s19.us-east-1.skyvdn.com/rtplive/86376/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "e720b6e6-d2a0-11e6-8996-0123456789ab",
+    "name": "I-85 N @ MM 62.5",
+    "route": "I-85",
+    "jurisdiction": "Greenville",
+    "lat": 34.905374,
+    "lng": -82.120378,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/30018.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/30018/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "e723760b-d2a0-11e6-8996-0123456789ab",
+    "name": "I-85 S @ MM 27 (Hwy 81)",
+    "route": "I-85",
+    "jurisdiction": "Greenville",
+    "lat": 34.633354,
+    "lng": -82.597882,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/30053.png",
+    "video_url": "https://s19.us-east-1.skyvdn.com/rtplive/30053/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "fb171b9eb4ee474c8d9c9995",
+    "name": "SC 31 S @ MM 6.9",
+    "route": "SC 31",
+    "jurisdiction": "Myrtle Beach",
+    "lat": 33.812778,
+    "lng": -78.763111,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/50501.png",
+    "video_url": "https://s19.us-east-1.skyvdn.com/rtplive/50501/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "208c1bbd76e3445397fd7ee0",
+    "name": "I-95 S @ MM 17.6 ",
+    "route": "I-95",
+    "jurisdiction": "Charleston",
+    "lat": 32.438972,
+    "lng": -80.997389,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/60518.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/60518/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "7c4f9b837a8b4126a710a92c",
+    "name": " I-95 S @ MM 16.2",
+    "route": "I-95",
+    "jurisdiction": "Charleston",
+    "lat": 32.42075,
+    "lng": -81.008333,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/60519.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/60519/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "dc47b6c0ddb1452790b05af7",
+    "name": " I-95 N @ MM 13.6",
+    "route": "I-95",
+    "jurisdiction": "Charleston",
+    "lat": 32.386111,
+    "lng": -84.0,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/60520.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/60520/playlist_sfm4s.m3u8"
   }
 ]

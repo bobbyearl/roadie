@@ -15721,12 +15721,12 @@
   },
   {
     "id": "d7_7",
-    "name": "I-5 : (7) Triggs",
+    "name": "I-5 : (7) Triggs St",
     "route": "I-5",
     "jurisdiction": "Los Angeles",
     "lat": 34.01224,
     "lng": -118.16267,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i57triggs/i57triggs.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i57triggsst/i57triggsst.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-007.stream/playlist.m3u8"
   },
   {
@@ -21412,7 +21412,7 @@
   {
     "id": "d7_1232",
     "name": "I-405 : (684) S/O Rte 118",
-    "route": "I-5",
+    "route": "I-405",
     "jurisdiction": "Los Angeles",
     "lat": 34.2649548,
     "lng": -118.4724243,
@@ -21457,7 +21457,7 @@
     "lat": 34.0458,
     "lng": -117.7728,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/sr71497wphillipsdr/sr71497wphillipsdr.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-497.stream/playlist.m3u8"
   },
   {
     "id": "d8_1",
@@ -26287,7 +26287,7 @@
     "lat": 33.938771,
     "lng": -117.177758,
     "image_url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/sr60574morenobeachblvd/sr60574morenobeachblvd.jpg",
-    "video_url": "https://wzmedia.dot.ca.gov/D8/LB-8_10_15.stream/playlist.m3u8"
+    "video_url": "https://wzmedia.dot.ca.gov/D8/LB-8_60_574.stream/playlist.m3u8"
   },
   {
     "id": "d8_1436",
@@ -27527,7 +27527,7 @@
     "lat": 37.536763,
     "lng": -120.892056,
     "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/95sbsr99taylorrd/95sbsr99taylorrd.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D10/STA_SB99_OnFromTaylor.stream/playlist.m3u8"
   },
   {
     "id": "d10_96",
@@ -35348,5 +35348,135 @@
     "lng": -117.844764,
     "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr5522warner/sr5522warner.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D12/NB55WARNER.stream/playlist.m3u8"
+  },
+  {
+    "id": "d4_785",
+    "name": "TVA54 -- SR-17 : AT JSO SUMMIT RD",
+    "route": "SR-17",
+    "jurisdiction": "Santa Cruz",
+    "lat": 37.1393,
+    "lng": -121.9842,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tva54sr17atjsosummitrd/tva54sr17atjsosummitrd.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_786",
+    "name": "TVE11 -- SR-92 : AT CLAWITER RD",
+    "route": "SR-92",
+    "jurisdiction": "Alameda",
+    "lat": 37.6273,
+    "lng": -122.123,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tve11sr92atclawiterrd/tve11sr92atclawiterrd.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_787",
+    "name": "TVE12 -- SR-92 : AT JWO INDUSTRIAL BLVD",
+    "route": "SR-92",
+    "jurisdiction": "Alameda",
+    "lat": 37.6304,
+    "lng": -122.1137,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tve12sr92atjwoindustrialblvd/tve12sr92atjwoindustrialblvd.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d7_1238",
+    "name": "I-5: (8) South of RTE 710",
+    "route": "I-5",
+    "jurisdiction": "Los Angeles",
+    "lat": 34.014692,
+    "lng": -118.169373,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i58southofrte710/i58southofrte710.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-008.stream/playlist.m3u8"
+  },
+  {
+    "id": "d7_1239",
+    "name": "I-5 : (9) Eastern Ave (N of 710)",
+    "route": "I-5",
+    "jurisdiction": "Los Angeles",
+    "lat": 34.016581,
+    "lng": -118.174696,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i59easternavenof710/i59easternavenof710.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-009.stream/playlist.m3u8"
+  },
+  {
+    "id": "d7_1240",
+    "name": "I-5 : (10) Downey Rd",
+    "route": "I-5",
+    "jurisdiction": "Los Angeles",
+    "lat": 34.019826,
+    "lng": -118.180175,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i510downeyrd/i510downeyrd.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-010.stream/playlist.m3u8"
+  },
+  {
+    "id": "d7_1241",
+    "name": "I-5 : (11) Calzona St",
+    "route": "I-5",
+    "jurisdiction": "Los Angeles",
+    "lat": 34.020543,
+    "lng": -118.194491,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i511calzonast/i511calzonast.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d7_1242",
+    "name": "I-5 : (12) Grande Vista Ave",
+    "route": "I-5",
+    "jurisdiction": "Los Angeles",
+    "lat": 34.026042,
+    "lng": -118.2068,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i512grandevistaave/i512grandevistaave.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d7_1243",
+    "name": "I-5 : (32) Los Feliz Blvd",
+    "route": "I-5",
+    "jurisdiction": "Los Angeles",
+    "lat": 34.119202,
+    "lng": -118.270243,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i532losfelizblvd/i532losfelizblvd.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d7_1244",
+    "name": "I-405 : (384) Inglewood Ave",
+    "route": "I-405",
+    "jurisdiction": "Los Angeles",
+    "lat": 33.890415,
+    "lng": -118.35997,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i405384inglewoodave/i405384inglewoodave.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d7_1245",
+    "name": "I-405 : (385) Venice Blvd",
+    "route": "I-405",
+    "jurisdiction": "Los Angeles",
+    "lat": 34.011042,
+    "lng": -118.418066,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i405385veniceblvd/i405385veniceblvd.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d7_1246",
+    "name": "SR-1 : (245) Bay Club Dr",
+    "route": "SR-1",
+    "jurisdiction": "Los Angeles",
+    "lat": 34.039495,
+    "lng": -118.545745,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/sr1245bayclubdr/sr1245bayclubdr.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-245.stream/playlist.m3u8"
+  },
+  {
+    "id": "d7_1247",
+    "name": "SR-107 : (228) 182nd St",
+    "route": "SR-107",
+    "jurisdiction": "Los Angeles",
+    "lat": 33.865469,
+    "lng": -118.352406,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/sr107228182ndst/sr107228182ndst.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-228.stream/playlist.m3u8"
   }
 ]

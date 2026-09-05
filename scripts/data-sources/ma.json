@@ -1,0 +1,3062 @@
+[
+  {
+    "id": "12292",
+    "name": "US 1: Rt1-SB-MM59.0-Lynnfield-1.2 mi before Rt129 Walnut",
+    "route": "US 1",
+    "jurisdiction": "SB",
+    "lat": 42.50653,
+    "lng": -71.01348,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435429-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12298",
+    "name": "RT-24: Rt24-SB-MM3.3-Fall River-before Ex 4 I-195",
+    "route": "RT-24",
+    "jurisdiction": "SB",
+    "lat": 41.68389,
+    "lng": -71.12097,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435469-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12331",
+    "name": "RT-30: I-495-ME-MM60.8-Southboro-1.3 mi N. of Ex 59 Rt 9",
+    "route": "RT-30",
+    "jurisdiction": "",
+    "lat": 42.3071,
+    "lng": -71.56563,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432521-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12337",
+    "name": "RT-9: I-495-SB-MM59.3-Westboro-Ex 59 Rt 9",
+    "route": "RT-9",
+    "jurisdiction": "SB",
+    "lat": 42.28864,
+    "lng": -71.56762,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432523-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12345",
+    "name": "I-90: I-90-WB-MM109.1-Southboro-@ Barracks [TZ-8]",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.28001,
+    "lng": -71.51712,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407973-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12346",
+    "name": "I-93: I-93-SB-MM20.3-Somerville-before Ex 20",
+    "route": "I-93",
+    "jurisdiction": "SB",
+    "lat": 42.39281,
+    "lng": -71.0847,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435503-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11326",
+    "name": "I-93: Ramp KK-WB-Boston-93N x20 to 90W d",
+    "route": "I-93",
+    "jurisdiction": "WB",
+    "lat": 42.34773,
+    "lng": -71.05804,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1513-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11328",
+    "name": "I-93: Ramp SN-NB-Charlestown-Storrow to 93N d",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.37695,
+    "lng": -71.07454,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1502-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12370",
+    "name": "I-91: I-91-NB-MM30.0-Hatfield-Ex 30 Rts 5 & 10",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.39946,
+    "lng": -72.6279,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1675-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12371",
+    "name": "RT-3: Rt3-NB-MM31.8-Hanover-Ex 32 Washington St",
+    "route": "RT-3",
+    "jurisdiction": "NB",
+    "lat": 42.15116,
+    "lng": -70.84529,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435451-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12385",
+    "name": "RT-110: LowellConn-SB-MM1.6-Chelmsford-Ex 4 Plain St.",
+    "route": "RT-110",
+    "jurisdiction": "SB",
+    "lat": 42.6262,
+    "lng": -71.32296,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435589-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "7280",
+    "name": "I-93 HOV: RampCC-EB-MM0.4-Boston-90E Ex 134C to 93S f",
+    "route": "I-93 HOV",
+    "jurisdiction": "EB",
+    "lat": 42.34794,
+    "lng": -71.05973,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1615-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12401",
+    "name": "I-90: I-90-WB-MM3.0-W. Stockbridge-Ex 3 Rt 41",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.32573,
+    "lng": -73.36344,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407968-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12407",
+    "name": "I-90: I-90-EB-MM54.9-Ludlow-Ex 54 Rt 21",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.1682,
+    "lng": -72.46959,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407965-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12411",
+    "name": "I-495: I-495-NB-MM63.2-Marlboro-Ex 63 Rt 20",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.34083,
+    "lng": -71.57507,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432519-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12423",
+    "name": "RT-111: I-495-NB-MM74.6-Boxboro-Ex 75 Rt 111",
+    "route": "RT-111",
+    "jurisdiction": "NB",
+    "lat": 42.48697,
+    "lng": -71.54477,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432513-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12427",
+    "name": "I-495: I-495-NB-MM106.7-Haverhill-Ex 107 Rts 110/113",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.7833,
+    "lng": -71.11449,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406575-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12439",
+    "name": "I-495: Rt24-NB-MM23.1-Bridgewater-Ex 22B I-495 NB",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 41.95071,
+    "lng": -71.02636,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435481-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12440",
+    "name": "RT-109: I-95-SB-MM30.8-Dedham-0.2 mi after Ex 31B Rt 109",
+    "route": "RT-109",
+    "jurisdiction": "SB",
+    "lat": 42.24324,
+    "lng": -71.20528,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435518-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12442",
+    "name": "RT-9: Rt9-WB-Hadley-East of Coolidge Br",
+    "route": "RT-9",
+    "jurisdiction": "WB",
+    "lat": 42.33821,
+    "lng": -72.61564,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1289-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12446",
+    "name": "I-90: RampET-Logan-MM0.2-E. Boston-Logan to 90W a",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 42.36799,
+    "lng": -71.02553,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406497-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12448",
+    "name": "RT-62: Rt3-SB-MM73.6-Bedford-Ex 73 Rt 62",
+    "route": "RT-62",
+    "jurisdiction": "SB",
+    "lat": 42.50197,
+    "lng": -71.2436,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432497-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "11431",
+    "name": "US 6: Rt6-EB-MM53.2-Bourne-0.5 mi before Rt6/6A Br. Exit",
+    "route": "US 6",
+    "jurisdiction": "EB",
+    "lat": 41.77901,
+    "lng": -70.55164,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407724-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "7338",
+    "name": "I-93 HOV: I-93-SB-MM15.6-Boston-before Southampton St",
+    "route": "I-93 HOV",
+    "jurisdiction": "SB",
+    "lat": 42.3372,
+    "lng": -71.06497,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1604-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12461",
+    "name": "I-93: RoadFRNB-NB-MM0.3-Boston-FRNB-051",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.33503,
+    "lng": -71.06492,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1498-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12476",
+    "name": "I-91: I-91-SB-MM25.8-Northampton-Ex 26 Rts 5 & 10",
+    "route": "I-91",
+    "jurisdiction": "SB",
+    "lat": 42.34069,
+    "lng": -72.63851,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1285-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12482",
+    "name": "I-90: I-90-EB-MM106.2-Hopkinton-Ex 106 I-495",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.2645,
+    "lng": -71.56931,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407726-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12499",
+    "name": "RT-30: I-90-EB-Weston-Ex 15 East Merge",
+    "route": "RT-30",
+    "jurisdiction": "EB",
+    "lat": 42.34162,
+    "lng": -71.26864,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432531-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12504",
+    "name": "RT-24: Rt24-NB-MM22.3-Raynham-Ex 22A I-495 SB",
+    "route": "RT-24",
+    "jurisdiction": "NB",
+    "lat": 41.93902,
+    "lng": -71.02307,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435479-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12507",
+    "name": "I-290: 290-MM017.8EB-Worcester-Ex 18 Rt 122 Grafton St.",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.25784,
+    "lng": -71.79365,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435562-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12518",
+    "name": "I-90 HOV: Road SBHR-E & W-S. Boston-@ W Service Rd b",
+    "route": "I-90 HOV",
+    "jurisdiction": "",
+    "lat": 42.34765,
+    "lng": -71.04804,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1340-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12520",
+    "name": "I-90: 090-MM120.3WB-Weston-Before Weston Gantry [TZ-10]",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 42.33284,
+    "lng": -71.31954,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432527-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12528",
+    "name": "I-93: I-93-NB-MM14.4-Boston-Ex 14 Columbia",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.3222,
+    "lng": -71.05399,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435502-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12536",
+    "name": "I-91: I-91-NB-MM27.3-Hatfield-Ex 27 Rts 5 & 10",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.3609,
+    "lng": -72.63641,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1480-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12550",
+    "name": "RT-3: RampL-CN-NB-MM0.2-Boston-Leverett to 93N c",
+    "route": "RT-3",
+    "jurisdiction": "NB",
+    "lat": 42.36643,
+    "lng": -71.06369,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1493-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12557",
+    "name": "I-290: 290-MM018.2WB-Worcester-Ex 20 Onramp",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.26425,
+    "lng": -71.79346,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435563-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12561",
+    "name": "I-91: I-91-ME-MM11.6-W. Springfield-Ex 11 I-90 & Rt 5",
+    "route": "I-91",
+    "jurisdiction": "",
+    "lat": 42.16302,
+    "lng": -72.64565,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1283-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12572",
+    "name": "US 3: Rt3-NB-MM71.2-Burlington-from I-95 Ex 50A",
+    "route": "US 3",
+    "jurisdiction": "NB",
+    "lat": 42.47874,
+    "lng": -71.22036,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406599-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12585",
+    "name": "US 3: Rt3-SB-MM85.4-Chelmsford-0.3 mi before Ex 84 Rt 4",
+    "route": "US 3",
+    "jurisdiction": "SB",
+    "lat": 42.62476,
+    "lng": -71.37595,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406608-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12590",
+    "name": "I-95: I-95-SB-MM27.4-Dedham-Ex 27 University Ave",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.21374,
+    "lng": -71.15099,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435517-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12600",
+    "name": "I-90: RoadMHRW-WB-MM0.1-S. Boston-@ Pumphouse Rd",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.34828,
+    "lng": -71.04613,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1208-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12603",
+    "name": "I-95: I-95-SB-MM39.4-Weston-before Ex 39A South Av",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.34395,
+    "lng": -71.26291,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435522-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12604",
+    "name": "I-91: I-91-SB-MM15.6-Holyoke-Ex 15 Rt 141",
+    "route": "I-91",
+    "jurisdiction": "SB",
+    "lat": 42.21876,
+    "lng": -72.63353,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1479-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12605",
+    "name": "I-93: I-93-ME-MM16.0-Boston-NB Ex 16 to HOV-E",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.34255,
+    "lng": -71.06193,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1106-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12606",
+    "name": "Unknown: BeachRoad-MM0A-EB",
+    "route": "Unknown",
+    "jurisdiction": "EB",
+    "lat": 41.45783,
+    "lng": -70.5877,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407958-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12612",
+    "name": "RT-3A: Rt3-SB-MM19.6-Duxbury-Ex 20 Tremont St",
+    "route": "RT-3A",
+    "jurisdiction": "SB",
+    "lat": 42.01394,
+    "lng": -70.72684,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435446-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12614",
+    "name": "I-93: I-93-NB-MM18.8-Charlestown-before Ex 19 to Tobin",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.37366,
+    "lng": -71.07007,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1332-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12615",
+    "name": "RT-138: I-495-SB-MM21.6-Raynham-Ex 22 Rt 138",
+    "route": "RT-138",
+    "jurisdiction": "SB",
+    "lat": 41.95876,
+    "lng": -71.06901,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406429-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12626",
+    "name": "I-291: I-291-EB-MM4.3-Springfield-Ex 5B Rt 20A",
+    "route": "I-291",
+    "jurisdiction": "EB",
+    "lat": 42.14456,
+    "lng": -72.54932,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1279-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12630",
+    "name": "RT-62: I-495-NB-MM67.3-Berlin-Ex 67 Rt 62",
+    "route": "RT-62",
+    "jurisdiction": "NB",
+    "lat": 42.39488,
+    "lng": -71.60679,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432515-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12632",
+    "name": "I-91: I-91-ME-MM10.1-W. Springfield-0.9 mi N. of Ex 10B",
+    "route": "I-91",
+    "jurisdiction": "",
+    "lat": 42.14352,
+    "lng": -72.63946,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1672-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12634",
+    "name": "I-90: I-90-EB-MM126.2-Newton-West of Lowell St [TZ-11]",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.35047,
+    "lng": -71.21152,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407975-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12639",
+    "name": "I-290: 290-MM016.7EB-Worcester-Rt 146 interchange",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.2442,
+    "lng": -71.80339,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435560-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12640",
+    "name": "I-495: I-495-NB-MM19.0-Bridgewater-Ex 19A/B to Rt 24",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 41.94683,
+    "lng": -71.02076,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435577-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12642",
+    "name": "US 6: Rt6-EB-MM53.7-Bourne-@ Brigantine Passage Dr",
+    "route": "US 6",
+    "jurisdiction": "EB",
+    "lat": 41.77973,
+    "lng": -70.55028,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407959-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12648",
+    "name": "US 1: Rt1-NB-MM57.1-Saugus-before Lynn Fells Pkwy",
+    "route": "US 1",
+    "jurisdiction": "NB",
+    "lat": 42.48045,
+    "lng": -71.02116,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435431-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12651",
+    "name": "I-93: I-93-SB-MM18.6-Boston-Zakim South Tower",
+    "route": "I-93",
+    "jurisdiction": "SB",
+    "lat": 42.37187,
+    "lng": -71.06704,
+    "image_url": "https://public.carsprogram.org/cameras/MA/430719-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12654",
+    "name": "I-93: RampK-NB-MM0.7-Boston-93N Ex 16 f",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.34454,
+    "lng": -71.06064,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1620-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12655",
+    "name": "US 3: Rt3-SB-MM82.0-Chelmsford-After Ex 81A I-495",
+    "route": "US 3",
+    "jurisdiction": "SB",
+    "lat": 42.60511,
+    "lng": -71.32456,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407725-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12656",
+    "name": "US 1: Rt1-SB-MM55.5-Saugus-past Essex St",
+    "route": "US 1",
+    "jurisdiction": "SB",
+    "lat": 42.45723,
+    "lng": -71.02376,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435427-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12658",
+    "name": "I-93: I-93-NB-Randolph-Exit 4 Rt 24",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.20256,
+    "lng": -71.07917,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406554-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "10611",
+    "name": "I-93: I-93-ME-MM15.8-Boston-NB Ex 16 to HOV-E",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.33987,
+    "lng": -71.06343,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1495-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12667",
+    "name": "I-95: I-95-NB-MM35.0-Needham-Ex 35A Kendrick St",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.30302,
+    "lng": -71.22472,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432544-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12668",
+    "name": "I-90: RampX-SB-MM0.1-Boston-Kneeland to HOV-E b",
+    "route": "I-90",
+    "jurisdiction": "SB",
+    "lat": 42.34623,
+    "lng": -71.06047,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1516-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12669",
+    "name": "I-95: I-95-SB-MM38.9-Newton-after Ex 39A Rt 30",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.33727,
+    "lng": -71.25902,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435521-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12670",
+    "name": "I-90: I-90-WB-MM40.9-Westfield-@ MSP Barracks [TZ-3]",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.1433,
+    "lng": -72.72573,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407979-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12674",
+    "name": "I-93: I-93-NB-MM37.7-Tewksbury-Ex 38 Dascomb Rd",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.62478,
+    "lng": -71.1777,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435509-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12680",
+    "name": "RT-2: Rt2-EB-MM129.0-Lexington-Ex 128 Spring St",
+    "route": "RT-2",
+    "jurisdiction": "EB",
+    "lat": 42.42373,
+    "lng": -71.25083,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435432-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11656",
+    "name": "I-91: I-91-SB-MM18.3-Holyoke-@ scenic view turnout",
+    "route": "I-91",
+    "jurisdiction": "SB",
+    "lat": 42.25447,
+    "lng": -72.61998,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1288-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12686",
+    "name": "I-291: I-291-EB-MM1.4-Springfield-Ex 3 Armory St",
+    "route": "I-291",
+    "jurisdiction": "EB",
+    "lat": 42.11626,
+    "lng": -72.58812,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406548-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12688",
+    "name": "I-95: I-095-NB-Needham-Ex 19A Kendrick St",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.29493,
+    "lng": -71.21762,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432542-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11667",
+    "name": "I-93: I-93-NB-Quincy-b/w x7 & x8",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.23486,
+    "lng": -71.02314,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406597-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11670",
+    "name": "I-91: I-91-NB-MM6.7-Springfield-Ex 7B Rts 20 & 20A",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.11166,
+    "lng": -72.60643,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1476-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12697",
+    "name": "I-93: Ramp KK-WB-Boston-93N x20 to 90W c",
+    "route": "I-93",
+    "jurisdiction": "WB",
+    "lat": 42.3482,
+    "lng": -71.05772,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1239-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12702",
+    "name": "I-95: I-95-NB-MM26.3-Canton-Ex 1 I-93",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.20587,
+    "lng": -71.14095,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406556-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12706",
+    "name": "I-290: 290-MM030.1EB-Northboro-Ex 30 Solomon Pond Rd",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.34619,
+    "lng": -71.62473,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435571-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12708",
+    "name": "I-93: I-93-SB-MM19.2-Charlestown-Lower Deck c",
+    "route": "I-93",
+    "jurisdiction": "SB",
+    "lat": 42.37789,
+    "lng": -71.07527,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1112-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11687",
+    "name": "RT-9: Rt9-WB-Northampton-@ Damon Rd",
+    "route": "RT-9",
+    "jurisdiction": "WB",
+    "lat": 42.33354,
+    "lng": -72.62081,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1484-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "10665",
+    "name": "US 3: Rt3-NB-MM74.5-Billerica-2.5 mi before Ex73 Concord",
+    "route": "US 3",
+    "jurisdiction": "NB",
+    "lat": 42.51124,
+    "lng": -71.25224,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406602-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12724",
+    "name": "I-95: I-95-NB-MM20.0-Sharon-1.5 mi beyond Ex 19 Rt 1",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.13604,
+    "lng": -71.21703,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435514-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12726",
+    "name": "I-93: Ramp SN-NB-Charlestown-Storrow to 93N E",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.38082,
+    "lng": -71.07664,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1113-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12727",
+    "name": "US 1: Rt1-SB-MM50.5-Chelsea-0.2 mi after Carter St",
+    "route": "US 1",
+    "jurisdiction": "SB",
+    "lat": 42.39981,
+    "lng": -71.03835,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435421-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12741",
+    "name": "RT-2A: I-495-SB-MM79.2-Littleton-Ex 79 King St",
+    "route": "RT-2A",
+    "jurisdiction": "SB",
+    "lat": 42.53988,
+    "lng": -71.49347,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432511-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12748",
+    "name": "I-495: I-495-NB-MM105.7-Haverhill-Ex 106 Rt 125 Ward Hill",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.76076,
+    "lng": -71.12215,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435583-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12751",
+    "name": "I-93: Ramp K-NB-Boston-93N x20 b",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.33864,
+    "lng": -71.0641,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1413-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "4570",
+    "name": "I-93: Ramp SN-NB-Charlestown-Storrow to 93N c",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.37324,
+    "lng": -71.06934,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1609-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "11739",
+    "name": "I-93: I-93-ME-MM16.3-Boston-past Frontage Rd merge",
+    "route": "I-93",
+    "jurisdiction": "",
+    "lat": 42.34637,
+    "lng": -71.05916,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1301-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12764",
+    "name": "I-90: I-90-EB-MM40.4-Westfield-Ex 41 Rt 10",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.14505,
+    "lng": -72.73603,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1679-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12770",
+    "name": "I-93: I-93-SB-MM15.4-Boston-@ South Bay Mall",
+    "route": "I-93",
+    "jurisdiction": "SB",
+    "lat": 42.33438,
+    "lng": -71.06457,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1107-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12775",
+    "name": "I-495: I-495-SB-MM92.3-Tewksbury-Ex 92 Rt 38",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 42.64293,
+    "lng": -71.23095,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432502-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12777",
+    "name": "US 5: Rt5-SB-MM4.7-Agawam-Rt 57, South End Rotary Rotary",
+    "route": "US 5",
+    "jurisdiction": "SB",
+    "lat": 42.08064,
+    "lng": -72.58877,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435465-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12782",
+    "name": "US 1: Rt1-SB-MM56.0-Saugus-past Main St",
+    "route": "US 1",
+    "jurisdiction": "SB",
+    "lat": 42.46498,
+    "lng": -71.02498,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435428-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12783",
+    "name": "I-90: I-90-WB-MM120.3-Weston-before Weston Toll Gantry",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.33251,
+    "lng": -71.3203,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407981-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12784",
+    "name": "I-93: I-93-SB-MM18.8-Boston-Zakim past merge",
+    "route": "I-93",
+    "jurisdiction": "SB",
+    "lat": 42.37365,
+    "lng": -71.07006,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1334-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12787",
+    "name": "US 3: 003-MM083.7NB-Chelmsford-0.9 mi before Ex 84 Rt 4",
+    "route": "US 3",
+    "jurisdiction": "",
+    "lat": 42.62087,
+    "lng": -71.34473,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407718-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12790",
+    "name": "I-95: I-95-NB-MM16.6-Sharon-Ex 17, S. Main St",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.09273,
+    "lng": -71.22402,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435512-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12796",
+    "name": "RT-3: Rt3-SB-MM13.9-Plymouth-0.7 mi before Ex 13 Long Pd",
+    "route": "RT-3",
+    "jurisdiction": "SB",
+    "lat": 41.94418,
+    "lng": -70.67473,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435440-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12797",
+    "name": "I-93: I-93-SB-MM19.8-Charlestown-Ex 18 Leverett Cir",
+    "route": "I-93",
+    "jurisdiction": "SB",
+    "lat": 42.38375,
+    "lng": -71.07645,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406561-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12800",
+    "name": "US 3: Rt3-SB-MM84.2-Chelmsford-0.4 mi after Ex 84 Rt 4",
+    "route": "US 3",
+    "jurisdiction": "SB",
+    "lat": 42.62036,
+    "lng": -71.3549,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406607-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12801",
+    "name": "I-91: I-91-NB-MM8.3-Chicopee-by Ex 9 & Rt 391",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.13417,
+    "lng": -72.60921,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1282-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12804",
+    "name": "RT-24: Rt24-SB-MM1.7-Fall River-Ex 2 Brayton Ave",
+    "route": "RT-24",
+    "jurisdiction": "SB",
+    "lat": 41.68119,
+    "lng": -71.13864,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435468-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12805",
+    "name": "I-93: RampCC-EB-MM0.2-Boston-90E Ex 134C to 93S d",
+    "route": "I-93",
+    "jurisdiction": "EB",
+    "lat": 42.34748,
+    "lng": -71.05824,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1119-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12814",
+    "name": "US 1: Rt1-NB-MM53.5-Revere-North of Rt 60",
+    "route": "US 1",
+    "jurisdiction": "NB",
+    "lat": 42.4334,
+    "lng": -71.01792,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435426-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12815",
+    "name": "I-90: I-90-WB-MM130.1-Brighton-East of Everett St",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.35717,
+    "lng": -71.13731,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407976-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12817",
+    "name": "RT-3: Rt3-NB-MM42.0-Braintree-Ex 42 Burgin Pkwy",
+    "route": "RT-3",
+    "jurisdiction": "NB",
+    "lat": 42.22607,
+    "lng": -71.00497,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435463-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12818",
+    "name": "RT-28: Rt28-NB-MM62.6-Bourne-@ Bourne Rotary",
+    "route": "RT-28",
+    "jurisdiction": "NB",
+    "lat": 41.7418,
+    "lng": -70.58613,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406458-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12822",
+    "name": "I-495: I-495-SB-MM83.3-Westford-Ex 83 Boston Rd",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 42.56882,
+    "lng": -71.426,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432509-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12825",
+    "name": "RT-3: Rt3-SB-MM26.7-Pembroke-Ex 27 Rt 139",
+    "route": "RT-3",
+    "jurisdiction": "SB",
+    "lat": 42.1072,
+    "lng": -70.76499,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435449-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12827",
+    "name": "I-93: I-93-NB-MM34.6-Wilmington-South of Ex 35 Rt 125 Br",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.58413,
+    "lng": -71.15749,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435508-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12828",
+    "name": "I-290: 290-MM015.8EB-Worcester-Ex 15 College Sq.",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.2382,
+    "lng": -71.81588,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435558-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12834",
+    "name": "I-91: I-91-ME-MM43.0-Greenfield-Ex 43 Rts 2 & 2A",
+    "route": "I-91",
+    "jurisdiction": "",
+    "lat": 42.58519,
+    "lng": -72.62129,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1482-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12837",
+    "name": "I-195: I-195-EB-MM25.4-New Bedford-@ Ex 27B Washburn St",
+    "route": "I-195",
+    "jurisdiction": "EB",
+    "lat": 41.65468,
+    "lng": -70.92302,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407955-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12838",
+    "name": "I-95: I-95-SB-MM40.6-Weston-Ex 39B Rt 30",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.35932,
+    "lng": -71.27012,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435523-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12839",
+    "name": "I-91: I-91-NB-MM20.1-Holyoke-2.5 mi before Ex 23 Rt 5",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.27748,
+    "lng": -72.60602,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1678-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12840",
+    "name": "I-495: I-495-NB-MM90.2-Chelmsford-@ Carlisle St",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.61818,
+    "lng": -71.28906,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432504-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12841",
+    "name": "RT-126: 495-MM045.8SB-Bellingham-Ex 46 Rt 126",
+    "route": "RT-126",
+    "jurisdiction": "",
+    "lat": 42.1142,
+    "lng": -71.46667,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406580-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12842",
+    "name": "I-93 HOV: Ramp KK-WB-Boston-93N x20 to 90W b",
+    "route": "I-93 HOV",
+    "jurisdiction": "WB",
+    "lat": 42.34859,
+    "lng": -71.05944,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1231-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12845",
+    "name": "I-95: I-95-SB-MM72.0-Boxford-Near Ex 72",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.62148,
+    "lng": -70.97851,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435541-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12846",
+    "name": "RT-3: Rt3-SB-MM36.8-Weymouth-0.7 mi before Ex 36 Derby",
+    "route": "RT-3",
+    "jurisdiction": "SB",
+    "lat": 42.1856,
+    "lng": -70.92769,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435455-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12851",
+    "name": "I-95: I-95-SB-MM16.6-Sharon-Ex 17 S. Main St",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.09282,
+    "lng": -71.22406,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435513-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12852",
+    "name": "I-195: I-195-EB-MM14.2-Fall River-before Ex 14B Rt 24",
+    "route": "I-195",
+    "jurisdiction": "EB",
+    "lat": 41.68212,
+    "lng": -71.13037,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435550-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12861",
+    "name": "I-495: I-495-NB-MM59.6-Westboro-Ex 59 Rt 9",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.29064,
+    "lng": -71.56617,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432522-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12862",
+    "name": "US 3: I-95/128-SB-Burlington-Exit 33 Rt 3A",
+    "route": "US 3",
+    "jurisdiction": "SB",
+    "lat": 42.48997,
+    "lng": -71.19176,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406569-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12865",
+    "name": "RT-28: Rt28-NB-MM62.7-Bourne-north side of Bourne Rotary",
+    "route": "RT-28",
+    "jurisdiction": "NB",
+    "lat": 41.74375,
+    "lng": -70.58685,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406499-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12866",
+    "name": "RT-3A: Rt3-NB-MM2.5-Plymouth-Ex 3 Herring Pond Rd",
+    "route": "RT-3A",
+    "jurisdiction": "NB",
+    "lat": 41.81438,
+    "lng": -70.55339,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435435-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12867",
+    "name": "RT-4: Rt3-SB-MM84.8-Chelmsford-Ex 84 Rt 4",
+    "route": "RT-4",
+    "jurisdiction": "SB",
+    "lat": 42.62202,
+    "lng": -71.36541,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407719-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12871",
+    "name": "I-290: I-290-WB-MM1.5-Auburn-before Ex 13 Auburn St.",
+    "route": "I-290",
+    "jurisdiction": "WB",
+    "lat": 42.21045,
+    "lng": -71.83703,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435556-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12875",
+    "name": "I-93: Ramp CC-EB-Boston-90E x24C to 93S b",
+    "route": "I-93",
+    "jurisdiction": "EB",
+    "lat": 42.34629,
+    "lng": -71.05923,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1226-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12876",
+    "name": "I-93 HOV: Road FRSB-SB-Boston-b FRSB-051",
+    "route": "I-93 HOV",
+    "jurisdiction": "SB",
+    "lat": 42.33854,
+    "lng": -71.0643,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1218-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12877",
+    "name": "RT-24: Rt24-SB-MM5.4-Fall River-Ex 5 Rt 6",
+    "route": "RT-24",
+    "jurisdiction": "SB",
+    "lat": 41.71313,
+    "lng": -71.11808,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435470-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12878",
+    "name": "I-95: I-95-NB-MM28.6-Westwood-past Ex 28 East St",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.22281,
+    "lng": -71.16942,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406555-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12883",
+    "name": "RT-3: Rt3-NB-MM15.9-Plymouth-Ex 16 Rt 44",
+    "route": "RT-3",
+    "jurisdiction": "NB",
+    "lat": 42.17898,
+    "lng": -70.91604,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435443-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12884",
+    "name": "RT-3: Rt3-SB-MM41.6-Braintree-0.5 mi before Ex 40 Union",
+    "route": "RT-3",
+    "jurisdiction": "SB",
+    "lat": 42.22172,
+    "lng": -71.00193,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435462-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12886",
+    "name": "RT-2: Rt2-ME-MM130.0-Lexington-Ex 129 Waltham St",
+    "route": "RT-2",
+    "jurisdiction": "",
+    "lat": 42.4215,
+    "lng": -71.23145,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435433-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12889",
+    "name": "I-195: I-195-EB-MM14.8-Westport-1/4 mi before Ex 15",
+    "route": "I-195",
+    "jurisdiction": "EB",
+    "lat": 41.68,
+    "lng": -71.11776,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435551-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "10843",
+    "name": "I-93 HOV: RampXXE-EB-MM0.1-Boston-93N to HOV-E",
+    "route": "I-93 HOV",
+    "jurisdiction": "EB",
+    "lat": 42.34413,
+    "lng": -71.06115,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1501-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12891",
+    "name": "US 1: Rt1-NB-MM53.0-Revere-before Rt 60 Squire Rd Rotary",
+    "route": "US 1",
+    "jurisdiction": "NB",
+    "lat": 42.42696,
+    "lng": -71.02102,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435424-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12894",
+    "name": "I-495: I-495-NB-MM61.8-Marlboro-Ex 62 Simarano Dr",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.32174,
+    "lng": -71.57111,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432520-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12895",
+    "name": "I-495: I-495-SB-MM31.8-Mansfield-before Ex 30/31 Rt 140",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 42.01703,
+    "lng": -71.23935,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435578-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12900",
+    "name": "RT-25: Rt28-SB-MM63.4-Bourne-@ merge north of Rt 6",
+    "route": "RT-25",
+    "jurisdiction": "SB",
+    "lat": 41.75241,
+    "lng": -70.59264,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406498-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12902",
+    "name": "RT-24: Rt24-NB-MM11.3-Freetown-Ex 11 South Main St",
+    "route": "RT-24",
+    "jurisdiction": "NB",
+    "lat": 41.78505,
+    "lng": -71.07985,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435474-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12912",
+    "name": "I-90: I-90-WB-MM49.0-Chicopee-@ Ex 49 Rt 33",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.16957,
+    "lng": -72.58127,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407964-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12913",
+    "name": "I-195: I-195-EB-MM21.9-Dartmouth-@ Ex 22 Faunce Corner",
+    "route": "I-195",
+    "jurisdiction": "EB",
+    "lat": 41.65471,
+    "lng": -70.98833,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435552-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12918",
+    "name": "RT-130: Rt6-WB-MM59.2-Sandwich-rest area before Ex59 Rt130",
+    "route": "RT-130",
+    "jurisdiction": "WB",
+    "lat": 41.73043,
+    "lng": -70.49036,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406457-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12919",
+    "name": "I-93: I-93-SB-MM33.6-Wilmington-Ex 34 Rt 62",
+    "route": "I-93",
+    "jurisdiction": "SB",
+    "lat": 42.57503,
+    "lng": -71.15053,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435507-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12920",
+    "name": "RT-122A: 290-MM017.4WB-Worcester-Ex 17 Rt 122A",
+    "route": "RT-122A",
+    "jurisdiction": "",
+    "lat": 42.25416,
+    "lng": -71.79731,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435561-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12921",
+    "name": "US 20: Rt5-SB-MM7.2-W. Springfield-Rotary/Bridge at Rt 20",
+    "route": "US 20",
+    "jurisdiction": "SB",
+    "lat": 42.10732,
+    "lng": -72.61594,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435466-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12924",
+    "name": "US 1: RampCT-NB-MM0.1-Charlestown-93N x19 a",
+    "route": "US 1",
+    "jurisdiction": "NB",
+    "lat": 42.37241,
+    "lng": -71.06865,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1142-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12925",
+    "name": "I-95: I-95-SB-MM20.6-Sharon-1.1 mi before Ex 19 Rt 1",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.14488,
+    "lng": -71.206,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435515-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12927",
+    "name": "I-95: I-95-SB-MM58.6-Wakefield-@ Ex 58 Rt 129 rotary",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.52541,
+    "lng": -71.07965,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435535-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12928",
+    "name": "I-90: I-90-EB-MM79.4-Charlton-@ MSP C10 East side",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.13533,
+    "lng": -72.04123,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432526-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12930",
+    "name": "I-290: I-495-SB-MM64.9-Marlboro-Ex 65 I-290",
+    "route": "I-290",
+    "jurisdiction": "SB",
+    "lat": 42.36263,
+    "lng": -71.59065,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432517-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12932",
+    "name": "RT-3A: Rt3-SB-MM2.5-Plymouth-Ex 3 Herring Pond Rd",
+    "route": "RT-3A",
+    "jurisdiction": "SB",
+    "lat": 41.81335,
+    "lng": -70.55393,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435436-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12933",
+    "name": "US 1: Ramp TC-SB-Charlestown-Tobin to 93S/Storrow e",
+    "route": "US 1",
+    "jurisdiction": "SB",
+    "lat": 42.37235,
+    "lng": -71.06826,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1503-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12934",
+    "name": "US 6: Rt6-E&W-MM52.2-Bourne-@ Egde Hill Rd",
+    "route": "US 6",
+    "jurisdiction": "",
+    "lat": 41.76467,
+    "lng": -70.57139,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1189-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12936",
+    "name": "RT-2: I-495-NB-MM77.6-Littleton-Ex 78 Rt 2 EB",
+    "route": "RT-2",
+    "jurisdiction": "NB",
+    "lat": 42.52049,
+    "lng": -71.50775,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432512-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12937",
+    "name": "RT-62: Rt3-SB-MM73.6-Bedford-Ex 73 Rt 62",
+    "route": "RT-62",
+    "jurisdiction": "SB",
+    "lat": 42.50196,
+    "lng": -71.24366,
+    "image_url": "https://public.carsprogram.org/cameras/MA/430737-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12939",
+    "name": "I-95: I-95-SB-MM59.3-Lynnfield-@ Ex 59 Main St.",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.5256,
+    "lng": -71.06487,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435536-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12943",
+    "name": "RT-135: I-95-SB-MM32.4-Dedham-before Ex 32 Rt 135",
+    "route": "RT-135",
+    "jurisdiction": "SB",
+    "lat": 42.26467,
+    "lng": -71.2067,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435519-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12944",
+    "name": "I-91: I-91-SB-MM14.2-Holyoke-Ex 14 Rt 202",
+    "route": "I-91",
+    "jurisdiction": "SB",
+    "lat": 42.19982,
+    "lng": -72.63821,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1673-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12945",
+    "name": "US 3: Rt3-SB-MM76.4-Billerica-Ex 76 Concord Rd",
+    "route": "US 3",
+    "jurisdiction": "SB",
+    "lat": 42.53239,
+    "lng": -71.27629,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407714-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12947",
+    "name": "RT-3: Rt3-NB-MM12.8-Plymouth-Ex 13 Long Pond Rd",
+    "route": "RT-3",
+    "jurisdiction": "NB",
+    "lat": 41.93574,
+    "lng": -70.65638,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435439-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12950",
+    "name": "RT-106: Rt24-SB-MM27.8-W. Bridgewater-Ex 28 Rt 106",
+    "route": "RT-106",
+    "jurisdiction": "SB",
+    "lat": 42.01444,
+    "lng": -71.04415,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435483-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11926",
+    "name": "I-91: I-91-NB-MM32.3-Whately-2.2 mi before Ex35 Rts 5&10",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.43248,
+    "lng": -72.62182,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1286-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12952",
+    "name": "I-90: I-90-EB-Weston-before Exit 15",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.3388,
+    "lng": -71.27688,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407729-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12954",
+    "name": "US 1: RampSN-SB-MM0.6-Charlestown-93S x18 d",
+    "route": "US 1",
+    "jurisdiction": "SB",
+    "lat": 42.36983,
+    "lng": -71.06516,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1211-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12955",
+    "name": "I-90: 090-MM111.2EB-Framingham-at Exit 111 Rt 9",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 42.29408,
+    "lng": -71.48259,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407727-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12956",
+    "name": "I-93: I-93-SB-MM20.0-Somerville-Ex 18 Storrow Dr",
+    "route": "I-93",
+    "jurisdiction": "SB",
+    "lat": 42.3885,
+    "lng": -71.07993,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406443-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12959",
+    "name": "RT-38: I-495-ME-MM91.2-Lowell-Ex 91 Woburn St",
+    "route": "RT-38",
+    "jurisdiction": "",
+    "lat": 42.62792,
+    "lng": -71.27242,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432503-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12960",
+    "name": "I-495: I-495-NB-MM89.1-Chelmsford-Ex 89 Rt 3 & LowellConn",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.60779,
+    "lng": -71.32088,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432506-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12961",
+    "name": "I-495: I-495-NB-MM43.2-Franklin-Ex 43 Rt 140",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.08983,
+    "lng": -71.42671,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406585-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12962",
+    "name": "I-95: I-95-NB-MM52.7-Burlington-Just past Ex 52 Winn St",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.49587,
+    "lng": -71.17747,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435530-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12964",
+    "name": "RT-24: Rt24-SB-MM8.3-Fall River-Ex 8 Airport Rd/N. Main",
+    "route": "RT-24",
+    "jurisdiction": "SB",
+    "lat": 41.75378,
+    "lng": -71.11774,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435472-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12966",
+    "name": "I-95: I-95-NB-MM38.5-Newton-past Ex 38 Grove St",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.33247,
+    "lng": -71.2551,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435520-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12968",
+    "name": "RT-28: I-93-NB-MM4.2-Randolph-Ex 5 Rt 28",
+    "route": "RT-28",
+    "jurisdiction": "NB",
+    "lat": 42.20467,
+    "lng": -71.06467,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406565-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12969",
+    "name": "I-93 HOV: I-93-SB-MM16.1-Boston-before Mass Ave Conn",
+    "route": "I-93 HOV",
+    "jurisdiction": "SB",
+    "lat": 42.3439,
+    "lng": -71.06128,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1302-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12970",
+    "name": "RT-85: I-495-SB-MM50.2-Milford-Ex 50 Rt 85",
+    "route": "RT-85",
+    "jurisdiction": "SB",
+    "lat": 42.16631,
+    "lng": -71.50875,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435579-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12971",
+    "name": "I-495: I-495-NB-MM45.8-Bellingham-Ex 46 Rt 126",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.11433,
+    "lng": -71.46559,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406579-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12972",
+    "name": "US 3: 003-MM091.1NB-Tyngsboro-Ex 90 Rt 113 Kendall Rd",
+    "route": "US 3",
+    "jurisdiction": "",
+    "lat": 42.65859,
+    "lng": -71.42786,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406612-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11950",
+    "name": "I-495: I-495-SB-MM109.0-Haverhill-Ex 109 Rt 125 Main St",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 42.80082,
+    "lng": -71.09176,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406577-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12975",
+    "name": "RT-25: 025-MM008.6-WB-Bourne-prior to Bouredale Rd",
+    "route": "RT-25",
+    "jurisdiction": "WB",
+    "lat": 41.76851,
+    "lng": -70.58735,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1188-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12976",
+    "name": "I-93: I-93-NB-MM18.6-Charlestown-@ Zakim South Twr",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.37186,
+    "lng": -71.06702,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1137-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12978",
+    "name": "RT-3: Rt3-SB-MM38.3-Weymouth-Ex 38 Rt 18",
+    "route": "RT-3",
+    "jurisdiction": "SB",
+    "lat": 42.19449,
+    "lng": -70.95501,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435457-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12980",
+    "name": "I-93: I-93-NB-MM19.4-Charlestown-before Ex 20",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.38059,
+    "lng": -71.07661,
+    "image_url": "https://public.carsprogram.org/cameras/MA/430708-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12981",
+    "name": "RT-24: Rt24-NB-MM15.7-Berkley-Ex 16 Padelford St",
+    "route": "RT-24",
+    "jurisdiction": "NB",
+    "lat": 41.84807,
+    "lng": -71.06229,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435476-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12984",
+    "name": "RT-9: 290-MM018.8EB-Worcester-Ex 21 Rt 9 Belmont St.",
+    "route": "RT-9",
+    "jurisdiction": "",
+    "lat": 42.27186,
+    "lng": -71.79447,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435564-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12988",
+    "name": "US 1: Rt1-NB-MM53.4-Revere-past Rt 60 Squire Rd Rotary",
+    "route": "US 1",
+    "jurisdiction": "NB",
+    "lat": 42.43135,
+    "lng": -71.01744,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435425-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12989",
+    "name": "US 1: Ramp TC-SB-Charlestown-Tobin to 93S/Storrow d",
+    "route": "US 1",
+    "jurisdiction": "SB",
+    "lat": 42.37138,
+    "lng": -71.06982,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1415-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12990",
+    "name": "I-90: I-90-EB-MM90.0-Auburn-Ex 90 I-290, I-395, Rt 12",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.1923,
+    "lng": -71.85346,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407733-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12991",
+    "name": "I-495: I-495-NB-MM89.4-Lowell-Ex 89 & Lowell Conn. onramp",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.61192,
+    "lng": -71.30665,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432505-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12994",
+    "name": "I-93: I-93-ME-MM23.1-Medford-Ex 24 Rt 28 Fellsway",
+    "route": "I-93",
+    "jurisdiction": "",
+    "lat": 42.42777,
+    "lng": -71.10308,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435300-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12995",
+    "name": "RT-2: Rt2-WB-Lexington-@ Exit 52B I-95",
+    "route": "RT-2",
+    "jurisdiction": "WB",
+    "lat": 42.42647,
+    "lng": -71.25596,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407957-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11972",
+    "name": "I-95: I-95-ME-MM29.3-Dedham-Ex 29 Rt 1",
+    "route": "I-95",
+    "jurisdiction": "",
+    "lat": 42.2292,
+    "lng": -71.18214,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406566-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13001",
+    "name": "I-90: RampUA/D-Logan-MM0.1-E. Boston-Upper ARR/DEP",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 42.369,
+    "lng": -71.02593,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1472-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13002",
+    "name": "I-290: 290-MM020.1WB-Worcester-Ex 22 I-290",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.28996,
+    "lng": -71.7929,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435566-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13005",
+    "name": "I-93: I-93-NB-MM32.7-Wilmington-After Ex 33 Concord St.",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.55978,
+    "lng": -71.14132,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435506-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13006",
+    "name": "RT-228: Rt3-ME-MM34.5-Rockland-Ex 35 Hingham St",
+    "route": "RT-228",
+    "jurisdiction": "",
+    "lat": 42.16599,
+    "lng": -70.89314,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435453-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13008",
+    "name": "RT-3: Rt3-SB-MM40.7-Braintree-Ex 40 Union St rotary",
+    "route": "RT-3",
+    "jurisdiction": "SB",
+    "lat": 41.87388,
+    "lng": -70.60157,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435464-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13010",
+    "name": "I-93: I-93-NB-MM13.5-Boston-b/w Ex 13B & 14 Savin Hill",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.30985,
+    "lng": -71.05335,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406557-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13011",
+    "name": "US 6: Rt6-WB-MM91.0-Eastham-@ Orleans Rotary",
+    "route": "US 6",
+    "jurisdiction": "WB",
+    "lat": 41.7989,
+    "lng": -69.9829,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435467-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13013",
+    "name": "I-290: I-290-WB-MM7.8-Worcester-at I-190SB Onramp",
+    "route": "I-290",
+    "jurisdiction": "WB",
+    "lat": 42.28649,
+    "lng": -71.79763,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435573-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11989",
+    "name": "I-495: Rt24-SB-MM23.0-Bridgewater-Ex 22A I-495 SB",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 41.94871,
+    "lng": -71.02317,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435480-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13016",
+    "name": "I-93: I-93-NB-MM11.3-Boston-b/w x11 & x12 Neponset",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.28053,
+    "lng": -71.04621,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435500-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13019",
+    "name": "I-91: I-91-SB-MM12.4-Holyoke-Ex 12 Lower Westfield Rd",
+    "route": "I-91",
+    "jurisdiction": "SB",
+    "lat": 42.17424,
+    "lng": -72.64369,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1478-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13020",
+    "name": "I-90: I-90-EB-MM26.4-Blandford-@ Maint. Facility [TZ-2]",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.22418,
+    "lng": -72.96852,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432530-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11997",
+    "name": "I-93: I-495-NB-MM94.6-Tewksbury-Ex 94 Rt 133",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.66476,
+    "lng": -71.19443,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432501-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13023",
+    "name": "I-91: I-91-ME-MM22.9-Northampton-North of Ex 23 Rt 5",
+    "route": "I-91",
+    "jurisdiction": "",
+    "lat": 42.30869,
+    "lng": -72.6223,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1674-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13024",
+    "name": "I-290: 290-MM027.0EB-Northborough-Ex 27 Church St",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.33239,
+    "lng": -71.67908,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435570-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13025",
+    "name": "US 3: Rt3-SB-MM88.2-Chelmsford-1.3 mi before Ex 86 Rt 40",
+    "route": "US 3",
+    "jurisdiction": "SB",
+    "lat": 42.64642,
+    "lng": -71.41781,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406611-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13027",
+    "name": "I-95: I-95-SB-MM65.3-Peabody-before Ex 64 Rt 128",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.53295,
+    "lng": -70.98187,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435544-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13028",
+    "name": "I-93: I-93-SB-MM44.4-Methuen-before Ex 43 River Rd",
+    "route": "I-93",
+    "jurisdiction": "SB",
+    "lat": 42.7182,
+    "lng": -71.20983,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435511-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13029",
+    "name": "I-91: I-91-SB-MM3.6-Springfield-Ex 1 Columbus Ramp",
+    "route": "I-91",
+    "jurisdiction": "SB",
+    "lat": 42.07517,
+    "lng": -72.58244,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1280-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13032",
+    "name": "I-93: I-93-ME-MM15.5-Boston-Ex 15B",
+    "route": "I-93",
+    "jurisdiction": "",
+    "lat": 42.33574,
+    "lng": -71.0651,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1300-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13035",
+    "name": "I-91: I-91-NB-MM5.2-Springfield-Ex 5 E. Columbus Ave",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.09633,
+    "lng": -72.58626,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1670-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13036",
+    "name": "US 3: I-95-SB-Burlington-Exit 32 Rt 3",
+    "route": "US 3",
+    "jurisdiction": "SB",
+    "lat": 42.47776,
+    "lng": -71.21644,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406560-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "13037",
+    "name": "I-290: 290-MM021.8EB-Worcester-Ex 24 Plantation St",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.293,
+    "lng": -71.76138,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435567-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13038",
+    "name": "I-290: 290-MM016.3WB-Worcester-before Ex 15 College Sq.",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.24231,
+    "lng": -71.81034,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435559-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13039",
+    "name": "I-93 HOV: I-93-SB-MM15.8-Boston-before Hegarty Br",
+    "route": "I-93 HOV",
+    "jurisdiction": "SB",
+    "lat": 42.3399,
+    "lng": -71.06356,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1215-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13041",
+    "name": "I-90: I-90-WB-MM79.4-Charlton-@ MSP C10 West side",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.13533,
+    "lng": -72.04124,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432525-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13043",
+    "name": "I-90: I-90-EB-MM62.6-Palmer-Ex 63 Rt 32",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.17214,
+    "lng": -72.33234,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407966-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13044",
+    "name": "I-495: I-495-SB-MM88.2-Chelmsford-Ex 88 Rt 110",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 42.60721,
+    "lng": -71.32599,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432507-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13045",
+    "name": "RT-62: I-495-SB-MM67.2-Berlin-Ex 67 Rt 62",
+    "route": "RT-62",
+    "jurisdiction": "SB",
+    "lat": 42.39451,
+    "lng": -71.60754,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432516-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13046",
+    "name": "I-395: 290-MM012.3EB-Auburn-before Ex 12 Rte 12 Southbridge St.",
+    "route": "I-395",
+    "jurisdiction": "",
+    "lat": 42.19059,
+    "lng": -71.84669,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435555-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13047",
+    "name": "I-95: I-95-NB-MM56.9-Wakefield-0.3 mi past Ex 56 Rt 28",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.50497,
+    "lng": -71.09766,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435533-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12023",
+    "name": "I-495: I-495-SB-MM98.4-Andover-1.3 mi before Ex 97 I-93",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 42.67481,
+    "lng": -71.17188,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432499-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13049",
+    "name": "I-495: I-495-SB-MM87.7-Chelmsford-Rt4 North St, past Ex88",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 42.60507,
+    "lng": -71.34488,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432508-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13053",
+    "name": "I-290: 290-MM022.3EB-Shrewsbury-Ex 25 Main St",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.29474,
+    "lng": -71.75127,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435568-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13054",
+    "name": "I-93: RoadSSCN-NB-MM0.1-S. Boston-S. Sta. Conn a",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.34838,
+    "lng": -71.05761,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1428-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13055",
+    "name": "I-290: 290-MM015.3WB-Worcester-Ex 14 Rte 12 Hope Ave.",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.23302,
+    "lng": -71.82278,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435557-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13056",
+    "name": "I-90: I-90-EB-MM78.8-Sturbridge-end of Ex 78 I-84 onramp",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.13125,
+    "lng": -72.05422,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407731-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13058",
+    "name": "I-90: I-90-EB-MM57.7-Ludlow-EB gantry [TZ-4]",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.15992,
+    "lng": -72.4193,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407980-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13060",
+    "name": "I-195: I-195-EB-MM13.8-Fall River-Ex 14A Rt 24",
+    "route": "I-195",
+    "jurisdiction": "EB",
+    "lat": 41.68494,
+    "lng": -71.1364,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435549-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13061",
+    "name": "I-95: I-95-NB-MM25.1-Canton-0.75 mi before Ex 26 I-93",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.1925,
+    "lng": -71.15096,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435516-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13062",
+    "name": "I-93: Ramp K-NB-Boston-93N x20 a",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.33692,
+    "lng": -71.06493,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1500-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "13063",
+    "name": "I-290: 290-MM019.1WB-Worcester-Ex 21 Rt 70 Lincoln St.",
+    "route": "I-290",
+    "jurisdiction": "",
+    "lat": 42.27637,
+    "lng": -71.79692,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435565-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13065",
+    "name": "RT-3: Rt3-NB-MM39.0-Weymouth-1.5 mi before Ex 40 Union",
+    "route": "RT-3",
+    "jurisdiction": "NB",
+    "lat": 42.19901,
+    "lng": -70.96778,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435459-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13066",
+    "name": "I-91: I-91-ME-MM50.4-Bernardston-Ex 50 Rt 10",
+    "route": "I-91",
+    "jurisdiction": "",
+    "lat": 42.67113,
+    "lng": -72.54285,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1677-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13067",
+    "name": "RT-24: Rt24-NB-MM7.2-Fall River-1mi before Ex8 Airport Rd",
+    "route": "RT-24",
+    "jurisdiction": "NB",
+    "lat": 41.73886,
+    "lng": -71.11923,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435471-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13068",
+    "name": "I-95: I-95-SB-Lexington-Exit 30 Rt 2A",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.44032,
+    "lng": -71.25828,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406430-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13069",
+    "name": "RT-3: Rt3-NB-MM39.4-Braintree-1 mi before Ex 40 Union St",
+    "route": "RT-3",
+    "jurisdiction": "NB",
+    "lat": 42.20064,
+    "lng": -70.97409,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435460-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13070",
+    "name": "RT-117: I-495-NB-MM70.2-Bolton-Ex 70 Rt 117",
+    "route": "RT-117",
+    "jurisdiction": "NB",
+    "lat": 42.43068,
+    "lng": -71.59182,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432514-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13071",
+    "name": "RT-140: 290-MM024.8ME-Shrewsbury-Ex 26 Rt 140 Boylston St.",
+    "route": "RT-140",
+    "jurisdiction": "",
+    "lat": 42.32138,
+    "lng": -71.7191,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435569-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13072",
+    "name": "I-95: I-95-NB-MM70.0-Danvers-north of Rt 1 SB Br",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.59608,
+    "lng": -70.96345,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406567-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13073",
+    "name": "RT-3: Road STWB-WB-TNL-Storrow WB",
+    "route": "RT-3",
+    "jurisdiction": "WB",
+    "lat": 42.36493,
+    "lng": -71.06981,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1407-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13076",
+    "name": "I-90: I-90-WB-MM45.7-W. Springfield-Ex 45 I-91 & Rt5",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.15367,
+    "lng": -72.63885,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407963-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13077",
+    "name": "I-291: I-93-NB-MM3.5-Randolph-Ex 4 Rt 24",
+    "route": "I-291",
+    "jurisdiction": "NB",
+    "lat": 42.10915,
+    "lng": -72.59714,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1278-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13079",
+    "name": "I-495: I-495-NB-MM64.9-Marlboro-Ex 65 I-290",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.36299,
+    "lng": -71.58997,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432518-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13080",
+    "name": "RT-3: Rt3-NB-MM14.8-Plymouth-Ex 15 Samoset St",
+    "route": "RT-3",
+    "jurisdiction": "NB",
+    "lat": 42.18768,
+    "lng": -70.93237,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435441-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13082",
+    "name": "US 1: Ramp TC-SB-Charlestown-Tobin to 93S/Storrow b",
+    "route": "US 1",
+    "jurisdiction": "SB",
+    "lat": 42.36975,
+    "lng": -71.06601,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432478-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "13083",
+    "name": "RT-24: Rt24-NB-MM24.3-Bridgewater-Ex 24 Rt 104",
+    "route": "RT-24",
+    "jurisdiction": "NB",
+    "lat": 41.96581,
+    "lng": -71.02776,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435482-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13084",
+    "name": "I-95: I-95-SB-MM35.8-Needham-Ex 35 Highland Ave",
+    "route": "I-95",
+    "jurisdiction": "SB",
+    "lat": 42.30289,
+    "lng": -71.22465,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432543-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13085",
+    "name": "I-90: I-90-EB-MM78.3-Sturbridge-Ex 78 I-84 Underpass",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.12949,
+    "lng": -72.06367,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407735-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13086",
+    "name": "I-90: I-90-EB-MM116.6-Natick-Ex 117 Rt 30",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.31279,
+    "lng": -71.38484,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407728-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13087",
+    "name": "I-90: RampSA-Logan-MM0.1-E. Boston-Harborside to ARR",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 42.36827,
+    "lng": -71.02564,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1666-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13088",
+    "name": "I-91: I-91-NB-MM20.8-Holyoke-1.8 mi before Ex 23 Rt 5",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.28441,
+    "lng": -72.61549,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1483-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13089",
+    "name": "I-90: I-90-EB-MM79.2-Sturbridge-0.7 mi before I-84 merge",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.1336,
+    "lng": -72.047,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407732-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13090",
+    "name": "US 3: Rt3-NB-MM77.2-Billerica-Ex 76 Concord Rd",
+    "route": "US 3",
+    "jurisdiction": "NB",
+    "lat": 42.54301,
+    "lng": -71.28349,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407715-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13092",
+    "name": "I-91: I-91-NB-MM37.7-Deerfield-@ Lee Rd",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.50991,
+    "lng": -72.62146,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1676-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13093",
+    "name": "I-90: RampET-Logan-MM0.1-E. Boston-Logan to 90W c",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 42.36893,
+    "lng": -71.0259,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406456-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13094",
+    "name": "RT-140: I-495-SB-MM30.0-Mansfield-Ex 30 Rt 140 Main St",
+    "route": "RT-140",
+    "jurisdiction": "SB",
+    "lat": 42.00014,
+    "lng": -71.21095,
+    "image_url": "https://public.carsprogram.org/cameras/MA/423640-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12071",
+    "name": "I-93: RoadFRNB-NB-MM0.9-Boston-FRNB-650",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.34356,
+    "lng": -71.06132,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1316-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13097",
+    "name": "US 1: Rt1-NB-Peabody-@ Jughandle",
+    "route": "US 1",
+    "jurisdiction": "NB",
+    "lat": 42.52941,
+    "lng": -70.99289,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406571-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13098",
+    "name": "I-295: I-295-NB-MM0.6-N. Attleboro-Ex 2 Rt1",
+    "route": "I-295",
+    "jurisdiction": "NB",
+    "lat": 41.95039,
+    "lng": -71.36769,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435574-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13099",
+    "name": "I-495: I-495-NB-MM107.4-Haverhill-Ex 108 Rt 97 Broadway",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.77385,
+    "lng": -71.11855,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406576-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13100",
+    "name": "US 1: Ramp STB-NB-Charlestown-Storrow to Tobin b",
+    "route": "US 1",
+    "jurisdiction": "NB",
+    "lat": 42.37068,
+    "lng": -71.06933,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1251-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13101",
+    "name": "US 6: Rt6-NB-MM55.2-Bourne-Ex 55 by Sagamore Br Conn",
+    "route": "US 6",
+    "jurisdiction": "NB",
+    "lat": 41.7717,
+    "lng": -70.54354,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1187-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13102",
+    "name": "I-90: I-90-WB-MM131.5-Allston/Brighton-West of Comm. Ave",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.35128,
+    "lng": -71.11236,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407977-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "13103",
+    "name": "RT-3: Rt3-SB-MM7.3-Plymouth-Ex 7 Clark Rd",
+    "route": "RT-3",
+    "jurisdiction": "SB",
+    "lat": 41.87378,
+    "lng": -70.60146,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435438-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13104",
+    "name": "RT-119: I-495-SB-MM80.2-Littleton-Ex 80 Rt 119",
+    "route": "RT-119",
+    "jurisdiction": "SB",
+    "lat": 42.54967,
+    "lng": -71.47871,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432510-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13105",
+    "name": "I-93: RoadFRNB-NB-MM0.4-Boston-FRNB-052",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.33671,
+    "lng": -71.065,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1217-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12081",
+    "name": "I-95: I-095-NB-Wellesley-Ex 20 Rt 9",
+    "route": "I-95",
+    "jurisdiction": "NB",
+    "lat": 42.31689,
+    "lng": -71.23376,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432545-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13106",
+    "name": "I-290: I-290-EB-MM18.1-Northboro-Ex 30 Solomon Pond Rd",
+    "route": "I-290",
+    "jurisdiction": "EB",
+    "lat": 42.34623,
+    "lng": -71.62464,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435572-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13108",
+    "name": "RT-106: 495-MM040.9ME-82-Franklin-Ex 41 King St",
+    "route": "RT-106",
+    "jurisdiction": "",
+    "lat": 42.03225,
+    "lng": -71.24092,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406572-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13109",
+    "name": "RT-53: Rt3-SB-MM31.8-Hanover-Ex 32 Washington St",
+    "route": "RT-53",
+    "jurisdiction": "SB",
+    "lat": 42.15055,
+    "lng": -70.84546,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435452-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13110",
+    "name": "I-93: I-93-NB-MM16.7-Boston-@ Frontage Rd merge",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.35163,
+    "lng": -71.05594,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1409-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13111",
+    "name": "I-93: I-93-NB-MM16.5-Boston-over Broadway Br",
+    "route": "I-93",
+    "jurisdiction": "NB",
+    "lat": 42.34892,
+    "lng": -71.05732,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1214-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13112",
+    "name": "I-495: I-495-SB-MM48.4-Milford-Ex 48 Rt 109",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 42.14812,
+    "lng": -71.48444,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406578-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13113",
+    "name": "RT-28: RoadOHWY-SB-MM0.1-Boston-Leverett Circle",
+    "route": "RT-28",
+    "jurisdiction": "SB",
+    "lat": 42.36672,
+    "lng": -71.0682,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1600-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13114",
+    "name": "RT-3: RampL-CN-NB-MM0.1-Boston-Leverett to 93N a",
+    "route": "RT-3",
+    "jurisdiction": "NB",
+    "lat": 42.36656,
+    "lng": -71.06626,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1298-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13115",
+    "name": "US 3: Rt3-NB-MM80.7-Chelmsford-Ex 79 Rt 129",
+    "route": "US 3",
+    "jurisdiction": "NB",
+    "lat": 42.58851,
+    "lng": -71.31246,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406605-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "13116",
+    "name": "I-91: I-91-NB-MM7.4-Springfield-Ex 8 Rt 116",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.12132,
+    "lng": -72.60891,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1671-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13117",
+    "name": "I-90: 090-MM123.4EB-Weston-at Ex 123A/B I-95, Rt 30",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 42.33977,
+    "lng": -71.26285,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407730-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12093",
+    "name": "I-91: I-91-NB-MM35.9-Deerfield-Ex 36 Rt 116",
+    "route": "I-91",
+    "jurisdiction": "NB",
+    "lat": 42.48431,
+    "lng": -72.61607,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1287-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13118",
+    "name": "I-90: I-90-EB-MM105.0-Hopkinton-East of gantry [TZ-7]",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.25091,
+    "lng": -71.58528,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407972-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "13119",
+    "name": "US 3: 003-MM082.7NB-Lowell- Ex 81C Rt 110",
+    "route": "US 3",
+    "jurisdiction": "",
+    "lat": 42.61364,
+    "lng": -71.32861,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406606-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "13120",
+    "name": "I-495: I-495-SB-MM103.6-Methuen-0.5 mi before Ex104 Rt110",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 42.7353,
+    "lng": -71.14165,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406573-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12096",
+    "name": "I-90: I-90-WB-MM96.3-Millbury-Ex 96 Rt 122",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.2225,
+    "lng": -71.74104,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407969-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12108",
+    "name": "RT-3: RampNS-SB-MM1.5-Boston-bottom 93S x18",
+    "route": "RT-3",
+    "jurisdiction": "SB",
+    "lat": 42.36629,
+    "lng": -71.06398,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1405-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11138",
+    "name": "RT-3: Rt3-NB-MM26.9-Pembroke-Ex 27 Rt 139",
+    "route": "RT-3",
+    "jurisdiction": "NB",
+    "lat": 42.10938,
+    "lng": -70.76817,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435450-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12179",
+    "name": "RT-3: Wash. St.-MM000.0SB-VMSC-Braintree-I-93 overpass",
+    "route": "RT-3",
+    "jurisdiction": "",
+    "lat": 42.22558,
+    "lng": -71.0045,
+    "image_url": "https://public.carsprogram.org/cameras/MA/455433-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11163",
+    "name": "RT-110: LowellConn-SB-MM0.8-Chelmsford-Ex 3 Industrial Ave",
+    "route": "RT-110",
+    "jurisdiction": "SB",
+    "lat": 42.61621,
+    "lng": -71.32585,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435588-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12187",
+    "name": "I-93: RoadSBHR-E&W-MM0.4-S. Boston-@ Cabot Yard",
+    "route": "I-93",
+    "jurisdiction": "",
+    "lat": 42.34003,
+    "lng": -71.06334,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432480-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12196",
+    "name": "I-93 HOV: RampXX-EB-MM0.1-Boston-Kneeland to HOV-E c",
+    "route": "I-93 HOV",
+    "jurisdiction": "EB",
+    "lat": 42.34597,
+    "lng": -71.06028,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1234-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12210",
+    "name": "I-495: I-495-SB-MM57.6-Hopkinton-Ex 58 I-90",
+    "route": "I-495",
+    "jurisdiction": "SB",
+    "lat": 42.26277,
+    "lng": -71.56292,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435581-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12211",
+    "name": "I-495: I-495-NB-MM111.3-Haverhill-Ex 111 Rt 110",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.80218,
+    "lng": -71.05002,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435586-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12215",
+    "name": "I-90: I-90-WB-Warren-@ Maint.  Facility [TZ-5]",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.18019,
+    "lng": -72.20488,
+    "image_url": "https://public.carsprogram.org/cameras/MA/432528-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12218",
+    "name": "I-93 HOV: RoadSSCN-NB-MM0.1-S. Boston-S. Sta. Conn b",
+    "route": "I-93 HOV",
+    "jurisdiction": "NB",
+    "lat": 42.34874,
+    "lng": -71.05944,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1126-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12219",
+    "name": "I-93: Ramp KK-WB-Boston-93N x20 to 90W e",
+    "route": "I-93",
+    "jurisdiction": "WB",
+    "lat": 42.3469,
+    "lng": -71.05872,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1426-fullJpeg.jpg?1788648300000",
+    "video_url": ""
+  },
+  {
+    "id": "12221",
+    "name": "I-90: I-90-EB-MM93.6-Millbury-Ex 94 Rts 122A & 146",
+    "route": "I-90",
+    "jurisdiction": "EB",
+    "lat": 42.20722,
+    "lng": -71.78761,
+    "image_url": "https://public.carsprogram.org/cameras/MA/407734-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12225",
+    "name": "I-495: I-495-NB-MM14.3-Middleboro-before Ex 15",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 41.89843,
+    "lng": -70.95813,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435576-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12233",
+    "name": "US 3: Rt3-NB-MM72.9-Bedford-0.6 mi before Ex 73 Rt 62",
+    "route": "US 3",
+    "jurisdiction": "NB",
+    "lat": 42.49241,
+    "lng": -71.23332,
+    "image_url": "https://public.carsprogram.org/cameras/MA/406600-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12235",
+    "name": "I-90: I-90-WB-MM127.5-Newton-past Ex 127 Newton Corner",
+    "route": "I-90",
+    "jurisdiction": "WB",
+    "lat": 42.35642,
+    "lng": -71.18476,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435496-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "11230",
+    "name": "I-93: I-93-ME-MM15.4-Boston-before Southampton St",
+    "route": "I-93",
+    "jurisdiction": "",
+    "lat": 42.33436,
+    "lng": -71.06455,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1602-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12255",
+    "name": "I-495: I-495-NB-MM102.9-Methuen-before Ex 46 Rt 110",
+    "route": "I-495",
+    "jurisdiction": "NB",
+    "lat": 42.72493,
+    "lng": -71.13737,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435582-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12281",
+    "name": "I-93 HOV: RoadALBS-SB-MM0.1-Boston-by South Sta Term",
+    "route": "I-93 HOV",
+    "jurisdiction": "SB",
+    "lat": 42.34816,
+    "lng": -71.05966,
+    "image_url": "https://public.carsprogram.org/cameras/MA/1225-fullJpeg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "12287",
+    "name": "RT-3A: Rt3-SB-MM17.8-Kingston-Ex 18 Main St",
+    "route": "RT-3A",
+    "jurisdiction": "SB",
+    "lat": 41.98816,
+    "lng": -70.71766,
+    "image_url": "https://public.carsprogram.org/cameras/MA/435445-fullJpeg.jpg",
+    "video_url": ""
+  }
+]

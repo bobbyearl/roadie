@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "CSDATY-1",
+    "name": "Watertown North - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.95,
+    "lng": -97.06,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDATY/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDATY-4",
+    "name": "Watertown North - Road Surface View",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.95,
+    "lng": -97.06,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDATY/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDATY-0",
+    "name": "Watertown North - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.95,
+    "lng": -97.06,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDATY/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDATY-3",
+    "name": "Watertown North - Camera Looking East",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.95,
+    "lng": -97.06,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDATY/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK0-0",
+    "name": "Brookings South - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.25416,
+    "lng": -96.75721,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK0/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK0-1",
+    "name": "Brookings South - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.25416,
+    "lng": -96.75721,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK0/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK0-2",
+    "name": "Brookings South - Bridge View",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.25416,
+    "lng": -96.75721,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK0/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK0-3",
+    "name": "Brookings South - Camera Looking North Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.25416,
+    "lng": -96.75721,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK0/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK0-4",
+    "name": "Brookings South - Camera Looking South Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.25416,
+    "lng": -96.75721,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK0/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK1-0",
+    "name": "Brookings South - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.28175399,
+    "lng": -96.75770145,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK1/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK1-1",
+    "name": "Brookings South - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.28175399,
+    "lng": -96.75770145,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK1/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK1-2",
+    "name": "Brookings South - Camera Looking West",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.28175399,
+    "lng": -96.75770145,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK1/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK1-3",
+    "name": "Brookings South - Road Surface View",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.28175399,
+    "lng": -96.75770145,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK1/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK1-4",
+    "name": "Brookings South - Camera Looking North Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.28175399,
+    "lng": -96.75770145,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK1/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK1-5",
+    "name": "Brookings South - Camera Looking South Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.28175399,
+    "lng": -96.75770145,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK1/5/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK2-0",
+    "name": "Brookings South - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.3114342,
+    "lng": -96.75796638,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK2/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK2-1",
+    "name": "Brookings South - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.3114342,
+    "lng": -96.75796638,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK2/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK2-2",
+    "name": "Brookings South - Camera Looking West",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.3114342,
+    "lng": -96.75796638,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK2/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK2-3",
+    "name": "Brookings South - Road Surface View",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.3114342,
+    "lng": -96.75796638,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK2/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK2-4",
+    "name": "Brookings South - Camera Looking North Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.3114342,
+    "lng": -96.75796638,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK2/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK2-5",
+    "name": "Brookings South - Camera Looking South Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.3114342,
+    "lng": -96.75796638,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK2/5/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK3-0",
+    "name": "Brookings South - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.32575195,
+    "lng": -96.75777152,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK3/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK3-1",
+    "name": "Brookings South - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.32575195,
+    "lng": -96.75777152,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK3/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK3-2",
+    "name": "Brookings South - Camera Looking West",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.32575195,
+    "lng": -96.75777152,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK3/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK3-3",
+    "name": "Brookings South - Road Surface View",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.32575195,
+    "lng": -96.75777152,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK3/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK3-4",
+    "name": "Brookings South - Camera Looking North Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.32575195,
+    "lng": -96.75777152,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK3/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK3-5",
+    "name": "Brookings South - Camera Looking South Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.32575195,
+    "lng": -96.75777152,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK3/5/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK4-0",
+    "name": "Brookings South - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.09463783,
+    "lng": -96.75925648,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK4/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK4-1",
+    "name": "Brookings South - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.09463783,
+    "lng": -96.75925648,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK4/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK4-2",
+    "name": "Brookings South - Road Surface View",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.09463783,
+    "lng": -96.75925648,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK4/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK4-3",
+    "name": "Brookings South - Camera Looking North Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.09463783,
+    "lng": -96.75925648,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK4/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBK4-4",
+    "name": "Brookings South - Camera Looking South Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.09463783,
+    "lng": -96.75925648,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBK4/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBRD-0",
+    "name": "Brandon - Camera Looking North",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.60800078,
+    "lng": -96.57224717,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBRD/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBRD-1",
+    "name": "Brandon - Camera Looking South",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.60800078,
+    "lng": -96.57224717,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBRD/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBRD-2",
+    "name": "Brandon - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.60800078,
+    "lng": -96.57224717,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBRD/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBRD-3",
+    "name": "Brandon - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.60800078,
+    "lng": -96.57224717,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBRD/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBRD-4",
+    "name": "Brandon - Camera Looking West Zoom",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.60800078,
+    "lng": -96.57224717,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBRD/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDBRD-5",
+    "name": "Brandon - Camera Looking East Zoom",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.60800078,
+    "lng": -96.57224717,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDBRD/5/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCHE-1",
+    "name": "Chamberlain East - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.7568,
+    "lng": -99.2724,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCHE/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCHE-0",
+    "name": "Chamberlain East - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.7568,
+    "lng": -99.2724,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCHE/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCHE-3",
+    "name": "Chamberlain East - Road Surface View",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.7568,
+    "lng": -99.2724,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCHE/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCHE-2",
+    "name": "Chamberlain East - Camera Looking South",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.7568,
+    "lng": -99.2724,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCHE/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCHW-1",
+    "name": "Chamberlain West - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.812,
+    "lng": -99.4228,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCHW/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCHW-0",
+    "name": "Chamberlain West - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.812,
+    "lng": -99.4228,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCHW/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCHW-3",
+    "name": "Chamberlain West - Road Surface View",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.812,
+    "lng": -99.4228,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCHW/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCHW-2",
+    "name": "Chamberlain West - Camera Looking North",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.812,
+    "lng": -99.4228,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCHW/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCZH-1",
+    "name": "Crazy Horse - Camera Looking South",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.820057,
+    "lng": -103.640257,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCZH/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCZH-0",
+    "name": "Crazy Horse - Camera Looking North",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.820057,
+    "lng": -103.640257,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCZH/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCZH-3",
+    "name": "Crazy Horse - road surface view",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.820057,
+    "lng": -103.640257,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCZH/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDCZH-2",
+    "name": "Crazy Horse - Camera Looking South zoom",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.820057,
+    "lng": -103.640257,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDCZH/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDDWD-1",
+    "name": "Deadwood - Camera Looking West",
+    "route": "US-85",
+    "jurisdiction": "",
+    "lat": 44.38,
+    "lng": -103.72,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDDWD/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDDWD-0",
+    "name": "Deadwood - Camera Looking East",
+    "route": "US-85",
+    "jurisdiction": "",
+    "lat": 44.38,
+    "lng": -103.72,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDDWD/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDDWD-2",
+    "name": "Deadwood - road surface view",
+    "route": "US-85",
+    "jurisdiction": "",
+    "lat": 44.38,
+    "lng": -103.72,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDDWD/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDHRM-0",
+    "name": "Hermosa - Camera Illuminator",
+    "route": "SD-79",
+    "jurisdiction": "",
+    "lat": 43.8394268,
+    "lng": -103.1993467,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDHRM/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDHRM-2",
+    "name": "Hermosa - Camera Looking North",
+    "route": "SD-79",
+    "jurisdiction": "",
+    "lat": 43.8394268,
+    "lng": -103.1993467,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDHRM/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDHRM-4",
+    "name": "Hermosa - Camera Looking South",
+    "route": "SD-79",
+    "jurisdiction": "",
+    "lat": 43.8394268,
+    "lng": -103.1993467,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDHRM/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDJEF-0",
+    "name": "Jefferson - Camera Looking Northwest",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 42.64890212,
+    "lng": -96.63393322,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDJEF/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDJEF-2",
+    "name": "Jefferson - Camera Looking Southeast",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 42.64890212,
+    "lng": -96.63393322,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDJEF/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDJEF-4",
+    "name": "Jefferson - Camera Illuminator",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 42.64890212,
+    "lng": -96.63393322,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDJEF/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDJNC-1",
+    "name": "Junction City - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 42.784352,
+    "lng": -96.790046,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDJNC/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDJNC-0",
+    "name": "Junction City - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 42.784352,
+    "lng": -96.790046,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDJNC/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDJNC-2",
+    "name": "Junction City - road surface view",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 42.784352,
+    "lng": -96.790046,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDJNC/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDKEY-1",
+    "name": "Keystone Wye - Camera Looking West",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.927,
+    "lng": -103.433,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDKEY/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDKEY-4",
+    "name": "Keystone Wye - Camera Looking East zoomed",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.927,
+    "lng": -103.433,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDKEY/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDKEY-0",
+    "name": "Keystone Wye - Camera Looking East",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.927,
+    "lng": -103.433,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDKEY/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDKEY-3",
+    "name": "Keystone Wye - road surface view",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.927,
+    "lng": -103.433,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDKEY/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDKEY-2",
+    "name": "Keystone Wye - Camera Looking East zoomed",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.927,
+    "lng": -103.433,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDKEY/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMAV-1",
+    "name": "Maverick Junction - Camera Looking South",
+    "route": "US-18",
+    "jurisdiction": "",
+    "lat": 43.39993722,
+    "lng": -103.39658634,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMAV/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMAV-0",
+    "name": "Maverick Junction - Camera Looking North",
+    "route": "US-18",
+    "jurisdiction": "",
+    "lat": 43.39993722,
+    "lng": -103.39658634,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMAV/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMAV-3",
+    "name": "Maverick Junction - road surface view",
+    "route": "US-18",
+    "jurisdiction": "",
+    "lat": 43.39993722,
+    "lng": -103.39658634,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMAV/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMAV-2",
+    "name": "Maverick Junction - Camera Looking West",
+    "route": "US-18",
+    "jurisdiction": "",
+    "lat": 43.39993722,
+    "lng": -103.39658634,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMAV/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMUR-0",
+    "name": "Murdo West - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.88,
+    "lng": -100.71,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMUR/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMUR-3",
+    "name": "Murdo West - Road Surface View",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.88,
+    "lng": -100.71,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMUR/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMUR-2",
+    "name": "Murdo West - Camera Looking North",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.88,
+    "lng": -100.71,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMUR/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDORE-1",
+    "name": "Oreville - Camera Looking South",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.89180086,
+    "lng": -103.58859815,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDORE/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDORE-0",
+    "name": "Oreville - Camera Looking North",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.89180086,
+    "lng": -103.58859815,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDORE/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDORE-3",
+    "name": "Oreville - road surface view",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.89180086,
+    "lng": -103.58859815,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDORE/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDORE-2",
+    "name": "Oreville - Camera Looking East",
+    "route": "US-16",
+    "jurisdiction": "",
+    "lat": 43.89180086,
+    "lng": -103.58859815,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDORE/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDRCE-1",
+    "name": "Elk Vale Rd - Camera Looking South",
+    "route": "US-16B",
+    "jurisdiction": "",
+    "lat": 44.093,
+    "lng": -103.151,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDRCE/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDRCE-0",
+    "name": "Elk Vale Rd - Camera Looking North",
+    "route": "US-16B",
+    "jurisdiction": "",
+    "lat": 44.093,
+    "lng": -103.151,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDRCE/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDRCE-3",
+    "name": "Elk Vale Rd - Camera Looking West",
+    "route": "US-16B",
+    "jurisdiction": "",
+    "lat": 44.093,
+    "lng": -103.151,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDRCE/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDRCE-2",
+    "name": "Elk Vale Rd - Illuminator Camera",
+    "route": "US-16B",
+    "jurisdiction": "",
+    "lat": 44.093,
+    "lng": -103.151,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDRCE/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDRCW-1",
+    "name": "Rapid City West - Camera Looking South (EB)",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.135,
+    "lng": -103.285,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDRCW/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDRCW-0",
+    "name": "Rapid City West - Camera Looking North (WB)",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.135,
+    "lng": -103.285,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDRCW/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDRCW-3",
+    "name": "Rapid City West - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.135,
+    "lng": -103.285,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDRCW/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDRCW-2",
+    "name": "Rapid City West - road surface view",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.135,
+    "lng": -103.285,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDRCW/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFE-1",
+    "name": "Sioux Falls East - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.608,
+    "lng": -96.663,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFE/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFE-0",
+    "name": "Sioux Falls East - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.608,
+    "lng": -96.663,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFE/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFE-3",
+    "name": "Sioux Falls East - Camera Looking North",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.608,
+    "lng": -96.663,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFE/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFE-2",
+    "name": "Sioux Falls East - Road Surface View",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.608,
+    "lng": -96.663,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFE/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFN-1",
+    "name": "Sioux Falls North - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 43.629,
+    "lng": -96.771,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFN/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFN-0",
+    "name": "Sioux Falls North - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 43.629,
+    "lng": -96.771,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFN/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFN-3",
+    "name": "Sioux Falls North - Camera Looking East",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 43.629,
+    "lng": -96.771,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFN/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFN-2",
+    "name": "Sioux Falls North - Road Surface View",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 43.629,
+    "lng": -96.771,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFN/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFW-1",
+    "name": "Sioux Falls West - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.608,
+    "lng": -96.811,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFW/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFW-0",
+    "name": "Sioux Falls West - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.608,
+    "lng": -96.811,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFW/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFW-3",
+    "name": "Sioux Falls West - Camera Looking North",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.608,
+    "lng": -96.811,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFW/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSFW-2",
+    "name": "Sioux Falls West - Road Surface View",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.608,
+    "lng": -96.811,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSFW/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSGE-1",
+    "name": "Sturgis East - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.361,
+    "lng": -103.462,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSGE/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSGE-0",
+    "name": "Sturgis East - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.361,
+    "lng": -103.462,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSGE/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSGE-3",
+    "name": "Sturgis East - Camera Looking South",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.361,
+    "lng": -103.462,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSGE/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSGE-2",
+    "name": "Sturgis East - road surface view",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.361,
+    "lng": -103.462,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSGE/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSGW-1",
+    "name": "Sturgis West - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.426,
+    "lng": -103.564,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSGW/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSGW-0",
+    "name": "Sturgis West - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.426,
+    "lng": -103.564,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSGW/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSGW-3",
+    "name": "Sturgis West - Camera Looking North",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.426,
+    "lng": -103.564,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSGW/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSGW-2",
+    "name": "Sturgis West - road surface view",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.426,
+    "lng": -103.564,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSGW/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSIS-1",
+    "name": "Sisseton North - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.69,
+    "lng": -96.97,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSIS/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSIS-0",
+    "name": "Sisseton North - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.69,
+    "lng": -96.97,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSIS/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSIS-3",
+    "name": "Sisseton North - Road Surface View",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.69,
+    "lng": -96.97,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSIS/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSIS-2",
+    "name": "Sisseton North - Camera Looking East",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.69,
+    "lng": -96.97,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSIS/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSPH-1",
+    "name": "Spearfish West - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.5081,
+    "lng": -103.8588,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSPH/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSPH-0",
+    "name": "Spearfish West - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.5081,
+    "lng": -103.8588,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSPH/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSPH-3",
+    "name": "Spearfish West - Camera Looking North",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.5081,
+    "lng": -103.8588,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSPH/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSPH-2",
+    "name": "Spearfish West - road surface view",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.5081,
+    "lng": -103.8588,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSPH/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSPI-0",
+    "name": "Spring Creek - Camera Looking South",
+    "route": "SD-79",
+    "jurisdiction": "",
+    "lat": 43.95588645,
+    "lng": -103.1862782,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSPI/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSPI-2",
+    "name": "Spring Creek - Camera Looking North",
+    "route": "SD-79",
+    "jurisdiction": "",
+    "lat": 43.95588645,
+    "lng": -103.1862782,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSPI/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSPI-4",
+    "name": "Spring Creek - Camera Illuminator",
+    "route": "SD-79",
+    "jurisdiction": "",
+    "lat": 43.95588645,
+    "lng": -103.1862782,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSPI/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSTN-0",
+    "name": "Sturgis North - Camera Looking North",
+    "route": "SD-79",
+    "jurisdiction": "",
+    "lat": 44.51187,
+    "lng": -103.44771,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSTN/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSTN-1",
+    "name": "Sturgis North - Camera Looking South",
+    "route": "SD-79",
+    "jurisdiction": "",
+    "lat": 44.51187,
+    "lng": -103.44771,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSTN/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSTN-2",
+    "name": "Sturgis North - Camera Looking Surface",
+    "route": "SD-79",
+    "jurisdiction": "",
+    "lat": 44.51187,
+    "lng": -103.44771,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSTN/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDSTN-3",
+    "name": "Sturgis North - Camera Looking East",
+    "route": "SD-79",
+    "jurisdiction": "",
+    "lat": 44.51187,
+    "lng": -103.44771,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDSTN/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDTIL-0",
+    "name": "Tilford - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.316365,
+    "lng": -103.43675,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDTIL/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDTIL-1",
+    "name": "Tilford - Camera Illuminator",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.316365,
+    "lng": -103.43675,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDTIL/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDTIL-2",
+    "name": "Tilford - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.316365,
+    "lng": -103.43675,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDTIL/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDVLS-0",
+    "name": "Valley Springs - Camera Looking Surface",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.609357,
+    "lng": -96.462308,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDVLS/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDVLS-1",
+    "name": "Valley Springs - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.609357,
+    "lng": -96.462308,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDVLS/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDVLS-2",
+    "name": "Valley Springs - Camera Looking South",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.609357,
+    "lng": -96.462308,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDVLS/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDVVN-1",
+    "name": "Vivian Rest Area - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.912,
+    "lng": -100.198,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDVVN/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDVVN-4",
+    "name": "Vivian Rest Area - Rest Area Camera",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.912,
+    "lng": -100.198,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDVVN/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDVVN-0",
+    "name": "Vivian Rest Area - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.912,
+    "lng": -100.198,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDVVN/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDVVN-3",
+    "name": "Vivian Rest Area - Rest Area Camera Looking North",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.912,
+    "lng": -100.198,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDVVN/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDVVN-2",
+    "name": "Vivian Rest Area - road surface view",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.912,
+    "lng": -100.198,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDVVN/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWIL-0",
+    "name": "Wilmot - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.40358104,
+    "lng": -97.02019295,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWIL/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWIL-2",
+    "name": "Wilmot - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.40358104,
+    "lng": -97.02019295,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWIL/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWIL-4",
+    "name": "Wilmot - Camera Looking East",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.40358104,
+    "lng": -97.02019295,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWIL/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWIL-5",
+    "name": "Wilmot - Camera Looking West",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.40358104,
+    "lng": -97.02019295,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWIL/5/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWIL-6",
+    "name": "Wilmot - Camera Bridge",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.40358104,
+    "lng": -97.02019295,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWIL/6/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWIL-7",
+    "name": "Wilmot - Camera Rest Area",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.40358104,
+    "lng": -97.02019295,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWIL/7/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWIL-8",
+    "name": "Wilmot - Camera Illuminator",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 45.40358104,
+    "lng": -97.02019295,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWIL/8/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWLE-1",
+    "name": "Wall East - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.987,
+    "lng": -102.222,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWLE/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWLE-0",
+    "name": "Wall East - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.987,
+    "lng": -102.222,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWLE/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWLE-3",
+    "name": "Wall East - Camera Looking South",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.987,
+    "lng": -102.222,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWLE/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWLE-2",
+    "name": "Wall East - road surface view",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.987,
+    "lng": -102.222,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWLE/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWLW-1",
+    "name": "Wall West - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.009,
+    "lng": -102.279,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWLW/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWLW-0",
+    "name": "Wall West - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.009,
+    "lng": -102.279,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWLW/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWLW-3",
+    "name": "Wall West - Camera Looking North",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.009,
+    "lng": -102.279,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWLW/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWLW-2",
+    "name": "Wall West - road surface view",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.009,
+    "lng": -102.279,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWLW/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWWD-0",
+    "name": "Whitewood - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.45979356,
+    "lng": -103.6168895,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWWD/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWWD-1",
+    "name": "Whitewood - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.45979356,
+    "lng": -103.6168895,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWWD/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWWD-2",
+    "name": "Whitewood - Road Surface View",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.45979356,
+    "lng": -103.6168895,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWWD/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWWD-3",
+    "name": "Whitewood - Camera Looking West Zoom",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.45979356,
+    "lng": -103.6168895,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWWD/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDWWD-4",
+    "name": "Whitewood - Camera Looking East Zoom",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 44.45979356,
+    "lng": -103.6168895,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDWWD/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "SD41S-1",
+    "name": "Sioux Falls 41st St - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 43.515,
+    "lng": -96.781,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/SD41S/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "SD41S-0",
+    "name": "Sioux Falls 41st St - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 43.515,
+    "lng": -96.781,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/SD41S/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "SD41S-3",
+    "name": "Sioux Falls 41st St - Camera Looking East",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 43.515,
+    "lng": -96.781,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/SD41S/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "SD41S-2",
+    "name": "Sioux Falls 41st St - Camera Looking West",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 43.515,
+    "lng": -96.781,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/SD41S/2/latest.jpg",
+    "video_url": ""
+  }
+]

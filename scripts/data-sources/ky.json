@@ -1,0 +1,2542 @@
+[
+  {
+    "id": "587792",
+    "name": "I-65 just South of I-265 Exit 6 Indiana",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.345217,
+    "lng": -85.753507,
+    "image_url": "https://pws.trafficwise.org/pullover/172_65_56_11.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "587793",
+    "name": "I-65 at SR 60 Exit 7 Indiana",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.370025,
+    "lng": -85.754724,
+    "image_url": "https://www.trimarc.org/images/snapshots/IND_CCTV005.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "587794",
+    "name": "I-65 over Market St. Exit 0 Indiana",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.2694,
+    "lng": -85.7456,
+    "image_url": "https://pws.trafficwise.org/pullover/172_65_1_10.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "587795",
+    "name": "I-65 at Eastern Ave. Ind. Exit 2 Indiana",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.29485,
+    "lng": -85.755883,
+    "image_url": "https://www.trimarc.org/images/snapshots/IND_CCTV008.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "587796",
+    "name": "I-64 at Ind. 150",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.3027,
+    "lng": -85.8771,
+    "image_url": "https://pws.trafficwise.org/pullover/172_64_204_10.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "587797",
+    "name": "Sherman Minton Br (Indiana side)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.2821,
+    "lng": -85.82605,
+    "image_url": "https://pws.trafficwise.org/pullover/172_64_237_11.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "587798",
+    "name": "I-64 at New Albany, Ind.",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.2857,
+    "lng": -85.8291,
+    "image_url": "https://pws.trafficwise.org/pullover/172_64_234_10.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "587799",
+    "name": "I-64 at I-265 in Ind.",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.301483,
+    "lng": -85.849133,
+    "image_url": "https://www.trimarc.org/images/snapshots/CCTV027.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "587800",
+    "name": "I-65 at Sellersburg, Ind.(Exit 9 - SR 311)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.3935,
+    "lng": -85.7619,
+    "image_url": "https://pws.trafficwise.org/pullover/172_65_90_10.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "51",
+    "name": "CCTV05039",
+    "route": "I-71",
+    "jurisdiction": "North-South",
+    "lat": 38.291639,
+    "lng": -85.650625,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0048.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "64",
+    "name": "CCTV05052",
+    "route": "I-71",
+    "jurisdiction": "North",
+    "lat": 38.262228,
+    "lng": -85.723783,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0001.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "65",
+    "name": "CCTV05053",
+    "route": "I-264",
+    "jurisdiction": "East",
+    "lat": 38.188042,
+    "lng": -85.829481,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0065.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "66",
+    "name": "CCTV05054",
+    "route": "I-264",
+    "jurisdiction": "West",
+    "lat": 38.195394,
+    "lng": -85.828858,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0060.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "69",
+    "name": "CCTV05057",
+    "route": "I-264",
+    "jurisdiction": "West",
+    "lat": 38.240939,
+    "lng": -85.8151,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0027.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "71",
+    "name": "CCTV05059",
+    "route": "I-264",
+    "jurisdiction": "West",
+    "lat": 38.267431,
+    "lng": -85.807478,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0007.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "72",
+    "name": "CCTV05060",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.276903,
+    "lng": -85.806503,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0012.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "75",
+    "name": "CCTV05063",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.258167,
+    "lng": -85.764833,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0041.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "76",
+    "name": "CCTV05064",
+    "route": "",
+    "jurisdiction": "East",
+    "lat": 38.256016,
+    "lng": -85.765167,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_9th_&_Market.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "77",
+    "name": "CCTV05065",
+    "route": "",
+    "jurisdiction": "Southwest",
+    "lat": 38.25618,
+    "lng": -85.75339,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_2nd_&_Main.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "423",
+    "name": "CCTV10001",
+    "route": "",
+    "jurisdiction": "North",
+    "lat": 37.78989,
+    "lng": -83.64847,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_10_MtnP_0364.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "46",
+    "name": "CCTV05034",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 38.178044,
+    "lng": -85.719869,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1297.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "425",
+    "name": "CCTV12002",
+    "route": "",
+    "jurisdiction": "South",
+    "lat": 37.15974,
+    "lng": -82.64903,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_12_US23_0011.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "421",
+    "name": "CCTV09001",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.183649,
+    "lng": -83.556034,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_09_64_1330.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "422",
+    "name": "CCTV09002",
+    "route": "",
+    "jurisdiction": "North",
+    "lat": 38.683252,
+    "lng": -83.786774,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_09_US68_0180.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "387",
+    "name": "CCTV04012",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 37.48138,
+    "lng": -85.88072,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0775.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "420",
+    "name": "CCTV04011",
+    "route": "",
+    "jurisdiction": "East",
+    "lat": 37.77728,
+    "lng": -85.52121,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_BP_0185.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "150",
+    "name": "CCTV05071",
+    "route": "I-71",
+    "jurisdiction": "North-South",
+    "lat": 38.330691,
+    "lng": -85.541224,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0116.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "152",
+    "name": "CCTV05073",
+    "route": "",
+    "jurisdiction": "East",
+    "lat": 38.251788,
+    "lng": -85.618429,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0199.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "417",
+    "name": "CCTV01001",
+    "route": "I-24",
+    "jurisdiction": "West",
+    "lat": 37.026195,
+    "lng": -88.612239,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_01_24_0096.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "418",
+    "name": "CCTV01002",
+    "route": "I-24",
+    "jurisdiction": "West",
+    "lat": 37.058328,
+    "lng": -88.654947,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_01_24_0064.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "419",
+    "name": "CCTV01003",
+    "route": "I-24",
+    "jurisdiction": "West",
+    "lat": 37.052232,
+    "lng": -88.650398,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_01_24_0069.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "373",
+    "name": "CCTV06054",
+    "route": "I-275",
+    "jurisdiction": "West",
+    "lat": 39.078321,
+    "lng": -84.69048,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0060.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "16",
+    "name": "CCTV05003",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 38.233086,
+    "lng": -85.750586,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1344.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "479",
+    "name": "CCTV03015",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 36.96865,
+    "lng": -86.480727,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_RussellvilleRd_and_CampbellLn.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "480",
+    "name": "CCTV03016",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 36.962272,
+    "lng": -86.467938,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_NashvilleRd_and_CampbellLn.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "15",
+    "name": "CCTV05002",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 38.224383,
+    "lng": -85.750858,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1337.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "506",
+    "name": "CCTV07023",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.07703,
+    "lng": -83.95137,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_64_1095.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "185",
+    "name": "CCTV05079",
+    "route": "I-265",
+    "jurisdiction": "North",
+    "lat": 38.26974,
+    "lng": -85.500562,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_265_0287.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "346",
+    "name": "CCTV05118",
+    "route": "KY 841",
+    "jurisdiction": "North-South",
+    "lat": 38.339468,
+    "lng": -85.639506,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_841_0384.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "365",
+    "name": "CCTV06030",
+    "route": "I-71/75",
+    "jurisdiction": "South",
+    "lat": 39.034924,
+    "lng": -84.600641,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1847.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "390",
+    "name": "CCTV11001",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 37.073145,
+    "lng": -84.099435,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_11_75_0356.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "37",
+    "name": "CCTV05024",
+    "route": "I-71",
+    "jurisdiction": "North-South",
+    "lat": 38.2918,
+    "lng": -85.67002,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0037.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "459",
+    "name": "CCTV07020",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.161461,
+    "lng": -84.713765,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_64_0633.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "429",
+    "name": "CCTV08001",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 37.37771,
+    "lng": -84.330893,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_08_75_0621.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "25",
+    "name": "CCTV05012",
+    "route": "I-264",
+    "jurisdiction": "East",
+    "lat": 38.201636,
+    "lng": -85.688789,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0145.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "430",
+    "name": "CCTV12003",
+    "route": "",
+    "jurisdiction": "North",
+    "lat": 37.504047,
+    "lng": -82.531973,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_12_US23_0263.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "427",
+    "name": "CCTV06136",
+    "route": "I-471",
+    "jurisdiction": "South",
+    "lat": 39.073563,
+    "lng": -84.465439,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_471_0023.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "14",
+    "name": "CCTV05001",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 38.207833,
+    "lng": -85.751936,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1327.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "428",
+    "name": "CCTV06137",
+    "route": "I-471",
+    "jurisdiction": "North",
+    "lat": 39.051527,
+    "lng": -84.466639,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_471_0006.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "18",
+    "name": "CCTV05005",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 38.239739,
+    "lng": -85.754164,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1348.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "269",
+    "name": "CCTV05307",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 37.87192,
+    "lng": -85.70411,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1079.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "258",
+    "name": "CCTV03006",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 36.97742,
+    "lng": -86.3917,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_65_0257.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "22",
+    "name": "CCTV05009",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 38.202653,
+    "lng": -85.736881,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1317.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "507",
+    "name": "CCTV09003",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.34451,
+    "lng": -82.94081,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_09_64_1716.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "426",
+    "name": "CCTV06135",
+    "route": "I-471",
+    "jurisdiction": "South",
+    "lat": 39.097694,
+    "lng": -84.488275,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_471_0045.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "82",
+    "name": "CCTV05070",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 38.249331,
+    "lng": -85.748483,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1359.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "441",
+    "name": "CCTV05076",
+    "route": "I-264",
+    "jurisdiction": "West",
+    "lat": 38.228666,
+    "lng": -85.636525,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0179.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "28",
+    "name": "CCTV05015",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 38.212088,
+    "lng": -85.753083,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1330.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "470",
+    "name": "CCTV05303",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.18076,
+    "lng": -84.89439,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_US127_0061.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "449",
+    "name": "CCTV07010",
+    "route": "I-75",
+    "jurisdiction": "North",
+    "lat": 38.089307,
+    "lng": -84.466643,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1140.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "461",
+    "name": "CCTV07022",
+    "route": "I-75",
+    "jurisdiction": "North",
+    "lat": 37.815085,
+    "lng": -84.32302,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_0928.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "508",
+    "name": "CCTV04016",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 37.293922,
+    "lng": -85.901653,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0643.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "29",
+    "name": "CCTV05016",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.274958,
+    "lng": -85.812678,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0008.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "471",
+    "name": "CCTV05304",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.17666,
+    "lng": -84.81258,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_US60_0132.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "219",
+    "name": "CCTV03003",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 37.01453,
+    "lng": -86.2857,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_65_0327.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "468",
+    "name": "CCTV05301",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.166064,
+    "lng": -84.89768,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_US127_0050.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "487",
+    "name": "CCTV08004",
+    "route": "",
+    "jurisdiction": "East",
+    "lat": 37.1529,
+    "lng": -84.515153,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_08_KY80_0265.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "259",
+    "name": "CCTV03007",
+    "route": "",
+    "jurisdiction": "West",
+    "lat": 37.00855,
+    "lng": -86.37676,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_KY446_0002.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "469",
+    "name": "CCTV05302",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.206019,
+    "lng": -84.836624,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_US60_0107.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "460",
+    "name": "CCTV07021",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 37.82502,
+    "lng": -84.324346,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_0933.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "455",
+    "name": "CCTV07016",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 37.962826,
+    "lng": -84.389634,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1039.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "467",
+    "name": "CCTV08002",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 37.34237,
+    "lng": -84.30883,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_08_75_0590.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "424",
+    "name": "CCTV12001",
+    "route": "",
+    "jurisdiction": "South",
+    "lat": 37.07569,
+    "lng": -82.81018,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_12_US119_0123.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "489",
+    "name": "CCTV08006",
+    "route": "",
+    "jurisdiction": "East",
+    "lat": 37.1592,
+    "lng": -84.5023,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_08_KY80_0274.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "488",
+    "name": "CCTV08005",
+    "route": "",
+    "jurisdiction": "South",
+    "lat": 37.174116,
+    "lng": -84.486575,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_08_KY461_0013.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "481",
+    "name": "CCTV03017",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 36.954659,
+    "lng": -86.427169,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_ScottsvilleRd_and_LoversLn.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "446",
+    "name": "CCTV07007",
+    "route": "I-75",
+    "jurisdiction": "North",
+    "lat": 38.147294,
+    "lng": -84.529903,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1199.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "228",
+    "name": "CCTV04005",
+    "route": "I-65",
+    "jurisdiction": "",
+    "lat": 37.67383,
+    "lng": -85.84911,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0911.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "334",
+    "name": "CCTV05084",
+    "route": "I-265",
+    "jurisdiction": "North",
+    "lat": 38.109725,
+    "lng": -85.675979,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_265_0117.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "333",
+    "name": "CCTV05083",
+    "route": "I-265",
+    "jurisdiction": "North",
+    "lat": 38.11777,
+    "lng": -85.64376,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_265_0135.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "332",
+    "name": "CCTV05082",
+    "route": "I-265",
+    "jurisdiction": "South",
+    "lat": 38.141809,
+    "lng": -85.584026,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_265_0173.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "444",
+    "name": "CCTV07001",
+    "route": "I-75",
+    "jurisdiction": "North",
+    "lat": 37.885952,
+    "lng": -84.341893,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_0979.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "63",
+    "name": "CCTV05051",
+    "route": "I-71",
+    "jurisdiction": "North-South",
+    "lat": 38.313175,
+    "lng": -85.584431,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0089.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "447",
+    "name": "CCTV07008",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 38.115594,
+    "lng": -84.525968,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1177.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "331",
+    "name": "CCTV05081",
+    "route": "I-265",
+    "jurisdiction": "North-South",
+    "lat": 38.189286,
+    "lng": -85.509157,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_265_0231.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "448",
+    "name": "CCTV07009",
+    "route": "I-75",
+    "jurisdiction": "North",
+    "lat": 38.099763,
+    "lng": -84.484981,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1152.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "67",
+    "name": "CCTV05055",
+    "route": "I-264",
+    "jurisdiction": "West",
+    "lat": 38.206231,
+    "lng": -85.827581,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0052.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "330",
+    "name": "CCTV05080",
+    "route": "I-265",
+    "jurisdiction": "South",
+    "lat": 38.241681,
+    "lng": -85.503818,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_265_0268.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "70",
+    "name": "CCTV05058",
+    "route": "I-264",
+    "jurisdiction": "West",
+    "lat": 38.253936,
+    "lng": -85.805725,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0016.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "445",
+    "name": "CCTV07006",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 37.882156,
+    "lng": -84.337381,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_0976.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "40",
+    "name": "CCTV05027",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.233218,
+    "lng": -85.608779,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0131.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "154",
+    "name": "CCTV05075",
+    "route": "",
+    "jurisdiction": "East",
+    "lat": 38.210332,
+    "lng": -85.671682,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0156.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "328",
+    "name": "CCTV05077",
+    "route": "I-265",
+    "jurisdiction": "North",
+    "lat": 38.297018,
+    "lng": -85.547249,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_265_0325.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "329",
+    "name": "CCTV05078",
+    "route": "I-265",
+    "jurisdiction": "North-South",
+    "lat": 38.28645,
+    "lng": -85.515304,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_265_0305.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "207",
+    "name": "CCTV04002",
+    "route": "I-65",
+    "jurisdiction": "",
+    "lat": 37.70229,
+    "lng": -85.83312,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0933.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "483",
+    "name": "CCTV05305",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.16248,
+    "lng": -84.85062,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0556.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "337",
+    "name": "CCTV05099",
+    "route": "",
+    "jurisdiction": "East",
+    "lat": 38.30701,
+    "lng": -85.575605,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_DMS05112_KY22-EB.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "24",
+    "name": "CCTV05011",
+    "route": "I-264",
+    "jurisdiction": "West",
+    "lat": 38.190428,
+    "lng": -85.738092,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0116.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "151",
+    "name": "CCTV05072",
+    "route": "",
+    "jurisdiction": "East",
+    "lat": 38.279806,
+    "lng": -85.635885,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0221.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "352",
+    "name": "CCTV05125",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.260707,
+    "lng": -85.72608,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0061_EB.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "357",
+    "name": "CCTV05131",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 38.267017,
+    "lng": -85.744935,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1370.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "355",
+    "name": "CCTV05129",
+    "route": "I-65",
+    "jurisdiction": "North-South",
+    "lat": 38.25885,
+    "lng": -85.741321,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1365.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "338",
+    "name": "CCTV05110",
+    "route": "KY 841",
+    "jurisdiction": "South",
+    "lat": 38.315675,
+    "lng": -85.584868,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_841_0349.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "339",
+    "name": "CCTV05111",
+    "route": "KY 841",
+    "jurisdiction": "South",
+    "lat": 38.317716,
+    "lng": -85.597479,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_841_0356.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "340",
+    "name": "CCTV05112",
+    "route": "KY 841",
+    "jurisdiction": "North",
+    "lat": 38.319108,
+    "lng": -85.606409,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_841_0361.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "341",
+    "name": "CCTV05113",
+    "route": "KY 841",
+    "jurisdiction": "South",
+    "lat": 38.321369,
+    "lng": -85.615962,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_841_0366.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "342",
+    "name": "CCTV05114",
+    "route": "KY 841",
+    "jurisdiction": "North",
+    "lat": 38.323321,
+    "lng": -85.618942,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_841_0369.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "343",
+    "name": "CCTV05115",
+    "route": "KY 841",
+    "jurisdiction": "South",
+    "lat": 38.327656,
+    "lng": -85.626076,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_841_0373.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "344",
+    "name": "CCTV05116",
+    "route": "KY 841",
+    "jurisdiction": "South",
+    "lat": 38.32977,
+    "lng": -85.628654,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_841_0375.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "345",
+    "name": "CCTV05117",
+    "route": "KY 841",
+    "jurisdiction": "South",
+    "lat": 38.335008,
+    "lng": -85.634538,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_841_0380.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "347",
+    "name": "CCTV05120",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.260815,
+    "lng": -85.740429,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0053.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "350",
+    "name": "CCTV05123",
+    "route": "I-64",
+    "jurisdiction": "East-West",
+    "lat": 38.261047,
+    "lng": -85.735298,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0055.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "351",
+    "name": "CCTV05124",
+    "route": "I-64",
+    "jurisdiction": "East-West",
+    "lat": 38.261042,
+    "lng": -85.730324,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0058.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "353",
+    "name": "CCTV05126",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.26136,
+    "lng": -85.725886,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0061_WB.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "354",
+    "name": "CCTV05128",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 38.254501,
+    "lng": -85.742095,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1362.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "356",
+    "name": "CCTV05130",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 38.262257,
+    "lng": -85.742209,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1368.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "359",
+    "name": "CCTV06024",
+    "route": "I-71/75",
+    "jurisdiction": "South",
+    "lat": 39.08087,
+    "lng": -84.52272,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1908.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "360",
+    "name": "CCTV06025",
+    "route": "I-71/75",
+    "jurisdiction": "North",
+    "lat": 39.064305,
+    "lng": -84.521547,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1896.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "362",
+    "name": "CCTV06027",
+    "route": "I-71/75",
+    "jurisdiction": "North",
+    "lat": 39.049779,
+    "lng": -84.549766,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1877.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "363",
+    "name": "CCTV06028",
+    "route": "I-71/75",
+    "jurisdiction": "South",
+    "lat": 39.05143,
+    "lng": -84.566327,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1868.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "358",
+    "name": "CCTV06023",
+    "route": "I-71/75",
+    "jurisdiction": "North",
+    "lat": 39.086807,
+    "lng": -84.522802,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1912.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "382",
+    "name": "CCTV06103",
+    "route": "I-471",
+    "jurisdiction": "North",
+    "lat": 39.081178,
+    "lng": -84.471483,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_471_0029.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "372",
+    "name": "CCTV06053",
+    "route": "I-275",
+    "jurisdiction": "East",
+    "lat": 39.073604,
+    "lng": -84.670966,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0048.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "364",
+    "name": "CCTV06029",
+    "route": "I-71/75",
+    "jurisdiction": "North",
+    "lat": 39.04637,
+    "lng": -84.57494,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1863.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "361",
+    "name": "CCTV06026",
+    "route": "I-71/75",
+    "jurisdiction": "South",
+    "lat": 39.059474,
+    "lng": -84.539028,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1886.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "336",
+    "name": "CCTV05098",
+    "route": "",
+    "jurisdiction": "West",
+    "lat": 38.31277,
+    "lng": -85.567799,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_DMS05111_KY22-WB.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "376",
+    "name": "CCTV06057",
+    "route": "I-275",
+    "jurisdiction": "East",
+    "lat": 39.087752,
+    "lng": -84.793139,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0116.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "391",
+    "name": "CCTV11002",
+    "route": "I-75",
+    "jurisdiction": "North",
+    "lat": 36.900847,
+    "lng": -84.135172,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_11_75_0234.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "375",
+    "name": "CCTV06056",
+    "route": "I-275",
+    "jurisdiction": "East",
+    "lat": 39.084599,
+    "lng": -84.74395,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0089.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "17",
+    "name": "CCTV05004",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 38.250117,
+    "lng": -85.751914,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1356.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "335",
+    "name": "CCTV05086",
+    "route": "I-71",
+    "jurisdiction": "South",
+    "lat": 38.307349,
+    "lng": -85.597315,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0082.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "348",
+    "name": "CCTV05121",
+    "route": "I-64",
+    "jurisdiction": "East-West",
+    "lat": 38.259705,
+    "lng": -85.739411,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0054-1.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "349",
+    "name": "CCTV05122",
+    "route": "I-64",
+    "jurisdiction": "East-West",
+    "lat": 38.259696,
+    "lng": -85.739358,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0054-2.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "388",
+    "name": "CCTV04013",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 37.73531,
+    "lng": -85.80641,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0962.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "366",
+    "name": "CCTV06031",
+    "route": "I-71/75",
+    "jurisdiction": "South",
+    "lat": 39.025822,
+    "lng": -84.613453,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1838.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "367",
+    "name": "CCTV06032",
+    "route": "I-71/75",
+    "jurisdiction": "South",
+    "lat": 39.011906,
+    "lng": -84.633224,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1823.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "368",
+    "name": "CCTV06033",
+    "route": "I-71/75",
+    "jurisdiction": "South",
+    "lat": 39.001342,
+    "lng": -84.64842,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1812.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "369",
+    "name": "CCTV06034",
+    "route": "I-71/75",
+    "jurisdiction": "South",
+    "lat": 38.984552,
+    "lng": -84.642151,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1801.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "370",
+    "name": "CCTV06051",
+    "route": "I-275",
+    "jurisdiction": "West",
+    "lat": 39.055124,
+    "lng": -84.626084,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0020.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "371",
+    "name": "CCTV06052",
+    "route": "I-275",
+    "jurisdiction": "West",
+    "lat": 39.06969,
+    "lng": -84.64961,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0037.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "374",
+    "name": "CCTV06055",
+    "route": "I-275",
+    "jurisdiction": "East",
+    "lat": 39.081008,
+    "lng": -84.708573,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0070.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "377",
+    "name": "CCTV06058",
+    "route": "I-275",
+    "jurisdiction": "East",
+    "lat": 39.093536,
+    "lng": -84.81325,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0128.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "378",
+    "name": "CCTV06059",
+    "route": "I-71/75",
+    "jurisdiction": "South",
+    "lat": 38.957018,
+    "lng": -84.634987,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1781.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "379",
+    "name": "CCTV06060",
+    "route": "I-71/75",
+    "jurisdiction": "North",
+    "lat": 38.9251,
+    "lng": -84.629714,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1758.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "380",
+    "name": "CCTV06061",
+    "route": "I-71/75",
+    "jurisdiction": "South",
+    "lat": 38.87687,
+    "lng": -84.62551,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_75_1725.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "381",
+    "name": "CCTV06102",
+    "route": "I-471",
+    "jurisdiction": "South",
+    "lat": 39.062522,
+    "lng": -84.468169,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_471_0014.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "385",
+    "name": "CCTV06131",
+    "route": "I-275",
+    "jurisdiction": "West",
+    "lat": 39.04603,
+    "lng": -84.458049,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0748.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "386",
+    "name": "CCTV06132",
+    "route": "I-275",
+    "jurisdiction": "East",
+    "lat": 39.049601,
+    "lng": -84.446461,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0741.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "411",
+    "name": "CCTV06062",
+    "route": "I-71/75",
+    "jurisdiction": "North-South",
+    "lat": 38.876548,
+    "lng": -84.625566,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_71_0770.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "20",
+    "name": "CCTV05007",
+    "route": "I-71",
+    "jurisdiction": "North-South",
+    "lat": 38.32726,
+    "lng": -85.547304,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0112.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "405",
+    "name": "CCTV05134",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 38.26242,
+    "lng": -85.741213,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1367.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "486",
+    "name": "CCTV08003",
+    "route": "",
+    "jurisdiction": "West",
+    "lat": 37.157533,
+    "lng": -84.478558,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_08_KY80_0287.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "509",
+    "name": "CCTV09004",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.380039,
+    "lng": -82.609506,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_09_64_1906.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "412",
+    "name": "CCTV01006",
+    "route": "I-24",
+    "jurisdiction": "West",
+    "lat": 36.99056,
+    "lng": -88.350134,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_01_24_0248.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "383",
+    "name": "CCTV06129",
+    "route": "I-275",
+    "jurisdiction": "East",
+    "lat": 39.026161,
+    "lng": -84.572846,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0823.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "415",
+    "name": "CCTV01004",
+    "route": "I-24",
+    "jurisdiction": "West",
+    "lat": 37.07819,
+    "lng": -88.680325,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_01_24_0044.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "413",
+    "name": "CCTV06001",
+    "route": "I-71",
+    "jurisdiction": "South",
+    "lat": 38.778835,
+    "lng": -84.766628,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_71_0669.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "27",
+    "name": "CCTV05014",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 38.195874,
+    "lng": -85.733829,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1313.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "414",
+    "name": "CCTV01005",
+    "route": "I-24",
+    "jurisdiction": "East",
+    "lat": 37.09917,
+    "lng": -88.689012,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_01_24_0028.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "389",
+    "name": "CCTV04014",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 37.80725,
+    "lng": -85.74418,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_1028.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "406",
+    "name": "CCTV05158",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 38.266064,
+    "lng": -85.743809,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1369.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "416",
+    "name": "CCTV06002",
+    "route": "I-71",
+    "jurisdiction": "South",
+    "lat": 38.851326,
+    "lng": -84.665229,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_71_0739.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "384",
+    "name": "CCTV06130",
+    "route": "I-275",
+    "jurisdiction": "East",
+    "lat": 39.02147,
+    "lng": -84.511388,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "407",
+    "name": "CCTV06133",
+    "route": "I-275",
+    "jurisdiction": "East-West",
+    "lat": 39.033299,
+    "lng": -84.470374,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0762.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "408",
+    "name": "CCTV06134",
+    "route": "I-275",
+    "jurisdiction": "East-West",
+    "lat": 39.02674,
+    "lng": -84.552739,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_275_0812.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "276",
+    "name": "CCTV04015",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 37.16846,
+    "lng": -85.96209,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0548.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "248",
+    "name": "CCTV04003",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 37.692111,
+    "lng": -85.840112,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0926.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "26",
+    "name": "CCTV05013",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 38.157736,
+    "lng": -85.719975,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1283.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "256",
+    "name": "CCTV03004",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 37.039858,
+    "lng": -86.228125,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_65_0365.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "453",
+    "name": "CCTV07014",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 38.039483,
+    "lng": -84.419791,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1096.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "454",
+    "name": "CCTV07015",
+    "route": "I-75",
+    "jurisdiction": "North",
+    "lat": 38.022068,
+    "lng": -84.411121,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1083.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "452",
+    "name": "CCTV07013",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 38.054268,
+    "lng": -84.430616,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1109.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "245",
+    "name": "CCTV03013",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 36.645986,
+    "lng": -86.568705,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_65_0005.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "451",
+    "name": "CCTV07012",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 38.066883,
+    "lng": -84.445859,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1120.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "246",
+    "name": "CCTV04010",
+    "route": "",
+    "jurisdiction": "East",
+    "lat": 37.61869,
+    "lng": -85.955216,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_WKP_1290.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "250",
+    "name": "CCTV02007",
+    "route": "",
+    "jurisdiction": "South",
+    "lat": 36.644468,
+    "lng": -87.437173,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_US41ALT_0003.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "249",
+    "name": "CCTV04004",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 37.69196,
+    "lng": -85.8413,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0924.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "147",
+    "name": "CCTV05028",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.266553,
+    "lng": -85.77965,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0030.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "255",
+    "name": "CCTV03001",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 36.8725,
+    "lng": -86.44817,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_65_0178.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "456",
+    "name": "CCTV07017",
+    "route": "I-75",
+    "jurisdiction": "South",
+    "lat": 38.295204,
+    "lng": -84.558993,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1305.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "457",
+    "name": "CCTV07018",
+    "route": "I-75",
+    "jurisdiction": "North",
+    "lat": 38.248,
+    "lng": -84.546851,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_75_1272.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "257",
+    "name": "CCTV03005",
+    "route": "",
+    "jurisdiction": "South",
+    "lat": 36.953878,
+    "lng": -86.496758,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_NatP_0068.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "510",
+    "name": "CCTV05309",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.159056,
+    "lng": -84.894644,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0531.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "208",
+    "name": "CCTV02005",
+    "route": "",
+    "jurisdiction": "North",
+    "lat": 36.654513,
+    "lng": -87.440427,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_US41ALT_0010.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "216",
+    "name": "CCTV02002",
+    "route": "",
+    "jurisdiction": "South",
+    "lat": 36.678014,
+    "lng": -87.447352,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_US41ALT_0028.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "227",
+    "name": "CCTV04007",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 37.55403,
+    "lng": -85.87815,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0827.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "241",
+    "name": "CCTV02010",
+    "route": "",
+    "jurisdiction": "North",
+    "lat": 36.831821,
+    "lng": -87.472866,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_US41ALT_0135.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "226",
+    "name": "CCTV04006",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 37.64781,
+    "lng": -85.85793,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0892.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "458",
+    "name": "CCTV07019",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.016586,
+    "lng": -84.159137,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_07_64_0971.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "239",
+    "name": "CCTV02008",
+    "route": "",
+    "jurisdiction": "West",
+    "lat": 36.665415,
+    "lng": -87.440701,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_KY911_0001.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "217",
+    "name": "CCTV02003",
+    "route": "",
+    "jurisdiction": "South",
+    "lat": 36.676534,
+    "lng": -87.446923,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_US41ALT_0025.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "236",
+    "name": "CCTV02001",
+    "route": "I-24",
+    "jurisdiction": "West",
+    "lat": 36.648675,
+    "lng": -87.350857,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_24_0926.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "220",
+    "name": "CCTV04008",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 37.42621,
+    "lng": -85.88253,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_04_65_0737.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "491",
+    "name": "CCTV02004",
+    "route": "",
+    "jurisdiction": "South",
+    "lat": 36.665242,
+    "lng": -87.443424,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_US41ALT_0017.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "490",
+    "name": "CCTV02006",
+    "route": "",
+    "jurisdiction": "North",
+    "lat": 36.640966,
+    "lng": -87.436028,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_US41ALT_0000.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "493",
+    "name": "CCTV05159",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.276904,
+    "lng": -85.820302,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0003_WB.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "494",
+    "name": "CCTV05160",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.276882,
+    "lng": -85.820291,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0003_EB.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "53",
+    "name": "CCTV05041",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.242286,
+    "lng": -85.684672,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0088.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "57",
+    "name": "CCTV05045",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.223081,
+    "lng": -85.507728,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0189.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "54",
+    "name": "CCTV05042",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.236033,
+    "lng": -85.658056,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0104.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "55",
+    "name": "CCTV05043",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.23575,
+    "lng": -85.641708,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0114.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "56",
+    "name": "CCTV05044",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.224303,
+    "lng": -85.539453,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0171.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "58",
+    "name": "CCTV05046",
+    "route": "I-265",
+    "jurisdiction": "South",
+    "lat": 38.224239,
+    "lng": -85.505781,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_265_0256.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "59",
+    "name": "CCTV05047",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.222058,
+    "lng": -85.493911,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0195.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "23",
+    "name": "CCTV05010",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 38.189794,
+    "lng": -85.72845,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1307.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "32",
+    "name": "CCTV05019",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.256016,
+    "lng": -85.721336,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0068.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "33",
+    "name": "CCTV05020",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.24755,
+    "lng": -85.700581,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0079.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34",
+    "name": "CCTV05021",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.274263,
+    "lng": -85.787427,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0022.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "35",
+    "name": "CCTV05022",
+    "route": "I-71",
+    "jurisdiction": "North-South",
+    "lat": 38.274619,
+    "lng": -85.697725,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0018.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "36",
+    "name": "CCTV05023",
+    "route": "I-71",
+    "jurisdiction": "North-South",
+    "lat": 38.286186,
+    "lng": -85.679264,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0030.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "524",
+    "name": "CCTV02022",
+    "route": "I-69",
+    "jurisdiction": "North",
+    "lat": 37.863695,
+    "lng": -87.525268,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_69_1543.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "516",
+    "name": "CCTV02014",
+    "route": "I-165",
+    "jurisdiction": "",
+    "lat": 37.383328,
+    "lng": -86.809492,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_165_0412.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "511",
+    "name": "CCTV05310",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.174047,
+    "lng": -84.809925,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0580.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "30",
+    "name": "CCTV05017",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.258642,
+    "lng": -85.765308,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0040.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "517",
+    "name": "CCTV05311",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 37.978285,
+    "lng": -85.697315,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1156.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "500",
+    "name": "CCTV06139",
+    "route": "I-71",
+    "jurisdiction": "South",
+    "lat": 38.74184,
+    "lng": -84.83357,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_71_0618.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "499",
+    "name": "CCTV06138",
+    "route": "I-71",
+    "jurisdiction": "North-South",
+    "lat": 38.646823,
+    "lng": -85.121671,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_06_71_0443.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "21",
+    "name": "CCTV05008",
+    "route": "I-71",
+    "jurisdiction": "North",
+    "lat": 38.301333,
+    "lng": -85.608349,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0074.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "498",
+    "name": "CCTV11003",
+    "route": "I-75",
+    "jurisdiction": "North",
+    "lat": 36.617959,
+    "lng": -84.106255,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_11_75_0018.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "518",
+    "name": "CCTV02016",
+    "route": "I-69",
+    "jurisdiction": "North",
+    "lat": 37.79746,
+    "lng": -87.55765,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_69_1481.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "519",
+    "name": "CCTV02017",
+    "route": "I-69",
+    "jurisdiction": "South",
+    "lat": 37.80988,
+    "lng": -87.56449,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_69_1491.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "520",
+    "name": "CCTV02018",
+    "route": "I-69",
+    "jurisdiction": "North",
+    "lat": 37.82126,
+    "lng": -87.5626,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_69_1499.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "521",
+    "name": "CCTV02019",
+    "route": "I-69",
+    "jurisdiction": "South",
+    "lat": 37.83032,
+    "lng": -87.56666,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_69_1506.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "522",
+    "name": "CCTV02020",
+    "route": "I-69",
+    "jurisdiction": "South",
+    "lat": 37.84925,
+    "lng": -87.565056,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_69_1519.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "523",
+    "name": "CCTV02021",
+    "route": "I-69",
+    "jurisdiction": "South",
+    "lat": 37.854956,
+    "lng": -87.546303,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_69_1530.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "515",
+    "name": "CCTV02015",
+    "route": "I-69",
+    "jurisdiction": "",
+    "lat": 37.213489,
+    "lng": -87.442836,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_69_1062.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "31",
+    "name": "CCTV05018",
+    "route": "I-64",
+    "jurisdiction": "East-West",
+    "lat": 38.258674,
+    "lng": -85.744449,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0050.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "43",
+    "name": "CCTV05031",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.223081,
+    "lng": -85.577975,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0150.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "47",
+    "name": "CCTV05035",
+    "route": "I-264",
+    "jurisdiction": "East-West",
+    "lat": 38.185242,
+    "lng": -85.812508,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0075.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "48",
+    "name": "CCTV05036",
+    "route": "I-264",
+    "jurisdiction": "East",
+    "lat": 38.189347,
+    "lng": -85.780981,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0093.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "502",
+    "name": "CCTV02012",
+    "route": "I-69",
+    "jurisdiction": "North",
+    "lat": 37.76256,
+    "lng": -87.52987,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_69_1452.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "503",
+    "name": "CCTV01007",
+    "route": "I-69",
+    "jurisdiction": "North-South",
+    "lat": 37.071709,
+    "lng": -88.084531,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_01_69_0681.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "504",
+    "name": "CCTV05308",
+    "route": "I-71",
+    "jurisdiction": "South",
+    "lat": 38.45707,
+    "lng": -85.29653,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0278.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "49",
+    "name": "CCTV05037",
+    "route": "I-264",
+    "jurisdiction": "West",
+    "lat": 38.195539,
+    "lng": -85.708436,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0133.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "50",
+    "name": "CCTV05038",
+    "route": "I-264",
+    "jurisdiction": "East",
+    "lat": 38.288479,
+    "lng": -85.646294,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0051.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "52",
+    "name": "CCTV05040",
+    "route": "I-71",
+    "jurisdiction": "South",
+    "lat": 38.292244,
+    "lng": -85.639967,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_71_0055.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "505",
+    "name": "CCTV02013",
+    "route": "I-24",
+    "jurisdiction": "East",
+    "lat": 36.7543,
+    "lng": -87.52932,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_24_0800.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "478",
+    "name": "CCTV03014",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 36.988637,
+    "lng": -86.486435,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_MorgantownRd_and_VeteransMemorialLn.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "45",
+    "name": "CCTV05033",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 38.136886,
+    "lng": -85.705892,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1267.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "44",
+    "name": "CCTV05032",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 38.114503,
+    "lng": -85.700872,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_65_1252.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "42",
+    "name": "CCTV05030",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.229639,
+    "lng": -85.597533,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0138.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "61",
+    "name": "CCTV05049",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.218206,
+    "lng": -85.416036,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0238.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "62",
+    "name": "CCTV05050",
+    "route": "I-64",
+    "jurisdiction": "East",
+    "lat": 38.217033,
+    "lng": -85.40785,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0242.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "68",
+    "name": "CCTV05056",
+    "route": "I-264",
+    "jurisdiction": "West",
+    "lat": 38.220994,
+    "lng": -85.822056,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0041.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "73",
+    "name": "CCTV05061",
+    "route": "I-264",
+    "jurisdiction": "East",
+    "lat": 38.26465,
+    "lng": -85.6234,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0208.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "153",
+    "name": "CCTV05074",
+    "route": "",
+    "jurisdiction": "East",
+    "lat": 38.221628,
+    "lng": -85.650111,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_264_0170.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "186",
+    "name": "CCTV05085",
+    "route": "KY 841",
+    "jurisdiction": "West",
+    "lat": 38.120618,
+    "lng": -85.779346,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_841_0060.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "240",
+    "name": "CCTV02009",
+    "route": "",
+    "jurisdiction": "North",
+    "lat": 36.704193,
+    "lng": -87.455099,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_02_US41ALT_0045.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "218",
+    "name": "CCTV03002",
+    "route": "I-65",
+    "jurisdiction": "South",
+    "lat": 37.12137,
+    "lng": -86.00705,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_65_0505.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "260",
+    "name": "CCTV03008",
+    "route": "",
+    "jurisdiction": "West",
+    "lat": 37.03713,
+    "lng": -86.05878,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_LBNP_0034.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "229",
+    "name": "CCTV03009",
+    "route": "",
+    "jurisdiction": "North",
+    "lat": 36.91903,
+    "lng": -86.50375,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_US31W_0070.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "221",
+    "name": "CCTV03010",
+    "route": "",
+    "jurisdiction": "North",
+    "lat": 36.894242,
+    "lng": -86.377939,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_US231_0053.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "265",
+    "name": "CCTV03011",
+    "route": "I-65",
+    "jurisdiction": "North",
+    "lat": 36.93326,
+    "lng": -86.41758,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_03_65_0223.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "60",
+    "name": "CCTV05048",
+    "route": "I-64",
+    "jurisdiction": "West",
+    "lat": 38.221514,
+    "lng": -85.460008,
+    "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0214.jpg",
+    "video_url": ""
+  }
+]
