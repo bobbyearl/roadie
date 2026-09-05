@@ -134,12 +134,28 @@ export const STATES: StateConfig[] = [
     cameraCount: 4043,
   },
   {
+    id: 'ia',
+    name: 'Iowa',
+    defaultCenter: { lat: 42.0, lng: -93.5 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 853,
+  },
+  {
     id: 'id',
     name: 'Idaho',
     defaultCenter: { lat: 44.0, lng: -114.7 },
     defaultZoom: 6,
     supportsVideo: false,
     cameraCount: 457,
+  },
+  {
+    id: 'ks',
+    name: 'Kansas',
+    defaultCenter: { lat: 38.5, lng: -98.3 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 521,
   },
   {
     id: 'la',
@@ -156,6 +172,14 @@ export const STATES: StateConfig[] = [
     defaultZoom: 8,
     supportsVideo: true,
     cameraCount: 549,
+  },
+  {
+    id: 'mn',
+    name: 'Minnesota',
+    defaultCenter: { lat: 46.0, lng: -94.3 },
+    defaultZoom: 6,
+    supportsVideo: false,
+    cameraCount: 1524,
   },
   {
     id: 'nc',
@@ -245,6 +269,14 @@ export const STATES: StateConfig[] = [
     defaultZoom: 7,
     supportsVideo: true,
     cameraCount: 1692,
+  },
+  {
+    id: 'wa',
+    name: 'Washington',
+    defaultCenter: { lat: 47.4, lng: -120.5 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 1705,
   },
   {
     id: 'wi',

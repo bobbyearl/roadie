@@ -4,28 +4,30 @@ import { Keyboard, Monitor, Moon, Sun } from 'lucide-react';
 
 import { useTheme } from '../lib/ThemeContext';
 
-export function Footer() {
+export function Footer({ contained }: { contained?: boolean }) {
   const { theme, setTheme } = useTheme();
 
   return (
-    <footer className="site-footer">
-      <div className="site-footer-left">
-        <div className="btn-group">
-          <button className={`btn-icon ${theme === 'system' ? 'btn-active' : ''}`} onClick={() => setTheme('system')} title="System"><Monitor size={14} /></button>
-          <button className={`btn-icon ${theme === 'light' ? 'btn-active' : ''}`} onClick={() => setTheme('light')} title="Light"><Sun size={14} /></button>
-          <button className={`btn-icon ${theme === 'dark' ? 'btn-active' : ''}`} onClick={() => setTheme('dark')} title="Dark"><Moon size={14} /></button>
+    <footer className={`site-footer ${contained ? 'site-footer-contained' : ''}`}>
+      <div className="site-footer-inner">
+        <div className="site-footer-left">
+          <div className="btn-group">
+            <button className={`btn-icon ${theme === 'system' ? 'btn-active' : ''}`} onClick={() => setTheme('system')} title="System"><Monitor size={14} /></button>
+            <button className={`btn-icon ${theme === 'light' ? 'btn-active' : ''}`} onClick={() => setTheme('light')} title="Light"><Sun size={14} /></button>
+            <button className={`btn-icon ${theme === 'dark' ? 'btn-active' : ''}`} onClick={() => setTheme('dark')} title="Dark"><Moon size={14} /></button>
+          </div>
+          <button className="btn-kbd-shortcut" onClick={() => window.dispatchEvent(new KeyboardEvent('keydown', { key: '?' }))} title="Keyboard shortcuts (?)"><Keyboard size={14} /></button>
         </div>
-        <button className="btn-kbd-shortcut" onClick={() => window.dispatchEvent(new KeyboardEvent('keydown', { key: '?' }))} title="Keyboard shortcuts (?)"><Keyboard size={14} /></button>
+        <nav className="site-footer-links">
+          <a href="https://www.bobbyearl.com" target="_blank" rel="noopener">Bobby Earl</a>
+          <span className="site-footer-divider">|</span>
+          <a href="https://www.paypal.com/paypalme/simplyearl" target="_blank" rel="noopener">Gas Money</a>
+          <span className="site-footer-divider">|</span>
+          <a href="https://github.com/bobbyearl/roadie/issues/new?labels=bug" target="_blank" rel="noopener">Backseat Driver</a>
+          <span className="site-footer-divider">|</span>
+          <a href="/roadie/status/">Status</a>
+        </nav>
       </div>
-      <nav className="site-footer-links">
-        <a href="https://www.bobbyearl.com" target="_blank" rel="noopener">Bobby Earl</a>
-        <span className="site-footer-divider">|</span>
-        <a href="https://www.paypal.com/paypalme/simplyearl" target="_blank" rel="noopener">Gas Money</a>
-        <span className="site-footer-divider">|</span>
-        <a href="https://github.com/bobbyearl/roadie/issues/new?labels=bug" target="_blank" rel="noopener">Backseat Driver</a>
-        <span className="site-footer-divider">|</span>
-        <a href="/roadie/status/">Status</a>
-      </nav>
     </footer>
   );
 }

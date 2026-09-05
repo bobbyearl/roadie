@@ -397,6 +397,12 @@ def parse_ca():
     return cameras
 
 
+def parse_wa():
+    """Washington - WSDOT (fetchers/api_states.fetch_wa), image-only."""
+    with open(os.path.join(DATA_DIR, "wa.json")) as f:
+        return json.load(f)
+
+
 def parse_wi():
     """Wisconsin - 511wi.gov tooltip scrape + mapIcons coordinates"""
     with open(os.path.join(DATA_DIR, "wi.json")) as f:
@@ -418,6 +424,24 @@ def parse_nv():
 def parse_id():
     """Idaho - 511.idaho.gov tooltip scrape + mapIcons coordinates"""
     with open(os.path.join(DATA_DIR, "id.json")) as f:
+        return json.load(f)
+
+
+def parse_ia():
+    """Iowa - CARS/OneNetwork 511 (fetchers/api_states.fetch_ia), image-only."""
+    with open(os.path.join(DATA_DIR, "ia.json")) as f:
+        return json.load(f)
+
+
+def parse_ks():
+    """Kansas - CARS/OneNetwork 511 (fetchers/api_states.fetch_ks), image-only."""
+    with open(os.path.join(DATA_DIR, "ks.json")) as f:
+        return json.load(f)
+
+
+def parse_mn():
+    """Minnesota - CARS/OneNetwork 511 (fetchers/api_states.fetch_mn), image-only."""
+    with open(os.path.join(DATA_DIR, "mn.json")) as f:
         return json.load(f)
 
 
@@ -462,9 +486,12 @@ STATES = [
     ("de", parse_de),
     ("fl", parse_fl),
     ("ga", parse_ga),
+    ("ia", parse_ia),
     ("id", parse_id),
+    ("ks", parse_ks),
     ("la", parse_la),
     ("md", parse_md),
+    ("mn", parse_mn),
     ("nc", parse_nc),
     ("nd", parse_nd),
     ("ne", parse_ne),
@@ -476,6 +503,7 @@ STATES = [
     ("tn", parse_tn),
     ("ut", parse_ut),
     ("va", parse_va),
+    ("wa", parse_wa),
     ("wi", parse_wi),
 ]
 
