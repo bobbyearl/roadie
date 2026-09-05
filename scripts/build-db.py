@@ -475,6 +475,18 @@ def parse_ma():
         return json.load(f)
 
 
+def parse_mt():
+    """Montana - Iteris ATIS (fetchers/api_states.fetch_mt), image-only."""
+    with open(os.path.join(DATA_DIR, "mt.json")) as f:
+        return json.load(f)
+
+
+def parse_sd():
+    """South Dakota - Iteris ATIS (fetchers/api_states.fetch_sd), image-only."""
+    with open(os.path.join(DATA_DIR, "sd.json")) as f:
+        return json.load(f)
+
+
 def parse_ak():
     """Alaska - 511.alaska.gov tooltip scrape + mapIcons coordinates"""
     with open(os.path.join(DATA_DIR, "ak.json")) as f:
@@ -527,6 +539,7 @@ STATES = [
     ("md", parse_md),
     ("mi", parse_mi),
     ("mn", parse_mn),
+    ("mt", parse_mt),
     ("nc", parse_nc),
     ("nd", parse_nd),
     ("ne", parse_ne),
@@ -535,6 +548,7 @@ STATES = [
     ("ny", parse_ny),
     ("pa", parse_pa),
     ("sc", parse_sc),
+    ("sd", parse_sd),
     ("tn", parse_tn),
     ("ut", parse_ut),
     ("va", parse_va),

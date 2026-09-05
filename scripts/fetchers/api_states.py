@@ -640,3 +640,60 @@ async def fetch_ky() -> list[dict]:
             "video_url": "",
         })
     return cameras
+
+
+# --- Iteris ATIS states (South Dakota, Montana) ---
+# Public GeoJSON on the Iteris CDN. Each feature is a SITE with a
+# properties.cameras[] array of views; explode each view into its own camera
+# with its direct .jpg image (id <siteId>-<index>). Image-only, no CORS issue
+# (build-time fetch; <img> display at runtime).
+_ITERIS_STATES = {
+    "sd": "https://sd.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+    "mt": "https://mt.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+}
+
+
+async def _fetch_iteris(state: str) -> list[dict]:
+    data = await _get_json(_ITERIS_STATES[state])
+    cameras = []
+    for feat in data.get("features", []):
+        props = feat.get("properties", {}) or {}
+        coords = (feat.get("geometry") or {}).get("coordinates") or []
+        if len(coords) < 2:
+            continue
+        lng, lat = coords[0], coords[1]
+        if not lat or not lng:
+            continue
+        site_id = feat.get("id") or props.get("id") or ""
+        route = (props.get("route") or "").strip()
+        site_name = (props.get("name") or props.get("description") or "").strip()
+        views = props.get("cameras", []) or []
+        for i, v in enumerate(views):
+            img = v.get("image") or ""
+            if not img or "unavailable" in img.lower():
+                continue
+            view_id = v.get("id") or str(i)
+            # SD reuses per-view ids ("0","1",...) across sites, so always
+            # namespace by site to keep the camera id globally unique.
+            vid = view_id if (site_id and str(view_id).startswith(str(site_id))) else f"{site_id}-{view_id}"
+            vname = (v.get("name") or v.get("description") or site_name or route).strip()
+            name = f"{site_name} - {vname}".strip(" -") if site_name and vname != site_name else (vname or site_name or route)
+            cameras.append({
+                "id": str(vid),
+                "name": name or f"Camera {vid}",
+                "route": route,
+                "jurisdiction": (v.get("direction") or "").strip(),
+                "lat": lat,
+                "lng": lng,
+                "image_url": img,
+                "video_url": "",
+            })
+    return cameras
+
+
+async def fetch_sd() -> list[dict]:
+    return await _fetch_iteris("sd")
+
+
+async def fetch_mt() -> list[dict]:
+    return await _fetch_iteris("mt")

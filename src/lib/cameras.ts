@@ -222,6 +222,14 @@ export const STATES: StateConfig[] = [
     cameraCount: 1524,
   },
   {
+    id: 'mt',
+    name: 'Montana',
+    defaultCenter: { lat: 46.9, lng: -110.4 },
+    defaultZoom: 6,
+    supportsVideo: false,
+    cameraCount: 38,
+  },
+  {
     id: 'nc',
     name: 'North Carolina',
     defaultCenter: { lat: 35.5, lng: -79.8 },
@@ -285,6 +293,14 @@ export const STATES: StateConfig[] = [
     defaultZoom: 8,
     supportsVideo: true,
     cameraCount: 760,
+  },
+  {
+    id: 'sd',
+    name: 'South Dakota',
+    defaultCenter: { lat: 44.4, lng: -100.2 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 156,
   },
   {
     id: 'tn',
