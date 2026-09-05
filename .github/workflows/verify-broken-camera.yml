@@ -1,0 +1,39 @@
+name: Verify broken camera
+
+# When a broken-camera issue is opened, re-probe the camera and post the findings
+# as a comment. Investigate-and-report ONLY — never edits data or closes the issue.
+# A maintainer always makes the call.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  verify:
+    # Only run for issues carrying the broken-camera label (the app's Report links
+    # and the issue form both apply it).
+    if: contains(github.event.issue.labels.*.name, 'broken-camera')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Re-probe the camera
+        id: probe
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          printf '%s' "$ISSUE_BODY" > /tmp/issue-body.md
+          python3 scripts/verify_broken_camera.py --body-file /tmp/issue-body.md > /tmp/report.md
+          cat /tmp/report.md
+
+      - name: Comment findings on the issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh issue comment "${{ github.event.issue.number }}" --repo "${{ github.repository }}" --body-file /tmp/report.md
