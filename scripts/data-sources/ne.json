@@ -1261,12 +1261,12 @@
   },
   {
     "id": "688",
-    "name": "Camera 688",
+    "name": "ST N MM 12.4 RWIS",
     "route": "",
     "jurisdiction": "",
     "lat": 43.21875,
     "lng": -70.895526,
-    "image_url": "https://newengland511.org/map/Cctv/688",
+    "image_url": "https://newengland511.org/map/Cctv/1296",
     "video_url": ""
   },
   {
@@ -1311,12 +1311,12 @@
   },
   {
     "id": "693",
-    "name": "Camera 693",
+    "name": "93 M MM 19.5",
     "route": "",
     "jurisdiction": "",
     "lat": 42.968796,
     "lng": -71.413235,
-    "image_url": "https://newengland511.org/map/Cctv/693",
+    "image_url": "https://newengland511.org/map/Cctv/1301",
     "video_url": ""
   },
   {
@@ -3011,12 +3011,12 @@
   },
   {
     "id": "1518",
-    "name": "I-295 Mile 49 NB (Gardiner)",
+    "name": "Camera 1518",
     "route": "",
     "jurisdiction": "",
     "lat": 44.19063,
     "lng": -69.82889,
-    "image_url": "https://newengland511.org/map/Cctv/2126",
+    "image_url": "https://newengland511.org/map/Cctv/1518",
     "video_url": ""
   },
   {
@@ -3041,12 +3041,12 @@
   },
   {
     "id": "1522",
-    "name": "I-295 Mile 22 SB (Freeport)",
+    "name": "Camera 1522",
     "route": "",
     "jurisdiction": "",
     "lat": 43.8569,
     "lng": -70.11254,
-    "image_url": "https://newengland511.org/map/Cctv/2130",
+    "image_url": "https://newengland511.org/map/Cctv/1522",
     "video_url": ""
   },
   {
@@ -4037,6 +4037,26 @@
     "lat": 44.771244,
     "lng": -68.722354,
     "image_url": "https://newengland511.org/map/Cctv/1733",
+    "video_url": ""
+  },
+  {
+    "id": "1734",
+    "name": "Camera 1734",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.100294,
+    "lng": -70.74575,
+    "image_url": "https://newengland511.org/map/Cctv/1734",
+    "video_url": ""
+  },
+  {
+    "id": "1735",
+    "name": "Camera 1735",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.180391,
+    "lng": -71.565998,
+    "image_url": "https://newengland511.org/map/Cctv/1735",
     "video_url": ""
   }
 ]

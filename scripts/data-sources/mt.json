@@ -1,0 +1,382 @@
+[
+  {
+    "id": "6683-1",
+    "name": "US-310 Frannie WY Port of Entry - View Facing South",
+    "route": "WY US-310",
+    "jurisdiction": "South",
+    "lat": 44.96677,
+    "lng": -108.621555,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6683.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6680-1",
+    "name": "I-90 Dietz WY Port of Entry - View Facing South",
+    "route": "WY I-90",
+    "jurisdiction": "South",
+    "lat": 44.882957,
+    "lng": -107.003822,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6680.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6679-1",
+    "name": "I-90 Sheridan WY - View Facing South",
+    "route": "WY I-90",
+    "jurisdiction": "South",
+    "lat": 44.773641,
+    "lng": -106.936906,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6679.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6681-1",
+    "name": "I-90 Ranchester WY - View Facing North",
+    "route": "WY I-90",
+    "jurisdiction": "North",
+    "lat": 44.916972,
+    "lng": -107.157722,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6681.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6684-1",
+    "name": "I-90 Gillette WY - View Facing West",
+    "route": "WY I-90",
+    "jurisdiction": "West",
+    "lat": 44.29024,
+    "lng": -105.467089,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6684.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6682-1",
+    "name": "I-90 Wyoming State Line - View Facing North",
+    "route": "WY I-90",
+    "jurisdiction": "North",
+    "lat": 45.000981,
+    "lng": -107.297695,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6682.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6698-1",
+    "name": "US-2 Ray ND - View Facing West",
+    "route": "ND US-2",
+    "jurisdiction": "West",
+    "lat": 48.3429669,
+    "lng": -103.2170739,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6698.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6700-1",
+    "name": "US-85 Bowman ND - View Facing West",
+    "route": "ND US-85",
+    "jurisdiction": "West",
+    "lat": 46.117571,
+    "lng": -103.4068475,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6700.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6701-1",
+    "name": "I-94 Fryburg ND - View Facing West",
+    "route": "ND I-94",
+    "jurisdiction": "West",
+    "lat": 46.89597817,
+    "lng": -103.2950669,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6701.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6703-1",
+    "name": "US-12 Marmarth ND - View Facing West",
+    "route": "ND US-12",
+    "jurisdiction": "West",
+    "lat": 46.29535,
+    "lng": -103.939419,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6703.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6702-1",
+    "name": "I-94 Beach ND - View Facing West",
+    "route": "ND I-94",
+    "jurisdiction": "West",
+    "lat": 46.93106418,
+    "lng": -104.0273497,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6702.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1357-1",
+    "name": "Hwy 4 Coutts Canada - View Facing North",
+    "route": "CND Hwy-4",
+    "jurisdiction": "North",
+    "lat": 49.081147,
+    "lng": -112.026086,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1357.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1358-1",
+    "name": "Hwy 4 Warner Canada - View Facing North",
+    "route": "CND Hwy-4",
+    "jurisdiction": "North",
+    "lat": 49.259627,
+    "lng": -112.184315,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1358.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1359-1",
+    "name": "Hwy 4 Stirling Canada - View Facing South",
+    "route": "CND Hwy-4",
+    "jurisdiction": "South",
+    "lat": 49.494445,
+    "lng": -112.49382,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1359.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1360-1",
+    "name": "Hwy 3 Monarch Canada - View Facing East",
+    "route": "CND Hwy-3",
+    "jurisdiction": "East",
+    "lat": 49.786141,
+    "lng": -113.027687,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1360.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1367-1",
+    "name": "Hwy 3 Barnwell Canada - View Facing West",
+    "route": "CND Hwy-3",
+    "jurisdiction": "West",
+    "lat": 49.766021,
+    "lng": -112.231264,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1367.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1361-1",
+    "name": "Hwy 3 Purple Springs Canada - View Facing West",
+    "route": "CND Hwy-3",
+    "jurisdiction": "West",
+    "lat": 49.814838,
+    "lng": -111.929569,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1361.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1362-1",
+    "name": "Hwy 3 Burdett Canada - View Facing West",
+    "route": "CND Hwy-3",
+    "jurisdiction": "West",
+    "lat": 49.830121,
+    "lng": -111.485395,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1362.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1363-1",
+    "name": "Hwy 3 Whitla Canada - View Facing West",
+    "route": "CND Hwy-3",
+    "jurisdiction": "West",
+    "lat": 49.873508,
+    "lng": -111.083622,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1363.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1364-1",
+    "name": "Hwy 1 Medicine Hat Canada - View Facing South",
+    "route": "CND Hwy-1",
+    "jurisdiction": "South",
+    "lat": 50.040632,
+    "lng": -110.715623,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1364.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1365-1",
+    "name": "Hwy 1 Irvine Canada - View Facing West",
+    "route": "CND Hwy-1",
+    "jurisdiction": "West",
+    "lat": 49.980923,
+    "lng": -110.411568,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1365.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1366-1",
+    "name": "Hwy 1 Suffield Canada - View Facing South",
+    "route": "CND Hwy-1",
+    "jurisdiction": "South",
+    "lat": 50.287365,
+    "lng": -111.293392,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1366.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1368-1",
+    "name": "Hwy 41 Elkwater Canada - View Facing South",
+    "route": "CND Hwy-41",
+    "jurisdiction": "South",
+    "lat": 49.22929,
+    "lng": -110.25261,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1368.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6691-1",
+    "name": "US-12 Lolo Pass ID - View Facing Road Surface",
+    "route": "ID US-12",
+    "jurisdiction": "Road Surface",
+    "lat": 46.63579999,
+    "lng": -114.580446,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6691.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6693-1",
+    "name": "I-90 Cataldo ID - View Facing East",
+    "route": "ID I-90",
+    "jurisdiction": "East",
+    "lat": 47.546757,
+    "lng": -116.331299,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6693.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6688-1",
+    "name": "I-90 Wallace ID - View Facing East",
+    "route": "ID I-90",
+    "jurisdiction": "East",
+    "lat": 47.482554,
+    "lng": -115.939107,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6688.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6690-1",
+    "name": "I-90 4th of July Summit ID - View Facing East",
+    "route": "ID I-90",
+    "jurisdiction": "East",
+    "lat": 47.621394,
+    "lng": -116.523635,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6690.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6692-1",
+    "name": "I-15 Camp Creek ID - View Facing North",
+    "route": "ID I-15",
+    "jurisdiction": "North",
+    "lat": 44.391598,
+    "lng": -112.191009,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6692.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6689-1",
+    "name": "I-15 China Point ID - View Facing North",
+    "route": "ID I-15",
+    "jurisdiction": "North",
+    "lat": 44.32876,
+    "lng": -112.177276,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6689.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1371-1",
+    "name": "Hwy 3 Crowsnest Canada - View Facing East",
+    "route": "CND Hwy-3",
+    "jurisdiction": "East",
+    "lat": 49.62691127,
+    "lng": -114.64667754,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_1371.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "5549-1",
+    "name": "Glacier National Park West Entrance - View Facing South",
+    "route": "",
+    "jurisdiction": "South",
+    "lat": 48.50634,
+    "lng": -113.98788,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_5549.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6880-1",
+    "name": "US-20 West Yellowstone ID - View Facing West",
+    "route": "US-20",
+    "jurisdiction": "West",
+    "lat": 44.66392363,
+    "lng": -111.1150159,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6880.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6686-1",
+    "name": "US-212 Colony WY - View Facing North",
+    "route": "WY US-212",
+    "jurisdiction": "North",
+    "lat": 44.88978998,
+    "lng": -104.18876336,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6686.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6694-1",
+    "name": "US-212 Belle Fourche SD - View Facing East",
+    "route": "US-212",
+    "jurisdiction": "East",
+    "lat": 44.79331075,
+    "lng": -104.0255609,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6694.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6699-1",
+    "name": "I-94 Camel Hump ND - View Facing West",
+    "route": "I-94",
+    "jurisdiction": "West",
+    "lat": 46.94428691,
+    "lng": -103.80830274,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6699.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "5545-1",
+    "name": "Yellowstone National Park - West Entrance - View Facing West",
+    "route": "West Entrance Rd",
+    "jurisdiction": "West",
+    "lat": 44.65133033,
+    "lng": -111.0533487,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_5545.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "5550-1",
+    "name": "Yellowstone National Park - North Entrance - View Facing West",
+    "route": "",
+    "jurisdiction": "West",
+    "lat": 45.02540429,
+    "lng": -110.70094334,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_5550.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6687-1",
+    "name": "US-93 Lost Trail Pass ID - View Facing North",
+    "route": "US-93",
+    "jurisdiction": "North",
+    "lat": 45.69308349,
+    "lng": -113.94833007,
+    "image_url": "https://mt.cdn.iteris-atis.com/camera_images/other_cameras_6687.jpg",
+    "video_url": ""
+  }
+]
