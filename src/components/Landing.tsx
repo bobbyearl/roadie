@@ -94,6 +94,7 @@ export function Landing() {
         </p>
         <div className="attribution-links">
           <a href="https://algotraffic.com" target="_blank" rel="noopener">ALGO Traffic (AL)</a>
+          <a href="https://www.idrivearkansas.com" target="_blank" rel="noopener">IDrive Arkansas (AR)</a>
           <a href="https://cwwp2.dot.ca.gov" target="_blank" rel="noopener">Caltrans (CA)</a>
           <a href="https://ctroads.org" target="_blank" rel="noopener">CTRoads</a>
           <a href="https://tmc.deldot.gov" target="_blank" rel="noopener">DelDOT</a>
@@ -101,6 +102,7 @@ export function Landing() {
           <a href="https://511ga.org" target="_blank" rel="noopener">GA 511</a>
           <a href="https://chart.maryland.gov" target="_blank" rel="noopener">MD CHART</a>
           <a href="https://www.drivenc.gov" target="_blank" rel="noopener">DriveNC</a>
+          <a href="https://travel.dot.nd.gov" target="_blank" rel="noopener">NDDOT Travel (ND)</a>
           <a href="https://www.511nj.org" target="_blank" rel="noopener">NJ 511</a>
           <a href="https://www.511pa.com" target="_blank" rel="noopener">PA 511</a>
           <a href="https://www.511sc.org" target="_blank" rel="noopener">SC 511</a>
