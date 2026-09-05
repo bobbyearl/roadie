@@ -1,0 +1,45 @@
+name: Broken camera
+description: Report a traffic camera that is not loading or is intermittent.
+title: "Broken camera: "
+labels: ["broken-camera"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! The camera **ID** below is usually pre-filled from the
+        app's Report link — please leave it as-is. A bot will re-check the camera and
+        comment its findings on this issue.
+  - type: input
+    id: camera-id
+    attributes:
+      label: Camera ID
+      description: The `state:site_id` (e.g. `ny:4822`). Pre-filled by the app's Report link.
+      placeholder: "ny:4822"
+    validations:
+      required: true
+  - type: input
+    id: camera-name
+    attributes:
+      label: Camera name
+      description: Optional — the camera's name/description.
+      placeholder: "I-66 @ VA-243"
+    validations:
+      required: false
+  - type: dropdown
+    id: symptom
+    attributes:
+      label: What's wrong?
+      options:
+        - "Never loads (feed unavailable)"
+        - "Loads but intermittent / cuts out"
+        - "Wrong location on the map"
+        - "Other"
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else?
+      description: Optional extra detail.
+    validations:
+      required: false
