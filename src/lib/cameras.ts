@@ -24,18 +24,19 @@ export interface StateConfig {
 }
 
 // Build a pre-filled GitHub issue URL for reporting a broken/intermittent camera.
-// The id (state:site_id), name and type go in the title + body so the user only
-// clicks Submit; the broken-camera label lets a bot filter and re-probe it later.
+// Targets the broken-camera issue FORM (.github/ISSUE_TEMPLATE/broken-camera.yml)
+// and prefills its fields by id (camera-id, camera-name) so the user only picks a
+// symptom and submits. The form applies the broken-camera label, which the verify
+// bot filters on; passing labels= too is harmless belt-and-suspenders.
 export function reportCameraUrl(camera: Camera): string {
-  const title = `Broken camera: ${camera.id}`;
-  const body = [
-    `**Camera:** ${camera.name || camera.description || '(unnamed)'}`,
-    `**ID:** ${camera.id}`,
-    `**Type:** ${camera.hasVideo ? 'video' : 'image'}`,
-    '',
-    'This camera is broken or intermittent in the app. (Auto-filled — add anything useful and submit.)',
-  ].join('\n');
-  return `https://github.com/bobbyearl/roadie/issues/new?labels=broken-camera&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  const params = new URLSearchParams({
+    template: 'broken-camera.yml',
+    labels: 'broken-camera',
+    title: `Broken camera: ${camera.id}`,
+    'camera-id': camera.id,
+    'camera-name': camera.name || camera.description || '',
+  });
+  return `https://github.com/bobbyearl/roadie/issues/new?${params.toString()}`;
 }
 
 // Raw database format from cameras.db.json
