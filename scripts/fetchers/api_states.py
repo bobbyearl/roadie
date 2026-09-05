@@ -397,6 +397,7 @@ _CARS_STATES = {
     "ia": {"host": "511ia.org", "bbox": {"north": 43.7, "south": 40.2, "east": -89.9, "west": -96.8}},
     "mn": {"host": "511mn.org", "bbox": {"north": 49.5, "south": 43.4, "east": -89.4, "west": -97.3}},
     "ks": {"host": "www.kandrive.gov", "bbox": {"north": 40.1, "south": 36.9, "east": -94.5, "west": -102.1}},
+    "ma": {"host": "mass511.com", "bbox": {"north": 43.0, "south": 41.2, "east": -69.8, "west": -73.6}},
 }
 
 import re
@@ -410,26 +411,12 @@ def _cars_route_direction(title: str) -> tuple[str, str]:
     return route, direction
 
 
-async def _fetch_cars(state: str) -> list[dict]:
-    cfg = _CARS_STATES[state]
-    variables = json.dumps({"input": {**cfg["bbox"], "zoom": 12, "layerSlugs": ["normalCameras"]}})
-    params = {"query": _CARS_QUERY, "variables": variables}
-    async with httpx.AsyncClient(timeout=40, follow_redirects=True) as client:
-        resp = await client.get(
-            f"https://{cfg['host']}/api/graphql",
-            params=params,
-            headers={"language": "en", "User-Agent": "Mozilla/5.0"},
-        )
-        resp.raise_for_status()
-        data = resp.json()
-    features = (data.get("data", {}) or {}).get("mapFeaturesQuery", {}) or {}
-    mapfeatures = features.get("mapFeatures", []) or []
+def _parse_cars_features(mapfeatures: list) -> list[dict]:
     cameras = []
     for feat in mapfeatures:
         if feat.get("__typename") != "Camera":
             continue
         title = (feat.get("title") or "").strip()
-        # first view with a usable still url
         image_url = ""
         for v in feat.get("views", []) or []:
             if v.get("url"):
@@ -463,6 +450,25 @@ async def _fetch_cars(state: str) -> list[dict]:
     return cameras
 
 
+async def _cars_request(client, host: str, bbox: dict, zoom: int = 12) -> list:
+    variables = json.dumps({"input": {**bbox, "zoom": zoom, "layerSlugs": ["normalCameras"]}})
+    resp = await client.get(
+        f"https://{host}/api/graphql",
+        params={"query": _CARS_QUERY, "variables": variables},
+        headers={"language": "en", "User-Agent": "Mozilla/5.0"},
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    return ((data.get("data", {}) or {}).get("mapFeaturesQuery", {}) or {}).get("mapFeatures", []) or []
+
+
+async def _fetch_cars(state: str) -> list[dict]:
+    cfg = _CARS_STATES[state]
+    async with httpx.AsyncClient(timeout=40, follow_redirects=True) as client:
+        mapfeatures = await _cars_request(client, cfg["host"], cfg["bbox"])
+    return _parse_cars_features(mapfeatures)
+
+
 async def fetch_ia() -> list[dict]:
     return await _fetch_cars("ia")
 
@@ -473,3 +479,164 @@ async def fetch_mn() -> list[dict]:
 
 async def fetch_ks() -> list[dict]:
     return await _fetch_cars("ks")
+
+
+async def fetch_ma() -> list[dict]:
+    return await _fetch_cars("ma")
+
+
+# --- Michigan ---
+# MDOT MiDrive. JSON list, but fields are HTML-wrapped: lat/lon/id live in a
+# "Go to" map link inside `county`, and the still-image src is inside an <img>
+# tag in `image`. We regex those out. The image src is a thumbs/*.flv.jpg that
+# 301-redirects to micamerasimages.net/*.jpg (browsers follow it). Image-only.
+MI_URL = "https://mdotjboss.state.mi.us/MiDrive/camera/list"
+
+_MI_LATLON = re.compile(r"lat=([-\d.]+)&lon=([-\d.]+)")
+_MI_ID = re.compile(r"[?&]id=(\d+)")
+_MI_IMG = re.compile(r'src="([^"]+)"')
+_MI_DIR = re.compile(r"traveling (north|south|east|west)", re.IGNORECASE)
+_MI_DIR_ABBR = {"north": "NB", "south": "SB", "east": "EB", "west": "WB"}
+
+
+async def fetch_mi() -> list[dict]:
+    data = await _get_json(MI_URL)
+    cameras = []
+    for cam in data:
+        county = cam.get("county", "") or ""
+        m = _MI_LATLON.search(county)
+        if not m:
+            continue
+        lat, lng = float(m.group(1)), float(m.group(2))
+        if not lat or not lng:
+            continue
+        img_html = cam.get("image", "") or ""
+        im = _MI_IMG.search(img_html)
+        if not im:
+            continue
+        image_url = im.group(1).split("?")[0]  # strip ?item= cache-buster
+        idm = _MI_ID.search(county)
+        cam_id = idm.group(1) if idm else image_url.rsplit("/", 1)[-1].split(".")[0]
+        route = (cam.get("route") or "").strip()
+        location = (cam.get("location") or "").strip()
+        name = f"{route} {location}".strip() if location else (route or "Camera")
+        dm = _MI_DIR.search(cam.get("direction", "") or "")
+        direction = _MI_DIR_ABBR.get(dm.group(1).lower(), "") if dm else ""
+        cameras.append({
+            "id": str(cam_id),
+            "name": name,
+            "route": route,
+            "jurisdiction": direction,
+            "lat": lat,
+            "lng": lng,
+            "image_url": image_url,
+            "video_url": "",
+        })
+    return cameras
+
+
+# --- Arizona ---
+# az511.gov legacy CARS. mapIcons gives itemId + location[lat,lng]; the still
+# image is served per-id at /map/Cctv/<id> (200 image/jpeg, CORS *, 30s cache).
+AZ_URL = "https://az511.gov/map/mapIcons/Cameras"
+
+async def fetch_az() -> list[dict]:
+    data = await _get_json(AZ_URL)
+    items = data.get("item2") or data.get("item") or []
+    cameras = []
+    for item in items:
+        loc = item.get("location") or []
+        if len(loc) < 2:
+            continue
+        lat, lng = loc[0], loc[1]
+        if not lat or not lng:
+            continue
+        cam_id = str(item.get("itemId", ""))
+        if not cam_id:
+            continue
+        cameras.append({
+            "id": cam_id,
+            "name": (item.get("title") or "").strip() or f"Camera {cam_id}",
+            "route": "",
+            "jurisdiction": "",
+            "lat": lat,
+            "lng": lng,
+            "image_url": f"https://az511.gov/map/Cctv/{cam_id}",
+            "video_url": "",
+        })
+    return cameras
+
+
+# --- Illinois ---
+# travelmidwest.com Gateway feed (POST {} -> GeoJSON of IL+neighbors). Filter to
+# Illinois by the IL- id prefix, skip disabled cams, take the first snapshot URL.
+IL_URL = "https://travelmidwest.com/lmiga/cameraMap.json"
+
+async def fetch_il() -> list[dict]:
+    async with httpx.AsyncClient(timeout=40, follow_redirects=True) as client:
+        resp = await client.post(IL_URL, json={}, headers={"User-Agent": "Mozilla/5.0"})
+        resp.raise_for_status()
+        data = resp.json()
+    cameras = []
+    for feat in data.get("features", []):
+        props = feat.get("properties", {})
+        cam_id = props.get("id", "")
+        if not cam_id.startswith("IL-") or props.get("dis"):
+            continue
+        rem = props.get("remUrls") or []
+        if not rem:
+            continue
+        coords = feat.get("geometry", {}).get("coordinates") or []
+        if len(coords) < 2:
+            continue
+        lng, lat = coords[0], coords[1]
+        if not lat or not lng:
+            continue
+        cameras.append({
+            "id": cam_id,
+            "name": (props.get("locDesc") or "").strip() or cam_id,
+            "route": "",
+            "jurisdiction": props.get("src", ""),
+            "lat": lat,
+            "lng": lng,
+            "image_url": rem[0],
+            "video_url": "",
+        })
+    return cameras
+
+
+# --- Kentucky ---
+# KYTC public ArcGIS FeatureServer. One query returns all cameras with a
+# snapshot url + lat/long. Some snapshot values are http:// -> force https to
+# avoid mixed-content. Image-only.
+KY_URL = (
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/ArcGIS/rest/services/"
+    "trafficCamerasCur_Prd/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json"
+)
+
+async def fetch_ky() -> list[dict]:
+    data = await _get_json(KY_URL)
+    cameras = []
+    for feat in data.get("features", []):
+        attrs = feat.get("attributes", {})
+        geom = feat.get("geometry", {})
+        lat = attrs.get("latitude") or geom.get("y")
+        lng = attrs.get("longitude") or geom.get("x")
+        snap = attrs.get("snapshot") or ""
+        if not lat or not lng or not snap:
+            continue
+        if snap.startswith("http://"):
+            snap = "https://" + snap[len("http://"):]
+        cam_id = str(attrs.get("id") or attrs.get("OBJECTID") or "")
+        name = (attrs.get("name") or attrs.get("description") or f"Camera {cam_id}").strip()
+        cameras.append({
+            "id": cam_id,
+            "name": name,
+            "route": (attrs.get("highway") or "").strip(),
+            "jurisdiction": (attrs.get("direction") or "").strip(),
+            "lat": lat,
+            "lng": lng,
+            "image_url": snap,
+            "video_url": "",
+        })
+    return cameras
