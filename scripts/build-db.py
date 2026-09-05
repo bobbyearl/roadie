@@ -12,6 +12,7 @@ Each state has a parser function that normalizes its raw data into a common
 intermediate format, which is then compressed into the final DB structure.
 """
 
+import hashlib
 import json
 import os
 import sys
@@ -649,8 +650,17 @@ def build_db():
         meta_cameras[cam[2]] = [cam[4], cam[5], cam[6], cam[7], cam[8], cam[9]]
     meta = {"jurisdictions": jurisdictions, "routes": routes, "cameras": meta_cameras}
     meta_path = os.path.join(os.path.dirname(OUTPUT), "meta.json")
-    with open(meta_path, "w") as f:
-        json.dump(meta, f, separators=(",", ":"))
+    meta_bytes = json.dumps(meta, separators=(",", ":")).encode("utf-8")
+    with open(meta_path, "wb") as f:
+        f.write(meta_bytes)
+
+    # Content hash of meta.json for cache-busting the runtime fetch. The build
+    # inlines this into index.html so the ?v= query param only changes when the
+    # camera data actually changes (see src/plugins/inlineDataVersion.ts).
+    data_version = hashlib.sha256(meta_bytes).hexdigest()[:8]
+    version_path = os.path.join(os.path.dirname(OUTPUT), "version.txt")
+    with open(version_path, "w") as f:
+        f.write(data_version)
 
     size_mb = os.path.getsize(OUTPUT) / 1024 / 1024
     print(f"\n  Output: {OUTPUT}")
@@ -658,6 +668,7 @@ def build_db():
     print(f"  Cameras: {len(cameras)}")
     print(f"  Size: {size_mb:.2f} MB")
     print(f"  Also generated: pins.json ({len(pins)} pins), meta.json ({len(meta_cameras)} entries)")
+    print(f"  Data version: {data_version} (version.txt)")
 
 
 if __name__ == "__main__":
