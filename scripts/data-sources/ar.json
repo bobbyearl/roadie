@@ -1,0 +1,5522 @@
+[
+  {
+    "id": "727",
+    "name": "I-555 @ S. Caraway (Exit 42)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.807583,
+    "lng": -90.678028,
+    "image_url": "https://layers.idrivearkansas.com/cameras/727.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "836",
+    "name": "I-30 at Crossroads Overpass",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.523444,
+    "lng": -92.683694,
+    "image_url": "https://layers.idrivearkansas.com/cameras/836.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "777",
+    "name": "West Memphis Truck Parking Exit Ramp",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.156639,
+    "lng": -90.240472,
+    "image_url": "https://layers.idrivearkansas.com/cameras/777.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "249",
+    "name": "State Hwy. 440 at Mile Marker 12",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.80091,
+    "lng": -92.159234,
+    "image_url": "https://layers.idrivearkansas.com/cameras/249.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "749",
+    "name": "I-30 at 3rd Street",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.744897,
+    "lng": -92.2631,
+    "image_url": "https://layers.idrivearkansas.com/cameras/749.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "457",
+    "name": "I-30 @ Red River",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.605106,
+    "lng": -93.815969,
+    "image_url": "https://layers.idrivearkansas.com/cameras/457.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "844",
+    "name": "I-40 at Baker-Wills Pkwy (Exit 132)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.020778,
+    "lng": -92.409917,
+    "image_url": "https://layers.idrivearkansas.com/cameras/844.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "157",
+    "name": "US 49 at Brookland School Rd.",
+    "route": "49",
+    "jurisdiction": "U.S. Highway",
+    "lat": 35.907179,
+    "lng": -90.587878,
+    "image_url": "https://layers.idrivearkansas.com/cameras/157.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "434",
+    "name": "Hwy 5 SE of Mountain View",
+    "route": "5",
+    "jurisdiction": "State Highway",
+    "lat": 35.79805,
+    "lng": -91.983411,
+    "image_url": "https://layers.idrivearkansas.com/cameras/434.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "550",
+    "name": "I-430 Arkansas River Bridge",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.802631,
+    "lng": -92.370528,
+    "image_url": "https://layers.idrivearkansas.com/cameras/550.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "750",
+    "name": "I-30 at Arkansas River Bridge",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.747297,
+    "lng": -92.262272,
+    "image_url": "https://layers.idrivearkansas.com/cameras/750.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "845",
+    "name": "I-40 at Salem Rd (Exit 124)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.1195,
+    "lng": -92.469111,
+    "image_url": "https://layers.idrivearkansas.com/cameras/845.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "855",
+    "name": "I-530 at I-440 Flyover",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.707295,
+    "lng": -92.270621,
+    "image_url": "https://layers.idrivearkansas.com/cameras/855.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "863",
+    "name": "I-40 at Mile Marker 277.2",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.16983,
+    "lng": -90.19451,
+    "image_url": "https://layers.idrivearkansas.com/cameras/863.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "847",
+    "name": "I-430 at Dodd Rd Overpass",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.696694,
+    "lng": -92.403639,
+    "image_url": "https://layers.idrivearkansas.com/cameras/847.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "204",
+    "name": "Hwy 229 @ I-30",
+    "route": "229",
+    "jurisdiction": "State Highway",
+    "lat": 34.548831,
+    "lng": -92.630339,
+    "image_url": "https://layers.idrivearkansas.com/cameras/204.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "418",
+    "name": "I-30 @ mm 53",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.898833,
+    "lng": -93.303111,
+    "image_url": "https://layers.idrivearkansas.com/cameras/418.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "22",
+    "name": "I-530 at S. Terminal Interchange",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.711756,
+    "lng": -92.270883,
+    "image_url": "https://layers.idrivearkansas.com/cameras/22.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "728",
+    "name": "I-49 at Collum Lane (Exit 21)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.492486,
+    "lng": -94.245975,
+    "image_url": "https://layers.idrivearkansas.com/cameras/728.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "837",
+    "name": "I-440 at Exit 138A",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.713333,
+    "lng": -92.265,
+    "image_url": "https://layers.idrivearkansas.com/cameras/837.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "846",
+    "name": "I-40 at Salem Rd (Exit 124 A)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.118694,
+    "lng": -92.453833,
+    "image_url": "https://layers.idrivearkansas.com/cameras/846.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "864",
+    "name": "I-55 at Mile Marker 7",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.17365,
+    "lng": -90.19404,
+    "image_url": "https://layers.idrivearkansas.com/cameras/864.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "856",
+    "name": "I-40 at I-57 (Exit 155)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.778837,
+    "lng": -92.225106,
+    "image_url": "https://layers.idrivearkansas.com/cameras/856.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "848",
+    "name": "I-630 at Baptist Hospital (Exit 7)",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.748389,
+    "lng": -92.380056,
+    "image_url": "https://layers.idrivearkansas.com/cameras/848.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "729",
+    "name": "I-49 at Frog Bayou Bridge",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.582672,
+    "lng": -94.216614,
+    "image_url": "https://layers.idrivearkansas.com/cameras/729.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "838",
+    "name": "I-430 at Shackleford Rd. (Exit 5)",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.7355460040338,
+    "lng": -92.3948774226678,
+    "image_url": "https://layers.idrivearkansas.com/cameras/838.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "447",
+    "name": "I-40 @ Exit 108",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.174483,
+    "lng": -92.717678,
+    "image_url": "https://layers.idrivearkansas.com/cameras/447.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "484",
+    "name": "I-49 @ Mile Marker 4",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 33.081722,
+    "lng": -93.898653,
+    "image_url": "https://layers.idrivearkansas.com/cameras/484.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "849",
+    "name": "I-40 at Prothro Jct (Exit 157)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.779083,
+    "lng": -92.203389,
+    "image_url": "https://layers.idrivearkansas.com/cameras/849.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "865",
+    "name": "I-55 at Mile Marker 7",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.17365,
+    "lng": -90.19404,
+    "image_url": "https://layers.idrivearkansas.com/cameras/865.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "427",
+    "name": "I-40 mm 199.7",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.8398,
+    "lng": -91.45661,
+    "image_url": "https://layers.idrivearkansas.com/cameras/427.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "779",
+    "name": "I-530 at US 167 Interchange (Exit 10)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.570456,
+    "lng": -92.267856,
+    "image_url": "https://layers.idrivearkansas.com/cameras/779.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "730",
+    "name": "I-49 at Mountainburg (Exit 29)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.613061,
+    "lng": -94.191003,
+    "image_url": "https://layers.idrivearkansas.com/cameras/730.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "709",
+    "name": "I-430 Big Rock Water Tower",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.744071,
+    "lng": -92.390211,
+    "image_url": "https://layers.idrivearkansas.com/cameras/709.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "866",
+    "name": "I-40 at Mile Marker 277.0",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.16941,
+    "lng": -90.19742,
+    "image_url": "https://layers.idrivearkansas.com/cameras/866.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "839",
+    "name": "I-30 at Scott Hamilton Dr. (Exit 134)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.679639,
+    "lng": -92.319139,
+    "image_url": "https://layers.idrivearkansas.com/cameras/839.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "239",
+    "name": "Hwy 67 @ Exit 114",
+    "route": "67",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.543881,
+    "lng": -92.631431,
+    "image_url": "https://layers.idrivearkansas.com/cameras/239.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "850",
+    "name": "I-440 at US70 Overpass (Exit 10)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.771333,
+    "lng": -92.161528,
+    "image_url": "https://layers.idrivearkansas.com/cameras/850.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "731",
+    "name": "I-49 at Chester (Exit 34)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.671367,
+    "lng": -94.164897,
+    "image_url": "https://layers.idrivearkansas.com/cameras/731.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "710",
+    "name": "I-555 @ MLK (Exit 39)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.801111,
+    "lng": -90.624556,
+    "image_url": "https://layers.idrivearkansas.com/cameras/710.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "780",
+    "name": "US167 at I-530 Interchange",
+    "route": "167",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.565506,
+    "lng": -92.271681,
+    "image_url": "https://layers.idrivearkansas.com/cameras/780.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "867",
+    "name": "I-40 at Mile Marker 277.0",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.16941,
+    "lng": -90.19742,
+    "image_url": "https://layers.idrivearkansas.com/cameras/867.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "393",
+    "name": "I-40 @ mm 239",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.026764,
+    "lng": -90.816533,
+    "image_url": "https://layers.idrivearkansas.com/cameras/393.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "227",
+    "name": "State Hwy. 440 N. of I-40 Intchg.",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.786592,
+    "lng": -92.161543,
+    "image_url": "https://layers.idrivearkansas.com/cameras/227.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "360",
+    "name": "I-49 mm 75.2 @ Wagon Wheel Rd",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.226747,
+    "lng": -94.179325,
+    "image_url": "https://layers.idrivearkansas.com/cameras/360.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "477",
+    "name": "US 71 @ Gilham RXR Overpass",
+    "route": "71",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.130614,
+    "lng": -94.314197,
+    "image_url": "https://layers.idrivearkansas.com/cameras/477.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "129",
+    "name": "I-630 W. of S. Battery St. (Exit 2-B)",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.743617,
+    "lng": -92.299652,
+    "image_url": "https://layers.idrivearkansas.com/cameras/129.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "322",
+    "name": "Wedington Drive (Exit 64)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.077625,
+    "lng": -94.201561,
+    "image_url": "https://layers.idrivearkansas.com/cameras/322.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "732",
+    "name": "I-49 at Clear Creek Bridge",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.709361,
+    "lng": -94.198206,
+    "image_url": "https://layers.idrivearkansas.com/cameras/732.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "711",
+    "name": "I-555 @ Payneway (Exit 18)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.546333,
+    "lng": -90.497139,
+    "image_url": "https://layers.idrivearkansas.com/cameras/711.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "781",
+    "name": "I-530 at US 63 / Olive St (Exit 43)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.171103,
+    "lng": -92.00595,
+    "image_url": "https://layers.idrivearkansas.com/cameras/781.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "577",
+    "name": "I-40 @ Military Drive (Exit 150)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.797739,
+    "lng": -92.302358,
+    "image_url": "https://layers.idrivearkansas.com/cameras/577.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "868",
+    "name": "I-40 at Mile Marker 277.2",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.16983,
+    "lng": -90.19451,
+    "image_url": "https://layers.idrivearkansas.com/cameras/868.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "220",
+    "name": "I-57 at Mile Marker 15",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.935448,
+    "lng": -92.078377,
+    "image_url": "https://layers.idrivearkansas.com/cameras/220.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "851",
+    "name": "I-57 McCain Blvd (Exit 1B)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.789583,
+    "lng": -92.225139,
+    "image_url": "https://layers.idrivearkansas.com/cameras/851.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "370",
+    "name": "I-630 @ University Ave",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.745217,
+    "lng": -92.341767,
+    "image_url": "https://layers.idrivearkansas.com/cameras/370.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "859",
+    "name": "US70 @ Bald Mountain Rd",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.48475,
+    "lng": -92.981528,
+    "image_url": "https://layers.idrivearkansas.com/cameras/859.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "733",
+    "name": "I-49 at Hwy 74 (Exit 45)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.819364,
+    "lng": -94.192142,
+    "image_url": "https://layers.idrivearkansas.com/cameras/733.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "751",
+    "name": "I-30 Broadway St  (Exit 141)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.753139,
+    "lng": -92.261889,
+    "image_url": "https://layers.idrivearkansas.com/cameras/751.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "782",
+    "name": "I-530 at AR 530 Interchange (Exit 44)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.176758,
+    "lng": -91.988417,
+    "image_url": "https://layers.idrivearkansas.com/cameras/782.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "712",
+    "name": "I-555 @ Marked Tree (Exit 13)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.519556,
+    "lng": -90.412611,
+    "image_url": "https://layers.idrivearkansas.com/cameras/712.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "556",
+    "name": "I-57 @ Vandenberg Overpass",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.8830651104452,
+    "lng": -92.110560006233,
+    "image_url": "https://layers.idrivearkansas.com/cameras/556.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "303",
+    "name": "I-40 @ mm 132.7",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.008631,
+    "lng": -92.410233,
+    "image_url": "https://layers.idrivearkansas.com/cameras/303.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "869",
+    "name": "I-30 at Alcoa Road (Exit 121)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.606131,
+    "lng": -92.534894,
+    "image_url": "https://layers.idrivearkansas.com/cameras/869.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "840",
+    "name": "I-440 at Exit 1",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.712475,
+    "lng": -92.262878,
+    "image_url": "https://layers.idrivearkansas.com/cameras/840.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "335",
+    "name": "I-49 mm 73.4 @ Falcon Rd",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.200897,
+    "lng": -94.182183,
+    "image_url": "https://layers.idrivearkansas.com/cameras/335.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "734",
+    "name": "I-49 at Greenland (Exit 58)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.997256,
+    "lng": -94.19625,
+    "image_url": "https://layers.idrivearkansas.com/cameras/734.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "752",
+    "name": "I-530 at Dixon Road (Exit 3)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.672239,
+    "lng": -92.265697,
+    "image_url": "https://layers.idrivearkansas.com/cameras/752.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "713",
+    "name": "I-555 @ Tyronza (Exit 8)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.48,
+    "lng": -90.3585,
+    "image_url": "https://layers.idrivearkansas.com/cameras/713.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "783",
+    "name": "I-530 at Pine Bluff Interchange (Exit 46)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.198236,
+    "lng": -91.972822,
+    "image_url": "https://layers.idrivearkansas.com/cameras/783.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "829",
+    "name": "I-30 at Roosevelt Rd",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.723378,
+    "lng": -92.267036,
+    "image_url": "https://layers.idrivearkansas.com/cameras/829.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "861",
+    "name": "US 425 at Louisiana State Line",
+    "route": "425",
+    "jurisdiction": "U.S. Highway",
+    "lat": 33.008472,
+    "lng": -91.855722,
+    "image_url": "https://layers.idrivearkansas.com/cameras/861.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "870",
+    "name": "I-30 at Hwy 5 Overpass",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.598908,
+    "lng": -92.553761,
+    "image_url": "https://layers.idrivearkansas.com/cameras/870.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "841",
+    "name": "I-440 WB at Springer (Exit 1)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.716692,
+    "lng": -92.251411,
+    "image_url": "https://layers.idrivearkansas.com/cameras/841.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "332",
+    "name": "I-49 mm 71.5 @ Sunset Ave.",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.175042,
+    "lng": -94.186489,
+    "image_url": "https://layers.idrivearkansas.com/cameras/332.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "372",
+    "name": "I-49 mm 80",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.282733,
+    "lng": -94.155539,
+    "image_url": "https://layers.idrivearkansas.com/cameras/372.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "753",
+    "name": "I-530 at 145th St/Pratt Road (Exit 7)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.617853,
+    "lng": -92.26945,
+    "image_url": "https://layers.idrivearkansas.com/cameras/753.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "179",
+    "name": "I-30 at Mile Marker 8",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.527557,
+    "lng": -93.924979,
+    "image_url": "https://layers.idrivearkansas.com/cameras/179.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "784",
+    "name": "US 63 at Pine Bluff I-530 Interchange",
+    "route": "63",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.206844,
+    "lng": -91.966197,
+    "image_url": "https://layers.idrivearkansas.com/cameras/784.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "714",
+    "name": "I-555 @ Lepanto (Exit 7)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.473167,
+    "lng": -90.334972,
+    "image_url": "https://layers.idrivearkansas.com/cameras/714.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "842",
+    "name": "I-30 at Geyer Springs (Exit 133)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.678972,
+    "lng": -92.343528,
+    "image_url": "https://layers.idrivearkansas.com/cameras/842.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "830",
+    "name": "I-57 at Highway 38 (Exit 21)",
+    "route": "38",
+    "jurisdiction": "State Highway",
+    "lat": 34.995519,
+    "lng": -92.005867,
+    "image_url": "https://layers.idrivearkansas.com/cameras/830.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "361",
+    "name": "I-49 mm 75.9 @ Puppy Creek",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.233733,
+    "lng": -94.170611,
+    "image_url": "https://layers.idrivearkansas.com/cameras/361.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "871",
+    "name": "I-30 at Hwy 229 (Exit 116)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.561942,
+    "lng": -92.611531,
+    "image_url": "https://layers.idrivearkansas.com/cameras/871.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "374",
+    "name": "I-630 @ Pedestrian Bridge",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.73425,
+    "lng": -92.266,
+    "image_url": "https://layers.idrivearkansas.com/cameras/374.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "754",
+    "name": "I-530 at Woodson (Exit 12)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.548083,
+    "lng": -92.252528,
+    "image_url": "https://layers.idrivearkansas.com/cameras/754.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "371",
+    "name": "Hwy 7 at Arkansas River Bridge",
+    "route": "7",
+    "jurisdiction": "State Highway",
+    "lat": 35.226042,
+    "lng": -93.149617,
+    "image_url": "https://layers.idrivearkansas.com/cameras/371.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "735",
+    "name": "I-49 at Fulbright Expwy (Exit 67)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.108464,
+    "lng": -94.174644,
+    "image_url": "https://layers.idrivearkansas.com/cameras/735.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "785",
+    "name": "US 65 at Pine Bluff I-530 Interchange",
+    "route": "65",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.198047,
+    "lng": -91.96155,
+    "image_url": "https://layers.idrivearkansas.com/cameras/785.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "596",
+    "name": "I-30 at Sykes Blvd EB (Exit 142)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.7677,
+    "lng": -92.261647,
+    "image_url": "https://layers.idrivearkansas.com/cameras/596.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "382",
+    "name": "I-630 at Main Street",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.738139,
+    "lng": -92.271972,
+    "image_url": "https://layers.idrivearkansas.com/cameras/382.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "843",
+    "name": "I-30 at Bishop Lindsey Ave",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.759861,
+    "lng": -92.262083,
+    "image_url": "https://layers.idrivearkansas.com/cameras/843.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "351",
+    "name": "I-49 mm 80.9 @ Ajax Ave",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.294697,
+    "lng": -94.165025,
+    "image_url": "https://layers.idrivearkansas.com/cameras/351.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "872",
+    "name": "I-49 at West Fork (Exit 53)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.92395,
+    "lng": -94.19986,
+    "image_url": "https://layers.idrivearkansas.com/cameras/872.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "176",
+    "name": "I-55 at Hwy. 158 (Exit 53)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.75532,
+    "lng": -90.012823,
+    "image_url": "https://layers.idrivearkansas.com/cameras/176.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "461",
+    "name": "I-555 @ I-55 Interchange",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.391694,
+    "lng": -90.273083,
+    "image_url": "https://layers.idrivearkansas.com/cameras/461.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "755",
+    "name": "I-530 at Hensley (Exit 15)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.507825,
+    "lng": -92.220247,
+    "image_url": "https://layers.idrivearkansas.com/cameras/755.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "184",
+    "name": "I-57 at State Hwy. 440 Intchg.",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.846898,
+    "lng": -92.148697,
+    "image_url": "https://layers.idrivearkansas.com/cameras/184.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "213",
+    "name": "I-40 at MacArthur Dr. (Exit 152B)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.786597,
+    "lng": -92.28065,
+    "image_url": "https://layers.idrivearkansas.com/cameras/213.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "347",
+    "name": "I-49 mm 84.3 @ Walton Blvd",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.334653,
+    "lng": -94.184358,
+    "image_url": "https://layers.idrivearkansas.com/cameras/347.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "873",
+    "name": "I-40 at Mile Marker 138",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.92567,
+    "lng": -92.40847,
+    "image_url": "https://layers.idrivearkansas.com/cameras/873.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "368",
+    "name": "I-630 East of Barrow Road",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.746992,
+    "lng": -92.36785,
+    "image_url": "https://layers.idrivearkansas.com/cameras/368.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "715",
+    "name": "Hwy 89 Interchange at Locust Street",
+    "route": "89",
+    "jurisdiction": "State Highway",
+    "lat": 34.97989,
+    "lng": -92.03204,
+    "image_url": "https://layers.idrivearkansas.com/cameras/715.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "29",
+    "name": "I-430 N. of Arkansas River",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.805265,
+    "lng": -92.365946,
+    "image_url": "https://layers.idrivearkansas.com/cameras/29.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "462",
+    "name": "I-440 at Arkansas River",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.717833,
+    "lng": -92.182578,
+    "image_url": "https://layers.idrivearkansas.com/cameras/462.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "553",
+    "name": "I-57 @ Carrington Rd",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.933481,
+    "lng": -92.079897,
+    "image_url": "https://layers.idrivearkansas.com/cameras/553.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "756",
+    "name": "I-530 at Gravel Pit Rd (Exit 27)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.346725,
+    "lng": -92.17205,
+    "image_url": "https://layers.idrivearkansas.com/cameras/756.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "189",
+    "name": "I-57 at Vandenberg Blvd (Exit 11)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.893185,
+    "lng": -92.098838,
+    "image_url": "https://layers.idrivearkansas.com/cameras/189.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "165",
+    "name": "I-49 at Mile Marker 39",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.731792,
+    "lng": -94.198328,
+    "image_url": "https://layers.idrivearkansas.com/cameras/165.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "164",
+    "name": "I-49 at the State Hwy. 151 Intchg.",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 33.387467,
+    "lng": -94.019205,
+    "image_url": "https://layers.idrivearkansas.com/cameras/164.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "852",
+    "name": "I-530 at Granite Mountain",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.683183,
+    "lng": -92.269422,
+    "image_url": "https://layers.idrivearkansas.com/cameras/852.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "19",
+    "name": "I-40 W. of Morgan (Exit 142)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.897105,
+    "lng": -92.401379,
+    "image_url": "https://layers.idrivearkansas.com/cameras/19.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "874",
+    "name": "I-30 at Mile Marker 113",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.54169,
+    "lng": -92.63924,
+    "image_url": "https://layers.idrivearkansas.com/cameras/874.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "173",
+    "name": "U.S. 63 at the Spring River",
+    "route": "63",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.498922,
+    "lng": -91.536978,
+    "image_url": "https://layers.idrivearkansas.com/cameras/173.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "786",
+    "name": "I-530 at Bingham Rd (Exit 9)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.589525,
+    "lng": -92.268161,
+    "image_url": "https://layers.idrivearkansas.com/cameras/786.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "853",
+    "name": "I-30 at 9th Street",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.74111,
+    "lng": -92.262472,
+    "image_url": "https://layers.idrivearkansas.com/cameras/853.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "209",
+    "name": "I-57 N. of McCain Blvd. (Exit 1)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.800408,
+    "lng": -92.215785,
+    "image_url": "https://layers.idrivearkansas.com/cameras/209.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "875",
+    "name": "I-40 at EB Exit 155",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.77821,
+    "lng": -92.23624,
+    "image_url": "https://layers.idrivearkansas.com/cameras/875.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "716",
+    "name": "Hwy 89 Interchange at Locust Street",
+    "route": "89",
+    "jurisdiction": "State Highway",
+    "lat": 34.97989,
+    "lng": -92.03204,
+    "image_url": "https://layers.idrivearkansas.com/cameras/716.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "757",
+    "name": "I-530 at Hwy 104 (Exit 30)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.308294,
+    "lng": -92.141142,
+    "image_url": "https://layers.idrivearkansas.com/cameras/757.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "17",
+    "name": "I-40 at Galloway (Exit 161)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.784465,
+    "lng": -92.1342,
+    "image_url": "https://layers.idrivearkansas.com/cameras/17.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "717",
+    "name": "Hwy 89 Interchange at Willie Ray Drive",
+    "route": "89",
+    "jurisdiction": "State Highway",
+    "lat": 34.98061,
+    "lng": -92.03749,
+    "image_url": "https://layers.idrivearkansas.com/cameras/717.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "156",
+    "name": "I-57 at Redmond Rd.",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.861219,
+    "lng": -92.129792,
+    "image_url": "https://layers.idrivearkansas.com/cameras/156.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "758",
+    "name": "I-530 at Hwy 256 White Hall (Exit 32)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.286672,
+    "lng": -92.119172,
+    "image_url": "https://layers.idrivearkansas.com/cameras/758.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "787",
+    "name": "I-530 at Redfield (Exit 20)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.439783,
+    "lng": -92.197233,
+    "image_url": "https://layers.idrivearkansas.com/cameras/787.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "854",
+    "name": "I-40 at Truck Parking Sign",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.166789,
+    "lng": -90.205058,
+    "image_url": "https://layers.idrivearkansas.com/cameras/854.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "718",
+    "name": "Hwy 89 Interchange at Willie Ray Drive",
+    "route": "89",
+    "jurisdiction": "State Highway",
+    "lat": 34.98061,
+    "lng": -92.03749,
+    "image_url": "https://layers.idrivearkansas.com/cameras/718.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "460",
+    "name": "I-55 at Highway 150 (Exit 71)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.986528,
+    "lng": -89.875361,
+    "image_url": "https://layers.idrivearkansas.com/cameras/460.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "759",
+    "name": "I-530 at US 270 White Hall / Sheridan (Exit 34)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.261064,
+    "lng": -92.104194,
+    "image_url": "https://layers.idrivearkansas.com/cameras/759.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "831",
+    "name": "I-30 at Sykes Blvd WB (Exit 142)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.771589,
+    "lng": -92.261989,
+    "image_url": "https://layers.idrivearkansas.com/cameras/831.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "788",
+    "name": "I-530 at Redfield Tower (Exit 20)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.438722,
+    "lng": -92.197703,
+    "image_url": "https://layers.idrivearkansas.com/cameras/788.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "130",
+    "name": "I-630 at Interstate 30",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.73272,
+    "lng": -92.261285,
+    "image_url": "https://layers.idrivearkansas.com/cameras/130.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "483",
+    "name": "I-30 @ Mile Marker 6.5",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.51035,
+    "lng": -93.946372,
+    "image_url": "https://layers.idrivearkansas.com/cameras/483.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "394",
+    "name": "I-40 @ Exit 265",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.151389,
+    "lng": -90.400389,
+    "image_url": "https://layers.idrivearkansas.com/cameras/394.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "482",
+    "name": "I-30 @ Mile Marker 12",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.549725,
+    "lng": -93.874933,
+    "image_url": "https://layers.idrivearkansas.com/cameras/482.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "760",
+    "name": "I-530 at US 65B (Exit 35)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.244522,
+    "lng": -92.091867,
+    "image_url": "https://layers.idrivearkansas.com/cameras/760.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "789",
+    "name": "I-530 at Jefferson (Exit 24)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.386747,
+    "lng": -92.181919,
+    "image_url": "https://layers.idrivearkansas.com/cameras/789.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "174",
+    "name": "I-49 at Wagon Wheel Rd. (Exit 76)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.221347,
+    "lng": -94.180061,
+    "image_url": "https://layers.idrivearkansas.com/cameras/174.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "719",
+    "name": "I-57 at Pulaski Co Line",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.94143,
+    "lng": -92.07244,
+    "image_url": "https://layers.idrivearkansas.com/cameras/719.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "832",
+    "name": "I-40 at North Hills Blvd (Exit 154)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.777944,
+    "lng": -92.241944,
+    "image_url": "https://layers.idrivearkansas.com/cameras/832.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "18",
+    "name": "I-40 West of Crystal Hill Rd. (Exit 147)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.818138,
+    "lng": -92.331821,
+    "image_url": "https://layers.idrivearkansas.com/cameras/18.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "736",
+    "name": "Mile Marker 22",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.513322,
+    "lng": -94.237319,
+    "image_url": "https://layers.idrivearkansas.com/cameras/736.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "426",
+    "name": "US71 @ Red River",
+    "route": "71",
+    "jurisdiction": "U.S. Highway",
+    "lat": 33.557508,
+    "lng": -94.041525,
+    "image_url": "https://layers.idrivearkansas.com/cameras/426.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "720",
+    "name": "I-57 at Pulaski Co Line",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.94143,
+    "lng": -92.07244,
+    "image_url": "https://layers.idrivearkansas.com/cameras/720.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "761",
+    "name": "I-530 at Princeton Pike (Exit 36)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.227611,
+    "lng": -92.078094,
+    "image_url": "https://layers.idrivearkansas.com/cameras/761.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "833",
+    "name": "I-30 at Mile Marker 136.7",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.705583,
+    "lng": -92.290556,
+    "image_url": "https://layers.idrivearkansas.com/cameras/833.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "395",
+    "name": "U.S. 49 W. of Walnut Corner",
+    "route": "49",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.555,
+    "lng": -90.782778,
+    "image_url": "https://layers.idrivearkansas.com/cameras/395.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "425",
+    "name": "I-49 @ mm 42",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 33.516961,
+    "lng": -94.023736,
+    "image_url": "https://layers.idrivearkansas.com/cameras/425.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "737",
+    "name": "I-40 at I-49",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.482992,
+    "lng": -94.241261,
+    "image_url": "https://layers.idrivearkansas.com/cameras/737.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "762",
+    "name": "I-530 at W 13th St (Exit 37)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.216011,
+    "lng": -92.071303,
+    "image_url": "https://layers.idrivearkansas.com/cameras/762.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "721",
+    "name": "I-57 at Highway 89 (Exit 19)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.98237,
+    "lng": -92.03176,
+    "image_url": "https://layers.idrivearkansas.com/cameras/721.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "154",
+    "name": "ARDOT Central Office Tower Cam",
+    "route": "338",
+    "jurisdiction": "State Highway",
+    "lat": 34.671183,
+    "lng": -92.382858,
+    "image_url": "https://layers.idrivearkansas.com/cameras/154.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "24",
+    "name": "I-30 W. of I-430 Interchange",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.655897,
+    "lng": -92.408834,
+    "image_url": "https://layers.idrivearkansas.com/cameras/24.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "421",
+    "name": "Highway 151 @ State Line",
+    "route": "151",
+    "jurisdiction": "State Highway",
+    "lat": 33.385517,
+    "lng": -94.037228,
+    "image_url": "https://layers.idrivearkansas.com/cameras/421.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "738",
+    "name": "I-49 at Exit 20",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.486389,
+    "lng": -94.244122,
+    "image_url": "https://layers.idrivearkansas.com/cameras/738.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "763",
+    "name": "I-530 at US 79 S Camden Rd (Exit 39)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.193167,
+    "lng": -92.059597,
+    "image_url": "https://layers.idrivearkansas.com/cameras/763.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "722",
+    "name": "I-57 at Highway 89 (Exit 19)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.98237,
+    "lng": -92.03176,
+    "image_url": "https://layers.idrivearkansas.com/cameras/722.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "834",
+    "name": "I-430 SB at I-40 Interchange",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.820222,
+    "lng": -92.345556,
+    "image_url": "https://layers.idrivearkansas.com/cameras/834.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "392",
+    "name": "I-40 @ Wheatley",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.9298,
+    "lng": -91.108358,
+    "image_url": "https://layers.idrivearkansas.com/cameras/392.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "739",
+    "name": "I-49 at Pitken Corner (mm 49)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.873164,
+    "lng": -94.177908,
+    "image_url": "https://layers.idrivearkansas.com/cameras/739.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "424",
+    "name": "I-49 @ mm 30",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 33.401914,
+    "lng": -94.006947,
+    "image_url": "https://layers.idrivearkansas.com/cameras/424.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "723",
+    "name": "I-57 at Mile Marker 23",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.01497,
+    "lng": -91.97436,
+    "image_url": "https://layers.idrivearkansas.com/cameras/723.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "764",
+    "name": "I-530 at Old Warren Road (Exit 41)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.181119,
+    "lng": -92.040561,
+    "image_url": "https://layers.idrivearkansas.com/cameras/764.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "835",
+    "name": "I-430 at I-40 Interchange (Exit 13)",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.818333,
+    "lng": -92.344444,
+    "image_url": "https://layers.idrivearkansas.com/cameras/835.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "188",
+    "name": "I-30 at Baseline Rd. (Exit 130)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.67016522,
+    "lng": -92.38127202,
+    "image_url": "https://layers.idrivearkansas.com/cameras/188.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "765",
+    "name": "I-530 at Hazel St (Exit 42)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.172758,
+    "lng": -92.023861,
+    "image_url": "https://layers.idrivearkansas.com/cameras/765.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "740",
+    "name": "I-57 at NB AR440 On-Ramp",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.842133,
+    "lng": -92.158819,
+    "image_url": "https://layers.idrivearkansas.com/cameras/740.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "724",
+    "name": "I-57 at Mile Marker 23",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.01497,
+    "lng": -91.97436,
+    "image_url": "https://layers.idrivearkansas.com/cameras/724.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "766",
+    "name": "I-30 at Mountain View Road (mm112.5)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.539317,
+    "lng": -92.65135,
+    "image_url": "https://layers.idrivearkansas.com/cameras/766.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "741",
+    "name": "I-57 at Redmond Rd DMS",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.855028,
+    "lng": -92.136917,
+    "image_url": "https://layers.idrivearkansas.com/cameras/741.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "725",
+    "name": "I-57 at Mile Marker 18",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.97235,
+    "lng": -92.0404,
+    "image_url": "https://layers.idrivearkansas.com/cameras/725.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "726",
+    "name": "I-57 at Mile Marker 18",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.97235,
+    "lng": -92.0404,
+    "image_url": "https://layers.idrivearkansas.com/cameras/726.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "767",
+    "name": "I-30 at US 70 Interchange (Exit 111)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.534911,
+    "lng": -92.676283,
+    "image_url": "https://layers.idrivearkansas.com/cameras/767.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "742",
+    "name": "I-57 North of Coffelt Rd",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.92045,
+    "lng": -92.082306,
+    "image_url": "https://layers.idrivearkansas.com/cameras/742.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "743",
+    "name": "I-49 West of Bella Vista Interchange",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.416925,
+    "lng": -94.231194,
+    "image_url": "https://layers.idrivearkansas.com/cameras/743.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "768",
+    "name": "I-30 at Saline River (mm114.5)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.551403,
+    "lng": -92.623403,
+    "image_url": "https://layers.idrivearkansas.com/cameras/768.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "345",
+    "name": "I-49 mm 86.9 @ Battlefield Blvd",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.370761,
+    "lng": -94.169353,
+    "image_url": "https://layers.idrivearkansas.com/cameras/345.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "744",
+    "name": "I-49 at Centerton (Exit 97)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.422394,
+    "lng": -94.320567,
+    "image_url": "https://layers.idrivearkansas.com/cameras/744.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "769",
+    "name": "I-30 at Congo Road (Exit 118)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.5865,
+    "lng": -92.567983,
+    "image_url": "https://layers.idrivearkansas.com/cameras/769.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "187",
+    "name": "I-430 at Exit 128",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.668307,
+    "lng": -92.405374,
+    "image_url": "https://layers.idrivearkansas.com/cameras/187.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "422",
+    "name": "I-55 @ Jericho",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.247294,
+    "lng": -90.219789,
+    "image_url": "https://layers.idrivearkansas.com/cameras/422.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "430",
+    "name": "I-440 at Lindsey Road",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.71575,
+    "lng": -92.208194,
+    "image_url": "https://layers.idrivearkansas.com/cameras/430.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "378",
+    "name": "Hwy 62 B & Cardinal Dr.",
+    "route": "62",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.349567,
+    "lng": -92.371158,
+    "image_url": "https://layers.idrivearkansas.com/cameras/378.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "396",
+    "name": "I-40 at Lonoke (Exit 173)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.803528,
+    "lng": -91.915111,
+    "image_url": "https://layers.idrivearkansas.com/cameras/396.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "177",
+    "name": "I-40 at Prothro Jct. (Exit 157)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.777459,
+    "lng": -92.191784,
+    "image_url": "https://layers.idrivearkansas.com/cameras/177.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "131",
+    "name": "I-30 at Alexander (Exit 126)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.641449,
+    "lng": -92.44419,
+    "image_url": "https://layers.idrivearkansas.com/cameras/131.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "745",
+    "name": "I-49 at Gravette (Exit 100)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.432144,
+    "lng": -94.369589,
+    "image_url": "https://layers.idrivearkansas.com/cameras/745.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "185",
+    "name": "I-57 at State Hwy. 440 Intchg.",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.836497,
+    "lng": -92.165484,
+    "image_url": "https://layers.idrivearkansas.com/cameras/185.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "191",
+    "name": "I-30 at W. 65th St. (Exit 135)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.69204,
+    "lng": -92.304315,
+    "image_url": "https://layers.idrivearkansas.com/cameras/191.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "431",
+    "name": "I-57 at Wildwood Ave",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.815194,
+    "lng": -92.201722,
+    "image_url": "https://layers.idrivearkansas.com/cameras/431.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "423",
+    "name": "I-49 @ mm 24",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 33.339486,
+    "lng": -93.971386,
+    "image_url": "https://layers.idrivearkansas.com/cameras/423.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "390",
+    "name": "I-40 @ Exit 242",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.037589,
+    "lng": -90.7717,
+    "image_url": "https://layers.idrivearkansas.com/cameras/390.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "746",
+    "name": "I-49 at Highlands Blvd (Exit 102)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.464761,
+    "lng": -94.378697,
+    "image_url": "https://layers.idrivearkansas.com/cameras/746.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "221",
+    "name": "I-57 at Cabot (Exit 16)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.945128,
+    "lng": -92.068355,
+    "image_url": "https://layers.idrivearkansas.com/cameras/221.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "109",
+    "name": "U.S. 49 S. of Miss. State Hwy. 315",
+    "route": "49",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.403353,
+    "lng": -90.469866,
+    "image_url": "https://layers.idrivearkansas.com/cameras/109.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "190",
+    "name": "I-40 at I-430 Intchg. (Exit 147)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.826538,
+    "lng": -92.345658,
+    "image_url": "https://layers.idrivearkansas.com/cameras/190.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "435",
+    "name": "I-30 @ State Line Ave.",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.47075,
+    "lng": -94.041111,
+    "image_url": "https://layers.idrivearkansas.com/cameras/435.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "432",
+    "name": "I-30 at Exit 98A",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.395206,
+    "lng": -92.830469,
+    "image_url": "https://layers.idrivearkansas.com/cameras/432.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "386",
+    "name": "I-40 at WB Weigh Station",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.153528,
+    "lng": -90.089361,
+    "image_url": "https://layers.idrivearkansas.com/cameras/386.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "747",
+    "name": "I-49 at Missouri State Line",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.499178,
+    "lng": -94.382658,
+    "image_url": "https://layers.idrivearkansas.com/cameras/747.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "215",
+    "name": "I-30 at Hope (Exit 31)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.6938,
+    "lng": -93.595054,
+    "image_url": "https://layers.idrivearkansas.com/cameras/215.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "354",
+    "name": "I-630 @ Cedar St",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.744417,
+    "lng": -92.322472,
+    "image_url": "https://layers.idrivearkansas.com/cameras/354.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "772",
+    "name": "West Memphis Truck Parking",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.156639,
+    "lng": -90.240472,
+    "image_url": "https://layers.idrivearkansas.com/cameras/772.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "379",
+    "name": "I-40 at Remington Road",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.802111,
+    "lng": -91.994639,
+    "image_url": "https://layers.idrivearkansas.com/cameras/379.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "226",
+    "name": "I-40 at Exit 159",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.780467,
+    "lng": -92.167328,
+    "image_url": "https://layers.idrivearkansas.com/cameras/226.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "186",
+    "name": "State Hwy. 440 at U.S. 67 Intchg.",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.836233,
+    "lng": -92.15195,
+    "image_url": "https://layers.idrivearkansas.com/cameras/186.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "773",
+    "name": "West Memphis Truck Parking Entrance Ramp",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.156639,
+    "lng": -90.240472,
+    "image_url": "https://layers.idrivearkansas.com/cameras/773.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "748",
+    "name": "I-57 at Mile Marker 13",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.910089,
+    "lng": -92.0833,
+    "image_url": "https://layers.idrivearkansas.com/cameras/748.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "316",
+    "name": "I-40 at Mile Marker 133.8",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.992347,
+    "lng": -92.415139,
+    "image_url": "https://layers.idrivearkansas.com/cameras/316.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "216",
+    "name": "I-30 at Malvern (Exit 98)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.399493,
+    "lng": -92.823817,
+    "image_url": "https://layers.idrivearkansas.com/cameras/216.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "50",
+    "name": "I-40 W. of State Hwy. 191 (Exit 278)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.167258,
+    "lng": -90.182105,
+    "image_url": "https://layers.idrivearkansas.com/cameras/50.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "438",
+    "name": "I-40 at Exit 125",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.111528,
+    "lng": -92.434694,
+    "image_url": "https://layers.idrivearkansas.com/cameras/438.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "112",
+    "name": "I-40 at I-240 Interchange",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.149826,
+    "lng": -90.022632,
+    "image_url": "https://layers.idrivearkansas.com/cameras/112.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "51",
+    "name": "I-40 W. of Ingram Blvd. (Exit 279-A)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.161149,
+    "lng": -90.16626,
+    "image_url": "https://layers.idrivearkansas.com/cameras/51.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "111",
+    "name": "I-40 W. of I-240 Interchange",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.149952,
+    "lng": -90.029854,
+    "image_url": "https://layers.idrivearkansas.com/cameras/111.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "228",
+    "name": "I-40 at Exit 159",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.782352,
+    "lng": -92.154113,
+    "image_url": "https://layers.idrivearkansas.com/cameras/228.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "84",
+    "name": "I-55 N. of I-40 W. Interchange",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.18316,
+    "lng": -90.196763,
+    "image_url": "https://layers.idrivearkansas.com/cameras/84.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "439",
+    "name": "I-55 @ Weigh Station",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.140803,
+    "lng": -90.104489,
+    "image_url": "https://layers.idrivearkansas.com/cameras/439.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "66",
+    "name": "I-55 W. of Tennessee State Line",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.130162,
+    "lng": -90.079118,
+    "image_url": "https://layers.idrivearkansas.com/cameras/66.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "82",
+    "name": "I-55 at I-240 Interchange",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.072657,
+    "lng": -90.028286,
+    "image_url": "https://layers.idrivearkansas.com/cameras/82.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "78",
+    "name": "I-55 at Mile Marker 9.8",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.097658,
+    "lng": -90.076134,
+    "image_url": "https://layers.idrivearkansas.com/cameras/78.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "79",
+    "name": "I-55 at S. Parkway West (Exit 10)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.10787,
+    "lng": -90.075846,
+    "image_url": "https://layers.idrivearkansas.com/cameras/79.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "433",
+    "name": "U.S. 63 at Black Rock",
+    "route": "63",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.102869,
+    "lng": -91.098381,
+    "image_url": "https://layers.idrivearkansas.com/cameras/433.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "180",
+    "name": "I-530 @ US 65",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.202684,
+    "lng": -91.968007,
+    "image_url": "https://layers.idrivearkansas.com/cameras/180.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "436",
+    "name": "I-40 East of Crystal Hill Rd (Exit 148)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.815883,
+    "lng": -92.326833,
+    "image_url": "https://layers.idrivearkansas.com/cameras/436.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "297",
+    "name": "I-430 at Mile Marker 4.5",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.72646,
+    "lng": -92.401175,
+    "image_url": "https://layers.idrivearkansas.com/cameras/297.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "309",
+    "name": "I-40 at Morgan (Exit 142)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.882542,
+    "lng": -92.376491,
+    "image_url": "https://layers.idrivearkansas.com/cameras/309.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "77",
+    "name": "I-55 at W. McLemore Ave. (Exit 11)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.116199,
+    "lng": -90.072371,
+    "image_url": "https://layers.idrivearkansas.com/cameras/77.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "67",
+    "name": "I-55 at Tennessee State Line",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.127734,
+    "lng": -90.076053,
+    "image_url": "https://layers.idrivearkansas.com/cameras/67.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "68",
+    "name": "I-55 E. End of Memphis-Ark. Bridge",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.125615,
+    "lng": -90.073354,
+    "image_url": "https://layers.idrivearkansas.com/cameras/68.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "76",
+    "name": "I-55 at Crump Blvd. (Exit 12-A)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.124644,
+    "lng": -90.06675,
+    "image_url": "https://layers.idrivearkansas.com/cameras/76.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "440",
+    "name": "I-55 @ MLK Drive Overpass",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.151636,
+    "lng": -90.138964,
+    "image_url": "https://layers.idrivearkansas.com/cameras/440.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "65",
+    "name": "I-55 W. End of Memphis-Ark. Bridge",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.132634,
+    "lng": -90.082291,
+    "image_url": "https://layers.idrivearkansas.com/cameras/65.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "101",
+    "name": "U.S. 49 E. of Helena Bridge",
+    "route": "49",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.494902,
+    "lng": -90.580014,
+    "image_url": "https://layers.idrivearkansas.com/cameras/101.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "437",
+    "name": "I-40 @ East of Exit 127",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.087947,
+    "lng": -92.418608,
+    "image_url": "https://layers.idrivearkansas.com/cameras/437.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "196",
+    "name": "I-530 at Mile Marker 7",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.610351,
+    "lng": -92.268908,
+    "image_url": "https://layers.idrivearkansas.com/cameras/196.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "219",
+    "name": "I-40 at Arkansas Weigh Station",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.460069,
+    "lng": -94.294187,
+    "image_url": "https://layers.idrivearkansas.com/cameras/219.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "10",
+    "name": "I-49 S. of State Hwy. 74 (Exit 45)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.808055,
+    "lng": -94.188176,
+    "image_url": "https://layers.idrivearkansas.com/cameras/10.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "172",
+    "name": "I-40 at Mile Marker 273",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.147444,
+    "lng": -90.263935,
+    "image_url": "https://layers.idrivearkansas.com/cameras/172.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "195",
+    "name": "I-530 at Mile Marker 1",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.700444,
+    "lng": -92.270467,
+    "image_url": "https://layers.idrivearkansas.com/cameras/195.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "170",
+    "name": "I-40 at Palestine (Exit 233)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.982819,
+    "lng": -90.904936,
+    "image_url": "https://layers.idrivearkansas.com/cameras/170.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "175",
+    "name": "I-40 at Lonoke (Exit 175)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.805092,
+    "lng": -91.886071,
+    "image_url": "https://layers.idrivearkansas.com/cameras/175.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "197",
+    "name": "I-555 at U.S. 49 (Stadium Blvd.)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.80668,
+    "lng": -90.669608,
+    "image_url": "https://layers.idrivearkansas.com/cameras/197.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "428",
+    "name": "US 65 @ Hwy 16",
+    "route": "65",
+    "jurisdiction": "U.S. Highway",
+    "lat": 35.604908,
+    "lng": -92.458947,
+    "image_url": "https://layers.idrivearkansas.com/cameras/428.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "223",
+    "name": "U.S. 270 at Hot Springs Byp. (Exit 2)",
+    "route": "270",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.477384,
+    "lng": -93.114649,
+    "image_url": "https://layers.idrivearkansas.com/cameras/223.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "304",
+    "name": "ARDOT Tunnel Tower Cam",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 35.7678,
+    "lng": -94.189291,
+    "image_url": "https://layers.idrivearkansas.com/cameras/304.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3",
+    "name": "U.S. 64 at White River (Augusta)",
+    "route": "64",
+    "jurisdiction": "U.S. Highway",
+    "lat": 35.289219,
+    "lng": -91.388127,
+    "image_url": "https://layers.idrivearkansas.com/cameras/3.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "169",
+    "name": "U.S. 65 at Peyton Creek",
+    "route": "65",
+    "jurisdiction": "U.S. Highway",
+    "lat": 35.788383,
+    "lng": -92.539357,
+    "image_url": "https://layers.idrivearkansas.com/cameras/169.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "380",
+    "name": "I-40 at Carlisle",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.800611,
+    "lng": -91.750306,
+    "image_url": "https://layers.idrivearkansas.com/cameras/380.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "194",
+    "name": "I-30 at Mile Marker 136.4",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.703896,
+    "lng": -92.294761,
+    "image_url": "https://layers.idrivearkansas.com/cameras/194.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "373",
+    "name": "I-49 mm 81.3 @ Bellview Rd",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.297536,
+    "lng": -94.17125,
+    "image_url": "https://layers.idrivearkansas.com/cameras/373.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "355",
+    "name": "I-630 @ Woodrow",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.743889,
+    "lng": -92.309556,
+    "image_url": "https://layers.idrivearkansas.com/cameras/355.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "443",
+    "name": "I-30 @ Caddo Valley",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.184778,
+    "lng": -93.071222,
+    "image_url": "https://layers.idrivearkansas.com/cameras/443.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "212",
+    "name": "I-40 at Springhill Dr. (Exit 156)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.779434,
+    "lng": -92.216812,
+    "image_url": "https://layers.idrivearkansas.com/cameras/212.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "444",
+    "name": "I-30 @ Arkadelphia",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.118222,
+    "lng": -93.092556,
+    "image_url": "https://layers.idrivearkansas.com/cameras/444.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "778",
+    "name": "West Memphis Truck Parking",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.156639,
+    "lng": -90.240472,
+    "image_url": "https://layers.idrivearkansas.com/cameras/778.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "452",
+    "name": "I-40 @ OK State Line",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.451633,
+    "lng": -94.440839,
+    "image_url": "https://layers.idrivearkansas.com/cameras/452.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "166",
+    "name": "U.S. 412 at Welcome Center (Siloam Springs)",
+    "route": "412",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.176162,
+    "lng": -94.562331,
+    "image_url": "https://layers.idrivearkansas.com/cameras/166.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "250",
+    "name": "I-440 at U.S. 165 (Exit 7)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.736823,
+    "lng": -92.169316,
+    "image_url": "https://layers.idrivearkansas.com/cameras/250.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "349",
+    "name": "I-49 mm 82.5 @ Embassy",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.3085,
+    "lng": -94.1856,
+    "image_url": "https://layers.idrivearkansas.com/cameras/349.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "158",
+    "name": "US 49 at Brookland School Rd.",
+    "route": "49",
+    "jurisdiction": "U.S. Highway",
+    "lat": 35.907179,
+    "lng": -90.587878,
+    "image_url": "https://layers.idrivearkansas.com/cameras/158.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "455",
+    "name": "US 167 Rail Road Overpass",
+    "route": "167",
+    "jurisdiction": "U.S. Highway",
+    "lat": 33.787979,
+    "lng": -92.467342,
+    "image_url": "https://layers.idrivearkansas.com/cameras/455.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "205",
+    "name": "Hwy 229 @ I-30",
+    "route": "229",
+    "jurisdiction": "State Highway",
+    "lat": 34.548831,
+    "lng": -92.630339,
+    "image_url": "https://layers.idrivearkansas.com/cameras/205.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "387",
+    "name": "I-40 @ White River Bridge",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.837042,
+    "lng": -91.467425,
+    "image_url": "https://layers.idrivearkansas.com/cameras/387.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "305",
+    "name": "I-40 at Morgan (Exit 142)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.888205,
+    "lng": -92.383182,
+    "image_url": "https://layers.idrivearkansas.com/cameras/305.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "341",
+    "name": "I-49 mm 88.4 @ Tiger Blvd",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.388175,
+    "lng": -94.183742,
+    "image_url": "https://layers.idrivearkansas.com/cameras/341.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "198",
+    "name": "I-555 at Harrisburg Rd. (Exit 44)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.807011,
+    "lng": -90.698283,
+    "image_url": "https://layers.idrivearkansas.com/cameras/198.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "291",
+    "name": "I-440 at Fourche Dam Pike (Exit 5)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.715112,
+    "lng": -92.193375,
+    "image_url": "https://layers.idrivearkansas.com/cameras/291.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "15",
+    "name": "State Hwy. 440 at Rixey Rd. (Exit 12)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.823407,
+    "lng": -92.15161,
+    "image_url": "https://layers.idrivearkansas.com/cameras/15.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "445",
+    "name": "I-40 E of Exit 13",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.490853,
+    "lng": -94.217792,
+    "image_url": "https://layers.idrivearkansas.com/cameras/445.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "28",
+    "name": "I-430 at Col. Glenn Rd. (Exit 4)",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.715111,
+    "lng": -92.401643,
+    "image_url": "https://layers.idrivearkansas.com/cameras/28.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "446",
+    "name": "I-40 @ Exit 101",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.219656,
+    "lng": -92.82995,
+    "image_url": "https://layers.idrivearkansas.com/cameras/446.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "420",
+    "name": "I-40 @ mm 168.4",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.801242,
+    "lng": -91.998889,
+    "image_url": "https://layers.idrivearkansas.com/cameras/420.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "306",
+    "name": "I-40 at Levy (Exit 152)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.784299,
+    "lng": -92.276304,
+    "image_url": "https://layers.idrivearkansas.com/cameras/306.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "383",
+    "name": "I-40 @ Kerr Rd",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.79185,
+    "lng": -92.059139,
+    "image_url": "https://layers.idrivearkansas.com/cameras/383.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "290",
+    "name": "I-440 at Faulkner Lake Rd. (Exit 8)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.743451,
+    "lng": -92.16416,
+    "image_url": "https://layers.idrivearkansas.com/cameras/290.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "458",
+    "name": "I-540 @ Arkansas River",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.419186,
+    "lng": -94.352342,
+    "image_url": "https://layers.idrivearkansas.com/cameras/458.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "327",
+    "name": "I-49 mm 67.8 @ APAC",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.121178,
+    "lng": -94.178828,
+    "image_url": "https://layers.idrivearkansas.com/cameras/327.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "342",
+    "name": "I-49 mm 87.8 @ Central Ave",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.381642,
+    "lng": -94.1747,
+    "image_url": "https://layers.idrivearkansas.com/cameras/342.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "350",
+    "name": "I-49 mm 81.8 @ Whitaker Pkwy",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.299758,
+    "lng": -94.179725,
+    "image_url": "https://layers.idrivearkansas.com/cameras/350.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "357",
+    "name": "I-40 W. of White Oak Crossing  (Exit 146)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.845,
+    "lng": -92.3501,
+    "image_url": "https://layers.idrivearkansas.com/cameras/357.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "33",
+    "name": "I-40 at U.S. 64 (Exit 127)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.095206,
+    "lng": -92.426694,
+    "image_url": "https://layers.idrivearkansas.com/cameras/33.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "307",
+    "name": "I-430 at Rodney Parham Rd. (Exit 8)",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.763028,
+    "lng": -92.390795,
+    "image_url": "https://layers.idrivearkansas.com/cameras/307.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "448",
+    "name": "I-40 East of Exit 129",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.061114,
+    "lng": -92.417219,
+    "image_url": "https://layers.idrivearkansas.com/cameras/448.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "208",
+    "name": "I-57 S. of McCain Blvd. (Exit 1)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.787034,
+    "lng": -92.22755,
+    "image_url": "https://layers.idrivearkansas.com/cameras/208.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "454",
+    "name": "I-540 @ Rogers Ave.",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.359292,
+    "lng": -94.364989,
+    "image_url": "https://layers.idrivearkansas.com/cameras/454.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "193",
+    "name": "I-30 at State Hwy. 367 (Arch St.)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.707568,
+    "lng": -92.280305,
+    "image_url": "https://layers.idrivearkansas.com/cameras/193.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34",
+    "name": "I-40 at Mile Marker 130",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.047299,
+    "lng": -92.413218,
+    "image_url": "https://layers.idrivearkansas.com/cameras/34.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "192",
+    "name": "I-30 at Vimy Ridge Rd.",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.647898,
+    "lng": -92.420409,
+    "image_url": "https://layers.idrivearkansas.com/cameras/192.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "356",
+    "name": "I-630 @ MLK",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.743,
+    "lng": -92.285528,
+    "image_url": "https://layers.idrivearkansas.com/cameras/356.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "328",
+    "name": "I-49 mm 68.5 @ Johnson Mill Blvd",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.128789,
+    "lng": -94.181075,
+    "image_url": "https://layers.idrivearkansas.com/cameras/328.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "453",
+    "name": "I-540 @ US 64",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.446964,
+    "lng": -94.320664,
+    "image_url": "https://layers.idrivearkansas.com/cameras/453.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "417",
+    "name": "US 65 N. of Lake Village",
+    "route": "65",
+    "jurisdiction": "U.S. Highway",
+    "lat": 33.35214,
+    "lng": -91.294399,
+    "image_url": "https://layers.idrivearkansas.com/cameras/417.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "312",
+    "name": "I-40 at Mile Marker 133.3",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.00208,
+    "lng": -92.41198,
+    "image_url": "https://layers.idrivearkansas.com/cameras/312.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "388",
+    "name": "I-40 at mm 256",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.118478,
+    "lng": -90.548325,
+    "image_url": "https://layers.idrivearkansas.com/cameras/388.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "302",
+    "name": "I-40 at Mile Marker 151",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.788552,
+    "lng": -92.29488,
+    "image_url": "https://layers.idrivearkansas.com/cameras/302.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "99",
+    "name": "U.S. 49 E. of Helena Bridge",
+    "route": "49",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.494902,
+    "lng": -90.580014,
+    "image_url": "https://layers.idrivearkansas.com/cameras/99.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "449",
+    "name": "I-40 West of Exit 129",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.070961,
+    "lng": -92.417225,
+    "image_url": "https://layers.idrivearkansas.com/cameras/449.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "313",
+    "name": "I-40 at Mile Marker 135",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.96651,
+    "lng": -92.41998,
+    "image_url": "https://layers.idrivearkansas.com/cameras/313.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "199",
+    "name": "I-555 at Southwest Dr. (Exit 45)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.808639,
+    "lng": -90.720148,
+    "image_url": "https://layers.idrivearkansas.com/cameras/199.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "314",
+    "name": "I-40 at Mile Marker 136",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.9526766,
+    "lng": -92.4225387,
+    "image_url": "https://layers.idrivearkansas.com/cameras/314.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "419",
+    "name": "I-40 @ mm 69.7",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.347139,
+    "lng": -93.329806,
+    "image_url": "https://layers.idrivearkansas.com/cameras/419.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "155",
+    "name": "U.S. 270 at Hot Springs Byp. (Exit 5)",
+    "route": "270",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.464997,
+    "lng": -93.060814,
+    "image_url": "https://layers.idrivearkansas.com/cameras/155.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "32",
+    "name": "I-40 at Mile Marker 131",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.03302,
+    "lng": -92.409564,
+    "image_url": "https://layers.idrivearkansas.com/cameras/32.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "168",
+    "name": "State Hwy. 16 at Edwards Jct.",
+    "route": "16",
+    "jurisdiction": "State Highway",
+    "lat": 35.848182,
+    "lng": -93.361625,
+    "image_url": "https://layers.idrivearkansas.com/cameras/168.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "456",
+    "name": "US 62 @ Henderson",
+    "route": "62",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.370272,
+    "lng": -92.235142,
+    "image_url": "https://layers.idrivearkansas.com/cameras/456.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "358",
+    "name": "I-40 E. of White Oak Crossing (Exit 146)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.836,
+    "lng": -92.3475,
+    "image_url": "https://layers.idrivearkansas.com/cameras/358.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "450",
+    "name": "I-40 @ Mile Marker 128",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.076839,
+    "lng": -92.413892,
+    "image_url": "https://layers.idrivearkansas.com/cameras/450.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "353",
+    "name": "I-630 @ Barrow Road",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.74675,
+    "lng": -92.376306,
+    "image_url": "https://layers.idrivearkansas.com/cameras/353.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "251",
+    "name": "I-440 at Faulkner Lake Rd. (Exit 8)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.751384,
+    "lng": -92.162951,
+    "image_url": "https://layers.idrivearkansas.com/cameras/251.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4",
+    "name": "I-530 S. of U.S. 270 (Exit 34)",
+    "route": "530",
+    "jurisdiction": "Interstate",
+    "lat": 34.252736,
+    "lng": -92.103051,
+    "image_url": "https://layers.idrivearkansas.com/cameras/4.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "167",
+    "name": "U.S. 65 at Cricket Creek",
+    "route": "65",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.465185,
+    "lng": -93.219183,
+    "image_url": "https://layers.idrivearkansas.com/cameras/167.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "315",
+    "name": "\u201cBig Rock\u201d Interchange",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.746883,
+    "lng": -92.390914,
+    "image_url": "https://layers.idrivearkansas.com/cameras/315.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "218",
+    "name": "I-40 at Welcome Center (Van Buren)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.46006,
+    "lng": -94.401084,
+    "image_url": "https://layers.idrivearkansas.com/cameras/218.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "331",
+    "name": "I-49 mm 70.5 @ Watkins",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.160861,
+    "lng": -94.187144,
+    "image_url": "https://layers.idrivearkansas.com/cameras/331.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "333",
+    "name": "I-49 mm 72.2 @ AHP NB Weigh Station",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.182936,
+    "lng": -94.178178,
+    "image_url": "https://layers.idrivearkansas.com/cameras/333.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "222",
+    "name": "U.S. 70 at Hot Springs Byp. (Exit 11)",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.501815,
+    "lng": -92.975142,
+    "image_url": "https://layers.idrivearkansas.com/cameras/222.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "58",
+    "name": "I-40 W. of Mississippi River",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.152964,
+    "lng": -90.07828,
+    "image_url": "https://layers.idrivearkansas.com/cameras/58.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "178",
+    "name": "I-30 at Texarkana (Exit 1)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.472862,
+    "lng": -94.020391,
+    "image_url": "https://layers.idrivearkansas.com/cameras/178.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "81",
+    "name": "I-55 W. of I-240 Interchange",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.075404,
+    "lng": -90.038561,
+    "image_url": "https://layers.idrivearkansas.com/cameras/81.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "80",
+    "name": "I-55 E. of U.S. 61",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.078279,
+    "lng": -90.051082,
+    "image_url": "https://layers.idrivearkansas.com/cameras/80.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "75",
+    "name": "I-55 at U.S. 61 (Exit 7)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.079202,
+    "lng": -90.057519,
+    "image_url": "https://layers.idrivearkansas.com/cameras/75.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "74",
+    "name": "I-55 W. of Kansas St. (Exit 8)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.079481,
+    "lng": -90.069009,
+    "image_url": "https://layers.idrivearkansas.com/cameras/74.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "298",
+    "name": "I-440 at I-40",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.780205,
+    "lng": -92.161829,
+    "image_url": "https://layers.idrivearkansas.com/cameras/298.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "348",
+    "name": "I-49 mm 82.9 @ New Hope Rd",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.314414,
+    "lng": -94.184878,
+    "image_url": "https://layers.idrivearkansas.com/cameras/348.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "217",
+    "name": "I-40 W. of I-540 Intchg. (Exit 7)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.456065,
+    "lng": -94.324202,
+    "image_url": "https://layers.idrivearkansas.com/cameras/217.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "317",
+    "name": "I-49 at Mile Marker 59.4",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.015047,
+    "lng": -94.192689,
+    "image_url": "https://layers.idrivearkansas.com/cameras/317.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "334",
+    "name": "mm 72.9 @ Elm Springs",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.193689,
+    "lng": -94.179594,
+    "image_url": "https://layers.idrivearkansas.com/cameras/334.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "325",
+    "name": "I-49 @ Garland Ave",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.106086,
+    "lng": -94.180097,
+    "image_url": "https://layers.idrivearkansas.com/cameras/325.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "211",
+    "name": "I-40 at Forrest City (Exit 241)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.036596,
+    "lng": -90.790263,
+    "image_url": "https://layers.idrivearkansas.com/cameras/211.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "49",
+    "name": "I-30 at I-430 Interchange",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.662019,
+    "lng": -92.402762,
+    "image_url": "https://layers.idrivearkansas.com/cameras/49.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "369",
+    "name": "I-630 @ Mississippi Ave",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.745378,
+    "lng": -92.354742,
+    "image_url": "https://layers.idrivearkansas.com/cameras/369.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "23",
+    "name": "I-30 at University Ave.",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.6787,
+    "lng": -92.354936111111,
+    "image_url": "https://layers.idrivearkansas.com/cameras/23.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "171",
+    "name": "U.S. 70 at U.S. 49 S.",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.866197,
+    "lng": -91.206464,
+    "image_url": "https://layers.idrivearkansas.com/cameras/171.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "73",
+    "name": "I-55 at W. Person Ave.",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.102066,
+    "lng": -90.076449,
+    "image_url": "https://layers.idrivearkansas.com/cameras/73.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "210",
+    "name": "I-40 W. of N. Hills Blvd. (Exit 154)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.778395,
+    "lng": -92.251796,
+    "image_url": "https://layers.idrivearkansas.com/cameras/210.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "46",
+    "name": "I-30 at N. Terminal Interchange",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.77929,
+    "lng": -92.26143,
+    "image_url": "https://layers.idrivearkansas.com/cameras/46.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "326",
+    "name": "I-49 @ US71B Intchg",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.109964,
+    "lng": -94.169567,
+    "image_url": "https://layers.idrivearkansas.com/cameras/326.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "343",
+    "name": "I-49 mm 90.1 @ Slaughter Pen Rd",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.404011,
+    "lng": -94.197997,
+    "image_url": "https://layers.idrivearkansas.com/cameras/343.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "308",
+    "name": "I-430 at Maumelle Blvd. (Exit 12)",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.813585,
+    "lng": -92.353565,
+    "image_url": "https://layers.idrivearkansas.com/cameras/308.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "266",
+    "name": "I-430 at Stagecoach Rd. (Exit 1)",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.681852,
+    "lng": -92.406254,
+    "image_url": "https://layers.idrivearkansas.com/cameras/266.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "359",
+    "name": "I-30 W. of Chicot Rd Overpass",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.676447,
+    "lng": -92.364708,
+    "image_url": "https://layers.idrivearkansas.com/cameras/359.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "377",
+    "name": "Hwy 62 B & Club Blvd.",
+    "route": "62",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.353535,
+    "lng": -92.35682,
+    "image_url": "https://layers.idrivearkansas.com/cameras/377.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "391",
+    "name": "I-40 @ Exit 247",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.056586,
+    "lng": -90.689608,
+    "image_url": "https://layers.idrivearkansas.com/cameras/391.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "389",
+    "name": "I-40 at mm 259.8",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.132644,
+    "lng": -90.486517,
+    "image_url": "https://layers.idrivearkansas.com/cameras/389.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "346",
+    "name": "I-49 mm 86.3 @ 8th Street",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.3639,
+    "lng": -94.176572,
+    "image_url": "https://layers.idrivearkansas.com/cameras/346.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "385",
+    "name": "I-40 @ Biscoe",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.846456,
+    "lng": -91.414725,
+    "image_url": "https://layers.idrivearkansas.com/cameras/385.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "352",
+    "name": "I-49 mm 74.1 @ Pinewood",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.210378,
+    "lng": -94.182233,
+    "image_url": "https://layers.idrivearkansas.com/cameras/352.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "296",
+    "name": "I-30 at Stanton Rd. Overpass",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.678534,
+    "lng": -92.332786,
+    "image_url": "https://layers.idrivearkansas.com/cameras/296.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "330",
+    "name": "I-49 mm70 @ Don Tyson",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.153106,
+    "lng": -94.186981,
+    "image_url": "https://layers.idrivearkansas.com/cameras/330.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "329",
+    "name": "mm 69 @ Johnson Mill Blvd.",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.138697,
+    "lng": -94.182589,
+    "image_url": "https://layers.idrivearkansas.com/cameras/329.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "344",
+    "name": "I-49 mm 87.2 @ Regen Hut Rd",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.374664,
+    "lng": -94.168564,
+    "image_url": "https://layers.idrivearkansas.com/cameras/344.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "384",
+    "name": "I-40 @ Hazen",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.818789,
+    "lng": -91.566669,
+    "image_url": "https://layers.idrivearkansas.com/cameras/384.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "381",
+    "name": "I-40 at Mile Marker 162",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.788056,
+    "lng": -92.101333,
+    "image_url": "https://layers.idrivearkansas.com/cameras/381.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "376",
+    "name": "Hwy 62 B & Hwy 5 North",
+    "route": "62",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.340121,
+    "lng": -92.385101,
+    "image_url": "https://layers.idrivearkansas.com/cameras/376.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "362",
+    "name": "I-49 mm 76.8 @ 612 Interchange",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.240417,
+    "lng": -94.157353,
+    "image_url": "https://layers.idrivearkansas.com/cameras/362.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "318",
+    "name": "I-49 @ Razorback Road",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.036444,
+    "lng": -94.188306,
+    "image_url": "https://layers.idrivearkansas.com/cameras/318.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "319",
+    "name": "I-49 at Exit 62",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.045019,
+    "lng": -94.190278,
+    "image_url": "https://layers.idrivearkansas.com/cameras/319.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "321",
+    "name": "I-49 at Technology Way",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.069025,
+    "lng": -94.203061,
+    "image_url": "https://layers.idrivearkansas.com/cameras/321.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "337",
+    "name": "I-49 mm 91.1 @ south of BV Interchange",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.413169,
+    "lng": -94.213781,
+    "image_url": "https://layers.idrivearkansas.com/cameras/337.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "338",
+    "name": "I-49 mm 89.4 @ J St",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.401175,
+    "lng": -94.186392,
+    "image_url": "https://layers.idrivearkansas.com/cameras/338.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "339",
+    "name": "I-49 mm 89.2 @ south of J St.",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.398731,
+    "lng": -94.183803,
+    "image_url": "https://layers.idrivearkansas.com/cameras/339.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "366",
+    "name": "I-49 mm 85.9 @ SE 14th St",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.356786,
+    "lng": -94.178672,
+    "image_url": "https://layers.idrivearkansas.com/cameras/366.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "363",
+    "name": "I-49 mm 77.9 at Monroe Ave",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.254556,
+    "lng": -94.149914,
+    "image_url": "https://layers.idrivearkansas.com/cameras/363.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "364",
+    "name": "I-49 mm 78.7 at Oakwood Ave",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.265233,
+    "lng": -94.149725,
+    "image_url": "https://layers.idrivearkansas.com/cameras/364.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "301",
+    "name": "I-40 at JFK Blvd. (153-A)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.781504,
+    "lng": -92.269164,
+    "image_url": "https://layers.idrivearkansas.com/cameras/301.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "45",
+    "name": "I-49 at State Hwy. 264 (Exit 78)",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.259548,
+    "lng": -94.150658,
+    "image_url": "https://layers.idrivearkansas.com/cameras/45.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "467",
+    "name": "I-30 @ mm 106",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.482886,
+    "lng": -92.724461,
+    "image_url": "https://layers.idrivearkansas.com/cameras/467.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "466",
+    "name": "I-40 @ mm 240",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.034306,
+    "lng": -90.802528,
+    "image_url": "https://layers.idrivearkansas.com/cameras/466.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "469",
+    "name": "I-30 @ Exit 97",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.385803,
+    "lng": -92.845742,
+    "image_url": "https://layers.idrivearkansas.com/cameras/469.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "465",
+    "name": "US 82 @ Felsenthal",
+    "route": "82",
+    "jurisdiction": "U.S. Highway",
+    "lat": 33.15075,
+    "lng": -92.103806,
+    "image_url": "https://layers.idrivearkansas.com/cameras/465.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "160",
+    "name": "I-440 at LR Airport (Exit 3)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.716722,
+    "lng": -92.21991,
+    "image_url": "https://layers.idrivearkansas.com/cameras/160.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "367",
+    "name": "I-430 Big Rock Water Tower",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.744071,
+    "lng": -92.390211,
+    "image_url": "https://layers.idrivearkansas.com/cameras/367.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "299",
+    "name": "I-40 at Mile Marker 270",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.147987,
+    "lng": -90.31981,
+    "image_url": "https://layers.idrivearkansas.com/cameras/299.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "324",
+    "name": "I-49 @ Moore Ln",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.096611,
+    "lng": -94.188028,
+    "image_url": "https://layers.idrivearkansas.com/cameras/324.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "323",
+    "name": "I-49 at Exit 65",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.091106,
+    "lng": -94.192417,
+    "image_url": "https://layers.idrivearkansas.com/cameras/323.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "340",
+    "name": "I-49 mm 88.9 @ Little Flock",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.39335,
+    "lng": -94.183619,
+    "image_url": "https://layers.idrivearkansas.com/cameras/340.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "468",
+    "name": "I-30 at Exit 99",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.413022,
+    "lng": -92.805344,
+    "image_url": "https://layers.idrivearkansas.com/cameras/468.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "473",
+    "name": "I-30 @ Exit 63",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.997281,
+    "lng": -93.184117,
+    "image_url": "https://layers.idrivearkansas.com/cameras/473.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "471",
+    "name": "I-30 @ exit 83",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.234878,
+    "lng": -93.007828,
+    "image_url": "https://layers.idrivearkansas.com/cameras/471.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "472",
+    "name": "I-30 at Exit 69",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.073089,
+    "lng": -93.120597,
+    "image_url": "https://layers.idrivearkansas.com/cameras/472.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "476",
+    "name": "I-30 @ Exit 44",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.810631,
+    "lng": -93.422714,
+    "image_url": "https://layers.idrivearkansas.com/cameras/476.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "214",
+    "name": "I-40 at Brinkley (Exit 216)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.90934,
+    "lng": -91.191698,
+    "image_url": "https://layers.idrivearkansas.com/cameras/214.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "258",
+    "name": "I-440 at LR Airport (Exit 3)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.716388,
+    "lng": -92.229579,
+    "image_url": "https://layers.idrivearkansas.com/cameras/258.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "470",
+    "name": "I-30 @ mm 91",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.333289,
+    "lng": -92.918686,
+    "image_url": "https://layers.idrivearkansas.com/cameras/470.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "495",
+    "name": "I-30 @ Bryant (Exit 123)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.615392,
+    "lng": -92.504711,
+    "image_url": "https://layers.idrivearkansas.com/cameras/495.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "474",
+    "name": "I-40 @ Laman Drive",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.80435,
+    "lng": -92.314958,
+    "image_url": "https://layers.idrivearkansas.com/cameras/474.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "489",
+    "name": "I-40 @ exit 84",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.282356,
+    "lng": -93.092594,
+    "image_url": "https://layers.idrivearkansas.com/cameras/489.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "478",
+    "name": "US 71 @ Y City",
+    "route": "71",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.761378,
+    "lng": -94.075797,
+    "image_url": "https://layers.idrivearkansas.com/cameras/478.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "486",
+    "name": "I-30 @ mm 4",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.483156,
+    "lng": -93.979375,
+    "image_url": "https://layers.idrivearkansas.com/cameras/486.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "485",
+    "name": "I-30 @ mm 3",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.477814,
+    "lng": -93.996794,
+    "image_url": "https://layers.idrivearkansas.com/cameras/485.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "481",
+    "name": "I-30 @ Mile Marker 18",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.610544,
+    "lng": -93.799208,
+    "image_url": "https://layers.idrivearkansas.com/cameras/481.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "475",
+    "name": "I-30 @ Prescott",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.831511,
+    "lng": -93.394828,
+    "image_url": "https://layers.idrivearkansas.com/cameras/475.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "459",
+    "name": "US 165 at Pendleton",
+    "route": "165",
+    "jurisdiction": "U.S. Highway",
+    "lat": 33.975039,
+    "lng": -91.384628,
+    "image_url": "https://layers.idrivearkansas.com/cameras/459.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "500",
+    "name": "I-40 @ Menifee Exit 117",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.153506,
+    "lng": -92.553608,
+    "image_url": "https://layers.idrivearkansas.com/cameras/500.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "490",
+    "name": "I-40 @ Exit 88",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.24945,
+    "lng": -93.035356,
+    "image_url": "https://layers.idrivearkansas.com/cameras/490.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "494",
+    "name": "I-30 @ Exit 124",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.634258,
+    "lng": -92.461636,
+    "image_url": "https://layers.idrivearkansas.com/cameras/494.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "488",
+    "name": "I-40 @ exit 83",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.291056,
+    "lng": -93.106464,
+    "image_url": "https://layers.idrivearkansas.com/cameras/488.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "491",
+    "name": "I-40 @ Exit 94",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.253031,
+    "lng": -92.937567,
+    "image_url": "https://layers.idrivearkansas.com/cameras/491.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "496",
+    "name": "I-30 @ Benton (Exit 117)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.577175,
+    "lng": -92.584864,
+    "image_url": "https://layers.idrivearkansas.com/cameras/496.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "487",
+    "name": "I-40 @ exit 81",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.306342,
+    "lng": -93.138292,
+    "image_url": "https://layers.idrivearkansas.com/cameras/487.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "498",
+    "name": "I-40 @ Exit 78",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.322303,
+    "lng": -93.191578,
+    "image_url": "https://layers.idrivearkansas.com/cameras/498.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "499",
+    "name": "I-40 @ Plumerville Exit 112",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.162719,
+    "lng": -92.641006,
+    "image_url": "https://layers.idrivearkansas.com/cameras/499.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "497",
+    "name": "I-30 @ Benton EB (Exit 117)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.570689,
+    "lng": -92.593919,
+    "image_url": "https://layers.idrivearkansas.com/cameras/497.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "504",
+    "name": "I-40 @ Clarksville (Exit 57)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.458019,
+    "lng": -93.482128,
+    "image_url": "https://layers.idrivearkansas.com/cameras/504.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "505",
+    "name": "I-40 @ Clarksville (Exit 55)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.464964,
+    "lng": -93.521206,
+    "image_url": "https://layers.idrivearkansas.com/cameras/505.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "513",
+    "name": "I-40 @ Exit 3",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.459578,
+    "lng": -94.3922,
+    "image_url": "https://layers.idrivearkansas.com/cameras/513.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "506",
+    "name": "I-40 @ Ozark (Exit 37)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.515514,
+    "lng": -93.819325,
+    "image_url": "https://layers.idrivearkansas.com/cameras/506.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "501",
+    "name": "I-40 @ Knoxville (Exit 67)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.383944,
+    "lng": -93.356228,
+    "image_url": "https://layers.idrivearkansas.com/cameras/501.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "502",
+    "name": "I-40 @ Lamar (Exit 64)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.414383,
+    "lng": -93.384636,
+    "image_url": "https://layers.idrivearkansas.com/cameras/502.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "503",
+    "name": "I-40 @ Clarksville (Exit 58)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.452031,
+    "lng": -93.464883,
+    "image_url": "https://layers.idrivearkansas.com/cameras/503.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "507",
+    "name": "I-40 @ Mulberry (Exit 24)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.527856,
+    "lng": -94.046136,
+    "image_url": "https://layers.idrivearkansas.com/cameras/507.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "517",
+    "name": "I-40 West of I-49 (Exit 12)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.478547,
+    "lng": -94.248639,
+    "image_url": "https://layers.idrivearkansas.com/cameras/517.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "516",
+    "name": "I-40 @ Dyer (Exit 20)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.515381,
+    "lng": -94.113831,
+    "image_url": "https://layers.idrivearkansas.com/cameras/516.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "518",
+    "name": "I-40 @ Coal Hill (Exit 47)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.497075,
+    "lng": -93.660783,
+    "image_url": "https://layers.idrivearkansas.com/cameras/518.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "519",
+    "name": "I-40 @ Morrilton (Exit 107)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.174717,
+    "lng": -92.744147,
+    "image_url": "https://layers.idrivearkansas.com/cameras/519.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "515",
+    "name": "I-40 at US 71 Interchange",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.489094,
+    "lng": -94.225714,
+    "image_url": "https://layers.idrivearkansas.com/cameras/515.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "523",
+    "name": "I-40 @ Hwy 59",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.462719,
+    "lng": -94.356156,
+    "image_url": "https://layers.idrivearkansas.com/cameras/523.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "72",
+    "name": "I-55 at I-40 W. Interchange",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.171759,
+    "lng": -90.193144,
+    "image_url": "https://layers.idrivearkansas.com/cameras/72.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "83",
+    "name": "I-40 at Danny Thomas Blvd.",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.151461,
+    "lng": -90.042524,
+    "image_url": "https://layers.idrivearkansas.com/cameras/83.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "61",
+    "name": "I-40 E. of Mississippi River",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.153232,
+    "lng": -90.05139,
+    "image_url": "https://layers.idrivearkansas.com/cameras/61.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "62",
+    "name": "I-55 E. of MLK, Jr. Dr. (Exit 4)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.147499,
+    "lng": -90.130809,
+    "image_url": "https://layers.idrivearkansas.com/cameras/62.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "60",
+    "name": "I-40 at the de Soto Bridge E. Arch",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.153088,
+    "lng": -90.058523,
+    "image_url": "https://layers.idrivearkansas.com/cameras/60.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "59",
+    "name": "I-40 at the de Soto Bridge W. Arch",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.153088,
+    "lng": -90.064759,
+    "image_url": "https://layers.idrivearkansas.com/cameras/59.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "56",
+    "name": "I-40 E. of Mississippi River Levee",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.153731,
+    "lng": -90.106775,
+    "image_url": "https://layers.idrivearkansas.com/cameras/56.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "55",
+    "name": "I-40 E. of Mound City Rd. (Exit 281)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.157055,
+    "lng": -90.125861,
+    "image_url": "https://layers.idrivearkansas.com/cameras/55.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "54",
+    "name": "I-40 at MLK, Jr. Dr. (Exit 280)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.156385,
+    "lng": -90.136982,
+    "image_url": "https://layers.idrivearkansas.com/cameras/54.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "521",
+    "name": "US 412 @ Sonora",
+    "route": "412",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.171322,
+    "lng": -94.018236,
+    "image_url": "https://layers.idrivearkansas.com/cameras/521.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "53",
+    "name": "I-40 at I-55 S. Interchange",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.15482,
+    "lng": -90.148033,
+    "image_url": "https://layers.idrivearkansas.com/cameras/53.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "6",
+    "name": "I-30 at the I-49 Interchange",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.48042,
+    "lng": -93.986626,
+    "image_url": "https://layers.idrivearkansas.com/cameras/6.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "514",
+    "name": "I-40 East of I-540 Intchg",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.456361,
+    "lng": -94.312278,
+    "image_url": "https://layers.idrivearkansas.com/cameras/514.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "52",
+    "name": "I-40 W. of I-55 S. Interchange",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.157512,
+    "lng": -90.15667,
+    "image_url": "https://layers.idrivearkansas.com/cameras/52.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "70",
+    "name": "I-40 at State Hwy. 118 (Exit 275)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.15994,
+    "lng": -90.225784,
+    "image_url": "https://layers.idrivearkansas.com/cameras/70.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "71",
+    "name": "I-40 W. of I-55 N. Interchange",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.165826,
+    "lng": -90.206705,
+    "image_url": "https://layers.idrivearkansas.com/cameras/71.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "69",
+    "name": "I-55 E. of Mississippi River Levee",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.145349,
+    "lng": -90.121081,
+    "image_url": "https://layers.idrivearkansas.com/cameras/69.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "64",
+    "name": "I-55 W. Mississippi River",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.135285,
+    "lng": -90.086427,
+    "image_url": "https://layers.idrivearkansas.com/cameras/64.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "532",
+    "name": "I-430 @ Cantrell Interchange",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.789111,
+    "lng": -92.391611,
+    "image_url": "https://layers.idrivearkansas.com/cameras/532.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "528",
+    "name": "I-540 @ US Hwy 71 South",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.312372,
+    "lng": -94.399292,
+    "image_url": "https://layers.idrivearkansas.com/cameras/528.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "536",
+    "name": "I-540 @ Zero Street (Exit 11)",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.330528,
+    "lng": -94.394658,
+    "image_url": "https://layers.idrivearkansas.com/cameras/536.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "529",
+    "name": "I-540 @ OK State Line",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.291786,
+    "lng": -94.434103,
+    "image_url": "https://layers.idrivearkansas.com/cameras/529.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "527",
+    "name": "I-540 @ Grand Avenue",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.384778,
+    "lng": -94.364236,
+    "image_url": "https://layers.idrivearkansas.com/cameras/527.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "524",
+    "name": "I-540 @ Exit 3",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.425889,
+    "lng": -94.342722,
+    "image_url": "https://layers.idrivearkansas.com/cameras/524.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "538",
+    "name": "I-540 @ US 271 (Ext 14)",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.293356,
+    "lng": -94.423025,
+    "image_url": "https://layers.idrivearkansas.com/cameras/538.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "520",
+    "name": "US 82 @ US 167",
+    "route": "82",
+    "jurisdiction": "U.S. Highway",
+    "lat": 33.186683,
+    "lng": -92.634619,
+    "image_url": "https://layers.idrivearkansas.com/cameras/520.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "522",
+    "name": "US 70/US 70B Interchange",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.504453,
+    "lng": -92.974786,
+    "image_url": "https://layers.idrivearkansas.com/cameras/522.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "530",
+    "name": "I-430 @ Cantrell Interchange",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.789111,
+    "lng": -92.391611,
+    "image_url": "https://layers.idrivearkansas.com/cameras/530.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "534",
+    "name": "I-540 @ Kelley Hwy",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.403625,
+    "lng": -94.365922,
+    "image_url": "https://layers.idrivearkansas.com/cameras/534.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "537",
+    "name": "I-540 @ Jenny Lind (Exit 13)",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.302894,
+    "lng": -94.409897,
+    "image_url": "https://layers.idrivearkansas.com/cameras/537.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "525",
+    "name": "I-540 @ Phoenix Ave (Exit 9/10)",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.340583,
+    "lng": -94.379589,
+    "image_url": "https://layers.idrivearkansas.com/cameras/525.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "526",
+    "name": "I-540 South of I-40 Intchg",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.453108,
+    "lng": -94.320792,
+    "image_url": "https://layers.idrivearkansas.com/cameras/526.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "539",
+    "name": "I-430 South of the Arkansas River",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.796853,
+    "lng": -92.383297,
+    "image_url": "https://layers.idrivearkansas.com/cameras/539.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "535",
+    "name": "I-540 @ Old Greenwood Rd.",
+    "route": "540",
+    "jurisdiction": "Interstate",
+    "lat": 35.337367,
+    "lng": -94.391308,
+    "image_url": "https://layers.idrivearkansas.com/cameras/535.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "542",
+    "name": "I-430 River Bridge",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.800611,
+    "lng": -92.374953,
+    "image_url": "https://layers.idrivearkansas.com/cameras/542.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "533",
+    "name": "I-57 @ White River",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.466283,
+    "lng": -91.352919,
+    "image_url": "https://layers.idrivearkansas.com/cameras/533.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "547",
+    "name": "I-430 at Exit 9",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.795508,
+    "lng": -92.387531,
+    "image_url": "https://layers.idrivearkansas.com/cameras/547.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "544",
+    "name": "I-430 @ Maumelle Blvd",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.8091,
+    "lng": -92.359758,
+    "image_url": "https://layers.idrivearkansas.com/cameras/544.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "253",
+    "name": "I-49 @ US 612 Interchange",
+    "route": "49",
+    "jurisdiction": "Interstate",
+    "lat": 36.236786,
+    "lng": -94.161164,
+    "image_url": "https://layers.idrivearkansas.com/cameras/253.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "540",
+    "name": "I-430 South of Arkansas River",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.796853,
+    "lng": -92.383297,
+    "image_url": "https://layers.idrivearkansas.com/cameras/540.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "541",
+    "name": "I-430 Arkansas River Bridge",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.800611,
+    "lng": -92.374953,
+    "image_url": "https://layers.idrivearkansas.com/cameras/541.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "617",
+    "name": "I-57 at US 412 (Exit 124)",
+    "route": "67",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.067728,
+    "lng": -90.935639,
+    "image_url": "https://layers.idrivearkansas.com/cameras/617.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "545",
+    "name": "US 412 @ Illinois River",
+    "route": "412",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.173294,
+    "lng": -94.365408,
+    "image_url": "https://layers.idrivearkansas.com/cameras/545.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "531",
+    "name": "I-430 @ Cantrell Interchange",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.789111,
+    "lng": -92.391611,
+    "image_url": "https://layers.idrivearkansas.com/cameras/531.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "27",
+    "name": "I-430 at I-630 Interchange",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.747879,
+    "lng": -92.391794,
+    "image_url": "https://layers.idrivearkansas.com/cameras/27.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "546",
+    "name": "I-430 at Exit 9",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.795508,
+    "lng": -92.387531,
+    "image_url": "https://layers.idrivearkansas.com/cameras/546.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "543",
+    "name": "I-430 @ Mile Marker 12.6",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.807119,
+    "lng": -92.362922,
+    "image_url": "https://layers.idrivearkansas.com/cameras/543.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "645",
+    "name": "Highway 148 (Exit 57)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.814106,
+    "lng": -89.971561,
+    "image_url": "https://layers.idrivearkansas.com/cameras/645.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "564",
+    "name": "I-55 @ James Mill Rd. (Exit 14)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.262942,
+    "lng": -90.228636,
+    "image_url": "https://layers.idrivearkansas.com/cameras/564.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "568",
+    "name": "I-55 @ Bassett (Exit 36)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.538803,
+    "lng": -90.164414,
+    "image_url": "https://layers.idrivearkansas.com/cameras/568.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "565",
+    "name": "I-55 @ Clarkedale Rd. (Exit 17)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.306797,
+    "lng": -90.250806,
+    "image_url": "https://layers.idrivearkansas.com/cameras/565.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "574",
+    "name": "I-55 @ Blytheville (Exit 67)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.929081,
+    "lng": -89.873819,
+    "image_url": "https://layers.idrivearkansas.com/cameras/574.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "566",
+    "name": "I-55 @ Highway 42 (Exit 21)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.365525,
+    "lng": -90.280336,
+    "image_url": "https://layers.idrivearkansas.com/cameras/566.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "563",
+    "name": "I-55 @ US 64 (Exit 10)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.211689,
+    "lng": -90.206861,
+    "image_url": "https://layers.idrivearkansas.com/cameras/563.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "557",
+    "name": "I-57 @ Vandenberg Overpass",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.8830651104452,
+    "lng": -92.110560006233,
+    "image_url": "https://layers.idrivearkansas.com/cameras/557.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "555",
+    "name": "I-57 @ James St.",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.869336,
+    "lng": -92.125722,
+    "image_url": "https://layers.idrivearkansas.com/cameras/555.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "554",
+    "name": "I-57 @ James St. (Exit 10A)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.869336,
+    "lng": -92.125722,
+    "image_url": "https://layers.idrivearkansas.com/cameras/554.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "575",
+    "name": "I-55 @ Blytheville",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.965108,
+    "lng": -89.875069,
+    "image_url": "https://layers.idrivearkansas.com/cameras/575.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "552",
+    "name": "I-57 @ Carrington Rd",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.933481,
+    "lng": -92.079897,
+    "image_url": "https://layers.idrivearkansas.com/cameras/552.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "571",
+    "name": "I-55 @ Osceola (Exit 48)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.697944,
+    "lng": -90.050236,
+    "image_url": "https://layers.idrivearkansas.com/cameras/571.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "580",
+    "name": "I-57 of Brookswood Rd.",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.825508,
+    "lng": -92.191789,
+    "image_url": "https://layers.idrivearkansas.com/cameras/580.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "576",
+    "name": "I-55 @ AR State Line",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.998006,
+    "lng": -89.875192,
+    "image_url": "https://layers.idrivearkansas.com/cameras/576.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "573",
+    "name": "I-55 @ Highway 239",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.904531,
+    "lng": -89.891747,
+    "image_url": "https://layers.idrivearkansas.com/cameras/573.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "584",
+    "name": "I-57 at Highway 319 (Exit 25)",
+    "route": "319",
+    "jurisdiction": "State Highway",
+    "lat": 35.034381,
+    "lng": -91.959247,
+    "image_url": "https://layers.idrivearkansas.com/cameras/584.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "569",
+    "name": "I-55 @ Marie (Exit 41)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.611181,
+    "lng": -90.112864,
+    "image_url": "https://layers.idrivearkansas.com/cameras/569.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "585",
+    "name": "I-57 at Hwy 64 (Exit 28)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.069186,
+    "lng": -91.915189,
+    "image_url": "https://layers.idrivearkansas.com/cameras/585.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "582",
+    "name": "I-57 at Kiehl Ave",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.8322692,
+    "lng": -92.17708371,
+    "image_url": "https://layers.idrivearkansas.com/cameras/582.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "583",
+    "name": "I-57 at Mile Marker 12.5",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.903714,
+    "lng": -92.087217,
+    "image_url": "https://layers.idrivearkansas.com/cameras/583.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "578",
+    "name": "I-57 at McCain Blvd",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.792611,
+    "lng": -92.223017,
+    "image_url": "https://layers.idrivearkansas.com/cameras/578.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "591",
+    "name": "I-57 at Russell (Exit 60)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.358928,
+    "lng": -91.504447,
+    "image_url": "https://layers.idrivearkansas.com/cameras/591.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "581",
+    "name": "I-57 N. of Brookswood Rd.",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.827536,
+    "lng": -92.188881,
+    "image_url": "https://layers.idrivearkansas.com/cameras/581.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "590",
+    "name": "I-57 at Bradford (Exit 65)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.419831,
+    "lng": -91.445253,
+    "image_url": "https://layers.idrivearkansas.com/cameras/590.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "570",
+    "name": "I-55 @ Keiser (Exit 44)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.643458,
+    "lng": -90.088981,
+    "image_url": "https://layers.idrivearkansas.com/cameras/570.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "579",
+    "name": "I-57 S. of Wildwood",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 34.811442,
+    "lng": -92.205664,
+    "image_url": "https://layers.idrivearkansas.com/cameras/579.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "588",
+    "name": "I-57 at Hwy 385 (Exit 48)",
+    "route": "385",
+    "jurisdiction": "State Highway",
+    "lat": 35.268928,
+    "lng": -91.672769,
+    "image_url": "https://layers.idrivearkansas.com/cameras/588.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "572",
+    "name": "I-55 @ Blytheville (Exit 63)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.886692,
+    "lng": -89.918947,
+    "image_url": "https://layers.idrivearkansas.com/cameras/572.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "567",
+    "name": "I-55 @ Highway 118 (Exit 34)",
+    "route": "55",
+    "jurisdiction": "Interstate",
+    "lat": 35.512219,
+    "lng": -90.179411,
+    "image_url": "https://layers.idrivearkansas.com/cameras/567.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "200",
+    "name": "I-440 at U.S. 165 (Exit 7)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.730314,
+    "lng": -92.173284,
+    "image_url": "https://layers.idrivearkansas.com/cameras/200.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "246",
+    "name": "I-440 at U.S. 70 (Exit 10)",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.765181,
+    "lng": -92.161912,
+    "image_url": "https://layers.idrivearkansas.com/cameras/246.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "593",
+    "name": "I-57 at Hwy 224 (Exit 74)",
+    "route": "224",
+    "jurisdiction": "State Highway",
+    "lat": 35.489286,
+    "lng": -91.325456,
+    "image_url": "https://layers.idrivearkansas.com/cameras/593.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "587",
+    "name": "I-57 at Main St. (Exit 42)",
+    "route": "67",
+    "jurisdiction": "U.S. Highway",
+    "lat": 35.203497,
+    "lng": -91.732489,
+    "image_url": "https://layers.idrivearkansas.com/cameras/587.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "597",
+    "name": "I-57 at Highway 305 (Exit 22)",
+    "route": "305",
+    "jurisdiction": "State Highway",
+    "lat": 35.006561,
+    "lng": -91.988481,
+    "image_url": "https://layers.idrivearkansas.com/cameras/597.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "612",
+    "name": "I-57 at Highway 384 (Exit 83)",
+    "route": "384",
+    "jurisdiction": "State Highway",
+    "lat": 35.608081,
+    "lng": -91.238814,
+    "image_url": "https://layers.idrivearkansas.com/cameras/612.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "606",
+    "name": "I-57 at Exit 44",
+    "route": "367",
+    "jurisdiction": "State Highway",
+    "lat": 35.221308,
+    "lng": -91.718125,
+    "image_url": "https://layers.idrivearkansas.com/cameras/606.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "586",
+    "name": "I-57 at ASU Blvd. (Exit 29)",
+    "route": "367",
+    "jurisdiction": "State Highway",
+    "lat": 35.079108,
+    "lng": -91.900186,
+    "image_url": "https://layers.idrivearkansas.com/cameras/586.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "592",
+    "name": "I-57 at Possum Grape (Exit 69)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.454706,
+    "lng": -91.398258,
+    "image_url": "https://layers.idrivearkansas.com/cameras/592.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "599",
+    "name": "I-57 at Exit 35",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.132628,
+    "lng": -91.820506,
+    "image_url": "https://layers.idrivearkansas.com/cameras/599.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "589",
+    "name": "I-57 at Hwy 157 (Exit 51)",
+    "route": "157",
+    "jurisdiction": "State Highway",
+    "lat": 35.300664,
+    "lng": -91.635556,
+    "image_url": "https://layers.idrivearkansas.com/cameras/589.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "598",
+    "name": "I-57 at Exit 31",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.092386,
+    "lng": -91.881744,
+    "image_url": "https://layers.idrivearkansas.com/cameras/598.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "600",
+    "name": "I-57 at Highway 36 (Exit 45)",
+    "route": "36",
+    "jurisdiction": "State Highway",
+    "lat": 35.235861,
+    "lng": -91.702019,
+    "image_url": "https://layers.idrivearkansas.com/cameras/600.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "605",
+    "name": "I-57 at Hwy 226 (Exit 102)",
+    "route": "226",
+    "jurisdiction": "State Highway",
+    "lat": 35.796492,
+    "lng": -91.022336,
+    "image_url": "https://layers.idrivearkansas.com/cameras/605.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "601",
+    "name": "I-57 at Exit 54",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.32055,
+    "lng": -91.5797,
+    "image_url": "https://layers.idrivearkansas.com/cameras/601.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "618",
+    "name": "I-430 at Rodney Parham",
+    "route": "430",
+    "jurisdiction": "Interstate",
+    "lat": 34.779694,
+    "lng": -92.3905,
+    "image_url": "https://layers.idrivearkansas.com/cameras/618.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "609",
+    "name": "I-57 (Exit 80)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.563764,
+    "lng": -91.261772,
+    "image_url": "https://layers.idrivearkansas.com/cameras/609.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "611",
+    "name": "I-57 at Highway 18 (Exit 85)",
+    "route": "18",
+    "jurisdiction": "State Highway",
+    "lat": 35.638403,
+    "lng": -91.238956,
+    "image_url": "https://layers.idrivearkansas.com/cameras/611.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "615",
+    "name": "I-57 at Highway 230 (Exit 111)",
+    "route": "67",
+    "jurisdiction": "U.S. Highway",
+    "lat": 35.898936,
+    "lng": -90.999336,
+    "image_url": "https://layers.idrivearkansas.com/cameras/615.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "616",
+    "name": "I-57 at US 63 (Exit 121)",
+    "route": "67",
+    "jurisdiction": "U.S. Highway",
+    "lat": 36.034942,
+    "lng": -90.957142,
+    "image_url": "https://layers.idrivearkansas.com/cameras/616.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "607",
+    "name": "I-57 at Exit 46",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.250131,
+    "lng": -91.689239,
+    "image_url": "https://layers.idrivearkansas.com/cameras/607.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "647",
+    "name": "US 270 at Hwy 51 (Stoney Creek)",
+    "route": "270",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.461972,
+    "lng": -92.899444,
+    "image_url": "https://layers.idrivearkansas.com/cameras/647.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "646",
+    "name": "US 270 at Hwy 51 (Butterfield)",
+    "route": "270",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.409056,
+    "lng": -92.821389,
+    "image_url": "https://layers.idrivearkansas.com/cameras/646.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "650",
+    "name": "US 270 at Higdon Ferry Rd",
+    "route": "270",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.465981,
+    "lng": -93.072669,
+    "image_url": "https://layers.idrivearkansas.com/cameras/650.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "651",
+    "name": "US 270 at McLeod St",
+    "route": "270",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.470553,
+    "lng": -93.089683,
+    "image_url": "https://layers.idrivearkansas.com/cameras/651.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "613",
+    "name": "I-57 at Exit 87",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.660972,
+    "lng": -91.211094,
+    "image_url": "https://layers.idrivearkansas.com/cameras/613.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "614",
+    "name": "I-57 at Exit 95",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.72435,
+    "lng": -91.097492,
+    "image_url": "https://layers.idrivearkansas.com/cameras/614.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "608",
+    "name": "I-57 at US 167 Interchange (Exit 55)",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.319658,
+    "lng": -91.561175,
+    "image_url": "https://layers.idrivearkansas.com/cameras/608.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "610",
+    "name": "I-57 at Exit 82",
+    "route": "57",
+    "jurisdiction": "Interstate",
+    "lat": 35.59405,
+    "lng": -91.248369,
+    "image_url": "https://layers.idrivearkansas.com/cameras/610.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "652",
+    "name": "US 270 at Albert Pike",
+    "route": "270",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.492678,
+    "lng": -93.112247,
+    "image_url": "https://layers.idrivearkansas.com/cameras/652.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "649",
+    "name": "US 270 at Carpenter Dam Rd",
+    "route": "270",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.465808,
+    "lng": -93.021222,
+    "image_url": "https://layers.idrivearkansas.com/cameras/649.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "685",
+    "name": "Hwy 109 at Arkansas River",
+    "route": "109",
+    "jurisdiction": "State Highway",
+    "lat": 35.41361,
+    "lng": -93.5324,
+    "image_url": "https://layers.idrivearkansas.com/cameras/685.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "648",
+    "name": "US 270 at Malvern Ave",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.471583,
+    "lng": -92.989361,
+    "image_url": "https://layers.idrivearkansas.com/cameras/648.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "677",
+    "name": "I-30 @ Okolona (Exit 54)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 33.903444,
+    "lng": -93.296417,
+    "image_url": "https://layers.idrivearkansas.com/cameras/677.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "681",
+    "name": "US70 at Hwy128",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.556286,
+    "lng": -92.810294,
+    "image_url": "https://layers.idrivearkansas.com/cameras/681.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "678",
+    "name": "US70 at I-30",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.535928,
+    "lng": -92.684161,
+    "image_url": "https://layers.idrivearkansas.com/cameras/678.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "686",
+    "name": "I-30 at Mile Marker 111.5",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.53835,
+    "lng": -92.665631,
+    "image_url": "https://layers.idrivearkansas.com/cameras/686.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "684",
+    "name": "US70 B at Gulpha Gorge",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.519408,
+    "lng": -93.03195,
+    "image_url": "https://layers.idrivearkansas.com/cameras/684.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "682",
+    "name": "US70 B at Westinghouse Rd.",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.505383,
+    "lng": -92.985031,
+    "image_url": "https://layers.idrivearkansas.com/cameras/682.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "683",
+    "name": "US70 B at McClendon Rd.",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.507716,
+    "lng": -93.0087,
+    "image_url": "https://layers.idrivearkansas.com/cameras/683.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "680",
+    "name": "US70 at Highway 88",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.550125,
+    "lng": -92.788408,
+    "image_url": "https://layers.idrivearkansas.com/cameras/680.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "619",
+    "name": "I-40 at Crystal Hill",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 34.8090047612997,
+    "lng": -92.3177836142107,
+    "image_url": "https://layers.idrivearkansas.com/cameras/619.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "679",
+    "name": "US70 at Fairplay Rd.",
+    "route": "70",
+    "jurisdiction": "U.S. Highway",
+    "lat": 34.539886,
+    "lng": -92.750736,
+    "image_url": "https://layers.idrivearkansas.com/cameras/679.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "687",
+    "name": "I-30 at US67 (Exit 114)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.543792,
+    "lng": -92.632631,
+    "image_url": "https://layers.idrivearkansas.com/cameras/687.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "689",
+    "name": "I-30 at Gurdon",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.014211,
+    "lng": -93.166006,
+    "image_url": "https://layers.idrivearkansas.com/cameras/689.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "375",
+    "name": "I-630 @ Fair Park",
+    "route": "630",
+    "jurisdiction": "Interstate",
+    "lat": 34.745139,
+    "lng": -92.332158,
+    "image_url": "https://layers.idrivearkansas.com/cameras/375.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "702",
+    "name": "I-555 @ Bay (Exit 35)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.755761,
+    "lng": -90.578647,
+    "image_url": "https://layers.idrivearkansas.com/cameras/702.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "704",
+    "name": "I-555 @ Hwy 463 (Exit 24)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.630292,
+    "lng": -90.500436,
+    "image_url": "https://layers.idrivearkansas.com/cameras/704.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "705",
+    "name": "I-555 @ Marked Tree (Exit 14)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.525728,
+    "lng": -90.430583,
+    "image_url": "https://layers.idrivearkansas.com/cameras/705.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "697",
+    "name": "I-555 @ Hwy 91 (Exit 49)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.857433,
+    "lng": -90.777239,
+    "image_url": "https://layers.idrivearkansas.com/cameras/697.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "699",
+    "name": "I-555 @ Woodsprings (Exit 46)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.819458,
+    "lng": -90.734403,
+    "image_url": "https://layers.idrivearkansas.com/cameras/699.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "701",
+    "name": "I-555 @ Nestle (Exit 36)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.7749,
+    "lng": -90.585769,
+    "image_url": "https://layers.idrivearkansas.com/cameras/701.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "703",
+    "name": "I-555 @ Trumann (Exit 29)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.677939,
+    "lng": -90.552778,
+    "image_url": "https://layers.idrivearkansas.com/cameras/703.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "700",
+    "name": "I-555 @ E. Nettleton Ave. (Exit 40)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.806619,
+    "lng": -90.636453,
+    "image_url": "https://layers.idrivearkansas.com/cameras/700.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "706",
+    "name": "I-555 @ Gilmore (Exit 2)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.411089,
+    "lng": -90.282961,
+    "image_url": "https://layers.idrivearkansas.com/cameras/706.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "688",
+    "name": "I-30 at South St (Exit 116)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.564453,
+    "lng": -92.602925,
+    "image_url": "https://layers.idrivearkansas.com/cameras/688.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "698",
+    "name": "I-555 @ Washington Ave (Exit 47)",
+    "route": "555",
+    "jurisdiction": "Interstate",
+    "lat": 35.835133,
+    "lng": -90.750469,
+    "image_url": "https://layers.idrivearkansas.com/cameras/698.jpg",
+    "video_url": ""
+  }
+]

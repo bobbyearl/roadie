@@ -2921,13 +2921,13 @@
   },
   {
     "id": "294",
-    "name": "I-94 at WIS 21",
+    "name": "Camera 294",
     "route": "",
     "jurisdiction": "",
     "lat": 44.018777,
     "lng": -90.496779,
-    "image_url": "https://511wi.gov/map/Cctv/1230",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-41-0050/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/294",
+    "video_url": ""
   },
   {
     "id": "295",
@@ -2961,93 +2961,93 @@
   },
   {
     "id": "298",
-    "name": "US 12/18 at E of Seminole Hwy (Flex)",
+    "name": "Camera 298",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1234",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0158/playlist.m3u8"
-  },
-  {
-    "id": "299",
-    "name": "Camera 299",
-    "route": "",
-    "jurisdiction": "",
-    "lat": 0.0,
-    "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/299",
+    "image_url": "https://511wi.gov/map/Cctv/298",
     "video_url": ""
   },
   {
-    "id": "300",
-    "name": "US 12/18 at E of Verona Rd (Flex)",
+    "id": "299",
+    "name": "US 12/18 at W of Seminole Hwy (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1236",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0156/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/1235",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0157/playlist.m3u8"
+  },
+  {
+    "id": "300",
+    "name": "Camera 300",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 0.0,
+    "lng": 0.0,
+    "image_url": "https://511wi.gov/map/Cctv/300",
+    "video_url": ""
   },
   {
     "id": "301",
-    "name": "I-41/43/894 at 27th St",
+    "name": "Camera 301",
     "route": "",
     "jurisdiction": "",
     "lat": 42.962159,
     "lng": -87.948143,
-    "image_url": "https://511wi.gov/map/Cctv/1237",
-    "video_url": "https://cctv1.dot.wi.gov/rtplive/CCTV-40-0024/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/301",
+    "video_url": ""
   },
   {
     "id": "302",
-    "name": "Camera 302",
+    "name": "US 12/18 at Verona Rd (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/302",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1238",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0155/playlist.m3u8"
   },
   {
     "id": "303",
-    "name": "US 12/14 at W of Verona Rd (Flex)",
+    "name": "Camera 303",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1239",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0154/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/303",
+    "video_url": ""
   },
   {
     "id": "304",
-    "name": "Camera 304",
+    "name": "US 12/14 at W of SW Commuter Path (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/304",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1240",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0153/playlist.m3u8"
   },
   {
     "id": "305",
-    "name": "Camera 305",
+    "name": "US 12/14 at Whitney Way (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/305",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1241",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0151/playlist.m3u8"
   },
   {
     "id": "306",
-    "name": "Camera 306",
+    "name": "US 12/18 at W of John Nolan Dr (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/306",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1242",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0171/playlist.m3u8"
   },
   {
     "id": "307",
