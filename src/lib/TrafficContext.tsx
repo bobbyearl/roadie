@@ -128,7 +128,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
     if (selectedIds.size === 0) {return undefined;}
     const key = setKey([...selectedIds]);
     // Check curated routes
-    const curated = CURATED_ROUTES.find((r) => setKey(r.ids.map((id) => `sc:${id}`)) === key);
+    const curated = CURATED_ROUTES.find((r) => setKey(r.ids.map((id) => `sc-${id}`)) === key);
     if (curated) {return curated.name;}
     // Check bookmarks
     const match = bookmarks.find((p) => setKey(p.cameraIds) === key);
@@ -152,7 +152,7 @@ export function TrafficProvider({ children }: { children: ReactNode }) {
   const selectRoute = (ids: string[]) => {
     setSelected(new Set(ids));
     const key = setKey(ids);
-    const curated = CURATED_ROUTES.find((r) => setKey(r.ids.map((id) => `sc:${id}`)) === key);
+    const curated = CURATED_ROUTES.find((r) => setKey(r.ids.map((id) => `sc-${id}`)) === key);
     const bookmark = bookmarks.find((p) => setKey(p.cameraIds) === key);
     track('route_selected', {
       route_name: curated?.name ?? bookmark?.name ?? 'ad-hoc',

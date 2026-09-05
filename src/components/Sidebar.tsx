@@ -32,7 +32,7 @@ export function Sidebar({ open }: { open?: boolean }) {
   const stateGroups = useMemo(() => {
     const groups = new Map<string, Map<string, Camera[]>>();
     for (const cam of cameras) {
-      const sid = cam.id.split(':')[0];
+      const sid = cam.id.split('-')[0];
       if (!groups.has(sid)) { groups.set(sid, new Map()); }
       const routeMap = groups.get(sid)!;
       const groupKey = cam.route || cam.jurisdiction || 'Other';
@@ -94,7 +94,7 @@ export function Sidebar({ open }: { open?: boolean }) {
                       {isExpanded(`${state.id}:__curated__`) && (
                         <div className="region-cameras">
                           {CURATED_ROUTES.map((route) => {
-                            const routeIds = route.ids.map((id) => `sc:${id}`);
+                            const routeIds = route.ids.map((id) => `sc-${id}`);
                             const isActive = routeIds.every((id) => selectedIds.has(id));
                             return (
                               <label key={route.name} className="camera-row">
