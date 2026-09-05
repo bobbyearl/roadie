@@ -594,8 +594,8 @@ def build_db():
 
             # Ensure camera ID has state prefix
             cam_id = cam["id"]
-            if not cam_id.startswith(f"{state_id}:"):
-                cam_id = f"{state_id}:{cam_id}"
+            if not cam_id.startswith(f"{state_id}-"):
+                cam_id = f"{state_id}-{cam_id}"
 
             cameras.append([
                 round(cam["lat"], 5),

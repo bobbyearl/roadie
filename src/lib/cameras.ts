@@ -51,7 +51,7 @@ function parseCameraDB(db: CameraDB, filterState?: string): Camera[] {
   return db.cameras
     .filter((c) => filterState === undefined || db.states[c[3]] === filterState)
     .map((c) => ({
-      id: filterState ? c[2] : `${db.states[c[3]]}:${c[2]}`,
+      id: filterState ? c[2] : `${db.states[c[3]]}-${c[2]}`,
       name: c[4],
       description: `${c[4]} (${db.jurisdictions[c[6]]})`,
       route: db.routes[c[5]],
