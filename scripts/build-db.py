@@ -445,6 +445,36 @@ def parse_mn():
         return json.load(f)
 
 
+def parse_mi():
+    """Michigan - MDOT MiDrive (fetchers/api_states.fetch_mi), image-only."""
+    with open(os.path.join(DATA_DIR, "mi.json")) as f:
+        return json.load(f)
+
+
+def parse_az():
+    """Arizona - az511.gov (fetchers/api_states.fetch_az), image-only."""
+    with open(os.path.join(DATA_DIR, "az.json")) as f:
+        return json.load(f)
+
+
+def parse_il():
+    """Illinois - travelmidwest (fetchers/api_states.fetch_il), image-only."""
+    with open(os.path.join(DATA_DIR, "il.json")) as f:
+        return json.load(f)
+
+
+def parse_ky():
+    """Kentucky - KYTC ArcGIS (fetchers/api_states.fetch_ky), image-only."""
+    with open(os.path.join(DATA_DIR, "ky.json")) as f:
+        return json.load(f)
+
+
+def parse_ma():
+    """Massachusetts - CARS/OneNetwork 511 (fetchers/api_states.fetch_ma), image-only."""
+    with open(os.path.join(DATA_DIR, "ma.json")) as f:
+        return json.load(f)
+
+
 def parse_ak():
     """Alaska - 511.alaska.gov tooltip scrape + mapIcons coordinates"""
     with open(os.path.join(DATA_DIR, "ak.json")) as f:
@@ -481,6 +511,7 @@ STATES = [
     ("ak", parse_ak),
     ("al", parse_al),
     ("ar", parse_ar),
+    ("az", parse_az),
     ("ca", parse_ca),
     ("ct", parse_ct),
     ("de", parse_de),
@@ -488,9 +519,13 @@ STATES = [
     ("ga", parse_ga),
     ("ia", parse_ia),
     ("id", parse_id),
+    ("il", parse_il),
     ("ks", parse_ks),
+    ("ky", parse_ky),
     ("la", parse_la),
+    ("ma", parse_ma),
     ("md", parse_md),
+    ("mi", parse_mi),
     ("mn", parse_mn),
     ("nc", parse_nc),
     ("nd", parse_nd),
