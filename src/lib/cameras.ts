@@ -86,6 +86,14 @@ export const STATES: StateConfig[] = [
     cameraCount: 630,
   },
   {
+    id: 'ar',
+    name: 'Arkansas',
+    defaultCenter: { lat: 34.8, lng: -92.4 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 552,
+  },
+  {
     id: 'ca',
     name: 'California',
     defaultCenter: { lat: 36.7, lng: -119.8 },
@@ -156,6 +164,14 @@ export const STATES: StateConfig[] = [
     defaultZoom: 7,
     supportsVideo: false,
     cameraCount: 1112,
+  },
+  {
+    id: 'nd',
+    name: 'North Dakota',
+    defaultCenter: { lat: 47.5, lng: -100.5 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 809,
   },
   {
     id: 'ne',

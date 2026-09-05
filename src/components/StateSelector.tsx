@@ -35,7 +35,9 @@ export function StateSelector() {
   const dismiss = useDismiss(context);
   const { getReferenceProps, getFloatingProps } = useInteractions([click, dismiss]);
 
-  const otherStates = STATES.filter((s) => s.id !== stateId).sort((a, b) => a.name.localeCompare(b.name));
+  // Sort by the 2-letter code that is actually displayed, so the grid reads
+  // in true label order (AL, AR, CA, ...) rather than by hidden full name.
+  const otherStates = STATES.filter((s) => s.id !== stateId).sort((a, b) => a.id.localeCompare(b.id));
   const showAll = stateId !== 'all';
 
   return (

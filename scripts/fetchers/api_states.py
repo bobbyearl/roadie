@@ -255,3 +255,73 @@ async def fetch_nj() -> list[dict]:
             "video_url": video_url,
         })
     return cameras
+
+
+# --- North Dakota ---
+# Public GeoJSON from NDDOT. Each feature is a SITE holding a Cameras[] array of
+# individual views (each a .jpg via LinkPath). Explode each view into its own
+# camera so multi-angle sites show every view; id is <ObjectID>-<index>.
+ND_URL = "https://travelfiles.dot.nd.gov/geojson_nc/cameras.json"
+
+async def fetch_nd() -> list[dict]:
+    data = await _get_json(ND_URL)
+    cameras = []
+    for feat in data["features"]:
+        props = feat["properties"]
+        coords = feat["geometry"]["coordinates"]
+        lat, lng = coords[1], coords[0]
+        if not lat or not lng:
+            continue
+        object_id = props.get("ObjectID")
+        region = props.get("Region", "")
+        views = props.get("Cameras", []) or []
+        for i, view in enumerate(views):
+            img = view.get("LinkPath") or view.get("FullPath") or ""
+            if not img:
+                continue
+            cameras.append({
+                "id": f"{object_id}-{i}",
+                "name": (view.get("Description") or "").strip(),
+                "route": "",
+                "jurisdiction": region,
+                "lat": lat,
+                "lng": lng,
+                "image_url": img,
+                "video_url": "",
+            })
+    return cameras
+
+
+# --- Arkansas ---
+# Public GeoJSON from ARDOT (IDrive Arkansas). The feed's only stream is
+# `hls_stream_protected`, a session-gated HLS that 302-redirects to a
+# short-lived tokenized CDN URL Roadie (a static frontend) cannot mint or
+# proxy. But each camera also has a public still at
+# layers.idrivearkansas.com/cameras/<id>.jpg (open, CORS-clean, ~60s refresh),
+# so Arkansas is served image-only. Video is deferred until we have an edge
+# proxy to mint the per-view token.
+AR_URL = "https://layers.idrivearkansas.com/cameras.geojson"
+
+async def fetch_ar() -> list[dict]:
+    data = await _get_json(AR_URL)
+    cameras = []
+    for feat in data["features"]:
+        props = feat["properties"]
+        coords = feat["geometry"]["coordinates"]
+        lat, lng = coords[1], coords[0]
+        if not lat or not lng:
+            continue
+        cam_id = props.get("id")
+        if cam_id is None:
+            continue
+        cameras.append({
+            "id": str(cam_id),
+            "name": (props.get("name") or "").strip(),
+            "route": str(props.get("route", "")),
+            "jurisdiction": props.get("route_type", ""),
+            "lat": lat,
+            "lng": lng,
+            "image_url": f"https://layers.idrivearkansas.com/cameras/{cam_id}.jpg",
+            "video_url": "",
+        })
+    return cameras

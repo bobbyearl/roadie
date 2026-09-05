@@ -439,11 +439,24 @@ def parse_ny():
         return json.load(f)
 
 
+def parse_nd():
+    """North Dakota - GeoJSON from NDDOT (fetchers/api_states.fetch_nd)."""
+    with open(os.path.join(DATA_DIR, "nd.json")) as f:
+        return json.load(f)
+
+
+def parse_ar():
+    """Arkansas - GeoJSON from ARDOT (fetchers/api_states.fetch_ar), image-only."""
+    with open(os.path.join(DATA_DIR, "ar.json")) as f:
+        return json.load(f)
+
+
 # State registry: (state_id, parser_function)
 # Order here determines the state index in the DB
 STATES = [
     ("ak", parse_ak),
     ("al", parse_al),
+    ("ar", parse_ar),
     ("ca", parse_ca),
     ("ct", parse_ct),
     ("de", parse_de),
@@ -453,6 +466,7 @@ STATES = [
     ("la", parse_la),
     ("md", parse_md),
     ("nc", parse_nc),
+    ("nd", parse_nd),
     ("ne", parse_ne),
     ("nj", parse_nj),
     ("nv", parse_nv),

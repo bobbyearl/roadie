@@ -28,6 +28,7 @@ DATA_DIR = SCRIPT_DIR / "data-sources"
 STATE_SOURCES = {
     "ak": {"type": "511", "fetcher": "platform_511"},
     "al": {"type": "api", "fetcher": "api_states", "func": "fetch_al"},
+    "ar": {"type": "api", "fetcher": "api_states", "func": "fetch_ar"},
     "ca": {"type": "api", "fetcher": "api_states", "func": "fetch_ca"},
     "ct": {"type": "local", "note": "No known public API - captured from ctroads.org browser session"},
     "de": {"type": "local", "note": "No known public API - captured from deldot.gov browser session"},
@@ -37,6 +38,7 @@ STATE_SOURCES = {
     "la": {"type": "511", "fetcher": "platform_511"},
     "md": {"type": "local", "note": "No known public API - captured from chart.maryland.gov"},
     "nc": {"type": "local", "note": "No known public API - captured from drivenc.gov browser session"},
+    "nd": {"type": "api", "fetcher": "api_states", "func": "fetch_nd"},
     "ne": {"type": "511", "fetcher": "platform_511"},
     "nj": {"type": "local", "note": "511nj.org returns 403 - bot protection added"},
     "nv": {"type": "511", "fetcher": "platform_511"},
