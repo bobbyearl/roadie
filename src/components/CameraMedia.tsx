@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { type Camera } from '../lib/cameras';
+import { type Camera, reportCameraUrl } from '../lib/cameras';
 import { useTraffic } from '../lib/TrafficContext';
 import { useVideoPlayer } from '../lib/useVideoPlayer';
 
@@ -50,7 +50,10 @@ export function CameraMedia({ camera, refreshInterval = 0, onFullscreenRef, onMe
       {error ? (
         <div className="feed-error">
           <p className="feed-error-text">Feed unavailable</p>
-          <button className="feed-error-retry" onClick={retry}>Retry</button>
+          <div className="feed-error-actions">
+            <button className="feed-error-retry" onClick={retry}>Retry</button>
+            <a className="feed-error-report" href={reportCameraUrl(camera)} target="_blank" rel="noopener">Report</a>
+          </div>
         </div>
       ) : effectiveMode === 'video' ? (
         <>

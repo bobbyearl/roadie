@@ -1,10 +1,10 @@
 import './CameraCard.css';
 
 import { autoUpdate, offset, useClick, useDismiss, useFloating, useInteractions } from '@floating-ui/react';
-import { Camera as CameraIcon, Download, Focus, Info, Maximize, MoreVertical, Video, X } from 'lucide-react';
+import { Camera as CameraIcon, Download, Flag, Focus, Info, Maximize, MoreVertical, Video, X } from 'lucide-react';
 import { type ReactNode, useState } from 'react';
 
-import { type Camera } from '../lib/cameras';
+import { type Camera, reportCameraUrl } from '../lib/cameras';
 
 interface CameraCardProps {
   camera: Camera;
@@ -64,6 +64,9 @@ export function CameraCard({ camera, onRemove, onDetail, onFullscreen, onSnapsho
               <Maximize size={12} /> Fullscreen
             </button>
           )}
+          <a className="card-menu-item" href={reportCameraUrl(camera)} target="_blank" rel="noopener" onClick={() => setMenuOpen(false)}>
+            <Flag size={12} /> Report Issue
+          </a>
         </div>
       )}
       <div className="card-media">
