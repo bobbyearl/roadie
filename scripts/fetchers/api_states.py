@@ -4,6 +4,7 @@ These states expose camera data via public HTTP endpoints that work with plain c
 """
 
 import httpx
+import json
 
 
 async def _get_json(url: str, timeout: int = 30) -> dict | list:
@@ -325,3 +326,150 @@ async def fetch_ar() -> list[dict]:
             "video_url": "",
         })
     return cameras
+
+
+# --- Washington ---
+# WSDOT public JSON. ArcGIS-style {fields, features:[{attributes, geometry}]}.
+# The payload is latin-1 encoded and geometry is Web Mercator (EPSG:3857),
+# so we decode as latin-1 and unproject x/y to lat/lng. Each feature carries a
+# direct still-image URL (ImageURL); image-only.
+import math
+
+WA_URL = "https://data.wsdot.wa.gov/travelcenter/Cameras.json"
+
+
+def _webmercator_to_lonlat(x: float, y: float) -> tuple[float, float]:
+    lng = (x / 20037508.34) * 180.0
+    lat = (y / 20037508.34) * 180.0
+    lat = 180.0 / math.pi * (2.0 * math.atan(math.exp(lat * math.pi / 180.0)) - math.pi / 2.0)
+    return lat, lng
+
+
+async def fetch_wa() -> list[dict]:
+    async with httpx.AsyncClient(timeout=40, follow_redirects=True) as client:
+        resp = await client.get(WA_URL)
+        resp.raise_for_status()
+        data = json.loads(resp.content.decode("latin-1"))
+    features = data.get("features", []) if isinstance(data, dict) else data
+    cameras = []
+    for feat in features:
+        props = feat.get("attributes", {})
+        geom = feat.get("geometry", {})
+        x, y = geom.get("x"), geom.get("y")
+        img = props.get("ImageURL", "")
+        cam_id = props.get("CameraID")
+        if x is None or y is None or not img or cam_id is None:
+            continue
+        lat, lng = _webmercator_to_lonlat(x, y)
+        if not lat or not lng:
+            continue
+        cameras.append({
+            "id": str(cam_id),
+            "name": (props.get("CameraTitle") or "").strip(),
+            "route": "",
+            "jurisdiction": props.get("CompassDirection", ""),
+            "lat": lat,
+            "lng": lng,
+            "image_url": img,
+            "video_url": "",
+        })
+    return cameras
+
+
+# --- CARS / OneNetwork 511 platform (Iowa, Minnesota, Kansas) ---
+# These states share one GraphQL SPA at https://<host>/api/graphql. The map's
+# MapFeatures op returns the full camera inventory in a single GET with a
+# statewide bbox + zoom>=12 (which defeats server-side clustering). Each camera
+# carries views[] with a still-image url (present even on VIDEO-category cams);
+# we take the first view with a non-null url, so all cameras are image-only.
+# NOTE: the app's query declares an unused $plowType var that makes the server
+# 400 with "Server error" - it is deliberately omitted here.
+_CARS_QUERY = (
+    "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) "
+    "{ mapFeatures { uri title bbox __typename features { id geometry properties type } "
+    "... on Cluster { maxZoom } ... on Camera { active views(limit: 5) "
+    "{ uri category ... on CameraView { url } } } } error { message type } } }"
+)
+
+# Statewide bounding boxes (a little padding; bbox only needs to cover the state,
+# it does not clip or cap the result).
+_CARS_STATES = {
+    "ia": {"host": "511ia.org", "bbox": {"north": 43.7, "south": 40.2, "east": -89.9, "west": -96.8}},
+    "mn": {"host": "511mn.org", "bbox": {"north": 49.5, "south": 43.4, "east": -89.4, "west": -97.3}},
+    "ks": {"host": "www.kandrive.gov", "bbox": {"north": 40.1, "south": 36.9, "east": -94.5, "west": -102.1}},
+}
+
+import re
+
+
+def _cars_route_direction(title: str) -> tuple[str, str]:
+    """Best-effort route (substring before first ':') and direction (NB/SB/EB/WB)."""
+    route = title.split(":", 1)[0].strip() if ":" in title else ""
+    m = re.search(r"\b([NSEW]B)\b", title)
+    direction = m.group(1) if m else ""
+    return route, direction
+
+
+async def _fetch_cars(state: str) -> list[dict]:
+    cfg = _CARS_STATES[state]
+    variables = json.dumps({"input": {**cfg["bbox"], "zoom": 12, "layerSlugs": ["normalCameras"]}})
+    params = {"query": _CARS_QUERY, "variables": variables}
+    async with httpx.AsyncClient(timeout=40, follow_redirects=True) as client:
+        resp = await client.get(
+            f"https://{cfg['host']}/api/graphql",
+            params=params,
+            headers={"language": "en", "User-Agent": "Mozilla/5.0"},
+        )
+        resp.raise_for_status()
+        data = resp.json()
+    features = (data.get("data", {}) or {}).get("mapFeaturesQuery", {}) or {}
+    mapfeatures = features.get("mapFeatures", []) or []
+    cameras = []
+    for feat in mapfeatures:
+        if feat.get("__typename") != "Camera":
+            continue
+        title = (feat.get("title") or "").strip()
+        # first view with a usable still url
+        image_url = ""
+        for v in feat.get("views", []) or []:
+            if v.get("url"):
+                image_url = v["url"]
+                break
+        if not image_url:
+            continue
+        geo = (feat.get("features") or [{}])[0].get("geometry", {}) or {}
+        coords = geo.get("coordinates") or []
+        bbox = feat.get("bbox") or []
+        if len(coords) >= 2:
+            lng, lat = coords[0], coords[1]
+        elif len(bbox) >= 2:
+            lng, lat = bbox[0], bbox[1]
+        else:
+            continue
+        if not lat or not lng:
+            continue
+        route, direction = _cars_route_direction(title)
+        cam_id = (feat.get("uri") or "").replace("camera/", "")
+        cameras.append({
+            "id": cam_id,
+            "name": title,
+            "route": route,
+            "jurisdiction": direction,
+            "lat": lat,
+            "lng": lng,
+            "image_url": image_url,
+            "video_url": "",
+        })
+    return cameras
+
+
+async def fetch_ia() -> list[dict]:
+    return await _fetch_cars("ia")
+
+
+async def fetch_mn() -> list[dict]:
+    return await _fetch_cars("mn")
+
+
+async def fetch_ks() -> list[dict]:
+    return await _fetch_cars("ks")

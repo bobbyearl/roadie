@@ -34,9 +34,12 @@ STATE_SOURCES = {
     "de": {"type": "local", "note": "No known public API - captured from deldot.gov browser session"},
     "fl": {"type": "api", "fetcher": "api_states", "func": "fetch_fl"},
     "ga": {"type": "local", "note": "511ga.org API returns 400 - needs investigation"},
+    "ia": {"type": "api", "fetcher": "api_states", "func": "fetch_ia"},
     "id": {"type": "511", "fetcher": "platform_511"},
+    "ks": {"type": "api", "fetcher": "api_states", "func": "fetch_ks"},
     "la": {"type": "511", "fetcher": "platform_511"},
     "md": {"type": "local", "note": "No known public API - captured from chart.maryland.gov"},
+    "mn": {"type": "api", "fetcher": "api_states", "func": "fetch_mn"},
     "nc": {"type": "local", "note": "No known public API - captured from drivenc.gov browser session"},
     "nd": {"type": "api", "fetcher": "api_states", "func": "fetch_nd"},
     "ne": {"type": "511", "fetcher": "platform_511"},
@@ -48,6 +51,7 @@ STATE_SOURCES = {
     "tn": {"type": "local", "note": "smartway.tn.gov switched to SPA - API endpoint gone"},
     "ut": {"type": "local", "note": "No known public API - captured from udottraffic.utah.gov"},
     "va": {"type": "local", "note": "va.cdn.iteris-atis.com DNS changed - needs new domain"},
+    "wa": {"type": "api", "fetcher": "api_states", "func": "fetch_wa"},
     "wi": {"type": "511", "fetcher": "platform_511"},
 }
 

@@ -1,9 +1,18 @@
 @reference "../styles.css";
 
 .site-footer {
-  @apply flex items-center justify-between border-t border-border text-muted-foreground shrink-0;
+  @apply border-t border-border text-muted-foreground shrink-0;
+}
+.site-footer-inner {
+  @apply flex items-center justify-between;
   padding: var(--rd-space-sm) var(--rd-space-lg);
   font-size: var(--rd-text-xs);
+}
+/* Landing only: cap the footer CONTENT to the page's content width while the
+   bar + top border still span edge-to-edge (matching the attribution divider
+   and hero above). View pages leave the content full-width under the map. */
+.site-footer-contained .site-footer-inner {
+  @apply max-w-4xl mx-auto;
 }
 .site-footer-left {
   @apply flex items-center;
@@ -21,7 +30,7 @@
 }
 
 @media (width < theme(--breakpoint-md)) {
-  .site-footer {
+  .site-footer-inner {
     gap: var(--rd-space-sm);
     padding: var(--rd-space-sm) var(--rd-space-sm);
   }
