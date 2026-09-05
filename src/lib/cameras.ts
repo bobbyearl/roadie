@@ -158,6 +158,14 @@ export const STATES: StateConfig[] = [
     cameraCount: 1112,
   },
   {
+    id: 'nd',
+    name: 'North Dakota',
+    defaultCenter: { lat: 47.5, lng: -100.5 },
+    defaultZoom: 7,
+    supportsVideo: false,
+    cameraCount: 809,
+  },
+  {
     id: 'ne',
     name: 'New England (ME/VT)',
     defaultCenter: { lat: 44.5, lng: -69.5 },

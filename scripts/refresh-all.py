@@ -37,6 +37,7 @@ STATE_SOURCES = {
     "la": {"type": "511", "fetcher": "platform_511"},
     "md": {"type": "local", "note": "No known public API - captured from chart.maryland.gov"},
     "nc": {"type": "local", "note": "No known public API - captured from drivenc.gov browser session"},
+    "nd": {"type": "api", "fetcher": "api_states", "func": "fetch_nd"},
     "ne": {"type": "511", "fetcher": "platform_511"},
     "nj": {"type": "local", "note": "511nj.org returns 403 - bot protection added"},
     "nv": {"type": "511", "fetcher": "platform_511"},

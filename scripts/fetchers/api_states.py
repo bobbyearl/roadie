@@ -255,3 +255,38 @@ async def fetch_nj() -> list[dict]:
             "video_url": video_url,
         })
     return cameras
+
+
+# --- North Dakota ---
+# Public GeoJSON from NDDOT. Each feature is a SITE holding a Cameras[] array of
+# individual views (each a .jpg via LinkPath). Explode each view into its own
+# camera so multi-angle sites show every view; id is <ObjectID>-<index>.
+ND_URL = "https://travelfiles.dot.nd.gov/geojson_nc/cameras.json"
+
+async def fetch_nd() -> list[dict]:
+    data = await _get_json(ND_URL)
+    cameras = []
+    for feat in data["features"]:
+        props = feat["properties"]
+        coords = feat["geometry"]["coordinates"]
+        lat, lng = coords[1], coords[0]
+        if not lat or not lng:
+            continue
+        object_id = props.get("ObjectID")
+        region = props.get("Region", "")
+        views = props.get("Cameras", []) or []
+        for i, view in enumerate(views):
+            img = view.get("LinkPath") or view.get("FullPath") or ""
+            if not img:
+                continue
+            cameras.append({
+                "id": f"{object_id}-{i}",
+                "name": (view.get("Description") or "").strip(),
+                "route": "",
+                "jurisdiction": region,
+                "lat": lat,
+                "lng": lng,
+                "image_url": img,
+                "video_url": "",
+            })
+    return cameras
