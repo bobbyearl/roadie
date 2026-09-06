@@ -2901,22 +2901,22 @@
   },
   {
     "id": "556",
-    "name": "Camera 556",
+    "name": "US-20 Chinden &amp; Five Mile Rd",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6606,
     "lng": -116.317,
-    "image_url": "https://511.idaho.gov/map/Cctv/556",
+    "image_url": "https://511.idaho.gov/map/Cctv/753",
     "video_url": ""
   },
   {
     "id": "557",
-    "name": "Camera 557",
+    "name": "US-20 Chinden &amp; Maple Grove Rd",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6561,
     "lng": -116.299,
-    "image_url": "https://511.idaho.gov/map/Cctv/557",
+    "image_url": "https://511.idaho.gov/map/Cctv/754",
     "video_url": ""
   },
   {
@@ -2941,72 +2941,72 @@
   },
   {
     "id": "560",
-    "name": "Camera 560",
+    "name": "SH-55 Eagle &amp; Riverside Rivershore",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6878,
     "lng": -116.35379,
-    "image_url": "https://511.idaho.gov/map/Cctv/560",
+    "image_url": "https://511.idaho.gov/map/Cctv/757",
     "video_url": ""
   },
   {
     "id": "561",
-    "name": "SH-44 &amp; Edgewood Ln",
+    "name": "Camera 561",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6879,
     "lng": -116.334,
-    "image_url": "https://511.idaho.gov/map/Cctv/758",
+    "image_url": "https://511.idaho.gov/map/Cctv/561",
     "video_url": ""
   },
   {
     "id": "562",
-    "name": "SH-44 State &amp; Horseshoe Bend Rd",
+    "name": "Camera 562",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6826,
     "lng": -116.314,
-    "image_url": "https://511.idaho.gov/map/Cctv/759",
+    "image_url": "https://511.idaho.gov/map/Cctv/562",
     "video_url": ""
   },
   {
     "id": "563",
-    "name": "Franklin &amp; TenMile",
+    "name": "Camera 563",
     "route": "",
     "jurisdiction": "",
     "lat": 43.60458,
     "lng": -116.433495,
-    "image_url": "https://511.idaho.gov/map/Cctv/760",
+    "image_url": "https://511.idaho.gov/map/Cctv/563",
     "video_url": ""
   },
   {
     "id": "564",
-    "name": "Franklin &amp; Linder",
+    "name": "Camera 564",
     "route": "",
     "jurisdiction": "",
     "lat": 43.604553,
     "lng": -116.41344,
-    "image_url": "https://511.idaho.gov/map/Cctv/761",
+    "image_url": "https://511.idaho.gov/map/Cctv/564",
     "video_url": ""
   },
   {
     "id": "565",
-    "name": "Camera 565",
+    "name": "University &amp; Joyce",
     "route": "",
     "jurisdiction": "",
     "lat": 43.602757,
     "lng": -116.20448,
-    "image_url": "https://511.idaho.gov/map/Cctv/565",
+    "image_url": "https://511.idaho.gov/map/Cctv/762",
     "video_url": ""
   },
   {
     "id": "566",
-    "name": "Fairview &amp; Records",
+    "name": "Camera 566",
     "route": "",
     "jurisdiction": "",
     "lat": 43.61934,
     "lng": -116.34668,
-    "image_url": "https://511.idaho.gov/map/Cctv/763",
+    "image_url": "https://511.idaho.gov/map/Cctv/566",
     "video_url": ""
   },
   {
@@ -3021,12 +3021,12 @@
   },
   {
     "id": "568",
-    "name": "Camera 568",
+    "name": "FederalWay &amp; Amity",
     "route": "",
     "jurisdiction": "",
     "lat": 43.560158,
     "lng": -116.16816,
-    "image_url": "https://511.idaho.gov/map/Cctv/568",
+    "image_url": "https://511.idaho.gov/map/Cctv/765",
     "video_url": ""
   },
   {
@@ -3061,22 +3061,22 @@
   },
   {
     "id": "572",
-    "name": "Camera 572",
+    "name": "SH-44 Glenwood &amp; Marigold",
     "route": "",
     "jurisdiction": "",
     "lat": 43.66352,
     "lng": -116.279465,
-    "image_url": "https://511.idaho.gov/map/Cctv/572",
+    "image_url": "https://511.idaho.gov/map/Cctv/769",
     "video_url": ""
   },
   {
     "id": "573",
-    "name": "SH-44 Glenwood &amp; Riverside",
+    "name": "Camera 573",
     "route": "",
     "jurisdiction": "",
     "lat": 43.65938,
     "lng": -116.279594,
-    "image_url": "https://511.idaho.gov/map/Cctv/770",
+    "image_url": "https://511.idaho.gov/map/Cctv/573",
     "video_url": ""
   },
   {

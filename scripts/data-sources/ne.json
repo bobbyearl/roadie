@@ -2060,16 +2060,6 @@
     "video_url": ""
   },
   {
-    "id": "769",
-    "name": "95 SN, MM 10.0",
-    "route": "",
-    "jurisdiction": "",
-    "lat": 43.020007,
-    "lng": -70.831325,
-    "image_url": "https://newengland511.org/map/Cctv/1377",
-    "video_url": ""
-  },
-  {
     "id": "770",
     "name": "95 SS, MM 1.0",
     "route": "",
@@ -2117,16 +2107,6 @@
     "lat": 43.061551,
     "lng": -70.797915,
     "image_url": "https://newengland511.org/map/Cctv/1382",
-    "video_url": ""
-  },
-  {
-    "id": "775",
-    "name": "95 SS, MM 10.0",
-    "route": "",
-    "jurisdiction": "",
-    "lat": 43.019929,
-    "lng": -70.830166,
-    "image_url": "https://newengland511.org/map/Cctv/1383",
     "video_url": ""
   },
   {
@@ -2961,12 +2941,12 @@
   },
   {
     "id": "1513",
-    "name": "Camera 1513",
+    "name": "I-295 Mile 49 SB (Richmond)",
     "route": "",
     "jurisdiction": "",
     "lat": 44.16323,
     "lng": -69.83538,
-    "image_url": "https://newengland511.org/map/Cctv/1513",
+    "image_url": "https://newengland511.org/map/Cctv/2121",
     "video_url": ""
   },
   {
@@ -3051,12 +3031,12 @@
   },
   {
     "id": "1524",
-    "name": "Camera 1524",
+    "name": "I-295 Mile 31 SB (Topsham)",
     "route": "",
     "jurisdiction": "",
     "lat": 43.92928,
     "lng": -69.99779,
-    "image_url": "https://newengland511.org/map/Cctv/1524",
+    "image_url": "https://newengland511.org/map/Cctv/2132",
     "video_url": ""
   },
   {

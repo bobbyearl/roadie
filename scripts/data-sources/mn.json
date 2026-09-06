@@ -156,7 +156,7 @@
     "jurisdiction": "",
     "lat": 43.5084,
     "lng": -92.36933,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30337-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30337-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -186,7 +186,7 @@
     "jurisdiction": "EB",
     "lat": 44.5676,
     "lng": -92.58382,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30803?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30803?1788688740000",
     "video_url": ""
   },
   {
@@ -336,7 +336,7 @@
     "jurisdiction": "WB",
     "lat": 45.05825,
     "lng": -93.58896,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30532?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30532?1788688740000",
     "video_url": ""
   },
   {
@@ -356,7 +356,7 @@
     "jurisdiction": "",
     "lat": 44.91258,
     "lng": -93.14414,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9001?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9001?1788688740000",
     "video_url": ""
   },
   {
@@ -386,7 +386,7 @@
     "jurisdiction": "",
     "lat": 48.29425,
     "lng": -92.97005,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30427-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30427-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -406,7 +406,7 @@
     "jurisdiction": "WB",
     "lat": 45.66497,
     "lng": -94.77211,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9027?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9027?1788688740000",
     "video_url": ""
   },
   {
@@ -426,7 +426,7 @@
     "jurisdiction": "",
     "lat": 47.23592,
     "lng": -93.51878,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30263?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30263?1788688740000",
     "video_url": ""
   },
   {
@@ -436,7 +436,7 @@
     "jurisdiction": "EB",
     "lat": 44.02556,
     "lng": -92.81902,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30506?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30506?1788688740000",
     "video_url": ""
   },
   {
@@ -456,7 +456,7 @@
     "jurisdiction": "",
     "lat": 44.75026,
     "lng": -93.12468,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30543?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30543?1788688740000",
     "video_url": ""
   },
   {
@@ -476,7 +476,7 @@
     "jurisdiction": "",
     "lat": 47.23592,
     "lng": -93.52814,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30262?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30262?1788688740000",
     "video_url": ""
   },
   {
@@ -516,7 +516,7 @@
     "jurisdiction": "",
     "lat": 47.60356,
     "lng": -94.12654,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30361-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30361-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -526,7 +526,7 @@
     "jurisdiction": "",
     "lat": 43.50833,
     "lng": -93.35447,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30298-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30298-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -556,7 +556,7 @@
     "jurisdiction": "",
     "lat": 46.20767,
     "lng": -96.01872,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30369-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30369-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -616,7 +616,7 @@
     "jurisdiction": "",
     "lat": 44.69156,
     "lng": -95.61388,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30330-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30330-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -726,7 +726,7 @@
     "jurisdiction": "EB",
     "lat": 46.23205,
     "lng": -96.0493,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9438?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9438?1788688740000",
     "video_url": ""
   },
   {
@@ -816,7 +816,7 @@
     "jurisdiction": "SB",
     "lat": 46.79579,
     "lng": -92.08584,
-    "image_url": "/images/icon-camera-closed-fill-solid-padded.svg",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C35-191",
     "video_url": ""
   },
   {
@@ -906,7 +906,7 @@
     "jurisdiction": "",
     "lat": 46.64423,
     "lng": -93.07981,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30430-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30430-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -926,7 +926,7 @@
     "jurisdiction": "EB",
     "lat": 45.60475,
     "lng": -94.48341,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30030?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30030?1788688740000",
     "video_url": ""
   },
   {
@@ -946,7 +946,7 @@
     "jurisdiction": "",
     "lat": 45.39488,
     "lng": -94.02546,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30314?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30314?1788688740000",
     "video_url": ""
   },
   {
@@ -1116,7 +1116,7 @@
     "jurisdiction": "",
     "lat": 45.80338,
     "lng": -96.2337,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30370-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30370-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1196,7 +1196,7 @@
     "jurisdiction": "",
     "lat": 43.71924,
     "lng": -91.43664,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30360-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30360-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1226,7 +1226,7 @@
     "jurisdiction": "",
     "lat": 47.88034,
     "lng": -96.91738,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30420-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30420-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1306,7 +1306,7 @@
     "jurisdiction": "",
     "lat": 46.68826,
     "lng": -93.95413,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30317-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30317-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1426,7 +1426,7 @@
     "jurisdiction": "",
     "lat": 45.5581,
     "lng": -96.49387,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30356-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30356-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1496,7 +1496,7 @@
     "jurisdiction": "",
     "lat": 47.57137,
     "lng": -96.53245,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30396-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30396-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1516,7 +1516,7 @@
     "jurisdiction": "",
     "lat": 46.79474,
     "lng": -92.15651,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30366-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30366-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1546,7 +1546,7 @@
     "jurisdiction": "",
     "lat": 45.64289,
     "lng": -92.99218,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30301-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30301-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1596,7 +1596,7 @@
     "jurisdiction": "",
     "lat": 44.28477,
     "lng": -91.98901,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30441-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30441-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1646,7 +1646,7 @@
     "jurisdiction": "",
     "lat": 44.41366,
     "lng": -92.86379,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30362-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30362-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1796,7 +1796,7 @@
     "jurisdiction": "",
     "lat": 46.41289,
     "lng": -95.0547,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30423-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30423-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -1876,7 +1876,7 @@
     "jurisdiction": "",
     "lat": 46.33954,
     "lng": -93.26189,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30383-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30383-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -2036,7 +2036,7 @@
     "jurisdiction": "",
     "lat": 43.68095,
     "lng": -94.61519,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30340-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30340-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -2056,7 +2056,7 @@
     "jurisdiction": "EB",
     "lat": 45.0654,
     "lng": -93.6362,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30533?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30533?1788688740000",
     "video_url": ""
   },
   {
@@ -2126,7 +2126,7 @@
     "jurisdiction": "",
     "lat": 44.24047,
     "lng": -96.0463,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30352-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30352-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -2156,7 +2156,7 @@
     "jurisdiction": "SB",
     "lat": 47.45123,
     "lng": -92.88953,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30268?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30268?1788688740000",
     "video_url": ""
   },
   {
@@ -2186,7 +2186,7 @@
     "jurisdiction": "EB",
     "lat": 43.63762,
     "lng": -96.09327,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30339-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30339-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -2216,7 +2216,7 @@
     "jurisdiction": "",
     "lat": 47.52285,
     "lng": -95.16261,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30438-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30438-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -2286,7 +2286,7 @@
     "jurisdiction": "EB",
     "lat": 44.99365,
     "lng": -93.6206,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30242?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30242?1788688740000",
     "video_url": ""
   },
   {
@@ -2416,7 +2416,7 @@
     "jurisdiction": "EB",
     "lat": 45.8723,
     "lng": -95.46095,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9466?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9466?1788688740000",
     "video_url": ""
   },
   {
@@ -2476,7 +2476,7 @@
     "jurisdiction": "",
     "lat": 47.18802,
     "lng": -95.13178,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30402-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30402-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -2526,7 +2526,7 @@
     "jurisdiction": "WB",
     "lat": 45.40159,
     "lng": -92.65209,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30538?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30538?1788688740000",
     "video_url": ""
   },
   {
@@ -2646,7 +2646,7 @@
     "jurisdiction": "EB",
     "lat": 43.60844,
     "lng": -96.37798,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30303-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30303-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -2686,7 +2686,7 @@
     "jurisdiction": "EB",
     "lat": 44.86189,
     "lng": -93.29628,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9004?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9004?1788688740000",
     "video_url": ""
   },
   {
@@ -2706,7 +2706,7 @@
     "jurisdiction": "",
     "lat": 46.84711,
     "lng": -96.66805,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30310-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30310-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -2716,7 +2716,7 @@
     "jurisdiction": "",
     "lat": 47.58525,
     "lng": -93.67513,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30429-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30429-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -2726,7 +2726,7 @@
     "jurisdiction": "WB",
     "lat": 45.03579,
     "lng": -93.7451,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30160?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30160?1788688740000",
     "video_url": ""
   },
   {
@@ -2786,7 +2786,7 @@
     "jurisdiction": "",
     "lat": 44.47874,
     "lng": -93.29184,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30198-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30198-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -2896,7 +2896,7 @@
     "jurisdiction": "",
     "lat": 47.76911,
     "lng": -96.00079,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30440-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30440-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -3006,7 +3006,7 @@
     "jurisdiction": "",
     "lat": 43.91848,
     "lng": -94.99954,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30342-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30342-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -3016,7 +3016,7 @@
     "jurisdiction": "",
     "lat": 45.99855,
     "lng": -95.72981,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30372-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30372-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -3076,7 +3076,7 @@
     "jurisdiction": "NB",
     "lat": 44.2946,
     "lng": -93.28999,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30659?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30659?1788688740000",
     "video_url": ""
   },
   {
@@ -3186,7 +3186,7 @@
     "jurisdiction": "",
     "lat": 44.93566,
     "lng": -95.96168,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30345-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30345-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -3196,7 +3196,7 @@
     "jurisdiction": "SB",
     "lat": 46.79753,
     "lng": -92.08196,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C35-195?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C35-195?1788688740000",
     "video_url": ""
   },
   {
@@ -3396,7 +3396,7 @@
     "jurisdiction": "EB",
     "lat": 44.27816,
     "lng": -94.37343,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30254?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30254?1788688740000",
     "video_url": ""
   },
   {
@@ -3436,7 +3436,7 @@
     "jurisdiction": "",
     "lat": 46.11405,
     "lng": -94.9167,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30403-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30403-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -3476,7 +3476,7 @@
     "jurisdiction": "EB",
     "lat": 45.35098,
     "lng": -93.90643,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30033?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30033?1788688740000",
     "video_url": ""
   },
   {
@@ -3526,7 +3526,7 @@
     "jurisdiction": "WB",
     "lat": 45.44705,
     "lng": -93.99711,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C1642?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C1642?1788688740000",
     "video_url": ""
   },
   {
@@ -3566,7 +3566,7 @@
     "jurisdiction": "",
     "lat": 46.92063,
     "lng": -95.26888,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30377-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30377-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -3636,7 +3636,7 @@
     "jurisdiction": "EB",
     "lat": 45.60455,
     "lng": -94.48283,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30031?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30031?1788688740000",
     "video_url": ""
   },
   {
@@ -3646,7 +3646,7 @@
     "jurisdiction": "EB",
     "lat": 44.00715,
     "lng": -92.44846,
-    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C031?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C031?1788688740000",
     "video_url": ""
   },
   {
@@ -3706,7 +3706,7 @@
     "jurisdiction": "WB",
     "lat": 44.02331,
     "lng": -92.84108,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30505?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30505?1788688740000",
     "video_url": ""
   },
   {
@@ -3766,7 +3766,7 @@
     "jurisdiction": "EB",
     "lat": 45.18181,
     "lng": -93.87586,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30017?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30017?1788688740000",
     "video_url": ""
   },
   {
@@ -3806,7 +3806,7 @@
     "jurisdiction": "WB",
     "lat": 45.01117,
     "lng": -93.67565,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30163?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30163?1788688740000",
     "video_url": ""
   },
   {
@@ -3826,7 +3826,7 @@
     "jurisdiction": "",
     "lat": 46.92408,
     "lng": -92.41255,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30463-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30463-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -3876,7 +3876,7 @@
     "jurisdiction": "",
     "lat": 46.66921,
     "lng": -92.31819,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30466-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30466-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -3926,7 +3926,7 @@
     "jurisdiction": "NB",
     "lat": 44.83283,
     "lng": -92.96437,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30774?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30774?1788688740000",
     "video_url": ""
   },
   {
@@ -3936,7 +3936,7 @@
     "jurisdiction": "",
     "lat": 48.19507,
     "lng": -96.89114,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30439-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30439-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -3996,7 +3996,7 @@
     "jurisdiction": "WB",
     "lat": 44.90188,
     "lng": -93.74776,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30534?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30534?1788688740000",
     "video_url": ""
   },
   {
@@ -4006,7 +4006,7 @@
     "jurisdiction": "SB",
     "lat": 44.77009,
     "lng": -93.28844,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30699?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30699?1788688740000",
     "video_url": ""
   },
   {
@@ -4046,7 +4046,7 @@
     "jurisdiction": "EB",
     "lat": 47.02601,
     "lng": -91.66544,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30102?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30102?1788688740000",
     "video_url": ""
   },
   {
@@ -4096,7 +4096,7 @@
     "jurisdiction": "",
     "lat": 46.14423,
     "lng": -94.10384,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30332-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30332-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -4146,7 +4146,7 @@
     "jurisdiction": "",
     "lat": 44.3655,
     "lng": -93.96324,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30446-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30446-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -4176,7 +4176,7 @@
     "jurisdiction": "EB",
     "lat": 44.77709,
     "lng": -93.64231,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30258?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30258?1788688740000",
     "video_url": ""
   },
   {
@@ -4196,7 +4196,7 @@
     "jurisdiction": "EB",
     "lat": 44.83897,
     "lng": -93.79822,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30536?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30536?1788688740000",
     "video_url": ""
   },
   {
@@ -4266,7 +4266,7 @@
     "jurisdiction": "WB",
     "lat": 45.0075,
     "lng": -93.10572,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30562?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30562?1788688740000",
     "video_url": ""
   },
   {
@@ -4306,7 +4306,7 @@
     "jurisdiction": "",
     "lat": 46.87698,
     "lng": -96.11138,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30422-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30422-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -4356,7 +4356,7 @@
     "jurisdiction": "",
     "lat": 48.61425,
     "lng": -94.56069,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30398-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30398-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -4446,7 +4446,7 @@
     "jurisdiction": "",
     "lat": 48.81935,
     "lng": -95.96087,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30322-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30322-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -4466,7 +4466,7 @@
     "jurisdiction": "",
     "lat": 45.55345,
     "lng": -93.58469,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30408-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30408-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -4476,7 +4476,7 @@
     "jurisdiction": "EB",
     "lat": 45.1117,
     "lng": -93.47193,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30036?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30036?1788688740000",
     "video_url": ""
   },
   {
@@ -4546,7 +4546,7 @@
     "jurisdiction": "",
     "lat": 43.90241,
     "lng": -92.48248,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30442-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30442-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -4596,7 +4596,7 @@
     "jurisdiction": "EB",
     "lat": 43.65816,
     "lng": -93.72762,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30341-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30341-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -4786,7 +4786,7 @@
     "jurisdiction": "",
     "lat": 44.97208,
     "lng": -93.29522,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C3908?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C3908?1788688740000",
     "video_url": ""
   },
   {
@@ -4826,7 +4826,7 @@
     "jurisdiction": "",
     "lat": 44.15396,
     "lng": -94.03383,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30445-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30445-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -4866,7 +4866,7 @@
     "jurisdiction": "SB",
     "lat": 45.3881,
     "lng": -93.36771,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30144?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30144?1788688740000",
     "video_url": ""
   },
   {
@@ -4926,7 +4926,7 @@
     "jurisdiction": "",
     "lat": 44.26551,
     "lng": -96.30049,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30325-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30325-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -4936,7 +4936,7 @@
     "jurisdiction": "EB",
     "lat": 43.85785,
     "lng": -91.30343,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30338-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30338-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -5006,7 +5006,7 @@
     "jurisdiction": "",
     "lat": 47.2958,
     "lng": -96.73165,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30391-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30391-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -5026,7 +5026,7 @@
     "jurisdiction": "",
     "lat": 44.23941,
     "lng": -92.6504,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30334-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30334-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -5166,7 +5166,7 @@
     "jurisdiction": "NB",
     "lat": 43.86648,
     "lng": -91.31247,
-    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C338?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C338?1788688740000",
     "video_url": ""
   },
   {
@@ -5196,7 +5196,7 @@
     "jurisdiction": "",
     "lat": 46.87315,
     "lng": -92.86083,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30432-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30432-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -5236,7 +5236,7 @@
     "jurisdiction": "NB",
     "lat": 44.67422,
     "lng": -93.626,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30526?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30526?1788688740000",
     "video_url": ""
   },
   {
@@ -5306,7 +5306,7 @@
     "jurisdiction": "",
     "lat": 44.93597,
     "lng": -96.44175,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30392-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30392-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -5476,7 +5476,7 @@
     "jurisdiction": "",
     "lat": 44.78031,
     "lng": -93.27172,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30701?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30701?1788688740000",
     "video_url": ""
   },
   {
@@ -5526,7 +5526,7 @@
     "jurisdiction": "EB",
     "lat": 44.77219,
     "lng": -93.92938,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30225?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30225?1788688740000",
     "video_url": ""
   },
   {
@@ -5546,7 +5546,7 @@
     "jurisdiction": "NB",
     "lat": 45.13838,
     "lng": -92.99955,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30549?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30549?1788688740000",
     "video_url": ""
   },
   {
@@ -5566,7 +5566,7 @@
     "jurisdiction": "SB",
     "lat": 44.31119,
     "lng": -93.2918,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30660?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30660?1788688740000",
     "video_url": ""
   },
   {
@@ -5626,7 +5626,7 @@
     "jurisdiction": "",
     "lat": 44.08368,
     "lng": -95.12025,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30443-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30443-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -5676,7 +5676,7 @@
     "jurisdiction": "WB",
     "lat": 46.34335,
     "lng": -94.28668,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30655?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30655?1788688740000",
     "video_url": ""
   },
   {
@@ -5726,7 +5726,7 @@
     "jurisdiction": "",
     "lat": 47.44516,
     "lng": -92.88729,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30464-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30464-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -5746,7 +5746,7 @@
     "jurisdiction": "",
     "lat": 44.54473,
     "lng": -94.99556,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30328-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30328-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -5776,7 +5776,7 @@
     "jurisdiction": "SB",
     "lat": 44.98771,
     "lng": -92.77915,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9501?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9501?1788688740000",
     "video_url": ""
   },
   {
@@ -5786,7 +5786,7 @@
     "jurisdiction": "WB",
     "lat": 45.00944,
     "lng": -93.12639,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30560?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30560?1788688740000",
     "video_url": ""
   },
   {
@@ -5856,7 +5856,7 @@
     "jurisdiction": "NB",
     "lat": 44.71547,
     "lng": -93.58774,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30525?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30525?1788688740000",
     "video_url": ""
   },
   {
@@ -6006,7 +6006,7 @@
     "jurisdiction": "",
     "lat": 45.83753,
     "lng": -95.36628,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30312-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30312-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6046,7 +6046,7 @@
     "jurisdiction": "WB",
     "lat": 43.727,
     "lng": -92.68078,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30307-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30307-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6076,7 +6076,7 @@
     "jurisdiction": "",
     "lat": 47.75805,
     "lng": -90.31373,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30428-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30428-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6096,7 +6096,7 @@
     "jurisdiction": "WB",
     "lat": 43.95514,
     "lng": -92.20514,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30308-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30308-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6126,7 +6126,7 @@
     "jurisdiction": "",
     "lat": 48.60169,
     "lng": -93.37353,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30324-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30324-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6146,7 +6146,7 @@
     "jurisdiction": "",
     "lat": 45.60768,
     "lng": -94.03023,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30331-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30331-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6216,7 +6216,7 @@
     "jurisdiction": "",
     "lat": 48.17651,
     "lng": -96.20719,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30395-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30395-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6266,7 +6266,7 @@
     "jurisdiction": "WB",
     "lat": 44.97299,
     "lng": -93.29392,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C3909?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C3909?1788688740000",
     "video_url": ""
   },
   {
@@ -6426,7 +6426,7 @@
     "jurisdiction": "",
     "lat": 48.64688,
     "lng": -96.38056,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30394-v2?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30394-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6476,7 +6476,7 @@
     "jurisdiction": "EB",
     "lat": 44.02305,
     "lng": -92.71687,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30510?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30510?1788688740000",
     "video_url": ""
   },
   {
@@ -6536,7 +6536,7 @@
     "jurisdiction": "",
     "lat": 47.54453,
     "lng": -90.89598,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30436-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30436-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6606,7 +6606,7 @@
     "jurisdiction": "",
     "lat": 47.61226,
     "lng": -93.19414,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30437-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30437-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6666,7 +6666,7 @@
     "jurisdiction": "",
     "lat": 47.8745,
     "lng": -94.43242,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30315-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30315-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6716,7 +6716,7 @@
     "jurisdiction": "SB",
     "lat": 44.31441,
     "lng": -93.96521,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30556?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30556?1788688740000",
     "video_url": ""
   },
   {
@@ -6766,7 +6766,7 @@
     "jurisdiction": "NB",
     "lat": 43.85297,
     "lng": -91.30092,
-    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C341?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C341?1788688740000",
     "video_url": ""
   },
   {
@@ -6786,7 +6786,7 @@
     "jurisdiction": "WB",
     "lat": 44.88242,
     "lng": -93.64318,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30548?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30548?1788688740000",
     "video_url": ""
   },
   {
@@ -6846,7 +6846,7 @@
     "jurisdiction": "NB",
     "lat": 46.74932,
     "lng": -92.10077,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C535-159?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C535-159?1788688740000",
     "video_url": ""
   },
   {
@@ -6926,7 +6926,7 @@
     "jurisdiction": "",
     "lat": 44.05708,
     "lng": -95.59735,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30358-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30358-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -6966,7 +6966,7 @@
     "jurisdiction": "EB",
     "lat": 45.35079,
     "lng": -93.90532,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30035?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30035?1788688740000",
     "video_url": ""
   },
   {
@@ -6986,7 +6986,7 @@
     "jurisdiction": "",
     "lat": 47.67718,
     "lng": -91.61783,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30433-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30433-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -7066,7 +7066,7 @@
     "jurisdiction": "",
     "lat": 44.60089,
     "lng": -92.69782,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30367-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30367-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -7086,7 +7086,7 @@
     "jurisdiction": "WB",
     "lat": 47.39996,
     "lng": -92.95652,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30264?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30264?1788688740000",
     "video_url": ""
   },
   {
@@ -7186,7 +7186,7 @@
     "jurisdiction": "",
     "lat": 46.43482,
     "lng": -93.7434,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30368-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30368-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -7206,7 +7206,7 @@
     "jurisdiction": "NB",
     "lat": 46.63136,
     "lng": -94.32527,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30016?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30016?1788688740000",
     "video_url": ""
   },
   {
@@ -7226,7 +7226,7 @@
     "jurisdiction": "",
     "lat": 44.38222,
     "lng": -92.36991,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30335-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30335-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -7286,7 +7286,7 @@
     "jurisdiction": "",
     "lat": 47.77647,
     "lng": -95.00621,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30399-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30399-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -7356,7 +7356,7 @@
     "jurisdiction": "NB",
     "lat": 47.44129,
     "lng": -92.89312,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30267?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30267?1788688740000",
     "video_url": ""
   },
   {
@@ -7366,7 +7366,7 @@
     "jurisdiction": "",
     "lat": 45.48847,
     "lng": -95.56189,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30357-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30357-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -7376,7 +7376,7 @@
     "jurisdiction": "SB",
     "lat": 47.42434,
     "lng": -92.92359,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30266?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30266?1788688740000",
     "video_url": ""
   },
   {
@@ -7446,7 +7446,7 @@
     "jurisdiction": "WB",
     "lat": 45.99078,
     "lng": -95.71828,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9454?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9454?1788688740000",
     "video_url": ""
   },
   {
@@ -7466,7 +7466,7 @@
     "jurisdiction": "WB",
     "lat": 44.77711,
     "lng": -93.64206,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30257?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30257?1788688740000",
     "video_url": ""
   },
   {
@@ -7516,7 +7516,7 @@
     "jurisdiction": "WB",
     "lat": 44.8461,
     "lng": -93.77183,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30535?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30535?1788688740000",
     "video_url": ""
   },
   {
@@ -7526,7 +7526,7 @@
     "jurisdiction": "SB",
     "lat": 45.23699,
     "lng": -92.98319,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30669?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30669?1788688740000",
     "video_url": ""
   },
   {
@@ -7626,7 +7626,7 @@
     "jurisdiction": "",
     "lat": 47.21123,
     "lng": -92.48805,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30426-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30426-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -7696,7 +7696,7 @@
     "jurisdiction": "",
     "lat": 46.11783,
     "lng": -93.43284,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30409-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30409-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -7766,7 +7766,7 @@
     "jurisdiction": "EB",
     "lat": 44.30185,
     "lng": -94.42305,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30253?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30253?1788688740000",
     "video_url": ""
   },
   {
@@ -7776,7 +7776,7 @@
     "jurisdiction": "NB",
     "lat": 44.68962,
     "lng": -93.60751,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30523?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30523?1788688740000",
     "video_url": ""
   },
   {
@@ -7796,7 +7796,7 @@
     "jurisdiction": "SB",
     "lat": 45.26971,
     "lng": -93.00809,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30041?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30041?1788688740000",
     "video_url": ""
   },
   {
@@ -7816,7 +7816,7 @@
     "jurisdiction": "",
     "lat": 46.04314,
     "lng": -96.49393,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30387-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30387-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -7826,7 +7826,7 @@
     "jurisdiction": "",
     "lat": 43.92209,
     "lng": -96.2651,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30346-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30346-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -7886,7 +7886,7 @@
     "jurisdiction": "EB",
     "lat": 44.806,
     "lng": -93.62504,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30544?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30544?1788688740000",
     "video_url": ""
   },
   {
@@ -7906,7 +7906,7 @@
     "jurisdiction": "EB",
     "lat": 45.25232,
     "lng": -93.0088,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30663?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30663?1788688740000",
     "video_url": ""
   },
   {
@@ -7956,7 +7956,7 @@
     "jurisdiction": "WB",
     "lat": 45.01273,
     "lng": -93.68989,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30162?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30162?1788688740000",
     "video_url": ""
   },
   {
@@ -8146,7 +8146,7 @@
     "jurisdiction": "WB",
     "lat": 46.46931,
     "lng": -96.26213,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9426?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9426?1788688740000",
     "video_url": ""
   },
   {
@@ -8216,7 +8216,7 @@
     "jurisdiction": "SB",
     "lat": 43.85804,
     "lng": -91.30671,
-    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C339?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C339?1788688740000",
     "video_url": ""
   },
   {
@@ -8266,7 +8266,7 @@
     "jurisdiction": "",
     "lat": 46.21231,
     "lng": -92.83761,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30302-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30302-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8276,7 +8276,7 @@
     "jurisdiction": "EB",
     "lat": 45.11151,
     "lng": -93.47167,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30037?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30037?1788688740000",
     "video_url": ""
   },
   {
@@ -8306,7 +8306,7 @@
     "jurisdiction": "",
     "lat": 48.90544,
     "lng": -96.7989,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30393-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30393-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8346,7 +8346,7 @@
     "jurisdiction": "",
     "lat": 47.29635,
     "lng": -93.70302,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30434-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30434-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8396,7 +8396,7 @@
     "jurisdiction": "NB",
     "lat": 45.17111,
     "lng": -92.98993,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30480?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30480?1788688740000",
     "video_url": ""
   },
   {
@@ -8456,7 +8456,7 @@
     "jurisdiction": "",
     "lat": 44.02382,
     "lng": -92.7081,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30326-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30326-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8476,7 +8476,7 @@
     "jurisdiction": "SB",
     "lat": 44.97734,
     "lng": -93.24547,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C1110?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C1110?1788688740000",
     "video_url": ""
   },
   {
@@ -8486,7 +8486,7 @@
     "jurisdiction": "",
     "lat": 45.28288,
     "lng": -95.91148,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30373-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30373-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8516,7 +8516,7 @@
     "jurisdiction": "EB",
     "lat": 45.03565,
     "lng": -93.76166,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30159?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30159?1788688740000",
     "video_url": ""
   },
   {
@@ -8526,7 +8526,7 @@
     "jurisdiction": "EB",
     "lat": 45.60435,
     "lng": -94.48227,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30032?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30032?1788688740000",
     "video_url": ""
   },
   {
@@ -8546,7 +8546,7 @@
     "jurisdiction": "NB",
     "lat": 45.02505,
     "lng": -92.78263,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9502?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9502?1788688740000",
     "video_url": ""
   },
   {
@@ -8586,7 +8586,7 @@
     "jurisdiction": "",
     "lat": 46.78281,
     "lng": -93.61366,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30419-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30419-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8656,7 +8656,7 @@
     "jurisdiction": "",
     "lat": 46.97845,
     "lng": -93.27348,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30384-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30384-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8686,7 +8686,7 @@
     "jurisdiction": "",
     "lat": 48.78951,
     "lng": -95.05091,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30450-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30450-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8766,7 +8766,7 @@
     "jurisdiction": "",
     "lat": 46.52458,
     "lng": -94.29621,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30405-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30405-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8776,7 +8776,7 @@
     "jurisdiction": "",
     "lat": 44.54306,
     "lng": -94.41415,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30329-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30329-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8786,7 +8786,7 @@
     "jurisdiction": "",
     "lat": 44.26791,
     "lng": -94.89502,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30343-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30343-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -8866,7 +8866,7 @@
     "jurisdiction": "EB",
     "lat": 45.33251,
     "lng": -93.74527,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C1646?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C1646?1788688740000",
     "video_url": ""
   },
   {
@@ -9136,7 +9136,7 @@
     "jurisdiction": "NB",
     "lat": 47.06677,
     "lng": -91.59529,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C61-053?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C61-053?1788688740000",
     "video_url": ""
   },
   {
@@ -9146,7 +9146,7 @@
     "jurisdiction": "EB",
     "lat": 46.00921,
     "lng": -95.75453,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9450?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9450?1788688740000",
     "video_url": ""
   },
   {
@@ -9156,7 +9156,7 @@
     "jurisdiction": "",
     "lat": 45.26909,
     "lng": -96.38938,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30376-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30376-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -9166,7 +9166,7 @@
     "jurisdiction": "",
     "lat": 44.58708,
     "lng": -96.05154,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30348-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30348-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -9206,7 +9206,7 @@
     "jurisdiction": "SB",
     "lat": 47.91375,
     "lng": -96.97644,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30214?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30214?1788688740000",
     "video_url": ""
   },
   {
@@ -9326,7 +9326,7 @@
     "jurisdiction": "",
     "lat": 45.76611,
     "lng": -94.23322,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30424-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30424-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -9426,7 +9426,7 @@
     "jurisdiction": "EB",
     "lat": 45.35063,
     "lng": -93.90444,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30711?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30711?1788688740000",
     "video_url": ""
   },
   {
@@ -9666,7 +9666,7 @@
     "jurisdiction": "",
     "lat": 47.40086,
     "lng": -92.9261,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30265?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30265?1788688740000",
     "video_url": ""
   },
   {
@@ -9766,7 +9766,7 @@
     "jurisdiction": "SB",
     "lat": 45.11564,
     "lng": -93.18885,
-    "image_url": "/images/icon-camera-closed-fill-solid-padded.svg",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C641",
     "video_url": ""
   },
   {
@@ -9776,7 +9776,7 @@
     "jurisdiction": "NB",
     "lat": 46.79751,
     "lng": -92.08202,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C35-194?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C35-194?1788688740000",
     "video_url": ""
   },
   {
@@ -9936,7 +9936,7 @@
     "jurisdiction": "",
     "lat": 45.13882,
     "lng": -94.81176,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30351-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30351-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -9946,7 +9946,7 @@
     "jurisdiction": "NB",
     "lat": 45.18428,
     "lng": -93.02977,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C052?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C052?1788688740000",
     "video_url": ""
   },
   {
@@ -10056,7 +10056,7 @@
     "jurisdiction": "WB",
     "lat": 44.99382,
     "lng": -93.62094,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30241?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30241?1788688740000",
     "video_url": ""
   },
   {
@@ -10076,7 +10076,7 @@
     "jurisdiction": "",
     "lat": 45.04998,
     "lng": -93.15664,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30540?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30540?1788688740000",
     "video_url": ""
   },
   {
@@ -10086,7 +10086,7 @@
     "jurisdiction": "EB",
     "lat": 44.9485,
     "lng": -92.93405,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30656?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30656?1788688740000",
     "video_url": ""
   },
   {
@@ -10106,7 +10106,7 @@
     "jurisdiction": "",
     "lat": 46.8472,
     "lng": -96.77741,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30470-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30470-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10296,7 +10296,7 @@
     "jurisdiction": "",
     "lat": 46.62783,
     "lng": -92.5317,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30469-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30469-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10386,7 +10386,7 @@
     "jurisdiction": "",
     "lat": 46.34304,
     "lng": -94.64271,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30406-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30406-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10406,7 +10406,7 @@
     "jurisdiction": "",
     "lat": 44.90658,
     "lng": -94.1191,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30299-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30299-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10466,7 +10466,7 @@
     "jurisdiction": "",
     "lat": 44.39939,
     "lng": -95.47245,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30347-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30347-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10476,7 +10476,7 @@
     "jurisdiction": "WB",
     "lat": 45.66704,
     "lng": -94.81271,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9026?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9026?1788688740000",
     "video_url": ""
   },
   {
@@ -10586,7 +10586,7 @@
     "jurisdiction": "",
     "lat": 44.90581,
     "lng": -93.86971,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30320-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30320-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10606,7 +10606,7 @@
     "jurisdiction": "",
     "lat": 46.44222,
     "lng": -95.13591,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30212?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30212?1788688740000",
     "video_url": ""
   },
   {
@@ -10626,7 +10626,7 @@
     "jurisdiction": "EB",
     "lat": 43.63816,
     "lng": -95.11873,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30305-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30305-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10736,7 +10736,7 @@
     "jurisdiction": "",
     "lat": 46.47068,
     "lng": -96.71197,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30374-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30374-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10856,7 +10856,7 @@
     "jurisdiction": "",
     "lat": 46.49072,
     "lng": -96.29087,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30311-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30311-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10906,7 +10906,7 @@
     "jurisdiction": "",
     "lat": 43.9201,
     "lng": -93.27691,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30468-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30468-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10946,7 +10946,7 @@
     "jurisdiction": "EB",
     "lat": 45.86904,
     "lng": -95.44991,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30028?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30028?1788688740000",
     "video_url": ""
   },
   {
@@ -10986,7 +10986,7 @@
     "jurisdiction": "",
     "lat": 45.34667,
     "lng": -93.23663,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30379-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30379-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -10996,7 +10996,7 @@
     "jurisdiction": "EB",
     "lat": 44.84301,
     "lng": -93.78767,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30537?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30537?1788688740000",
     "video_url": ""
   },
   {
@@ -11066,7 +11066,7 @@
     "jurisdiction": "",
     "lat": 46.87509,
     "lng": -96.76244,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30557?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30557?1788688740000",
     "video_url": ""
   },
   {
@@ -11096,7 +11096,7 @@
     "jurisdiction": "WB",
     "lat": 44.85954,
     "lng": -93.36039,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30709?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30709?1788688740000",
     "video_url": ""
   },
   {
@@ -11106,7 +11106,7 @@
     "jurisdiction": "",
     "lat": 44.67418,
     "lng": -96.27674,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30350-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30350-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11176,7 +11176,7 @@
     "jurisdiction": "NB",
     "lat": 45.30573,
     "lng": -93.79419,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C1514?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C1514?1788688740000",
     "video_url": ""
   },
   {
@@ -11236,7 +11236,7 @@
     "jurisdiction": "WB",
     "lat": 45.02869,
     "lng": -93.72346,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30161?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30161?1788688740000",
     "video_url": ""
   },
   {
@@ -11306,7 +11306,7 @@
     "jurisdiction": "SB",
     "lat": 44.72578,
     "lng": -93.4035,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30563?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30563?1788688740000",
     "video_url": ""
   },
   {
@@ -11336,7 +11336,7 @@
     "jurisdiction": "",
     "lat": 48.12214,
     "lng": -95.62496,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30400-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30400-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11346,7 +11346,7 @@
     "jurisdiction": "",
     "lat": 46.91178,
     "lng": -94.72276,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30382-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30382-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11556,7 +11556,7 @@
     "jurisdiction": "",
     "lat": 47.89161,
     "lng": -92.77454,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30435-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30435-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11596,7 +11596,7 @@
     "jurisdiction": "",
     "lat": 44.76065,
     "lng": -94.8431,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30349-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30349-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11626,7 +11626,7 @@
     "jurisdiction": "",
     "lat": 47.85449,
     "lng": -92.04824,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30316-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30316-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11666,7 +11666,7 @@
     "jurisdiction": "SB",
     "lat": 45.26998,
     "lng": -93.00795,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30042?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30042?1788688740000",
     "video_url": ""
   },
   {
@@ -11686,7 +11686,7 @@
     "jurisdiction": "",
     "lat": 44.94902,
     "lng": -95.40953,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30318-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30318-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11726,7 +11726,7 @@
     "jurisdiction": "",
     "lat": 45.43248,
     "lng": -94.93227,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30363-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30363-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11766,7 +11766,7 @@
     "jurisdiction": "NB",
     "lat": 45.22495,
     "lng": -93.39693,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30261?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30261?1788688740000",
     "video_url": ""
   },
   {
@@ -11866,7 +11866,7 @@
     "jurisdiction": "",
     "lat": 47.97498,
     "lng": -89.68326,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30381-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30381-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11966,7 +11966,7 @@
     "jurisdiction": "",
     "lat": 45.87597,
     "lng": -93.66336,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30448-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30448-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11976,7 +11976,7 @@
     "jurisdiction": "",
     "lat": 46.77191,
     "lng": -92.13795,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30568-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30568-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11986,7 +11986,7 @@
     "jurisdiction": "",
     "lat": 44.05994,
     "lng": -93.49449,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30359-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30359-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -11996,7 +11996,7 @@
     "jurisdiction": "",
     "lat": 44.5721,
     "lng": -93.8423,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30447-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30447-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -12026,7 +12026,7 @@
     "jurisdiction": "SB",
     "lat": 44.38084,
     "lng": -93.29267,
-    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C105?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C105?1788688740000",
     "video_url": ""
   },
   {
@@ -12166,7 +12166,7 @@
     "jurisdiction": "SB",
     "lat": 44.7897,
     "lng": -93.1091,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30542?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30542?1788688740000",
     "video_url": ""
   },
   {
@@ -12176,7 +12176,7 @@
     "jurisdiction": "",
     "lat": 46.71671,
     "lng": -92.24916,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30452-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30452-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -12216,7 +12216,7 @@
     "jurisdiction": "EB",
     "lat": 45.35089,
     "lng": -93.90588,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30034?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30034?1788688740000",
     "video_url": ""
   },
   {
@@ -12226,7 +12226,7 @@
     "jurisdiction": "NB",
     "lat": 44.70301,
     "lng": -93.44154,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30170?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30170?1788688740000",
     "video_url": ""
   },
   {
@@ -12286,7 +12286,7 @@
     "jurisdiction": "NB",
     "lat": 46.01111,
     "lng": -92.93158,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30275?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30275?1788688740000",
     "video_url": ""
   },
   {
@@ -12306,7 +12306,7 @@
     "jurisdiction": "",
     "lat": 44.45873,
     "lng": -96.43525,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30327-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30327-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -12336,7 +12336,7 @@
     "jurisdiction": "",
     "lat": 45.98516,
     "lng": -92.94842,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30449-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30449-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -12426,7 +12426,7 @@
     "jurisdiction": "",
     "lat": 44.66567,
     "lng": -93.00957,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30378-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30378-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -12556,7 +12556,7 @@
     "jurisdiction": "SB",
     "lat": 45.01002,
     "lng": -93.18755,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30559?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30559?1788688740000",
     "video_url": ""
   },
   {
@@ -12596,7 +12596,7 @@
     "jurisdiction": "WB",
     "lat": 45.08698,
     "lng": -93.41742,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30685?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30685?1788688740000",
     "video_url": ""
   },
   {
@@ -12686,7 +12686,7 @@
     "jurisdiction": "",
     "lat": 46.45274,
     "lng": -92.73,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30431-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30431-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -12806,7 +12806,7 @@
     "jurisdiction": "NB",
     "lat": 44.91623,
     "lng": -93.10185,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30775?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30775?1788688740000",
     "video_url": ""
   },
   {
@@ -12846,7 +12846,7 @@
     "jurisdiction": "",
     "lat": 44.90626,
     "lng": -93.98645,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30319-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30319-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13006,7 +13006,7 @@
     "jurisdiction": "",
     "lat": 48.97072,
     "lng": -97.20144,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30390-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30390-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13066,7 +13066,7 @@
     "jurisdiction": "NB",
     "lat": 44.97634,
     "lng": -93.20251,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30723?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30723?1788688740000",
     "video_url": ""
   },
   {
@@ -13096,7 +13096,7 @@
     "jurisdiction": "EB",
     "lat": 44.01842,
     "lng": -92.85881,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30504?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30504?1788688740000",
     "video_url": ""
   },
   {
@@ -13156,7 +13156,7 @@
     "jurisdiction": "WB",
     "lat": 43.68051,
     "lng": -92.98031,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30784?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30784?1788688740000",
     "video_url": ""
   },
   {
@@ -13166,7 +13166,7 @@
     "jurisdiction": "NB",
     "lat": 44.44817,
     "lng": -93.29233,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30043?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30043?1788688740000",
     "video_url": ""
   },
   {
@@ -13246,7 +13246,7 @@
     "jurisdiction": "WB",
     "lat": 45.83356,
     "lng": -94.29766,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30079?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30079?1788688740000",
     "video_url": ""
   },
   {
@@ -13256,7 +13256,7 @@
     "jurisdiction": "WB",
     "lat": 46.64581,
     "lng": -96.38239,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9414?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9414?1788688740000",
     "video_url": ""
   },
   {
@@ -13316,7 +13316,7 @@
     "jurisdiction": "",
     "lat": 47.53132,
     "lng": -95.66662,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30401-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30401-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13326,7 +13326,7 @@
     "jurisdiction": "EB",
     "lat": 46.68982,
     "lng": -96.44778,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9410?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9410?1788688740000",
     "video_url": ""
   },
   {
@@ -13386,7 +13386,7 @@
     "jurisdiction": "WB",
     "lat": 45.35654,
     "lng": -93.81989,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C1645?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C1645?1788688740000",
     "video_url": ""
   },
   {
@@ -13406,7 +13406,7 @@
     "jurisdiction": "NB",
     "lat": 44.44819,
     "lng": -93.29233,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30044?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30044?1788688740000",
     "video_url": ""
   },
   {
@@ -13416,7 +13416,7 @@
     "jurisdiction": "EB",
     "lat": 43.63766,
     "lng": -95.76993,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30304-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30304-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13456,7 +13456,7 @@
     "jurisdiction": "EB",
     "lat": 45.00945,
     "lng": -93.12599,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30561?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30561?1788688740000",
     "video_url": ""
   },
   {
@@ -13476,7 +13476,7 @@
     "jurisdiction": "",
     "lat": 47.75116,
     "lng": -90.33286,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30209?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30209?1788688740000",
     "video_url": ""
   },
   {
@@ -13516,7 +13516,7 @@
     "jurisdiction": "EB",
     "lat": 46.50089,
     "lng": -96.29093,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C9422?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C9422?1788688740000",
     "video_url": ""
   },
   {
@@ -13526,7 +13526,7 @@
     "jurisdiction": "EB",
     "lat": 44.94881,
     "lng": -92.82237,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30038?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30038?1788688740000",
     "video_url": ""
   },
   {
@@ -13556,7 +13556,7 @@
     "jurisdiction": "",
     "lat": 47.84054,
     "lng": -93.48527,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30385-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30385-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13606,7 +13606,7 @@
     "jurisdiction": "",
     "lat": 48.57219,
     "lng": -96.91494,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30321-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30321-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13616,7 +13616,7 @@
     "jurisdiction": "",
     "lat": 48.89432,
     "lng": -95.42519,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30397-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30397-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13646,7 +13646,7 @@
     "jurisdiction": "",
     "lat": 45.71332,
     "lng": -94.93136,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30313-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30313-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13686,7 +13686,7 @@
     "jurisdiction": "",
     "lat": 45.32563,
     "lng": -95.37902,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30375-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30375-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13716,7 +13716,7 @@
     "jurisdiction": "EB",
     "lat": 44.77094,
     "lng": -93.91946,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30224?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30224?1788688740000",
     "video_url": ""
   },
   {
@@ -13736,7 +13736,7 @@
     "jurisdiction": "",
     "lat": 47.05238,
     "lng": -94.21451,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30404-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30404-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13746,7 +13746,7 @@
     "jurisdiction": "",
     "lat": 46.4036,
     "lng": -95.60206,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30388-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30388-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13816,7 +13816,7 @@
     "jurisdiction": "",
     "lat": 48.13454,
     "lng": -93.87815,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30444-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30444-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13866,7 +13866,7 @@
     "jurisdiction": "NB",
     "lat": 46.7128,
     "lng": -92.46148,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30274?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30274?1788688740000",
     "video_url": ""
   },
   {
@@ -13876,7 +13876,7 @@
     "jurisdiction": "",
     "lat": 43.89895,
     "lng": -93.91437,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30344-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30344-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13906,7 +13906,7 @@
     "jurisdiction": "EB",
     "lat": 45.29584,
     "lng": -93.7862,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30553?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30553?1788688740000",
     "video_url": ""
   },
   {
@@ -13916,7 +13916,7 @@
     "jurisdiction": "",
     "lat": 44.97971,
     "lng": -93.24441,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C1109?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C1109?1788688740000",
     "video_url": ""
   },
   {
@@ -13966,7 +13966,7 @@
     "jurisdiction": "",
     "lat": 43.55812,
     "lng": -92.9496,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30336-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30336-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13976,7 +13976,7 @@
     "jurisdiction": "",
     "lat": 47.27418,
     "lng": -95.93338,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30364-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30364-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -13986,7 +13986,7 @@
     "jurisdiction": "",
     "lat": 48.20727,
     "lng": -94.55359,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30386-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30386-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -14046,7 +14046,7 @@
     "jurisdiction": "WB",
     "lat": 45.00859,
     "lng": -93.09781,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30730?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30730?1788688740000",
     "video_url": ""
   },
   {
@@ -14116,7 +14116,7 @@
     "jurisdiction": "SB",
     "lat": 45.21647,
     "lng": -93.39386,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30475?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30475?1788688740000",
     "video_url": ""
   },
   {
@@ -14296,7 +14296,7 @@
     "jurisdiction": "",
     "lat": 45.45135,
     "lng": -94.48588,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30407-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30407-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -14366,7 +14366,7 @@
     "jurisdiction": "",
     "lat": 46.70611,
     "lng": -95.69152,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30371-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30371-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -14396,7 +14396,7 @@
     "jurisdiction": "WB",
     "lat": 43.66189,
     "lng": -94.12325,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30306-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30306-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -14416,7 +14416,7 @@
     "jurisdiction": "SB",
     "lat": 46.78635,
     "lng": -92.09687,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C35-182?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C35-182?1788688740000",
     "video_url": ""
   },
   {
@@ -14476,7 +14476,7 @@
     "jurisdiction": "SB",
     "lat": 44.68064,
     "lng": -93.61947,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30522?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30522?1788688740000",
     "video_url": ""
   },
   {
@@ -14486,7 +14486,7 @@
     "jurisdiction": "",
     "lat": 47.38014,
     "lng": -94.58692,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30421-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30421-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -14516,7 +14516,7 @@
     "jurisdiction": "",
     "lat": 48.4364,
     "lng": -95.73095,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30389-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30389-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -14556,7 +14556,7 @@
     "jurisdiction": "EB",
     "lat": 44.93793,
     "lng": -93.36829,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C1281?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C1281?1788688740000",
     "video_url": ""
   },
   {
@@ -14646,7 +14646,7 @@
     "jurisdiction": "NB",
     "lat": 44.76995,
     "lng": -93.28845,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30700?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30700?1788688740000",
     "video_url": ""
   },
   {
@@ -14676,7 +14676,7 @@
     "jurisdiction": "",
     "lat": 48.62757,
     "lng": -94.06701,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30323-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30323-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -14726,7 +14726,7 @@
     "jurisdiction": "WB",
     "lat": 43.85787,
     "lng": -91.30375,
-    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C340?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/D6-C340?1788688740000",
     "video_url": ""
   },
   {
@@ -14756,7 +14756,7 @@
     "jurisdiction": "EB",
     "lat": 45.86891,
     "lng": -95.44945,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30029?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30029?1788688740000",
     "video_url": ""
   },
   {
@@ -14906,7 +14906,7 @@
     "jurisdiction": "",
     "lat": 44.0752,
     "lng": -94.36787,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30365-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30365-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -14936,7 +14936,7 @@
     "jurisdiction": "",
     "lat": 44.2258,
     "lng": -93.27706,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30333-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30333-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -15016,7 +15016,7 @@
     "jurisdiction": "",
     "lat": 44.54381,
     "lng": -93.62483,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30451-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30451-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -15076,7 +15076,7 @@
     "jurisdiction": "WB",
     "lat": 43.91144,
     "lng": -91.54354,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30309-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30309-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -15116,7 +15116,7 @@
     "jurisdiction": "",
     "lat": 43.51517,
     "lng": -91.885,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30425-v1?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30425-v1?1788688740000",
     "video_url": ""
   },
   {
@@ -15156,7 +15156,7 @@
     "jurisdiction": "SB",
     "lat": 44.70224,
     "lng": -93.59561,
-    "image_url": "https://public.carsprogram.org/cameras/MN/C30524?1788648300000",
+    "image_url": "https://public.carsprogram.org/cameras/MN/C30524?1788688740000",
     "video_url": ""
   },
   {
@@ -15267,6 +15267,16 @@
     "lat": 45.01169,
     "lng": -93.05555,
     "image_url": "https://public.carsprogram.org/cameras/MN/C009",
+    "video_url": ""
+  },
+  {
+    "id": "500712",
+    "name": "MN 61: T.H.61 NB (Silver Cliff Tunnel 2)",
+    "route": "MN 61",
+    "jurisdiction": "NB",
+    "lat": 47.06771,
+    "lng": -91.59402,
+    "image_url": "https://public.carsprogram.org/cameras/MN/C61-052?1788688740000",
     "video_url": ""
   }
 ]
