@@ -49708,5 +49708,15 @@
     "lng": -80.388763,
     "image_url": "https://fl511.com/map/Cctv/6012",
     "video_url": ""
+  },
+  {
+    "id": "1163",
+    "name": "Camera 1163",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 27.984927,
+    "lng": -80.61789,
+    "image_url": "https://fl511.com/map/Cctv/1163",
+    "video_url": ""
   }
 ]

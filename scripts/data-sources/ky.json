@@ -2538,5 +2538,95 @@
     "lng": -85.460008,
     "image_url": "https://www.trimarc.org/images/milestone/CCTV_05_64_0214.jpg",
     "video_url": ""
+  },
+  {
+    "id": "588046",
+    "name": "I-65 just South of I-265 Exit 6 Indiana",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.345217,
+    "lng": -85.753507,
+    "image_url": "https://pws.trafficwise.org/pullover/172_65_56_11.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "588047",
+    "name": "I-65 at SR 60 Exit 7 Indiana",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.370025,
+    "lng": -85.754724,
+    "image_url": "https://www.trimarc.org/images/snapshots/IND_CCTV005.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "588048",
+    "name": "I-65 over Market St. Exit 0 Indiana",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.2694,
+    "lng": -85.7456,
+    "image_url": "https://pws.trafficwise.org/pullover/172_65_1_10.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "588049",
+    "name": "I-65 at Eastern Ave. Ind. Exit 2 Indiana",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.29485,
+    "lng": -85.755883,
+    "image_url": "https://www.trimarc.org/images/snapshots/IND_CCTV008.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "588050",
+    "name": "I-64 at Ind. 150",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.3027,
+    "lng": -85.8771,
+    "image_url": "https://pws.trafficwise.org/pullover/172_64_204_10.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "588051",
+    "name": "Sherman Minton Br (Indiana side)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.2821,
+    "lng": -85.82605,
+    "image_url": "https://pws.trafficwise.org/pullover/172_64_237_11.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "588052",
+    "name": "I-64 at New Albany, Ind.",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.2857,
+    "lng": -85.8291,
+    "image_url": "https://pws.trafficwise.org/pullover/172_64_234_10.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "588053",
+    "name": "I-64 at I-265 in Ind.",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.301483,
+    "lng": -85.849133,
+    "image_url": "https://www.trimarc.org/images/snapshots/CCTV027.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "588054",
+    "name": "I-65 at Sellersburg, Ind.(Exit 9 - SR 311)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 38.3935,
+    "lng": -85.7619,
+    "image_url": "https://pws.trafficwise.org/pullover/172_65_90_10.jpg",
+    "video_url": ""
   }
 ]

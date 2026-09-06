@@ -6078,7 +6078,7 @@
     "lat": 33.19911,
     "lng": -87.54817,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1716/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/SU9heUF4SHdpOFdZ/tuscaloosa-fastly/tus-cam-215-5.4.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/YlRaRWsxYU1lTDdT/tuscaloosa-fastly/tus-cam-215-5.4.stream/playlist.m3u8"
   },
   {
     "id": "1432",
@@ -6875,7 +6875,7 @@
     "lat": 32.36839,
     "lng": -86.0531,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1962/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/QWtsT1l3QUdseUV3/mnt-fastly/mgm-cam-016a.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/OTFiMWtJbDJMV1lm/mnt-fastly/mgm-cam-016a.stream/playlist.m3u8"
   },
   {
     "id": "1749",
@@ -7295,7 +7295,7 @@
     "lat": 33.38999,
     "lng": -86.79623,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1210/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/M2RZZnlNKzFNUU8y/bhm-fastly/bhm-cam-lorna-mun.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/a1dpQ3BEeW15ZE1l/bhm-fastly/bhm-cam-lorna-mun.stream/playlist.m3u8"
   },
   {
     "id": "1734",
