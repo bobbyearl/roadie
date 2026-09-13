@@ -2981,13 +2981,13 @@
   },
   {
     "id": "388",
-    "name": "Camera 388",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.2519,
     "lng": -92.269997,
-    "image_url": "https://511la.org/map/Cctv/388",
-    "video_url": ""
+    "image_url": "https://511la.org/map/Cctv/533",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/laf-cam-087.streams/playlist.m3u8"
   },
   {
     "id": "389",
@@ -3011,13 +3011,13 @@
   },
   {
     "id": "391",
-    "name": "Camera 391",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.247118,
     "lng": -92.822067,
-    "image_url": "https://511la.org/map/Cctv/391",
-    "video_url": ""
+    "image_url": "https://511la.org/map/Cctv/539",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-541.streams/playlist.m3u8"
   },
   {
     "id": "392",
@@ -3031,23 +3031,23 @@
   },
   {
     "id": "393",
-    "name": "",
+    "name": "Camera 393",
     "route": "",
     "jurisdiction": "",
     "lat": 30.246231,
     "lng": -92.66317,
-    "image_url": "https://511la.org/map/Cctv/543",
-    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-641.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/393",
+    "video_url": ""
   },
   {
     "id": "394",
-    "name": "",
+    "name": "Camera 394",
     "route": "",
     "jurisdiction": "",
     "lat": 30.243298,
     "lng": -92.631722,
-    "image_url": "https://511la.org/map/Cctv/545",
-    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-651.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/394",
+    "video_url": ""
   },
   {
     "id": "395",

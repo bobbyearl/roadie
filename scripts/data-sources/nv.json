@@ -50,6 +50,16 @@
     "video_url": "https://d1wse2.its.nv.gov:443/vegasxcd02/4ffce686-6a62-4d00-b2a1-4cc9da2b334a_lvflirxcd03_public.stream/playlist.m3u8"
   },
   {
+    "id": "6644",
+    "name": "",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 36.12987,
+    "lng": -115.08396,
+    "image_url": "https://www.nvroads.com/map/Cctv/6644",
+    "video_url": "https://d1wse2.its.nv.gov:443/vegasxcd02/3df95311-e341-4a97-8d6a-e7e10d087023_lvflirxcd03_public.stream/playlist.m3u8"
+  },
+  {
     "id": "6645",
     "name": "",
     "route": "",
@@ -258,16 +268,6 @@
     "lng": -115.24356,
     "image_url": "https://www.nvroads.com/map/Cctv/6667",
     "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/a2b901f5-69c4-494d-9bc0-8167af719c4f_lvflirxcd01_public.stream/playlist.m3u8"
-  },
-  {
-    "id": "6669",
-    "name": "",
-    "route": "",
-    "jurisdiction": "",
-    "lat": 36.03965,
-    "lng": -114.98167,
-    "image_url": "https://www.nvroads.com/map/Cctv/6669",
-    "video_url": "https://d1wse2.its.nv.gov:443/vegasxcd02/7f73a121-c6d0-469e-a29c-4f8a689366fd_lvflirxcd03_public.stream/playlist.m3u8"
   },
   {
     "id": "6670",
@@ -2881,23 +2881,23 @@
   },
   {
     "id": "6936",
-    "name": "",
+    "name": "Camera 6936",
     "route": "",
     "jurisdiction": "",
     "lat": 36.3358,
     "lng": -114.9198,
     "image_url": "https://www.nvroads.com/map/Cctv/6936",
-    "video_url": "https://d1wse4.its.nv.gov:443/vegasxcd04/a2197792-d74b-4991-9486-e27a48bb5647_lvflirxcd06_public.stream/playlist.m3u8"
+    "video_url": ""
   },
   {
     "id": "6937",
-    "name": "",
+    "name": "Camera 6937",
     "route": "",
     "jurisdiction": "",
     "lat": 36.17033,
     "lng": -115.19277,
     "image_url": "https://www.nvroads.com/map/Cctv/6937",
-    "video_url": "https://d1wse5.its.nv.gov:443/vegasxcd05/712711f2-70c4-46ad-93b2-459e8b944dcc_lvflirxcd07_public.stream/playlist.m3u8"
+    "video_url": ""
   },
   {
     "id": "6938",
@@ -2911,13 +2911,13 @@
   },
   {
     "id": "6939",
-    "name": "",
+    "name": "Camera 6939",
     "route": "",
     "jurisdiction": "",
     "lat": 36.13216,
     "lng": -115.15452,
     "image_url": "https://www.nvroads.com/map/Cctv/6939",
-    "video_url": "https://d1wse2.its.nv.gov:443/vegasxcd02/6602fac3-10a4-4342-ac6d-4c695b3517c5_lvflirxcd02_public.stream/playlist.m3u8"
+    "video_url": ""
   },
   {
     "id": "6940",
@@ -2981,13 +2981,13 @@
   },
   {
     "id": "6946",
-    "name": "Camera 6946",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 36.24783,
     "lng": -115.31506,
     "image_url": "https://www.nvroads.com/map/Cctv/6946",
-    "video_url": ""
+    "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/b7d0cefe-31c2-4e84-a053-534aad16165b_lvflirxcd01_public.stream/playlist.m3u8"
   },
   {
     "id": "6947",
@@ -3001,13 +3001,13 @@
   },
   {
     "id": "6948",
-    "name": "Camera 6948",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 36.21698,
     "lng": -115.21221,
     "image_url": "https://www.nvroads.com/map/Cctv/6948",
-    "video_url": ""
+    "video_url": "https://d1wse5.its.nv.gov:443/vegasxcd05/f25fd9ad-cdc4-4ffb-b4c8-d01e98cba385_lvflirxcd07_public.stream/playlist.m3u8"
   },
   {
     "id": "6949",
@@ -3051,13 +3051,13 @@
   },
   {
     "id": "6954",
-    "name": "Camera 6954",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 36.2893,
     "lng": -115.1801,
     "image_url": "https://www.nvroads.com/map/Cctv/6954",
-    "video_url": ""
+    "video_url": "https://d1wse4.its.nv.gov:443/vegasxcd04/339da762-8bbb-4400-a038-ca121bbc7904_lvflirxcd06_public.stream/playlist.m3u8"
   },
   {
     "id": "6955",

@@ -7715,8 +7715,48 @@
     "route": "I-95",
     "jurisdiction": "Charleston",
     "lat": 32.386111,
-    "lng": -84.0,
+    "lng": -81.02575,
     "image_url": "https://scdotsnap.us-east-1.skyvdn.com/60520.png",
     "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/60520/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "2495",
+    "name": "I-95 S @ MM 117.2",
+    "route": "I-95",
+    "jurisdiction": "Columbia",
+    "lat": 33.685894,
+    "lng": -80.258919,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/10257.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/10257/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "e72041b0-d2a0-11e6-8996-0123456789ab",
+    "name": "US 501 S @ Singleton Ridge Rd",
+    "route": "US 501",
+    "jurisdiction": "Myrtle Beach",
+    "lat": 33.791083,
+    "lng": -78.997722,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/50004.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/50004/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "6108",
+    "name": "Mt. Pleasant Tower - Upper 2 (MM 105.54)",
+    "route": "US 17",
+    "jurisdiction": "Charleston",
+    "lat": 32.802774,
+    "lng": -79.913227,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/60079.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/60079/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "6109",
+    "name": "Charleston Tower - Upper 2 (MM 104.55)",
+    "route": "US 17",
+    "jurisdiction": "Charleston",
+    "lat": 32.80335,
+    "lng": -79.9175,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/60080.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/60080/playlist_sfm4s.m3u8"
   }
 ]

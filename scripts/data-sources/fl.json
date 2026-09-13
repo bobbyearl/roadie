@@ -45834,8 +45834,8 @@
     "name": "Camera 5611",
     "route": "",
     "jurisdiction": "",
-    "lat": 30.5302431039812,
-    "lng": -87.3281729470825,
+    "lat": 29.757615,
+    "lng": -84.833207,
     "image_url": "https://fl511.com/map/Cctv/5611",
     "video_url": ""
   },
@@ -45844,8 +45844,8 @@
     "name": "Camera 5612",
     "route": "",
     "jurisdiction": "",
-    "lat": 30.5314829669185,
-    "lng": -87.329952167561,
+    "lat": 29.747,
+    "lng": -84.86,
     "image_url": "https://fl511.com/map/Cctv/5612",
     "video_url": ""
   },
@@ -49707,6 +49707,36 @@
     "lat": 25.669624,
     "lng": -80.388763,
     "image_url": "https://fl511.com/map/Cctv/6012",
+    "video_url": ""
+  },
+  {
+    "id": "1163",
+    "name": "Camera 1163",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 27.984927,
+    "lng": -80.61789,
+    "image_url": "https://fl511.com/map/Cctv/1163",
+    "video_url": ""
+  },
+  {
+    "id": "6013",
+    "name": "Camera 6013",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 26.146767,
+    "lng": -80.69205,
+    "image_url": "https://fl511.com/map/Cctv/6013",
+    "video_url": ""
+  },
+  {
+    "id": "6014",
+    "name": "Camera 6014",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.4981071108864,
+    "lng": -84.1862357930521,
+    "image_url": "https://fl511.com/map/Cctv/6014",
     "video_url": ""
   }
 ]

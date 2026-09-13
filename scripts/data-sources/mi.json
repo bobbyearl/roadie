@@ -8038,5 +8038,105 @@
     "lng": -89.150894,
     "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/738.jpg",
     "video_url": ""
+  },
+  {
+    "id": "3542",
+    "name": "I-69 @ N Coldwater",
+    "route": "I-69",
+    "jurisdiction": "NB",
+    "lat": 41.87769,
+    "lng": -84.99044,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_183.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4233",
+    "name": "I-75 @ Summit",
+    "route": "I-75",
+    "jurisdiction": "SB",
+    "lat": 41.768574,
+    "lng": -83.48126,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_069.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3751",
+    "name": "I-75 @ Monroe WC",
+    "route": "I-75",
+    "jurisdiction": "NB",
+    "lat": 41.864296,
+    "lng": -83.405512,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_074.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3915",
+    "name": "I-75 @ Laplaisance",
+    "route": "I-75",
+    "jurisdiction": "SB",
+    "lat": 41.87829,
+    "lng": -83.394714,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_072.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4234",
+    "name": "I-75 @ Front",
+    "route": "I-75",
+    "jurisdiction": "NB",
+    "lat": 41.900524,
+    "lng": -83.3725,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_070.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4168",
+    "name": "I-75 @ Dixie Hwy",
+    "route": "I-75",
+    "jurisdiction": "NB",
+    "lat": 41.926064,
+    "lng": -83.35961,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_273.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3919",
+    "name": "I-75 @ Nadeau",
+    "route": "I-75",
+    "jurisdiction": "SB",
+    "lat": 41.951385,
+    "lng": -83.36148,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_317.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4295",
+    "name": "I-94 @ US12",
+    "route": "I-94",
+    "jurisdiction": "EB",
+    "lat": 41.799366,
+    "lng": -86.70562,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_093.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4296",
+    "name": "I-94 @ US12",
+    "route": "I-94",
+    "jurisdiction": "WB",
+    "lat": 41.799442,
+    "lng": -86.70834,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_094.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3746",
+    "name": "I-94 @ Sawyer",
+    "route": "I-94",
+    "jurisdiction": "WB",
+    "lat": 41.884808,
+    "lng": -86.60182,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_087.flv.jpg",
+    "video_url": ""
   }
 ]

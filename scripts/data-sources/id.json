@@ -2901,22 +2901,22 @@
   },
   {
     "id": "556",
-    "name": "Camera 556",
+    "name": "US-20 Chinden &amp; Five Mile Rd",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6606,
     "lng": -116.317,
-    "image_url": "https://511.idaho.gov/map/Cctv/556",
+    "image_url": "https://511.idaho.gov/map/Cctv/753",
     "video_url": ""
   },
   {
     "id": "557",
-    "name": "Camera 557",
+    "name": "US-20 Chinden &amp; Maple Grove Rd",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6561,
     "lng": -116.299,
-    "image_url": "https://511.idaho.gov/map/Cctv/557",
+    "image_url": "https://511.idaho.gov/map/Cctv/754",
     "video_url": ""
   },
   {
@@ -2931,32 +2931,32 @@
   },
   {
     "id": "559",
-    "name": "SH-55 Eagle &amp; Colchester",
+    "name": "Camera 559",
     "route": "",
     "jurisdiction": "",
     "lat": 43.671963,
     "lng": -116.35454,
-    "image_url": "https://511.idaho.gov/map/Cctv/756",
+    "image_url": "https://511.idaho.gov/map/Cctv/559",
     "video_url": ""
   },
   {
     "id": "560",
-    "name": "Camera 560",
+    "name": "SH-55 Eagle &amp; Riverside Rivershore",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6878,
     "lng": -116.35379,
-    "image_url": "https://511.idaho.gov/map/Cctv/560",
+    "image_url": "https://511.idaho.gov/map/Cctv/757",
     "video_url": ""
   },
   {
     "id": "561",
-    "name": "SH-44 &amp; Edgewood Ln",
+    "name": "Camera 561",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6879,
     "lng": -116.334,
-    "image_url": "https://511.idaho.gov/map/Cctv/758",
+    "image_url": "https://511.idaho.gov/map/Cctv/561",
     "video_url": ""
   },
   {
@@ -2991,22 +2991,22 @@
   },
   {
     "id": "565",
-    "name": "Camera 565",
+    "name": "University &amp; Joyce",
     "route": "",
     "jurisdiction": "",
     "lat": 43.602757,
     "lng": -116.20448,
-    "image_url": "https://511.idaho.gov/map/Cctv/565",
+    "image_url": "https://511.idaho.gov/map/Cctv/762",
     "video_url": ""
   },
   {
     "id": "566",
-    "name": "Fairview &amp; Records",
+    "name": "Camera 566",
     "route": "",
     "jurisdiction": "",
     "lat": 43.61934,
     "lng": -116.34668,
-    "image_url": "https://511.idaho.gov/map/Cctv/763",
+    "image_url": "https://511.idaho.gov/map/Cctv/566",
     "video_url": ""
   },
   {
@@ -3041,22 +3041,22 @@
   },
   {
     "id": "570",
-    "name": "Camera 570",
+    "name": "Emerald &amp; MapleGrove",
     "route": "",
     "jurisdiction": "",
     "lat": 43.611515,
     "lng": -116.29388,
-    "image_url": "https://511.idaho.gov/map/Cctv/570",
+    "image_url": "https://511.idaho.gov/map/Cctv/767",
     "video_url": ""
   },
   {
     "id": "571",
-    "name": "SH-44 State &amp; Bogart Ln",
+    "name": "Camera 571",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6755,
     "lng": -116.294,
-    "image_url": "https://511.idaho.gov/map/Cctv/768",
+    "image_url": "https://511.idaho.gov/map/Cctv/571",
     "video_url": ""
   },
   {
@@ -3071,12 +3071,12 @@
   },
   {
     "id": "573",
-    "name": "SH-44 Glenwood &amp; Riverside",
+    "name": "Camera 573",
     "route": "",
     "jurisdiction": "",
     "lat": 43.65938,
     "lng": -116.279594,
-    "image_url": "https://511.idaho.gov/map/Cctv/770",
+    "image_url": "https://511.idaho.gov/map/Cctv/573",
     "video_url": ""
   },
   {

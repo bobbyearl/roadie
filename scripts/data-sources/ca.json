@@ -6367,7 +6367,7 @@
     "lat": 38.013572,
     "lng": -122.271422,
     "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tvh37i80beforesycamoreavenue/tvh37i80beforesycamoreavenue.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D4/W80_Before_Sycamore_Av.stream/playlist.m3u8"
   },
   {
     "id": "d4_135",
@@ -27354,8 +27354,8 @@
     "name": "140 - SR 140 @ Planada",
     "route": "SR-140",
     "jurisdiction": "Merced",
-    "lat": 37.2958525,
-    "lng": -120.3539631,
+    "lat": 37.29567,
+    "lng": -120.35412,
     "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/140sr140planada/140sr140planada.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D10/MER_NB140_Planada.stream/playlist.m3u8"
   },
@@ -28107,7 +28107,7 @@
     "lat": 37.638348,
     "lng": -121.055016,
     "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/162wbdakotaave/162wbdakotaave.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D10/STA_WB132_Dakota.stream/playlist.m3u8"
   },
   {
     "id": "d10_158",
@@ -28117,7 +28117,7 @@
     "lat": 37.63826,
     "lng": -121.05503,
     "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/163ebdakotaave/163ebdakotaave.jpg",
-    "video_url": "https://wzmedia.dot.ca.gov/D10/STA_WB132_WO_Pauline.stream/playlist.m3u8"
+    "video_url": "https://wzmedia.dot.ca.gov/D10/STA_EB132_Dakota.stream/playlist.m3u8"
   },
   {
     "id": "d10_159",
@@ -35478,5 +35478,405 @@
     "lng": -118.352406,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/sr107228182ndst/sr107228182ndst.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-228.stream/playlist.m3u8"
+  },
+  {
+    "id": "d4_788",
+    "name": "TV208 -- I-680 : AT MT DIABLO BL",
+    "route": "I-680",
+    "jurisdiction": "Contra Costa",
+    "lat": 37.89613,
+    "lng": -122.07021,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tv208i680atmtdiablobl/tv208i680atmtdiablobl.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d7_304",
+    "name": "I-105 : (304) Prarie Ave / Hawthorn",
+    "route": "I-105",
+    "jurisdiction": "Los Angeles",
+    "lat": 33.93286,
+    "lng": -118.34828,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i105304prarieavehawthorn/i105304prarieavehawthorn.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-304.stream/playlist.m3u8"
+  },
+  {
+    "id": "d7_305",
+    "name": "I-105 : (305) 118th St",
+    "route": "I-105",
+    "jurisdiction": "Los Angeles",
+    "lat": 33.92727,
+    "lng": -118.34074,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i105305118thst/i105305118thst.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-305.stream/playlist.m3u8"
+  },
+  {
+    "id": "d7_309",
+    "name": "I-105 : (309) Vermont Ave On-Ramp",
+    "route": "I-105",
+    "jurisdiction": "Los Angeles",
+    "lat": 33.92939,
+    "lng": -118.29172,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i105309vermontaveonramp/i105309vermontaveonramp.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-309.stream/playlist.m3u8"
+  },
+  {
+    "id": "d7_1248",
+    "name": "I-105 : (311) Central Ave Off-Ramp",
+    "route": "I-105",
+    "jurisdiction": "Los Angeles",
+    "lat": 33.9277,
+    "lng": -118.0,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i105311centralaveofframp/i105311centralaveofframp.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-311.stream/playlist.m3u8"
+  },
+  {
+    "id": "d7_1249",
+    "name": "I-105 : (308) Western Ave",
+    "route": "I-105",
+    "jurisdiction": "Los Angeles",
+    "lat": 33.926,
+    "lng": -118.3087,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i105308westernave/i105308westernave.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-308.stream/playlist.m3u8"
+  },
+  {
+    "id": "d12_481",
+    "name": "SR-1 : (583) SB PCH at Cleo",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.537567,
+    "lng": -117.779552,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1583sbpchatcleo/sr1583sbpchatcleo.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_482",
+    "name": "SR-1 : (577) SB PCH at Diamond",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.527392,
+    "lng": -117.769539,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1577sbpchatdiamond/sr1577sbpchatdiamond.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_483",
+    "name": "SR-1 : (578) NB PCH at Diamond",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.5275,
+    "lng": -117.769669,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1578nbpchatdiamond/sr1578nbpchatdiamond.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_484",
+    "name": "SR-1 : (579) SB PCH at Blue Bird",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.529916,
+    "lng": -117.772581,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1579sbpchatbluebird/sr1579sbpchatbluebird.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D12/SBPCHBLUEBIRD.stream/playlist.m3u8"
+  },
+  {
+    "id": "d12_485",
+    "name": "SR-1 : (580) NB PCH at Blue Bird",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.530071,
+    "lng": -117.772769,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1580nbpchatbluebird/sr1580nbpchatbluebird.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D12/NBPCHBLUEBIRD.stream/playlist.m3u8"
+  },
+  {
+    "id": "d12_486",
+    "name": "SR-1 : (581) SB PCH at Thalia",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.53589,
+    "lng": -117.778318,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1581sbpchatthalia/sr1581sbpchatthalia.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_487",
+    "name": "SR-1 : (582) NB PCH at Thalia",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.53602,
+    "lng": -117.778414,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1582nbpchatthalia/sr1582nbpchatthalia.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_488",
+    "name": "SR-1 : (584) NB PCH at Cleo",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.537722,
+    "lng": -117.779666,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1584nbpchatcleo/sr1584nbpchatcleo.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_489",
+    "name": "SR-1 : (585) SB PCH at Legion",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.539722,
+    "lng": -117.781287,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1585sbpchatlegion/sr1585sbpchatlegion.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_490",
+    "name": "SR-1 : (586) NB PCH at Legion",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.539859,
+    "lng": -117.781409,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1586nbpchatlegion/sr1586nbpchatlegion.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_491",
+    "name": "SR-1 : (587) SB PCH at Laguna",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.541403,
+    "lng": -117.782778,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1587sbpchatlaguna/sr1587sbpchatlaguna.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_492",
+    "name": "SR-1 : (588) NB PCH at Laguna",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.541532,
+    "lng": -117.782891,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1588nbpchatlaguna/sr1588nbpchatlaguna.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_493",
+    "name": "SR-1 : (589) SB PCH at Ocean",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.542146,
+    "lng": -117.784115,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1589sbpchatocean/sr1589sbpchatocean.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_494",
+    "name": "SR-1 : (590) NB PCH at Ocean",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.542199,
+    "lng": -117.784339,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1590nbpchatocean/sr1590nbpchatocean.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_495",
+    "name": "SR-1 : (591) SB PCH at Broadway",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.542694,
+    "lng": -117.785232,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1591sbpchatbroadway/sr1591sbpchatbroadway.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D12/SBPCHBROADWAY.stream/playlist.m3u8"
+  },
+  {
+    "id": "d12_496",
+    "name": "SR-1 : (592) NB PCH at Broadway",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.542841,
+    "lng": -117.785468,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1592nbpchatbroadway/sr1592nbpchatbroadway.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D12/NBPCHBROADWAY.stream/playlist.m3u8"
+  },
+  {
+    "id": "d12_497",
+    "name": "SR-1 : (593) SB PCH at Cliff / Aster",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.543853,
+    "lng": -117.788216,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1593sbpchatcliffaster/sr1593sbpchatcliffaster.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_498",
+    "name": "SR-1 : (594) SB PCH at Jasmine",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.544577,
+    "lng": -117.790194,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1594sbpchatjasmine/sr1594sbpchatjasmine.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_499",
+    "name": "SR-1 : (595) SB PCH at Jasmine",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.544657,
+    "lng": -117.790413,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1595sbpchatjasmine/sr1595sbpchatjasmine.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_500",
+    "name": "SR-1 : (596) SB PCH at Beverly",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.546968,
+    "lng": -117.795886,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1596sbpchatbeverly/sr1596sbpchatbeverly.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_501",
+    "name": "SR-1 : (597) NB PCH at Beverly",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.547015,
+    "lng": -117.796033,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1597nbpchatbeverly/sr1597nbpchatbeverly.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_502",
+    "name": "SR-1 : (573) NB PCH at Cress",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.532473,
+    "lng": -117.775747,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1573nbpchatcress/sr1573nbpchatcress.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_518",
+    "name": "SR-1 : (818) NB PCH at Nyes",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.521007,
+    "lng": -117.761523,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1818nbpchatnyes/sr1818nbpchatnyes.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_519",
+    "name": "SR-1 : (819) SB PCH at Nyes",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.521007,
+    "lng": -117.761523,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1819sbpchatnyes/sr1819sbpchatnyes.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_520",
+    "name": "SR-1 : (820) NB PCH at Ocean Vista/Montage Resort",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.516332,
+    "lng": -117.757349,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1820nbpchatoceanvistamontageresort/sr1820nbpchatoceanvistamontageresort.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_521",
+    "name": "SR-1 : (821) SB PCH at Ocean Vista/Montage",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.516332,
+    "lng": -117.757349,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1821sbpchatoceanvistamontage/sr1821sbpchatoceanvistamontage.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_522",
+    "name": "SR-1 : (822) NB PCH at Wesley Dr.",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.514101,
+    "lng": -117.755453,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1822nbpchatwesleydr/sr1822nbpchatwesleydr.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_523",
+    "name": "SR-1 : (823) SB PCH at Wesley Dr.",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.514101,
+    "lng": -117.755453,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1823sbpchatwesleydr/sr1823sbpchatwesleydr.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_524",
+    "name": "SR-1 : (824) NB PCH at Bluff Dr/West St",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.505353,
+    "lng": -117.746771,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1824nbpchatbluffdrwestst/sr1824nbpchatbluffdrwestst.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_525",
+    "name": "SR-1 : (825) SB PCH at Bluff Dr/West St",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.505353,
+    "lng": -117.746771,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1825sbpchatbluffdrwestst/sr1825sbpchatbluffdrwestst.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_526",
+    "name": "SR-1 : (826) NB PCH at Sea Cliff/3rd Ave",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.502244,
+    "lng": -117.744187,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1826nbpchatseacliff3rdave/sr1826nbpchatseacliff3rdave.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_527",
+    "name": "SR-1 : (827) SB PCH at Sea Cliff/3rd Ave",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.502244,
+    "lng": -117.744187,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1827sbpchatseacliff3rdave/sr1827sbpchatseacliff3rdave.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_528",
+    "name": "SR-1 : (828) NB PCH at 7th Ave",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.49956,
+    "lng": -117.742001,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1828nbpchat7thave/sr1828nbpchat7thave.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_529",
+    "name": "SR-1 : (829) SB PCH at 7th Ave",
+    "route": "SR-1",
+    "jurisdiction": "Orange",
+    "lat": 33.49956,
+    "lng": -117.742001,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1829sbpchat7thave/sr1829sbpchat7thave.jpg",
+    "video_url": ""
   }
 ]
