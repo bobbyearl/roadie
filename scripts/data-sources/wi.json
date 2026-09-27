@@ -560,16 +560,6 @@
     "video_url": "https://cctv1.dot.wi.gov/rtplive/CCTV-67-0048/playlist.m3u8"
   },
   {
-    "id": "58",
-    "name": "I-41/US 45 at Mayfair Rd",
-    "route": "",
-    "jurisdiction": "",
-    "lat": 43.053698,
-    "lng": -88.04247,
-    "image_url": "https://511wi.gov/map/Cctv/994",
-    "video_url": "https://cctv1.dot.wi.gov/rtplive/CCTV-40-0038/playlist.m3u8"
-  },
-  {
     "id": "59",
     "name": "I-41/94 at College Ave",
     "route": "",
@@ -778,16 +768,6 @@
     "lng": -88.0171,
     "image_url": "https://511wi.gov/map/Cctv/1015",
     "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-40-0213/playlist.m3u8"
-  },
-  {
-    "id": "80",
-    "name": "I-41/US 45 at North Ave",
-    "route": "",
-    "jurisdiction": "",
-    "lat": 43.0597,
-    "lng": -88.053431,
-    "image_url": "https://511wi.gov/map/Cctv/1016",
-    "video_url": "https://cctv1.dot.wi.gov/rtplive/CCTV-40-0039/playlist.m3u8"
   },
   {
     "id": "81",
@@ -2481,13 +2461,13 @@
   },
   {
     "id": "250",
-    "name": "US 18 at Sunnyslope Rd",
+    "name": "Camera 250",
     "route": "",
     "jurisdiction": "",
     "lat": 43.036245,
     "lng": -88.086644,
-    "image_url": "https://511wi.gov/map/Cctv/1186",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-67-0157/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/250",
+    "video_url": ""
   },
   {
     "id": "251",
@@ -2921,13 +2901,13 @@
   },
   {
     "id": "294",
-    "name": "Camera 294",
+    "name": "I-94 at WIS 21",
     "route": "",
     "jurisdiction": "",
     "lat": 44.018777,
     "lng": -90.496779,
-    "image_url": "https://511wi.gov/map/Cctv/294",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1230",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-41-0050/playlist.m3u8"
   },
   {
     "id": "295",
@@ -2961,13 +2941,13 @@
   },
   {
     "id": "298",
-    "name": "Camera 298",
+    "name": "US 12/18 at E of Seminole Hwy (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/298",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1234",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0158/playlist.m3u8"
   },
   {
     "id": "299",
@@ -2981,33 +2961,33 @@
   },
   {
     "id": "300",
-    "name": "Camera 300",
+    "name": "US 12/18 at E of Verona Rd (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/300",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1236",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0156/playlist.m3u8"
   },
   {
     "id": "301",
-    "name": "Camera 301",
+    "name": "I-41/43/894 at 27th St",
     "route": "",
     "jurisdiction": "",
     "lat": 42.962159,
     "lng": -87.948143,
-    "image_url": "https://511wi.gov/map/Cctv/301",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1237",
+    "video_url": "https://cctv1.dot.wi.gov/rtplive/CCTV-40-0024/playlist.m3u8"
   },
   {
     "id": "302",
-    "name": "US 12/18 at Verona Rd (Flex)",
+    "name": "Camera 302",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1238",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0155/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/302",
+    "video_url": ""
   },
   {
     "id": "303",
@@ -4887,6 +4867,36 @@
     "lat": 43.08536,
     "lng": -88.6137,
     "image_url": "https://511wi.gov/map/Cctv/492",
+    "video_url": ""
+  },
+  {
+    "id": "495",
+    "name": "Camera 495",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.961726,
+    "lng": -87.958762,
+    "image_url": "https://511wi.gov/map/Cctv/495",
+    "video_url": ""
+  },
+  {
+    "id": "496",
+    "name": "Camera 496",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.05361,
+    "lng": -88.04207,
+    "image_url": "https://511wi.gov/map/Cctv/496",
+    "video_url": ""
+  },
+  {
+    "id": "497",
+    "name": "Camera 497",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.05974,
+    "lng": -88.05343,
+    "image_url": "https://511wi.gov/map/Cctv/497",
     "video_url": ""
   }
 ]

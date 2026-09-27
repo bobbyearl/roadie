@@ -17048,5 +17048,15 @@
     "lng": -122.36198401703287,
     "image_url": "https://images.wsdot.wa.gov/orflow/509vc00366.jpg",
     "video_url": ""
+  },
+  {
+    "id": "10317",
+    "name": "I-405 at MP 10.14: Coal Creek Pkwy",
+    "route": "",
+    "jurisdiction": "B",
+    "lat": 47.56766100509205,
+    "lng": -122.17971801700753,
+    "image_url": "https://images.wsdot.wa.gov/nw/405vc01014.jpg",
+    "video_url": ""
   }
 ]

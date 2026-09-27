@@ -2944,8 +2944,8 @@
     "name": "I-295 Mile 10 NB (Falmouth)",
     "route": "",
     "jurisdiction": "",
-    "lat": 43.73624,
-    "lng": -70.22761,
+    "lat": 43.73629,
+    "lng": -70.22764,
     "image_url": "https://newengland511.org/map/Cctv/2117",
     "video_url": ""
   },
@@ -2971,12 +2971,12 @@
   },
   {
     "id": "1514",
-    "name": "I-295 Mile 51 SB (Gardiner)",
+    "name": "Camera 1514",
     "route": "",
     "jurisdiction": "",
     "lat": 44.19862,
     "lng": -69.82604,
-    "image_url": "https://newengland511.org/map/Cctv/2122",
+    "image_url": "https://newengland511.org/map/Cctv/1514",
     "video_url": ""
   },
   {
@@ -3031,12 +3031,12 @@
   },
   {
     "id": "1521",
-    "name": "Camera 1521",
+    "name": "I-295 Mile 17 SB (Yarmouth)",
     "route": "",
     "jurisdiction": "",
     "lat": 43.80045,
     "lng": -70.1748,
-    "image_url": "https://newengland511.org/map/Cctv/1521",
+    "image_url": "https://newengland511.org/map/Cctv/2129",
     "video_url": ""
   },
   {

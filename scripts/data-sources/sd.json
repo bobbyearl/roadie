@@ -1558,5 +1558,115 @@
     "lng": -96.781,
     "image_url": "https://sd.cdn.iteris-atis.com/camera_images/SD41S/2/latest.jpg",
     "video_url": ""
+  },
+  {
+    "id": "CSDEKT-0",
+    "name": "Elkton - Camera Looking North",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.23900164,
+    "lng": -96.7566078,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDEKT/0/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDEKT-1",
+    "name": "Elkton - Camera Looking South",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.23900164,
+    "lng": -96.7566078,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDEKT/1/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDEKT-2",
+    "name": "Elkton - Camera Looking West",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.23900164,
+    "lng": -96.7566078,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDEKT/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDEKT-3",
+    "name": "Elkton - Road Surface View",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.23900164,
+    "lng": -96.7566078,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDEKT/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDEKT-4",
+    "name": "Elkton - Camera Looking North Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.23900164,
+    "lng": -96.7566078,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDEKT/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDEKT-5",
+    "name": "Elkton - Camera Looking South Zoom",
+    "route": "I-29",
+    "jurisdiction": "",
+    "lat": 44.23900164,
+    "lng": -96.7566078,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDEKT/5/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMHE-4",
+    "name": "Mitchell East - Road Surface View",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.71,
+    "lng": -98.02,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMHE/4/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMHE-3",
+    "name": "Mitchell East - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.71,
+    "lng": -98.02,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMHE/3/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMHE-2",
+    "name": "Mitchell East - Camera Looking East",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.71,
+    "lng": -98.02,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMHE/2/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMHE-5",
+    "name": "Mitchell East - Camera Looking South",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.71,
+    "lng": -98.02,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMHE/5/latest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "CSDMUR-1",
+    "name": "Murdo West - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.88,
+    "lng": -100.71,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMUR/1/latest.jpg",
+    "video_url": ""
   }
 ]
