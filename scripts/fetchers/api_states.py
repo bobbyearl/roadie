@@ -485,6 +485,48 @@ async def fetch_ma() -> list[dict]:
     return await _fetch_cars("ma")
 
 
+# --- New York ---
+# 511ny.org relaunched on the CARS platform, but as a newer REST variant than the
+# GraphQL 511 sites above: cameras come from a single GeoJSON FeatureCollection.
+# Every view carries a `videoPreviewUrl` still image (a .png on public.carsprogram.org
+# for the HLS/WMP cameras, an NYC DOT image endpoint for the STILL_IMAGE ones), so
+# we take that as the image for both. Image-only; the build-db longitude guard
+# fixes the handful of dropped-minus coords, and we drop broken/null-island entries.
+NY_URL = "https://api-511x-nysdot.carsprogram.org/cameras/map-features"
+
+async def fetch_ny() -> list[dict]:
+    data = await _get_json(NY_URL)
+    cameras = []
+    for feat in data.get("features", []):
+        props = feat.get("properties", {})
+        views = props.get("views") or []
+        if not views:
+            continue
+        view = views[0]
+        if view.get("broken"):
+            continue
+        image_url = view.get("videoPreviewUrl") or view.get("url")
+        if not image_url:
+            continue
+        coords = feat.get("geometry", {}).get("coordinates") or []
+        if len(coords) < 2:
+            continue
+        lng, lat = coords[0], coords[1]
+        if not lat or not lng:
+            continue
+        cameras.append({
+            "id": str(props["id"]),
+            "name": props.get("name", ""),
+            "route": props.get("route", ""),
+            "jurisdiction": props.get("cameraOwner", ""),
+            "lat": lat,
+            "lng": lng,
+            "image_url": image_url,
+            "video_url": "",
+        })
+    return cameras
+
+
 # --- Michigan ---
 # MDOT MiDrive. JSON list, but fields are HTML-wrapped: lat/lon/id live in a
 # "Go to" map link inside `county`, and the still-image src is inside an <img>

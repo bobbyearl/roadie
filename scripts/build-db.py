@@ -22,7 +22,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "data-sources")
 OUTPUT = os.path.join(SCRIPT_DIR, "..", "public", "data", "cameras.db.json")
 
 # States that have working video (HLS streams confirmed accessible without DRM)
-VIDEO_STATES = {"sc", "va", "de", "md", "tn", "wi", "la", "nv", "ny"}
+VIDEO_STATES = {"sc", "va", "de", "md", "tn", "wi", "la", "nv"}
 
 
 def parse_sc():
@@ -501,7 +501,7 @@ def parse_ne():
 
 
 def parse_ny():
-    """New York - 511ny.org tooltip scrape + mapIcons coordinates"""
+    """New York - GeoJSON from the CARS platform (fetchers/api_states.fetch_ny), image-only."""
     with open(os.path.join(DATA_DIR, "ny.json")) as f:
         return json.load(f)
 

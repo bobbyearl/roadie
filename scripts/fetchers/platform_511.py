@@ -23,7 +23,6 @@ STATES_511 = {
     "id": {"domain": "511.idaho.gov", "name_tag": "strong"},
     "ak": {"domain": "511.alaska.gov", "name_tag": "strong"},
     "ne": {"domain": "newengland511.org", "name_tag": "strong"},
-    "ny": {"domain": "511ny.org", "name_tag": "b"},
 }
 
 
