@@ -2213,7 +2213,7 @@
     "lat": 34.48138,
     "lng": -86.89728,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1389/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/U3dRVVlpTDVJRVMz/tuscumbia-fastly/hvl-cam-i65-329.6.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/hvl-cam-i65-329.6.stream/playlist.m3u8"
   },
   {
     "id": "1388",
@@ -6095,7 +6095,7 @@
     "lat": 33.19713,
     "lng": -87.51872,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1973/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/YlRaRWsxYU1lTDdT/tuscaloosa-fastly/tus-cam-215-7.1.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-215-7.1.stream/playlist.m3u8"
   },
   {
     "id": "1431",
@@ -6698,41 +6698,14 @@
     "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-2059-89.2w.stream/playlist.m3u8"
   },
   {
-    "id": 1688,
-    "location": {
-      "latitude": 33.21895,
-      "longitude": -87.57692,
-      "city": "Northport",
-      "county": "Tuscaloosa",
-      "displayRouteDesignator": "5th St",
-      "routeDesignator": "",
-      "routeDesignatorType": "Unknown",
-      "stateRoadways": [],
-      "displayCrossStreet": "US 43 SB",
-      "crossStreet": "US-43",
-      "crossStreetType": "USHighway",
-      "intersectingStateRoadways": [
-        {
-          "name": "US-43",
-          "type": "USRoute",
-          "routeNumber": 43,
-          "specialType": "None"
-        }
-      ],
-      "direction": "South",
-      "linearReference": 195.68,
-      "nearestRoadwayPoints": []
-    },
-    "responsibleRegion": "WestCentral",
-    "playbackUrls": {
-      "hls": "https://cdn3.wowza.com/5/OFFTaHBTNlZ0K05H/tuscaloosa-fastly/tus-cam-43-195.7.stream/playlist.m3u8",
-      "dash": "https://cdn3.wowza.com/5/OFFTaHBTNlZ0K05H/tuscaloosa-fastly/tus-cam-43-195.7.stream/manifest.mpd"
-    },
-    "accessLevel": "Public",
-    "mapLayer": "Camera",
-    "permLink": "https://www.algotraffic.com?cameraId=1688",
-    "snapshotImageUrl": "https://api.algotraffic.com/v4/Cameras/1688/snapshot.jpg",
-    "mapImageUrl": "https://api.algotraffic.com/v4/Cameras/1688/map@1x.jpg"
+    "id": "1688",
+    "name": "5th St @ US 43 SB",
+    "route": "5th St",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.21895,
+    "lng": -87.57692,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/1688/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-43-195.7.stream/playlist.m3u8"
   },
   {
     "id": "1898",
