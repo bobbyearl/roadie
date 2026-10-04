@@ -7,6 +7,7 @@ Usage:
     python3 scripts/refresh-all.py sc va wi     # Refresh specific states
     python3 scripts/refresh-all.py --api-only   # Skip states that need Playwright
     python3 scripts/refresh-all.py --check      # Health check only (no data refresh)
+    python3 scripts/refresh-all.py --strict     # Fail if any state fails (default: fail only if all fail)
 
 After refreshing, run build-db.py to regenerate the public data files.
 """
@@ -188,6 +189,11 @@ async def main():
     parser.add_argument("states", nargs="*", help="Specific states to refresh (default: all)")
     parser.add_argument("--api-only", action="store_true", help="Skip states that need Playwright")
     parser.add_argument("--check", action="store_true", help="Health check only (no data refresh)")
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="Fail (exit 1) if any state fails, instead of only when every attempted state fails",
+    )
     args = parser.parse_args()
 
     if args.check:
@@ -250,11 +256,22 @@ async def main():
 
     print(f"\nDone in {elapsed:.1f}s: {successes} refreshed, {failures} failed, {skipped} skipped")
 
-    if failures > 0:
-        print("\nFailed states:")
-        for state_id, success, msg in results:
-            if success is False:
-                print(f"  {state_id.upper()}: {msg}")
+    if failures == 0:
+        return
+
+    failed = [(s, m) for s, ok, m in results if ok is False]
+    print("\nFailed states:")
+    for state_id, msg in failed:
+        print(f"  {state_id.upper()}: {msg}")
+
+    # GitHub Actions annotation so a partial failure is a visible yellow flag
+    # on an otherwise-green run (and still shows in logs when run elsewhere).
+    failed_summary = ", ".join(f"{s.upper()} ({m})" for s, m in failed)
+    print(f"::warning title=Camera refresh: {failures} state(s) failed::{failed_summary}")
+
+    # Fail only when every attempted state failed (a real outage), or --strict.
+    # A partial failure still exits 0 so build-db runs and the good states ship.
+    if args.strict or successes == 0:
         sys.exit(1)
 
 
