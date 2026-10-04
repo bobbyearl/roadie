@@ -7715,8 +7715,258 @@
     "route": "I-95",
     "jurisdiction": "Charleston",
     "lat": 32.386111,
-    "lng": -84.0,
+    "lng": -81.02575,
     "image_url": "https://scdotsnap.us-east-1.skyvdn.com/60520.png",
     "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/60520/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "127ecc63da5f4602bf373e05",
+    "name": "SC-277 N @ MM 7.5 (I-77 Flyover)",
+    "route": "SC-277",
+    "jurisdiction": "Columbia",
+    "lat": 34.092639,
+    "lng": -80.954558,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/10101.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/10101/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "77cf640725f64300a14f967b",
+    "name": "SC-277 N @ MM 7.6 (I-77 N Ramp)",
+    "route": "SC-277",
+    "jurisdiction": "Columbia",
+    "lat": 34.094464,
+    "lng": -80.954319,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/10102.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/10102/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "caedc755946f44628e385acd",
+    "name": "I-77 S @ MM 54.1",
+    "route": "I-77",
+    "jurisdiction": "Columbia",
+    "lat": 34.59416944,
+    "lng": -81.01644722,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/10206.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/10206/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "2495",
+    "name": "I-95 S @ MM 117.2",
+    "route": "I-95",
+    "jurisdiction": "Columbia",
+    "lat": 33.685894,
+    "lng": -80.258919,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/10257.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/10257/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "d30c418dedc740a9951fcf31",
+    "name": "I-26 W @ MM 203.9",
+    "route": "I-26",
+    "jurisdiction": "Charleston",
+    "lat": 32.990917,
+    "lng": -80.085528,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/10539.png",
+    "video_url": "https://s19.us-east-1.skyvdn.com/rtplive/10539/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "cfd45171cfeb44f497688464",
+    "name": "I-20 W @ MM 5",
+    "route": "I-20",
+    "jurisdiction": "Columbia",
+    "lat": 33.56471,
+    "lng": -81.937944,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/10603.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/10603/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "8ef5cac441f744f887b709ca",
+    "name": "I-85 N @ MM 4.2 (Exit 4)",
+    "route": "I-85",
+    "jurisdiction": "Greenville",
+    "lat": 34.506333,
+    "lng": -82.962056,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/30500.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/30500/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "1101602b07c04bdb8d89dd50",
+    "name": "I-85 N @ MM 9.2 (Weigh Station)",
+    "route": "I-85",
+    "jurisdiction": "Greenville",
+    "lat": 34.516306,
+    "lng": -82.875361,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/30501.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/30501/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "d8cc819f55fb4762af5cd8c4",
+    "name": "I-85 S @ MM 11.2 (Exit 11)",
+    "route": "I-85",
+    "jurisdiction": "Greenville",
+    "lat": 34.528056,
+    "lng": -82.842,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/30502.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/30502/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "c10c8c5896204950b77d4c9e",
+    "name": "I-85 N @ MM 12.2",
+    "route": "I-85",
+    "jurisdiction": "Greenville",
+    "lat": 34.53475,
+    "lng": -82.8275,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/30503.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/30503/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "43986cd77b214588b3838c46",
+    "name": "I-85 S @ MM 13.6 (Exit 14)",
+    "route": "I-85",
+    "jurisdiction": "Greenville",
+    "lat": 34.546694,
+    "lng": -82.808639,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/30504.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/30504/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "b3a721d87e204b49a66790c6",
+    "name": "I-85 N @ MM 17.6 (Rest Area)",
+    "route": "I-85",
+    "jurisdiction": "Greenville",
+    "lat": 34.566583,
+    "lng": -82.741111,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/30505.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/30505/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "0051d87d703047309bc95630",
+    "name": "I-77 N @ MM 55.2 (Exit 55)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.610217,
+    "lng": -81.019456,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40036.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/40036/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "7c3f127d70bb4598868e19ee",
+    "name": "I-77 N @ MM 60.1 (Old Mill Rd)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.679128,
+    "lng": -81.029372,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40037.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/40037/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "04ab7f870daa4bc9895dd39b",
+    "name": "I-77 N @ MM 61.3 (Murdock Rd)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.696792,
+    "lng": -81.0297,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40038.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/40038/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "64af5931468c43a29055e574",
+    "name": "I-77 N @ MM 62.3 (Exit 62)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.712875,
+    "lng": -81.03132778,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40039.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/40039/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "dbb8ddf158104c02919e6774",
+    "name": "I-77 N @ MM 64.6 (Exit 65)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.745925,
+    "lng": -81.03556944,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40040.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/40040/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "e7f1c53b15664ffa8a2cab62",
+    "name": "I-77 N  @ MM 65.9 (Rest Area)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.76351667,
+    "lng": -81.03669722,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40041.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/40041/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "32392a2176c943d68c656d17",
+    "name": "I-77 S @ MM 66.5",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.77300278,
+    "lng": -81.03803056,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40042.png",
+    "video_url": "https://s19.us-east-1.skyvdn.com/rtplive/40042/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "734455a71fab48fab2b4563b",
+    "name": "I- 77 N @ MM 69.2 (Dunlap Roddy Rd)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.813236,
+    "lng": -81.034528,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40043.png",
+    "video_url": "https://s19.us-east-1.skyvdn.com/rtplive/40043/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "2365254bd9fc4d128290f3d9",
+    "name": "I-77 S @ MM 74.6",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.883322,
+    "lng": -80.999933,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40047.png",
+    "video_url": "https://s19.us-east-1.skyvdn.com/rtplive/40047/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "4500429092b344ad851142bc",
+    "name": "I-77 N @ MM 75.2 (Exit 75)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.891144,
+    "lng": -80.994558,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40048.png",
+    "video_url": "https://s19.us-east-1.skyvdn.com/rtplive/40048/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "e72041b0-d2a0-11e6-8996-0123456789ab",
+    "name": "US 501 S @ Singleton Ridge Rd",
+    "route": "US 501",
+    "jurisdiction": "Myrtle Beach",
+    "lat": 33.791083,
+    "lng": -78.997722,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/50004.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/50004/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "6108",
+    "name": "Mt. Pleasant Tower - Upper 2 (MM 105.54)",
+    "route": "US 17",
+    "jurisdiction": "Charleston",
+    "lat": 32.802774,
+    "lng": -79.913227,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/60079.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/60079/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "6109",
+    "name": "Charleston Tower - Upper 2 (MM 104.55)",
+    "route": "US 17",
+    "jurisdiction": "Charleston",
+    "lat": 32.80335,
+    "lng": -79.9175,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/60080.png",
+    "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/60080/playlist_sfm4s.m3u8"
   }
 ]

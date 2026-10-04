@@ -3313,7 +3313,7 @@
     "id": "1487",
     "name": "SR 520 at MP 2.9: Mid Bridge",
     "route": "",
-    "jurisdiction": "W",
+    "jurisdiction": "B",
     "lat": 47.64139600509513,
     "lng": -122.26243801701904,
     "image_url": "https://images.wsdot.wa.gov/nw/520vc00293.jpg",
@@ -14181,22 +14181,22 @@
   },
   {
     "id": "10019",
-    "name": "I-405 at MP 18: NE 85th, SW Quad",
+    "name": "I-405 at MP 18.21: NE 85th St, SB",
     "route": "",
     "jurisdiction": "B",
     "lat": 47.677334005096604,
     "lng": -122.18506401700826,
-    "image_url": "https://images.wsdot.wa.gov/nw/405vc01808.jpg",
+    "image_url": "https://images.wsdot.wa.gov/nw/405vc01821.jpg",
     "video_url": ""
   },
   {
     "id": "10021",
-    "name": "I-405 at MP 18.2: NE 85th, NE Quad",
+    "name": "I-405 at MP 18.17: NE 85th St, NB",
     "route": "",
     "jurisdiction": "B",
     "lat": 47.680384005096776,
     "lng": -122.18390201700811,
-    "image_url": "https://images.wsdot.wa.gov/nw/405vc01820.jpg",
+    "image_url": "https://images.wsdot.wa.gov/nw/405vc01817.jpg",
     "video_url": ""
   },
   {
@@ -15761,11 +15761,11 @@
   },
   {
     "id": "10180",
-    "name": "I-405 @ MP 18.1: NE 85th St, SB Ramps",
+    "name": "I-405 @ MP 18.1: NE 85th St, NB Ramps",
     "route": "",
     "jurisdiction": "B",
-    "lat": 47.67903000509672,
-    "lng": -122.18647301700847,
+    "lat": 47.67914600509672,
+    "lng": -122.18282501700797,
     "image_url": "https://images.wsdot.wa.gov/nw/405vc01812.jpg",
     "video_url": ""
   },
@@ -15831,7 +15831,7 @@
   },
   {
     "id": "10187",
-    "name": "I-5 at MP 21.10: Woodland SB Signal",
+    "name": "I-5 at MP 21.10: Woodland SB Signal #4",
     "route": "",
     "jurisdiction": "N",
     "lat": 45.90535800501651,
@@ -15841,7 +15841,7 @@
   },
   {
     "id": "10188",
-    "name": "I-5 at MP 21.10: Woodland SB Signal",
+    "name": "I-5 at MP 21.10: Woodland SB Signal #3",
     "route": "",
     "jurisdiction": "E",
     "lat": 45.90535800501651,
@@ -15851,7 +15851,7 @@
   },
   {
     "id": "10189",
-    "name": "I-5 at MP 21.10: Woodland SB Signal",
+    "name": "I-5 at MP 21.10: Woodland SB Signal #1",
     "route": "",
     "jurisdiction": "S",
     "lat": 45.90535800501651,
@@ -15861,7 +15861,7 @@
   },
   {
     "id": "10190",
-    "name": "I-5 at MP 21.10: Woodland SB Signal",
+    "name": "I-5 at MP 21.10: Woodland SB Signal #2",
     "route": "",
     "jurisdiction": "W",
     "lat": 45.90535800501651,
@@ -16794,8 +16794,8 @@
     "name": "SR 432 at MP 4.4: Washington Way",
     "route": "",
     "jurisdiction": "O",
-    "lat": 46.131663005027484,
-    "lng": -122.97750701711854,
+    "lat": 46.131702005027485,
+    "lng": -122.97799301711862,
     "image_url": "https://images.wsdot.wa.gov/sw/432vc00443.jpg",
     "video_url": ""
   },
@@ -16804,8 +16804,8 @@
     "name": "SR 432 at MP 4.4: Washington Way",
     "route": "",
     "jurisdiction": "S",
-    "lat": 46.131949005027515,
-    "lng": -122.97797001711864,
+    "lat": 46.131702005027485,
+    "lng": -122.97799301711862,
     "image_url": "https://images.wsdot.wa.gov/sw/432vc00444.jpg",
     "video_url": ""
   },
@@ -16814,8 +16814,8 @@
     "name": "SR 432 at MP 4.4: Washington Way",
     "route": "",
     "jurisdiction": "W",
-    "lat": 46.131483005027484,
-    "lng": -122.97738801711854,
+    "lat": 46.131702005027485,
+    "lng": -122.97799301711862,
     "image_url": "https://images.wsdot.wa.gov/sw/432vc00445.jpg",
     "video_url": ""
   },
@@ -16824,8 +16824,8 @@
     "name": "SR 432 at MP 4.4: Washington Way",
     "route": "",
     "jurisdiction": "N",
-    "lat": 46.131483005027484,
-    "lng": -122.97738801711854,
+    "lat": 46.131702005027485,
+    "lng": -122.97799301711862,
     "image_url": "https://images.wsdot.wa.gov/sw/432vc00446.jpg",
     "video_url": ""
   },
@@ -16834,8 +16834,8 @@
     "name": "SR 432 at MP 4.4: Washington Way",
     "route": "",
     "jurisdiction": "E",
-    "lat": 46.131483005027484,
-    "lng": -122.97738801711854,
+    "lat": 46.131702005027485,
+    "lng": -122.97799301711862,
     "image_url": "https://images.wsdot.wa.gov/sw/432vc00447.jpg",
     "video_url": ""
   },
@@ -17047,6 +17047,26 @@
     "lat": 47.25437800507868,
     "lng": -122.36198401703287,
     "image_url": "https://images.wsdot.wa.gov/orflow/509vc00366.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "10317",
+    "name": "I-405 at MP 10.14: Coal Creek Pkwy",
+    "route": "",
+    "jurisdiction": "B",
+    "lat": 47.56766100509205,
+    "lng": -122.17971801700753,
+    "image_url": "https://images.wsdot.wa.gov/nw/405vc01014.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "10318",
+    "name": "I-405 at MP 18.13: NE 85th St, SB Ramps",
+    "route": "",
+    "jurisdiction": "B",
+    "lat": 47.679180005096676,
+    "lng": -122.1852090170083,
+    "image_url": "https://images.wsdot.wa.gov/nw/405vc01813.jpg",
     "video_url": ""
   }
 ]

@@ -5518,5 +5518,25 @@
     "lng": -90.750469,
     "image_url": "https://layers.idrivearkansas.com/cameras/698.jpg",
     "video_url": ""
+  },
+  {
+    "id": "858",
+    "name": "I-30 @ Bryant (Exit 123)",
+    "route": "30",
+    "jurisdiction": "Interstate",
+    "lat": 34.624489,
+    "lng": -92.485883,
+    "image_url": "https://layers.idrivearkansas.com/cameras/858.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "265",
+    "name": "I-440 at Mile Marker 4.5",
+    "route": "440",
+    "jurisdiction": "Interstate",
+    "lat": 34.71477,
+    "lng": -92.200424,
+    "image_url": "https://layers.idrivearkansas.com/cameras/265.jpg",
+    "video_url": ""
   }
 ]
