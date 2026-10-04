@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "name": "Seward Highway @ Portage Glacier Road MP 78.9",
+    "name": "Seward Highway MP 78.9 / Portage Glacier Road (#0)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.818883,
@@ -11,7 +11,7 @@
   },
   {
     "id": "3",
-    "name": "Seward Highway @ Bird Point MP 96.3",
+    "name": "Seward Highway MP 96.3 @ Bird Point (#1)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.929619,
@@ -21,7 +21,7 @@
   },
   {
     "id": "4",
-    "name": "Seward Highway @ Huffman Road MP 120",
+    "name": "Seward Highway MP 120 / Huffman Road (#2)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.10922,
@@ -31,7 +31,7 @@
   },
   {
     "id": "5",
-    "name": "Glenn Highway @ Eagle River Bridge MP 12.8",
+    "name": "Glenn Highway MP 12.8 @ Eagle River Bridge (#3)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.3117,
@@ -41,7 +41,7 @@
   },
   {
     "id": "6",
-    "name": "Hillside Road @ Upper Huffman Road",
+    "name": "Hillside Road / Upper Huffman Road (#4)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.107798,
@@ -61,7 +61,7 @@
   },
   {
     "id": "8",
-    "name": "Glenn Highway @ S Curves MP 10",
+    "name": "Glenn Highway MP 10 @ S Curves (#6)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.27593,
@@ -71,7 +71,7 @@
   },
   {
     "id": "9",
-    "name": "Glenn Highway @ 2nd Knik River Bridge MP 31.1",
+    "name": "Glenn Highway MP 31.1 @ 2nd Knik River Bridge (#7)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.4908,
@@ -81,7 +81,7 @@
   },
   {
     "id": "10",
-    "name": "Parks Highway @ Hawk Lane MP 53.2 (CCS # 9992)",
+    "name": "Parks Highway MP 53.2 / Hawk Lane (CCS # 9992) (#8)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.585003,
@@ -91,7 +91,7 @@
   },
   {
     "id": "11",
-    "name": "Parks Highway @ Talkeetna Road MP 98.7",
+    "name": "Parks Highway MP 98.7 / Talkeetna Spur Road (#9)",
     "route": "",
     "jurisdiction": "",
     "lat": 62.129099,
@@ -101,7 +101,7 @@
   },
   {
     "id": "14",
-    "name": "Seward Highway @ Summit Lake MP 45.8",
+    "name": "Seward Highway MP 45.8 @ Summit Lake (#11)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.640439,
@@ -121,7 +121,7 @@
   },
   {
     "id": "16",
-    "name": "Sterling Highway @ Russian River Ferry MP 54.8",
+    "name": "Sterling Highway MP 54.8 @ Russian River Ferry (#12)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.487019,
@@ -141,7 +141,7 @@
   },
   {
     "id": "18",
-    "name": "Sterling Highway @ Ninilchik River Bridge MP 135.2",
+    "name": "Sterling Highway MP 135.2 @ Ninilchik River Bridge (#13)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.047761,
@@ -151,7 +151,7 @@
   },
   {
     "id": "19",
-    "name": "Egan Drive / Glacier Highway @ MP 3",
+    "name": "Egan Drive MP 3 (#14)",
     "route": "",
     "jurisdiction": "",
     "lat": 58.321368,
@@ -161,7 +161,7 @@
   },
   {
     "id": "21",
-    "name": "Glacier Highway @ Cohen Drive MP 21",
+    "name": "Glacier Highway MP 21 / Cohen Drive (#16)",
     "route": "",
     "jurisdiction": "",
     "lat": 58.449615,
@@ -171,7 +171,7 @@
   },
   {
     "id": "22",
-    "name": "Haines Highway @ MP 25",
+    "name": "Haines Highway MP 25 (#17)",
     "route": "",
     "jurisdiction": "",
     "lat": 59.409787,
@@ -181,7 +181,7 @@
   },
   {
     "id": "23",
-    "name": "Glenn Highway @ Gunsight Mountain MP 117",
+    "name": "Glenn Highway MP 117 @ Gunsight Mountain (#18)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.82303,
@@ -201,7 +201,7 @@
   },
   {
     "id": "26",
-    "name": "Richardson Highway @ Sheep Creek MP 18.6",
+    "name": "Richardson Highway MP 18.6 @ Sheep Creek (#20)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.110941,
@@ -221,7 +221,7 @@
   },
   {
     "id": "28",
-    "name": "Richardson Highway @ Edgerton Highway MP 82.7",
+    "name": "Richardson Highway MP 82.7 / Edgerton Highway (#21)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.708652,
@@ -231,7 +231,7 @@
   },
   {
     "id": "29",
-    "name": "Richardson Highway @ Birch Lake MP 307.2",
+    "name": "Richardson Highway MP 307.2 @ Birch Lake (#22)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.315701,
@@ -241,7 +241,7 @@
   },
   {
     "id": "30",
-    "name": "Tok Cutoff @ Mentasta Pass MP 79.2",
+    "name": "Tok Cutoff MP 79.2 @ Mentasta Pass (#23)",
     "route": "",
     "jurisdiction": "",
     "lat": 62.902898,
@@ -251,7 +251,7 @@
   },
   {
     "id": "31",
-    "name": "Richardson Highway @ Trims DOT Maintenance Station MP 218.2",
+    "name": "Richardson Highway MP 218.2 @ Trims DOT Maintenance Station (#24)",
     "route": "",
     "jurisdiction": "",
     "lat": 63.415446,
@@ -261,7 +261,7 @@
   },
   {
     "id": "32",
-    "name": "Alaska Highway @ Dot Lake MP 1355.2",
+    "name": "Alaska Highway MP 1355.2 @ Dot Lake (#25)",
     "route": "",
     "jurisdiction": "",
     "lat": 63.59155,
@@ -271,7 +271,7 @@
   },
   {
     "id": "33",
-    "name": "Richardson Highway @ Thompson Pass MP 25.7",
+    "name": "Richardson Highway MP 25.7 @ Thompson Pass (#26)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.128452,
@@ -281,7 +281,7 @@
   },
   {
     "id": "35",
-    "name": "University Avenue @ Chena River Bridge",
+    "name": "University Avenue @ Chena River Bridge (#28)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.8415,
@@ -291,7 +291,7 @@
   },
   {
     "id": "36",
-    "name": "Steese Highway @ Cleary Summit MP 20.9",
+    "name": "Steese Highway MP 20.9 @ Cleary Summit (#29)",
     "route": "",
     "jurisdiction": "",
     "lat": 65.046871,
@@ -301,7 +301,7 @@
   },
   {
     "id": "37",
-    "name": "Haines Highway @ Klehini MP 36.6",
+    "name": "Haines Highway MP 36.6 @ Klehini River (#30)",
     "route": "",
     "jurisdiction": "",
     "lat": 59.438724,
@@ -311,7 +311,7 @@
   },
   {
     "id": "38",
-    "name": "Parks Highway @ Little Coal Creek MP 163.2",
+    "name": "Parks Highway MP 163.2 @ Little Coal Creek (#31)",
     "route": "",
     "jurisdiction": "",
     "lat": 62.889492,
@@ -321,7 +321,7 @@
   },
   {
     "id": "39",
-    "name": "Klondike Highway @ US/Canada Border MP 14.9",
+    "name": "Klondike Highway MP 14.9 @ US/Canada Border (#32)",
     "route": "",
     "jurisdiction": "",
     "lat": 59.628724,
@@ -331,7 +331,7 @@
   },
   {
     "id": "40",
-    "name": "Whittier Access Road @ Whittier Tunnel - Bear Valley Entrance MP 6.5",
+    "name": "Whittier Access Road MP 6.5 @ Whittier Tunnel - Bear Valley Entrance (#33)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.790241,
@@ -341,7 +341,7 @@
   },
   {
     "id": "41",
-    "name": "North Douglas Highway @ MP 4.4",
+    "name": "North Douglas Highway MP 4.4 (#34)",
     "route": "",
     "jurisdiction": "",
     "lat": 58.332895,
@@ -351,7 +351,7 @@
   },
   {
     "id": "42",
-    "name": "Richardson Highway @ Stuart Creek MP 45.7",
+    "name": "Richardson Highway MP 45.7 @ Stuart Creek (#35)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.260581,
@@ -361,7 +361,7 @@
   },
   {
     "id": "43",
-    "name": "Richardson Highway @ Tenderfoot MP 292.6",
+    "name": "Richardson Highway MP 292.6 @ Tenderfoot (#36)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.28219,
@@ -371,7 +371,7 @@
   },
   {
     "id": "44",
-    "name": "Alaska Highway @ Canadian Border MP 1221.8",
+    "name": "Alaska Highway MP 1221.8 @ Canadian Border (#37)",
     "route": "",
     "jurisdiction": "",
     "lat": 62.621359,
@@ -381,7 +381,7 @@
   },
   {
     "id": "45",
-    "name": "Parks Highway @ Nenana Hills MP 325.4",
+    "name": "Parks Highway MP 325.4 @ Nenana Hills (#38)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.707598,
@@ -391,7 +391,7 @@
   },
   {
     "id": "46",
-    "name": "Parks Highway @ Antler Creek MP 244",
+    "name": "Parks Highway MP 244 @ Antler Creek (#39)",
     "route": "",
     "jurisdiction": "",
     "lat": 63.809683,
@@ -411,7 +411,7 @@
   },
   {
     "id": "48",
-    "name": "Parks Highway @ Rex Bridge MP 276",
+    "name": "Parks Highway MP 276 @ Rex Bridge (#41)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.218261,
@@ -421,7 +421,7 @@
   },
   {
     "id": "49",
-    "name": "Glenn Highway @ MP 176.6",
+    "name": "Glenn Highway MP 176.6 (#42)",
     "route": "",
     "jurisdiction": "",
     "lat": 62.10634,
@@ -431,7 +431,7 @@
   },
   {
     "id": "50",
-    "name": "Seward Highway @ Turnagain Pass MP 69.9",
+    "name": "Seward Highway MP 69.9 @ Turnagain Pass (#43)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.804228,
@@ -441,7 +441,7 @@
   },
   {
     "id": "51",
-    "name": "Seward Highway @ Divide MP 12",
+    "name": "Seward Highway MP 12 @ Divide (#44)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.25128,
@@ -451,7 +451,7 @@
   },
   {
     "id": "52",
-    "name": "Sterling Highway @ Tern Lake MP 37",
+    "name": "Sterling Highway MP 37 @ Tern Lake (#45)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.533264,
@@ -461,7 +461,7 @@
   },
   {
     "id": "53",
-    "name": "Glenn Highway @ Thunderbird Falls MP 24.5",
+    "name": "Glenn Highway MP 24.5 @ Thunderbird Falls (#46)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.438763,
@@ -471,7 +471,7 @@
   },
   {
     "id": "54",
-    "name": "Pasagshak Road @ MP 3.8 (CCS # 9994)",
+    "name": "Pasagshak Road MP 3.8 (CCS # 9994) (#47)",
     "route": "",
     "jurisdiction": "",
     "lat": 57.530225,
@@ -481,7 +481,7 @@
   },
   {
     "id": "55",
-    "name": "Sterling Highway @ Jean Lake Hill MP 62.2",
+    "name": "Sterling Highway MP 62.2 @ Jean Lake Hill (#48)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.523121,
@@ -491,7 +491,7 @@
   },
   {
     "id": "56",
-    "name": "Mitkof Highway @ Blaquiere Point MP 33",
+    "name": "Mitkof Highway MP 33 @ Blaquiere Point (#49)",
     "route": "",
     "jurisdiction": "",
     "lat": 56.585419,
@@ -501,7 +501,7 @@
   },
   {
     "id": "57",
-    "name": "Mitkof Highway @ Banana Point MP 27.4",
+    "name": "Mitkof Highway MP 27.4 @ Banana Point (#50)",
     "route": "",
     "jurisdiction": "",
     "lat": 56.55018,
@@ -511,7 +511,7 @@
   },
   {
     "id": "58",
-    "name": "Richardson Highway @ Keystone Canyon MP 12.3",
+    "name": "Richardson Highway MP 12.3 @ Keystone Canyon (#51)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.059403,
@@ -521,7 +521,7 @@
   },
   {
     "id": "59",
-    "name": "Camp Road @ Whittier Tunnel - Whittier Entrance",
+    "name": "Camp Road @ Whittier Tunnel - Whittier Entrance (#52)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.77614,
@@ -531,7 +531,7 @@
   },
   {
     "id": "60",
-    "name": "Glenn Highway @ MP 34.5",
+    "name": "Glenn Highway MP 34.5 (#53)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.54686,
@@ -541,7 +541,7 @@
   },
   {
     "id": "61",
-    "name": "Parks Highway / Glenn Highway Interchange",
+    "name": "Parks Highway / Glenn Highway Interchange (#54)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.553523,
@@ -551,7 +551,7 @@
   },
   {
     "id": "62",
-    "name": "Glenn Highway @ MP 35.2",
+    "name": "Glenn Highway MP 35.2 (#55)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.554022,
@@ -561,7 +561,7 @@
   },
   {
     "id": "63",
-    "name": "Seward Highway @ Potter Marsh MP 117.3",
+    "name": "Seward Highway MP 117.3 @ Potter Marsh (#57)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.076423,
@@ -571,7 +571,7 @@
   },
   {
     "id": "64",
-    "name": "Glenn Highway @ Bragaw Street",
+    "name": "Glenn Highway / Bragaw Street (#58)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.2193,
@@ -581,7 +581,7 @@
   },
   {
     "id": "65",
-    "name": "Thane Road @ Snowslide Creek Avalanche Path MP 1.9",
+    "name": "Thane Road MP 1.9 @ Snowslide Creek Avalanche Path (#59)",
     "route": "",
     "jurisdiction": "",
     "lat": 58.282965,
@@ -601,17 +601,17 @@
   },
   {
     "id": "68",
-    "name": "Thane Road @ Snowslide Creek Avalanche Path MP 2.2",
+    "name": "Thane Road MP 2.2 @ Snowslide Creek Avalanche Path (#60)",
     "route": "",
     "jurisdiction": "",
     "lat": 58.281184,
-    "lng": -139.0,
+    "lng": -134.369714,
     "image_url": "https://511.alaska.gov/map/Cctv/325",
     "video_url": ""
   },
   {
     "id": "69",
-    "name": "Thane Road @ Middle Pass MP 2.5",
+    "name": "Thane Road MP 2.5 @ Middle Pass (#61)",
     "route": "",
     "jurisdiction": "",
     "lat": 58.278937,
@@ -621,7 +621,7 @@
   },
   {
     "id": "70",
-    "name": "Thane Road @ Cross Bay MP 3.0",
+    "name": "Thane Road MP 3.0 @ Cross Bay (#62)",
     "route": "",
     "jurisdiction": "",
     "lat": 58.273394,
@@ -631,7 +631,7 @@
   },
   {
     "id": "71",
-    "name": "Airport Way @ Eielson Street",
+    "name": "Airport Way / Eielson Street (#63)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.8353,
@@ -641,7 +641,7 @@
   },
   {
     "id": "72",
-    "name": "Badger Road @ Old Richardson Highway",
+    "name": "Badger Road / Old Richardson Highway (#64)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.8105,
@@ -651,7 +651,7 @@
   },
   {
     "id": "73",
-    "name": "Airport Way @ Cowles Street",
+    "name": "Airport Way / Cowles Street (#65)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.836853,
@@ -661,7 +661,7 @@
   },
   {
     "id": "74",
-    "name": "Lathrop Street @ 21st Avenue",
+    "name": "Lathrop Street / 21st Avenue (#66)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.828286,
@@ -671,7 +671,7 @@
   },
   {
     "id": "75",
-    "name": "Badger Road @ Beulah Court",
+    "name": "Badger Road / Beulah Court (#67)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.770751,
@@ -681,7 +681,7 @@
   },
   {
     "id": "76",
-    "name": "Klawock Highway @ Control Lake",
+    "name": "Klawock Highway @ Control Lake (#69)",
     "route": "",
     "jurisdiction": "",
     "lat": 55.694,
@@ -691,7 +691,7 @@
   },
   {
     "id": "77",
-    "name": "Hollis Highway",
+    "name": "Hollis Highway (#70)",
     "route": "",
     "jurisdiction": "",
     "lat": 55.45805,
@@ -701,7 +701,7 @@
   },
   {
     "id": "78",
-    "name": "Goldstream Road @ Old Steese Highway",
+    "name": "Goldstream Road / Old Steese Highway (#73)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.943933,
@@ -711,7 +711,7 @@
   },
   {
     "id": "79",
-    "name": "Fairbanks International Airport",
+    "name": "Fairbanks International Airport (#72)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.8173,
@@ -721,7 +721,7 @@
   },
   {
     "id": "80",
-    "name": "Ballaine Road near Red Fox Drive",
+    "name": "Ballaine Road / Red Fox Drive (#71)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.900824,
@@ -731,7 +731,7 @@
   },
   {
     "id": "81",
-    "name": "Eielson AFB Main Gate @ Richardson Highway MP 341.3",
+    "name": "Richardson Highway MP 341.3 @ Eielson AFB Main Gate (#74)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.692328,
@@ -741,7 +741,7 @@
   },
   {
     "id": "82",
-    "name": "Richardson Highway @ Tsina River MP 37",
+    "name": "Richardson Highway MP 37 @ Tsina River (#75)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.2079304,
@@ -751,7 +751,7 @@
   },
   {
     "id": "83",
-    "name": "Seward Highway @ MP 98.5",
+    "name": "Seward Highway MP 98.5 (#901)",
     "route": "",
     "jurisdiction": "",
     "lat": 60.949519,
@@ -761,7 +761,7 @@
   },
   {
     "id": "84",
-    "name": "Chena Hot Springs @ Roberts Roost Road",
+    "name": "Chena Hot Springs Road / Roberts Roost Road (#902)",
     "route": "",
     "jurisdiction": "",
     "lat": 64.884396,
@@ -771,7 +771,7 @@
   },
   {
     "id": "85",
-    "name": "Seward Highway @ MP 113.5",
+    "name": "Seward Highway MP 113.5 (#903)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.030516,
@@ -781,7 +781,7 @@
   },
   {
     "id": "86",
-    "name": "Hatcher Pass @ MP 15",
+    "name": "Hatcher Pass Road MP 15 (#904)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.765153,
@@ -791,7 +791,7 @@
   },
   {
     "id": "87",
-    "name": "Alaska Highway @ MP 1285",
+    "name": "Alaska Highway MP 1285 (#905)",
     "route": "",
     "jurisdiction": "",
     "lat": 63.199797,
@@ -801,7 +801,7 @@
   },
   {
     "id": "88",
-    "name": "Tok Cutoff @ MP 18.5",
+    "name": "Tok Cutoff MP 18.5 (#906)",
     "route": "",
     "jurisdiction": "",
     "lat": 62.432327,
@@ -811,7 +811,7 @@
   },
   {
     "id": "89",
-    "name": "Glenn Highway @ MP 106",
+    "name": "Glenn Highway MP 106 (#907)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.791121,
@@ -821,7 +821,7 @@
   },
   {
     "id": "90",
-    "name": "Atigun Pass South",
+    "name": "Atigun Pass South (#908)",
     "route": "",
     "jurisdiction": "",
     "lat": 68.12538,
@@ -1271,7 +1271,7 @@
   },
   {
     "id": "151",
-    "name": "Alaska Highway @ Yerrick Creek MP 1334",
+    "name": "Alaska Highway MP 1334 @ Yerrick Creek (#76)",
     "route": "",
     "jurisdiction": "",
     "lat": 63.38619,
@@ -1281,12 +1281,22 @@
   },
   {
     "id": "154",
-    "name": "#381 Richardson Highway @ South Three Pigs Summit Advanced (Winter Hazards) RWIS Station MP 39",
+    "name": "South Three Pigs Summit Advanced Winter Hazards RWIS (#605)",
     "route": "",
     "jurisdiction": "",
     "lat": 61.231746,
     "lng": -145.429283,
     "image_url": "https://511.alaska.gov/map/Cctv/500",
+    "video_url": ""
+  },
+  {
+    "id": "156",
+    "name": "#68 Mt. Roberts Tram Terminal Weather Station (1,736 ft)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 58.2967,
+    "lng": -134.38605,
+    "image_url": "https://511.alaska.gov/map/Cctv/502",
     "video_url": ""
   }
 ]

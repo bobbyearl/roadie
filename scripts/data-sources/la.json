@@ -2841,13 +2841,13 @@
   },
   {
     "id": "371",
-    "name": "",
+    "name": "Camera 371",
     "route": "",
     "jurisdiction": "",
     "lat": 30.1976,
     "lng": -93.1805,
-    "image_url": "https://511la.org/map/Cctv/507",
-    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-881.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/371",
+    "video_url": ""
   },
   {
     "id": "372",
@@ -2871,13 +2871,13 @@
   },
   {
     "id": "374",
-    "name": "",
+    "name": "Camera 374",
     "route": "",
     "jurisdiction": "",
     "lat": 30.481329,
     "lng": -90.955986,
-    "image_url": "https://511la.org/map/Cctv/513",
-    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-157.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/374",
+    "video_url": ""
   },
   {
     "id": "375",
@@ -2961,13 +2961,13 @@
   },
   {
     "id": "386",
-    "name": "",
+    "name": "Camera 386",
     "route": "",
     "jurisdiction": "",
     "lat": 30.250883,
     "lng": -92.035797,
-    "image_url": "https://511la.org/map/Cctv/529",
-    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/laf-cam-101.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/386",
+    "video_url": ""
   },
   {
     "id": "387",
@@ -3001,53 +3001,53 @@
   },
   {
     "id": "390",
-    "name": "Camera 390",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.246246,
     "lng": -92.929688,
-    "image_url": "https://511la.org/map/Cctv/390",
-    "video_url": ""
+    "image_url": "https://511la.org/map/Cctv/537",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-481.streams/playlist.m3u8"
   },
   {
     "id": "391",
-    "name": "Camera 391",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.247118,
     "lng": -92.822067,
-    "image_url": "https://511la.org/map/Cctv/391",
-    "video_url": ""
+    "image_url": "https://511la.org/map/Cctv/539",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-541.streams/playlist.m3u8"
   },
   {
     "id": "392",
-    "name": "Camera 392",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.247999,
     "lng": -92.740891,
-    "image_url": "https://511la.org/map/Cctv/392",
-    "video_url": ""
+    "image_url": "https://511la.org/map/Cctv/541",
+    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-591.streams/playlist.m3u8"
   },
   {
     "id": "393",
-    "name": "",
+    "name": "Camera 393",
     "route": "",
     "jurisdiction": "",
     "lat": 30.246231,
     "lng": -92.66317,
-    "image_url": "https://511la.org/map/Cctv/543",
-    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-641.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/393",
+    "video_url": ""
   },
   {
     "id": "394",
-    "name": "",
+    "name": "Camera 394",
     "route": "",
     "jurisdiction": "",
     "lat": 30.243298,
     "lng": -92.631722,
-    "image_url": "https://511la.org/map/Cctv/545",
-    "video_url": "https://itsstreamingbr2.dotd.la.gov/public/lkc-cam-651.streams/playlist.m3u8"
+    "image_url": "https://511la.org/map/Cctv/394",
+    "video_url": ""
   },
   {
     "id": "395",
@@ -3081,13 +3081,13 @@
   },
   {
     "id": "398",
-    "name": "Camera 398",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.457621,
     "lng": -91.176003,
-    "image_url": "https://511la.org/map/Cctv/398",
-    "video_url": ""
+    "image_url": "https://511la.org/map/Cctv/553",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-817.streams/playlist.m3u8"
   },
   {
     "id": "399",
@@ -3101,13 +3101,13 @@
   },
   {
     "id": "400",
-    "name": "Camera 400",
+    "name": "",
     "route": "",
     "jurisdiction": "",
     "lat": 30.449881,
     "lng": -91.180473,
-    "image_url": "https://511la.org/map/Cctv/400",
-    "video_url": ""
+    "image_url": "https://511la.org/map/Cctv/555",
+    "video_url": "https://itsstreamingbr.dotd.la.gov/public/br-cam-813.streams/playlist.m3u8"
   },
   {
     "id": "401",
