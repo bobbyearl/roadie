@@ -2971,33 +2971,33 @@
   },
   {
     "id": "301",
-    "name": "Camera 301",
+    "name": "I-41/43/894 at 27th St",
     "route": "",
     "jurisdiction": "",
     "lat": 42.962159,
     "lng": -87.948143,
-    "image_url": "https://511wi.gov/map/Cctv/301",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1237",
+    "video_url": "https://cctv1.dot.wi.gov/rtplive/CCTV-40-0024/playlist.m3u8"
   },
   {
     "id": "302",
-    "name": "US 12/18 at Verona Rd (Flex)",
+    "name": "Camera 302",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1238",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0155/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/302",
+    "video_url": ""
   },
   {
     "id": "303",
-    "name": "US 12/14 at W of Verona Rd (Flex)",
+    "name": "Camera 303",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1239",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0154/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/303",
+    "video_url": ""
   },
   {
     "id": "304",
@@ -3021,13 +3021,13 @@
   },
   {
     "id": "306",
-    "name": "Camera 306",
+    "name": "US 12/18 at W of John Nolan Dr (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/306",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1242",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0171/playlist.m3u8"
   },
   {
     "id": "307",
