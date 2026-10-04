@@ -101,7 +101,9 @@ jobs:
           > [!WARNING]
           > Some states failed to refresh and are **not** updated in this PR (their last-good data is retained): $REFRESH_FAILED"
           fi
-          gh pr create \
+          # @-mention + reviewer request both make the maintainer a participant,
+          # so a bot-authored PR actually sends a notification.
+          PR_URL=$(gh pr create \
             --title "chore: refresh camera data $(date +%Y-%m-%d)" \
             --body "Automated camera data refresh from live sources.
 
@@ -109,8 +111,14 @@ jobs:
           **Changes:** $(git diff --stat HEAD~1 | tail -1)
           $WARNING
 
-          Review the diff to confirm no data corruption, then merge." \
-            --base main
+          Review the diff to confirm no data corruption, then merge.
+
+          cc @${REVIEWER}" \
+            --base main)
+          echo "Opened $PR_URL"
+          # Non-fatal: a reviewer-request hiccup must not fail the job.
+          gh pr edit "$PR_URL" --add-reviewer "$REVIEWER" || echo "reviewer request skipped"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REFRESH_FAILED: ${{ steps.refresh.outputs.failed }}
+          REVIEWER: bobbyearl
