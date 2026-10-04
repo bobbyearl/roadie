@@ -47,6 +47,7 @@ jobs:
         continue-on-error: true
 
       - name: Refresh camera data
+        id: refresh
         if: inputs.check_only != true
         run: |
           ARGS=""
@@ -56,7 +57,19 @@ jobs:
           if [ "${{ inputs.api_only }}" = "true" ]; then
             ARGS="$ARGS --api-only"
           fi
-          python3 scripts/refresh-all.py $ARGS
+          # Partial failures no longer fail the job (refresh-all exits 0 unless
+          # every attempted state fails). Capture any failed-states summary so
+          # the PR body can flag it. tee preserves the live log + exit code.
+          set -o pipefail
+          python3 scripts/refresh-all.py $ARGS 2>&1 | tee refresh.log
+          # The script prints one annotation line "::warning title=...::<summary>"
+          # when any state failed; pull the summary after the last "::".
+          FAILED=$(grep '^::warning title=Camera refresh' refresh.log | sed 's/.*:://' | head -1)
+          {
+            echo "failed<<EOF"
+            echo "$FAILED"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Rebuild database
         if: inputs.check_only != true
@@ -70,6 +83,7 @@ jobs:
       - name: Create PR with updated data
         if: steps.changes.outputs.changed == 'true' && inputs.check_only != true
         run: |
+          rm -f refresh.log
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           BRANCH="auto/camera-refresh-$(date +%Y%m%d)"
@@ -80,14 +94,23 @@ jobs:
           Automated weekly refresh from live data sources.
           Run by: ${{ github.event_name }}"
           git push origin "$BRANCH"
+          WARNING=""
+          if [ -n "$REFRESH_FAILED" ]; then
+            WARNING="
+
+          > [!WARNING]
+          > Some states failed to refresh and are **not** updated in this PR (their last-good data is retained): $REFRESH_FAILED"
+          fi
           gh pr create \
             --title "chore: refresh camera data $(date +%Y-%m-%d)" \
             --body "Automated camera data refresh from live sources.
 
           **Trigger:** ${{ github.event_name }}
           **Changes:** $(git diff --stat HEAD~1 | tail -1)
+          $WARNING
 
           Review the diff to confirm no data corruption, then merge." \
             --base main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REFRESH_FAILED: ${{ steps.refresh.outputs.failed }}
