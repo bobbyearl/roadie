@@ -275,8 +275,8 @@ export const STATES: StateConfig[] = [
     name: 'New York',
     defaultCenter: { lat: 42.5, lng: -75.5 },
     defaultZoom: 7,
-    supportsVideo: true,
-    cameraCount: 2979,
+    supportsVideo: false,
+    cameraCount: 2714,
   },
   {
     id: 'pa',
