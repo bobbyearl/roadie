@@ -63,8 +63,10 @@ jobs:
           set -o pipefail
           python3 scripts/refresh-all.py $ARGS 2>&1 | tee refresh.log
           # The script prints one annotation line "::warning title=...::<summary>"
-          # when any state failed; pull the summary after the last "::".
-          FAILED=$(grep '^::warning title=Camera refresh' refresh.log | sed 's/.*:://' | head -1)
+          # when any state failed; pull the summary after the last "::". The
+          # `|| true` keeps a no-match grep (the all-succeeded case) from
+          # aborting the step under `set -e`.
+          FAILED=$(grep '^::warning title=Camera refresh' refresh.log | sed 's/.*:://' | head -1 || true)
           {
             echo "failed<<EOF"
             echo "$FAILED"
