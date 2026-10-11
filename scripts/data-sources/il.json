@@ -356,7 +356,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 41.5790901184082,
     "lng": -87.6322021484375,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_WB_I-80_4157909_-8763220_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_WB_I-80_4157909_-8763220_1_N.jpg",
     "video_url": ""
   },
   {
@@ -696,7 +696,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.363800048828125,
     "lng": -87.93348693847656,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Six_Flags_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Six_Flags_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -726,7 +726,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.25880813598633,
     "lng": -88.1395034790039,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_Main_St_(Wireless)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_Main_St_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -776,7 +776,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.240211486816406,
     "lng": -87.90569305419922,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Riverwoods_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Riverwoods_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -806,7 +806,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.344608306884766,
     "lng": -88.02409362792969,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Center_@_Atkinson_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Center_@_Atkinson_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -826,7 +826,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16080856323242,
     "lng": -87.91899108886719,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Inverrary_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Inverrary_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -846,7 +846,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.345611572265625,
     "lng": -87.92298889160156,
-    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_IL_120_(Wireless)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_IL_120_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -906,7 +906,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.19981002807617,
     "lng": -87.82520294189453,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Half_Day_@_Summit_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Half_Day_@_Summit_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -946,7 +946,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.178409576416016,
     "lng": -87.99810028076172,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Old_McHenry_@_Robert_Parker_Coffin_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Old_McHenry_@_Robert_Parker_Coffin_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -956,7 +956,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.24890899658203,
     "lng": -88.1961898803711,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Darrell_@_Roberts_(Cell)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Darrell_@_Roberts_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -966,7 +966,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.242408752441406,
     "lng": -87.97769165039062,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Butterfield_@_Hawthorne_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Butterfield_@_Hawthorne_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -986,7 +986,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.40100860595703,
     "lng": -88.11038970947266,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Monaville_(Cell)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Monaville_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -996,7 +996,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.238609313964844,
     "lng": -88.1690902709961,
-    "image_url": "https://www.lakecountypassage.com/snapshots/River_@_Roberts_(Cell)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/River_@_Roberts_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1036,7 +1036,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.34341049194336,
     "lng": -87.9451904296875,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_120_(north_ramp)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_120_(north_ramp)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1186,7 +1186,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3053092956543,
     "lng": -88.068603515625,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Peterson_@_Behm_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Peterson_@_Behm_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1196,7 +1196,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.306209564208984,
     "lng": -88.01920318603516,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Midlothian_@_Peterson_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Midlothian_@_Peterson_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1206,7 +1206,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.200111389160156,
     "lng": -87.88809204101562,
-    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_IL_22_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_IL_22_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1216,7 +1216,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.194610595703125,
     "lng": -88.08969116210938,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_22_@_Old_Rand_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_22_@_Old_Rand_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1236,7 +1236,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.1533088684082,
     "lng": -87.9616928100586,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Buffalo_Grove_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Buffalo_Grove_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1246,7 +1246,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35710906982422,
     "lng": -88.04369354248047,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Lake_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Lake_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1256,7 +1256,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.153709411621094,
     "lng": -88.01750183105469,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_53_@_Lake_Cook_(West_ramp)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_53_@_Lake_Cook_(West_ramp)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1286,7 +1286,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.428611755371094,
     "lng": -87.90389251708984,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Delany_@_Wadsworth_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Delany_@_Wadsworth_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1326,7 +1326,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.19990921020508,
     "lng": -87.8628921508789,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_22_@_IL_43_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_22_@_IL_43_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1336,7 +1336,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.37889862060547,
     "lng": -88.08969116210938,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Cedar_Lake_@_Rollins_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Cedar_Lake_@_Rollins_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1376,7 +1376,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.29941177368164,
     "lng": -88.01889038085938,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Midlothian_@_Winchester_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Midlothian_@_Winchester_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1386,7 +1386,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.26961135864258,
     "lng": -88.00399017333984,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Hawley_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Hawley_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1396,7 +1396,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.37751007080078,
     "lng": -87.8554916381836,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_Glen_Flora_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_Glen_Flora_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1406,7 +1406,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.167510986328125,
     "lng": -87.86949157714844,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Castlewood_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Castlewood_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1426,7 +1426,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 42.431400299072266,
     "lng": -87.95140075683594,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Lake_NWB_I-94_4243140_-8795140_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Lake_NWB_I-94_4243140_-8795140_1_E.jpg",
     "video_url": ""
   },
   {
@@ -1436,7 +1436,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 41.92279815673828,
     "lng": -88.03880310058594,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_DuPage_SB_I-355-CASH_4192280_-8803880_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_DuPage_SB_I-355-CASH_4192280_-8803880_1_N.jpg",
     "video_url": ""
   },
   {
@@ -1446,7 +1446,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 42.067100524902344,
     "lng": -88.14289855957031,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_WB_I-90_4206710_-8814290_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_WB_I-90_4206710_-8814290_1_E.jpg",
     "video_url": ""
   },
   {
@@ -1466,7 +1466,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.153900146484375,
     "lng": -88.0628890991211,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Quentin_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Quentin_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1496,7 +1496,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.18251037597656,
     "lng": -87.95529174804688,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Aptakisic_@_Prairie_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Aptakisic_@_Prairie_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1506,7 +1506,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.1715087890625,
     "lng": -87.94959259033203,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Weiland_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Weiland_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1526,7 +1526,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.37981033325195,
     "lng": -88.06269073486328,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Rollins_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Rollins_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1546,7 +1546,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.25421142578125,
     "lng": -88.00079345703125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Diamond_Lake_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Diamond_Lake_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1556,7 +1556,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.39801025390625,
     "lng": -88.09210205078125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Cedar_Lake_@_Monaville_(Cell)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Cedar_Lake_@_Monaville_(Cell)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1586,7 +1586,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.33660888671875,
     "lng": -88.03189086914062,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_IL_120_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_IL_120_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1636,7 +1636,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.25880813598633,
     "lng": -87.94818878173828,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Greggs_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Greggs_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1676,7 +1676,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16741180419922,
     "lng": -87.84600067138672,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Deerfield_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Deerfield_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1686,7 +1686,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.46630859375,
     "lng": -88.03759002685547,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Savage_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Savage_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1706,7 +1706,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3408088684082,
     "lng": -88.05329132080078,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Alleghany_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Alleghany_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1716,7 +1716,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.250999450683594,
     "lng": -88.14539337158203,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_IL_59_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_IL_59_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1766,7 +1766,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.30601119995117,
     "lng": -87.92089080810547,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_@_St_Marys_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_@_St_Marys_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1776,7 +1776,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.272308349609375,
     "lng": -88.19850158691406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_Roberts_(Wireless)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_Roberts_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1786,7 +1786,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3756103515625,
     "lng": -88.05718994140625,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Brighton_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Brighton_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1796,7 +1796,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.17021179199219,
     "lng": -87.82528686523438,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Ridge_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Ridge_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -1806,7 +1806,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.38270950317383,
     "lng": -88.11199188232422,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Rollins_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Rollins_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2046,7 +2046,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.22180938720703,
     "lng": -87.87299346923828,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Everett_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Everett_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2056,7 +2056,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.17591094970703,
     "lng": -88.13580322265625,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Cuba_(Wireless)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Cuba_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2066,7 +2066,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.42850875854492,
     "lng": -87.88629150390625,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Wadsworth_@_Cambridge_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Wadsworth_@_Cambridge_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2076,7 +2076,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.428611755371094,
     "lng": -87.87650299072266,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_Wadsworth_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_Wadsworth_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2086,7 +2086,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.266300201416016,
     "lng": -88.06968688964844,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Gilmer_@_Hawley_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Gilmer_@_Hawley_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2096,7 +2096,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.178810119628906,
     "lng": -87.94840240478516,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Weiland_@_Thompson_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Weiland_@_Thompson_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2106,7 +2106,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.36880874633789,
     "lng": -88.17249298095703,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Big_Hollow_@_Frontage_(Cell)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Big_Hollow_@_Frontage_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2116,7 +2116,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.153011322021484,
     "lng": -87.8837890625,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Saunders_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Saunders_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2126,7 +2126,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.24031066894531,
     "lng": -87.94489288330078,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_60_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_60_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2146,7 +2146,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.359310150146484,
     "lng": -87.86849212646484,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Washington_Terrace_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Washington_Terrace_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2156,7 +2156,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.43001174926758,
     "lng": -88.19859313964844,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Grass_Lake_@_State_Park_(Cell)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Grass_Lake_@_State_Park_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2166,7 +2166,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.41490936279297,
     "lng": -88.19850158691406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_State_Park_-_East_Ave_(Cell)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_State_Park_-_East_Ave_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2266,7 +2266,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16761016845703,
     "lng": -87.89710235595703,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Portwine_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Portwine_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2286,7 +2286,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.1959114074707,
     "lng": -87.90630340576172,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Riverwoods_@_Yorkshire_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Riverwoods_@_Yorkshire_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2326,7 +2326,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16130828857422,
     "lng": -88.10179138183594,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Ela_@_Long_Grove_(Wireless)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Ela_@_Long_Grove_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2336,7 +2336,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.363311767578125,
     "lng": -88.1692886352539,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Hartigan_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Hartigan_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2344,8 +2344,8 @@
     "name": "Portable PTZ 2 (Cell)",
     "route": "",
     "jurisdiction": "Lake County",
-    "lat": 42.364009857177734,
-    "lng": -87.9649887084961,
+    "lat": 42.29560852050781,
+    "lng": -87.96018981933594,
     "image_url": "https://www.lakecountypassage.com/snapshots/Portable_PTZ_2_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
@@ -2366,7 +2366,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35700988769531,
     "lng": -88.0679931640625,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Hainesville_@_Washington_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Hainesville_@_Washington_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2376,7 +2376,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.283111572265625,
     "lng": -87.9533920288086,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_176_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_176_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2396,7 +2396,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.33430862426758,
     "lng": -87.88468933105469,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Pulaski_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Pulaski_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2406,7 +2406,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.386409759521484,
     "lng": -88.15949249267578,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Devlin_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Devlin_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2416,7 +2416,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.47890853881836,
     "lng": -87.85379028320312,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_9th_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_9th_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2456,7 +2456,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.36341094970703,
     "lng": -88.11170196533203,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_134_@_Fairfield_Rd_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_134_@_Fairfield_Rd_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2486,7 +2486,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.33211135864258,
     "lng": -88.12348937988281,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Wilson_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Wilson_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2506,7 +2506,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.335208892822266,
     "lng": -88.11199188232422,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Fairfield_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Fairfield_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2526,7 +2526,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.247108459472656,
     "lng": -87.87168884277344,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Deerpath_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Deerpath_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2536,7 +2536,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.33679962158203,
     "lng": -87.91458129882812,
-    "image_url": "https://www.lakecountypassage.com/snapshots/OPlaine_@_I-94_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/OPlaine_@_I-94_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2546,7 +2546,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.38520812988281,
     "lng": -87.96330261230469,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_Hunt_Club_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_Hunt_Club_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2606,7 +2606,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16770935058594,
     "lng": -87.92169189453125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Deerfield_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Deerfield_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2616,7 +2616,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.152809143066406,
     "lng": -87.87489318847656,
-    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_Lake_Cook_W_Ramp_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_Lake_Cook_W_Ramp_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2636,7 +2636,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.31959915161133,
     "lng": -87.87638854980469,
-    "image_url": "https://www.lakecountypassage.com/snapshots/MLK_@_Abbott_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/MLK_@_Abbott_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2656,7 +2656,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.22201156616211,
     "lng": -87.90579223632812,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Everett_@_Riverwoods_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Everett_@_Riverwoods_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2676,7 +2676,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.167510986328125,
     "lng": -87.8827896118164,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Saunders_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Saunders_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2686,7 +2686,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.281211853027344,
     "lng": -88.11070251464844,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Gossell_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Gossell_(Wireless)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2696,7 +2696,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.317108154296875,
     "lng": -88.12068939208984,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Wilson_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Wilson_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2706,7 +2706,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.36960983276367,
     "lng": -87.91458892822266,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_OPlaine_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_OPlaine_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2726,7 +2726,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.214908599853516,
     "lng": -88.16940307617188,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Kelsey_@_River_(Cell)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Kelsey_@_River_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2736,7 +2736,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.296409606933594,
     "lng": -87.99739074707031,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Winchester_@_Technology_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Winchester_@_Technology_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2746,7 +2746,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.37031173706055,
     "lng": -87.86538696289062,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Grand_@_McAree_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Grand_@_McAree_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2756,7 +2756,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.27970886230469,
     "lng": -87.87860107421875,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_IL_176_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_IL_176_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2776,7 +2776,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.240108489990234,
     "lng": -87.88590240478516,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Academy_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Academy_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2786,7 +2786,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.345008850097656,
     "lng": -88.06758880615234,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Hainesville_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Hainesville_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2796,7 +2796,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.367008209228516,
     "lng": -87.84288787841797,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Grand_@_Jackson_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Grand_@_Jackson_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2866,7 +2866,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.22040939331055,
     "lng": -87.96690368652344,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Deerpath_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Deerpath_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2876,7 +2876,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.30569839477539,
     "lng": -87.98358154296875,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_@_Butterfield_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_@_Butterfield_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2956,7 +2956,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.20901107788086,
     "lng": -87.99179077148438,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Gilmer_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Gilmer_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2966,7 +2966,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.19670867919922,
     "lng": -87.970703125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_22_@_Buffalo_Grove_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_22_@_Buffalo_Grove_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2976,7 +2976,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.306209564208984,
     "lng": -87.96058654785156,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_137_(SW)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_137_(SW)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -2986,7 +2986,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.38359832763672,
     "lng": -87.90448760986328,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Delany_@_Porett_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Delany_@_Porett_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3066,7 +3066,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.28010940551758,
     "lng": -87.92488861083984,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_St_Marys_Rd_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_St_Marys_Rd_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3086,7 +3086,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.24020004272461,
     "lng": -87.99408721923828,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_IL_60_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_IL_60_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3106,7 +3106,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.2772102355957,
     "lng": -88.11019134521484,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Bonner_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Bonner_(Wireless)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3116,7 +3116,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3927001953125,
     "lng": -87.90438842773438,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Delany_@_Sunset_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Delany_@_Sunset_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3126,7 +3126,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.391998291015625,
     "lng": -87.85529327392578,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_Sunset_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_Sunset_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3156,7 +3156,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.15420150756836,
     "lng": -87.95500183105469,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Weiland_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Weiland_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3166,7 +3166,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.218910217285156,
     "lng": -88.05799102783203,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Old_McHenry_@_Quentin_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Old_McHenry_@_Quentin_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3176,7 +3176,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3928108215332,
     "lng": -87.9263916015625,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Stearns_School_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Stearns_School_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3186,7 +3186,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.31031036376953,
     "lng": -88.19029998779297,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Darrell_@_Fisher_(Cell)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Darrell_@_Fisher_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3196,7 +3196,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.38970947265625,
     "lng": -87.92398834228516,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_21_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_21_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3206,7 +3206,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16331100463867,
     "lng": -88.05519104003906,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Long_Grove_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Long_Grove_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3216,7 +3216,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.24620056152344,
     "lng": -88.12748718261719,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Old_Rand_(Wauconda)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Old_Rand_(Wauconda)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3246,7 +3246,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.232608795166016,
     "lng": -87.85508728027344,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Westleigh_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Westleigh_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3326,7 +3326,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.184608459472656,
     "lng": -87.80219268798828,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Green_Bay_@_Central_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Green_Bay_@_Central_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3336,7 +3336,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.27381134033203,
     "lng": -88.00408935546875,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_IL_176_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_IL_176_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3346,7 +3346,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.23640823364258,
     "lng": -87.99420166015625,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_IL_83_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_IL_83_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3356,7 +3356,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.17171096801758,
     "lng": -87.96530151367188,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Buffalo_Grove_@_Deerfield_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Buffalo_Grove_@_Deerfield_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3366,7 +3366,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16630935668945,
     "lng": -88.06278991699219,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Quentin_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Quentin_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3406,7 +3406,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3230094909668,
     "lng": -88.16448974609375,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_IL_120_(Wireless)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_IL_120_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3416,7 +3416,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.32440948486328,
     "lng": -88.15260314941406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_IL_60_(Wireless)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_IL_60_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3426,7 +3426,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.377410888671875,
     "lng": -87.90479278564453,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Delany_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Delany_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3436,7 +3436,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.37331008911133,
     "lng": -87.92459106445312,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_132_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_132_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3446,7 +3446,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.362308502197266,
     "lng": -88.08988952636719,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Cedar_Lake_@_Rosedale_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Cedar_Lake_@_Rosedale_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3456,7 +3456,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.165611267089844,
     "lng": -88.15560150146484,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_14_@_Hart_(Cell)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_14_@_Hart_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3466,7 +3466,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.1787109375,
     "lng": -87.96520233154297,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Buffalo_Grove_@_Thompson_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Buffalo_Grove_@_Thompson_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3526,7 +3526,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.15420913696289,
     "lng": -88.13600158691406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Lake_Cook_(Cell)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Lake_Cook_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3546,7 +3546,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.220611572265625,
     "lng": -88.06878662109375,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Old_McHenry_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Old_McHenry_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3556,7 +3556,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.184600830078125,
     "lng": -87.79779052734375,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Laurel_@_St_Johns_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Laurel_@_St_Johns_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3586,7 +3586,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3136100769043,
     "lng": -88.09879302978516,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Cedar_Lake_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Cedar_Lake_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3596,7 +3596,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.30611038208008,
     "lng": -88.18769073486328,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Darrell_@_Dowell_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Darrell_@_Dowell_(Cell)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3606,7 +3606,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.29951095581055,
     "lng": -88.17938995361328,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Darrell_@_Neville-Case_(Cell)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Darrell_@_Neville-Case_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3616,7 +3616,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.219810485839844,
     "lng": -88.06678771972656,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Midlothian_@_Old_McHenry_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Midlothian_@_Old_McHenry_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3626,7 +3626,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.428409576416016,
     "lng": -87.85488891601562,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_Wadsworth_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_Wadsworth_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3636,7 +3636,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.181610107421875,
     "lng": -87.93498992919922,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Aptakisic_@_Barclay_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Aptakisic_@_Barclay_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3646,7 +3646,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.320098876953125,
     "lng": -88.01319122314453,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_@_Casey_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_@_Casey_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3656,7 +3656,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.36471176147461,
     "lng": -87.8556900024414,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_Brookside_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_Brookside_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3666,7 +3666,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.18690872192383,
     "lng": -87.8035888671875,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Green_Bay_@_Elm_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Green_Bay_@_Elm_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3676,7 +3676,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.18429946899414,
     "lng": -87.79878234863281,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Laurel_@_First_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Laurel_@_First_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3696,7 +3696,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3861083984375,
     "lng": -87.99578094482422,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_Rollins_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_Rollins_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3706,7 +3706,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.23991012573242,
     "lng": -87.87158966064453,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_IL_60_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_IL_60_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3716,7 +3716,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.1532096862793,
     "lng": -87.91439056396484,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Lake_Cook_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Lake_Cook_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3726,7 +3726,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.26451110839844,
     "lng": -87.97518920898438,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Butterfield_@_Huntington_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Butterfield_@_Huntington_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3756,7 +3756,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.17810821533203,
     "lng": -88.05789184570312,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Quentin_@_West_Cuba_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Quentin_@_West_Cuba_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3766,7 +3766,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.31850814819336,
     "lng": -88.1593017578125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Gilmer_@_Ellis_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Gilmer_@_Ellis_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3776,7 +3776,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.2772102355957,
     "lng": -88.04080200195312,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60-IL_83_@_IL_176_(Wireless)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60-IL_83_@_IL_176_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3806,7 +3806,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.37030029296875,
     "lng": -87.8556900024414,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Grand_@_Lewis_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Grand_@_Lewis_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3816,7 +3816,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.21950912475586,
     "lng": -87.99398803710938,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Westmoreland_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Westmoreland_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3846,7 +3846,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.25511169433594,
     "lng": -87.9791030883789,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Butterfield_@_Allanson_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Butterfield_@_Allanson_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3856,7 +3856,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.24000930786133,
     "lng": -87.90109252929688,
-    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_IL_60_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_IL_60_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3866,7 +3866,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.27111053466797,
     "lng": -88.07678985595703,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Gilmer_@_Fremont_Center_(Wireless)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Gilmer_@_Fremont_Center_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3876,7 +3876,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.238311767578125,
     "lng": -88.0509033203125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Midlothian_@_Gilmer_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Midlothian_@_Gilmer_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3886,7 +3886,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.157501220703125,
     "lng": -88.0628890991211,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Quentin_@_Field,_Rue_Royale_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Quentin_@_Field,_Rue_Royale_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3906,7 +3906,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.305809020996094,
     "lng": -87.96018981933594,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_137_(NW)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_IL_137_(NW)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3916,7 +3916,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.410099029541016,
     "lng": -87.85498809814453,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_York_House_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_York_House_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3956,7 +3956,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.274009704589844,
     "lng": -88.17909240722656,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Bonner_@_Darrell_(Wireless)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Bonner_@_Darrell_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3966,7 +3966,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.4293098449707,
     "lng": -87.9723892211914,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Hunt_Club_@_Wadsworth_(Cell)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Hunt_Club_@_Wadsworth_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3976,7 +3976,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.37910842895508,
     "lng": -88.10208892822266,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Rollins_@_Lotus_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Rollins_@_Lotus_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -3996,7 +3996,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.39720916748047,
     "lng": -88.1797866821289,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Grand_@_Rollins_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Grand_@_Rollins_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4006,7 +4006,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.38121032714844,
     "lng": -88.13990020751953,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Rollins_@_Wilson_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Rollins_@_Wilson_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4026,7 +4026,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.26641082763672,
     "lng": -88.0429916381836,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Hawley_@_Chevy_Chase_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Hawley_@_Chevy_Chase_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4046,7 +4046,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.357810974121094,
     "lng": -87.97830200195312,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Almond_@_Julie_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Almond_@_Julie_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4056,7 +4056,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.334110260009766,
     "lng": -87.84500122070312,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Audrey_Nixon_(14th)_@_Jackson_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Audrey_Nixon_(14th)_@_Jackson_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4066,7 +4066,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.4220085144043,
     "lng": -87.97250366210938,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Hunt_Club_@_Millburn_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Hunt_Club_@_Millburn_(Cell)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4076,7 +4076,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.33420944213867,
     "lng": -87.87149047851562,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_Audrey_Nixon_(14th)-Pulaski_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_Audrey_Nixon_(14th)-Pulaski_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4116,7 +4116,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.26961135864258,
     "lng": -88.07369232177734,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_Gilmer_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_Gilmer_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4126,7 +4126,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.237308502197266,
     "lng": -88.11258697509766,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Old_McHenry_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Old_McHenry_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4136,7 +4136,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.34101104736328,
     "lng": -87.96359252929688,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Hunt_Club_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Hunt_Club_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4146,7 +4146,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.20500946044922,
     "lng": -87.95619201660156,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Buffalo_Grove_@_Port_Clinton_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Buffalo_Grove_@_Port_Clinton_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4156,7 +4156,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.48809814453125,
     "lng": -88.09558868408203,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_North_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_North_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4166,7 +4166,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.38710021972656,
     "lng": -88.06329345703125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Millstone_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Millstone_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4176,7 +4176,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.466209411621094,
     "lng": -88.06239318847656,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Deep_Lake_(Wireless)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Deep_Lake_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4186,7 +4186,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.465110778808594,
     "lng": -87.90328979492188,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Delany_(Wireless)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Delany_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4196,7 +4196,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.398311614990234,
     "lng": -88.06568908691406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Engle_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Engle_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4216,7 +4216,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.18730926513672,
     "lng": -88.10160064697266,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Ela_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Ela_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4226,7 +4226,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.377410888671875,
     "lng": -87.83070373535156,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Sheridan_@_Glen_Flora_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Sheridan_@_Glen_Flora_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4236,7 +4236,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.34490966796875,
     "lng": -88.033203125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Center_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Center_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4246,7 +4246,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.34770965576172,
     "lng": -87.90209197998047,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Greenleaf_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Greenleaf_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4256,7 +4256,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.34511184692383,
     "lng": -87.89488983154297,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Northpoint_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Northpoint_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4266,7 +4266,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.338008880615234,
     "lng": -87.89498901367188,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Pulaski,_McGaw_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Pulaski,_McGaw_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4276,7 +4276,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35940933227539,
     "lng": -87.8644027709961,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Keller,_McAree_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Keller,_McAree_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4286,7 +4286,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.37041091918945,
     "lng": -87.8814926147461,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_IL_132_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_IL_132_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4306,7 +4306,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.30210876464844,
     "lng": -88.12480163574219,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Gilmer_@_Liberty_Lakes_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Gilmer_@_Liberty_Lakes_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4316,7 +4316,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.269798278808594,
     "lng": -88.01889038085938,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Midlothian_@_Hawley_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Midlothian_@_Hawley_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4326,7 +4326,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.43001174926758,
     "lng": -87.82569122314453,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_Wadsworth_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_Wadsworth_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4336,7 +4336,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.357200622558594,
     "lng": -88.09339141845703,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Cedar_Lake_@_Hart_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Cedar_Lake_@_Hart_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4356,7 +4356,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.38481140136719,
     "lng": -87.83229064941406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_Greenwood_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_Greenwood_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4366,7 +4366,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.36431121826172,
     "lng": -87.97859191894531,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Almond_@_Washington_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Almond_@_Washington_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4376,7 +4376,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.4646110534668,
     "lng": -87.88140106201172,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_IL_173_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_IL_173_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4386,7 +4386,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.21200942993164,
     "lng": -88.11160278320312,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Miller_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Miller_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4456,7 +4456,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.7745,
     "lng": -88.1291,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_WB_Chicago_4177450_-8812910_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_WB_Chicago_4177450_-8812910_1_E.jpg",
     "video_url": ""
   },
   {
@@ -4476,7 +4476,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.7791,
     "lng": -88.1097,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_WB_Maple_4177910_-8810970_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_WB_Maple_4177910_-8810970_1_E.jpg",
     "video_url": ""
   },
   {
@@ -4486,7 +4486,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.7665,
     "lng": -88.0989,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NEB_College_4176650_-8809890_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NEB_College_4176650_-8809890_1_E.jpg",
     "video_url": ""
   },
   {
@@ -4506,7 +4506,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.240509033203125,
     "lng": -87.95970153808594,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Lakeview_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Lakeview_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4516,7 +4516,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.446109771728516,
     "lng": -87.82559204101562,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_27th_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_27th_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4526,7 +4526,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.359710693359375,
     "lng": -87.90178680419922,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Greenleaf_@_Washington_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Greenleaf_@_Washington_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -4606,7 +4606,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.7737,
     "lng": -87.9746,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Cass_4177370_-8797460_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Cass_4177370_-8797460_1_E.jpg",
     "video_url": ""
   },
   {
@@ -4706,7 +4706,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.8026,
     "lng": -88.1199,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Naperville_4180260_-8811990_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Naperville_4180260_-8811990_1_E.jpg",
     "video_url": ""
   },
   {
@@ -4746,7 +4746,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.9286,
     "lng": -88.0633,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Glen-Ellyn_4192860_-8806330_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Glen-Ellyn_4192860_-8806330_1_E.jpg",
     "video_url": ""
   },
   {
@@ -4786,7 +4786,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.8898,
     "lng": -88.0085,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Grace_4188980_-8800850_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Grace_4188980_-8800850_1_E.jpg",
     "video_url": ""
   },
   {
@@ -4846,7 +4846,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.9394,
     "lng": -88.1188,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_WB_Army-Trail_4193940_-8811880_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_WB_Army-Trail_4193940_-8811880_1_E.jpg",
     "video_url": ""
   },
   {
@@ -4866,7 +4866,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.93889,
     "lng": -88.101,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Schmale_4193889_-8810100_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Schmale_4193889_-8810100_1_E.jpg",
     "video_url": ""
   },
   {
@@ -4966,7 +4966,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.866,
     "lng": -88.1434,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_County-Farm_4186600_-8814340_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_County-Farm_4186600_-8814340_1_E.jpg",
     "video_url": ""
   },
   {
@@ -5056,7 +5056,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.80899,
     "lng": -88.1173,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SWB_Naperville_4180899_-8811730_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SWB_Naperville_4180899_-8811730_1_E.jpg",
     "video_url": ""
   },
   {
@@ -5066,7 +5066,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.29330825805664,
     "lng": -87.88829040527344,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Abbott_Gate_4_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_43_@_Abbott_Gate_4_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5076,7 +5076,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.41011047363281,
     "lng": -87.87818908691406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_York_House_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_York_House_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5086,7 +5086,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.36690902709961,
     "lng": -88.04389190673828,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Lake_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Lake_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5126,7 +5126,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.8008,
     "lng": -88.1263,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Freedom_4180080_-8812630_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Freedom_4180080_-8812630_1_E.jpg",
     "video_url": ""
   },
   {
@@ -5136,7 +5136,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.8126,
     "lng": -88.1578,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NWB_Mill_4181260_-8815780_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NWB_Mill_4181260_-8815780_1_E.jpg",
     "video_url": ""
   },
   {
@@ -5156,7 +5156,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.80169,
     "lng": -88.1673,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Winfield_4180169_-8816730_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Winfield_4180169_-8816730_1_E.jpg",
     "video_url": ""
   },
   {
@@ -5226,7 +5226,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.7496,
     "lng": -87.9738,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Cass_4174960_-8797380_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Cass_4174960_-8797380_1_E.jpg",
     "video_url": ""
   },
   {
@@ -5246,7 +5246,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.9713,
     "lng": -87.9789,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Wood-Dale_4197130_-8797890_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Wood-Dale_4197130_-8797890_1_E.jpg",
     "video_url": ""
   },
   {
@@ -5256,7 +5256,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.268310546875,
     "lng": -88.1869888305664,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_Westridge_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_Westridge_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5276,7 +5276,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.282108306884766,
     "lng": -88.20880126953125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_River_(McHenry)_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_River_(McHenry)_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5286,7 +5286,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35361099243164,
     "lng": -88.033203125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Frederick_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Frederick_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5296,7 +5296,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.20370864868164,
     "lng": -88.05779266357422,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Quentin_@_Ensell_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Quentin_@_Ensell_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5306,7 +5306,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.36391067504883,
     "lng": -87.94640350341797,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Tri_State_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Tri_State_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5316,7 +5316,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.28300857543945,
     "lng": -88.07250213623047,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Fremont_Center_@_School_(Wireless)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Fremont_Center_@_School_(Wireless)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5336,7 +5336,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.84599,
     "lng": -87.9919,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Meyers_4184599_-8799190_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Meyers_4184599_-8799190_1_E.jpg",
     "video_url": ""
   },
   {
@@ -5406,7 +5406,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.40800857543945,
     "lng": -88.02368927001953,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Sand_Lake_@_Beck_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Sand_Lake_@_Beck_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5426,7 +5426,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.197208404541016,
     "lng": -87.989501953125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_22_@_IL_83_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_22_@_IL_83_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5446,7 +5446,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.4105110168457,
     "lng": -88.03398895263672,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_Granada_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_Granada_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5456,7 +5456,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.415409088134766,
     "lng": -88.05779266357422,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_Deep_Lake_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_Deep_Lake_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5466,7 +5466,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.415409088134766,
     "lng": -88.07308959960938,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_IL_83_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_IL_83_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5486,7 +5486,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.371498107910156,
     "lng": -88.05098724365234,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Shorewood_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Shorewood_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5576,7 +5576,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.179908752441406,
     "lng": -87.98948669433594,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Robert_Parker_Coffin_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Robert_Parker_Coffin_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5586,7 +5586,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3573112487793,
     "lng": -88.09979248046875,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_134_@_Hart_Rd_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_134_@_Hart_Rd_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5596,7 +5596,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16741180419922,
     "lng": -87.8727035522461,
-    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_Deerfield_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_Deerfield_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5626,7 +5626,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.270111083984375,
     "lng": -87.97389221191406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Butterfield_@_Golf_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Butterfield_@_Golf_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5646,7 +5646,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.17660903930664,
     "lng": -87.79798889160156,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Green_Bay_@_Bob-O-Link_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Green_Bay_@_Bob-O-Link_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5656,7 +5656,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.17441177368164,
     "lng": -87.82299041748047,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Richfield_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Richfield_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5676,7 +5676,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.200408935546875,
     "lng": -87.83380126953125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_22_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_22_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5686,7 +5686,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35961151123047,
     "lng": -87.83540344238281,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_West_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_West_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5696,7 +5696,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.30611038208008,
     "lng": -88.0530014038086,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Alleghany_@_Peterson_(SW)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Alleghany_@_Peterson_(SW)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5796,7 +5796,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.39419937133789,
     "lng": -87.96318817138672,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Hunt_Club_@_Stearns_School_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Hunt_Club_@_Stearns_School_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5826,7 +5826,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.28430938720703,
     "lng": -88.00389099121094,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Dunbar_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Dunbar_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5846,7 +5846,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.147708892822266,
     "lng": -88.12168884277344,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_14_@_Hillside_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_14_@_Hillside_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5916,7 +5916,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.39680862426758,
     "lng": -87.90428924560547,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Delany_@_Continental_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Delany_@_Continental_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5926,7 +5926,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.31951141357422,
     "lng": -87.86659240722656,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_MLK_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_MLK_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5936,7 +5936,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.40800857543945,
     "lng": -87.90409088134766,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Delany_@_Gent_Dr,_Oak_Grove_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Delany_@_Gent_Dr,_Oak_Grove_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -5946,7 +5946,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.31140899658203,
     "lng": -87.90479278564453,
-    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_IL_137_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/I-94_@_IL_137_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6006,7 +6006,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.21220016479492,
     "lng": -88.00428771972656,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Diamond_Lake_@_Gilmer_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Diamond_Lake_@_Gilmer_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6016,7 +6016,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.182708740234375,
     "lng": -87.98948669433594,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Aptakisic_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Aptakisic_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6026,7 +6026,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.457210540771484,
     "lng": -87.8545913696289,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_21st_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_21st_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6096,7 +6096,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.371009826660156,
     "lng": -87.89649200439453,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_132_(NW)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_132_(NW)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6106,7 +6106,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16730880737305,
     "lng": -87.8484878540039,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Robert_York_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Robert_York_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6116,7 +6116,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.37451171875,
     "lng": -87.8555908203125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_Ridgeland_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_Ridgeland_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6136,7 +6136,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.30601119995117,
     "lng": -88.00430297851562,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Peterson_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Peterson_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6146,7 +6146,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.38079833984375,
     "lng": -87.9400863647461,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Dilleys_@_Pinewood_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Dilleys_@_Pinewood_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6166,7 +6166,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.163211822509766,
     "lng": -87.96520233154297,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Buffalo_Grove_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Buffalo_Grove_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6206,7 +6206,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.360008239746094,
     "lng": -88.03328704833984,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Washington_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Washington_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6216,7 +6216,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.28131103515625,
     "lng": -88.04508972167969,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Mundelein_Crossing_(Wireless)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Mundelein_Crossing_(Wireless)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6226,7 +6226,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.153709411621094,
     "lng": -88.03868103027344,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Lake_Cook_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Lake_Cook_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6246,7 +6246,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.40999984741211,
     "lng": -87.86479187011719,
-    "image_url": "https://www.lakecountypassage.com/snapshots/York_House_@_McAree_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/York_House_@_McAree_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6386,7 +6386,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35081100463867,
     "lng": -87.85578918457031,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Belvidere_@_Lewis_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Belvidere_@_Lewis_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6396,7 +6396,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.25260925292969,
     "lng": -87.94679260253906,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Hollister_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Hollister_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6406,7 +6406,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.36370849609375,
     "lng": -87.82980346679688,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Grand_@_Sheridan_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Grand_@_Sheridan_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6426,7 +6426,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.182708740234375,
     "lng": -87.97099304199219,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Aptakisic_@_Brandywyn_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Aptakisic_@_Brandywyn_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6486,7 +6486,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.7258,
     "lng": -88.1675,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Plainfield-Naperville_4172580_-8816750_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Plainfield-Naperville_4172580_-8816750_1_E.jpg",
     "video_url": ""
   },
   {
@@ -6526,7 +6526,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.25830841064453,
     "lng": -88.15409088134766,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_IL_176_W_Ramp_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_IL_176_W_Ramp_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6726,7 +6726,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.360511779785156,
     "lng": -88.00080108642578,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Washington_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Washington_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6736,7 +6736,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.356910705566406,
     "lng": -88.00228881835938,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Gages_Lake_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Gages_Lake_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6746,7 +6746,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3501091003418,
     "lng": -88.11090087890625,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Nippersink_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Nippersink_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6856,7 +6856,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.34381103515625,
     "lng": -88.169189453125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Molidor_(Cell)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Molidor_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -6886,7 +6886,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.85,
     "lng": -88.0265,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Finley_4185000_-8802650_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Finley_4185000_-8802650_1_E.jpg",
     "video_url": ""
   },
   {
@@ -6906,7 +6906,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.857,
     "lng": -87.9729,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Summit_4185700_-8797290_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Summit_4185700_-8797290_1_E.jpg",
     "video_url": ""
   },
   {
@@ -7266,7 +7266,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.49441146850586,
     "lng": -87.88529205322266,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_Russell_(Cell)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_Russell_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7286,7 +7286,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.345909118652344,
     "lng": -87.91439056396484,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_OPlaine_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_OPlaine_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7296,7 +7296,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.330509185791016,
     "lng": -88.02699279785156,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83-IL_137_@_IL_83-Atkinson_Rd_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83-IL_137_@_IL_83-Atkinson_Rd_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7336,7 +7336,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.309410095214844,
     "lng": -87.91480255126953,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_@_OPlaine_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_@_OPlaine_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7346,7 +7346,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.30860900878906,
     "lng": -87.86250305175781,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_IL_137_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_IL_137_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7356,7 +7356,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35050964355469,
     "lng": -88.139892578125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Wilson_@_Nippersink_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Wilson_@_Nippersink_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7366,7 +7366,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.30630874633789,
     "lng": -88.0419921875,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Peterson_@_Cornerstone_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Peterson_@_Cornerstone_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7376,7 +7376,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.2938117980957,
     "lng": -88.106689453125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Gilmer_(Wireless)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Fairfield_@_Gilmer_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7386,7 +7386,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.31550979614258,
     "lng": -88.11128997802734,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Fairfield_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_60_@_Fairfield_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7396,7 +7396,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.154109954833984,
     "lng": -88.10189056396484,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Ela_(Wireless)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Ela_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7406,7 +7406,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.175811767578125,
     "lng": -88.10159301757812,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Ela_@_Cuba_(Wireless)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Ela_@_Cuba_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7456,7 +7456,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.38090896606445,
     "lng": -88.0593032836914,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Rollins_@_Plaza_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Rollins_@_Plaza_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7546,7 +7546,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.33900833129883,
     "lng": -88.00498962402344,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_IL_120_(NW)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_IL_120_(NW)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7566,7 +7566,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.38621139526367,
     "lng": -88.00408935546875,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_IL_132_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_IL_132_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7596,7 +7596,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.188899993896484,
     "lng": -87.82549285888672,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Park_Ave_West_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Park_Ave_West_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7606,7 +7606,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.15250015258789,
     "lng": -87.81709289550781,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Red_Oak_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lake_Cook_@_Red_Oak_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7626,7 +7626,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.22930908203125,
     "lng": -88.14479064941406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Kelsey_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Kelsey_(Cell)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7636,7 +7636,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35929870605469,
     "lng": -87.87419128417969,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_Washington_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_Washington_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7646,7 +7646,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.21210861206055,
     "lng": -88.14128875732422,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Miller_(Cell)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Miller_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7656,7 +7656,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3595085144043,
     "lng": -87.8296890258789,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Sheridan_@_Washington_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Sheridan_@_Washington_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7686,7 +7686,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.31940841674805,
     "lng": -87.85608673095703,
-    "image_url": "https://www.lakecountypassage.com/snapshots/MLK_@_Lewis_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/MLK_@_Lewis_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7716,7 +7716,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.3302116394043,
     "lng": -87.83988952636719,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_16th_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_16th_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7726,7 +7726,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.363609313964844,
     "lng": -87.92980194091797,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Washington_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_21_@_Washington_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7736,7 +7736,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35961151123047,
     "lng": -87.89359283447266,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_east_ramp_@_Washington_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_east_ramp_@_Washington_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7746,7 +7746,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16830062866211,
     "lng": -88.06249237060547,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Quentin_@_White_Pine_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Quentin_@_White_Pine_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7756,7 +7756,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.39680862426758,
     "lng": -88.18389129638672,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Grand_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Grand_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7786,7 +7786,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.18251037597656,
     "lng": -87.94039154052734,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Aptakisic_@_Leider_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Aptakisic_@_Leider_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7796,7 +7796,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.18291091918945,
     "lng": -87.96510314941406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Aptakisic_@_Buffalo_Grove_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Aptakisic_@_Buffalo_Grove_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7806,7 +7806,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.34920883178711,
     "lng": -87.87419128417969,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_IL_131_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_IL_131_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7826,7 +7826,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.19029998779297,
     "lng": -88.10698699951172,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_IL_22_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_IL_22_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7836,7 +7836,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.30870819091797,
     "lng": -87.87689208984375,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_137_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_137_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7866,7 +7866,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.378910064697266,
     "lng": -88.06758880615234,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Rollins_@_Civic_Center_Way_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Rollins_@_Civic_Center_Way_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7876,7 +7876,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.47911071777344,
     "lng": -88.09648132324219,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Orchard_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Orchard_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7886,7 +7886,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.33491134643555,
     "lng": -88.2134017944336,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Lily_Lake_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Lily_Lake_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7896,7 +7896,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.39601135253906,
     "lng": -88.06519317626953,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Monaville_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Monaville_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -7906,7 +7906,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.46501159667969,
     "lng": -87.91329193115234,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Kilbourne_(Wireless)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Kilbourne_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -8046,7 +8046,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.833,
     "lng": -88.1028,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NEB_Naperville_4183300_-8810280_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NEB_Naperville_4183300_-8810280_1_E.jpg",
     "video_url": ""
   },
   {
@@ -9156,7 +9156,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.23711013793945,
     "lng": -88.1489028930664,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Roberts_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Roberts_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -9706,7 +9706,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35961151123047,
     "lng": -87.83389282226562,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_MLK_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_MLK_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -9726,7 +9726,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.37641143798828,
     "lng": -87.93328857421875,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_Lawson,_Six_Flags_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_132_@_Lawson,_Six_Flags_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -9736,7 +9736,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.46540832519531,
     "lng": -87.94660186767578,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_173_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_173_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -9836,7 +9836,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.1527099609375,
     "lng": -87.79969024658203,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Lake_Cook_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Lake_Cook_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -9846,7 +9846,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.18880081176758,
     "lng": -87.80709075927734,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Park_Ave_West_@_HP_Hospital_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Park_Ave_West_@_HP_Hospital_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -9856,7 +9856,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.18341064453125,
     "lng": -87.8012924194336,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Green_Bay_@_Laurel_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Green_Bay_@_Laurel_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -9866,7 +9866,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.31940841674805,
     "lng": -87.84689331054688,
-    "image_url": "https://www.lakecountypassage.com/snapshots/MLK_@_Commonwealth_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/MLK_@_Commonwealth_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -9926,7 +9926,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.8679,
     "lng": -87.9931,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Westmore-Meyers_4186790_-8799310_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Westmore-Meyers_4186790_-8799310_1_E.jpg",
     "video_url": ""
   },
   {
@@ -9936,7 +9936,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.8864,
     "lng": -88.0184,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Main_4188640_-8801840_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Main_4188640_-8801840_1_E.jpg",
     "video_url": ""
   },
   {
@@ -9966,7 +9966,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.9202,
     "lng": -87.9747,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NWB_Villa_4192020_-8797470_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NWB_Villa_4192020_-8797470_1_E.jpg",
     "video_url": ""
   },
   {
@@ -9976,7 +9976,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.74839,
     "lng": -88.1297,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_WB_75th_4174839_-8812970_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_WB_75th_4174839_-8812970_1_E.jpg",
     "video_url": ""
   },
   {
@@ -11146,7 +11146,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.22761154174805,
     "lng": -87.97720336914062,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Butterfield_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Butterfield_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11206,7 +11206,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.277610778808594,
     "lng": -88.15460205078125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Bonner_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_12_@_Bonner_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11216,7 +11216,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.341400146484375,
     "lng": -87.85588836669922,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_10th_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_10th_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11226,7 +11226,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.33391189575195,
     "lng": -87.8385009765625,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_Audrey_Nixon_(14th)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_Audrey_Nixon_(14th)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11246,7 +11246,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.43301010131836,
     "lng": -88.08979034423828,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Petite_Lake_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Petite_Lake_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11256,7 +11256,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.45711135864258,
     "lng": -87.82528686523438,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_IL_173_(21st)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_IL_173_(21st)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11266,7 +11266,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.44269943237305,
     "lng": -87.85469055175781,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_29th_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Lewis_@_29th_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11276,7 +11276,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.26959991455078,
     "lng": -88.00248718261719,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Hawley_@_Seymour_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Hawley_@_Seymour_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11286,7 +11286,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.410011291503906,
     "lng": -87.82489013671875,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_York_House_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_York_House_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11296,7 +11296,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.393310546875,
     "lng": -87.83139038085938,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_Mira_Flores_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_Mira_Flores_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11306,7 +11306,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.4646110534668,
     "lng": -87.86630249023438,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Kenosha_(Wireless)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Kenosha_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11316,7 +11316,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.21200942993164,
     "lng": -87.9551010131836,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Buffalo_Grove_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Buffalo_Grove_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11336,7 +11336,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.16749954223633,
     "lng": -87.87959289550781,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Parkway_N_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Deerfield_@_Parkway_N_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11596,7 +11596,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.160911560058594,
     "lng": -87.952392578125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Weiland_@_Pauline_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Weiland_@_Pauline_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11606,7 +11606,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.1605110168457,
     "lng": -87.98480224609375,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Arlington_Heights_@_Checker_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Arlington_Heights_@_Checker_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11626,7 +11626,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.49380874633789,
     "lng": -87.89179229736328,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Russell_@_Trumpet_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Russell_@_Trumpet_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11635,7 +11635,7 @@
     "route": "",
     "jurisdiction": "Lake County",
     "lat": 42.37950897216797,
-    "lng": -87.96308135986328,
+    "lng": -87.96308898925781,
     "image_url": "https://www.lakecountypassage.com/snapshots/Hunt_Club_@_Dada_cctv_North_Leg.jpg",
     "video_url": ""
   },
@@ -11666,7 +11666,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.277610778808594,
     "lng": -88.14958953857422,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Bonner_@_Old_Rand_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Bonner_@_Old_Rand_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11766,7 +11766,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.28001022338867,
     "lng": -87.90528869628906,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_Bradley_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_176_@_Bradley_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11776,7 +11776,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.42890930175781,
     "lng": -87.9380874633789,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Wadsworth_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_Wadsworth_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11786,7 +11786,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.207008361816406,
     "lng": -87.81169128417969,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Sheridan_@_Washington_Ave__(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Sheridan_@_Washington_Ave__(Cell)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11796,7 +11796,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.4481086730957,
     "lng": -88.11109161376953,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Grass_Lake_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Grass_Lake_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11816,7 +11816,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.400909423828125,
     "lng": -88.13040161132812,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Monaville_(Cell)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Monaville_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11826,7 +11826,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.42900848388672,
     "lng": -87.94579315185547,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Dilleys_@_Wadsworth_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Dilleys_@_Wadsworth_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11836,7 +11836,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.30781173706055,
     "lng": -87.84700012207031,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_@_Bobby_Thompson_Expy_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_@_Bobby_Thompson_Expy_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11846,7 +11846,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.327911376953125,
     "lng": -88.19669342041016,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Darrell_(Cell)_cctv_North_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_120_@_Darrell_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11856,7 +11856,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.35961151123047,
     "lng": -87.88509368896484,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Teske_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Washington_@_Teske_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11866,7 +11866,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.368709564208984,
     "lng": -88.139892578125,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_134_@_Wilson_(Cell)_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_134_@_Wilson_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11876,7 +11876,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.47679901123047,
     "lng": -88.10899353027344,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Tiffany_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_173_@_Tiffany_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11886,7 +11886,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.27960968017578,
     "lng": -87.85420227050781,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_IL_176_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_131_@_IL_176_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11906,7 +11906,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.39411163330078,
     "lng": -88.13980102539062,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Wilson_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_59_@_Wilson_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11926,7 +11926,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.169010162353516,
     "lng": -88.02468872070312,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_53_@_Long_Grove_(Cell)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_53_@_Long_Grove_(Cell)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11936,7 +11936,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.44670867919922,
     "lng": -88.09059143066406,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Grass_Lake_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_Grass_Lake_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -11946,7 +11946,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.470909118652344,
     "lng": -88.09349060058594,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_IL_173_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_83_@_IL_173_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -12066,7 +12066,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.831,
     "lng": -88.0108,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Highland_4183100_-8801080_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Highland_4183100_-8801080_1_E.jpg",
     "video_url": ""
   },
   {
@@ -12076,7 +12076,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.8164,
     "lng": -88.0102,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NEB_Main_4181640_-8801020_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NEB_Main_4181640_-8801020_1_E.jpg",
     "video_url": ""
   },
   {
@@ -12116,7 +12116,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.8247,
     "lng": -87.9721,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NEB_Midwest_4182470_-8797210_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NEB_Midwest_4182470_-8797210_1_E.jpg",
     "video_url": ""
   },
   {
@@ -12276,7 +12276,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.93139,
     "lng": -87.9396,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_EB_Grand_4193139_-8793960_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_EB_Grand_4193139_-8793960_1_E.jpg",
     "video_url": ""
   },
   {
@@ -12336,7 +12336,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.76639,
     "lng": -87.9743,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_WB_67th_4176639_-8797430_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_WB_67th_4176639_-8797430_1_E.jpg",
     "video_url": ""
   },
   {
@@ -12346,7 +12346,7 @@
     "jurisdiction": "DuPage County",
     "lat": 41.7995,
     "lng": -88.0372,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Belmont_4179950_-8803720_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_NB_Belmont_4179950_-8803720_1_E.jpg",
     "video_url": ""
   },
   {
@@ -12936,7 +12936,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 41.57659912109375,
     "lng": -88.00050354003906,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Will_SEB_I-355-CASH_4157660_-8800050_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Will_SEB_I-355-CASH_4157660_-8800050_1_N.jpg",
     "video_url": ""
   },
   {
@@ -12946,7 +12946,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 42.0640983581543,
     "lng": -88.07669830322266,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_WB_I-90_4206410_-8807670_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_WB_I-90_4206410_-8807670_1_E.jpg",
     "video_url": ""
   },
   {
@@ -12956,7 +12956,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 41.799598693847656,
     "lng": -88.26570129394531,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Kane_WB_I-88_4179960_-8826570_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Kane_WB_I-88_4179960_-8826570_1_E.jpg",
     "video_url": ""
   },
   {
@@ -12966,7 +12966,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 41.71730041503906,
     "lng": -87.80439758300781,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_NB_I-294_4171730_-8780440_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_NB_I-294_4171730_-8780440_1_N.jpg",
     "video_url": ""
   },
   {
@@ -12976,7 +12976,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 41.79610061645508,
     "lng": -88.30870056152344,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Kane_WB_Mettel_4179610_-8830870_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Kane_WB_Mettel_4179610_-8830870_1_E.jpg",
     "video_url": ""
   },
   {
@@ -12986,7 +12986,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 42.06700134277344,
     "lng": -88.19840240478516,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_WB_I-90_4206700_-8819840_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_WB_I-90_4206700_-8819840_1_E.jpg",
     "video_url": ""
   },
   {
@@ -12996,7 +12996,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 41.809391021728516,
     "lng": -88.05290222167969,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_DuPage_EB_I-88_4180939_-8805290_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_DuPage_EB_I-88_4180939_-8805290_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13006,7 +13006,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 41.73299026489258,
     "lng": -88.03388977050781,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_DuPage_NB_I-355-CASH_4173299_-8803389_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_DuPage_NB_I-355-CASH_4173299_-8803389_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13016,7 +13016,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 42.31809997558594,
     "lng": -88.96399688720703,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_2_Winnebago_NB_I-90_4231810_-8896400_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_2_Winnebago_NB_I-90_4231810_-8896400_1_E.jpg",
     "video_url": ""
   },
   {
@@ -13026,7 +13026,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 42.055599212646484,
     "lng": -87.8676986694336,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_NB_I-294_4205560_-8786770_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_NB_I-294_4205560_-8786770_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13036,7 +13036,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 42.3129997253418,
     "lng": -87.904296875,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Lake_NB_I-94_4231300_-8790430_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Lake_NB_I-94_4231300_-8790430_1_E.jpg",
     "video_url": ""
   },
   {
@@ -13046,7 +13046,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 41.79840087890625,
     "lng": -88.28500366210938,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Kane_WB_IL-110_4179840_-8828500_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Kane_WB_IL-110_4179840_-8828500_1_E.jpg",
     "video_url": ""
   },
   {
@@ -13056,7 +13056,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 41.742401123046875,
     "lng": -87.83270263671875,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_SEB_I-294_4174240_-8783270_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_SEB_I-294_4174240_-8783270_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13066,7 +13066,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.24000930786133,
     "lng": -87.86238861083984,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_60_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_41_@_IL_60_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -13316,7 +13316,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.34479904174805,
     "lng": -88.0044937133789,
-    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Center_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/US_45_@_Center_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -13386,7 +13386,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.22581100463867,
     "lng": -88.09078979492188,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Old_McHenry_@_Abbey_Glenn_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Old_McHenry_@_Abbey_Glenn_(Wireless)_cctv_East_Leg.jpg",
     "video_url": ""
   },
   {
@@ -13426,7 +13426,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.4209098815918,
     "lng": -87.82569122314453,
-    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_Beach_cctv_South_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_137_(Sheridan)_@_Beach_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -13736,7 +13736,7 @@
     "jurisdiction": "Illinois Tollway",
     "lat": 42.43190002441406,
     "lng": -87.95130157470703,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Lake_NWB_I-94-CASH_4243190_-8795130_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Lake_NWB_I-94-CASH_4243190_-8795130_1_E.jpg",
     "video_url": ""
   },
   {
@@ -13766,7 +13766,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.3283,
     "lng": -89.07536,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_SB_I-39_4132830_-8907536_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_SB_I-39_4132830_-8907536_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13816,7 +13816,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.36431,
     "lng": -89.17375,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Bureau_EB_I-80_4136431_-8917375_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Bureau_EB_I-80_4136431_-8917375_1_E.jpg",
     "video_url": ""
   },
   {
@@ -13836,7 +13836,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.375956,
     "lng": -88.632861,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_EB_I-80_4137596_-8863286_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_EB_I-80_4137596_-8863286_1_E.jpg",
     "video_url": ""
   },
   {
@@ -13846,7 +13846,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.04551,
     "lng": -87.89155,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_NB_I-57_4104551_-8789155_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_NB_I-57_4104551_-8789155_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13856,7 +13856,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.22975,
     "lng": -89.07766,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NB_I-39_4122975_-8907766_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NB_I-39_4122975_-8907766_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13866,7 +13866,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.2812,
     "lng": -89.08177,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NB_I-39_4128120_-8908177_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NB_I-39_4128120_-8908177_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13906,7 +13906,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.141269,
     "lng": -88.36795,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Grundy_SWB_I-55_4114127_-8836795_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Grundy_SWB_I-55_4114127_-8836795_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13946,7 +13946,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.390222,
     "lng": -89.05790833,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NB_US-51_4139022_-8905791_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NB_US-51_4139022_-8905791_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13956,7 +13956,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 40.99130278,
     "lng": -88.54132222,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Livingston_SWB_I-55_4099130_-8854132_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Livingston_SWB_I-55_4099130_-8854132_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13966,7 +13966,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 40.69765556,
     "lng": -88.75076111,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_McLean_NEB_I-55_4069766_-8875076_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_McLean_NEB_I-55_4069766_-8875076_1_N.jpg",
     "video_url": ""
   },
   {
@@ -13996,7 +13996,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.360873,
     "lng": -89.010191,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NWB_US-6_4136087_-8901019_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NWB_US-6_4136087_-8901019_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14006,7 +14006,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.160388,
     "lng": -87.888474,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_NWB_IL-102_4116039_-8788847_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_NWB_IL-102_4116039_-8788847_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14026,7 +14026,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.158034,
     "lng": -87.884139,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_NWB_IL-102_4115803_-8788414_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_NWB_IL-102_4115803_-8788414_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14036,7 +14036,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.418664,
     "lng": -88.270053,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Grundy_SB_Ridge_4141866_-8827005_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Grundy_SB_Ridge_4141866_-8827005_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14056,7 +14056,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.418719,
     "lng": -88.2641,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Grundy_EB_US-6_4141872_-8826410_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Grundy_EB_US-6_4141872_-8826410_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14096,7 +14096,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 40.456857,
     "lng": -88.375371,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Ford_EB_IL-9_4045686_-8837537_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Ford_EB_IL-9_4045686_-8837537_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14116,7 +14116,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.121229,
     "lng": -87.88717,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_EB_IL-17_4112123_-8788717_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_EB_IL-17_4112123_-8788717_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14126,7 +14126,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.118974,
     "lng": -87.89221,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_NEB_IL-17_4111897_-8789221_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_NEB_IL-17_4111897_-8789221_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14146,7 +14146,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.898629,
     "lng": -88.601385,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_1_Kane_SEB_IL-38_4189863_-8860138_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_1_Kane_SEB_IL-38_4189863_-8860138_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14156,7 +14156,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.555308,
     "lng": -89.127731,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NB_IL-251_4155531_-8912773_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NB_IL-251_4155531_-8912773_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14166,7 +14166,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.54822,
     "lng": -89.127557,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NB_IL-251_4154822_-8912756_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_LaSalle_NB_IL-251_4154822_-8912756_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14176,7 +14176,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.343009,
     "lng": -88.421551,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Grundy_NB_IL-47_4134301_-8842155_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Grundy_NB_IL-47_4134301_-8842155_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14186,7 +14186,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.335772,
     "lng": -88.421421,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Grundy_NB_IL-47_4133577_-8842142_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Grundy_NB_IL-47_4133577_-8842142_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14246,7 +14246,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 40.881179,
     "lng": -88.628672,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Livingston_WB_IL-116_4088118_-8862867_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Livingston_WB_IL-116_4088118_-8862867_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14266,7 +14266,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 40.779973,
     "lng": -87.746028,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Iroquois_WB_US-24_4077997_-8774603_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Iroquois_WB_US-24_4077997_-8774603_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14276,7 +14276,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.123275,
     "lng": -87.725588,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_NEB_IL-17_4112328_-8772559_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_NEB_IL-17_4112328_-8772559_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14316,7 +14316,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.50997,
     "lng": -88.433659,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kendall_SB_IL-47_4150997_-8843366_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kendall_SB_IL-47_4150997_-8843366_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14346,7 +14346,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 42.066487,
     "lng": -88.683861,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_DeKalb_SB_IL-23_4206649_-8868386_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_DeKalb_SB_IL-23_4206649_-8868386_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14356,7 +14356,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.162601,
     "lng": -87.848769,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_EB_Armour_4116260_-8784877_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_EB_Armour_4116260_-8784877_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14366,7 +14366,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.162653,
     "lng": -87.852961,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_EB_Armour_4116265_-8785296_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_EB_Armour_4116265_-8785296_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14386,7 +14386,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 41.003807,
     "lng": -87.867711,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Iroquois_SB_US-52_4100381_-8786771_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Iroquois_SB_US-52_4100381_-8786771_1_E.jpg",
     "video_url": ""
   },
   {
@@ -14916,7 +14916,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 39.831486,
     "lng": -89.593095,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_6_Sangamon_NB_I-55_3983149_-8959309_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_6_Sangamon_NB_I-55_3983149_-8959309_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15286,7 +15286,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 39.120416,
     "lng": -88.568125,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Effingham_NB_I-57_3912042_-8856812_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Effingham_NB_I-57_3912042_-8856812_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15306,7 +15306,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 39.067801,
     "lng": -88.670214,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Effingham_WB_I-70_3906780_-8867021_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Effingham_WB_I-70_3906780_-8867021_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15336,7 +15336,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 39.184818,
     "lng": -88.343108,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Cumberland_SWB_I-70_3918482_-8834311_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Cumberland_SWB_I-70_3918482_-8834311_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15346,7 +15346,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 39.430535,
     "lng": -87.543597,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Clark_SWB_I-70_3943054_-8754360_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Clark_SWB_I-70_3943054_-8754360_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15366,7 +15366,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 40.01881,
     "lng": -88.72167,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_Piatt_WB_I-72_4001881_-8872167_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_Piatt_WB_I-72_4001881_-8872167_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15386,7 +15386,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 39.485146,
     "lng": -88.321573,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Coles_NB_I-57_3948515_-8832157_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Coles_NB_I-57_3948515_-8832157_1_S.jpg",
     "video_url": ""
   },
   {
@@ -15396,7 +15396,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 39.988317,
     "lng": -88.787063,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Macon_SWB_I-72_3998832_-8878706_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Macon_SWB_I-72_3998832_-8878706_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15406,7 +15406,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 39.150534,
     "lng": -88.50836,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Effingham_SEB_I-57_3915053_-8850836_1_NE.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Effingham_SEB_I-57_3915053_-8850836_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15436,7 +15436,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 39.910046,
     "lng": -88.893939,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Macon_EB_I-72_3991005_-8889394_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Macon_EB_I-72_3991005_-8889394_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15456,7 +15456,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.977553,
     "lng": -89.096081,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Fayette_SB_US-51_3897755_-8909608_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_7_Fayette_SB_US-51_3897755_-8909608_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15496,7 +15496,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.617368,
     "lng": -90.16759,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_SWB_I-64_3861737_-9016759_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_SWB_I-64_3861737_-9016759_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15516,7 +15516,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.633564,
     "lng": -90.145434,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_EB_I-70_3863356_-9014543_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_EB_I-70_3863356_-9014543_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15536,7 +15536,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.613548,
     "lng": -90.171222,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_NB_I-64_3861355_-9017122_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_NB_I-64_3861355_-9017122_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15596,7 +15596,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.77276,
     "lng": -90.044179,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_SB_IL-255_3877276_-9004418_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_SB_IL-255_3877276_-9004418_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15616,7 +15616,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.662503,
     "lng": -90.08092,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_EB_US-40_3866250_-9008092_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_EB_US-40_3866250_-9008092_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15636,7 +15636,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.673422,
     "lng": -90.029313,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_EB_I-255_3867342_-9002931_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_EB_I-255_3867342_-9002931_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15646,7 +15646,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.641236,
     "lng": -90.154488,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_SEB_I-70_3864124_-9015449_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_SEB_I-70_3864124_-9015449_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15666,7 +15666,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.482419,
     "lng": -90.261233,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Monroe_EB_I-255_3848242_-9026123_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Monroe_EB_I-255_3848242_-9026123_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15746,7 +15746,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.65544,
     "lng": -90.032066,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_NB_I-255_3865544_-9003207_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_NB_I-255_3865544_-9003207_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15756,7 +15756,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.70083,
     "lng": -90.031122,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_SB_I-255_3870083_-9003112_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_SB_I-255_3870083_-9003112_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15816,7 +15816,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.676759,
     "lng": -90.01245,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_NB_IL-157_3867676_-9001245_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_NB_IL-157_3867676_-9001245_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15826,7 +15826,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.684059,
     "lng": -90.010764,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_SB_IL-157_3868406_-9001076_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_SB_IL-157_3868406_-9001076_1_N.jpg",
     "video_url": ""
   },
   {
@@ -15896,7 +15896,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.753041,
     "lng": -89.942596,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_EB_I-270_3875304_-8994260_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_EB_I-270_3875304_-8994260_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15906,7 +15906,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.602769,
     "lng": -90.085151,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_NEB_US-50_3860277_-9008515_1_N.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_St-Clair_NEB_US-50_3860277_-9008515_1_S.jpg",
     "video_url": ""
   },
   {
@@ -15936,7 +15936,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.753706,
     "lng": -89.892646,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_WB_I-70_3875371_-8989265_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_WB_I-70_3875371_-8989265_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15956,7 +15956,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 38.755312,
     "lng": -89.866582,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_EB_I-70_3875531_-8986658_1_W.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_EB_I-70_3875531_-8986658_1_E.jpg",
     "video_url": ""
   },
   {
@@ -15976,7 +15976,7 @@
     "jurisdiction": "IDOT D4",
     "lat": 37.782466,
     "lng": -88.945464,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_9_Williamson_NB_I-57_3778247_-8894546_1_S.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_9_Williamson_NB_I-57_3778247_-8894546_1_N.jpg",
     "video_url": ""
   },
   {
@@ -16106,7 +16106,7 @@
     "jurisdiction": "Lake County",
     "lat": 42.48080825805664,
     "lng": -88.06220245361328,
-    "image_url": "https://www.lakecountypassage.com/snapshots/Deep_Lake_Rd_@_Depot_St_(Wireless)_cctv_West_Leg.jpg",
+    "image_url": "https://www.lakecountypassage.com/snapshots/Deep_Lake_Rd_@_Depot_St_(Wireless)_cctv_North_Leg.jpg",
     "video_url": ""
   },
   {
@@ -16137,6 +16137,466 @@
     "lat": 42.085505,
     "lng": -88.3356,
     "image_url": "https://cctv.travelmidwest.com/snapshots/IL-KANECOUNTY_1_Kane_SB_Randall_4208551_-8833560_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-3011",
+    "name": "I-57 SB at Mile Post 324",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 41.22625,
+    "lng": -87.8642,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Kankakee_SB_I-57_4122625_-8786420_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5006",
+    "name": "I-57 at Pesotum",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 39.905236,
+    "lng": -88.278844,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_Champaign_NWB_I-57_3990524_-8827884_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5024",
+    "name": "Bus 55 (Veteran's Parkway) at Ireland Grove",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.463547,
+    "lng": -88.957494,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_McLean_NEB_I-55-Business-Loop_4046355_-8895749_1_S.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5028",
+    "name": "Bus 55 (Veteran's Parkway) at GE Way",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.502486,
+    "lng": -88.952711,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_McLean_NB_Veterans_4050249_-8895271_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5029",
+    "name": "Bus 55 (Veteran's Parkway) at College",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.510533,
+    "lng": -88.953711,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_McLean_SB_I-55-Business-Loop_4051053_-8895371_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5030",
+    "name": "Bus 55 (Veteran's Parkway) at Fort Jesse",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.517347,
+    "lng": -88.953197,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_McLean_SB_Veterans_4051735_-8895320_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5031",
+    "name": "US 45 at Church",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.054639,
+    "lng": -88.251211,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_Champaign_NB_US-45_4005464_-8825121_1_S.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5032",
+    "name": "US 45 at Curtis",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.069189,
+    "lng": -88.248964,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_Champaign_NB_US-45_4006919_-8824896_1_S.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5033",
+    "name": "US 45 at Windsor",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.083794,
+    "lng": -88.246661,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_Champaign_NB_US-45_4008379_-8824666_1_S.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-8038",
+    "name": "I-55/70 @ MP 19.2",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 38.7479267199877,
+    "lng": -89.90861224449752,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_8_Madison_SB_I-55_3874793_-8990861_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ED001",
+    "name": "Edens Expressway north of Foster Ave",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.97979478374453,
+    "lng": -87.74642903252192,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NB_I-94_4197979_-8774643_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ED003",
+    "name": "I-94 Edens Expressway @ Pratt Ave",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 42.00649520478932,
+    "lng": -87.7483795158126,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NB_I-94_4200650_-8774838_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ED004",
+    "name": "I-94 Edens Expressway @ Niles Center Rd",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 42.01875560976022,
+    "lng": -87.76195091918125,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SEB_I-94_4201876_-8776195_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ED00T",
+    "name": "I-94 Edens",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 40.633125,
+    "lng": -89.398528,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_4_Tazewell_NB_Washington_4063313_-8939853_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ED010",
+    "name": "I-94 @ Willow Rd",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 42.1017,
+    "lng": -87.767582,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NWB_I-94_4210170_-8776758_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ED011",
+    "name": "I-94 @ Tower Rd",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 42.10978012665468,
+    "lng": -87.7739413538409,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SEB_US-41_4210978_-8777394_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ED016",
+    "name": "I-94 @ Lincoln Ave",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 42.034629518493155,
+    "lng": -87.7684442006467,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SWB_I-94_4203463_-8776844_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-FS3A",
+    "name": "I-57 @ 114th St",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.6867333,
+    "lng": -87.66215,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-57_4168673_-8766215_2_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-FS8A",
+    "name": "I-57 @ Sibley",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.6254167,
+    "lng": -87.6777333,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NEB_I-294_4162542_-8767773_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-FS9",
+    "name": "I-57 @ Kedzie",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.6133667,
+    "lng": -87.6941667,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SWB_I-294_4161337_-8769417_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-IK0H",
+    "name": "I-290 IKE @ Van Buren",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.87649821,
+    "lng": -87.64424741,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_Desplaines_4187650_-8764425_2_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-IK0S",
+    "name": "I-290 @ Halsted Hut",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.87626,
+    "lng": -87.64615,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-90_4187626_-8764615_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-IK14",
+    "name": "I-290 IKE @ I-88/I-290 SPLIT",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.873565,
+    "lng": -87.905246,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_EB_I-290_4187357_-8790525_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE01B",
+    "name": "I-90/94 @ Ohio St",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.89261787,
+    "lng": -87.64595312,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_WB_Ohio-Feeder_4189262_-8764595_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE01C",
+    "name": "I-90/94 @ Ogden Ave",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.891471231514004,
+    "lng": -87.65084694776374,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NWB_I-90_4189147_-8765085_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE01D",
+    "name": "I-90/94 @ Chicago Ave EB",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.895411309354756,
+    "lng": -87.6580587860913,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SEB_I-90_4189541_-8765806_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE01E",
+    "name": "I-90/94 @ Chicago Ave WB",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.89674791165682,
+    "lng": -87.6581229257896,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NWB_I-90_4189675_-8765812_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE01F",
+    "name": "I-90/94 @ Chicago Ave WB",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.89674791165682,
+    "lng": -87.6581229257896,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NWB_I-90_4189675_-8765812_2_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE02",
+    "name": "I-90/94 @ Milwaukee Ave WB",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.899696513434584,
+    "lng": -87.65980466396111,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NB_I-94_4189970_-8765980_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE02B",
+    "name": "I-90/94 @ Division St WB",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.90334404635555,
+    "lng": -87.6607695580048,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NB_I-90_4190334_-8766077_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE02C",
+    "name": "I-90/94 at Blackhawk St",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.907132,
+    "lng": -87.661469,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NWB_I-90_4190713_-8766147_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE02D",
+    "name": "I-90/94 @ North Ave EB",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.91068,
+    "lng": -87.66499,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SEB_Kennedy-Reversibles_4191068_-8766499_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE03C",
+    "name": "I-90/94 @ Armitage Ave WB",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.91788,
+    "lng": -87.67048,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SEB_Kennedy-Reversibles_4191788_-8767048_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE06C",
+    "name": "I-90/94 @ Avondale Ave",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.94353482,
+    "lng": -87.71742494,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SEB_I-90_4194353_-8771742_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE06D",
+    "name": "I-90/94 @ Addison St EB",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.94649,
+    "lng": -87.71846,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NWB_Kennedy-Reversibles_4194649_-8771846_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE06E",
+    "name": "I-90/94 @ Addison St",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.94649,
+    "lng": -87.71846,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NWB_Kennedy-Reversibles_4194649_-8771846_2_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE06F",
+    "name": "Kennedy at Hamlin Ave",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 42.028112,
+    "lng": -87.723311,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_WB_Keeney_4202811_-8772331_1_NW.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE07E",
+    "name": "I-90/94 @ Keeler Ave WB",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.95478,
+    "lng": -87.73249,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NWB_Kennedy-Reversibles_4195478_-8773249_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE13C",
+    "name": "I-90 @ Cumberland Ave SB Exit Ramp",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.98436,
+    "lng": -87.83659,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_WB_I-90_4198436_-8783659_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KE14A",
+    "name": "I-90 @ I-190",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.98336,
+    "lng": -87.84695,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_EB_I-90_4198336_-8784695_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KI01",
+    "name": "I-80/94 @ Wildwood Dr",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.5783,
+    "lng": -87.5488667,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_WB_I-94_4157830_-8754887_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KI01A",
+    "name": "I-80/94 @ Torrence",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.5783833,
+    "lng": -87.5579,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_WB_I-94_4157838_-8755790_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-KI02",
+    "name": "I-80/94 @ Paxton Ave",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.5773,
+    "lng": -87.5679667,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_EB_I-294_4157730_-8756797_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ST19",
+    "name": "I-55 at IL 83",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.740516,
+    "lng": -87.943253,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_DuPage_SB_IL-83_4174052_-8794325_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ST20A",
+    "name": "I-55 at Cass Ave",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.732475,
+    "lng": -87.972054,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_DuPage_SWB_I-55_4173248_-8797205_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ST24A",
+    "name": "I-55 at Joliet Rd",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.70095825,
+    "lng": -88.03519936,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Will_EB_I-355_4170096_-8803520_1_NONE.jpg",
     "video_url": ""
   }
 ]

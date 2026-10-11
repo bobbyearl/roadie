@@ -2971,22 +2971,22 @@
   },
   {
     "id": "563",
-    "name": "Camera 563",
+    "name": "Franklin &amp; TenMile",
     "route": "",
     "jurisdiction": "",
     "lat": 43.60458,
     "lng": -116.433495,
-    "image_url": "https://511.idaho.gov/map/Cctv/563",
+    "image_url": "https://511.idaho.gov/map/Cctv/760",
     "video_url": ""
   },
   {
     "id": "564",
-    "name": "Franklin &amp; Linder",
+    "name": "Camera 564",
     "route": "",
     "jurisdiction": "",
     "lat": 43.604553,
     "lng": -116.41344,
-    "image_url": "https://511.idaho.gov/map/Cctv/761",
+    "image_url": "https://511.idaho.gov/map/Cctv/564",
     "video_url": ""
   },
   {
@@ -3031,22 +3031,22 @@
   },
   {
     "id": "569",
-    "name": "Emerald &amp; Rifleman",
+    "name": "Camera 569",
     "route": "",
     "jurisdiction": "",
     "lat": 43.611946,
     "lng": -116.280464,
-    "image_url": "https://511.idaho.gov/map/Cctv/766",
+    "image_url": "https://511.idaho.gov/map/Cctv/569",
     "video_url": ""
   },
   {
     "id": "570",
-    "name": "Camera 570",
+    "name": "Emerald &amp; MapleGrove",
     "route": "",
     "jurisdiction": "",
     "lat": 43.611515,
     "lng": -116.29388,
-    "image_url": "https://511.idaho.gov/map/Cctv/570",
+    "image_url": "https://511.idaho.gov/map/Cctv/767",
     "video_url": ""
   },
   {

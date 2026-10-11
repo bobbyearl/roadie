@@ -2,10 +2,10 @@
   {
     "id": "32768",
     "name": "SSP at NY135 (Crown Castle) - 1",
-    "route": "NY 135",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.70016272957286,
-    "lng": -73.49075757290815,
+    "lat": 40.700365,
+    "lng": -73.491488,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_384.flv.png",
     "video_url": ""
   },
@@ -22,10 +22,10 @@
   {
     "id": "32770",
     "name": "NY27A at County Line Rd",
-    "route": "NY 27",
+    "route": "NY 27A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.67931504226546,
-    "lng": -73.43318604192226,
+    "lat": 40.67139914844473,
+    "lng": -73.42353255247549,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_388.flv.png",
     "video_url": ""
   },
@@ -182,80 +182,80 @@
   {
     "id": "32786",
     "name": "NY27A at Bay Shore Ave",
-    "route": "NY 27",
+    "route": "NY 27A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.735182880264695,
-    "lng": -73.25003288933858,
+    "lat": 40.72294052889362,
+    "lng": -73.24588290613221,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_402.flv.png",
     "video_url": ""
   },
   {
     "id": "32787",
     "name": "NY27A at S Montgomery Ave",
-    "route": "NY 27",
+    "route": "NY 27A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.736397242691304,
-    "lng": -73.24418427123801,
+    "lat": 40.72520129439563,
+    "lng": -73.23922443104098,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_403.flv.png",
     "video_url": ""
   },
   {
     "id": "32788",
     "name": "NY27A at Brentwood Rd",
-    "route": "NY 27",
+    "route": "NY 27A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.737960254324946,
-    "lng": -73.2373694541796,
+    "lat": 40.72668512609617,
+    "lng": -73.2346602816475,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_404.flv.png",
     "video_url": ""
   },
   {
     "id": "32789",
     "name": "NY27A at Saxon Ave",
-    "route": "NY 27",
+    "route": "NY 27A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.73885523549539,
-    "lng": -73.23117190437073,
+    "lat": 40.72801721958549,
+    "lng": -73.22840248038186,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_405.flv.png",
     "video_url": ""
   },
   {
     "id": "32790",
     "name": "NY27A at Ocean Ave",
-    "route": "NY 27",
+    "route": "NY 27A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.74017314199583,
-    "lng": -73.22205750229459,
+    "lat": 40.72794448080832,
+    "lng": -73.21902225724715,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_406.flv.png",
     "video_url": ""
   },
   {
     "id": "32791",
     "name": "NY27A at NY111",
-    "route": "NY 27",
+    "route": "NY 111",
     "jurisdiction": "NYSDOT",
-    "lat": 40.741978092559194,
-    "lng": -73.20899334511645,
+    "lat": 40.73031103126177,
+    "lng": -73.20731767513377,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_407.flv.png",
     "video_url": ""
   },
   {
     "id": "32792",
     "name": "NY27A at Woodland Dr/Carlton Ave",
-    "route": "NY 27",
+    "route": "NY 27A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.743064956784266,
-    "lng": -73.1930599972354,
+    "lat": 40.73115841694483,
+    "lng": -73.19076455955725,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_408.flv.png",
     "video_url": ""
   },
   {
     "id": "32793",
     "name": "NY27A at NY908M (Heckscher State Parkway)",
-    "route": "NY 27",
+    "route": "NY 27A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.74676912247104,
-    "lng": -73.1730601991262,
+    "lat": 40.73561714200711,
+    "lng": -73.17039203868251,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_409.flv.png",
     "video_url": ""
   },
@@ -372,10 +372,10 @@
   {
     "id": "32805",
     "name": "OVD-LIE WB to Sagtikos Parkway NB",
-    "route": "I-495",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80469759345346,
-    "lng": -73.27900494136463,
+    "lat": 40.806778,
+    "lng": -73.27895,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_420.flv.png",
     "video_url": ""
   },
@@ -452,10 +452,10 @@
   {
     "id": "32813",
     "name": "I-81 at Preble Rest Area",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.71416827268282,
-    "lng": -76.14710350949103,
+    "lat": 42.714028,
+    "lng": -76.14604,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_033.flv.png",
     "video_url": ""
   },
@@ -512,10 +512,10 @@
   {
     "id": "32819",
     "name": "NY434 @ Clayton Ave",
-    "route": "NY 434",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.07565708374121,
-    "lng": -76.08338997509318,
+    "lat": 42.086986,
+    "lng": -76.09426,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R9_015.flv.png",
     "video_url": ""
   },
@@ -692,10 +692,10 @@
   {
     "id": "32837",
     "name": "I-590 Off Ramp at I-390",
-    "route": "I-590",
+    "route": "I-390",
     "jurisdiction": "NYSDOT",
-    "lat": 43.10858604301629,
-    "lng": -77.59867805326472,
+    "lat": 43.11007235733217,
+    "lng": -77.5998056470336,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_039.flv.png",
     "video_url": ""
   },
@@ -792,10 +792,10 @@
   {
     "id": "32847",
     "name": "I-190 (Niagara Expy) at Canadian Toll Plaza",
-    "route": "I-190",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.153046043112305,
-    "lng": -79.04451998775646,
+    "lat": 43.153909,
+    "lng": -79.048387,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_100.flv.png",
     "video_url": ""
   },
@@ -812,10 +812,10 @@
   {
     "id": "32849",
     "name": "SSP at Exit 19",
-    "route": "908M",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.690002567548014,
-    "lng": -73.63330850170905,
+    "lat": 40.690522,
+    "lng": -73.633392,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_099.flv.png",
     "video_url": ""
   },
@@ -852,10 +852,10 @@
   {
     "id": "32853",
     "name": "Rainbow Bridge View to US",
-    "route": "955A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.090267435143225,
-    "lng": -79.06779237549554,
+    "lat": 43.09151,
+    "lng": -79.06948,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_103.flv.png",
     "video_url": ""
   },
@@ -892,10 +892,10 @@
   {
     "id": "32857",
     "name": "Willis Ave Park-N-Ride Lot",
-    "route": "I-690",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.0677683383073,
-    "lng": -76.19985641817513,
+    "lat": 43.067354,
+    "lng": -76.200519,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_080.flv.png",
     "video_url": ""
   },
@@ -1062,20 +1062,20 @@
   {
     "id": "32874",
     "name": "At I-684 North of Manhattanville Road",
-    "route": "I-684",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.02871654055864,
-    "lng": -73.72625236547383,
+    "lat": 41.027667,
+    "lng": -73.724792,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_161.flv.png",
     "video_url": ""
   },
   {
     "id": "32875",
     "name": "At I-684 at I287 WB Exit Ramp",
-    "route": "I-684",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.0276958779714,
-    "lng": -73.72751006423208,
+    "lat": 41.028106,
+    "lng": -73.728128,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_162.flv.png",
     "video_url": ""
   },
@@ -1102,10 +1102,10 @@
   {
     "id": "32878",
     "name": "NY-100A Tarrytown Rd and NY-119 Knollwood Rd",
-    "route": "NY 100",
+    "route": "NY 100A",
     "jurisdiction": "NYSDOT",
-    "lat": 41.04432107568586,
-    "lng": -73.79052016513164,
+    "lat": 41.045382687662475,
+    "lng": -73.80485672907187,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_165.flv.png",
     "video_url": ""
   },
@@ -1242,10 +1242,10 @@
   {
     "id": "32892",
     "name": "NY-59 EB at Forman Drive MM 8.47 CAM (A)",
-    "route": "NY 59",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.10336936185409,
-    "lng": -74.0298544009469,
+    "lat": 41.102722,
+    "lng": -74.030472,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_179.flv.png",
     "video_url": ""
   },
@@ -1472,10 +1472,10 @@
   {
     "id": "32915",
     "name": "SSP between Exit 37 (Belmont Ave) and Exit 36 (Straight Path)",
-    "route": "908M",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.732056358729274,
-    "lng": -73.35817552605904,
+    "lat": 40.732597,
+    "lng": -73.358332,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_126.flv.png",
     "video_url": ""
   },
@@ -1502,10 +1502,10 @@
   {
     "id": "32918",
     "name": "I-87 NB Exit 8A at Grooms Rd",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.84007800114465,
-    "lng": -73.77132130390609,
+    "lat": 42.8402,
+    "lng": -73.77044,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_059.flv.png",
     "video_url": ""
   },
@@ -1702,20 +1702,20 @@
   {
     "id": "32938",
     "name": "I-84 at NY 208",
-    "route": "I-84",
+    "route": "NY 208",
     "jurisdiction": "NYSDOT",
-    "lat": 41.51081462729609,
-    "lng": -74.2072704087764,
+    "lat": 41.511383768299496,
+    "lng": -74.20723559706893,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_058.flv.png",
     "video_url": ""
   },
   {
     "id": "32939",
     "name": "I-390 at Scottsville",
-    "route": "I-390",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.12337400145195,
-    "lng": -77.64947714046966,
+    "lat": 43.12146,
+    "lng": -77.65138,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_029.flv.png",
     "video_url": ""
   },
@@ -1802,10 +1802,10 @@
   {
     "id": "32948",
     "name": "I-490 at Erie Canal",
-    "route": "I-490",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15722891132592,
-    "lng": -77.67299486355667,
+    "lat": 43.157874,
+    "lng": -77.673135,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_040.flv.png",
     "video_url": ""
   },
@@ -1822,20 +1822,20 @@
   {
     "id": "32950",
     "name": "NY878 at Peninsula/Bay Blvd",
-    "route": "NY 878",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.623012967510036,
-    "lng": -73.74099304864531,
+    "lat": 40.628058,
+    "lng": -73.739702,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_386.flv.png",
     "video_url": ""
   },
   {
     "id": "32951",
     "name": "NY878 at Rockaway Tpke",
-    "route": "NY 878",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.623012967510036,
-    "lng": -73.74099304864531,
+    "lat": 40.630635,
+    "lng": -73.738334,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_387.flv.png",
     "video_url": ""
   },
@@ -1852,10 +1852,10 @@
   {
     "id": "32953",
     "name": "I-87 SB in Median @ US 20",
-    "route": "I-87",
+    "route": "910F",
     "jurisdiction": "NYSDOT",
-    "lat": 42.683799340503974,
-    "lng": -73.84527314478842,
+    "lat": 42.68364022444934,
+    "lng": -73.84405899333824,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_078.flv.png",
     "video_url": ""
   },
@@ -1932,10 +1932,10 @@
   {
     "id": "32961",
     "name": "Henry Hudson Pkwy at W. 173 St",
-    "route": "NY 9A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.84613657943791,
-    "lng": -73.94474137926058,
+    "lat": 40.84599,
+    "lng": -73.94323,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_237.flv.png",
     "video_url": ""
   },
@@ -1982,10 +1982,10 @@
   {
     "id": "32966",
     "name": "State Fair Blvd east of Connector Rd",
-    "route": "I-690",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.07222938112238,
-    "lng": -76.20770058863027,
+    "lat": 43.071814,
+    "lng": -76.208026,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/F128640.flv.png",
     "video_url": ""
   },
@@ -2012,10 +2012,10 @@
   {
     "id": "32969",
     "name": "531 at 259",
-    "route": "NY 31F",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.10292240338633,
-    "lng": -77.48209936343548,
+    "lat": 43.104224,
+    "lng": -77.481411,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_087.flv.png",
     "video_url": ""
   },
@@ -2152,10 +2152,10 @@
   {
     "id": "32983",
     "name": "US 9 & 20 EB at the Dunn Memorial Bridge",
-    "route": "US 20",
+    "route": "US 9",
     "jurisdiction": "NYSDOT",
-    "lat": 42.63955200427305,
-    "lng": -73.74817797761176,
+    "lat": 42.6376087027474,
+    "lng": -73.74817382755566,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_084.flv.png",
     "video_url": ""
   },
@@ -2222,10 +2222,10 @@
   {
     "id": "32990",
     "name": "TSPmd-000-at_Underhill Ave(Exit 13)-mp13.95",
-    "route": "987G",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.253529251446366,
-    "lng": -73.80794580130743,
+    "lat": 41.253688,
+    "lng": -73.808722,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_099.flv.png",
     "video_url": ""
   },
@@ -2432,10 +2432,10 @@
   {
     "id": "33011",
     "name": "Prospect Expressway at Fort Hamilton Pkwy",
-    "route": "NY 27",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.64981263456228,
-    "lng": -73.97673698082484,
+    "lat": 40.64993,
+    "lng": -73.97561,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_281.flv.png",
     "video_url": ""
   },
@@ -2782,10 +2782,10 @@
   {
     "id": "33046",
     "name": "NY 5A WB at Hannaford Driveway",
-    "route": "NY 5",
+    "route": "NY 5A",
     "jurisdiction": "NYSDOT",
-    "lat": 43.08046489994398,
-    "lng": -75.3195500786527,
+    "lat": 43.08610102015019,
+    "lng": -75.31550865672294,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_026.flv.png",
     "video_url": ""
   },
@@ -2862,10 +2862,10 @@
   {
     "id": "33054",
     "name": "NY-59 EB 280 at Depew Ave Franklin St MM 00.0",
-    "route": "NY 59",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.092358019816935,
-    "lng": -73.92870702421186,
+    "lat": 41.089935,
+    "lng": -73.921766,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_132.flv.png",
     "video_url": ""
   },
@@ -3052,10 +3052,10 @@
   {
     "id": "33073",
     "name": "I-84 WB East of Exit 19 NY-17 MM 19.64",
-    "route": "I-84",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.452171074686866,
-    "lng": -74.36021878017192,
+    "lat": 41.452674,
+    "lng": -74.360628,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_149.flv.png",
     "video_url": ""
   },
@@ -3132,10 +3132,10 @@
   {
     "id": "33081",
     "name": "NY-59 WB at I-287 Exit 14 Ent Rmp MM 18.47",
-    "route": "NY 59",
+    "route": "I-87",
     "jurisdiction": "NYSDOT",
-    "lat": 41.102214243579965,
-    "lng": -74.02769355224996,
+    "lat": 41.10306976947543,
+    "lng": -74.0267757556496,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_154.flv.png",
     "video_url": ""
   },
@@ -3162,20 +3162,20 @@
   {
     "id": "33084",
     "name": "I-90 MP 227.10 WB Schuyler Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.075893413182676,
-    "lng": -75.10405710742461,
+    "lat": 43.07645,
+    "lng": -75.10349,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_205.flv.png",
     "video_url": ""
   },
   {
     "id": "33085",
     "name": "I-90 MP 227.10 WB Schuyler Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.07600622367146,
-    "lng": -75.10426462037935,
+    "lat": 43.07658,
+    "lng": -75.10368,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_206.flv.png",
     "video_url": ""
   },
@@ -3302,60 +3302,60 @@
   {
     "id": "33098",
     "name": "I-90 MP 210.00 EB at Indian Castle Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.01660593408451,
-    "lng": -74.80427610604076,
+    "lat": 43.01609,
+    "lng": -74.80443,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_179.flv.png",
     "video_url": ""
   },
   {
     "id": "33099",
     "name": "I-90 MP 210.00 EB at Indian Castle Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.016565209217326,
-    "lng": -74.80402731228688,
+    "lat": 43.01606,
+    "lng": -74.80422,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_180.flv.png",
     "video_url": ""
   },
   {
     "id": "33100",
     "name": "I-90 MP 266.30 WB at Chittenango Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.09509205276415,
-    "lng": -75.84096139079445,
+    "lat": 43.09598,
+    "lng": -75.84075,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_181.flv.png",
     "video_url": ""
   },
   {
     "id": "33101",
     "name": "I-90 MP 266.30 WB at Chittenango Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.09509205276415,
-    "lng": -75.84096139079445,
+    "lat": 43.09598,
+    "lng": -75.84075,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_182.flv.png",
     "video_url": ""
   },
   {
     "id": "33102",
     "name": "I-90 MP 323.80 WB at Junius Ponds Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.958172600576376,
-    "lng": -76.91778377964727,
+    "lat": 42.95899,
+    "lng": -76.91785,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_183.flv.png",
     "video_url": ""
   },
   {
     "id": "33103",
     "name": "I-90 MP 323.80 WB at Junius Ponds Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.9581531424239,
-    "lng": -76.91823219714698,
+    "lat": 42.95899,
+    "lng": -76.9183,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_184.flv.png",
     "video_url": ""
   },
@@ -3372,100 +3372,100 @@
   {
     "id": "33105",
     "name": "I-90 MP 336.80 EB at Clifton Springs Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.973387275735504,
-    "lng": -77.1747064520384,
+    "lat": 42.97287,
+    "lng": -77.17473,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_185.flv.png",
     "video_url": ""
   },
   {
     "id": "33106",
     "name": "I-90 MP 349.50 WB Seneca Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.99825946539092,
-    "lng": -77.41350757742887,
+    "lat": 42.99901,
+    "lng": -77.41331,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_201.flv.png",
     "video_url": ""
   },
   {
     "id": "33107",
     "name": "I-90 MP 349.50 WB Seneca Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.99833392837272,
-    "lng": -77.41403639609094,
+    "lat": 42.99908,
+    "lng": -77.41384,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_202.flv.png",
     "video_url": ""
   },
   {
     "id": "33108",
     "name": "I-90 MP 153.00 EB Guilderland Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.74404166594645,
-    "lng": -73.91758675032406,
+    "lat": 42.7435,
+    "lng": -73.9182,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_211.flv.png",
     "video_url": ""
   },
   {
     "id": "33109",
     "name": "I-90 MP 153.00 EB Guilderland Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.74406887915197,
-    "lng": -73.91763019011609,
+    "lat": 42.7435,
+    "lng": -73.9183,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_212.flv.png",
     "video_url": ""
   },
   {
     "id": "33110",
     "name": "I-90 MP 153.00 EB Guilderland Service Area Truck Park 3",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.744263448650706,
-    "lng": -73.91793658706898,
+    "lat": 42.7437,
+    "lng": -73.9186,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_213.flv.png",
     "video_url": ""
   },
   {
     "id": "33111",
     "name": "I-90 MP 153.00 EB Guilderland Service Area Truck Park 4",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.7442271131863,
-    "lng": -73.91787936805136,
+    "lat": 42.7437,
+    "lng": -73.9185,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_214.flv.png",
     "video_url": ""
   },
   {
     "id": "33112",
     "name": "I-87 MP 33.0 SB Ramapo Service Area Truck Park 1",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.15376442983628,
-    "lng": -74.18883434699755,
+    "lat": 41.153894,
+    "lng": -74.189839,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_218.flv.png",
     "video_url": ""
   },
   {
     "id": "33113",
     "name": "I-87 MP 33.0 SB Ramapo Service Area Truck Park 2",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.153757044083285,
-    "lng": -74.18883602725377,
+    "lat": 41.153885,
+    "lng": -74.189867,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_219.flv.png",
     "video_url": ""
   },
   {
     "id": "33114",
     "name": "I-87 MP 33.0 SB Ramapo Service Area Truck Park 3",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.15341676786184,
-    "lng": -74.18888731687068,
+    "lat": 41.153508,
+    "lng": -74.189955,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_220.flv.png",
     "video_url": ""
   },
@@ -3482,30 +3482,30 @@
   {
     "id": "33116",
     "name": "I-90 MP 365.7 EB Scottsville Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.04148030471231,
-    "lng": -77.71495571567559,
+    "lat": 43.040833,
+    "lng": -77.715,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_221.flv.png",
     "video_url": ""
   },
   {
     "id": "33117",
     "name": "I-90 MP 365.7 EB Scottsville Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.041505059939524,
-    "lng": -77.71548721978186,
+    "lat": 43.040833,
+    "lng": -77.715556,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_222.flv.png",
     "video_url": ""
   },
   {
     "id": "33118",
     "name": "I-90 MP 365.7 EB Scottsville Service Area Truck Park 3",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.04148994722354,
-    "lng": -77.71521076339963,
+    "lat": 43.040833,
+    "lng": -77.715278,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_223.flv.png",
     "video_url": ""
   },
@@ -3522,10 +3522,10 @@
   {
     "id": "33120",
     "name": "I-90 MP 310.3 EB Port Byron Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.024157200244076,
-    "lng": -76.67149222764613,
+    "lat": 43.02373,
+    "lng": -76.67112,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_225.flv.png",
     "video_url": ""
   },
@@ -3542,30 +3542,30 @@
   {
     "id": "33122",
     "name": "I-90 MP 168.10 WB Pattersonville Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.89626529888247,
-    "lng": -74.09789618436963,
+    "lat": 42.896873,
+    "lng": -74.097454,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_229.flv.png",
     "video_url": ""
   },
   {
     "id": "33123",
     "name": "I-90 MP 168.10 WB Pattersonville Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.896264061500666,
-    "lng": -74.09789301576008,
+    "lat": 42.896932,
+    "lng": -74.097407,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_230.flv.png",
     "video_url": ""
   },
   {
     "id": "33124",
     "name": "I-90 MP 168.10 WB Pattersonville Service Area Truck Park 3",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.89613500792327,
-    "lng": -74.09756254346976,
+    "lat": 42.896882,
+    "lng": -74.097019,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_231.flv.png",
     "video_url": ""
   },
@@ -3592,10 +3592,10 @@
   {
     "id": "33127",
     "name": "I-87 MP 013.60b SB Gov. Mario M. Cuomo Bridge View 2",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.07111415622866,
-    "lng": -73.87311900750743,
+    "lat": 41.07064,
+    "lng": -73.87328,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_170.flv.png",
     "video_url": ""
   },
@@ -3642,50 +3642,50 @@
   {
     "id": "33132",
     "name": "I-90 MP 397.40 EB at Pembroke Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.012382887330006,
-    "lng": -78.32941637403697,
+    "lat": 43.011681,
+    "lng": -78.329316,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_190.flv.png",
     "video_url": ""
   },
   {
     "id": "33133",
     "name": "I-90 MP 336.80 EB at Clifton Springs Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.97338167651595,
-    "lng": -77.17447670501468,
+    "lat": 42.97287,
+    "lng": -77.1745,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_186.flv.png",
     "video_url": ""
   },
   {
     "id": "33134",
     "name": "I-90 MP 412.10 WB at Clarence Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.951787137995964,
-    "lng": -78.6028040671941,
+    "lat": 42.95265,
+    "lng": -78.60324,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_187.flv.png",
     "video_url": ""
   },
   {
     "id": "33135",
     "name": "I-90 MP 412.10 WB at Clarence Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.95175375590401,
-    "lng": -78.60292740918392,
+    "lat": 42.95261,
+    "lng": -78.60336,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_188.flv.png",
     "video_url": ""
   },
   {
     "id": "33136",
     "name": "I-90 MP 412.10 WB at Clarence Service Area Truck Park 3",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.95193846065743,
-    "lng": -78.60224495189972,
+    "lat": 42.95276,
+    "lng": -78.60266,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_189.flv.png",
     "video_url": ""
   },
@@ -3722,10 +3722,10 @@
   {
     "id": "33140",
     "name": "I-87 SB Between Exits 17 & 16",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.19109132030717,
-    "lng": -73.70350268431532,
+    "lat": 43.191315,
+    "lng": -73.704305,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_089.flv.png",
     "video_url": ""
   },
@@ -3802,10 +3802,10 @@
   {
     "id": "33148",
     "name": "MSP between M6 and M7 (at SSP Interchange)",
-    "route": "908E",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.68749904495499,
-    "lng": -73.5735284667062,
+    "lat": 40.687288,
+    "lng": -73.574529,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_187.flv.png",
     "video_url": ""
   },
@@ -3872,10 +3872,10 @@
   {
     "id": "33155",
     "name": "BRP SB North of Exit 22 County Cente MM 15.5",
-    "route": "NY 100",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.03696387966247,
-    "lng": -73.77969999695863,
+    "lat": 41.037971,
+    "lng": -73.778574,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_054.flv.png",
     "video_url": ""
   },
@@ -3942,10 +3942,10 @@
   {
     "id": "33162",
     "name": "NY59 WB North of Franklin St",
-    "route": "NY 59",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.092358019816935,
-    "lng": -73.92870702421186,
+    "lat": 41.091633,
+    "lng": -73.921682,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_091.flv.png",
     "video_url": ""
   },
@@ -3992,10 +3992,10 @@
   {
     "id": "33168",
     "name": "NY59 WB W of Mountainview Ave MM 0.54",
-    "route": "NY 59",
+    "route": "I-87",
     "jurisdiction": "NYSDOT",
-    "lat": 41.102214243579965,
-    "lng": -74.02769355224996,
+    "lat": 41.10306976947543,
+    "lng": -74.0267757556496,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_203.flv.png",
     "video_url": ""
   },
@@ -4012,10 +4012,10 @@
   {
     "id": "33170",
     "name": "I-390 Northbound at I-490",
-    "route": "I-390",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.156573975584735,
-    "lng": -77.67893603872673,
+    "lat": 43.158043,
+    "lng": -77.682788,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_062.flv.png",
     "video_url": ""
   },
@@ -4122,10 +4122,10 @@
   {
     "id": "33181",
     "name": "I287 WB at Exit 14 at Airmont Rd MM 27.6",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.11643597195199,
-    "lng": -74.11253075753208,
+    "lat": 41.117111,
+    "lng": -74.11227,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_219.flv.png",
     "video_url": ""
   },
@@ -4232,10 +4232,10 @@
   {
     "id": "33192",
     "name": "I-684/HRP Connector North of Manhattanville Road",
-    "route": "I-684",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.02871654055864,
-    "lng": -73.72625236547383,
+    "lat": 41.027667,
+    "lng": -73.724792,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_229.flv.png",
     "video_url": ""
   },
@@ -4302,50 +4302,50 @@
   {
     "id": "33199",
     "name": "I-86 Exit 51 Eastbound Ramp at CR 35 (Chambers Rd)",
-    "route": "I-86",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.15666358365016,
-    "lng": -76.87780817711963,
+    "lat": 42.155166,
+    "lng": -76.877287,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R6_021.flv.png",
     "video_url": ""
   },
   {
     "id": "33200",
     "name": "LIE Welcome Center Kitchen",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1000.flv.png",
     "video_url": ""
   },
   {
     "id": "33201",
     "name": "LIE Welcome Center Dining",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1001.flv.png",
     "video_url": ""
   },
   {
     "id": "33202",
     "name": "LIE Welcome Center Porch Exit",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1002.flv.png",
     "video_url": ""
   },
   {
     "id": "33203",
     "name": "LIE Welcome Center Storage Room",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1003.flv.png",
     "video_url": ""
   },
@@ -4362,80 +4362,80 @@
   {
     "id": "33205",
     "name": "LIE Welcome Center Kitchen Entrance",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1004.flv.png",
     "video_url": ""
   },
   {
     "id": "33206",
     "name": "LIE Welcome Center Entrance",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1005.flv.png",
     "video_url": ""
   },
   {
     "id": "33207",
     "name": "LIE Welcome Center Emergency Exit",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1006.flv.png",
     "video_url": ""
   },
   {
     "id": "33208",
     "name": "LIE Welcome Center Store",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1007.flv.png",
     "video_url": ""
   },
   {
     "id": "33209",
     "name": "LIE Welcome Center Cafe",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1008.flv.png",
     "video_url": ""
   },
   {
     "id": "33210",
     "name": "LIE Welcome Center Pipe Room",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1009.flv.png",
     "video_url": ""
   },
   {
     "id": "33211",
     "name": "LIE Welcome Center Dining Area Two",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1011.flv.png",
     "video_url": ""
   },
   {
     "id": "33212",
     "name": "LIE Welcome Center Store Main Entrance",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1012.flv.png",
     "video_url": ""
   },
@@ -4452,50 +4452,50 @@
   {
     "id": "33214",
     "name": "LIE Welcome Center Hallway Exit",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1013.flv.png",
     "video_url": ""
   },
   {
     "id": "33215",
     "name": "LIE Welcome Center Main Entrance",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1014.flv.png",
     "video_url": ""
   },
   {
     "id": "33216",
     "name": "LIE Welcome Center Outdoor Entrance",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1015.flv.png",
     "video_url": ""
   },
   {
     "id": "33217",
     "name": "LIE Welcome Center Outdoor Ocean Display",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1016.flv.png",
     "video_url": ""
   },
   {
     "id": "33218",
     "name": "LIE Welcome Center Outdoor Ocean Display Two",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1017.flv.png",
     "video_url": ""
   },
@@ -4522,10 +4522,10 @@
   {
     "id": "33219",
     "name": "LIE Welcome Center Outdoor Main Entrance",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1018.flv.png",
     "video_url": ""
   },
@@ -4542,10 +4542,10 @@
   {
     "id": "33220",
     "name": "LIE Welcome Center LIE East Bound",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1019.flv.png",
     "video_url": ""
   },
@@ -4562,10 +4562,10 @@
   {
     "id": "33221",
     "name": "LIE Welcome Center Outdoor Parking Lot",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1020.flv.png",
     "video_url": ""
   },
@@ -4582,10 +4582,10 @@
   {
     "id": "33222",
     "name": "LIE Welcome Center Outdoor Backside",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1021.flv.png",
     "video_url": ""
   },
@@ -4602,10 +4602,10 @@
   {
     "id": "33223",
     "name": "LIE Welcome Center Main Entrance 2",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1022.flv.png",
     "video_url": ""
   },
@@ -4642,10 +4642,10 @@
   {
     "id": "33225",
     "name": "LIE Welcome Center Outdoor LIE Entrance",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1023.flv.png",
     "video_url": ""
   },
@@ -4662,10 +4662,10 @@
   {
     "id": "33226",
     "name": "LIE Welcome Center Main Hallway Floor Map",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1024.flv.png",
     "video_url": ""
   },
@@ -4682,10 +4682,10 @@
   {
     "id": "33227",
     "name": "LIE Welcome Center Outdoor Watershed Bldg",
-    "route": "I-495",
+    "route": "906A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80328233748735,
-    "lng": -73.31680911176042,
+    "lat": 40.80242335973071,
+    "lng": -73.31653703410113,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_1025.flv.png",
     "video_url": ""
   },
@@ -4752,10 +4752,10 @@
   {
     "id": "33231",
     "name": "MD at I287 MM 9.17",
-    "route": "I-287",
+    "route": "987F",
     "jurisdiction": "NYSDOT",
-    "lat": 41.05564913089647,
-    "lng": -73.81083726145448,
+    "lat": 41.05602501120288,
+    "lng": -73.8094299685964,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_016.flv.png",
     "video_url": ""
   },
@@ -5412,10 +5412,10 @@
   {
     "id": "33264",
     "name": "NY-390 at Latta Road",
-    "route": "NY 390",
+    "route": "NY 18",
     "jurisdiction": "NYSDOT",
-    "lat": 43.252665705244354,
-    "lng": -77.66773742739781,
+    "lat": 43.25288876660421,
+    "lng": -77.66853896010194,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_065.flv.png",
     "video_url": ""
   },
@@ -5512,10 +5512,10 @@
   {
     "id": "33269",
     "name": "I-278 at Cross Brx. Expwy / Hutchinson Interchange",
-    "route": "I-278",
+    "route": "I-95",
     "jurisdiction": "NYSDOT",
-    "lat": 40.829017965029415,
-    "lng": -73.83621900147074,
+    "lat": 40.82944584439689,
+    "lng": -73.8346297147348,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_007.flv.png",
     "video_url": ""
   },
@@ -5662,10 +5662,10 @@
   {
     "id": "33276",
     "name": "I-678 at Bruckner Blvd./Entrance ramp",
-    "route": "I-678",
+    "route": "908A",
     "jurisdiction": "NYSDOT",
-    "lat": 40.83058797678528,
-    "lng": -73.83751106086466,
+    "lat": 40.831351850120505,
+    "lng": -73.83773712400382,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_033.flv.png",
     "video_url": ""
   },
@@ -6662,10 +6662,10 @@
   {
     "id": "33326",
     "name": "I-787 at I-90",
-    "route": "I-787",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.666480568692904,
-    "lng": -73.73377956281313,
+    "lat": 42.666139,
+    "lng": -73.733011,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_001.flv.png",
     "video_url": ""
   },
@@ -6752,10 +6752,10 @@
   {
     "id": "33331",
     "name": "I-87 SB MP 30.2 SB @ Exit 15",
-    "route": "I-87",
+    "route": "NY 17",
     "jurisdiction": "NYSDOT",
-    "lat": 41.11913680297513,
-    "lng": -74.16004689063958,
+    "lat": 41.1174465042,
+    "lng": -74.16170354711191,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_039.flv.png",
     "video_url": ""
   },
@@ -6792,10 +6792,10 @@
   {
     "id": "33333",
     "name": "I-90 MP 006.50 WB Berkshire Connector at Interchange B1 (Albany/Hudson/Rensselaer)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.48175771379288,
-    "lng": -73.66849485339328,
+    "lat": 42.48272,
+    "lng": -73.66856,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_061.flv.png",
     "video_url": ""
   },
@@ -6882,10 +6882,10 @@
   {
     "id": "33337",
     "name": "I-87 South of Mohawk River (Twin Bridges)",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.78607204413016,
-    "lng": -73.75776808004466,
+    "lat": 42.786079,
+    "lng": -73.75843,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_002.flv.png",
     "video_url": ""
   },
@@ -6902,10 +6902,10 @@
   {
     "id": "33338",
     "name": "I-87 MP 091.70 NB Just North of Interchange 19 (Kingston)",
-    "route": "I-87",
+    "route": "NY 28",
     "jurisdiction": "NYSDOT",
-    "lat": 41.945776144146535,
-    "lng": -74.02985639895434,
+    "lat": 41.945235260623974,
+    "lng": -74.02980624401161,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_065.flv.png",
     "video_url": ""
   },
@@ -7012,10 +7012,10 @@
   {
     "id": "33344",
     "name": "I-90 MP 276.58 WB at Interchange 34A",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.09459874325546,
-    "lng": -76.04382182116794,
+    "lat": 43.09509,
+    "lng": -76.04384,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_091.flv.png",
     "video_url": ""
   },
@@ -7142,10 +7142,10 @@
   {
     "id": "33350",
     "name": "I-90 MP 289.50 WB at Interchange 39",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.10726904312147,
-    "lng": -76.28689999977233,
+    "lat": 43.10783,
+    "lng": -76.28718,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_096.flv.png",
     "video_url": ""
   },
@@ -7332,10 +7332,10 @@
   {
     "id": "33360",
     "name": "I-90 MP 429.50 WB at Interchange 55 (Lackawanna Gantry and Ridge Road)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.82857679832113,
-    "lng": -78.79080161223187,
+    "lat": 42.82857,
+    "lng": -78.7915,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_125.flv.png",
     "video_url": ""
   },
@@ -7412,10 +7412,10 @@
   {
     "id": "33364",
     "name": "I-90 MP 431.84 WB Between Interchange 56 (Blasdell) and 55 (Lackawanna)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.8020377391776,
-    "lng": -78.81424142672036,
+    "lat": 42.80227,
+    "lng": -78.81487,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_129.flv.png",
     "video_url": ""
   },
@@ -7442,10 +7442,10 @@
   {
     "id": "33365",
     "name": "I-90 MP 432.50 WB at Interchange 56 (Blasdell)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.79327620209705,
-    "lng": -78.8163971191856,
+    "lat": 42.79323,
+    "lng": -78.81745,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_130.flv.png",
     "video_url": ""
   },
@@ -7522,10 +7522,10 @@
   {
     "id": "33369",
     "name": "I-190 MP 013.37 NB Junction of I-190 and I-290 View 1",
-    "route": "I-190",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.98705642441354,
-    "lng": -78.91477011403404,
+    "lat": 42.9876,
+    "lng": -78.9139,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_154.flv.png",
     "video_url": ""
   },
@@ -7562,10 +7562,10 @@
   {
     "id": "33371",
     "name": "I-87 at I-90 / Thruway Exit 24",
-    "route": "I-87",
+    "route": "910F",
     "jurisdiction": "NYSDOT",
-    "lat": 42.69788901564512,
-    "lng": -73.83655304990243,
+    "lat": 42.69779992641742,
+    "lng": -73.83685401506358,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_005.flv.png",
     "video_url": ""
   },
@@ -7582,10 +7582,10 @@
   {
     "id": "33372",
     "name": "I-190 MP 013.37 NB Junction of I-190 and I-290 View 2",
-    "route": "I-190",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.98705642441354,
-    "lng": -78.91477011403404,
+    "lat": 42.9876,
+    "lng": -78.9139,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_155.flv.png",
     "video_url": ""
   },
@@ -7732,10 +7732,10 @@
   {
     "id": "33380",
     "name": "I-90 MP 279.5 EB Dewitt Service Area Truck Park 3",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.09167246595058,
-    "lng": -76.09992179124956,
+    "lat": 43.09033,
+    "lng": -76.09988,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_232.flv.png",
     "video_url": ""
   },
@@ -7752,10 +7752,10 @@
   {
     "id": "33381",
     "name": "I-87 MP 103.30 NB Malden Service Area Truck Park 1",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.11095635283637,
-    "lng": -73.9573277464841,
+    "lat": 42.11087,
+    "lng": -73.95647,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_233.flv.png",
     "video_url": ""
   },
@@ -7782,10 +7782,10 @@
   {
     "id": "33382",
     "name": "I-787 at NY 7",
-    "route": "I-787",
+    "route": "NY 7",
     "jurisdiction": "NYSDOT",
-    "lat": 42.74061131372214,
-    "lng": -73.69637732816868,
+    "lat": 42.7422074796641,
+    "lng": -73.69714068132599,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_006.flv.png",
     "video_url": ""
   },
@@ -7802,10 +7802,10 @@
   {
     "id": "33383",
     "name": "I-87 MP 103.30 NB Malden Service Area Truck Park 2",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.11068339331793,
-    "lng": -73.95737767693801,
+    "lat": 42.11059,
+    "lng": -73.95645,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_234.flv.png",
     "video_url": ""
   },
@@ -7822,10 +7822,10 @@
   {
     "id": "33384",
     "name": "I-87 MP 103.30 NB Malden Service Area Truck Park 3",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.110540982086846,
-    "lng": -73.95740372716499,
+    "lat": 42.11045,
+    "lng": -73.9565,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_235.flv.png",
     "video_url": ""
   },
@@ -7902,10 +7902,10 @@
   {
     "id": "33388",
     "name": "I-87 MP 033.00 NB Sloatsburg Service Area Truck Park 4",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.150919631183974,
-    "lng": -74.18886043769012,
+    "lat": 41.151011,
+    "lng": -74.187902,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_239.flv.png",
     "video_url": ""
   },
@@ -7972,10 +7972,10 @@
   {
     "id": "33392",
     "name": "I-87 MP 096.30 SB Ulster Service Area Truck Park 1",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.01420971108444,
-    "lng": -73.99881258996703,
+    "lat": 42.014318,
+    "lng": -73.999793,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_240.flv.png",
     "video_url": ""
   },
@@ -8012,10 +8012,10 @@
   {
     "id": "33394",
     "name": "I-87 MP 096.30 SB Ulster Service Area Truck Park 2",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.013860488913444,
-    "lng": -73.99888475212764,
+    "lat": 42.014,
+    "lng": -73.999903,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_241.flv.png",
     "video_url": ""
   },
@@ -8032,10 +8032,10 @@
   {
     "id": "33395",
     "name": "I-87 MP 096.30 SB Ulster Service Area Truck Park 3",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.01421182261537,
-    "lng": -73.99881216745496,
+    "lat": 42.014328,
+    "lng": -73.999864,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_242.flv.png",
     "video_url": ""
   },
@@ -8052,10 +8052,10 @@
   {
     "id": "33396",
     "name": "I-87 MP 096.30 SB Ulster Service Area Truck Park 4",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.013867866548885,
-    "lng": -73.99888292096459,
+    "lat": 42.014019,
+    "lng": -73.999986,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_243.flv.png",
     "video_url": ""
   },
@@ -8082,10 +8082,10 @@
   {
     "id": "33397",
     "name": "I-90 MP 375.60 WB Ontario Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.029987535102364,
-    "lng": -77.90640202300193,
+    "lat": 43.03111,
+    "lng": -77.906388,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_244.flv.png",
     "video_url": ""
   },
@@ -8102,10 +8102,10 @@
   {
     "id": "33398",
     "name": "I-90 MP 375.60 WB Ontario Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.02998939088843,
-    "lng": -77.90667999473577,
+    "lat": 43.03111,
+    "lng": -77.906666,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_245.flv.png",
     "video_url": ""
   },
@@ -8122,10 +8122,10 @@
   {
     "id": "33399",
     "name": "I-90 MP 375.60 WB Ontario Service Area Truck Park 3",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.02999124564317,
-    "lng": -77.90695796650378,
+    "lat": 43.03111,
+    "lng": -77.906944,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_246.flv.png",
     "video_url": ""
   },
@@ -8202,10 +8202,10 @@
   {
     "id": "33403",
     "name": "I-90 MP 432.50 West Bound Ramp to Interchange 56 Blasdell",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.792502098321236,
-    "lng": -78.8163340432032,
+    "lat": 42.792344,
+    "lng": -78.819936,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_250.flv.png",
     "video_url": ""
   },
@@ -8222,10 +8222,10 @@
   {
     "id": "33404",
     "name": "I-787",
-    "route": "I-787",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.64802372059061,
-    "lng": -73.74847927363415,
+    "lat": 42.648848,
+    "lng": -73.759051,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_008.flv.png",
     "video_url": ""
   },
@@ -8242,10 +8242,10 @@
   {
     "id": "33405",
     "name": "I-90 MP 455.50 West Bound Ramp to Interchange 58",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.55328237070881,
-    "lng": -79.10506333526072,
+    "lat": 42.56065,
+    "lng": -79.11633,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_251.flv.png",
     "video_url": ""
   },
@@ -8442,20 +8442,20 @@
   {
     "id": "33415",
     "name": "I-787 from the north side of the Corning Tower",
-    "route": "I-787",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.648261438853226,
-    "lng": -73.74844499235401,
+    "lat": 42.6491,
+    "lng": -73.7592,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_009.flv.png",
     "video_url": ""
   },
   {
     "id": "33416",
     "name": "Winton RD at Merchants st / Elm",
-    "route": "NY 286",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15730000397393,
-    "lng": -77.5411210446961,
+    "lat": 43.15951391,
+    "lng": -77.54698428,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_213.flv.png",
     "video_url": ""
   },
@@ -8502,10 +8502,10 @@
   {
     "id": "33418",
     "name": "I-87 Between Exits 4 and 2",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.72276839702199,
-    "lng": -73.80731911934491,
+    "lat": 42.723345,
+    "lng": -73.807952,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_012.flv.png",
     "video_url": ""
   },
@@ -8892,10 +8892,10 @@
   {
     "id": "33438",
     "name": "NY 5A WB at Schuyler St",
-    "route": "NY 5",
+    "route": "NY 5A",
     "jurisdiction": "NYSDOT",
-    "lat": 43.10586303703582,
-    "lng": -75.23890496737393,
+    "lat": 43.10747777692105,
+    "lng": -75.24463875863881,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_015.flv.png",
     "video_url": ""
   },
@@ -8912,10 +8912,10 @@
   {
     "id": "33439",
     "name": "NY 5A WB at NY 12 South Interchange",
-    "route": "NY 5",
+    "route": "NY 5A",
     "jurisdiction": "NYSDOT",
-    "lat": 43.10586303703582,
-    "lng": -75.23890496737393,
+    "lat": 43.106061119955235,
+    "lng": -75.239628705574,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_016.flv.png",
     "video_url": ""
   },
@@ -9032,10 +9032,10 @@
   {
     "id": "33445",
     "name": "I-81 south of Exit 18 (Almond St)",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.03890035755239,
-    "lng": -76.14206873472142,
+    "lat": 43.038991,
+    "lng": -76.140831,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_013.flv.png",
     "video_url": ""
   },
@@ -9072,10 +9072,10 @@
   {
     "id": "33447",
     "name": "I-81 south of I-690 (State Office East)",
-    "route": "I-81",
+    "route": "US 11",
     "jurisdiction": "NYSDOT",
-    "lat": 43.05152105251535,
-    "lng": -76.14740701283347,
+    "lat": 43.049848443408976,
+    "lng": -76.14738509267231,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_015.flv.png",
     "video_url": ""
   },
@@ -9142,10 +9142,10 @@
   {
     "id": "33450",
     "name": "I-81 north of Exit 22 (Hiawatha Blvd)",
-    "route": "I-81",
+    "route": "936F",
     "jurisdiction": "NYSDOT",
-    "lat": 43.072452227573365,
-    "lng": -76.16988518812985,
+    "lat": 43.07231056726498,
+    "lng": -76.1704857656488,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_017.flv.png",
     "video_url": ""
   },
@@ -9202,10 +9202,10 @@
   {
     "id": "33453",
     "name": "I-690 west of Exit 12A (Route 695)",
-    "route": "I-690",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.080137139876015,
-    "lng": -76.21983174337137,
+    "lat": 43.080661,
+    "lng": -76.219312,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_020.flv.png",
     "video_url": ""
   },
@@ -9582,10 +9582,10 @@
   {
     "id": "33472",
     "name": "I-590 Northbound Ramp to I-490 Westbound",
-    "route": "I-590",
+    "route": "I-490",
     "jurisdiction": "NYSDOT",
-    "lat": 43.142564983774875,
-    "lng": -77.5503820447507,
+    "lat": 43.14392429683585,
+    "lng": -77.5510703925778,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_048.flv.png",
     "video_url": ""
   },
@@ -9692,10 +9692,10 @@
   {
     "id": "33478",
     "name": "I-190 at Exit 25B (Upper Mountain Road)",
-    "route": "I-190",
+    "route": "NY 265",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15052275506885,
-    "lng": -79.02861480854705,
+    "lat": 43.1515682629566,
+    "lng": -79.02752383285932,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_043.flv.png",
     "video_url": ""
   },
@@ -9732,10 +9732,10 @@
   {
     "id": "33480",
     "name": "NY 400 at Union Road (1)",
-    "route": "NY 400",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.84357413727451,
-    "lng": -78.75494264992092,
+    "lat": 42.84299,
+    "lng": -78.754956,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_045.flv.png",
     "video_url": ""
   },
@@ -9802,10 +9802,10 @@
   {
     "id": "33483",
     "name": "NY 400 at Union Road (2)",
-    "route": "NY 400",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.84357413727451,
-    "lng": -78.75494264992092,
+    "lat": 42.84299,
+    "lng": -78.754956,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_046.flv.png",
     "video_url": ""
   },
@@ -9842,10 +9842,10 @@
   {
     "id": "33485",
     "name": "NY 219 between I-90 and Milestrip Road (1)",
-    "route": "US 219",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.81220635872642,
-    "lng": -78.79140043502387,
+    "lat": 42.811919,
+    "lng": -78.79218,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_049.flv.png",
     "video_url": ""
   },
@@ -9862,10 +9862,10 @@
   {
     "id": "33486",
     "name": "NY 219 between I-90 and Milestrip Road (2)",
-    "route": "US 219",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.81220635872642,
-    "lng": -78.79140043502387,
+    "lat": 42.811919,
+    "lng": -78.79218,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_050.flv.png",
     "video_url": ""
   },
@@ -9962,10 +9962,10 @@
   {
     "id": "33491",
     "name": "I-990 at I-290 Interchange",
-    "route": "I-990",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.99744247076645,
-    "lng": -78.80784355583795,
+    "lat": 42.998276,
+    "lng": -78.807781,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_075.flv.png",
     "video_url": ""
   },
@@ -10012,10 +10012,10 @@
   {
     "id": "33494",
     "name": "At Exit 131(I-87) - A",
-    "route": "NY 17",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.315926518394505,
-    "lng": -74.13445412434463,
+    "lat": 41.312823,
+    "lng": -74.125244,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_042.flv.png",
     "video_url": ""
   },
@@ -10032,10 +10032,10 @@
   {
     "id": "33495",
     "name": "At Exit 131(I-87) - B",
-    "route": "NY 17",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.315926518394505,
-    "lng": -74.13445412434463,
+    "lat": 41.312622,
+    "lng": -74.12563,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_043.flv.png",
     "video_url": ""
   },
@@ -10052,10 +10052,10 @@
   {
     "id": "33496",
     "name": "West of Exit 130 A",
-    "route": "NY 17",
+    "route": "US 6",
     "jurisdiction": "NYSDOT",
-    "lat": 41.31934703899318,
-    "lng": -74.1456149737517,
+    "lat": 41.327403905944365,
+    "lng": -74.16039155570407,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_044.flv.png",
     "video_url": ""
   },
@@ -10072,10 +10072,10 @@
   {
     "id": "33497",
     "name": "West of Exit 130A (US6) - 2",
-    "route": "NY 17",
+    "route": "US 6",
     "jurisdiction": "NYSDOT",
-    "lat": 41.31934703899318,
-    "lng": -74.1456149737517,
+    "lat": 41.3233405363797,
+    "lng": -74.15353820389042,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_045.flv.png",
     "video_url": ""
   },
@@ -10092,10 +10092,10 @@
   {
     "id": "33498",
     "name": "At US6/Larkin Dr-NB",
-    "route": "NY 32",
+    "route": "NY 17",
     "jurisdiction": "NYSDOT",
-    "lat": 41.3154479080913,
-    "lng": -74.13454744481324,
+    "lat": 41.31387765580443,
+    "lng": -74.13747701989111,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_046.flv.png",
     "video_url": ""
   },
@@ -10132,10 +10132,10 @@
   {
     "id": "33500",
     "name": "Sprain Brook Parkway southbound between Tuckahoe Rd and Jackson Ave",
-    "route": "987F",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.95993938844668,
-    "lng": -73.8505149415832,
+    "lat": 40.960172,
+    "lng": -73.852233,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_049.flv.png",
     "video_url": ""
   },
@@ -11112,10 +11112,10 @@
   {
     "id": "33549",
     "name": "SSP at SAG",
-    "route": "908K",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.74521460697234,
-    "lng": -73.27901468899839,
+    "lat": 40.745297,
+    "lng": -73.279782,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_134.flv.png",
     "video_url": ""
   },
@@ -11322,10 +11322,10 @@
   {
     "id": "33559",
     "name": "NY 30 SB at Division St",
-    "route": "NY 30",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.937530897973836,
-    "lng": -74.19058597895139,
+    "lat": 42.939456,
+    "lng": -74.1939,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_009.flv.png",
     "video_url": ""
   },
@@ -11512,10 +11512,10 @@
   {
     "id": "33569",
     "name": "MSP at Loop Pkwy Exit Ramp (near toll plaza)",
-    "route": "908E",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.61083303380677,
-    "lng": -73.54891897904956,
+    "lat": 40.610512,
+    "lng": -73.549573,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_193.flv.png",
     "video_url": ""
   },
@@ -11752,10 +11752,10 @@
   {
     "id": "33581",
     "name": "I-81 south of Exit 16A (I-481)",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.00543237913515,
-    "lng": -76.13332121739383,
+    "lat": 43.005497,
+    "lng": -76.130025,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_001.flv.png",
     "video_url": ""
   },
@@ -12412,10 +12412,10 @@
   {
     "id": "33614",
     "name": "Simeon Woods Road at Exit 56 Rest Area",
-    "route": "908M",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.700991178701265,
-    "lng": -73.49123400503458,
+    "lat": 40.701917,
+    "lng": -73.491269,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_317.flv.png",
     "video_url": ""
   },
@@ -13172,10 +13172,10 @@
   {
     "id": "33652",
     "name": "I-278 at G.C.P./Connector at 31st Avenue",
-    "route": "I-278",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.757833916530934,
-    "lng": -73.90060548985603,
+    "lat": 40.75811,
+    "lng": -73.89976,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_105.flv.png",
     "video_url": ""
   },
@@ -13192,10 +13192,10 @@
   {
     "id": "33653",
     "name": "I-278 at Connector to G.C.P./Astoria Blvd.",
-    "route": "I-278",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.762921318442125,
-    "lng": -73.9022863186042,
+    "lat": 40.7648,
+    "lng": -73.89469,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_106.flv.png",
     "video_url": ""
   },
@@ -13272,10 +13272,10 @@
   {
     "id": "33657",
     "name": "I-81 north of Exit 29 (I-481)",
-    "route": "I-81",
+    "route": "NY 481",
     "jurisdiction": "NYSDOT",
-    "lat": 43.14143640821178,
-    "lng": -76.11248722003772,
+    "lat": 43.14167249080043,
+    "lng": -76.11305107102231,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_008.flv.png",
     "video_url": ""
   },
@@ -13312,10 +13312,10 @@
   {
     "id": "33659",
     "name": "I-495 at ramp to Westbound BQE",
-    "route": "I-495",
+    "route": "I-278",
     "jurisdiction": "NYSDOT",
-    "lat": 40.73409730109756,
-    "lng": -73.92212517133,
+    "lat": 40.73461480486059,
+    "lng": -73.92165886795915,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_131.flv.png",
     "video_url": ""
   },
@@ -13722,10 +13722,10 @@
   {
     "id": "33680",
     "name": "South Ave at Elmwood Ave",
-    "route": "NY 15",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.12565482213462,
-    "lng": -77.6169800843232,
+    "lat": 43.124882,
+    "lng": -77.614182,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_212.flv.png",
     "video_url": ""
   },
@@ -13742,10 +13742,10 @@
   {
     "id": "33681",
     "name": "Dewey Ave at Ridgeway Ave",
-    "route": "NY 104",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.19802746312532,
-    "lng": -77.63410616852265,
+    "lat": 43.193829,
+    "lng": -77.638881,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_214.flv.png",
     "video_url": ""
   },
@@ -13772,10 +13772,10 @@
   {
     "id": "33682",
     "name": "Culver Rd at Norris St / Hisdale St",
-    "route": "I-490",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.143033029738824,
-    "lng": -77.57650934860497,
+    "lat": 43.141375,
+    "lng": -77.57622,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_215.flv.png",
     "video_url": ""
   },
@@ -13882,10 +13882,10 @@
   {
     "id": "33690",
     "name": "I-81 north of Exit 23 (Liverpool 2)",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.07875012071189,
-    "lng": -76.17256866046357,
+    "lat": 43.078425,
+    "lng": -76.1747,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_031.flv.png",
     "video_url": ""
   },
@@ -13902,10 +13902,10 @@
   {
     "id": "33691",
     "name": "Winton Rd at Westfall Rd",
-    "route": "I-590",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.10777417232431,
-    "lng": -77.57011084498704,
+    "lat": 43.115972,
+    "lng": -77.571282,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_246.flv.png",
     "video_url": ""
   },
@@ -13932,10 +13932,10 @@
   {
     "id": "33693",
     "name": "West Main St at State St/Exchange St",
-    "route": "NY 31",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15446400225199,
-    "lng": -77.61206541018163,
+    "lat": 43.155686,
+    "lng": -77.612489,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_248.flv.png",
     "video_url": ""
   },
@@ -14322,10 +14322,10 @@
   {
     "id": "33713",
     "name": "I-690 west of Exit 12B (Orange Lot)",
-    "route": "I-690",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.07297767809283,
-    "lng": -76.20921501441765,
+    "lat": 43.073457,
+    "lng": -76.208698,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_036.flv.png",
     "video_url": ""
   },
@@ -14472,10 +14472,10 @@
   {
     "id": "33720",
     "name": "I-87 MP 060.30 NB at Interchange 17 (Newburgh)",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.51347639436159,
-    "lng": -74.07357595683727,
+    "lat": 41.51338,
+    "lng": -74.07198,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_044.flv.png",
     "video_url": ""
   },
@@ -14492,10 +14492,10 @@
   {
     "id": "33721",
     "name": "I-87 MP 060.10 SB at Interchange 17 (Newburgh)",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.51034166777116,
-    "lng": -74.07411216865808,
+    "lat": 41.50982,
+    "lng": -74.07015,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_045.flv.png",
     "video_url": ""
   },
@@ -14622,10 +14622,10 @@
   {
     "id": "33728",
     "name": "I-87 MP 141.90 NB at Interchange 23 (Albany /I-787)",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.63065896989513,
-    "lng": -73.77939103212239,
+    "lat": 42.63093,
+    "lng": -73.77849,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_071.flv.png",
     "video_url": ""
   },
@@ -14832,10 +14832,10 @@
   {
     "id": "33738",
     "name": "I-90 MP 182.19 WB at Interchange 28 (Fultonville)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.94467440649565,
-    "lng": -74.35979759823465,
+    "lat": 42.94537,
+    "lng": -74.35961,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_080.flv.png",
     "video_url": ""
   },
@@ -14862,10 +14862,10 @@
   {
     "id": "33740",
     "name": "I-90 MP 351.00 WB at Interchange 45 (Victor)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.00892858289597,
-    "lng": -77.43961680442415,
+    "lat": 43.00942,
+    "lng": -77.43917,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_102.flv.png",
     "video_url": ""
   },
@@ -14902,10 +14902,10 @@
   {
     "id": "33742",
     "name": "I-90 MP 378.60 WB at Interchange 47 (Leroy)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.02877946661754,
-    "lng": -77.96508618378311,
+    "lat": 43.02926,
+    "lng": -77.96506,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_104.flv.png",
     "video_url": ""
   },
@@ -15032,10 +15032,10 @@
   {
     "id": "33748",
     "name": "I-90 MP 419.65 WB at Interchange 50 (Williamsville Toll Gantry)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.95190177483186,
-    "lng": -78.75064355004157,
+    "lat": 42.95241,
+    "lng": -78.75065,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_109.flv.png",
     "video_url": ""
   },
@@ -15142,10 +15142,10 @@
   {
     "id": "33754",
     "name": "I-90 MP 485.00 WB at Interchange 60 (Westfield)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.33845558051932,
-    "lng": -79.58343621518686,
+    "lat": 42.33897,
+    "lng": -79.58399,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_135.flv.png",
     "video_url": ""
   },
@@ -15312,10 +15312,10 @@
   {
     "id": "33762",
     "name": "I-990 at Exit 1 (University at Buffalo)",
-    "route": "I-990",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.00787607423351,
-    "lng": -78.80294671628688,
+    "lat": 43.00787,
+    "lng": -78.80406,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_079.flv.png",
     "video_url": ""
   },
@@ -15352,10 +15352,10 @@
   {
     "id": "33764",
     "name": "I-90 MP171.8 EB Mohawk Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.91518457664131,
-    "lng": -74.16198922474815,
+    "lat": 42.91463,
+    "lng": -74.16226,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_247.flv.png",
     "video_url": ""
   },
@@ -15372,10 +15372,10 @@
   {
     "id": "33765",
     "name": "I-90 MP 171.80 EB Mohawk Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.91526216992005,
-    "lng": -74.16228552016825,
+    "lat": 42.9147,
+    "lng": -74.16256,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_248.flv.png",
     "video_url": ""
   },
@@ -15392,10 +15392,10 @@
   {
     "id": "33766",
     "name": "I-90 MP 171.80 EB Mohawk Service Area Truck Park 3",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.91526516781542,
-    "lng": -74.16229696796563,
+    "lat": 42.914665,
+    "lng": -74.16259,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_249.flv.png",
     "video_url": ""
   },
@@ -15832,20 +15832,20 @@
   {
     "id": "33788",
     "name": "Portable Camera - PVMS AM 75C",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.812993720384924,
-    "lng": -73.22282904760696,
+    "lat": 40.812794,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_AM75C.flv.png",
     "video_url": ""
   },
   {
     "id": "33789",
     "name": "Portable Camera - PVMS AM 76C",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.812993720384924,
-    "lng": -73.22282904760696,
+    "lat": 40.812794,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_AM76C.flv.png",
     "video_url": ""
   },
@@ -15862,10 +15862,10 @@
   {
     "id": "33790",
     "name": "I-290 at Exit 6 (Harlem Road Ramp)",
-    "route": "I-290",
+    "route": "NY 240",
     "jurisdiction": "NYSDOT",
-    "lat": 42.977632656517706,
-    "lng": -78.78215232364599,
+    "lat": 42.97635915768765,
+    "lng": -78.78387516079883,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_032.flv.png",
     "video_url": ""
   },
@@ -15882,10 +15882,10 @@
   {
     "id": "33791",
     "name": "Portable Camera - PVMS ST 21LC",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.812993720384924,
-    "lng": -73.22282904760696,
+    "lat": 40.812794,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_ST21LC.flv.png",
     "video_url": ""
   },
@@ -15902,10 +15902,10 @@
   {
     "id": "33792",
     "name": "Portable Camera - PVMS ST 23LC",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.812993720384924,
-    "lng": -73.22282904760696,
+    "lat": 40.812794,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_ST23LC.flv.png",
     "video_url": ""
   },
@@ -15942,10 +15942,10 @@
   {
     "id": "33794",
     "name": "Portable Camera - PVMS VM 47LC",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.812993720384924,
-    "lng": -73.22282904760696,
+    "lat": 40.812794,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_VM47LC.flv.png",
     "video_url": ""
   },
@@ -15962,10 +15962,10 @@
   {
     "id": "33795",
     "name": "Portable Camera - PVMS VM 48LC",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.812993720384924,
-    "lng": -73.22282904760696,
+    "lat": 40.812794,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_VM48LC.flv.png",
     "video_url": ""
   },
@@ -15992,10 +15992,10 @@
   {
     "id": "33796",
     "name": "Portable Camera - PVMS W 7CS",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.812993720384924,
-    "lng": -73.22282904760696,
+    "lat": 40.812794,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_W7CS.flv.png",
     "video_url": ""
   },
@@ -16012,10 +16012,10 @@
   {
     "id": "33797",
     "name": "Portable Camera - PVMS W 11C",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.81298997979731,
-    "lng": -73.22283034911693,
+    "lat": 40.81279,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_W11C.flv.png",
     "video_url": ""
   },
@@ -16032,10 +16032,10 @@
   {
     "id": "33798",
     "name": "Portable Camera - PVMS W 12C",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.81298997979731,
-    "lng": -73.22283034911693,
+    "lat": 40.81279,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_W12C.flv.png",
     "video_url": ""
   },
@@ -16052,10 +16052,10 @@
   {
     "id": "33799",
     "name": "Portable Camera - PVMS AM 87LC",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.812993720384924,
-    "lng": -73.22282904760696,
+    "lat": 40.812794,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_AM87LC.flv.png",
     "video_url": ""
   },
@@ -16072,10 +16072,10 @@
   {
     "id": "33800",
     "name": "Portable Camera - PVMS AM 88LC",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.81298997979731,
-    "lng": -73.22283034911693,
+    "lat": 40.81279,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_AM88LC.flv.png",
     "video_url": ""
   },
@@ -16302,10 +16302,10 @@
   {
     "id": "33812",
     "name": "NY-15A at Brighton-Henrietta Town Line Road",
-    "route": "I-390",
+    "route": "NY 15A",
     "jurisdiction": "NYSDOT",
-    "lat": 43.09324066192146,
-    "lng": -77.6023171406768,
+    "lat": 43.09490606297288,
+    "lng": -77.61178798817181,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_010.flv.png",
     "video_url": ""
   },
@@ -16392,10 +16392,10 @@
   {
     "id": "33816",
     "name": "Portable Camera - PVMS ST 14LC",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.81298997979731,
-    "lng": -73.22283034911693,
+    "lat": 40.81279,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_ST14LC.flv.png",
     "video_url": ""
   },
@@ -16412,10 +16412,10 @@
   {
     "id": "33817",
     "name": "Portable Camera - PVMS VM 29LC",
-    "route": "901A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.81298997979731,
-    "lng": -73.22283034911693,
+    "lat": 40.81279,
+    "lng": -73.221827,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/PVMS_VM29LC.flv.png",
     "video_url": ""
   },
@@ -16492,10 +16492,10 @@
   {
     "id": "33821",
     "name": "I-87 at Exit 15 (NY 50",
-    "route": "I-87",
+    "route": "NY 50",
     "jurisdiction": "NYSDOT",
-    "lat": 43.096372717703865,
-    "lng": -73.75194590065065,
+    "lat": 43.09632434028721,
+    "lng": -73.75289575705862,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_023.flv.png",
     "video_url": ""
   },
@@ -16652,10 +16652,10 @@
   {
     "id": "33829",
     "name": "State St at Court St",
-    "route": "NY 5",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.101921126072504,
-    "lng": -75.24076388580919,
+    "lat": 43.101244,
+    "lng": -75.239618,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_021.flv.png",
     "video_url": ""
   },
@@ -16672,10 +16672,10 @@
   {
     "id": "33830",
     "name": "NY 5A WB at NY 840 West Ramp",
-    "route": "NY 5",
+    "route": "NY 5A",
     "jurisdiction": "NYSDOT",
-    "lat": 43.07900740576034,
-    "lng": -75.30191790302422,
+    "lat": 43.09191012625159,
+    "lng": -75.30829340078061,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_022.flv.png",
     "video_url": ""
   },
@@ -16832,10 +16832,10 @@
   {
     "id": "33838",
     "name": "I-690 west of Exit 9 (Van Vleck)",
-    "route": "I-690",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.10710461076929,
-    "lng": -76.25534911251387,
+    "lat": 43.107817,
+    "lng": -76.254862,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_021.flv.png",
     "video_url": ""
   },
@@ -16852,10 +16852,10 @@
   {
     "id": "33839",
     "name": "I-81 south of I-690 (State Office West)",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.051608615902225,
-    "lng": -76.14827409970758,
+    "lat": 43.049873,
+    "lng": -76.148758,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_022.flv.png",
     "video_url": ""
   },
@@ -16962,10 +16962,10 @@
   {
     "id": "33845",
     "name": "I-481 north of Exit 1 (Rock Cut Rd)",
-    "route": "I-481",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.00768387089934,
-    "lng": -76.12516770560185,
+    "lat": 43.007141,
+    "lng": -76.125262,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_029.flv.png",
     "video_url": ""
   },
@@ -17012,10 +17012,10 @@
   {
     "id": "33847",
     "name": "I-81 north of Exit 23 (Liverpool 1)",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.07895450232409,
-    "lng": -76.17262290619503,
+    "lat": 43.078778,
+    "lng": -76.174127,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_030.flv.png",
     "video_url": ""
   },
@@ -17032,10 +17032,10 @@
   {
     "id": "33848",
     "name": "I-490 at South Ave Ramp",
-    "route": "I-490",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15026662175101,
-    "lng": -77.60593129880792,
+    "lat": 43.150644,
+    "lng": -77.605474,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_021.flv.png",
     "video_url": ""
   },
@@ -17052,20 +17052,20 @@
   {
     "id": "33849",
     "name": "I-490 East Ramp to NY-390 North",
-    "route": "I-490",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.156455627281765,
-    "lng": -77.68323718386182,
+    "lat": 43.158041,
+    "lng": -77.682789,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_022.flv.png",
     "video_url": ""
   },
   {
     "id": "33850",
     "name": "NY-590 at Blossom Rd",
-    "route": "I-590",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.14312102715847,
-    "lng": -77.54763404291943,
+    "lat": 43.144109,
+    "lng": -77.542055,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_023.flv.png",
     "video_url": ""
   },
@@ -17082,10 +17082,10 @@
   {
     "id": "33851",
     "name": "I-590 at Browncroft Blvd",
-    "route": "I-590",
+    "route": "NY 590",
     "jurisdiction": "NYSDOT",
-    "lat": 43.14312102715847,
-    "lng": -77.54763404291943,
+    "lat": 43.15336435250218,
+    "lng": -77.53785536190345,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_024.flv.png",
     "video_url": ""
   },
@@ -17252,10 +17252,10 @@
   {
     "id": "33859",
     "name": "I-490 at NY 441 (Linden Ave)",
-    "route": "I-490",
+    "route": "NY 441",
     "jurisdiction": "NYSDOT",
-    "lat": 43.12912983929336,
-    "lng": -77.5248843897939,
+    "lat": 43.12906541536168,
+    "lng": -77.52404837857802,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_052.flv.png",
     "video_url": ""
   },
@@ -17272,10 +17272,10 @@
   {
     "id": "33860",
     "name": "I-490 Eastbound Ramp to NY-590 Northbound",
-    "route": "I-490",
+    "route": "I-590",
     "jurisdiction": "NYSDOT",
-    "lat": 43.1437738577986,
-    "lng": -77.55043272420112,
+    "lat": 43.14245184620316,
+    "lng": -77.55067737685351,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_054.flv.png",
     "video_url": ""
   },
@@ -17322,10 +17322,10 @@
   {
     "id": "33863",
     "name": "I-390 at Brooks Ave",
-    "route": "I-390",
+    "route": "NY 204",
     "jurisdiction": "NYSDOT",
-    "lat": 43.13090346391567,
-    "lng": -77.66080745942868,
+    "lat": 43.13084558802612,
+    "lng": -77.66148246412523,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_058.flv.png",
     "video_url": ""
   },
@@ -17472,10 +17472,10 @@
   {
     "id": "33870",
     "name": "I-290 at Exit 2 (Colvin Boulevard)",
-    "route": "I-290",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.00040599393443,
-    "lng": -78.85137700380191,
+    "lat": 43.000872,
+    "lng": -78.851615,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_024.flv.png",
     "video_url": ""
   },
@@ -17532,10 +17532,10 @@
   {
     "id": "33873",
     "name": "I-290 between Exit 3 (Niagara Falls Boulevard) and Exit 4 (I-990 Interchange)",
-    "route": "I-290",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.002509246400365,
-    "lng": -78.81553809310472,
+    "lat": 43.002948,
+    "lng": -78.815182,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R5_027.flv.png",
     "video_url": ""
   },
@@ -18042,10 +18042,10 @@
   {
     "id": "33899",
     "name": "I-495 NSP Connecter",
-    "route": "908G",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.77975221363949,
-    "lng": -73.62759245116838,
+    "lat": 40.780328,
+    "lng": -73.62716,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_052.flv.png",
     "video_url": ""
   },
@@ -18112,10 +18112,10 @@
   {
     "id": "33902",
     "name": "Grand Central Pkwy at Springfield Blvd",
-    "route": "907M",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.72681935883656,
-    "lng": -73.75479667947786,
+    "lat": 40.727527,
+    "lng": -73.755247,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_054.flv.png",
     "video_url": ""
   },
@@ -18292,10 +18292,10 @@
   {
     "id": "33911",
     "name": "NSP WB at NY. 454 - Veterans Highway",
-    "route": "908G",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.82926797475969,
-    "lng": -73.2559623376959,
+    "lat": 40.829939,
+    "lng": -73.256375,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_083.flv.png",
     "video_url": ""
   },
@@ -18382,10 +18382,10 @@
   {
     "id": "33916",
     "name": "NSP at New York Ave",
-    "route": "NY 110",
+    "route": "908G",
     "jurisdiction": "NYSDOT",
-    "lat": 40.7992306926957,
-    "lng": -73.4124405087064,
+    "lat": 40.79867571987419,
+    "lng": -73.40525433055603,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_087.flv.png",
     "video_url": ""
   },
@@ -18432,10 +18432,10 @@
   {
     "id": "33918",
     "name": "SSP at the Cross Island Pkwy",
-    "route": "908M",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.687664298428835,
-    "lng": -73.72404638294384,
+    "lat": 40.688383,
+    "lng": -73.724506,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_090.flv.png",
     "video_url": ""
   },
@@ -20262,10 +20262,10 @@
   {
     "id": "34010",
     "name": "I-86 at Kanona Rest Area (Highway)",
-    "route": "I-86",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.37153886929094,
-    "lng": -77.3543119348134,
+    "lat": 42.371825,
+    "lng": -77.353672,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R6_003.flv.png",
     "video_url": ""
   },
@@ -20582,10 +20582,10 @@
   {
     "id": "34026",
     "name": "I-278 at Stewart Avenue",
-    "route": "I-278",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.72490433894875,
-    "lng": -73.93327264670678,
+    "lat": 40.72539,
+    "lng": -73.93349,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_085.flv.png",
     "video_url": ""
   },
@@ -21252,10 +21252,10 @@
   {
     "id": "34059",
     "name": "Hudson Ave at Norton St",
-    "route": "946A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.19160088459716,
-    "lng": -77.59986663174331,
+    "lat": 43.18682,
+    "lng": -77.59957,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_221.flv.png",
     "video_url": ""
   },
@@ -21272,20 +21272,20 @@
   {
     "id": "34060",
     "name": "Clifford Ave at Hudson Ave",
-    "route": "940T",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.16210245043681,
-    "lng": -77.60157817096804,
+    "lat": 43.17534,
+    "lng": -77.598783,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_223.flv.png",
     "video_url": ""
   },
   {
     "id": "34061",
     "name": "Long Pond Rd at Ridgeway Ave",
-    "route": "NY 390",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.18536823708804,
-    "lng": -77.6834476953458,
+    "lat": 43.186914,
+    "lng": -77.701503,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_225.flv.png",
     "video_url": ""
   },
@@ -21312,20 +21312,20 @@
   {
     "id": "34062",
     "name": "Clinton Ave at Court St",
-    "route": "NY 31",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15287501494765,
-    "lng": -77.60479001968918,
+    "lat": 43.15408,
+    "lng": -77.605079,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_227.flv.png",
     "video_url": ""
   },
   {
     "id": "34063",
     "name": "Dewey Ave at Driving Park Ave",
-    "route": "940M",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.18088735834208,
-    "lng": -77.631670197155,
+    "lat": 43.180934,
+    "lng": -77.639457,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_228.flv.png",
     "video_url": ""
   },
@@ -21342,10 +21342,10 @@
   {
     "id": "34064",
     "name": "Goodman St at Norton St",
-    "route": "946A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.19595857073084,
-    "lng": -77.5770985580364,
+    "lat": 43.18764348,
+    "lng": -77.57635343,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_230.flv.png",
     "video_url": ""
   },
@@ -21432,10 +21432,10 @@
   {
     "id": "34068",
     "name": "East Ridge Rd at Seneca Ave",
-    "route": "946B",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.191815149041126,
-    "lng": -77.60883484874516,
+    "lat": 43.195103,
+    "lng": -77.608976,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_253.flv.png",
     "video_url": ""
   },
@@ -21452,20 +21452,20 @@
   {
     "id": "34069",
     "name": "Goodman St at Clinton Ave / Henrietta St",
-    "route": "I-490",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.141920200412,
-    "lng": -77.59540947672319,
+    "lat": 43.139815,
+    "lng": -77.596089,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_254.flv.png",
     "video_url": ""
   },
   {
     "id": "34070",
     "name": "Culver Rd at Clifford Ave/Empire Blvd",
-    "route": "941B",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.17639702985373,
-    "lng": -77.5564740617037,
+    "lat": 43.176365,
+    "lng": -77.557403,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_255.flv.png",
     "video_url": ""
   },
@@ -21482,10 +21482,10 @@
   {
     "id": "34071",
     "name": "Clinton Ave at Norton St",
-    "route": "946A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.19105204284976,
-    "lng": -77.61290799243706,
+    "lat": 43.186462,
+    "lng": -77.613773,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_256.flv.png",
     "video_url": ""
   },
@@ -21512,20 +21512,20 @@
   {
     "id": "34072",
     "name": "Hylan Dr at Mktplc Ctr/Wegmans",
-    "route": "NY 252",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.087020778070055,
-    "lng": -77.62961985662825,
+    "lat": 43.083005,
+    "lng": -77.629683,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_257.flv.png",
     "video_url": ""
   },
   {
     "id": "34073",
     "name": "Winton Rd at Atlantic Ave",
-    "route": "NY 286",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15730000397393,
-    "lng": -77.5411210446961,
+    "lat": 43.156985,
+    "lng": -77.548916,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_258.flv.png",
     "video_url": ""
   },
@@ -21552,10 +21552,10 @@
   {
     "id": "34074",
     "name": "East Ridge Rd at Hudson Ave",
-    "route": "946B",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.19242218031446,
-    "lng": -77.59961207674189,
+    "lat": 43.196144,
+    "lng": -77.600153,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_259.flv.png",
     "video_url": ""
   },
@@ -21582,10 +21582,10 @@
   {
     "id": "34076",
     "name": "Main St at Clinton Ave -2",
-    "route": "NY 96",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15760699670455,
-    "lng": -77.6043320269045,
+    "lat": 43.157127,
+    "lng": -77.606365,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_281.flv.png",
     "video_url": ""
   },
@@ -21632,10 +21632,10 @@
   {
     "id": "34078",
     "name": "Clinton Ave at Westfall Rd - 2",
-    "route": "I-390",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.110929562169304,
-    "lng": -77.60089959406533,
+    "lat": 43.115351,
+    "lng": -77.597022,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_283.flv.png",
     "video_url": ""
   },
@@ -21672,10 +21672,10 @@
   {
     "id": "34080",
     "name": "Main St at Culver Rd",
-    "route": "NY 96",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.14936835153335,
-    "lng": -77.57113367102039,
+    "lat": 43.159725,
+    "lng": -77.566275,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_285.flv.png",
     "video_url": ""
   },
@@ -21692,10 +21692,10 @@
   {
     "id": "34081",
     "name": "Culver Rd at Norton St",
-    "route": "NY 104",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.195832871772126,
-    "lng": -77.56087600310154,
+    "lat": 43.188151,
+    "lng": -77.561,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_286.flv.png",
     "video_url": ""
   },
@@ -21762,10 +21762,10 @@
   {
     "id": "34085",
     "name": "Lake Ave at Stonewood Ave",
-    "route": "NY 18",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.223974040809836,
-    "lng": -77.64180706162924,
+    "lat": 43.23077455,
+    "lng": -77.62585527,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_290.flv.png",
     "video_url": ""
   },
@@ -22202,10 +22202,10 @@
   {
     "id": "34107",
     "name": "I-90 at the Exit 24 Tolls",
-    "route": "I-90",
+    "route": "I-87",
     "jurisdiction": "NYSDOT",
-    "lat": 42.69602400994532,
-    "lng": -73.8418680321967,
+    "lat": 42.696789212186914,
+    "lng": -73.84268475256805,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_053.flv.png",
     "video_url": ""
   },
@@ -22222,10 +22222,10 @@
   {
     "id": "34108",
     "name": "Dewey Ave at Lexington Ave",
-    "route": "940M",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.179749365474486,
-    "lng": -77.63165544191519,
+    "lat": 43.179349,
+    "lng": -77.639497,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_229.flv.png",
     "video_url": ""
   },
@@ -22322,10 +22322,10 @@
   {
     "id": "34113",
     "name": "NY 5A WB at NY 12 NB South Interchange",
-    "route": "NY 5",
+    "route": "NY 5A",
     "jurisdiction": "NYSDOT",
-    "lat": 43.10586303703582,
-    "lng": -75.23890496737393,
+    "lat": 43.106097875568075,
+    "lng": -75.23975122003279,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_029.flv.png",
     "video_url": ""
   },
@@ -22432,10 +22432,10 @@
   {
     "id": "34118",
     "name": "I-87 MP 012.45 SB Just South of Interchange 9 (Tarrytown)",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.06101623406454,
-    "lng": -73.85637181795413,
+    "lat": 41.0605,
+    "lng": -73.85643,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_025.flv.png",
     "video_url": ""
   },
@@ -22762,10 +22762,10 @@
   {
     "id": "34135",
     "name": "I-90 MP 212.80 WB Between Interchange 29A (Little Falls) and Interchange 30 (Herkimer)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.01121380516655,
-    "lng": -74.85837253262936,
+    "lat": 43.01184,
+    "lng": -74.85859,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_083.flv.png",
     "video_url": ""
   },
@@ -22872,10 +22872,10 @@
   {
     "id": "34141",
     "name": "I-90 MP 256.00 WB Parking Area Between Interchange 33 (Verona) and 34 (Canastota)",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.116170728293234,
-    "lng": -75.64462480566728,
+    "lat": 43.11666,
+    "lng": -75.64489,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_089.flv.png",
     "video_url": ""
   },
@@ -23002,20 +23002,20 @@
   {
     "id": "34150",
     "name": "Dewey Ave at Emerson St",
-    "route": "940M",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.1761787765399,
-    "lng": -77.63027809596656,
+    "lat": 43.17361,
+    "lng": -77.639211,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_218.flv.png",
     "video_url": ""
   },
   {
     "id": "34151",
     "name": "Winton Rd at Canal Bridge - 2",
-    "route": "I-590",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.107433993857754,
-    "lng": -77.57948702849082,
+    "lat": 43.09932429,
+    "lng": -77.58027008,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_271.flv.png",
     "video_url": ""
   },
@@ -23472,10 +23472,10 @@
   {
     "id": "34270",
     "name": "North Chestnut St at Andrews St & University Ave",
-    "route": "940T",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.16194814891532,
-    "lng": -77.60323380689377,
+    "lat": 43.161256,
+    "lng": -77.60293,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_244.flv.png",
     "video_url": ""
   },
@@ -23582,20 +23582,20 @@
   {
     "id": "32406",
     "name": "I-90 MP 426.17W WB at Interchange 53 (I-190 Junction) View 2",
-    "route": "I-90",
+    "route": "I-190",
     "jurisdiction": "NYSDOT",
-    "lat": 42.87483619584032,
-    "lng": -78.78794321086326,
+    "lat": 42.875463489398626,
+    "lng": -78.78883138506602,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_119.flv.png",
     "video_url": ""
   },
   {
     "id": "32407",
     "name": "I-90 MP 426.17C WB at Interchange 53 (I-190 Junction) View 1",
-    "route": "I-90",
+    "route": "I-190",
     "jurisdiction": "NYSDOT",
-    "lat": 42.87483619584032,
-    "lng": -78.78794321086326,
+    "lat": 42.875463489398626,
+    "lng": -78.78883138506602,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_120.flv.png",
     "video_url": ""
   },
@@ -23742,10 +23742,10 @@
   {
     "id": "32424",
     "name": "NY27 NSR at NY112 (Signal Pole)",
-    "route": "NY 27",
+    "route": "906D",
     "jurisdiction": "NYSDOT",
-    "lat": 40.7796048942488,
-    "lng": -73.00838195039714,
+    "lat": 40.780442343866945,
+    "lng": -73.00849835211345,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_371.flv.png",
     "video_url": ""
   },
@@ -23812,10 +23812,10 @@
   {
     "id": "32431",
     "name": "I-81 at Exit 4",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.11509507946788,
-    "lng": -75.89885608016195,
+    "lat": 42.11449,
+    "lng": -75.89879,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R9_005.flv.png",
     "video_url": ""
   },
@@ -23872,50 +23872,50 @@
   {
     "id": "32437",
     "name": "I-87 MP 065.90 SB Modena Service Area Truck Parking 1",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.592288418343756,
-    "lng": -74.08737581440167,
+    "lat": 41.59253,
+    "lng": -74.08863,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_254.flv.png",
     "video_url": ""
   },
   {
     "id": "32438",
     "name": "I-87 MP 065.90 SB Modena Service Area Truck Parking 2",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.592277580422994,
-    "lng": -74.08737954679012,
+    "lat": 41.59253,
+    "lng": -74.08869,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_255.flv.png",
     "video_url": ""
   },
   {
     "id": "32439",
     "name": "I-87 MP 065.90 SB Modena Service Area Truck Parking 3",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.591901349448875,
-    "lng": -74.08750911409119,
+    "lat": 41.59215,
+    "lng": -74.0888,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_256.flv.png",
     "video_url": ""
   },
   {
     "id": "32440",
     "name": "I-87 MP 065.90 SB Modena Service Area Truck Parking 4",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.59190280944652,
-    "lng": -74.0875086112938,
+    "lat": 41.59214,
+    "lng": -74.08874,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_257.flv.png",
     "video_url": ""
   },
   {
     "id": "32441",
     "name": "I-90 MP 447.1 EB Angola Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.63643369003981,
-    "lng": -78.98730594594838,
+    "lat": 42.635654,
+    "lng": -78.986242,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_258.flv.png",
     "video_url": ""
   },
@@ -23932,10 +23932,10 @@
   {
     "id": "32443",
     "name": "I-90 MP 447.1 EB Angola Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.63643369003981,
-    "lng": -78.98730594594838,
+    "lat": 42.635654,
+    "lng": -78.986242,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_259.flv.png",
     "video_url": ""
   },
@@ -24242,10 +24242,10 @@
   {
     "id": "32474",
     "name": "I-678 at North Conduit Ave.",
-    "route": "I-678",
+    "route": "907D",
     "jurisdiction": "NYSDOT",
-    "lat": 40.66636602595092,
-    "lng": -73.80161697593815,
+    "lat": 40.66629864349271,
+    "lng": -73.80271438469407,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_157.flv.png",
     "video_url": ""
   },
@@ -24292,20 +24292,20 @@
   {
     "id": "32479",
     "name": "I-481 south of Exit 2 (Stonehouse)",
-    "route": "I-481",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.007350055897255,
-    "lng": -76.08772472954159,
+    "lat": 43.008045,
+    "lng": -76.088607,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_038.flv.png",
     "video_url": ""
   },
   {
     "id": "32480",
     "name": "I-81 north of Exit 27 (EM Shop)",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.11656979716104,
-    "lng": -76.1344872288854,
+    "lat": 43.12218,
+    "lng": -76.138945,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_039.flv.png",
     "video_url": ""
   },
@@ -24322,10 +24322,10 @@
   {
     "id": "32482",
     "name": "NY878 at Burnside Avenue",
-    "route": "NY 878",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.623012967510036,
-    "lng": -73.74099304864531,
+    "lat": 40.624078,
+    "lng": -73.73529,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_301.flv.png",
     "video_url": ""
   },
@@ -24492,20 +24492,20 @@
   {
     "id": "32499",
     "name": "Culver Rd at University Ave",
-    "route": "NY 96",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.14947667890591,
-    "lng": -77.57156756565817,
+    "lat": 43.151516,
+    "lng": -77.570611,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_200.flv.png",
     "video_url": ""
   },
   {
     "id": "32500",
     "name": "Broad St at Chestnut St",
-    "route": "NY 96",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15704362381254,
-    "lng": -77.60231885495404,
+    "lat": 43.155226,
+    "lng": -77.603193,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_201.flv.png",
     "video_url": ""
   },
@@ -24542,20 +24542,20 @@
   {
     "id": "32504",
     "name": "St. Paul St at Pleasant St",
-    "route": "940T",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.16135270138806,
-    "lng": -77.61095296885829,
+    "lat": 43.15854,
+    "lng": -77.609655,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_209.flv.png",
     "video_url": ""
   },
   {
     "id": "32505",
     "name": "Goodman St at Clifford Ave",
-    "route": "941B",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.17639702985373,
-    "lng": -77.5564740617037,
+    "lat": 43.175853,
+    "lng": -77.576173,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_231.flv.png",
     "video_url": ""
   },
@@ -24572,10 +24572,10 @@
   {
     "id": "32507",
     "name": "Goodman St at University Ave",
-    "route": "NY 96",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15342523448082,
-    "lng": -77.58802400880073,
+    "lat": 43.156417,
+    "lng": -77.586608,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_233.flv.png",
     "video_url": ""
   },
@@ -24602,10 +24602,10 @@
   {
     "id": "32510",
     "name": "Main St at Goodman St",
-    "route": "NY 96",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15335134033521,
-    "lng": -77.587730643906,
+    "lat": 43.162065,
+    "lng": -77.583606,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_234.flv.png",
     "video_url": ""
   },
@@ -24622,10 +24622,10 @@
   {
     "id": "32512",
     "name": "Elmwood at Kendrick",
-    "route": "I-390",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.11718215681277,
-    "lng": -77.63482574067645,
+    "lat": 43.122976,
+    "lng": -77.629452,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_236.flv.png",
     "video_url": ""
   },
@@ -24662,40 +24662,40 @@
   {
     "id": "32516",
     "name": "East Ridge Rd at Goodman St/Kings Hwy",
-    "route": "946B",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.19671259142917,
-    "lng": -77.57703532806217,
+    "lat": 43.199063,
+    "lng": -77.577024,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_240.flv.png",
     "video_url": ""
   },
   {
     "id": "32517",
     "name": "East Ridge Rd at Carter/Stanton Ln",
-    "route": "946B",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.19413289114459,
-    "lng": -77.59112652353039,
+    "lat": 43.197062,
+    "lng": -77.592425,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_261.flv.png",
     "video_url": ""
   },
   {
     "id": "32518",
     "name": "East Ridge Rd at Culver Rd",
-    "route": "946B",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.19631731208566,
-    "lng": -77.56169466321109,
+    "lat": 43.203422,
+    "lng": -77.561799,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_262.flv.png",
     "video_url": ""
   },
   {
     "id": "32519",
     "name": "Lake Ave at River St",
-    "route": "947A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.249655008197855,
-    "lng": -77.61479002482353,
+    "lat": 43.2439778,
+    "lng": -77.61843437,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_263.flv.png",
     "video_url": ""
   },
@@ -24712,30 +24712,30 @@
   {
     "id": "32521",
     "name": "Lake Ave at Portside Dr",
-    "route": "943F",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.249714967803605,
-    "lng": -77.61475095954243,
+    "lat": 43.2557501,
+    "lng": -77.61044464,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_264.flv.png",
     "video_url": ""
   },
   {
     "id": "32522",
     "name": "Lake Ave at Beach Ave",
-    "route": "943F",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.2497019067228,
-    "lng": -77.61471763740904,
+    "lat": 43.25829799,
+    "lng": -77.60836579,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_265.flv.png",
     "video_url": ""
   },
   {
     "id": "32523",
     "name": "Clinton Ave at Upper Falls Blvd",
-    "route": "940T",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.16161301223356,
-    "lng": -77.60957105448132,
+    "lat": 43.170176,
+    "lng": -77.611793,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_266.flv.png",
     "video_url": ""
   },
@@ -24752,10 +24752,10 @@
   {
     "id": "32525",
     "name": "Clinton Ave at Westfall Rd",
-    "route": "I-390",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.11090156967402,
-    "lng": -77.6008396980952,
+    "lat": 43.115314,
+    "lng": -77.59697,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_268.flv.png",
     "video_url": ""
   },
@@ -24792,20 +24792,20 @@
   {
     "id": "32529",
     "name": "Mt Read Blvd at Maiden Ln",
-    "route": "NY 18",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.22836003064627,
-    "lng": -77.64602399858487,
+    "lat": 43.223796,
+    "lng": -77.658997,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_292.flv.png",
     "video_url": ""
   },
   {
     "id": "32530",
     "name": "Mt Read Blvd at Vintage Ln/Dorsey Rd",
-    "route": "NY 18",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.23143791856329,
-    "lng": -77.64690340558546,
+    "lat": 43.231118,
+    "lng": -77.659082,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_293.flv.png",
     "video_url": ""
   },
@@ -24822,20 +24822,20 @@
   {
     "id": "32532",
     "name": "Portand Ave at Norton St",
-    "route": "946A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.1941485449541,
-    "lng": -77.58716755968788,
+    "lat": 43.187361,
+    "lng": -77.584119,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_294.flv.png",
     "video_url": ""
   },
   {
     "id": "32533",
     "name": "Whitney Rd at Linden Ave",
-    "route": "NY 153",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.12142397602199,
-    "lng": -77.4848549699737,
+    "lat": 43.121263,
+    "lng": -77.475693,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_295.flv.png",
     "video_url": ""
   },
@@ -24852,30 +24852,30 @@
   {
     "id": "32535",
     "name": "Ayrault Rd at Turk Hill Rd",
-    "route": "NY 250",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.07734898841191,
-    "lng": -77.44050396412612,
+    "lat": 43.079092,
+    "lng": -77.432126,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_297.flv.png",
     "video_url": ""
   },
   {
     "id": "32536",
     "name": "Winton Rd at Elmwood Ave",
-    "route": "NY 31",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.12684974381063,
-    "lng": -77.56505090147057,
+    "lat": 43.126428,
+    "lng": -77.56576,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_298.flv.png",
     "video_url": ""
   },
   {
     "id": "32537",
     "name": "Clinton Ave at Highland Ave",
-    "route": "I-490",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.14165404048674,
-    "lng": -77.59148595786682,
+    "lat": 43.131711,
+    "lng": -77.590216,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_299.flv.png",
     "video_url": ""
   },
@@ -25112,10 +25112,10 @@
   {
     "id": "32561",
     "name": "NY 5A EB at Sauquoit Creek at CSX Bridge",
-    "route": "NY 5A",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.114622506998515,
-    "lng": -75.28117546747868,
+    "lat": 43.119605,
+    "lng": -75.279792,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_035.flv.png",
     "video_url": ""
   },
@@ -25132,10 +25132,10 @@
   {
     "id": "32563",
     "name": "I-90 Between Exits 10-9",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.600880878541936,
-    "lng": -73.68195685509457,
+    "lat": 42.60105,
+    "lng": -73.68135,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_062.flv.png",
     "video_url": ""
   },
@@ -25192,10 +25192,10 @@
   {
     "id": "32569",
     "name": "I-90 Westbound at Schodack Text Area",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.50672268332223,
-    "lng": -73.68859190793344,
+    "lat": 42.506838,
+    "lng": -73.687849,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_066.flv.png",
     "video_url": ""
   },
@@ -25302,10 +25302,10 @@
   {
     "id": "32580",
     "name": "US 11 North of Fort Drum Main Gate",
-    "route": "US 11",
+    "route": "I-781",
     "jurisdiction": "NYSDOT",
-    "lat": 44.05432584039889,
-    "lng": -75.83310304039588,
+    "lat": 44.05459813941781,
+    "lng": -75.83450152900063,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R7_002.flv.png",
     "video_url": ""
   },
@@ -25362,10 +25362,10 @@
   {
     "id": "32586",
     "name": "I-495 at Sagtikos Pkwy",
-    "route": "I-495",
+    "route": "906B",
     "jurisdiction": "NYSDOT",
-    "lat": 40.80467595053914,
-    "lng": -73.27757515868944,
+    "lat": 40.80511504604717,
+    "lng": -73.27756370385278,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_035.flv.png",
     "video_url": ""
   },
@@ -25462,10 +25462,10 @@
   {
     "id": "32596",
     "name": "I-81 NB at Exit 2",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.10998523352701,
-    "lng": -75.86370968772003,
+    "lat": 42.11078,
+    "lng": -75.86366,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R9_009.flv.png",
     "video_url": ""
   },
@@ -25482,10 +25482,10 @@
   {
     "id": "32598",
     "name": "I-278 at Coles St",
-    "route": "I-278",
+    "route": "I-478",
     "jurisdiction": "NYSDOT",
-    "lat": 40.67973697516277,
-    "lng": -74.0033759573609,
+    "lat": 40.67997817927356,
+    "lng": -74.00400753233284,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_221.flv.png",
     "video_url": ""
   },
@@ -25512,10 +25512,10 @@
   {
     "id": "32601",
     "name": "OVD Route 111 Southbound to SSP WB",
-    "route": "NY 111",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.756465331000406,
-    "lng": -73.20935072201048,
+    "lat": 40.756405,
+    "lng": -73.210132,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_340.flv.png",
     "video_url": ""
   },
@@ -25582,10 +25582,10 @@
   {
     "id": "32608",
     "name": "I-495 at Exit 53 Ramp - Wicks Rd",
-    "route": "I-495",
+    "route": "906B",
     "jurisdiction": "NYSDOT",
-    "lat": 40.804639594695225,
-    "lng": -73.260274886768,
+    "lat": 40.805057055966806,
+    "lng": -73.2603122663536,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_037.flv.png",
     "video_url": ""
   },
@@ -25752,10 +25752,10 @@
   {
     "id": "32625",
     "name": "907M at 44th Street",
-    "route": "907M",
+    "route": "I-278",
     "jurisdiction": "NYSDOT",
-    "lat": 40.76821699897203,
-    "lng": -73.90561396472535,
+    "lat": 40.768760235694046,
+    "lng": -73.90721362554204,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R11_249.flv.png",
     "video_url": ""
   },
@@ -25772,10 +25772,10 @@
   {
     "id": "32627",
     "name": "St Paul Blvd and Lakeshore Blvd",
-    "route": "943F",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.247964034442454,
-    "lng": -77.60833396160903,
+    "lat": 43.247226,
+    "lng": -77.597088,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_300.flv.png",
     "video_url": ""
   },
@@ -25792,10 +25792,10 @@
   {
     "id": "32629",
     "name": "St. Paul at East Avenue",
-    "route": "940M",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.18131541993202,
-    "lng": -77.63163865404539,
+    "lat": 43.181032,
+    "lng": -77.625284,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_206.flv.png",
     "video_url": ""
   },
@@ -25972,10 +25972,10 @@
   {
     "id": "32649",
     "name": "North of Tuckahoe Rd MM 1.89",
-    "route": "987F",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.95960863604239,
-    "lng": -73.85059347100021,
+    "lat": 40.95979,
+    "lng": -73.851933,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_125.flv.png",
     "video_url": ""
   },
@@ -26032,10 +26032,10 @@
   {
     "id": "32655",
     "name": "NY 5S EB at NY 28 Mohawk Station",
-    "route": "NY 5",
+    "route": "NY 28",
     "jurisdiction": "NYSDOT",
-    "lat": 43.02018497191528,
-    "lng": -74.99740604221766,
+    "lat": 43.01444694109317,
+    "lng": -74.99527475034616,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_037.flv.png",
     "video_url": ""
   },
@@ -26052,10 +26052,10 @@
   {
     "id": "32657",
     "name": "NY 5S at N Genesee St",
-    "route": "NY 5",
+    "route": "921C",
     "jurisdiction": "NYSDOT",
-    "lat": 43.1043460898624,
-    "lng": -75.23919996058743,
+    "lat": 43.10267066238346,
+    "lng": -75.22859600112514,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_040.flv.png",
     "video_url": ""
   },
@@ -26092,20 +26092,20 @@
   {
     "id": "32661",
     "name": "Main St & St Paul/South",
-    "route": "NY 31",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15468765841951,
-    "lng": -77.60833810013307,
+    "lat": 43.156652,
+    "lng": -77.608874,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_272.flv.png",
     "video_url": ""
   },
   {
     "id": "32662",
     "name": "Main St at Clinton Ave",
-    "route": "NY 96",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.15760699670455,
-    "lng": -77.6043320269045,
+    "lat": 43.157096,
+    "lng": -77.606393,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_273.flv.png",
     "video_url": ""
   },
@@ -26122,10 +26122,10 @@
   {
     "id": "32664",
     "name": "NSP at Exit 29A (Westbound LIE Connector)",
-    "route": "908G",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.77975221363949,
-    "lng": -73.62759245116838,
+    "lat": 40.780328,
+    "lng": -73.62716,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_062.flv.png",
     "video_url": ""
   },
@@ -26142,10 +26142,10 @@
   {
     "id": "32666",
     "name": "Calkins Rd at Hylan Dr",
-    "route": "I-390",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.07222904119305,
-    "lng": -77.63243145054325,
+    "lat": 43.068345,
+    "lng": -77.627536,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_276.flv.png",
     "video_url": ""
   },
@@ -26192,10 +26192,10 @@
   {
     "id": "32671",
     "name": "Winton Rd at Canal Bridge",
-    "route": "I-590",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.107433993857754,
-    "lng": -77.57948702849082,
+    "lat": 43.09955778,
+    "lng": -77.58020117,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_301.flv.png",
     "video_url": ""
   },
@@ -26262,10 +26262,10 @@
   {
     "id": "32678",
     "name": "South Ave at Elmwood Ave CAM 2",
-    "route": "NY 15",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.12569094663651,
-    "lng": -77.61696135522654,
+    "lat": 43.12489337,
+    "lng": -77.61407365,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_308.flv.png",
     "video_url": ""
   },
@@ -26422,20 +26422,20 @@
   {
     "id": "32694",
     "name": "Canada Rd at I-99 Southbound",
-    "route": "I-99",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.153276041527725,
-    "lng": -77.0987035429794,
+    "lat": 42.153833,
+    "lng": -77.099381,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R6_013.flv.png",
     "video_url": ""
   },
   {
     "id": "32695",
     "name": "CR 35 at CR 64",
-    "route": "I-86",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.156531140431106,
-    "lng": -76.8784316330145,
+    "lat": 42.154088,
+    "lng": -76.877472,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R6_015.flv.png",
     "video_url": ""
   },
@@ -26472,10 +26472,10 @@
   {
     "id": "32699",
     "name": "I-90 at Lark/Dove Bridge",
-    "route": "I-90",
+    "route": "US 9",
     "jurisdiction": "NYSDOT",
-    "lat": 42.66956156938021,
-    "lng": -73.74998593875422,
+    "lat": 42.66870394935841,
+    "lng": -73.74987296555365,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_049.flv.png",
     "video_url": ""
   },
@@ -26502,10 +26502,10 @@
   {
     "id": "32702",
     "name": "I-690 at Exit 12B (Signal 314)",
-    "route": "I-690",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.07206002572074,
-    "lng": -76.20728535434321,
+    "lat": 43.072776,
+    "lng": -76.20679,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_042.flv.png",
     "video_url": ""
   },
@@ -26552,10 +26552,10 @@
   {
     "id": "32709",
     "name": "390 at Lyell Ave",
-    "route": "I-390",
+    "route": "NY 31",
     "jurisdiction": "NYSDOT",
-    "lat": 43.156573975584735,
-    "lng": -77.67893603872673,
+    "lat": 43.16470281181673,
+    "lng": -77.68337317067699,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_014.flv.png",
     "video_url": ""
   },
@@ -26642,10 +26642,10 @@
   {
     "id": "32718",
     "name": "I-87 Southbound at Prospect Mtn Hwy Lake George",
-    "route": "I-87",
+    "route": "917A",
     "jurisdiction": "NYSDOT",
-    "lat": 43.41110804287929,
-    "lng": -73.72130294348338,
+    "lat": 43.410762426197095,
+    "lng": -73.72174764172404,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R1_076.flv.png",
     "video_url": ""
   },
@@ -26662,20 +26662,20 @@
   {
     "id": "32720",
     "name": "I-81 north of Exit 36 (Pulaski)",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.58313682976712,
-    "lng": -76.1092136451695,
+    "lat": 43.583496,
+    "lng": -76.110656,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_049.flv.png",
     "video_url": ""
   },
   {
     "id": "32721",
     "name": "I-81 south of Exit 36 (Pulaski)",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.51964653144099,
-    "lng": -76.12139087935252,
+    "lat": 43.519547,
+    "lng": -76.120216,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_050.flv.png",
     "video_url": ""
   },
@@ -26712,10 +26712,10 @@
   {
     "id": "32725",
     "name": "I-81 north of Exit 9 (Marathon)",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.4646337139643,
-    "lng": -76.0457015844899,
+    "lat": 42.464447,
+    "lng": -76.046324,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_073.flv.png",
     "video_url": ""
   },
@@ -26732,20 +26732,20 @@
   {
     "id": "32727",
     "name": "NY-13 (Fulton) at State (Ithaca)",
-    "route": "NY 13",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.43926867336152,
-    "lng": -76.50833439327123,
+    "lat": 42.439205,
+    "lng": -76.510482,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_075.flv.png",
     "video_url": ""
   },
   {
     "id": "32728",
     "name": "NY-13 (Fulton) at Buffalo (Ithaca)",
-    "route": "NY 13",
+    "route": "NY 89",
     "jurisdiction": "NYSDOT",
-    "lat": 42.44100200178778,
-    "lng": -76.50842013078527,
+    "lat": 42.44095506536197,
+    "lng": -76.5106313872819,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_076.flv.png",
     "video_url": ""
   },
@@ -26802,10 +26802,10 @@
   {
     "id": "32734",
     "name": "OVD Peninsula Blvd South to West SSP",
-    "route": "908M",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 40.68986839880082,
-    "lng": -73.63413932010873,
+    "lat": 40.690406,
+    "lng": -73.634356,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_342.flv.png",
     "video_url": ""
   },
@@ -26892,30 +26892,30 @@
   {
     "id": "32743",
     "name": "I-90 MP 397.40 EB at Pembroke Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.012429087826845,
-    "lng": -78.32881212625489,
+    "lat": 43.01161,
+    "lng": -78.328695,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_191.flv.png",
     "video_url": ""
   },
   {
     "id": "32744",
     "name": "I-90 MP 209.90 EB at Iroquois Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.01615907860646,
-    "lng": -74.8022162870667,
+    "lat": 43.01685,
+    "lng": -74.80186,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_193.flv.png",
     "video_url": ""
   },
   {
     "id": "32745",
     "name": "I-90 MP 209.90 EB at Iroquois Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.01616779098832,
-    "lng": -74.80224789122695,
+    "lat": 43.01692,
+    "lng": -74.80186,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_194.flv.png",
     "video_url": ""
   },
@@ -26942,30 +26942,30 @@
   {
     "id": "32748",
     "name": "I-87 MP 127.10 SB New Baltimore Service Area Truck Park 1",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.427440401096675,
-    "lng": -73.80471565127094,
+    "lat": 42.4277,
+    "lng": -73.8057,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_197.flv.png",
     "video_url": ""
   },
   {
     "id": "32749",
     "name": "I-87 MP 127.10 SB New Baltimore Service Area Truck Park 2",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.427393627914206,
-    "lng": -73.80473829216832,
+    "lat": 42.4277,
+    "lng": -73.8059,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_198.flv.png",
     "video_url": ""
   },
   {
     "id": "32750",
     "name": "I-87 MP 127.10 SB New Baltimore Service Area Truck Park 3",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.42779511907915,
-    "lng": -73.80454394746508,
+    "lat": 42.4281,
+    "lng": -73.8057,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_199.flv.png",
     "video_url": ""
   },
@@ -26982,70 +26982,70 @@
   {
     "id": "32752",
     "name": "I-87 MP 127.10 SB New Baltimore Service Area Truck Park 4",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.42784189227145,
-    "lng": -73.80452130656293,
+    "lat": 42.4281,
+    "lng": -73.8055,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_200.flv.png",
     "video_url": ""
   },
   {
     "id": "32753",
     "name": "I-90 MP 227.10 WB Plattekill Service Area Truck Park 1",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.57738256042795,
-    "lng": -74.08591082429099,
+    "lat": 41.57762,
+    "lng": -74.08496,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_209.flv.png",
     "video_url": ""
   },
   {
     "id": "32754",
     "name": "I-90 MP 227.10 WB Plattekill Service Area Truck Park 2",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.57782384275418,
-    "lng": -74.08611218569848,
+    "lat": 41.57809,
+    "lng": -74.08512,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_210.flv.png",
     "video_url": ""
   },
   {
     "id": "32755",
     "name": "I-90 MP 291.50 WB Warners Service Area Truck Park 1",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.09142328824908,
-    "lng": -76.31866265071032,
+    "lat": 43.09206,
+    "lng": -76.31913,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_215.flv.png",
     "video_url": ""
   },
   {
     "id": "32756",
     "name": "I-90 MP 291.50 WB Warners Service Area Truck Park 2",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.09136286419509,
-    "lng": -76.3188170181845,
+    "lat": 43.09198,
+    "lng": -76.31927,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_216.flv.png",
     "video_url": ""
   },
   {
     "id": "32757",
     "name": "I-90 MP 291.50 WB Warners Service Area Truck Park 3",
-    "route": "I-90",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 43.091342971728764,
-    "lng": -76.3188678381739,
+    "lat": 43.09185,
+    "lng": -76.31924,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_217.flv.png",
     "video_url": ""
   },
   {
     "id": "32758",
     "name": "I-87 MP 013.60a SB Gov. Mario M. Cuomo Bridge View 1",
-    "route": "I-87",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 41.07111415622866,
-    "lng": -73.87311900750743,
+    "lat": 41.07064,
+    "lng": -73.87328,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/TA_164.flv.png",
     "video_url": ""
   },
@@ -27137,6 +27137,76 @@
     "lat": 40.89825539070702,
     "lng": -72.4112218173505,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R10_383.flv.png",
+    "video_url": ""
+  },
+  {
+    "id": "34271",
+    "name": "NY 17 Approaching I-81",
+    "route": "NY 17",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.11251939522708,
+    "lng": -75.91074409200091,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R9_002.flv.png",
+    "video_url": ""
+  },
+  {
+    "id": "34272",
+    "name": "NY 17 South of I-81",
+    "route": "Unknown",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.114588,
+    "lng": -75.910214,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R9_003.flv.png",
+    "video_url": ""
+  },
+  {
+    "id": "34273",
+    "name": "NY-49 at I-81 NB (Central Square)",
+    "route": "NY 49",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.28606635764896,
+    "lng": -76.12424504480535,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R3_059.flv.png",
+    "video_url": ""
+  },
+  {
+    "id": "34274",
+    "name": "South of NY 100 B",
+    "route": "987F",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.03014230061042,
+    "lng": -73.8205415906427,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R8_015.flv.png",
+    "video_url": ""
+  },
+  {
+    "id": "34275",
+    "name": "North Plymouth Ave at Morrie Silver Way",
+    "route": "Unknown",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.159565,
+    "lng": -77.619603,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_242.flv.png",
+    "video_url": ""
+  },
+  {
+    "id": "34276",
+    "name": "West Ridge Rd and Harvest",
+    "route": "NY 104",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.21006791179074,
+    "lng": -77.70342933108114,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_243.flv.png",
+    "video_url": ""
+  },
+  {
+    "id": "34277",
+    "name": "NY 5A at Home Goods",
+    "route": "NY 5A",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.08849974871283,
+    "lng": -75.31232681075721,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R2_060.flv.png",
     "video_url": ""
   }
 ]
