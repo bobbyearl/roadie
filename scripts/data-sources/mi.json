@@ -9208,5 +9208,345 @@
     "lng": -86.20723,
     "image_url": "https://micamerasimages.net/thumbs/grand_cam_079.flv.jpg",
     "video_url": ""
+  },
+  {
+    "id": "3677",
+    "name": "I-196 @ M45",
+    "route": "I-196",
+    "jurisdiction": "WB",
+    "lat": 42.9653,
+    "lng": -85.7086,
+    "image_url": "https://micamerasimages.net/thumbs/grand_cam_054.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3574",
+    "name": "I-275 @ Cherry Hill",
+    "route": "I-275",
+    "jurisdiction": "NB",
+    "lat": 42.308517,
+    "lng": -83.44198,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_023.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3599",
+    "name": "I-275 @ Ford",
+    "route": "I-275",
+    "jurisdiction": "SB",
+    "lat": 42.322422,
+    "lng": -83.443695,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_090.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4247",
+    "name": "I-275 @ Warren",
+    "route": "I-275",
+    "jurisdiction": "SB",
+    "lat": 42.333103,
+    "lng": -83.44386,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_331.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3577",
+    "name": "I-275 @ Koppernick",
+    "route": "I-275",
+    "jurisdiction": "NB",
+    "lat": 42.3416,
+    "lng": -83.441444,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_026.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3573",
+    "name": "I-275 @ Ann Arbor Rd",
+    "route": "I-275",
+    "jurisdiction": "NB",
+    "lat": 42.359413,
+    "lng": -83.435425,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_022.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3726",
+    "name": "I-275 @ Ann Arbor Rd 2",
+    "route": "I-275",
+    "jurisdiction": "SB",
+    "lat": 42.36012,
+    "lng": -83.43654,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_353.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3578",
+    "name": "I-275 @ M14",
+    "route": "I-275",
+    "jurisdiction": "SB",
+    "lat": 42.385517,
+    "lng": -83.4379,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_027.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3653",
+    "name": "I-275 @ M14 2",
+    "route": "I-275",
+    "jurisdiction": "SB",
+    "lat": 42.385317,
+    "lng": -83.4377,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_268.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3777",
+    "name": "I-275 @ 5 Mile 2",
+    "route": "I-275",
+    "jurisdiction": "",
+    "lat": 42.39556,
+    "lng": -83.43123,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_019.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4249",
+    "name": "I-375 @ Larned",
+    "route": "I-375",
+    "jurisdiction": "SB",
+    "lat": 42.33458,
+    "lng": -83.03738,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_333.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4250",
+    "name": "I-375 @ Larned 2",
+    "route": "I-375",
+    "jurisdiction": "SB",
+    "lat": 42.33438,
+    "lng": -83.03718,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_334.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3585",
+    "name": "I-75 @ Caniff",
+    "route": "I-75",
+    "jurisdiction": "NB",
+    "lat": 42.397066,
+    "lng": -83.068077,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_054.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3583",
+    "name": "I-75 @ N of John R",
+    "route": "I-75",
+    "jurisdiction": "SB",
+    "lat": 42.459898,
+    "lng": -83.105604,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_052.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3788",
+    "name": "I-75 @ 12 Mile",
+    "route": "I-75",
+    "jurisdiction": "NB",
+    "lat": 42.50385,
+    "lng": -83.114395,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_050.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3549",
+    "name": "I-94 @ 21.5 Mile",
+    "route": "I-94",
+    "jurisdiction": "WB",
+    "lat": 42.28322,
+    "lng": -84.88258,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_190.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4367",
+    "name": "I-94 @ Airport",
+    "route": "I-94",
+    "jurisdiction": "EB",
+    "lat": 42.268684,
+    "lng": -84.45598,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_013.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3901",
+    "name": "I-94 @ Boardman",
+    "route": "I-94",
+    "jurisdiction": "EB",
+    "lat": 42.268948,
+    "lng": -84.43985,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_014.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3539",
+    "name": "I-94 @ Elm Rd",
+    "route": "I-94",
+    "jurisdiction": "WB",
+    "lat": 42.275524,
+    "lng": -84.38392,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_180.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3758",
+    "name": "I-94 @ Hawkins",
+    "route": "I-94",
+    "jurisdiction": "WB",
+    "lat": 42.277588,
+    "lng": -84.336075,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_081.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3986",
+    "name": "I-94 @ Sargent Rd",
+    "route": "I-94",
+    "jurisdiction": "WB",
+    "lat": 42.281194,
+    "lng": -84.304076,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_110.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3759",
+    "name": "I-94 @ Whipple",
+    "route": "I-94",
+    "jurisdiction": "WB",
+    "lat": 42.2852,
+    "lng": -84.283005,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_083.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3752",
+    "name": "I-94 @ Grass Lake RA",
+    "route": "I-94",
+    "jurisdiction": "WB",
+    "lat": 42.293056,
+    "lng": -84.215078,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_066.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3753",
+    "name": "I-94 @ Grass Lake RA 2",
+    "route": "I-94",
+    "jurisdiction": "WB",
+    "lat": 42.292856,
+    "lng": -84.214878,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_067.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3704",
+    "name": "I-94 @ Garvey",
+    "route": "I-94",
+    "jurisdiction": "EB",
+    "lat": 42.2914,
+    "lng": -84.0842,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_055.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3912",
+    "name": "I-94 @ Parker",
+    "route": "I-94",
+    "jurisdiction": "EB",
+    "lat": 42.2977,
+    "lng": -83.8905,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_048.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3913",
+    "name": "I-94 @ Zeeb",
+    "route": "I-94",
+    "jurisdiction": "EB",
+    "lat": 42.2911,
+    "lng": -83.8391,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_049.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4317",
+    "name": "I-94 @ Jackson",
+    "route": "I-94",
+    "jurisdiction": "WB",
+    "lat": 42.285,
+    "lng": -83.7875,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_050.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3700",
+    "name": "I-94 @ Ann Arbor Saline",
+    "route": "I-94",
+    "jurisdiction": "EB",
+    "lat": 42.2416,
+    "lng": -83.7586,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_051.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3701",
+    "name": "I-94 @ State",
+    "route": "I-94",
+    "jurisdiction": "EB",
+    "lat": 42.2376,
+    "lng": -83.7527,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_052.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3888",
+    "name": "I-96 @ M21",
+    "route": "I-96",
+    "jurisdiction": "EB",
+    "lat": 42.9632,
+    "lng": -85.58,
+    "image_url": "https://micamerasimages.net/thumbs/grand_cam_050.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3675",
+    "name": "US-131 @ I196",
+    "route": "US-131",
+    "jurisdiction": "",
+    "lat": 42.9721,
+    "lng": -85.6779,
+    "image_url": "https://micamerasimages.net/thumbs/grand_cam_052.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3703",
+    "name": "US-23 @ I94",
+    "route": "US-23",
+    "jurisdiction": "NB",
+    "lat": 42.2269,
+    "lng": -83.6848,
+    "image_url": "https://micamerasimages.net/thumbs/internet_cam_054.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3712",
+    "name": "US-23 @ M14 1",
+    "route": "US-23",
+    "jurisdiction": "NB",
+    "lat": 42.3214,
+    "lng": -83.7383,
+    "image_url": "https://micamerasimages.net/thumbs/stoc_cam_028.flv.jpg",
+    "video_url": ""
   }
 ]

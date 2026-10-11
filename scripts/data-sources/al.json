@@ -2403,7 +2403,7 @@
     "lat": 32.358456,
     "lng": -86.25292999999999,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1361/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/QWtsT1l3QUdseUV3/mnt-fastly/mgm-cam-004b.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/bENNMWtYREtiNUhj/mnt-fastly/mgm-cam-004b.stream/playlist.m3u8"
   },
   {
     "id": "1285",
@@ -3086,7 +3086,7 @@
     "lat": 34.63184,
     "lng": -86.88522999999999,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1929/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/U3dRVVlpTDVJRVMz/tuscumbia-fastly/hvl-cam-i565-1.1.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/hvl-cam-i565-1.1.stream/playlist.m3u8"
   },
   {
     "id": 1975,
@@ -3166,7 +3166,7 @@
     "lat": 34.70616,
     "lng": -86.67093,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1943/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/U3dRVVlpTDVJRVMz/tuscumbia-fastly/hvl-cam-i565-14.4.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/hvl-cam-i565-14.4.stream/playlist.m3u8"
   },
   {
     "id": "1944",
@@ -3826,7 +3826,7 @@
     "lat": 34.60977,
     "lng": -86.97716,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1756/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/U3dRVVlpTDVJRVMz/tuscumbia-fastly/hvl-cam-31-358.4.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/hvl-cam-31-358.4.stream/playlist.m3u8"
   },
   {
     "id": "1444",
@@ -7215,7 +7215,7 @@
     "lat": 33.38999,
     "lng": -86.79623,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1210/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/M2RZZnlNKzFNUU8y/bhm-fastly/bhm-cam-lorna-mun.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/a1dpQ3BEeW15ZE1l/bhm-fastly/bhm-cam-lorna-mun.stream/playlist.m3u8"
   },
   {
     "id": "1734",
@@ -7306,5 +7306,25 @@
     "lng": -87.81682599999999,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1848/snapshot.jpg",
     "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-171-53.7.stream/playlist.m3u8"
+  },
+  {
+    "id": "1306",
+    "name": "I-65 @ EXIT 176 (SR 143)",
+    "route": "I-65",
+    "jurisdiction": "Montgomery",
+    "lat": 32.416,
+    "lng": -86.354,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/1306/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/bENNMWtYREtiNUhj/mnt-fastly/mgm-cam-175a.stream/playlist.m3u8"
+  },
+  {
+    "id": "1958",
+    "name": "AL210 @ US231",
+    "route": "AL210",
+    "jurisdiction": "Houston",
+    "lat": 31.190842,
+    "lng": -85.40173,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/1958/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/bENNMWtYREtiNUhj/mnt-fastly/dth-cam-210-013a.stream/playlist.m3u8"
   }
 ]

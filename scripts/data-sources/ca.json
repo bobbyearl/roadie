@@ -1724,8 +1724,8 @@
     "name": "Mott Rd",
     "route": "I-5",
     "jurisdiction": "Siskiyou",
-    "lat": 41.2577,
-    "lng": -122.27109,
+    "lat": 41.257763,
+    "lng": -122.271057,
     "image_url": "https://cwwp2.dot.ca.gov/data/d2/cctv/image/mottrd/mottrd.jpg",
     "video_url": ""
   },
@@ -3257,7 +3257,7 @@
     "lat": 38.408888,
     "lng": -121.484446,
     "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy5atelkgrove/hwy5atelkgrove.jpg",
-    "video_url": "https://wzmedia.dot.ca.gov/D3/5_Elk_Grove_OC_SAC5_NB.stream/playlist.m3u8"
+    "video_url": "https://wzmedia.dot.ca.gov/D3/5_Elk_Grove_OC_SAC5_SB.stream/playlist.m3u8"
   },
   {
     "id": "d3_141",
@@ -31024,8 +31024,8 @@
     "name": "(C362) I-5 : SB at Tamarack Blvd",
     "route": "I-5",
     "jurisdiction": "San Diego",
-    "lat": 33.1521,
-    "lng": -117.33695,
+    "lat": 33.152021,
+    "lng": -117.336999,
     "image_url": "https://cwwp2.dot.ca.gov/data/d11/cctv/image/c362i5sbattamarackblvd/c362i5sbattamarackblvd.jpg",
     "video_url": ""
   },
@@ -31164,8 +31164,8 @@
     "name": "(C363) I-5 : NB at Tamarack",
     "route": "I-5",
     "jurisdiction": "San Diego",
-    "lat": 33.1521,
-    "lng": -117.33695,
+    "lat": 33.152596,
+    "lng": -117.335787,
     "image_url": "https://cwwp2.dot.ca.gov/data/d11/cctv/image/c363i5nbattamarack/c363i5nbattamarack.jpg",
     "video_url": ""
   },
@@ -31174,8 +31174,8 @@
     "name": "(C364) I-5 : NB at Tamarack (on ramp)",
     "route": "I-5",
     "jurisdiction": "San Diego",
-    "lat": 33.15201,
-    "lng": -117.33575,
+    "lat": 33.153073,
+    "lng": -117.336614,
     "image_url": "https://cwwp2.dot.ca.gov/data/d11/cctv/image/c364i5nbattamarackonramp/c364i5nbattamarackonramp.jpg",
     "video_url": ""
   },
@@ -31284,8 +31284,8 @@
     "name": "(C524) I-125: SB NO Jamacha Rd - T",
     "route": "SR-125",
     "jurisdiction": "San Diego",
-    "lat": 32.720737,
-    "lng": -117.01491,
+    "lat": 32.720273,
+    "lng": -117.014988,
     "image_url": "https://cwwp2.dot.ca.gov/data/d11/cctv/image/c524i125sbnojamachardt/c524i125sbnojamachardt.jpg",
     "video_url": ""
   },
@@ -31294,8 +31294,8 @@
     "name": "(C525) I-125: SB NO Jamacha Rd - B",
     "route": "SR-125",
     "jurisdiction": "San Diego",
-    "lat": 32.720737,
-    "lng": -117.01491,
+    "lat": 32.720273,
+    "lng": -117.014988,
     "image_url": "https://cwwp2.dot.ca.gov/data/d11/cctv/image/c525i125sbnojamachardb/c525i125sbnojamachardb.jpg",
     "video_url": ""
   },
@@ -32853,7 +32853,7 @@
     "id": "d12_206",
     "name": "I-5 : (206) Christianitos Road",
     "route": "I-5",
-    "jurisdiction": "San Diego",
+    "jurisdiction": "Orange",
     "lat": 33.39651,
     "lng": -117.59341,
     "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/i5206christianitosroad/i5206christianitosroad.jpg",

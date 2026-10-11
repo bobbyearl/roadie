@@ -2991,43 +2991,43 @@
   },
   {
     "id": "303",
-    "name": "Camera 303",
+    "name": "US 12/14 at W of Verona Rd (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/303",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1239",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0154/playlist.m3u8"
   },
   {
     "id": "304",
-    "name": "US 12/14 at W of SW Commuter Path (Flex)",
+    "name": "Camera 304",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1240",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0153/playlist.m3u8"
-  },
-  {
-    "id": "305",
-    "name": "Camera 305",
-    "route": "",
-    "jurisdiction": "",
-    "lat": 0.0,
-    "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/305",
+    "image_url": "https://511wi.gov/map/Cctv/304",
     "video_url": ""
   },
   {
-    "id": "306",
-    "name": "US 12/18 at W of John Nolan Dr (Flex)",
+    "id": "305",
+    "name": "US 12/14 at Whitney Way (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1242",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0171/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/1241",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0151/playlist.m3u8"
+  },
+  {
+    "id": "306",
+    "name": "Camera 306",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 0.0,
+    "lng": 0.0,
+    "image_url": "https://511wi.gov/map/Cctv/306",
+    "video_url": ""
   },
   {
     "id": "307",

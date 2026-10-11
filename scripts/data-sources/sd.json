@@ -1658,5 +1658,15 @@
     "lng": -98.02,
     "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMHE/5/latest.jpg",
     "video_url": ""
+  },
+  {
+    "id": "CSDMUR-1",
+    "name": "Murdo West - Camera Looking West",
+    "route": "I-90",
+    "jurisdiction": "",
+    "lat": 43.88,
+    "lng": -100.71,
+    "image_url": "https://sd.cdn.iteris-atis.com/camera_images/CSDMUR/1/latest.jpg",
+    "video_url": ""
   }
 ]
