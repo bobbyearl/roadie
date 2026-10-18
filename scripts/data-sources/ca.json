@@ -911,12 +911,12 @@
   },
   {
     "id": "d1_198",
-    "name": "US-101: Eureka / South Mall - Looking North",
+    "name": "US-101: Eureka / South Mall (N)",
     "route": "US-101",
     "jurisdiction": "Humboldt",
     "lat": 40.776414,
     "lng": -124.190356,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekasouthmalllookingn/us101eurekasouthmalllookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekasouthm/us101eurekasouthm.jpg",
     "video_url": ""
   },
   {
@@ -961,12 +961,12 @@
   },
   {
     "id": "d1_203",
-    "name": "US-101: Eureka / Papa & Barkley - Looking North",
+    "name": "US-101: Eureka / Papa & Barkley (N)",
     "route": "US-101",
     "jurisdiction": "Humboldt",
     "lat": 40.764405,
     "lng": -124.191024,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekapapabarkleylookingn/us101eurekapapabarkleylookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekapapabark/us101eurekapapabark.jpg",
     "video_url": ""
   },
   {
@@ -28074,8 +28074,8 @@
     "name": "159 - E/O Dakota Ave",
     "route": "SR-132",
     "jurisdiction": "Stanislaus",
-    "lat": 37.638234,
-    "lng": -121.067153,
+    "lat": 37.64501,
+    "lng": -121.0669,
     "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/159eodakotaave/159eodakotaave.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D10/STA_EB132_EO_Dakota.stream/playlist.m3u8"
   },
@@ -28094,8 +28094,8 @@
     "name": "161 - E/O Emerald Ave",
     "route": "SR-132",
     "jurisdiction": "Stanislaus",
-    "lat": 37.638625,
-    "lng": -121.020047,
+    "lat": 37.64472,
+    "lng": -121.01981,
     "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/161eoemeraldave/161eoemeraldave.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D10/STA_EB132_EO_Emerald.stream/playlist.m3u8"
   },
@@ -28104,8 +28104,8 @@
     "name": "162 - WB Dakota Ave",
     "route": "SR-132",
     "jurisdiction": "Stanislaus",
-    "lat": 37.638348,
-    "lng": -121.055016,
+    "lat": 37.64559,
+    "lng": -121.05546,
     "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/162wbdakotaave/162wbdakotaave.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D10/STA_WB132_Dakota.stream/playlist.m3u8"
   },
@@ -28114,8 +28114,8 @@
     "name": "163 - EB Dakota Ave",
     "route": "SR-132",
     "jurisdiction": "Stanislaus",
-    "lat": 37.63826,
-    "lng": -121.05503,
+    "lat": 37.64525,
+    "lng": -121.0553,
     "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/163ebdakotaave/163ebdakotaave.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D10/STA_EB132_Dakota.stream/playlist.m3u8"
   },
@@ -35928,5 +35928,75 @@
     "lng": -117.742001,
     "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr1829sbpchat7thave/sr1829sbpchat7thave.jpg",
     "video_url": ""
+  },
+  {
+    "id": "d1_286",
+    "name": "US-101: Jacobs/Airport",
+    "route": "US-101",
+    "jurisdiction": "Humboldt",
+    "lat": 40.805407,
+    "lng": -124.122543,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101jacobsair/us101jacobsair.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_792",
+    "name": "TV723 -- I-880 : AT ADELINE ST",
+    "route": "I-880",
+    "jurisdiction": "Alameda",
+    "lat": 37.80319,
+    "lng": -122.28831,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tv723i880atadelinest/tv723i880atadelinest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_793",
+    "name": "TVB20 -- I-880 : AT 66TH AV LOOP OR",
+    "route": "I-880",
+    "jurisdiction": "Alameda",
+    "lat": 37.75403,
+    "lng": -122.20738,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tvb20i880at66thavloopor/tvb20i880at66thavloopor.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_794",
+    "name": "TVA85 -- I-580 : AT JWO MACARTHUR BL",
+    "route": "I-580",
+    "jurisdiction": "Alameda",
+    "lat": 37.78414,
+    "lng": -122.18883,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tva85i580atjwomacarthurbl/tva85i580atjwomacarthurbl.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_795",
+    "name": "TV118 -- I-980 : AT 32ND ST",
+    "route": "I-980",
+    "jurisdiction": "Alameda",
+    "lat": 37.82128,
+    "lng": -122.26942,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tv118i980at32ndst/tv118i980at32ndst.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d8_1457",
+    "name": "SR-58 : (688) 2.5 Mi W/O SR-395",
+    "route": "SR-58",
+    "jurisdiction": "San Bernardino",
+    "lat": 35.001554,
+    "lng": -117.588092,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/sr5868825miwosr395/sr5868825miwosr395.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D8/LB-8_58_688.stream/playlist.m3u8"
+  },
+  {
+    "id": "d8_1458",
+    "name": "SR-58 : (690) 1 Mi E/O SR-395",
+    "route": "SR-58",
+    "jurisdiction": "San Bernardino",
+    "lat": 34.995825,
+    "lng": -117.525043,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/sr586901mieosr395/sr586901mieosr395.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D8/LB-8_58_690.stream/playlist.m3u8"
   }
 ]

@@ -1376,7 +1376,7 @@
     "jurisdiction": "NB",
     "lat": 45.89735,
     "lng": -84.74475,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/711.jpg",
+    "image_url": "https://micamerasimages.net/image-000705011-00-00.jpg",
     "video_url": ""
   },
   {
@@ -1386,7 +1386,7 @@
     "jurisdiction": "NB",
     "lat": 46.18625,
     "lng": -84.56087,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/709.jpg",
+    "image_url": "https://micamerasimages.net/image-000705008-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5676,7 +5676,7 @@
     "jurisdiction": "",
     "lat": 46.88494,
     "lng": -88.8637,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/712.jpg",
+    "image_url": "https://micamerasimages.net/image-000705007-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5686,17 +5686,17 @@
     "jurisdiction": "",
     "lat": 46.53887,
     "lng": -88.12978,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/708.jpg",
+    "image_url": "https://micamerasimages.net/image-000705012-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "700",
     "name": "M-28 @ Forest Lake Road",
     "route": "M-28",
-    "jurisdiction": "EB",
+    "jurisdiction": "",
     "lat": 46.432622,
     "lng": -86.837976,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/700.jpg",
+    "image_url": "https://micamerasimages.net/image-000705001-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5716,7 +5716,7 @@
     "jurisdiction": "WB",
     "lat": 46.48812,
     "lng": -87.23149,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/707.jpg",
+    "image_url": "https://micamerasimages.net/image-000705000-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5726,7 +5726,7 @@
     "jurisdiction": "WB",
     "lat": 46.34538,
     "lng": -86.03578,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/710.jpg",
+    "image_url": "https://micamerasimages.net/image-000705005-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5796,7 +5796,7 @@
     "jurisdiction": "",
     "lat": 46.27616,
     "lng": -87.41586,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/706.jpg",
+    "image_url": "https://micamerasimages.net/image-000705009-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6503,10 +6503,10 @@
     "id": "716",
     "name": "US-10 @ Stiles Road",
     "route": "US-10",
-    "jurisdiction": "WB",
+    "jurisdiction": "",
     "lat": 43.955583,
     "lng": -86.339472,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/716.jpg",
+    "image_url": "https://micamerasimages.net/image-000705015-00-06.jpg",
     "video_url": ""
   },
   {
@@ -6751,7 +6751,7 @@
   },
   {
     "id": "3983",
-    "name": "US-131 @ I94BL",
+    "name": "US-131 @ Stadium Dr",
     "route": "US-131",
     "jurisdiction": "NB",
     "lat": 42.26848,
@@ -6761,7 +6761,7 @@
   },
   {
     "id": "4356",
-    "name": "US-131 @ I94BL",
+    "name": "US-131 @ Stadium Dr",
     "route": "US-131",
     "jurisdiction": "SB",
     "lat": 42.26873,
@@ -7133,10 +7133,10 @@
     "id": "715",
     "name": "US-131 @ M-55 (Exit 180)",
     "route": "US-131",
-    "jurisdiction": "",
-    "lat": 44.251528,
-    "lng": -85.371583,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/715.jpg",
+    "jurisdiction": "NB",
+    "lat": 44.25244,
+    "lng": -85.36973,
+    "image_url": "https://micamerasimages.net/image-000705014-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7156,7 +7156,7 @@
     "jurisdiction": "WB",
     "lat": 45.9096,
     "lng": -86.48062,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/702.jpg",
+    "image_url": "https://micamerasimages.net/image-000705006-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7166,7 +7166,7 @@
     "jurisdiction": "WB",
     "lat": 46.16046,
     "lng": -88.87984,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/705.jpg",
+    "image_url": "https://micamerasimages.net/image-000705010-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7176,7 +7176,7 @@
     "jurisdiction": "EB",
     "lat": 46.10089,
     "lng": -85.6178,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/703.jpg",
+    "image_url": "https://micamerasimages.net/image-000705002-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7186,7 +7186,7 @@
     "jurisdiction": "EB",
     "lat": 46.00841,
     "lng": -85.00555,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/701.jpg",
+    "image_url": "https://micamerasimages.net/image-000705003-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7606,7 +7606,7 @@
     "jurisdiction": "",
     "lat": 44.58675,
     "lng": -86.098278,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/714.jpg",
+    "image_url": "https://micamerasimages.net/image-000705013-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7633,10 +7633,10 @@
     "id": "719",
     "name": "US-31 @ Burgess Road",
     "route": "US-31",
-    "jurisdiction": "",
+    "jurisdiction": "EB",
     "lat": 45.361167,
     "lng": -85.177278,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/719.jpg",
+    "image_url": "https://micamerasimages.net/image-000705018-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7986,7 +7986,7 @@
     "jurisdiction": "NB",
     "lat": 45.794878,
     "lng": -87.07607,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/754.jpg",
+    "image_url": "https://micamerasimages.net/image-000705004-00-00.jpg",
     "video_url": ""
   },
   {

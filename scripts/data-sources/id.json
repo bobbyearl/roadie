@@ -2961,12 +2961,12 @@
   },
   {
     "id": "562",
-    "name": "SH-44 State &amp; Horseshoe Bend Rd",
+    "name": "Camera 562",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6826,
     "lng": -116.314,
-    "image_url": "https://511.idaho.gov/map/Cctv/759",
+    "image_url": "https://511.idaho.gov/map/Cctv/562",
     "video_url": ""
   },
   {
@@ -2981,32 +2981,32 @@
   },
   {
     "id": "564",
-    "name": "Camera 564",
+    "name": "Franklin &amp; Linder",
     "route": "",
     "jurisdiction": "",
     "lat": 43.604553,
     "lng": -116.41344,
-    "image_url": "https://511.idaho.gov/map/Cctv/564",
+    "image_url": "https://511.idaho.gov/map/Cctv/761",
     "video_url": ""
   },
   {
     "id": "565",
-    "name": "University &amp; Joyce",
+    "name": "Camera 565",
     "route": "",
     "jurisdiction": "",
     "lat": 43.602757,
     "lng": -116.20448,
-    "image_url": "https://511.idaho.gov/map/Cctv/762",
+    "image_url": "https://511.idaho.gov/map/Cctv/565",
     "video_url": ""
   },
   {
     "id": "566",
-    "name": "Camera 566",
+    "name": "Fairview &amp; Records",
     "route": "",
     "jurisdiction": "",
     "lat": 43.61934,
     "lng": -116.34668,
-    "image_url": "https://511.idaho.gov/map/Cctv/566",
+    "image_url": "https://511.idaho.gov/map/Cctv/763",
     "video_url": ""
   },
   {
@@ -3031,22 +3031,22 @@
   },
   {
     "id": "569",
-    "name": "Camera 569",
+    "name": "Emerald &amp; Rifleman",
     "route": "",
     "jurisdiction": "",
     "lat": 43.611946,
     "lng": -116.280464,
-    "image_url": "https://511.idaho.gov/map/Cctv/569",
+    "image_url": "https://511.idaho.gov/map/Cctv/766",
     "video_url": ""
   },
   {
     "id": "570",
-    "name": "Emerald &amp; MapleGrove",
+    "name": "Camera 570",
     "route": "",
     "jurisdiction": "",
     "lat": 43.611515,
     "lng": -116.29388,
-    "image_url": "https://511.idaho.gov/map/Cctv/767",
+    "image_url": "https://511.idaho.gov/map/Cctv/570",
     "video_url": ""
   },
   {
