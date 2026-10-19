@@ -8088,5 +8088,65 @@
     "lng": -101.32542,
     "image_url": "https://www.dot.nd.gov/travel-info/cameras/US2RP144.98MinotOHEBPavement.jpg",
     "video_url": ""
+  },
+  {
+    "id": "32-0",
+    "name": "Oriska Rest Area - West WB (I 94 MP 304.7) - NDDOT",
+    "route": "",
+    "jurisdiction": "Jamestown/ValleyCity Area",
+    "lat": 46.9197,
+    "lng": -97.74516,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/I94RP304OriskaWBWest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "32-1",
+    "name": "Oriska Rest Area - West EB (I 94 MP 304.7) - NDDOT",
+    "route": "",
+    "jurisdiction": "Jamestown/ValleyCity Area",
+    "lat": 46.9197,
+    "lng": -97.74516,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/I94RP304OriskaEBWest.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "32-2",
+    "name": "Oriska Rest Area - East WB (I 94 MP 304.7) - NDDOT",
+    "route": "",
+    "jurisdiction": "Jamestown/ValleyCity Area",
+    "lat": 46.9197,
+    "lng": -97.74516,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/I94RP304OriskaWBEast.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "32-3",
+    "name": "Oriska Rest Area - East EB (I 94 MP 304.7) - NDDOT",
+    "route": "",
+    "jurisdiction": "Jamestown/ValleyCity Area",
+    "lat": 46.9197,
+    "lng": -97.74516,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/I94RP304OriskaEBEast.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "32-4",
+    "name": "Oriska Rest Area - North WB (I 94 MP 304.7) - NDDOT",
+    "route": "",
+    "jurisdiction": "Jamestown/ValleyCity Area",
+    "lat": 46.9197,
+    "lng": -97.74516,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/I94RP304OriskaWBNorth.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "32-5",
+    "name": "Oriska Rest Area - South EB (I 94 MP 304.7) - NDDOT",
+    "route": "",
+    "jurisdiction": "Jamestown/ValleyCity Area",
+    "lat": 46.9197,
+    "lng": -97.74516,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/I94RP304OriskaEBSouth.jpg",
+    "video_url": ""
   }
 ]

@@ -1290,7 +1290,7 @@
     "lat": 32.278,
     "lng": -86.347,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1296/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/OTFiMWtJbDJMV1lm/mnt-fastly/mgm-cam-164a.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/bENNMWtYREtiNUhj/mnt-fastly/mgm-cam-164a.stream/playlist.m3u8"
   },
   {
     "id": "1297",
@@ -4236,7 +4236,7 @@
     "lat": 33.21893,
     "lng": -87.53169,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1491/snapshot.jpg",
-    "video_url": "https://cdn3.wowza.com/5/YlRaRWsxYU1lTDdT/tuscaloosa-fastly/tus-cam-82-49.7.stream/playlist.m3u8"
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-49.7.stream/playlist.m3u8"
   },
   {
     "id": 1435,
@@ -5995,47 +5995,14 @@
     "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-215-4.7.stream/playlist.m3u8"
   },
   {
-    "id": 1588,
-    "location": {
-      "latitude": 33.1992,
-      "longitude": -87.55069,
-      "city": "Tuscaloosa",
-      "county": "Tuscaloosa",
-      "displayRouteDesignator": "AL 215/15th St",
-      "routeDesignator": "AL-215",
-      "routeDesignatorType": "StateHighway",
-      "stateRoadways": [
-        {
-          "name": "AL-215",
-          "type": "StateRoute",
-          "routeNumber": 215,
-          "specialType": "None"
-        }
-      ],
-      "displayCrossStreet": "10th Ave",
-      "crossStreet": "",
-      "crossStreetType": "Unknown",
-      "intersectingStateRoadways": [],
-      "direction": "South",
-      "linearReference": 5.2,
-      "nearestRoadwayPoints": [
-        {
-          "direction": "South",
-          "latitude": 33.19927,
-          "longitude": -87.55069
-        }
-      ]
-    },
-    "responsibleRegion": "WestCentral",
-    "playbackUrls": {
-      "hls": "https://cdn3.wowza.com/5/OFFTaHBTNlZ0K05H/tuscaloosa-fastly/tus-cam-215-5.2.stream/playlist.m3u8",
-      "dash": "https://cdn3.wowza.com/5/OFFTaHBTNlZ0K05H/tuscaloosa-fastly/tus-cam-215-5.2.stream/manifest.mpd"
-    },
-    "accessLevel": "Public",
-    "mapLayer": "Camera",
-    "permLink": "https://www.algotraffic.com?cameraId=1588",
-    "snapshotImageUrl": "https://api.algotraffic.com/v4/Cameras/1588/snapshot.jpg",
-    "mapImageUrl": "https://api.algotraffic.com/v4/Cameras/1588/map@1x.jpg"
+    "id": "1588",
+    "name": "AL 215/15th St @ 10th Ave",
+    "route": "AL 215/15th St",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.1992,
+    "lng": -87.55069,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/1588/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-215-5.2.stream/playlist.m3u8"
   },
   {
     "id": "1716",
@@ -7326,5 +7293,25 @@
     "lng": -85.40173,
     "image_url": "https://api.algotraffic.com/v4/Cameras/1958/snapshot.jpg",
     "video_url": "https://cdn3.wowza.com/5/bENNMWtYREtiNUhj/mnt-fastly/dth-cam-210-013a.stream/playlist.m3u8"
+  },
+  {
+    "id": "1449",
+    "name": "I-565 @ Greenbrier",
+    "route": "I-565",
+    "jurisdiction": "Madison",
+    "lat": 34.64281,
+    "lng": -86.843094,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/1449/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/hvl-cam-i565-3.5.stream/playlist.m3u8"
+  },
+  {
+    "id": "1945",
+    "name": "I-565 @ Triana Blvd. SW",
+    "route": "I-565",
+    "jurisdiction": "Madison",
+    "lat": 34.72556,
+    "lng": -86.60589,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/1945/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/hvl-cam-i565-18.3.stream/playlist.m3u8"
   }
 ]

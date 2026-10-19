@@ -896,7 +896,7 @@
     "jurisdiction": "IDOT D1 Camera",
     "lat": 41.71992,
     "lng": -87.62446,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-94_4171992_-8762446_2_NONE.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-94_4171992_-8762446_1_NONE.jpg",
     "video_url": ""
   },
   {
@@ -2344,8 +2344,8 @@
     "name": "Portable PTZ 2 (Cell)",
     "route": "",
     "jurisdiction": "Lake County",
-    "lat": 42.29560852050781,
-    "lng": -87.96018981933594,
+    "lat": 42.42351150512695,
+    "lng": -87.99298858642578,
     "image_url": "https://www.lakecountypassage.com/snapshots/Portable_PTZ_2_(Cell)_cctv_East_Leg.jpg",
     "video_url": ""
   },
@@ -4766,7 +4766,7 @@
     "jurisdiction": "IDOT D1 Camera",
     "lat": 41.71992,
     "lng": -87.62446,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-94_4171992_-8762446_4_NONE.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-94_4171992_-8762446_3_NONE.jpg",
     "video_url": ""
   },
   {
@@ -5506,7 +5506,7 @@
     "jurisdiction": "IDOT D1 Camera",
     "lat": 41.71992,
     "lng": -87.62446,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-94_4171992_-8762446_3_NONE.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-94_4171992_-8762446_2_NONE.jpg",
     "video_url": ""
   },
   {
@@ -9674,9 +9674,9 @@
     "name": "i/b and Ellis",
     "route": "",
     "jurisdiction": "IDOT D1 Camera",
-    "lat": 41.71992,
-    "lng": -87.62446,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-94_4171992_-8762446_1_NONE.jpg",
+    "lat": 41.71334720894958,
+    "lng": -87.59907274342518,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_WB_I-94_4171335_-8759907_1_NONE.jpg",
     "video_url": ""
   },
   {
@@ -16326,7 +16326,7 @@
     "jurisdiction": "IDOT D1 Camera",
     "lat": 41.6254167,
     "lng": -87.6777333,
-    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NEB_I-294_4162542_-8767773_1_NONE.jpg",
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NEB_I-294_4162542_-8767773_2_NONE.jpg",
     "video_url": ""
   },
   {
@@ -16597,6 +16597,2496 @@
     "lat": 41.70095825,
     "lng": -88.03519936,
     "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Will_EB_I-355_4170096_-8803520_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4022",
+    "name": "I-74 at University St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.706663,
+    "lng": -89.613397,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_I-74_4070666_-8961340_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4023",
+    "name": "I-74 at Dries Lane Tower",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.73239,
+    "lng": -89.620056,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_I-74_4073239_-8962006_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4024",
+    "name": "I-74 at IL 29 (Jefferson St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.695025,
+    "lng": -89.587259,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_I-74_4069503_-8958726_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4025",
+    "name": "I-74 at Sterling Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.738055,
+    "lng": -89.631963,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_WB_I-74_4073806_-8963196_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4026",
+    "name": "US 150 (War Dr.) at Sheridan Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.73233,
+    "lng": -89.603,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_WB_US-150_4073233_-8960300_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4027",
+    "name": "US 150 (War Dr.) at University St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.73261,
+    "lng": -89.61285,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_US-150_4073261_-8961285_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4028",
+    "name": "US 150 (War Dr.) at Glen/Sterling",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.747064,
+    "lng": -89.631175,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_US-150_4074706_-8963117_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4029",
+    "name": "US 150 (War Dr.) at Big Hollow Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.771099,
+    "lng": -89.656645,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_US-150_4077110_-8965664_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4030",
+    "name": "IL 40 (Knoxville Ave.) at Glen Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.74679,
+    "lng": -89.59332,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-40_4074679_-8959332_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4031",
+    "name": "IL 40 (Knoxville Ave.) at Lake St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.73953,
+    "lng": -89.5934,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-40_4073953_-8959340_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4032",
+    "name": "IL 40 (Knoxville Ave.) at Forrest Hill Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.72501,
+    "lng": -89.59362,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_IL-40_4072501_-8959362_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4033",
+    "name": "IL 40 (Knoxville Ave.) at McClure Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.71775,
+    "lng": -89.5938,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-40_4071775_-8959380_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4034",
+    "name": "IL 40 (Knoxville Ave.) at Nebraska Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.71051,
+    "lng": -89.59398,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-40_4071051_-8959398_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4035",
+    "name": "IL 116 (Main St.) at Mariners Way",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.695,
+    "lng": -89.54105,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NEB_IL-116_4069500_-8954105_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4036",
+    "name": "IL 8 (Washington St.) at Rosedale/Putnam",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.670158,
+    "lng": -89.556597,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SWB_IL-8_4067016_-8955660_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4037",
+    "name": "IL 8 (Camp St.) at Washington St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.66627,
+    "lng": -89.56658,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SWB_IL-8_4066627_-8956658_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4038",
+    "name": "IL 8 (Washington St.) at Illini/Farmdale",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.675792,
+    "lng": -89.535405,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_WB_IL-8_4067579_-8953540_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4039",
+    "name": "US 150 (War Dr.) at IL 91/Summershade Circle",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.776251,
+    "lng": -89.673989,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_WB_US-150_4077625_-8967399_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4040",
+    "name": "I-74 WB at Murray Baker Bridge East End",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.68696,
+    "lng": -89.58302,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NB_I-74_4068696_-8958302_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4041",
+    "name": "IL 41 (Monroe St.) at Latimer St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.805265,
+    "lng": -90.401496,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_NB_IL-41_4080527_-9040150_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4042",
+    "name": "I-74 WB at Murray Baker Bridge West End",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.68969,
+    "lng": -89.58408,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_I-74_4068969_-8958408_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4043",
+    "name": "I-74 Murray Baker Bridge at Peoria Riverplex",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.691235,
+    "lng": -89.583132,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NEB_Water_4069124_-8958313_1_W.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4044",
+    "name": "US 24 (Washington St.) at I-74 WB Ramp/Eaton St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.692722,
+    "lng": -89.584894,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_I-74_4069272_-8958489_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4045",
+    "name": "I-74 Murray Baker Bridge at East Peoria Riverfront Park",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.685067,
+    "lng": -89.583272,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NB_Riverside_4068507_-8958327_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4046",
+    "name": "I-74 East Peoria Flyover Ramp",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.679802,
+    "lng": -89.580505,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SB_I-74_4067980_-8958050_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4048",
+    "name": "Washington St. at State St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.68629,
+    "lng": -89.59596,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_Washington_4068629_-8959596_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4049",
+    "name": "US 24 (Washington St.) at MacArthur Highway",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.68099,
+    "lng": -89.60427,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_Illinois-River-Road-Natl-Scenic_4068099_-8960427_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4050",
+    "name": "US 24 (Washington St.) at Adams/Krause",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.66688,
+    "lng": -89.62687,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_Adams_4066688_-8962687_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4051",
+    "name": "IL 40 (Knoxville Ave.) at Sheridan Rd./Giles Ln.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.768594,
+    "lng": -89.602022,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-40_4076859_-8960202_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4052",
+    "name": "IL 40 (Knoxville Ave.) at Pioneer Pkwy.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.783291,
+    "lng": -89.602486,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-40_4078329_-8960249_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4053",
+    "name": "IL 40 (Knoxville Ave.) at Lindbergh Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.79962,
+    "lng": -89.60923,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_IL-40_4079962_-8960923_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4054",
+    "name": "US 67 (Lafayette St.) at US 136 (Calhoun St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.461085,
+    "lng": -90.671698,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_NB_US-67_4046108_-9067170_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4055",
+    "name": "IL 40 (Knoxville) at Cedar Hills Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.842509,
+    "lng": -89.622538,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_IL-40_4084251_-8962254_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4056",
+    "name": "IL 40 (Knoxville) at Junction City/Donovan Park",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.756839,
+    "lng": -89.593208,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_IL-40_4075684_-8959321_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4057",
+    "name": "IL 29 (Main St.) at I-474 Ramps",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.628559,
+    "lng": -89.614255,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SEB_US-24_4062856_-8961425_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4058",
+    "name": "IL 9 (Main St.) at IL 78 (Locust St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.558329,
+    "lng": -90.035121,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Fulton_NB_IL-78_4055833_-9003512_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4059",
+    "name": "University St. at Aldi's/Walmart",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.729032,
+    "lng": -89.612732,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_University_4072903_-8961273_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4060",
+    "name": "US 34 at Seminary St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.984096,
+    "lng": -90.363559,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_WB_IL-110_4098410_-9036356_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4061",
+    "name": "IL 40 (Knoxville Ave.) at IL 6",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.80585,
+    "lng": -89.61298,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-40_4080585_-8961298_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4062",
+    "name": "I-474 at Shade Lohmann Tazewell County",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.632287,
+    "lng": -89.619161,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_I-474_4063229_-8961916_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4063",
+    "name": "Wesley Rd. under I-474 Shade Lohmann Bridge",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.63281,
+    "lng": -89.620096,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SEB_US-24_4063281_-8962010_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4065",
+    "name": "I-474 WB at Shade Lohmann Bridge River",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.63509,
+    "lng": -89.622243,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_US-24_4063509_-8962224_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4066",
+    "name": "I-474 WB at Shade Lohmann Bridge West",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.635891,
+    "lng": -89.623161,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_I-474_4063589_-8962316_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4068",
+    "name": "US 24 at College/Village Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.71516,
+    "lng": -89.50834,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_US-24_4071516_-8950834_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4069",
+    "name": "IL 29 at Wesley Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.658156,
+    "lng": -89.593921,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SWB_US-24_4065816_-8959392_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-3082",
+    "name": "IL 40 & IL 92",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 41.56219568369457,
+    "lng": -89.68746855203226,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_3_Bureau_WB_IL-92_4156220_-8968747_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4070",
+    "name": "IL 29 at Highland/Rusche",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.646979,
+    "lng": -89.597957,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SWB_IL-29_4064698_-8959796_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4071",
+    "name": "IL 29 at Cedar Street Bridge",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.664414,
+    "lng": -89.583962,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_WB_IL-29_4066441_-8958396_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4072",
+    "name": "IL 29 at IL 98",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.604194,
+    "lng": -89.637015,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SB_IL-29_4060419_-8963701_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4073",
+    "name": "IL 29 at Sheridan Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.582184,
+    "lng": -89.641288,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SB_IL-29_4058218_-8964129_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4074",
+    "name": "IL 29 (Fifth St.) at IL 9 (Ann Eliza St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.570098,
+    "lng": -89.644628,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_IL-29_4057010_-8964463_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4076",
+    "name": "I-474 EB at Shade Lohmann Bridge River",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.634984,
+    "lng": -89.622594,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_US-24_4063498_-8962259_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4077",
+    "name": "I-474 EB at Shade Lohmann Bridge West",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.635315,
+    "lng": -89.623021,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_US-24_4063532_-8962302_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4078",
+    "name": "I-74 at East of Pinecrest Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.648638,
+    "lng": -89.553989,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SEB_I-74_4064864_-8955399_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4079",
+    "name": "I-74 at Muller Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.625831,
+    "lng": -89.498502,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_I-74_4062583_-8949850_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4081",
+    "name": "IL 29 at IL 6 Spur",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.822261,
+    "lng": -89.564218,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-29_4082226_-8956422_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4082",
+    "name": "US 150 (Main St.) at Academy St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.94752,
+    "lng": -90.375881,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_WB_US-150_4094752_-9037588_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4084",
+    "name": "US 150 (Henderson St.) at Main St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.94751,
+    "lng": -90.38336,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_EB_US-150_4094751_-9038336_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4085",
+    "name": "US 150 (Henderson St.) at Fremont St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.962243,
+    "lng": -90.383081,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_EB_Fremont_4096224_-9038308_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4086",
+    "name": "US 150 (Henderson St.) at Carl Sandburg Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.973748,
+    "lng": -90.382877,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_NB_US-150_4097375_-9038288_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4087",
+    "name": "Camp St. at Clock Tower Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.674227,
+    "lng": -89.58264,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SWB_Clock-Tower_4067423_-8958264_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4088",
+    "name": "East Peoria Roundabout",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.672611,
+    "lng": -89.586371,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SB_Clock-Tower_4067261_-8958637_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4089",
+    "name": "Washington St. at Spinder Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.668862,
+    "lng": -89.583754,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_Washington_4066886_-8958375_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4090",
+    "name": "IL 116 at IL 97",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.705906,
+    "lng": -90.157587,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Fulton_NB_IL-97_4070591_-9015759_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4092",
+    "name": "US 24 at Pfieffer Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.639177,
+    "lng": -89.652067,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_US-24_4063918_-8965207_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4093",
+    "name": "IL 40 (Washington St.) at River Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.68111,
+    "lng": -89.590183,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SEB_IL-40_4068111_-8959018_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4094",
+    "name": "IL 29 at Fischer Rd./Lockview St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.634906,
+    "lng": -89.609321,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NEB_US-24_4063491_-8960932_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4095",
+    "name": "IL 29 at N. Main St./ Wesley Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.625843,
+    "lng": -89.618922,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SWB_IL-29_4062584_-8961892_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4096",
+    "name": "Oquawka Bridge Rest Area Near",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.894258,
+    "lng": -90.94937,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Henderson_NB_IL-164_4089426_-9094937_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4097",
+    "name": "Oquawka Bridge Rest Area Far",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.893957,
+    "lng": -90.949034,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Henderson_NB_IL-164_4089396_-9094903_1_S.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4100",
+    "name": "University St. at Glen Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.746958,
+    "lng": -89.612504,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_University_4074696_-8961250_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4102",
+    "name": "University St. at Pioneer Parkway",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.783398,
+    "lng": -89.62145,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_Pioneer_4078340_-8962145_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4103",
+    "name": "IL 8 (McClugage Rd.) at Freedom Parkway/Centennial Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.706513,
+    "lng": -89.46107,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_US-24-Business-Route_4070651_-8946107_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4104",
+    "name": "I-155 at IL 98 (Birchwood St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.608862,
+    "lng": -89.477688,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_IL-121_4060886_-8947769_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4105",
+    "name": "I-74 at Morton Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.621315,
+    "lng": -89.464356,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NB_Morton_4062132_-8946436_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4106",
+    "name": "IL 116 at Woodland Knolls/Ten Mile Creek",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.764984,
+    "lng": -89.472256,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Woodford_NEB_IL-116_4076498_-8947226_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4107",
+    "name": "I-74 at Heinz Lane",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.756576,
+    "lng": -89.708803,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_I-74_4075658_-8970880_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4108",
+    "name": "IL 9 at Pekin Bridge (Peoria County)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.574632,
+    "lng": -89.65671,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_IL-9_4057463_-8965671_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4109",
+    "name": "US 24 at IL 9 Orchard Mines",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.589554,
+    "lng": -89.678038,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NEB_US-24_4058955_-8967804_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4110",
+    "name": "US 24 (McKinley St.) at Washington St./Adams St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.653538,
+    "lng": -89.648714,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NEB_US-24_4065354_-8964871_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4111",
+    "name": "Farmington Rd. at Sterling Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.703916,
+    "lng": -89.63267,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_Sterling_4070392_-8963267_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4112",
+    "name": "IL 8 (Washington St.) at Campus St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.68508,
+    "lng": -89.508495,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NEB_IL-8_4068508_-8950849_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4113",
+    "name": "IL 8 (Washington St.) at School St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.694974,
+    "lng": -89.474088,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_IL-8_4069497_-8947409_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4114",
+    "name": "Business 24 (Peoria St.) at IL 8 (McClugage Rd.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.703129,
+    "lng": -89.456638,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SWB_Washington_4070313_-8945664_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4116",
+    "name": "IL 29 (Second St.) at Koch St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.553135,
+    "lng": -89.663195,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SWB_IL-29_4055313_-8966319_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4117",
+    "name": "Court St. at Parkway Dr./Sunset Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.558835,
+    "lng": -89.616987,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SB_Parkway_4055884_-8961699_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4118",
+    "name": "Court St. at Valle Vista Blvd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.55111,
+    "lng": -89.608476,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NB_IL-9_4055111_-8960848_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4120",
+    "name": "Court St. at Fourteenth St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.563136,
+    "lng": -89.631242,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NB_14th_4056314_-8963124_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4122",
+    "name": "US 24 at Grange Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.715841,
+    "lng": -89.483859,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_US-24_4071584_-8948386_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4123",
+    "name": "Business 24 (Peoria St.) at Cummins Ln.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.704953,
+    "lng": -89.44561,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_Washington_4070495_-8944561_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4124",
+    "name": "IL 8 (Washington St.) at Summit Ln.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.693015,
+    "lng": -89.483617,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_WB_IL-8_4069302_-8948362_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4125",
+    "name": "I-74 at Washington Blacktop DMS",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.622215,
+    "lng": -89.402956,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_WB_I-74_4062221_-8940296_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4126",
+    "name": "I-74 at Goodfield (Exit 112)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.622514,
+    "lng": -89.274799,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Woodford_WB_I-74_4062251_-8927480_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4128",
+    "name": "I-74 at WB Mackinaw Dells Rest Area",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.610941,
+    "lng": -89.232904,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Woodford_WB_I-74_4061094_-8923290_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4129",
+    "name": "US 24 (Boyd Parkway) at N. Main St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.727587,
+    "lng": -89.407504,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_US-24_4072759_-8940750_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4130",
+    "name": "US 24 (Boyd Parkway) at Cummins Ln.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.719844,
+    "lng": -89.445862,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_WB_US-24_4071984_-8944586_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4131",
+    "name": "IL 6 at Allen Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.80126,
+    "lng": -89.631167,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_IL-6_4080126_-8963117_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4132",
+    "name": "University St. at Columbia Terrace",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.703304,
+    "lng": -89.613154,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_University_4070330_-8961315_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4133",
+    "name": "University St. at Forrest Hill Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.725182,
+    "lng": -89.612782,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_University_4072518_-8961278_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4134",
+    "name": "University St. at Florence Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.73056,
+    "lng": -89.612686,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_University_4073056_-8961269_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4135",
+    "name": "IL 8 (McClugage Rd.) at US 24 (Boyd Parkway)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.715921,
+    "lng": -89.471883,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_US-24_4071592_-8947188_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4136",
+    "name": "I-74 at Nebraska Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.710425,
+    "lng": -89.621102,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_I-74_4071043_-8962110_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4137",
+    "name": "IL 40 (Knoxville Ave.) at Northmoor Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.761634,
+    "lng": -89.596832,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_IL-40_4076163_-8959683_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4138",
+    "name": "IL 40 (Knoxville Ave.) at Mossville/Wilhelm",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.819052,
+    "lng": -89.613249,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-40_4081905_-8961325_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4139",
+    "name": "US 150 (War Dr.) at Wisconsin/Boulevard",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.73202,
+    "lng": -89.583972,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_US-150_4073202_-8958397_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4140",
+    "name": "US 150 (Main St.) at Chambers Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.947439,
+    "lng": -90.362366,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_EB_US-150_4094744_-9036237_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4141",
+    "name": "US 150 (Main St.) at Allens Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.947446,
+    "lng": -90.358418,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_WB_US-150_4094745_-9035842_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4142",
+    "name": "I-74 at I-155",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.621104,
+    "lng": -89.484559,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_I-74_4062110_-8948456_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4143",
+    "name": "I-74 at Gale Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.720946,
+    "lng": -89.62156,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_I-74_4072095_-8962156_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4144",
+    "name": "Willow Knolls at Allen Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.776304,
+    "lng": -89.631153,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_Allen_4077630_-8963115_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4145",
+    "name": "US 150 (War Dr.) at Koerner/Trigger",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.78006,
+    "lng": -89.689076,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_US-150_4078006_-8968908_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4146",
+    "name": "I-474 at IL 116 (Airport Rd.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.672684,
+    "lng": -89.669549,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_I-474_4067268_-8966955_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4147",
+    "name": "IL 116 (Airport Rd.) at I-474 Ramps/Dirksen Parkway",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.671432,
+    "lng": -89.671812,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NEB_Airport_4067143_-8967181_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4148",
+    "name": "I-74 at Main St. (Exit 44)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.947273,
+    "lng": -90.33394,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_SB_I-74_4094727_-9033394_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4149",
+    "name": "I-74 at US 34",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.98357,
+    "lng": -90.336034,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_NB_I-74_4098357_-9033603_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4151",
+    "name": "US 150 (Henderson St.) at Lake Story Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.9839,
+    "lng": -90.3828,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_WB_Lake-Storey_4098390_-9038280_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4152",
+    "name": "US 34 at US 150 (Henderson St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.97857,
+    "lng": -90.383329,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_NEB_IL-110_4097857_-9038333_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4153",
+    "name": "US 34 at IL 41 (Main St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.948017,
+    "lng": -90.409593,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_NB_US-34_4094802_-9040959_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4154",
+    "name": "US 34 at 11th St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.924374,
+    "lng": -90.630866,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Warren_EB_IL-110_4092437_-9063087_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4155",
+    "name": "US 34 at 6th St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.924984,
+    "lng": -90.640547,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Warren_EB_US-34_4092498_-9064055_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4156",
+    "name": "US 34/67 at US 67/Main St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.925427,
+    "lng": -90.647905,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Warren_NB_Main_4092543_-9064790_1_W.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4159",
+    "name": "US 67 at Main St. Good Hope",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.557775,
+    "lng": -90.673639,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_NB_IL-110_4055778_-9067364_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4160",
+    "name": "US 67 at IL 9",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.550493,
+    "lng": -90.673662,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_NB_US-67_4055049_-9067366_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4161",
+    "name": "US 67 (Lafayette St.) at University St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.47321,
+    "lng": -90.671421,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_NB_US-67_4047321_-9067142_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4162",
+    "name": "US 136 (Jackson St.) at Johnson St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.458799,
+    "lng": -90.674766,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_EB_US-136_4045880_-9067477_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4163",
+    "name": "US 136 (Jackson St.) at Ward St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.458914,
+    "lng": -90.685204,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_WB_US-136_4045891_-9068520_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4164",
+    "name": "US 136 (Jackson St.) at Campbell St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.458714,
+    "lng": -90.668721,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_SB_US-136_4045871_-9066872_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4165",
+    "name": "US 136 (Jackson St.) at Prairie St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.458585,
+    "lng": -90.652461,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_WB_US-67_4045859_-9065246_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4166",
+    "name": "US 136 (Jackson St.) at Wheeler St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.458609,
+    "lng": -90.64408,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_WB_US-67_4045861_-9064408_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4167",
+    "name": "US 136 (Jackson St.) at Bower Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.458598,
+    "lng": -90.638003,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_EB_US-67_4045860_-9063800_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4168",
+    "name": "US 150 (Henderson St.) at Home Blvd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.971093,
+    "lng": -90.383052,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_SB_US-150_4097109_-9038305_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4169",
+    "name": "Business 24 (Peoria St.) at Wilmor St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.702978,
+    "lng": -89.421575,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_US-24-Business-Route_4070298_-8942157_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4170",
+    "name": "Wilmor St. at Jefferson St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.705046,
+    "lng": -89.421586,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SEB_Wilmor_4070505_-8942159_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4172",
+    "name": "Sterling Ave. at Scenic Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.74379,
+    "lng": -89.631705,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_Sterling_4074379_-8963170_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4173",
+    "name": "US 24 at Cameron Lane",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.58142,
+    "lng": -89.693901,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_US-24_4058142_-8969390_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4174",
+    "name": "US 24 (Main St.) at IL 97/IL 100/Ave. E",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.393143,
+    "lng": -90.155166,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Fulton_EB_US-24_4039314_-9015517_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4175",
+    "name": "IL 40 (Wm. Kumpf Blvd.) at Adams",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.688562,
+    "lng": -89.594698,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_IL-40_4068856_-8959470_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4176",
+    "name": "IL 40 (Wm. Kumpf Blvd.) at Romeo B Garrett/Monroe",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.693303,
+    "lng": -89.595673,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-40_4069330_-8959567_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4177",
+    "name": "IL 29 (Jefferson) at Abington",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.70715,
+    "lng": -89.567915,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_IL-29_4070715_-8956791_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4178",
+    "name": "US 150 (Main St.) at Seminary St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.947453,
+    "lng": -90.364654,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_EB_US-150_4094745_-9036465_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4179",
+    "name": "Main St. at Washington St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.690867,
+    "lng": -89.58856,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_Washington_4069087_-8958856_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4181",
+    "name": "Fayette St. at Perry Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.697318,
+    "lng": -89.591146,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_Fayette_4069732_-8959115_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4182",
+    "name": "Forrest Hill Ave. at Sterling Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.725373,
+    "lng": -89.632052,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_Sterling_4072537_-8963205_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4183",
+    "name": "Forrest Hill Ave. at Gale Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.72531,
+    "lng": -89.624395,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_WB_Forrest-Hill_4072531_-8962439_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4184",
+    "name": "I-74 at Westbound Spoon River Rest Area",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.880157,
+    "lng": -90.089887,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_NWB_I-74_4088016_-9008989_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4185",
+    "name": "I-74 at Eastbound Spoon River Rest Area",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.878457,
+    "lng": -90.091996,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_SEB_I-74_4087846_-9009200_1_W.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4186",
+    "name": "I-74 at Murray Baker Bridge (Peoria County)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.69286,
+    "lng": -89.585804,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_I-74_4069286_-8958580_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4187",
+    "name": "I-74 at Murray Baker Bridge (Tazewell County)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.681769,
+    "lng": -89.580898,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NB_I-74_4068177_-8958090_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4188",
+    "name": "I-39 at IL 116 (Minonk)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.852957,
+    "lng": -89.035878,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Woodford_NB_US-51_4085296_-8903588_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4189",
+    "name": "IL 29 (Jefferson) at Fayette Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.694398,
+    "lng": -89.588073,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_Jefferson_4069440_-8958807_1_NE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4190",
+    "name": "IL 29 (Main) at Lawnridge",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.641917,
+    "lng": -89.604039,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NEB_IL-29_4064192_-8960404_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4191",
+    "name": "IL 29 (Main) at Thorncrest",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.642752,
+    "lng": -89.603474,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NEB_IL-29_4064275_-8960347_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4192",
+    "name": "I-39 at US 24 (El Paso)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.736314,
+    "lng": -89.034824,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Woodford_SB_I-39_4073631_-8903482_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4193",
+    "name": "I-74 EB Murray Baker Bridge West End",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.689666,
+    "lng": -89.584324,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_I-74_4068967_-8958432_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4194",
+    "name": "I-74 EB Murray Baker Bridge East End",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.686917,
+    "lng": -89.583259,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SB_I-74_4068692_-8958326_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4195",
+    "name": "I-74 at Murray Baker Bridge North River",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.687879,
+    "lng": -89.583517,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NB_I-74_4068788_-8958352_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4196",
+    "name": "I-74 at Murray Baker Bridge South River",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.687855,
+    "lng": -89.583651,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SB_I-74_4068786_-8958365_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4197",
+    "name": "I-74 at IL 116 (Main St.) DMS",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.671559,
+    "lng": -89.574273,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_I-74_4067156_-8957427_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4198",
+    "name": "I-74 at Washington St. DMS",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.655564,
+    "lng": -89.562666,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_I-74_4065556_-8956267_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4199",
+    "name": "I-74 at Glen Oak DMS",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.699712,
+    "lng": -89.59306,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_I-74_4069971_-8959306_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4201",
+    "name": "US 150 (War Memorial Dr.) at Brandywine/Meadowbrook",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.735326,
+    "lng": -89.619536,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_US-150_4073533_-8961954_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4202",
+    "name": "I-74 at I-474/IL 6",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.741286,
+    "lng": -89.667607,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_I-74_4074129_-8966761_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4203",
+    "name": "Camp St. at River Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.681941,
+    "lng": -89.5886,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_Camp_4068194_-8958860_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4204",
+    "name": "Spalding Ave. at Glendale Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.699056,
+    "lng": -89.590976,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_Glendale_4069906_-8959098_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4206",
+    "name": "IL 116 (Main St.) at Highview Rd./Access Rd. 4",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.682855,
+    "lng": -89.553731,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NEB_US-150_4068286_-8955373_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4207",
+    "name": "IL 29 (Fourth St.) at Truitt Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.922399,
+    "lng": -89.486183,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_IL-29_4092240_-8948618_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4208",
+    "name": "IL 29 (Fourth St.) at Walnut St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.916833,
+    "lng": -89.488532,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_IL-29_4091683_-8948853_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4209",
+    "name": "Il 29 (Fourth St.) at Cloverdale Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.90762,
+    "lng": -89.492535,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_IL-29_4090762_-8949253_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4210",
+    "name": "Il 9 (Fifth St.) at Chestnut St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.557106,
+    "lng": -90.027378,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Fulton_NB_IL-9_4055711_-9002738_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4211",
+    "name": "Business 24 (Peoria St.) at Eagle Ave./Beck's",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.703462,
+    "lng": -89.428166,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_WB_US-24-Business-Route_4070346_-8942817_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4212",
+    "name": "US 34 at Carman Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.815419,
+    "lng": -91.056878,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Henderson_WB_US-34_4081542_-9105688_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4213",
+    "name": "US 150 (War Dr.) at Grand Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.731611,
+    "lng": -89.569985,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_US-150_4073161_-8956998_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4215",
+    "name": "IL 17 (Fifth St.) at IL 26 (Prairie St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 41.024472,
+    "lng": -89.408266,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Marshall_EB_IL-17_4102447_-8940827_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4216",
+    "name": "IL 9 Pekin Bridge River",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.57347,
+    "lng": -89.653746,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_IL-9_4057347_-8965375_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4217",
+    "name": "IL 9 Pekin Bridge East Abutment",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.572743,
+    "lng": -89.652318,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_IL-9_4057274_-8965232_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4218",
+    "name": "US 24 (Center St.) at IL 117 (Main St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.721393,
+    "lng": -89.272855,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Woodford_EB_US-24_4072139_-8927285_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4220",
+    "name": "I-74 at Kickapoo/Edwards Rd. (Exit 82)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.774614,
+    "lng": -89.752872,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_I-74_4077461_-8975287_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4221",
+    "name": "I-74 at Bell School Rd. (Exit 71)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.851351,
+    "lng": -89.927604,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_WB_I-74_4085135_-8992760_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4222",
+    "name": "I-74 at IL 97/US 150 (Exit 54)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.911582,
+    "lng": -90.248014,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_NWB_I-74_4091158_-9024801_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4226",
+    "name": "US 136 (W. Jackson St.) at Wigwam Hollow Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.459032,
+    "lng": -90.695019,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_WB_US-136_4045903_-9069502_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4227",
+    "name": "Western Ave. at Adams St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.669414,
+    "lng": -89.623228,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NEB_Adams_4066941_-8962323_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4228",
+    "name": "Western Ave. at Jefferson St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.670854,
+    "lng": -89.623232,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_Jefferson_4067085_-8962323_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4229",
+    "name": "IL 8 (Western Ave.) at IL 116 (Lincoln Ave.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.68135,
+    "lng": -89.623044,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_Western_4068135_-8962304_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4230",
+    "name": "IL 8 (Western Ave.) at IL 116 (Howett St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.682272,
+    "lng": -89.623018,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_IL-8_4068227_-8962302_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4232",
+    "name": "US 150 (Main St.) at Grand Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.94741,
+    "lng": -90.354054,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Knox_EB_US-150_4094741_-9035405_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4234",
+    "name": "US 67 (Lafayette St.) at Pierce St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.46496,
+    "lng": -90.671605,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_NB_US-67_4046496_-9067160_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4236",
+    "name": "US 67 at IL 336",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.501635,
+    "lng": -90.674701,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_McDonough_SB_US-67_4050164_-9067470_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4237",
+    "name": "IL 17 (Third St.) at IL 94 (College Ave.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 41.199925,
+    "lng": -90.749285,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Mercer_EB_IL-17_4119993_-9074928_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4238",
+    "name": "IL 17 (Third St.) at IL 94 (Fifteenth Ave.)/Walmart Entrance",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 41.19959,
+    "lng": -90.732592,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Mercer_SB_IL-94_4119959_-9073259_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4239",
+    "name": "US 24 (McKinley Ave.) at McClure Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.6495301,
+    "lng": -89.6496321,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_US-24_4064953_-8964963_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4240",
+    "name": "IL 8 (Western Ave.) at Moss Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.689839,
+    "lng": -89.622921,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_IL-8_4068984_-8962292_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4241",
+    "name": "IL 29 (Adams St.) at Lorentz Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.724793,
+    "lng": -89.553826,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_IL-29_4072479_-8955383_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4242",
+    "name": "IL 29 (Galena Rd.) at Gardner Ln.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.758521,
+    "lng": -89.565043,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_IL-29_4075852_-8956504_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4243",
+    "name": "IL 40 (Knoxville Ave.) at Hickory Grove Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.82778,
+    "lng": -89.614886,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_IL-40_4082778_-8961489_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4244",
+    "name": "IL 40 (Knoxville Ave.) at Woodside Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.834384,
+    "lng": -89.61798,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_IL-40_4083438_-8961798_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4245",
+    "name": "IL 116 (Harmon Hwy. and Plank Rd.) at Airport Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.681089,
+    "lng": -89.658316,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_WB_IL-116_4068109_-8965832_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4246",
+    "name": "IL 116 (Plank Rd.) at Maxwell Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.688675,
+    "lng": -89.693495,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_Maxwell_4068868_-8969349_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4247",
+    "name": "IL 29 at Creve Coeur Hill",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.655021,
+    "lng": -89.597979,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SEB_IL-29_4065502_-8959798_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4248",
+    "name": "IL 8 (Washington St.) at US 150 (Meadows Ave.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.668733,
+    "lng": -89.562022,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_WB_IL-8_4066873_-8956202_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4249",
+    "name": "IL 117 (Main St.) at Lake St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.703016,
+    "lng": -89.272669,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Woodford_SB_IL-117_4070302_-8927267_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4250",
+    "name": "IL 29 (Jefferson St.) at Spring St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.703928,
+    "lng": -89.578145,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_Monroe_4070393_-8957814_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4251",
+    "name": "IL 98 (Edgewater Dr.) at Parkway Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.604484,
+    "lng": -89.61464,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_IL-98_4060448_-8961464_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4253",
+    "name": "IL 9 (VFW Rd.) at 14th St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.531022,
+    "lng": -89.630935,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_VFW_4053102_-8963093_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4254",
+    "name": "US 150 (War Memorial Dr.) at Scenic Dr./Brandywine Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.743838,
+    "lng": -89.628865,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SEB_US-150_4074384_-8962886_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4255",
+    "name": "IL 17 at Lacon Bridge",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 41.025398,
+    "lng": -89.415131,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Marshall_WB_IL-17_4102540_-8941513_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4256",
+    "name": "Old Galena Rd. at Engine Dr./Feleccia Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.83487,
+    "lng": -89.563146,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_Old-Galena_4083487_-8956315_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4257",
+    "name": "US 24 at IL 116 SB Ramp",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.713704,
+    "lng": -89.531736,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SEB_US-150_4071370_-8953174_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4258",
+    "name": "US 150 (War Memorial Dr.) at Monroe Ave./Central Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.731954,
+    "lng": -89.579056,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_WB_US-150_4073195_-8957906_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4259",
+    "name": "Cummings Ln. at Freedom Pkwy.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.7104,
+    "lng": -89.445622,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_WB_Freedom_4071040_-8944562_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4260",
+    "name": "Glen Ave. at Dawn Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.747101,
+    "lng": -89.62207,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_Glen_4074710_-8962207_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4261",
+    "name": "Glen Ave. at Glen Park Place",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.747073,
+    "lng": -89.618402,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_WB_Glen_4074707_-8961840_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4263",
+    "name": "IL 91 at American Prairie",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.782674,
+    "lng": -89.669657,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_IL-91_4078267_-8966966_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4264",
+    "name": "Court St. at Stadium Dr./Shore Dr.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.560431,
+    "lng": -89.624262,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_WB_IL-9_4056043_-8962426_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4265",
+    "name": "Sheridan Rd. at Nebraska Ave.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.710472,
+    "lng": -89.603529,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_Sheridan_4071047_-8960353_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4266",
+    "name": "IL 98 (Birchwood) & I-155 NB Ramps",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.604946052600354,
+    "lng": -89.47568161617555,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_Birchwood_4060495_-8947568_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4268",
+    "name": "IL 29 (Adams) & US 150 (McClugage Bridge)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.722765010237445,
+    "lng": -89.55539081646027,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NEB_IL-29_4072277_-8955539_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5023",
+    "name": "Bus 55 (Veteran's Parkway) at Morrissey",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.459583,
+    "lng": -88.970328,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_McLean_EB_I-55-Business-Loop_4045958_-8897033_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5027",
+    "name": "Bus 55 (Veteran's Parkway) at Empire",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.488356,
+    "lng": -88.953103,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_McLean_SB_I-55-Business-Loop_4048836_-8895310_1_S.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-5072",
+    "name": "US 150 (Clinton) at Oakland",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.473958,
+    "lng": -88.984278,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_5_McLean_EB_US-150_4047396_-8898428_1_W.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-EDB5A",
+    "name": "Edens Expressway and Foster ramp",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.97637513475494,
+    "lng": -87.7462105483526,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NEB_I-94_4197638_-8774621_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-FS01A",
+    "name": "100th St. HD",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.7122,
+    "lng": -87.65275,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SWB_I-57_4171220_-8765275_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-FS02",
+    "name": "104th. St HD",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.70545,
+    "lng": -87.65315,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-57_4170545_-8765315_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-FS03A",
+    "name": "114th St. HD",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.68673,
+    "lng": -87.66215,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SB_I-57_4168673_-8766215_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-FS09",
+    "name": "Kedzie",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.61284,
+    "lng": -87.69457,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SWB_I-57_4161284_-8769457_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-IECC7",
+    "name": "I-94 at Lawrence Ave",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.9675,
+    "lng": -87.7471,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NB_I-94_4196750_-8774710_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-ISCC10",
+    "name": "I-90 at Addison St",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.9436,
+    "lng": -87.7172,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_SEB_I-90_4194360_-8771720_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-OOCC10",
+    "name": "Ohio Feeder at Kingsbury St",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.8926,
+    "lng": -87.6427,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_WB_Ohio-Feeder_4189260_-8764270_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4001",
+    "name": "I-74 at I-474 East Tower",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.63436,
+    "lng": -89.5192,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_I-74_4063436_-8951920_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4002",
+    "name": "I-74 at Fondulac Bridge",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.668776,
+    "lng": -89.572542,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NWB_I-74_4066878_-8957254_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4003",
+    "name": "IL 116 (Main St.) at Washington St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.666488,
+    "lng": -89.580041,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SWB_US-150_4066649_-8958004_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4004",
+    "name": "I-74 at Riverfront Drive",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.67822,
+    "lng": -89.58802,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SEB_Washington_4067822_-8958802_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4005",
+    "name": "IL 8 (Washington St.) at Fire Station 3",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.673854,
+    "lng": -89.542421,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_IL-8_4067385_-8954242_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4006",
+    "name": "IL 116 (Main St.) at IL 8 (Camp St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.668284,
+    "lng": -89.577088,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NEB_US-24_4066828_-8957709_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4007",
+    "name": "IL 116 (Main St.) at Blackjack Blvd",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.677538,
+    "lng": -89.561403,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_NEB_US-24_4067754_-8956140_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4008",
+    "name": "IL 116 (Main St.) at US 24",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.71508,
+    "lng": -89.52929,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_EB_US-24_4071508_-8952929_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4009",
+    "name": "IL 9 at Pekin Bridge (Tazewell County)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.572263,
+    "lng": -89.651828,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SEB_IL-9_4057226_-8965183_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-LAKECOUNTY-31853",
+    "name": "IL 22 at IL 59 (SE) (Wireless)",
+    "route": "",
+    "jurisdiction": "Lake County",
+    "lat": 42.190311431884766,
+    "lng": -88.13529205322266,
+    "image_url": "https://www.lakecountypassage.com/snapshots/IL_22_@_IL_59_(SE)_(Wireless)_cctv_East_Leg.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4010",
+    "name": "I-474 at US 24 (Adams St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.656503,
+    "lng": -89.643098,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_I-474_4065650_-8964310_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD1-OMCC11",
+    "name": "I-90 at Grand Ave",
+    "route": "",
+    "jurisdiction": "IDOT D1 Camera",
+    "lat": 41.8914,
+    "lng": -87.651,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD1_1_Cook_NWB_I-90_4189140_-8765100_1_NONE.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4012",
+    "name": "IL 29 (Jefferson St.) at IL 40 (Kumpf Blvd.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.689695,
+    "lng": -89.595841,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_IL-40_4068970_-8959584_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4013",
+    "name": "IL 40 (Perry St.) at Main St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.695342,
+    "lng": -89.594482,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NEB_IL-40_4069534_-8959448_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4014",
+    "name": "IL 40 (Glendale Ave.) at Main St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.696754,
+    "lng": -89.59473,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SWB_IL-40_4069675_-8959473_1_S.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4015",
+    "name": "Main St. at University St.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.699934,
+    "lng": -89.613144,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NB_University_4069993_-8961314_1_N.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4016",
+    "name": "US 150 (War Dr.) at IL 6",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.775342,
+    "lng": -89.67007,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_WB_US-150_4077534_-8967007_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4017",
+    "name": "US 150 (War Dr.) at Allen Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.759968,
+    "lng": -89.638653,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_NWB_US-150_4075997_-8963865_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4018",
+    "name": "US 150 (War Dr.) at IL 40 (Knoxville Ave.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.731937,
+    "lng": -89.593722,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_US-150_4073194_-8959372_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4019",
+    "name": "US 150 (War Memorial Dr.) at Prospect Rd.",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.73183,
+    "lng": -89.574433,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_US-150_4073183_-8957443_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4020",
+    "name": "IL 29 (Margaret St.) at IL 9/29 (Second St.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.571881,
+    "lng": -89.651016,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Tazewell_SEB_IL-9_4057188_-8965102_1_E.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "IL-IDOTD4-4021",
+    "name": "I-74 at IL 40 (Knoxville Ave.)",
+    "route": "",
+    "jurisdiction": "IDOT D4",
+    "lat": 40.704894,
+    "lng": -89.594532,
+    "image_url": "https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_EB_I-74_4070489_-8959453_1_E.jpg",
     "video_url": ""
   }
 ]

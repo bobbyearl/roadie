@@ -701,11 +701,11 @@
   },
   {
     "id": "78",
-    "name": "Goldstream Road / Old Steese Highway (#73)",
+    "name": "Ballaine Road / Red Fox Drive (#71)",
     "route": "",
     "jurisdiction": "",
-    "lat": 64.943933,
-    "lng": -147.653931,
+    "lat": 64.900824,
+    "lng": -147.830188,
     "image_url": "https://511.alaska.gov/map/Cctv/382",
     "video_url": ""
   },
@@ -721,11 +721,11 @@
   },
   {
     "id": "80",
-    "name": "Ballaine Road / Red Fox Drive (#71)",
+    "name": "Goldstream Road / Old Steese Highway (#73)",
     "route": "",
     "jurisdiction": "",
-    "lat": 64.900824,
-    "lng": -147.830188,
+    "lat": 64.943933,
+    "lng": -147.653931,
     "image_url": "https://511.alaska.gov/map/Cctv/390",
     "video_url": ""
   },
@@ -767,16 +767,6 @@
     "lat": 64.884396,
     "lng": -147.369992,
     "image_url": "https://511.alaska.gov/map/Cctv/408",
-    "video_url": ""
-  },
-  {
-    "id": "85",
-    "name": "Seward Highway MP 113.5 (#903)",
-    "route": "",
-    "jurisdiction": "",
-    "lat": 61.030516,
-    "lng": -149.763016,
-    "image_url": "https://511.alaska.gov/map/Cctv/410",
     "video_url": ""
   },
   {
