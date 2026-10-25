@@ -50108,5 +50108,35 @@
     "lng": -80.500489,
     "image_url": "https://fl511.com/map/Cctv/6051",
     "video_url": ""
+  },
+  {
+    "id": "6056",
+    "name": "Camera 6056",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 30.166597,
+    "lng": -81.553584,
+    "image_url": "https://fl511.com/map/Cctv/6056",
+    "video_url": ""
+  },
+  {
+    "id": "6057",
+    "name": "Camera 6057",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 26.491833,
+    "lng": -80.659833,
+    "image_url": "https://fl511.com/map/Cctv/6057",
+    "video_url": ""
+  },
+  {
+    "id": "6058",
+    "name": "Camera 6058",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 26.783429,
+    "lng": -80.112792,
+    "image_url": "https://fl511.com/map/Cctv/6058",
+    "video_url": ""
   }
 ]

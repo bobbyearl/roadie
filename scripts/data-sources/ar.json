@@ -5538,5 +5538,45 @@
     "lng": -92.200424,
     "image_url": "https://layers.idrivearkansas.com/cameras/265.jpg",
     "video_url": ""
+  },
+  {
+    "id": "877",
+    "name": "I-40 EB @ Turner Ave (mm 237)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.009131,
+    "lng": -90.844767,
+    "image_url": "https://layers.idrivearkansas.com/cameras/877.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "878",
+    "name": "I-40 WB @ Turner Ave (mm 237)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.008888,
+    "lng": -90.845924,
+    "image_url": "https://layers.idrivearkansas.com/cameras/878.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "880",
+    "name": "I-40 WB @ Crow Creek (mm 243)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.034989,
+    "lng": -90.748366,
+    "image_url": "https://layers.idrivearkansas.com/cameras/880.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "881",
+    "name": "I-40 WB @ Cottonwood Corner (mm 250)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.086642,
+    "lng": -90.643761,
+    "image_url": "https://layers.idrivearkansas.com/cameras/881.jpg",
+    "video_url": ""
   }
 ]

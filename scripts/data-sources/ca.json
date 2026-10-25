@@ -6,7 +6,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.42001,
     "lng": -123.807828,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20atsr1lookingeast/sr20atsr1lookingeast.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20atsr1lookingeastc020/sr20atsr1lookingeastc020.jpg",
     "video_url": ""
   },
   {
@@ -16,7 +16,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.405805,
     "lng": -123.369057,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofus101lookingeast/sr20westofus101lookingeast.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofus101lookingeastc007/sr20westofus101lookingeastc007.jpg",
     "video_url": ""
   },
   {
@@ -26,7 +26,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.405805,
     "lng": -123.369057,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofus101lookingwest/sr20westofus101lookingwest.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofus101lookingwestc007/sr20westofus101lookingwestc007.jpg",
     "video_url": ""
   },
   {
@@ -36,7 +36,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.237775,
     "lng": -123.167075,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20eastofus101lookingeast/sr20eastofus101lookingeast.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20eastofus101lookingeastc006/sr20eastofus101lookingeastc006.jpg",
     "video_url": ""
   },
   {
@@ -46,7 +46,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.237775,
     "lng": -123.167075,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20eastofus101lookingwest/sr20eastofus101lookingwest.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20eastofus101lookingwestc006/sr20eastofus101lookingwestc006.jpg",
     "video_url": ""
   },
   {
@@ -56,7 +56,7 @@
     "jurisdiction": "Lake",
     "lat": 39.16721,
     "lng": -122.929786,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofsr29lookingeast/sr20westofsr29lookingeast.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofsr29lookingeastc009/sr20westofsr29lookingeastc009.jpg",
     "video_url": ""
   },
   {
@@ -66,7 +66,7 @@
     "jurisdiction": "Lake",
     "lat": 39.16721,
     "lng": -122.929786,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofsr29lookingwest/sr20westofsr29lookingwest.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofsr29lookingwestc009/sr20westofsr29lookingwestc009.jpg",
     "video_url": ""
   },
   {
@@ -76,7 +76,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.250328,
     "lng": -123.211273,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr20lookingnorth/us101northofsr20lookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr20lookingnorthc001/us101northofsr20lookingnorthc001.jpg",
     "video_url": ""
   },
   {
@@ -86,7 +86,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.250328,
     "lng": -123.211273,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr20lookingsouth/us101northofsr20lookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr20lookingsouthc001/us101northofsr20lookingsouthc001.jpg",
     "video_url": ""
   },
   {
@@ -96,7 +96,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.939334,
     "lng": -123.776828,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101sofsr271lookingsouth/us101sofsr271lookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101sofsr271lookingsouthc030/us101sofsr271lookingsouthc030.jpg",
     "video_url": ""
   },
   {
@@ -106,7 +106,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.525027,
     "lng": -124.149945,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr36lookingnorth/us101southofsr36lookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr36lookingnorthc013/us101southofsr36lookingnorthc013.jpg",
     "video_url": ""
   },
   {
@@ -116,7 +116,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.525027,
     "lng": -124.149945,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr36lookingsouth/us101southofsr36lookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr36lookingsouthc013/us101southofsr36lookingsouthc013.jpg",
     "video_url": ""
   },
   {
@@ -126,7 +126,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.562896,
     "lng": -124.148136,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr36lookingnorth/us101northofsr36lookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr36lookingnorthc003/us101northofsr36lookingnorthc003.jpg",
     "video_url": ""
   },
   {
@@ -136,7 +136,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.562896,
     "lng": -124.148136,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr36lookingsouth/us101northofsr36lookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr36lookingsouthc003/us101northofsr36lookingsouthc003.jpg",
     "video_url": ""
   },
   {
@@ -146,7 +146,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.744515,
     "lng": -124.19934,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekasprucepointlookingnorth/us101eurekasprucepointlookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekasprucepointlookingnorthc023/us101eurekasprucepointlookingnorthc023.jpg",
     "video_url": ""
   },
   {
@@ -156,7 +156,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.744515,
     "lng": -124.19934,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekasprucepointlookingsouth/us101eurekasprucepointlookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekasprucepointlookingsouthc023/us101eurekasprucepointlookingsouthc023.jpg",
     "video_url": ""
   },
   {
@@ -166,7 +166,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.803788,
     "lng": -124.153431,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka5thrstreetlookingnorth/us101eureka5thrstreetlookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka5thrstreetlookingnorthc034/us101eureka5thrstreetlookingnorthc034.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_5th_r_320x240.stream/playlist.m3u8"
   },
   {
@@ -176,7 +176,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.888777,
     "lng": -124.079328,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr299lookingnorth/us101southofsr299lookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr299lookingnorthc004/us101southofsr299lookingnorthc004.jpg",
     "video_url": ""
   },
   {
@@ -186,7 +186,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.888777,
     "lng": -124.079328,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr299lookingsouth/us101southofsr299lookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr299lookingsouthc004/us101southofsr299lookingsouthc004.jpg",
     "video_url": ""
   },
   {
@@ -196,7 +196,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.912635,
     "lng": -124.091282,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr299lookingnorth/us101northofsr299lookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr299lookingnorthc005/us101northofsr299lookingnorthc005.jpg",
     "video_url": ""
   },
   {
@@ -206,7 +206,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.912635,
     "lng": -124.091282,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr299lookingsouth/us101northofsr299lookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr299lookingsouthc005/us101northofsr299lookingsouthc005.jpg",
     "video_url": ""
   },
   {
@@ -216,7 +216,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.705526,
     "lng": -124.126148,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofcushingcreeklookingnorth/us101southofcushingcreeklookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofcushingcreeklookingnorthc018/us101southofcushingcreeklookingnorthc018.jpg",
     "video_url": ""
   },
   {
@@ -226,7 +226,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.705526,
     "lng": -124.126148,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofcushingcreeklookingsouth/us101southofcushingcreeklookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofcushingcreeklookingsouthc018/us101southofcushingcreeklookingsouthc018.jpg",
     "video_url": ""
   },
   {
@@ -236,7 +236,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.71999,
     "lng": -124.13787,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofcushingcreeklookingnorth/us101northofcushingcreeklookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofcushingcreeklookingnorthc017/us101northofcushingcreeklookingnorthc017.jpg",
     "video_url": ""
   },
   {
@@ -246,7 +246,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.71999,
     "lng": -124.13787,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofcushingcreeklookingsouth/us101northofcushingcreeklookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofcushingcreeklookingsouthc017/us101northofcushingcreeklookingsouthc017.jpg",
     "video_url": ""
   },
   {
@@ -256,7 +256,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.779372,
     "lng": -124.179785,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofus199lookingnorth/us101southofus199lookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofus199lookingnorthc014/us101southofus199lookingnorthc014.jpg",
     "video_url": ""
   },
   {
@@ -266,7 +266,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.779372,
     "lng": -124.179785,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofus199lookingsouth/us101southofus199lookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofus199lookingsouthc014/us101southofus199lookingsouthc014.jpg",
     "video_url": ""
   },
   {
@@ -276,7 +276,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.899905,
     "lng": -124.136779,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr197lookingnorth/us101northofsr197lookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr197lookingnorthc015/us101northofsr197lookingnorthc015.jpg",
     "video_url": ""
   },
   {
@@ -286,7 +286,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.899905,
     "lng": -124.136779,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr197lookingsouth/us101northofsr197lookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northofsr197lookingsouthc015/us101northofsr197lookingsouthc015.jpg",
     "video_url": ""
   },
   {
@@ -296,7 +296,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.994023,
     "lng": -123.720224,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us199southoforegonstatelinelookingeast/us199southoforegonstatelinelookingeast.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us199southoforegonstatelinelookingeastc016/us199southoforegonstatelinelookingeastc016.jpg",
     "video_url": ""
   },
   {
@@ -306,7 +306,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.994023,
     "lng": -123.720224,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us199southoforegonstatelinelookingwest/us199southoforegonstatelinelookingwest.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us199southoforegonstatelinelookingwestc016/us199southoforegonstatelinelookingwestc016.jpg",
     "video_url": ""
   },
   {
@@ -316,7 +316,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.896949,
     "lng": -123.768674,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299berrysummitlookingsouth/sr299berrysummitlookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299berrysummitlookingsouthc035/sr299berrysummitlookingsouthc035.jpg",
     "video_url": ""
   },
   {
@@ -326,7 +326,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.793965,
     "lng": -124.177156,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka14thlookingnorth/us101eureka14thlookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka14thlookingnorthc039/us101eureka14thlookingnorthc039.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_14th_320x240.stream/playlist.m3u8"
   },
   {
@@ -336,7 +336,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.901985,
     "lng": -123.78073,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299berrysummitvistapoint/sr299berrysummitvistapoint.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299berrysummitvistapointeast/sr299berrysummitvistapointeast.jpg",
     "video_url": ""
   },
   {
@@ -346,7 +346,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.901985,
     "lng": -123.78073,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299berrysummitvistapointlookingwest/sr299berrysummitvistapointlookingwest.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299berrysummitvistapointlookingwestc040/sr299berrysummitvistapointlookingwestc040.jpg",
     "video_url": ""
   },
   {
@@ -356,7 +356,7 @@
     "jurisdiction": "Lake",
     "lat": 39.012763,
     "lng": -122.631352,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofsr53lookingeast/sr20westofsr53lookingeast.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofsr53lookingeastc010/sr20westofsr53lookingeastc010.jpg",
     "video_url": ""
   },
   {
@@ -366,7 +366,7 @@
     "jurisdiction": "Lake",
     "lat": 39.012763,
     "lng": -122.631352,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofsr53lookingwest/sr20westofsr53lookingwest.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20westofsr53lookingwestc010/sr20westofsr53lookingwestc010.jpg",
     "video_url": ""
   },
   {
@@ -376,7 +376,7 @@
     "jurisdiction": "Lake",
     "lat": 39.012492,
     "lng": -122.604237,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20eastofsr53lookingeast/sr20eastofsr53lookingeast.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20eastofsr53lookingeastc011/sr20eastofsr53lookingeastc011.jpg",
     "video_url": ""
   },
   {
@@ -386,7 +386,7 @@
     "jurisdiction": "Lake",
     "lat": 39.012492,
     "lng": -122.604237,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20eastofsr53lookingwest/sr20eastofsr53lookingwest.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20eastofsr53lookingwestc011/sr20eastofsr53lookingwestc011.jpg",
     "video_url": ""
   },
   {
@@ -396,7 +396,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.172369,
     "lng": -123.212718,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101ukiahstatestreetlookingnorth/us101ukiahstatestreetlookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101ukiahstatestreetlookingnorthc026/us101ukiahstatestreetlookingnorthc026.jpg",
     "video_url": ""
   },
   {
@@ -406,7 +406,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.172369,
     "lng": -123.212718,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101ukiahstatestreetlookingsouth/us101ukiahstatestreetlookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101ukiahstatestreetlookingsouthc026/us101ukiahstatestreetlookingsouthc026.jpg",
     "video_url": ""
   },
   {
@@ -416,7 +416,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.225104,
     "lng": -123.207218,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr20lookingnorth/us101southofsr20lookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr20lookingnorthc002/us101southofsr20lookingnorthc002.jpg",
     "video_url": ""
   },
   {
@@ -426,7 +426,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.225104,
     "lng": -123.207218,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr20lookingsouth/us101southofsr20lookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southofsr20lookingsouthc002/us101southofsr20lookingsouthc002.jpg",
     "video_url": ""
   },
   {
@@ -436,7 +436,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.328729,
     "lng": -123.302068,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southridgewoodgradelookingnorth/us101southridgewoodgradelookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southridgewoodgradelookingnorthc027/us101southridgewoodgradelookingnorthc027.jpg",
     "video_url": ""
   },
   {
@@ -446,7 +446,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.328729,
     "lng": -123.302068,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southridgewoodgradelookingsouth/us101southridgewoodgradelookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101southridgewoodgradelookingsouthc027/us101southridgewoodgradelookingsouthc027.jpg",
     "video_url": ""
   },
   {
@@ -456,7 +456,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.336792,
     "lng": -123.308727,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northridgewoodgradelookingnorth/us101northridgewoodgradelookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northridgewoodgradelookingnorthc028/us101northridgewoodgradelookingnorthc028.jpg",
     "video_url": ""
   },
   {
@@ -466,7 +466,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.336792,
     "lng": -123.308727,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northridgewoodgradelookingsouth/us101northridgewoodgradelookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northridgewoodgradelookingsouthc028/us101northridgewoodgradelookingsouthc028.jpg",
     "video_url": ""
   },
   {
@@ -476,7 +476,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.804827,
     "lng": -124.153807,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thandrststreetlookingnorth/us101eureka4thandrststreetlookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thandrststreetlookingnorthc038/us101eureka4thandrststreetlookingnorthc038.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_4th_r_320x240.stream/playlist.m3u8"
   },
   {
@@ -486,7 +486,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.804636,
     "lng": -124.153495,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thandrststreetlookingwest/us101eureka4thandrststreetlookingwest.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thandrststreetlookingwestc038/us101eureka4thandrststreetlookingwestc038.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_4th_r2_320x240.stream/playlist.m3u8"
   },
   {
@@ -496,7 +496,7 @@
     "jurisdiction": "Mendocino",
     "lat": 38.934446,
     "lng": -123.709449,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1gaskersloughlookingnorth/sr1gaskersloughlookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1gaskersloughlookingnorthcxxx/sr1gaskersloughlookingnorthcxxx.jpg",
     "video_url": ""
   },
   {
@@ -506,7 +506,7 @@
     "jurisdiction": "Mendocino",
     "lat": 38.934446,
     "lng": -123.709449,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1gaskersloughnbpaddle/sr1gaskersloughnbpaddle.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1gaskersloughnbpaddlecxxx/sr1gaskersloughnbpaddlecxxx.jpg",
     "video_url": ""
   },
   {
@@ -516,7 +516,7 @@
     "jurisdiction": "Lake",
     "lat": 39.00995,
     "lng": -122.605983,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20justeastofsr53lookingeast/sr20justeastofsr53lookingeast.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20justeastofsr53lookingeastcxxx/sr20justeastofsr53lookingeastcxxx.jpg",
     "video_url": ""
   },
   {
@@ -526,7 +526,7 @@
     "jurisdiction": "Lake",
     "lat": 39.00995,
     "lng": -122.605983,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20justeastofsr53looking/sr20justeastofsr53looking.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20justeastofsr53lookingwest/sr20justeastofsr53lookingwest.jpg",
     "video_url": ""
   },
   {
@@ -536,7 +536,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.375615,
     "lng": -123.325258,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101sr20redwoodhighwaylookingnorth/us101sr20redwoodhighwaylookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101sr20redwoodhighwaylookingnorthc019/us101sr20redwoodhighwaylookingnorthc019.jpg",
     "video_url": ""
   },
   {
@@ -546,7 +546,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.375615,
     "lng": -123.325258,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101sr20redwoodhighwaylookingsouth/us101sr20redwoodhighwaylookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101sr20redwoodhighwaylookingsouthc019/us101sr20redwoodhighwaylookingsouthc019.jpg",
     "video_url": ""
   },
   {
@@ -556,7 +556,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.434596,
     "lng": -123.357386,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northwillitsbypasslookingnorth/us101northwillitsbypasslookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northwillitsbypasslookingnorthc008/us101northwillitsbypasslookingnorthc008.jpg",
     "video_url": ""
   },
   {
@@ -566,7 +566,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.434596,
     "lng": -123.357386,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northwillitsbypasslookingsouth/us101northwillitsbypasslookingsouth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101northwillitsbypasslookingsouthc008/us101northwillitsbypasslookingsouthc008.jpg",
     "video_url": ""
   },
   {
@@ -576,7 +576,7 @@
     "jurisdiction": "Lake",
     "lat": 38.752297,
     "lng": -122.615394,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr2929175jctmiddletownn/sr2929175jctmiddletownn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr2929175jctmiddletownnorth/sr2929175jctmiddletownnorth.jpg",
     "video_url": ""
   },
   {
@@ -586,7 +586,7 @@
     "jurisdiction": "Lake",
     "lat": 38.752297,
     "lng": -122.615394,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr2929175jctmiddletowns/sr2929175jctmiddletowns.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr2929175jctmiddletownsouth/sr2929175jctmiddletownsouth.jpg",
     "video_url": ""
   },
   {
@@ -596,7 +596,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.626788,
     "lng": -124.112482,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101lastchancerela/us101lastchancerela.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101lastchancerelay360/us101lastchancerelay360.jpg",
     "video_url": ""
   },
   {
@@ -606,7 +606,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.626788,
     "lng": -124.112482,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101lastchancerelayn/us101lastchancerelayn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101lastchancerelaynorth/us101lastchancerelaynorth.jpg",
     "video_url": ""
   },
   {
@@ -616,7 +616,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.86528,
     "lng": -124.088418,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr2558465h/sr2558465h.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr2558465hstse/sr2558465hstse.jpg",
     "video_url": ""
   },
   {
@@ -626,7 +626,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.803139,
     "lng": -124.1642,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thhlookingnorth/us101eureka4thhlookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thhlookingnorthcxxx/us101eureka4thhlookingnorthcxxx.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_4th_h_320x240.stream/playlist.m3u8"
   },
   {
@@ -636,7 +636,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.423726,
     "lng": -123.80771,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1oceanviews/sr1oceanviews.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1oceanviewsouth/sr1oceanviewsouth.jpg",
     "video_url": ""
   },
   {
@@ -646,7 +646,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.404025,
     "lng": -123.351431,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20southstwil/sr20southstwil.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20southstwillits/sr20southstwillits.jpg",
     "video_url": ""
   },
   {
@@ -656,7 +656,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.445414,
     "lng": -123.806057,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1laureln/sr1laureln.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1laurelnorth/sr1laurelnorth.jpg",
     "video_url": ""
   },
   {
@@ -666,7 +666,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.444133,
     "lng": -123.806131,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1redwoodn/sr1redwoodn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1redwoodnorth/sr1redwoodnorth.jpg",
     "video_url": ""
   },
   {
@@ -676,7 +676,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.441786,
     "lng": -123.806177,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1oaks/sr1oaks.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1oaksouth/sr1oaksouth.jpg",
     "video_url": ""
   },
   {
@@ -686,7 +686,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.420005,
     "lng": -123.807838,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr120jctn/sr120jctn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr120jctnorth/sr120jctnorth.jpg",
     "video_url": ""
   },
   {
@@ -696,7 +696,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.755345,
     "lng": -124.195567,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn1015thllookingn/dn1015thllookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn1015thllookingnorth/dn1015thllookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -706,7 +706,7 @@
     "jurisdiction": "Lake",
     "lat": 38.980094,
     "lng": -122.612649,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/lak53sof20jctdome/lak53sof20jctdome.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/lak53sof20jctdomesign/lak53sof20jctdomesign.jpg",
     "video_url": ""
   },
   {
@@ -716,7 +716,7 @@
     "jurisdiction": "Lake",
     "lat": 38.980094,
     "lng": -122.612649,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/lak53sof20jctdomes/lak53sof20jctdomes.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/lak53sof20jctdomesouth/lak53sof20jctdomesouth.jpg",
     "video_url": ""
   },
   {
@@ -726,7 +726,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.967121,
     "lng": -123.747655,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us199colliertun/us199colliertun.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us199colliertunneln/us199colliertunneln.jpg",
     "video_url": ""
   },
   {
@@ -736,7 +736,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.803139,
     "lng": -124.1642,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thhlookings/us101eureka4thhlookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thhlookingsouth/us101eureka4thhlookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -746,7 +746,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.803798,
     "lng": -124.149208,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka5thvlookings/us101eureka5thvlookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka5thvlookingsouth/us101eureka5thvlookingsouth.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_5th_v_320x240.stream/playlist.m3u8"
   },
   {
@@ -756,7 +756,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.80461,
     "lng": -124.14943,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thvlookingn/us101eureka4thvlookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thvlookingnorth/us101eureka4thvlookingnorth.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_4th_v_320x240.stream/playlist.m3u8"
   },
   {
@@ -766,7 +766,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.791652,
     "lng": -124.178121,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekawabashlookings/us101eurekawabashlookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekawabashlookingsouth/us101eurekawabashlookingsouth.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_wabash_320x240.stream/playlist.m3u8"
   },
   {
@@ -776,7 +776,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.789141,
     "lng": -124.179581,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekahawthornlookings/us101eurekahawthornlookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekahawthornlookingsouth/us101eurekahawthornlookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -786,7 +786,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.784419,
     "lng": -124.182463,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekavigolookings/us101eurekavigolookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekavigolookingsouth/us101eurekavigolookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -796,7 +796,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.784356,
     "lng": -124.182875,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekavigolookingn/us101eurekavigolookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekavigolookingnorth/us101eurekavigolookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -806,7 +806,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.865037,
     "lng": -124.087355,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr255gstlookingwesttow/sr255gstlookingwesttow.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr255gstlookingwesttowardh/sr255gstlookingwesttowardh.jpg",
     "video_url": ""
   },
   {
@@ -816,7 +816,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.865943,
     "lng": -124.091555,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr255kstnwco/sr255kstnwco.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr255kstnwcorner/sr255kstnwcorner.jpg",
     "video_url": ""
   },
   {
@@ -826,7 +826,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.758287,
     "lng": -124.198068,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn1019thllookingn/dn1019thllookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn1019thllookingnorth/dn1019thllookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -836,7 +836,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.752757,
     "lng": -124.192877,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn101frontllookingn/dn101frontllookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn101frontllookingnorth/dn101frontllookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -846,7 +846,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.756073,
     "lng": -124.194677,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn1015thmlookings/dn1015thmlookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn1015thmlookingsouth/dn1015thmlookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -856,7 +856,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.761963,
     "lng": -124.197278,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn101cooperlookings/dn101cooperlookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn101cooperlookingsouth/dn101cooperlookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -866,7 +866,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.763288,
     "lng": -124.197138,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn101northcrestlookingn/dn101northcrestlookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn101northcrestlookingnorth/dn101northcrestlookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -876,7 +876,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.752119,
     "lng": -124.185733,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn101elkvall/dn101elkvall.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/dn101elkvalleyrd/dn101elkvalleyrd.jpg",
     "video_url": ""
   },
   {
@@ -886,7 +886,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.97277,
     "lng": -123.74256,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us199nofcoll/us199nofcoll.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us199nofcolliern/us199nofcolliern.jpg",
     "video_url": ""
   },
   {
@@ -896,7 +896,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.783084,
     "lng": -124.183784,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekahendersonlookingn/us101eurekahendersonlookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekahendersonlookingnorth/us101eurekahendersonlookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -906,7 +906,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.779123,
     "lng": -124.187606,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekanorthmalllookings/us101eurekanorthmalllookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekanorthmalllookingsouth/us101eurekanorthmalllookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -916,17 +916,17 @@
     "jurisdiction": "Humboldt",
     "lat": 40.776414,
     "lng": -124.190356,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekasouthm/us101eurekasouthm.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekasouthmalln/us101eurekasouthmalln.jpg",
     "video_url": ""
   },
   {
     "id": "d1_199",
-    "name": "US-101: Eureka / McCullen - Looking South",
+    "name": "US-101: McCullen (S)",
     "route": "US-101",
     "jurisdiction": "Humboldt",
     "lat": 40.774303,
     "lng": -124.190397,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekamccullenlookings/us101eurekamccullenlookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101mccullens/us101mccullens.jpg",
     "video_url": ""
   },
   {
@@ -946,27 +946,27 @@
     "jurisdiction": "Humboldt",
     "lat": 40.774303,
     "lng": -124.190397,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekamccullenptzn/us101eurekamccullenptzn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekamccullenptznorth/us101eurekamccullenptznorth.jpg",
     "video_url": ""
   },
   {
     "id": "d1_202",
-    "name": "US-101: Eureka / Piersons - Looking South",
+    "name": "US-101: Piersons (S)",
     "route": "US-101",
     "jurisdiction": "Humboldt",
-    "lat": 40.768783,
-    "lng": -124.191428,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekapiersonslookings/us101eurekapiersonslookings.jpg",
+    "lat": 40.768795,
+    "lng": -124.191431,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101piersonss/us101piersonss.jpg",
     "video_url": ""
   },
   {
     "id": "d1_203",
-    "name": "US-101: Eureka / Papa & Barkley (N)",
+    "name": "US-101: Eureka / P & B (N)",
     "route": "US-101",
     "jurisdiction": "Humboldt",
     "lat": 40.764405,
     "lng": -124.191024,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekapapabark/us101eurekapapabark.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekapbn/us101eurekapbn.jpg",
     "video_url": ""
   },
   {
@@ -976,7 +976,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.451726,
     "lng": -123.805742,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1elmn/sr1elmn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1elmnorth/sr1elmnorth.jpg",
     "video_url": ""
   },
   {
@@ -986,7 +986,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.398663,
     "lng": -123.34975,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20hollystwil/sr20hollystwil.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20hollystwillits/sr20hollystwillits.jpg",
     "video_url": ""
   },
   {
@@ -996,7 +996,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.39092,
     "lng": -123.347229,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20evergreenwil/sr20evergreenwil.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20evergreenwillits/sr20evergreenwillits.jpg",
     "video_url": ""
   },
   {
@@ -1006,7 +1006,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.634379,
     "lng": -124.115797,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101lastchanceloc2lookingn/us101lastchanceloc2lookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101lastchanceloc2lookingnorth/us101lastchanceloc2lookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -1016,7 +1016,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.436456,
     "lng": -123.805931,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1chestnuts/sr1chestnuts.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1chestnutsouth/sr1chestnutsouth.jpg",
     "video_url": ""
   },
   {
@@ -1026,7 +1026,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.43258,
     "lng": -123.806059,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1cypressn/sr1cypressn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1cypressnorth/sr1cypressnorth.jpg",
     "video_url": ""
   },
   {
@@ -1036,7 +1036,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.401899,
     "lng": -123.80919,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1boicelnn/sr1boicelnn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1boicelnnorth/sr1boicelnnorth.jpg",
     "video_url": ""
   },
   {
@@ -1046,7 +1046,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.803754,
     "lng": -124.159765,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thllookingn/us101eureka4thllookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka4thllookingnorth/us101eureka4thllookingnorth.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_4th_l_320x240.stream/playlist.m3u8"
   },
   {
@@ -1056,7 +1056,7 @@
     "jurisdiction": "Lake",
     "lat": 38.930292,
     "lng": -122.61887,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr53damrds/sr53damrds.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr53damrdsouth/sr53damrdsouth.jpg",
     "video_url": ""
   },
   {
@@ -1066,7 +1066,7 @@
     "jurisdiction": "Lake",
     "lat": 38.754417,
     "lng": -122.614259,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29wardlawn/sr29wardlawn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29wardlawnorth/sr29wardlawnorth.jpg",
     "video_url": ""
   },
   {
@@ -1076,7 +1076,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.795662,
     "lng": -124.175833,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekaphblookingn/us101eurekaphblookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekaphblookingnorth/us101eurekaphblookingnorth.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_cinema_320x240.stream/playlist.m3u8"
   },
   {
@@ -1086,7 +1086,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.795662,
     "lng": -124.175833,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekaphblookings/us101eurekaphblookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekaphblookingsouth/us101eurekaphblookingsouth.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_cinema2_320x240.stream/playlist.m3u8"
   },
   {
@@ -1096,7 +1096,7 @@
     "jurisdiction": "Lake",
     "lat": 38.988546,
     "lng": -122.982845,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/lak1750280lookings/lak1750280lookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/lak1750280lookingsouth/lak1750280lookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -1106,7 +1106,7 @@
     "jurisdiction": "Mendocino",
     "lat": 38.949302,
     "lng": -123.085431,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101sofhoplandlookings/us101sofhoplandlookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101sofhoplandlookingsouth/us101sofhoplandlookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -1116,7 +1116,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.89873,
     "lng": -124.08091,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299eofus101lookingw/sr299eofus101lookingw.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299eofus101lookingwestc/sr299eofus101lookingwestc.jpg",
     "video_url": ""
   },
   {
@@ -1126,7 +1126,7 @@
     "jurisdiction": "Lake",
     "lat": 39.066784,
     "lng": -122.783552,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20elucernelookingn/sr20elucernelookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20elucernelookingnorth/sr20elucernelookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -1136,7 +1136,7 @@
     "jurisdiction": "Lake",
     "lat": 39.066784,
     "lng": -122.783552,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20elucernelookings/sr20elucernelookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20elucernelookingsouth/sr20elucernelookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -1146,7 +1146,7 @@
     "jurisdiction": "Lake",
     "lat": 38.910297,
     "lng": -122.64502,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29pointlakeviewrdlookingn/sr29pointlakeviewrdlookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29pointlakeviewrdlookingnorth/sr29pointlakeviewrdlookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -1156,7 +1156,7 @@
     "jurisdiction": "Lake",
     "lat": 39.129032,
     "lng": -122.867957,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20nicelucernecutofflooking/sr20nicelucernecutofflooking.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr20nicelucernecutofflookingwest/sr20nicelucernecutofflookingwest.jpg",
     "video_url": ""
   },
   {
@@ -1166,7 +1166,7 @@
     "jurisdiction": "Lake",
     "lat": 38.927338,
     "lng": -122.61738,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr53nof29jctlookingn/sr53nof29jctlookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr53nof29jctlookingnorth/sr53nof29jctlookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -1176,7 +1176,7 @@
     "jurisdiction": "Lake",
     "lat": 39.075619,
     "lng": -122.930636,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29sof20jctlookingn/sr29sof20jctlookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29sof20jctlookingnorth/sr29sof20jctlookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -1186,7 +1186,7 @@
     "jurisdiction": "Lake",
     "lat": 38.906217,
     "lng": -122.612148,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29sof53jctlookingnort/sr29sof53jctlookingnort.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29sof53jctlookingnorthv78/sr29sof53jctlookingnorthv78.jpg",
     "video_url": ""
   },
   {
@@ -1196,17 +1196,17 @@
     "jurisdiction": "Humboldt",
     "lat": 40.896949,
     "lng": -123.768674,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299berrysummitsandhousen/sr299berrysummitsandhousen.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299berrysummitsandhousenorth/sr299berrysummitsandhousenorth.jpg",
     "video_url": ""
   },
   {
     "id": "d1_251",
-    "name": "US-101: Scotia (Looking North)",
+    "name": "US-101: Scotia (Looking North)ward",
     "route": "US-101",
     "jurisdiction": "Humboldt",
     "lat": 40.468247,
     "lng": -124.095973,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101scotialookingn/us101scotialookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101scotialookingnorthward/us101scotialookingnorthward.jpg",
     "video_url": ""
   },
   {
@@ -1216,7 +1216,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.468247,
     "lng": -124.095973,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101scotialookings/us101scotialookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101scotialookingsouth/us101scotialookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -1226,7 +1226,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.929964,
     "lng": -123.860065,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299lordellislooking/sr299lordellislooking.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299lordellislookingwest/sr299lordellislookingwest.jpg",
     "video_url": ""
   },
   {
@@ -1236,7 +1236,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.929964,
     "lng": -123.860065,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299lordellis/sr299lordellis.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299lordelliseast/sr299lordelliseast.jpg",
     "video_url": ""
   },
   {
@@ -1246,7 +1246,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.939334,
     "lng": -123.776828,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101sofsr271lookingnorth/us101sofsr271lookingnorth.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101sofsr271lookingnorthc030/us101sofsr271lookingnorthc030.jpg",
     "video_url": ""
   },
   {
@@ -1256,7 +1256,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.798104,
     "lng": -124.17524,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekawashin/us101eurekawashin.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eurekawashington/us101eurekawashington.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_washington_320x240.stream/playlist.m3u8"
   },
   {
@@ -1266,7 +1266,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.799951,
     "lng": -124.174965,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka6thlookings/us101eureka6thlookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka6thlookingsouth/us101eureka6thlookingsouth.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_6th_320x240.stream/playlist.m3u8"
   },
   {
@@ -1276,7 +1276,7 @@
     "jurisdiction": "Lake",
     "lat": 38.927338,
     "lng": -122.61738,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr53nof29jctlookings/sr53nof29jctlookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr53nof29jctlookingsouth/sr53nof29jctlookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -1286,7 +1286,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.89873,
     "lng": -124.08091,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299eofus101looking/sr299eofus101looking.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299eofus101lookingeast/sr299eofus101lookingeast.jpg",
     "video_url": ""
   },
   {
@@ -1296,7 +1296,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.962739,
     "lng": -123.789707,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101piercylookings/us101piercylookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101piercylookingsouth/us101piercylookingsouth.jpg",
     "video_url": ""
   },
   {
@@ -1306,7 +1306,7 @@
     "jurisdiction": "Lake",
     "lat": 38.758979,
     "lng": -122.640641,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/lak17526551lookingn/lak17526551lookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/lak17526551lookingnorth/lak17526551lookingnorth.jpg",
     "video_url": ""
   },
   {
@@ -1316,7 +1316,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.802776,
     "lng": -124.159319,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka5thllookings/us101eureka5thllookings.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka5thllookingsouth/us101eureka5thllookingsouth.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_5th_l2_320x240.stream/playlist.m3u8"
   },
   {
@@ -1326,7 +1326,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.8029,
     "lng": -124.159578,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka5thllookingn/us101eureka5thllookingn.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101eureka5thllookingnorth/us101eureka5thllookingnorth.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D1/eureka_5th_l_320x240.stream/playlist.m3u8"
   },
   {
@@ -1336,7 +1336,7 @@
     "jurisdiction": "Lake",
     "lat": 39.017161,
     "lng": -122.912897,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29175jctlakeports/sr29175jctlakeports.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29175jctlakeportsouth/sr29175jctlakeportsouth.jpg",
     "video_url": ""
   },
   {
@@ -1346,7 +1346,7 @@
     "jurisdiction": "Lake",
     "lat": 38.972142,
     "lng": -122.832678,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29liveoakkelseyvillen/sr29liveoakkelseyvillen.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr29liveoakkelseyvillenorth/sr29liveoakkelseyvillenorth.jpg",
     "video_url": ""
   },
   {
@@ -1356,7 +1356,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.309228,
     "lng": -123.796041,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1littlela/sr1littlela.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr1littlelakerd/sr1littlelakerd.jpg",
     "video_url": ""
   },
   {
@@ -1366,7 +1366,7 @@
     "jurisdiction": "Del Norte",
     "lat": 41.805523,
     "lng": -124.080899,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us19719/us19719.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us197199jct/us197199jct.jpg",
     "video_url": ""
   },
   {
@@ -1376,7 +1376,7 @@
     "jurisdiction": "Lake",
     "lat": 38.950631,
     "lng": -122.623294,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr5340thlakesho/sr5340thlakesho.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr5340thlakeshoredr/sr5340thlakeshoredr.jpg",
     "video_url": ""
   },
   {
@@ -1386,7 +1386,7 @@
     "jurisdiction": "Lake",
     "lat": 38.910104,
     "lng": -122.612007,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr295/sr295.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr2953jct/sr2953jct.jpg",
     "video_url": ""
   },
   {
@@ -1396,7 +1396,7 @@
     "jurisdiction": "Lake",
     "lat": 38.936931,
     "lng": -122.622629,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr5318t/sr5318t.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr5318thave/sr5318thave.jpg",
     "video_url": ""
   },
   {
@@ -1406,7 +1406,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.884659,
     "lng": -123.958805,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299bluelake/sr299bluelake.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr299bluelakeeast/sr299bluelakeeast.jpg",
     "video_url": ""
   },
   {
@@ -1416,7 +1416,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.864741,
     "lng": -124.087154,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr255gstlookingeasttow/sr255gstlookingeasttow.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr255gstlookingeasttowardh/sr255gstlookingeasttowardh.jpg",
     "video_url": ""
   },
   {
@@ -1426,7 +1426,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.864984,
     "lng": -124.08822,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr2558465hstlooki/sr2558465hstlooki.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr2558465hstlookingnw/sr2558465hstlookingnw.jpg",
     "video_url": ""
   },
   {
@@ -1436,7 +1436,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.865679,
     "lng": -124.091336,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr255kstseco/sr255kstseco.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr255kstsecorner/sr255kstsecorner.jpg",
     "video_url": ""
   },
   {
@@ -1446,7 +1446,7 @@
     "jurisdiction": "Mendocino",
     "lat": 39.868334,
     "lng": -123.713532,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us1011jcts/us1011jcts.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us1011jctsouth/us1011jctsouth.jpg",
     "video_url": ""
   },
   {
@@ -35936,7 +35936,7 @@
     "jurisdiction": "Humboldt",
     "lat": 40.805407,
     "lng": -124.122543,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101jacobsair/us101jacobsair.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101jacobsairport/us101jacobsairport.jpg",
     "video_url": ""
   },
   {
@@ -35998,5 +35998,85 @@
     "lng": -117.525043,
     "image_url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/sr586901mieosr395/sr586901mieosr395.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D8/LB-8_58_690.stream/playlist.m3u8"
+  },
+  {
+    "id": "d1_287",
+    "name": "US-101: P & B (S)",
+    "route": "US-101",
+    "jurisdiction": "Humboldt",
+    "lat": 40.76469,
+    "lng": -124.191081,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101pbs/us101pbs.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d1_289",
+    "name": "US-101: Hilfiker (N)",
+    "route": "US-101",
+    "jurisdiction": "Humboldt",
+    "lat": 40.771618,
+    "lng": -124.191268,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101hilfikern/us101hilfikern.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d1_290",
+    "name": "US-101: Hilfiker (S)",
+    "route": "US-101",
+    "jurisdiction": "Humboldt",
+    "lat": 40.771807,
+    "lng": -124.190942,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/us101hilfikers/us101hilfikers.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_796",
+    "name": "TV394 -- SR-1 : AT NOF 280 ITC",
+    "route": "SR-1",
+    "jurisdiction": "San Mateo",
+    "lat": 37.67108,
+    "lng": -122.47761,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tv394sr1atnof280itc/tv394sr1atnof280itc.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_797",
+    "name": "TVA34 -- I-680 : AT MISSION 238 BLVD",
+    "route": "I-680",
+    "jurisdiction": "Alameda",
+    "lat": 37.49561,
+    "lng": -121.92392,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tva34i680atmission238blvd/tva34i680atmission238blvd.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_798",
+    "name": "TVA28 -- I-680 : AT CALAVERAS RD",
+    "route": "I-680",
+    "jurisdiction": "Alameda",
+    "lat": 37.5867,
+    "lng": -121.87263,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tva28i680atcalaverasrd/tva28i680atcalaverasrd.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_799",
+    "name": "TVA29 -- I-680 : AT SOF JCT 84",
+    "route": "I-680",
+    "jurisdiction": "Alameda",
+    "lat": 37.57605,
+    "lng": -121.88105,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tva29i680atsofjct84/tva29i680atsofjct84.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d12_540",
+    "name": "I-405 : (496) Laguna Canyon",
+    "route": "I-405",
+    "jurisdiction": "Orange",
+    "lat": 33.652089,
+    "lng": -117.766265,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/i405496lagunacanyon/i405496lagunacanyon.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D12/SB405LagunaCanyon.stream/playlist.m3u8"
   }
 ]
