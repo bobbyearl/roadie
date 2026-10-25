@@ -29202,10 +29202,10 @@
   {
     "id": "34478",
     "name": "I-81 Northbound at Windy Hill Rd",
-    "route": "I-81",
+    "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.10999801036679,
-    "lng": -75.86408106324335,
+    "lat": 42.100291,
+    "lng": -75.8822796,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R9_008.flv.png",
     "video_url": ""
   },
@@ -29214,8 +29214,8 @@
     "name": "I-81 NB at Exit 2",
     "route": "Unknown",
     "jurisdiction": "NYSDOT",
-    "lat": 42.11078,
-    "lng": -75.86366,
+    "lat": 42.094898,
+    "lng": -75.821999,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R9_009.flv.png",
     "video_url": ""
   },
@@ -40201,11 +40201,11 @@
   },
   {
     "id": "35581",
-    "name": "Elmwood Ave at Scottsville Rd/Genese St",
-    "route": "NY 383",
+    "name": "Culver Rd at I-490",
+    "route": "I-490",
     "jurisdiction": "NYSDOT",
-    "lat": 43.1258794980187,
-    "lng": -77.63921201661564,
+    "lat": 43.143158474173134,
+    "lng": -77.57500597195852,
     "image_url": "https://public.carsprogram.org/cameras/NYSDOT/R4_219.flv.png",
     "video_url": ""
   },

@@ -31,12 +31,12 @@
   },
   {
     "id": "756",
-    "name": "Ashmun St. @ 12th Ave",
-    "route": "Ashmun St.",
+    "name": "Ashmun St @ 12th Ave",
+    "route": "Ashmun St",
     "jurisdiction": "NB",
     "lat": 46.48075,
     "lng": -84.353594444,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/756.jpg",
+    "image_url": "https://micamerasimages.net/image-000705044-00-00.jpg",
     "video_url": ""
   },
   {
@@ -76,7 +76,7 @@
     "jurisdiction": "NB",
     "lat": 42.40456,
     "lng": -86.25105,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2332.jpg",
+    "image_url": "https://micamerasimages.net/image-000705098-00-00.jpg",
     "video_url": ""
   },
   {
@@ -2546,7 +2546,7 @@
     "jurisdiction": "WB",
     "lat": 44.2857967,
     "lng": -84.3276337,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2762.jpg",
+    "image_url": "https://micamerasimages.net/image-000705115-00-00.jpg",
     "video_url": ""
   },
   {
@@ -2573,10 +2573,10 @@
     "id": "721",
     "name": "I-75 @ Grayling Rest Area",
     "route": "I-75",
-    "jurisdiction": "",
+    "jurisdiction": "NB",
     "lat": 44.613028,
     "lng": -84.707583,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/721.jpg",
+    "image_url": "https://micamerasimages.net/image-000705020-00-00.jpg",
     "video_url": ""
   },
   {
@@ -2606,7 +2606,7 @@
     "jurisdiction": "",
     "lat": 44.877472,
     "lng": -84.686861,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/720.jpg",
+    "image_url": "https://micamerasimages.net/image-000705019-00-00.jpg",
     "video_url": ""
   },
   {
@@ -2631,12 +2631,12 @@
   },
   {
     "id": "725",
-    "name": "I-75 @ C-58 (Main St/Afton Rd)",
+    "name": "I-75 @ Webb Rd",
     "route": "I-75",
     "jurisdiction": "",
     "lat": 45.273,
     "lng": -84.591,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/725.jpg",
+    "image_url": "https://micamerasimages.net/image-000705024-00-00.jpg",
     "video_url": ""
   },
   {
@@ -2656,7 +2656,7 @@
     "jurisdiction": "SB",
     "lat": 45.63515,
     "lng": -84.635192,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2337.jpg",
+    "image_url": "https://micamerasimages.net/image-000705075-00-00.jpg",
     "video_url": ""
   },
   {
@@ -2666,7 +2666,7 @@
     "jurisdiction": "",
     "lat": 45.761194,
     "lng": -84.730694,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/724.jpg",
+    "image_url": "https://micamerasimages.net/image-000705023-00-00.jpg",
     "video_url": ""
   },
   {
@@ -2696,7 +2696,7 @@
     "jurisdiction": "EB",
     "lat": 41.76755,
     "lng": -86.73958,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2324.jpg",
+    "image_url": "https://micamerasimages.net/image-000705090-00-00.jpg",
     "video_url": ""
   },
   {
@@ -2886,7 +2886,7 @@
     "jurisdiction": "WB",
     "lat": 42.19293,
     "lng": -86.16564,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2328.jpg",
+    "image_url": "https://micamerasimages.net/image-000705094-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5521,12 +5521,12 @@
   },
   {
     "id": "2067",
-    "name": "M-123 @ Luce/Chippewa Co Line",
+    "name": "M-123 @ Luce/Chippewa County Line",
     "route": "M-123",
     "jurisdiction": "NB",
     "lat": 46.6004223,
     "lng": -85.2238924,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2067.jpg",
+    "image_url": "https://micamerasimages.net/image-000705073-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5536,7 +5536,7 @@
     "jurisdiction": "WB",
     "lat": 45.999565,
     "lng": -84.3634561,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2065.jpg",
+    "image_url": "https://micamerasimages.net/image-000705072-00-01.jpg",
     "video_url": ""
   },
   {
@@ -5651,12 +5651,12 @@
   },
   {
     "id": "2758",
-    "name": "M-22 @ North Eagle HWY",
+    "name": "M-22 @ North Eagle Hwy",
     "route": "M-22",
     "jurisdiction": "EB",
     "lat": 45.0577298,
     "lng": -85.6995473,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2758.jpg",
+    "image_url": "https://micamerasimages.net/image-000705113-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5706,7 +5706,7 @@
     "jurisdiction": "",
     "lat": 46.47888,
     "lng": -88.99046,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/748.jpg",
+    "image_url": "https://micamerasimages.net/image-000705028-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5731,12 +5731,12 @@
   },
   {
     "id": "752",
-    "name": "M-28 @ I-75",
+    "name": "M-28 @ Soo Line",
     "route": "M-28",
-    "jurisdiction": "",
+    "jurisdiction": "WB",
     "lat": 46.37466667,
     "lng": -84.4344333,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/752.jpg",
+    "image_url": "https://micamerasimages.net/image-000705041-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5746,7 +5746,7 @@
     "jurisdiction": "WB",
     "lat": 46.303776,
     "lng": -85.2600123,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2066.jpg",
+    "image_url": "https://micamerasimages.net/image-000705068-00-01.jpg",
     "video_url": ""
   },
   {
@@ -5756,7 +5756,7 @@
     "jurisdiction": "EB",
     "lat": 46.438611,
     "lng": -86.682778,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2684.jpg",
+    "image_url": "https://micamerasimages.net/image-000705110-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5766,7 +5766,7 @@
     "jurisdiction": "",
     "lat": 45.0675,
     "lng": -83.7169,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/733.jpg",
+    "image_url": "https://micamerasimages.net/image-000705052-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5776,7 +5776,7 @@
     "jurisdiction": "EB",
     "lat": 44.962131,
     "lng": -84.280558,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2760.jpg",
+    "image_url": "https://micamerasimages.net/image-000705114-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5786,7 +5786,7 @@
     "jurisdiction": "SB",
     "lat": 44.51188,
     "lng": -84.128347,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2343.jpg",
+    "image_url": "https://micamerasimages.net/image-000705082-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5803,10 +5803,10 @@
     "id": "742",
     "name": "M-35 @ Delta/Menominee County Line",
     "route": "M-35",
-    "jurisdiction": "",
+    "jurisdiction": "NB",
     "lat": 45.55023131,
     "lng": -87.2699119,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/742.jpg",
+    "image_url": "https://micamerasimages.net/image-000705034-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5816,7 +5816,7 @@
     "jurisdiction": "SB",
     "lat": 44.445858,
     "lng": -85.698384,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2339.jpg",
+    "image_url": "https://micamerasimages.net/image-000705077-00-00.jpg",
     "video_url": ""
   },
   {
@@ -5883,10 +5883,10 @@
     "id": "739",
     "name": "M-38 @ Houghton/Ontonagon County Line",
     "route": "M-38",
-    "jurisdiction": "",
+    "jurisdiction": "EB",
     "lat": 46.765808,
     "lng": -88.945183,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/739.jpg",
+    "image_url": "https://micamerasimages.net/image-000705029-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6066,7 +6066,7 @@
     "jurisdiction": "EB",
     "lat": 45.972335,
     "lng": -84.085493,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2071.jpg",
+    "image_url": "https://micamerasimages.net/image-000705074-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6136,7 +6136,7 @@
     "jurisdiction": "",
     "lat": 44.2227,
     "lng": -85.8053,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/728.jpg",
+    "image_url": "https://micamerasimages.net/image-000705047-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6246,7 +6246,7 @@
     "jurisdiction": "SB",
     "lat": 46.8668812,
     "lng": -89.3144803,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2069.jpg",
+    "image_url": "https://micamerasimages.net/image-000705066-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6266,7 +6266,7 @@
     "jurisdiction": "NB",
     "lat": 46.548778,
     "lng": -89.625556,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2057.jpg",
+    "image_url": "https://micamerasimages.net/image-000705065-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6286,17 +6286,17 @@
     "jurisdiction": "WB",
     "lat": 45.354245,
     "lng": -84.233945,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2759.jpg",
+    "image_url": "micamerasimages.net/image-000705119-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "2637",
-    "name": "M-72 @ North River Downs",
+    "name": "M-72 @ James St",
     "route": "M-72",
     "jurisdiction": "",
     "lat": 44.664075,
     "lng": -84.718406,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2637.jpg",
+    "image_url": "https://micamerasimages.net/image-000705084-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6306,17 +6306,17 @@
     "jurisdiction": "WB",
     "lat": 44.713161,
     "lng": -84.979797,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2341.jpg",
+    "image_url": "https://micamerasimages.net/image-000705079-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "718",
     "name": "M-72 @ Williamsburg Road",
     "route": "M-72",
-    "jurisdiction": "SB",
+    "jurisdiction": "",
     "lat": 44.770972,
     "lng": -85.403972,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/718.jpg",
+    "image_url": "https://micamerasimages.net/image-000705017-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6326,7 +6326,7 @@
     "jurisdiction": "",
     "lat": 44.7265,
     "lng": -83.8083,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/735.jpg",
+    "image_url": "https://micamerasimages.net/image-000705054-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6336,7 +6336,7 @@
     "jurisdiction": "",
     "lat": 44.8063,
     "lng": -85.8963,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/726.jpg",
+    "image_url": "https://micamerasimages.net/image-000705045-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6346,7 +6346,7 @@
     "jurisdiction": "EB",
     "lat": 44.615782,
     "lng": -84.271386,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2761.jpg",
+    "image_url": "micamerasimages.net/image-000705120-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6356,7 +6356,7 @@
     "jurisdiction": "EB",
     "lat": 42.61005,
     "lng": -85.26355,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2325.jpg",
+    "image_url": "https://micamerasimages.net/image-000705091-00-01.jpg",
     "video_url": ""
   },
   {
@@ -6411,32 +6411,32 @@
   },
   {
     "id": "2070",
-    "name": "M-94 @ Alger/Schoolcraft Co Line",
+    "name": "M-94 @ Alger/Schoolcraft County Line",
     "route": "M-94",
     "jurisdiction": "SB",
     "lat": 46.332253,
     "lng": -86.465874,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2070.jpg",
+    "image_url": "https://micamerasimages.net/image-000705071-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "746",
     "name": "M-94 @ Marquette/Alger County Line",
     "route": "M-94",
-    "jurisdiction": "",
+    "jurisdiction": "EB",
     "lat": 46.34745833,
     "lng": -87.1159472,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/746.jpg",
+    "image_url": "https://micamerasimages.net/image-000705038-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "741",
     "name": "M-95 @ Marquette/Dickinson County Line",
     "route": "M-95",
-    "jurisdiction": "",
+    "jurisdiction": "NB",
     "lat": 46.25009,
     "lng": -88.01069,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/741.jpg",
+    "image_url": "https://micamerasimages.net/image-000705032-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6666,27 +6666,27 @@
     "jurisdiction": "",
     "lat": 44.33575,
     "lng": -84.806056,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/722.jpg",
+    "image_url": "https://micamerasimages.net/image-000705021-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "2641",
-    "name": "US-131 @ Charlevoix Ave",
+    "name": "US-131 @ US-31",
     "route": "US-131",
     "jurisdiction": "",
     "lat": 45.370261,
     "lng": -84.970653,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2641.jpg",
+    "image_url": "https://micamerasimages.net/image-000705087-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "732",
     "name": "US-131 @ M-72 (S Jct)",
     "route": "US-131",
-    "jurisdiction": "",
+    "jurisdiction": "SB",
     "lat": 44.7166,
     "lng": -85.1906,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/732.jpg",
+    "image_url": "https://micamerasimages.net/image-000705051-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6696,27 +6696,27 @@
     "jurisdiction": "SB",
     "lat": 45.28292,
     "lng": -84.939561,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2342.jpg",
+    "image_url": "https://micamerasimages.net/image-000705080-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "731",
     "name": "US-131 @ M-32 (N Jct)",
     "route": "US-131",
-    "jurisdiction": "",
+    "jurisdiction": "SB",
     "lat": 45.075,
     "lng": -84.8982,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/731.jpg",
+    "image_url": "https://micamerasimages.net/image-000705050-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "727",
-    "name": "US-131 @ County Line Rd",
+    "name": "US-131 @ Wexford/Grand Traverse County Line",
     "route": "US-131",
-    "jurisdiction": "",
+    "jurisdiction": "SB",
     "lat": 44.5123,
     "lng": -85.4022,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/727.jpg",
+    "image_url": "https://micamerasimages.net/image-000705046-00-00.jpg",
     "video_url": ""
   },
   {
@@ -6836,7 +6836,7 @@
     "jurisdiction": "SB",
     "lat": 42.62937,
     "lng": -85.66262,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2326.jpg",
+    "image_url": "https://micamerasimages.net/image-000705092-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7116,7 +7116,7 @@
     "jurisdiction": "NB",
     "lat": 41.81593,
     "lng": -85.66269,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2344.jpg",
+    "image_url": "https://micamerasimages.net/image-000705101-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7146,7 +7146,7 @@
     "jurisdiction": "SB",
     "lat": 44.16699,
     "lng": -85.43853,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2636.jpg",
+    "image_url": "https://micamerasimages.net/image-000705076-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7191,12 +7191,12 @@
   },
   {
     "id": "2056",
-    "name": "US-2 @ No. 43.75 Rd",
+    "name": "US-2 @ 44 Rd",
     "route": "US-2",
     "jurisdiction": "WB",
     "lat": 45.751889,
     "lng": -87.6825,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2056.jpg",
+    "image_url": "https://micamerasimages.net/image-000705064-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7206,17 +7206,17 @@
     "jurisdiction": "WB",
     "lat": 45.96703814,
     "lng": -86.2026985,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/751.jpg",
+    "image_url": "https://micamerasimages.net/image-000705039-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "743",
     "name": "US-2 @ Rapid River",
     "route": "US-2",
-    "jurisdiction": "",
+    "jurisdiction": "WB",
     "lat": 45.92616712,
     "lng": -86.9832563,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/743.jpg",
+    "image_url": "https://micamerasimages.net/image-000705035-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7226,17 +7226,17 @@
     "jurisdiction": "NB",
     "lat": 46.2629766,
     "lng": -89.1781828,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2064.jpg",
+    "image_url": "https://micamerasimages.net/image-000705070-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "737",
     "name": "US-2 @ M-28",
     "route": "US-2",
-    "jurisdiction": "",
+    "jurisdiction": "WB",
     "lat": 46.47727,
     "lng": -89.95193,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/737.jpg",
+    "image_url": "https://micamerasimages.net/image-000705026-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7246,7 +7246,7 @@
     "jurisdiction": "EB",
     "lat": 46.10059192,
     "lng": -85.9267168,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/747.jpg",
+    "image_url": "https://micamerasimages.net/image-000705040-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7256,7 +7256,7 @@
     "jurisdiction": "",
     "lat": 45.331,
     "lng": -83.5754,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/734.jpg",
+    "image_url": "https://micamerasimages.net/image-000705053-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7596,7 +7596,7 @@
     "jurisdiction": "",
     "lat": 44.671773,
     "lng": -85.656515,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2643.jpg",
+    "image_url": "https://micamerasimages.net/image-000705083-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7616,7 +7616,7 @@
     "jurisdiction": "EB",
     "lat": 44.658686,
     "lng": -85.815533,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2340.jpg",
+    "image_url": "https://micamerasimages.net/image-000705078-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7626,7 +7626,7 @@
     "jurisdiction": "",
     "lat": 44.2198,
     "lng": -86.3088,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/729.jpg",
+    "image_url": "https://micamerasimages.net/image-000705048-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7646,7 +7646,7 @@
     "jurisdiction": "",
     "lat": 45.1074,
     "lng": -85.3521,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/730.jpg",
+    "image_url": "https://micamerasimages.net/image-000705049-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7676,7 +7676,7 @@
     "jurisdiction": "NB",
     "lat": 42.75123,
     "lng": -86.11857,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2330.jpg",
+    "image_url": "https://micamerasimages.net/image-000705096-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7941,12 +7941,12 @@
   },
   {
     "id": "2796",
-    "name": "US-31 @ 4150FT East of Holiday Rd",
+    "name": "US-31 @ Holiday Rd",
     "route": "US-31",
     "jurisdiction": "EB",
     "lat": 44.7556112,
     "lng": -85.5195431,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2796.jpg",
+    "image_url": "https://micamerasimages.net/image-000705111-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7966,17 +7966,17 @@
     "jurisdiction": "NB",
     "lat": 47.3887845,
     "lng": -88.277475,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/2068.jpg",
+    "image_url": "https://micamerasimages.net/image-000705067-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "745",
     "name": "US-41 @ Marquette/Alger County Line",
     "route": "US-41",
-    "jurisdiction": "",
+    "jurisdiction": "SB",
     "lat": 46.27211667,
     "lng": -87.1174,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/745.jpg",
+    "image_url": "https://micamerasimages.net/image-000705037-00-00.jpg",
     "video_url": ""
   },
   {
@@ -7993,30 +7993,30 @@
     "id": "740",
     "name": "US-41 @ Store St",
     "route": "US-41",
-    "jurisdiction": "",
+    "jurisdiction": "SB",
     "lat": 47.21913,
     "lng": -88.458,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/740.jpg",
+    "image_url": "https://micamerasimages.net/image-000705030-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "750",
     "name": "US-41 @ Negaunee",
     "route": "US-41",
-    "jurisdiction": "",
+    "jurisdiction": "EB",
     "lat": 46.534641,
     "lng": -87.527814,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/750.jpg",
+    "image_url": "https://micamerasimages.net/image-000705033-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "749",
     "name": "US-41 @ Houghton/Baraga County Line",
     "route": "US-41",
-    "jurisdiction": "",
+    "jurisdiction": "SB",
     "lat": 46.95345,
     "lng": -88.45303,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/749.jpg",
+    "image_url": "https://micamerasimages.net/image-000705031-00-00.jpg",
     "video_url": ""
   },
   {
@@ -8026,17 +8026,17 @@
     "jurisdiction": "",
     "lat": 46.15847333,
     "lng": -86.9799746,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/744.jpg",
+    "image_url": "https://micamerasimages.net/image-000705036-00-00.jpg",
     "video_url": ""
   },
   {
     "id": "738",
-    "name": "US-45 @ US-45/M-26",
+    "name": "US-45 @ M-26",
     "route": "US-45",
-    "jurisdiction": "",
+    "jurisdiction": "NB",
     "lat": 46.72489,
     "lng": -89.150894,
-    "image_url": "https://mdotjboss.state.mi.us/docs/drive/camfiles/rwis/738.jpg",
+    "image_url": "https://micamerasimages.net/image-000705027-00-00.jpg",
     "video_url": ""
   },
   {
@@ -9547,6 +9547,46 @@
     "lat": 42.3214,
     "lng": -83.7383,
     "image_url": "https://micamerasimages.net/thumbs/stoc_cam_028.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4115",
+    "name": "I-75 @ S of Clark",
+    "route": "I-75",
+    "jurisdiction": "NB",
+    "lat": 42.311135,
+    "lng": -83.096398,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_097.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "3651",
+    "name": "I-94 @ S of I94",
+    "route": "I-94",
+    "jurisdiction": "EB",
+    "lat": 42.262905,
+    "lng": -83.269951,
+    "image_url": "https://micamerasimages.net/thumbs/semtoc_cam_266.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "699",
+    "name": "US-2 @ Cut River Bridge",
+    "route": "US-2",
+    "jurisdiction": "EB",
+    "lat": 46.044362373672,
+    "lng": -85.1242317555532,
+    "image_url": "https://micamerasimages.net/image-000705025-00-00.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "2638",
+    "name": "US-41 @ 10th",
+    "route": "US-41",
+    "jurisdiction": "",
+    "lat": 45.107663,
+    "lng": -87.614634,
+    "image_url": "https://micamerasimages.net/image-000705043-00-00.jpg",
     "video_url": ""
   }
 ]

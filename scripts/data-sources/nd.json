@@ -2106,37 +2106,37 @@
     "jurisdiction": "Minot Area",
     "lat": 47.64661,
     "lng": -101.84385,
-    "image_url": "https://www.dot.nd.gov/travel-info/cameras/whiteshieldwest.jpg",
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/ND1804RP193WhiteshieldWest.jpg",
     "video_url": ""
   },
   {
     "id": "1280-1",
+    "name": "Whiteshield - South (ND 1804 MP 193.18) - NDDOT",
+    "route": "",
+    "jurisdiction": "Minot Area",
+    "lat": 47.64661,
+    "lng": -101.84385,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/ND1804RP193WhiteshieldSouth.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "1280-2",
     "name": "Whiteshield - East (ND 1804 MP 193.18) - NDDOT",
     "route": "",
     "jurisdiction": "Minot Area",
     "lat": 47.64661,
     "lng": -101.84385,
-    "image_url": "https://www.dot.nd.gov/travel-info/cameras/whiteshieldeast.jpg",
-    "video_url": ""
-  },
-  {
-    "id": "1280-2",
-    "name": "Whiteshield - South 1 (ND 1804 MP 193.18) - NDDOT",
-    "route": "",
-    "jurisdiction": "Minot Area",
-    "lat": 47.64661,
-    "lng": -101.84385,
-    "image_url": "https://www.dot.nd.gov/travel-info/cameras/whiteshieldcenter.jpg",
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/ND1804RP193WhiteshieldEast.jpg",
     "video_url": ""
   },
   {
     "id": "1280-3",
-    "name": "Whiteshield - South 2 (ND 1804 MP 193.18) - NDDOT",
+    "name": "Whiteshield - Pavement (ND 1804 MP 193.18) - NDDOT",
     "route": "",
     "jurisdiction": "Minot Area",
     "lat": 47.64661,
     "lng": -101.84385,
-    "image_url": "https://www.dot.nd.gov/travel-info/cameras/whiteshieldsouth.jpg",
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/ND1804RP193WhiteshieldPavement.jpg",
     "video_url": ""
   },
   {
