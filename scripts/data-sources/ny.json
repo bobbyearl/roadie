@@ -44868,5 +44868,1635 @@
     "lng": -74.001053,
     "image_url": "https://nyctmc.org/api/cameras/d560faa5-0f60-4ac4-ae1e-b4af096d9adc/image",
     "video_url": ""
+  },
+  {
+    "id": "34172",
+    "name": "405 Concession 6 Rd.",
+    "route": "HWY 405",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.152413,
+    "lng": -79.134264,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/42.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34173",
+    "name": "405 Niagara River",
+    "route": "HWY 405",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.157234,
+    "lng": -79.051352,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/47.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34174",
+    "name": "405 St. Paul Ave.",
+    "route": "HWY 405",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.145525,
+    "lng": -79.10079,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/44.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34175",
+    "name": "405 Stanley Ave.",
+    "route": "HWY 405",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.147716,
+    "lng": -79.088001,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/45.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34176",
+    "name": "405 Stanley Ave./Niagara",
+    "route": "HWY 405",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.154229,
+    "lng": -79.072895,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/46.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34177",
+    "name": "405 Warner Rd.",
+    "route": "HWY 405",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.152256,
+    "lng": -79.125166,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/43.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34178",
+    "name": "406 N/B Ramp",
+    "route": "HWY 406",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.17803,
+    "lng": -79.2853,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/30.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34179",
+    "name": "406 S/B Ramp",
+    "route": "HWY 406",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.17576,
+    "lng": -79.28522,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/48.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34182",
+    "name": "QEW E/Welland Canal",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.16531,
+    "lng": -79.187994,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/2.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34183",
+    "name": "QEW HWY 405",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.152162,
+    "lng": -79.147997,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/25.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34184",
+    "name": "QEW Lake St./Geneva St.",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.175264,
+    "lng": -79.246273,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/28.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34185",
+    "name": "QEW Martindale Rd.",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.17707351,
+    "lng": -79.27711005,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/49.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34186",
+    "name": "QEW Mountain Rd.",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.134439,
+    "lng": -79.129715,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/24.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34187",
+    "name": "QEW Seventh St.",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.17939,
+    "lng": -79.30924,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/31.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34188",
+    "name": "QEW W/Welland Canal",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.16729578,
+    "lng": -79.21013757,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/1.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34191",
+    "name": "QEW near Glendale Ave.",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.158048,
+    "lng": -79.164047,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/26.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34192",
+    "name": "QEW near Niagara St",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.172635,
+    "lng": -79.232454,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/27.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34193",
+    "name": "QEW near Ontario St.",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.180521,
+    "lng": -79.267473,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/29.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34194",
+    "name": "QEW near Welland Ave",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.17114,
+    "lng": -79.22373,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/50.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34195",
+    "name": "EB Thorold Tunnel (1)",
+    "route": "Thorold Tunnel",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.11556,
+    "lng": -79.202456,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/32.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34196",
+    "name": "EB Thorold Tunnel (2)",
+    "route": "Thorold Tunnel",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.115873,
+    "lng": -79.200171,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/33.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34197",
+    "name": "EB Thorold Tunnel (3)",
+    "route": "Thorold Tunnel",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.115708,
+    "lng": -79.198058,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/34.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34198",
+    "name": "EB Thorold Tunnel (4)",
+    "route": "Thorold Tunnel",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.115661,
+    "lng": -79.195,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/36.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34199",
+    "name": "EB Thorold Tunnel (5)",
+    "route": "Thorold Tunnel",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.115567,
+    "lng": -79.190494,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/38.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34200",
+    "name": "WB Thorold Tunnel (1)",
+    "route": "Thorold Tunnel",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.115129,
+    "lng": -79.18484,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/41.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34201",
+    "name": "WB Thorold Tunnel (2)",
+    "route": "Thorold Tunnel",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.11509,
+    "lng": -79.185569,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/40.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34202",
+    "name": "WB Thorold Tunnel (3)",
+    "route": "Thorold Tunnel",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.11574,
+    "lng": -79.187264,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/39.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34203",
+    "name": "WB Thorold Tunnel (4)",
+    "route": "Thorold Tunnel",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.11599,
+    "lng": -79.191449,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/37.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34204",
+    "name": "WB Thorold Tunnel (5)",
+    "route": "Thorold Tunnel",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.116022,
+    "lng": -79.196362,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/35.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34210",
+    "name": "I-81 at RWIS (Killawog)",
+    "route": "I-81",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.400195,
+    "lng": -76.009697,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/51.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34211",
+    "name": "I-81 at VMS 5 (North of Exit 5 - US 11)",
+    "route": "I-81",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.132454,
+    "lng": -75.903807,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/52.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34212",
+    "name": "I-81 at VMS 6 (Windy Hill Road)",
+    "route": "I-81",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.109334,
+    "lng": -75.859117,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/53.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34213",
+    "name": "I-81 at VMS 8 (Johnson Road)",
+    "route": "I-81",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.07172,
+    "lng": -75.800035,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/54.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34214",
+    "name": "I-88 at Exit 2 NY 12A",
+    "route": "I-88",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.164563,
+    "lng": -75.873133,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/55.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34215",
+    "name": "I-88 at RWIS (Belden)",
+    "route": "I-88",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.190496,
+    "lng": -75.683925,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/56.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34216",
+    "name": "I-88 at VMS 10 Exit 3 -NY 369",
+    "route": "I-88",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.167213,
+    "lng": -75.832254,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/57.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34218",
+    "name": "NY 17 at Count Station (Roscoe)",
+    "route": "NY 17",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.926443,
+    "lng": -74.898219,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/58.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34219",
+    "name": "NY 17 at Delaware South Residency",
+    "route": "NY 17",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.95818,
+    "lng": -75.292308,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/59.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34220",
+    "name": "NY 17 at Exit 106 - CR173",
+    "route": "NY 17",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.644539,
+    "lng": -74.649725,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/60.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34221",
+    "name": "NY 17 at Exit 113 - NY 209",
+    "route": "US 209",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.56142,
+    "lng": -74.502635,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/61.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34222",
+    "name": "NY 17 at Exit 60 - PA 220",
+    "route": "NY 17",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.998529,
+    "lng": -76.548783,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/62.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34223",
+    "name": "NY 17 at OH Sign Beacon Exit 112",
+    "route": "NY 17",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.587909,
+    "lng": -74.513598,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/63.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34224",
+    "name": "NY 17 at Silver Lake Road (Flashing Beacon)",
+    "route": "NY 17",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.003012,
+    "lng": -75.358808,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/64.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34225",
+    "name": "NY 17 at VMS 1 (Vestal EB)",
+    "route": "NY 17",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.08155,
+    "lng": -76.070619,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/65.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34226",
+    "name": "NY 17 at VMS 1 (Vestal WB)",
+    "route": "NY 17",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.081657,
+    "lng": -76.070676,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/66.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34227",
+    "name": "NY 17 at VMS 3 (Johnson City)",
+    "route": "NY 17",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.119172,
+    "lng": -75.960482,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/67.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34228",
+    "name": "NY 17 at VMS 7 (Foley Road EB)",
+    "route": "I-86",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.099776,
+    "lng": -75.793211,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/68.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34230",
+    "name": "Bronx River Parkway at County Center",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.036722,
+    "lng": -73.778153,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/14.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34231",
+    "name": "Bronx River Parkway at Crane Road",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.993064,
+    "lng": -73.806747,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/17.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34232",
+    "name": "Bronx River Parkway at Fisher Lane",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.054394,
+    "lng": -73.774875,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/16.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34233",
+    "name": "Bronx River Parkway at Greenacres Avenue",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.010861,
+    "lng": -73.794539,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/6.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34234",
+    "name": "Bronx River Parkway at Leewood Drive",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.969233,
+    "lng": -73.816811,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/10.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34235",
+    "name": "Bronx River Parkway at Palmer Road",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.941003,
+    "lng": -73.839156,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/7.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34236",
+    "name": "Bronx River Parkway at Parkway Homes Rd",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.058169,
+    "lng": -73.773931,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/9.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34237",
+    "name": "Bronx River Parkway at Pipeline Road",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.990638,
+    "lng": -73.809477,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/69.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34238",
+    "name": "Bronx River Parkway at Scarsdale Road",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.956314,
+    "lng": -73.830642,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/3.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34239",
+    "name": "Bronx River Parkway at Sprain Brook Parkway",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.935339,
+    "lng": -73.836114,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/5.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34240",
+    "name": "Bronx River Parkway at Virginia Road",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.062217,
+    "lng": -73.774411,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/15.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34241",
+    "name": "Bronx River Parkway at Yonkers Avenue",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.913917,
+    "lng": -73.85025,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/8.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34242",
+    "name": "Bronx River Pkwy & Midland Ave",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.933658,
+    "lng": -73.836721,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/70.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34243",
+    "name": "Bronx River Pkwy NB Side Mi. 7.1",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.93370817,
+    "lng": -73.83629643,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/71.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34244",
+    "name": "NB Approach - BRP NB Ramp & Yonkers Ave.",
+    "route": "Bronx River Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.913628,
+    "lng": -73.850267,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/13.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34245",
+    "name": "Columbus Ave & Rose Hill Shopping Ctr",
+    "route": "Columbus Ave",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.11440207,
+    "lng": -73.77150995,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/72.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34246",
+    "name": "Columbus Ave & Summit Lake Dr (N)",
+    "route": "Columbus Ave",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.10454938,
+    "lng": -73.77720563,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/73.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34247",
+    "name": "Columbus Ave & Summit Lake Dr (S) & Lozza Dr",
+    "route": "Columbus Ave",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.10010134,
+    "lng": -73.77696088,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/74.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34248",
+    "name": "I-287 at White Plains Avenue",
+    "route": "I-287",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.030692,
+    "lng": -73.749825,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/11.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34249",
+    "name": "Kensico Rd & Commerce St",
+    "route": "Kensico Rd",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.123789,
+    "lng": -73.779764,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/75.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34250",
+    "name": "Kensico Rd & Nanny Hagen Rd",
+    "route": "Kensico Rd",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.117475,
+    "lng": -73.77106,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/76.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34251",
+    "name": "Kensico Rd & Rolling Hills Rd",
+    "route": "Kensico Rd",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.11858,
+    "lng": -73.77321,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/77.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34252",
+    "name": "Mamaroneck Ave & HRP Ramps",
+    "route": "Mamaroneck Ave",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.982786,
+    "lng": -73.74419,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/78.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34253",
+    "name": "Mamaroneck Ave & Saxon Woods Pk",
+    "route": "Mamaroneck Ave",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.978438,
+    "lng": -73.743192,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/79.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34254",
+    "name": "Mamaroneck Ave & Union Ave",
+    "route": "Mamaroneck Ave",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.981823,
+    "lng": -73.744028,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/80.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34255",
+    "name": "N Broadway & Park Dr (Kensico Dam)",
+    "route": "North Broadway",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.07017707,
+    "lng": -73.76808857,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/81.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34256",
+    "name": "Old Westchester Ave WB & White Plains Ave",
+    "route": "Old Westchester Ave",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.031781,
+    "lng": -73.749425,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/82.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34257",
+    "name": "Fulton Avenue/Pelham Parkway Drawbridge at Secor Lane",
+    "route": "Pelham Parkway",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.8935,
+    "lng": -73.821639,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/18.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34258",
+    "name": "Playland Parkway at Forest Avenue",
+    "route": "Westchester County",
+    "jurisdiction": "NYSDOT",
+    "lat": 40.965544,
+    "lng": -73.680858,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/4.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "34259",
+    "name": "SB King Approach - King St/Willett Ave/North Pearl St",
+    "route": "NY 120A",
+    "jurisdiction": "NYSDOT",
+    "lat": 41.003494,
+    "lng": -73.663581,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/12.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "36048",
+    "name": "Melrose Ave/Webster Ave @ E 161",
+    "route": "Melrose Ave/Webster Ave @ E 161",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.824194,
+    "lng": -73.913826,
+    "image_url": "https://nyctmc.org/api/cameras/8ab7071d-63a6-492a-8443-e0d817bc1339/image",
+    "video_url": ""
+  },
+  {
+    "id": "36049",
+    "name": "Flatlands Ave @ Ralph Ave",
+    "route": "Flatlands Ave @ Ralph Ave",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.632085,
+    "lng": -73.918599,
+    "image_url": "https://nyctmc.org/api/cameras/f028f021-adc9-46b9-a18f-813d7b4b2b91/image",
+    "video_url": ""
+  },
+  {
+    "id": "36050",
+    "name": "WBB-18 @ SOR Cntr Span",
+    "route": "WBB-18 @ SOR Cntr Span",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.713273,
+    "lng": -73.971555,
+    "image_url": "https://nyctmc.org/api/cameras/012b6f90-2e43-4316-af5b-baee479590d3/image",
+    "video_url": ""
+  },
+  {
+    "id": "36051",
+    "name": "BB-29 North East Manhattan Tower",
+    "route": "BB-29 North East Manhattan Tower",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.70723,
+    "lng": -73.998119,
+    "image_url": "https://nyctmc.org/api/cameras/6726b334-f246-475b-9d1d-464dae09d403/image",
+    "video_url": ""
+  },
+  {
+    "id": "36052",
+    "name": "BQE @ 49 St NSR",
+    "route": "BQE @ 49 St NSR",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.7657,
+    "lng": -73.9036,
+    "image_url": "https://nyctmc.org/api/cameras/7af854d4-3997-4656-aea3-5482dc4c20ee/image",
+    "video_url": ""
+  },
+  {
+    "id": "36053",
+    "name": "8 Ave @ 23 St",
+    "route": "8 Ave @ 23 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.745311,
+    "lng": -73.998492,
+    "image_url": "https://nyctmc.org/api/cameras/83b8713b-048f-47a5-a81a-75157e837a4c/image",
+    "video_url": ""
+  },
+  {
+    "id": "36054",
+    "name": "3 Ave @ E 163 St",
+    "route": "3 Ave @ E 163 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.824129,
+    "lng": -73.9087,
+    "image_url": "https://nyctmc.org/api/cameras/96636993-475f-46bb-95b6-d5b937065648/image",
+    "video_url": ""
+  },
+  {
+    "id": "36055",
+    "name": "Ocean Pkwy @ Ave U",
+    "route": "Ocean Pkwy @ Ave U",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.59785,
+    "lng": -73.9655,
+    "image_url": "https://nyctmc.org/api/cameras/8f3b6913-9858-49e5-8503-8a173feaf36c/image",
+    "video_url": ""
+  },
+  {
+    "id": "36056",
+    "name": "48 Ave @ 38 St",
+    "route": "48 Ave @ 38 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.7403311,
+    "lng": -73.9303818,
+    "image_url": "https://nyctmc.org/api/cameras/675e7a19-df11-4f31-9682-ee509eb1f9ed/image",
+    "video_url": ""
+  },
+  {
+    "id": "36057",
+    "name": "C5-CVE-01-SB_at_Union_Turnpike",
+    "route": "C5-CVE-01-SB_at_Union_Turnpike",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.732235,
+    "lng": -73.765665,
+    "image_url": "https://nyctmc.org/api/cameras/1817f0b6-148f-4105-a5d6-2a53079aad39/image",
+    "video_url": ""
+  },
+  {
+    "id": "36058",
+    "name": "C5-BQE-31A_W_at_56th Rd",
+    "route": "C5-BQE-31A_W_at_56th Rd",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.72909457,
+    "lng": -73.92731605,
+    "image_url": "https://nyctmc.org/api/cameras/1947a3e4-0279-4804-8e18-1ae3d5e13aca/image",
+    "video_url": ""
+  },
+  {
+    "id": "36059",
+    "name": "MHB-28 Bklyn LRDW @ Twr",
+    "route": "MHB-28 Bklyn LRDW @ Twr",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.705069,
+    "lng": -73.989401,
+    "image_url": "https://nyctmc.org/api/cameras/1ffa059b-3aec-4316-a4fc-4f1968146cbc/image",
+    "video_url": ""
+  },
+  {
+    "id": "36060",
+    "name": "MHB-18 Manh LRW @ EOF X Over",
+    "route": "MHB-18 Manh LRW @ EOF X Over",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.716139,
+    "lng": -73.996063,
+    "image_url": "https://nyctmc.org/api/cameras/81445fd9-b8f7-47ce-9ac4-c7fa58addd81/image",
+    "video_url": ""
+  },
+  {
+    "id": "36061",
+    "name": "Madison Ave @ 96 St",
+    "route": "Madison Ave @ 96 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.787237,
+    "lng": -73.954176,
+    "image_url": "https://nyctmc.org/api/cameras/c3cda16b-e979-48bd-8672-4098194d2dbe/image",
+    "video_url": ""
+  },
+  {
+    "id": "36062",
+    "name": "MHB-26 BKLYN N UPRDW @ TWR - Bikeway",
+    "route": "MHB-26 BKLYN N UPRDW @ TWR - Bikeway",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.70502,
+    "lng": -73.989161,
+    "image_url": "https://nyctmc.org/api/cameras/d675de1b-d9c7-4e61-b272-1def8d8ccd60/image",
+    "video_url": ""
+  },
+  {
+    "id": "36063",
+    "name": "3 Ave @ E 125 St",
+    "route": "3 Ave @ E 125 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.803512,
+    "lng": -73.935808,
+    "image_url": "https://nyctmc.org/api/cameras/f581cdc7-684b-4309-8c12-34b0bacd72bf/image",
+    "video_url": ""
+  },
+  {
+    "id": "36064",
+    "name": "Worth Street @ W. Broadway",
+    "route": "Worth Street @ W. Broadway",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.716311,
+    "lng": -74.004573,
+    "image_url": "https://nyctmc.org/api/cameras/984504ce-8e97-45ee-856e-75de639fb1a9/image",
+    "video_url": ""
+  },
+  {
+    "id": "36065",
+    "name": "FDR @ 120 St",
+    "route": "FDR @ 120 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.796969,
+    "lng": -73.929317,
+    "image_url": "https://nyctmc.org/api/cameras/a21b30f6-e6ca-459d-ac5c-689e8cbc0d72/image",
+    "video_url": ""
+  },
+  {
+    "id": "36066",
+    "name": "Lexington Ave @ E 125 St",
+    "route": "Lexington Ave @ E 125 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.80451,
+    "lng": -73.937495,
+    "image_url": "https://nyctmc.org/api/cameras/74915f83-bee1-46f3-be10-24e121eda081/image",
+    "video_url": ""
+  },
+  {
+    "id": "36067",
+    "name": "FDR Dr @ 10 St",
+    "route": "FDR Dr @ 10 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.724136,
+    "lng": -73.973412,
+    "image_url": "https://nyctmc.org/api/cameras/906f6403-ece7-49b7-98ef-8823e745bfd3/image",
+    "video_url": ""
+  },
+  {
+    "id": "36068",
+    "name": "Bronx River Pkwy @ 177 St Exit",
+    "route": "Bronx River Pkwy @ 177 St Exit",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.83796,
+    "lng": -73.87328,
+    "image_url": "https://nyctmc.org/api/cameras/ffd8af30-7474-4569-bfd5-db6955aecadd/image",
+    "video_url": ""
+  },
+  {
+    "id": "36069",
+    "name": "C2-GE-14-WB_at_Gowanus_Canal-Ex24",
+    "route": "C2-GE-14-WB_at_Gowanus_Canal-Ex24",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.671572,
+    "lng": -73.998651,
+    "image_url": "https://nyctmc.org/api/cameras/39e26a67-8e1d-4760-bd82-59fe3b2db770/image",
+    "video_url": ""
+  },
+  {
+    "id": "36070",
+    "name": "4 Ave @ Union St - 66.130",
+    "route": "4 Ave @ Union St - 66.130",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.677393,
+    "lng": -73.982988,
+    "image_url": "https://nyctmc.org/api/cameras/53d62ac5-34f9-4d8f-82b9-0cecebc9c55a/image",
+    "video_url": ""
+  },
+  {
+    "id": "36071",
+    "name": "Van wyck Expy @ 111 Ave",
+    "route": "Van wyck Expy @ 111 Ave",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.684667,
+    "lng": -73.806707,
+    "image_url": "https://nyctmc.org/api/cameras/d77f8bad-9521-4205-9d9f-5d9468bccec7/image",
+    "video_url": ""
+  },
+  {
+    "id": "36072",
+    "name": "BB-46 South Rdwy @ Center Expansion Jt",
+    "route": "BB-46 South Rdwy @ Center Expansion Jt",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.705548,
+    "lng": -73.9963,
+    "image_url": "https://nyctmc.org/api/cameras/c9b83e82-d3bf-4235-9cf5-825b400c7322/image",
+    "video_url": ""
+  },
+  {
+    "id": "36073",
+    "name": "Lexington Ave @ 86 St",
+    "route": "Lexington Ave @ 86 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.77962,
+    "lng": -73.9556,
+    "image_url": "https://nyctmc.org/api/cameras/30604875-9021-4c50-a9d7-229ac4353be5/image",
+    "video_url": ""
+  },
+  {
+    "id": "36074",
+    "name": "Clearview Expy @ 73 Ave",
+    "route": "Clearview Expy @ 73 Ave",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.733643,
+    "lng": -73.76611,
+    "image_url": "https://nyctmc.org/api/cameras/6267afd2-e292-4f0e-a4c1-767eac770814/image",
+    "video_url": ""
+  },
+  {
+    "id": "36075",
+    "name": "5 Ave @ 72 St",
+    "route": "5 Ave @ 72 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.772484,
+    "lng": -73.967046,
+    "image_url": "https://nyctmc.org/api/cameras/03d9fe0d-7c26-4929-a350-ab0a58a430c6/image",
+    "video_url": ""
+  },
+  {
+    "id": "36076",
+    "name": "C5-BQE-34-WB_at_58th_Street",
+    "route": "C5-BQE-34-WB_at_58th_Street",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.736225,
+    "lng": -73.911363,
+    "image_url": "https://nyctmc.org/api/cameras/254bc881-6584-4510-9faa-11623c370110/image",
+    "video_url": ""
+  },
+  {
+    "id": "36077",
+    "name": "C2-BQE-15-WB_at_Adams_St-Ex28B",
+    "route": "C2-BQE-15-WB_at_Adams_St-Ex28B",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.701517,
+    "lng": -73.988836,
+    "image_url": "https://nyctmc.org/api/cameras/4e2e7884-72f7-4068-b9c3-95ce5e071f34/image",
+    "video_url": ""
+  },
+  {
+    "id": "36078",
+    "name": "Henry Hudson Pkwy @ 79 St ",
+    "route": "Henry Hudson Pkwy @ 79 St ",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.787258,
+    "lng": -73.983152,
+    "image_url": "https://nyctmc.org/api/cameras/38a24ab1-f962-4acd-b8b4-8f043b149865/image",
+    "video_url": ""
+  },
+  {
+    "id": "36079",
+    "name": "CPW @ 96 St",
+    "route": "CPW @ 96 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.791674,
+    "lng": -73.964702,
+    "image_url": "https://nyctmc.org/api/cameras/0bde22e6-dc7a-4093-a5b3-29c65831b3ec/image",
+    "video_url": ""
+  },
+  {
+    "id": "36080",
+    "name": "WBB SIR -2 @ Manhattan Mid Span",
+    "route": "WBB SIR -2 @ Manhattan Mid Span",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.714325,
+    "lng": -73.9748335,
+    "image_url": "https://nyctmc.org/api/cameras/368290bb-cebf-4845-8644-92382dcccd96/image",
+    "video_url": ""
+  },
+  {
+    "id": "36081",
+    "name": "BB-53 North East Brooklyn Tower",
+    "route": "BB-53 North East Brooklyn Tower",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.704129,
+    "lng": -73.994275,
+    "image_url": "https://nyctmc.org/api/cameras/0cd30768-c829-4c15-a12e-f949983daf37/image",
+    "video_url": ""
+  },
+  {
+    "id": "36082",
+    "name": "WBB-23 Manhattan Tower North",
+    "route": "WBB-23 Manhattan Tower North",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.71451,
+    "lng": -73.974772,
+    "image_url": "https://nyctmc.org/api/cameras/7494ff54-0723-4a0e-ac95-53b95c3a6fe1/image",
+    "video_url": ""
+  },
+  {
+    "id": "36083",
+    "name": "6 Ave @ 14 St",
+    "route": "6 Ave @ 14 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.7373767141055,
+    "lng": -73.9968600672356,
+    "image_url": "https://nyctmc.org/api/cameras/94f19b53-082f-4ee5-acc4-69494317ce51/image",
+    "video_url": ""
+  },
+  {
+    "id": "36084",
+    "name": "WBB-7 NIR West of Bklyn Twr",
+    "route": "WBB-7 NIR West of Bklyn Twr",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.712993,
+    "lng": -73.969877,
+    "image_url": "https://nyctmc.org/api/cameras/e0b1de5a-0352-4570-987c-ecfd4f4b16b1/image",
+    "video_url": ""
+  },
+  {
+    "id": "36085",
+    "name": "Adam C. Powell Blvd @ 110 St/CPN",
+    "route": "Adam C. Powell Blvd @ 110 St/CPN",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.799492,
+    "lng": -73.955209,
+    "image_url": "https://nyctmc.org/api/cameras/378e6e98-18b2-42a5-b0fa-b43af94f7395/image",
+    "video_url": ""
+  },
+  {
+    "id": "36086",
+    "name": "Riverside Dr @ W 165 St",
+    "route": "Riverside Dr @ W 165 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.84102,
+    "lng": -73.9446,
+    "image_url": "https://nyctmc.org/api/cameras/75a7b81a-6233-47bf-8428-ea6c9edec1f8/image",
+    "video_url": ""
+  },
+  {
+    "id": "36087",
+    "name": "Queens Blvd @ Van Dam",
+    "route": "Queens Blvd @ Van Dam",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.743034,
+    "lng": -73.934624,
+    "image_url": "https://nyctmc.org/api/cameras/ce959ed6-e7e7-49ed-b932-70b8d18033f2/image",
+    "video_url": ""
+  },
+  {
+    "id": "36088",
+    "name": "9 Ave @ W 41 St",
+    "route": "9 Ave @ W 41 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.7579,
+    "lng": -73.9931,
+    "image_url": "https://nyctmc.org/api/cameras/e7457fed-8156-4b91-9c6c-d8ea5737be5a/image",
+    "video_url": ""
+  },
+  {
+    "id": "36089",
+    "name": "Basler",
+    "route": "Basler",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.740449,
+    "lng": -73.927775,
+    "image_url": "https://nyctmc.org/api/cameras/fbacede1-8110-4425-80d3-74d9a1be297a/image",
+    "video_url": ""
+  },
+  {
+    "id": "36090",
+    "name": "Flushing Ave @ Vanderbilt Ave",
+    "route": "Flushing Ave @ Vanderbilt Ave",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.697838,
+    "lng": -73.970763,
+    "image_url": "https://nyctmc.org/api/cameras/9961488a-3ce7-4a4e-ba05-bb960fd32e4e/image",
+    "video_url": ""
+  },
+  {
+    "id": "36091",
+    "name": "Belt Pkwy @ Springfield Blvd",
+    "route": "Belt Pkwy @ Springfield Blvd",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.665275,
+    "lng": -73.757572,
+    "image_url": "https://nyctmc.org/api/cameras/a3e3dced-4224-4e06-ab98-a6018cf10667/image",
+    "video_url": ""
+  },
+  {
+    "id": "36092",
+    "name": "Central Park West @ 81 St",
+    "route": "Central Park West @ 81 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.782031,
+    "lng": -73.971734,
+    "image_url": "https://nyctmc.org/api/cameras/35457f2c-c510-4f3c-ba0d-f88853c3697c/image",
+    "video_url": ""
+  },
+  {
+    "id": "36093",
+    "name": "Northern Blvd @ Broadway",
+    "route": "Northern Blvd @ Broadway",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.753292,
+    "lng": -73.906896,
+    "image_url": "https://nyctmc.org/api/cameras/3ef929e1-e203-4bd5-bd48-438e76bbc348/image",
+    "video_url": ""
+  },
+  {
+    "id": "36094",
+    "name": "BB-44 North Rdwy @ 350Ft West of Bklyn Twr",
+    "route": "BB-44 North Rdwy @ 350Ft West of Bklyn Twr",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.704815,
+    "lng": -73.9951,
+    "image_url": "https://nyctmc.org/api/cameras/26136ff4-a399-4cce-9a37-4d6331f5f1fb/image",
+    "video_url": ""
+  },
+  {
+    "id": "36095",
+    "name": "Rt. 9A @ Morris South - 104.104:80",
+    "route": "Rt. 9A @ Morris South - 104.104:80",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.706726,
+    "lng": -74.016206,
+    "image_url": "https://nyctmc.org/api/cameras/a3c04155-329d-4a9e-8dbf-e33a6d5aa045/image",
+    "video_url": ""
+  },
+  {
+    "id": "36096",
+    "name": "Van Dam St @ Review Ave @ Greenpoint Ave Br",
+    "route": "Van Dam St @ Review Ave @ Greenpoint Ave Br",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.734346,
+    "lng": -73.937978,
+    "image_url": "https://nyctmc.org/api/cameras/ace1e872-d96d-4cca-8639-6750287e65e8/image",
+    "video_url": ""
+  },
+  {
+    "id": "36097",
+    "name": "BB-52 South West Brooklyn Tower",
+    "route": "BB-52 South West Brooklyn Tower",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.704071,
+    "lng": -73.994462,
+    "image_url": "https://nyctmc.org/api/cameras/bbb18d1b-f37a-4482-b8bf-7b79f9e7ab2f/image",
+    "video_url": ""
+  },
+  {
+    "id": "36098",
+    "name": "Grand Concourse @ East Kingsbridge",
+    "route": "Grand Concourse @ East Kingsbridge",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.86616,
+    "lng": -73.894213,
+    "image_url": "https://nyctmc.org/api/cameras/37d4da40-86d6-4185-bb0f-5b52b4a55c72/image",
+    "video_url": ""
+  },
+  {
+    "id": "36099",
+    "name": "Amsterdam Ave @ 125 St",
+    "route": "Amsterdam Ave @ 125 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.813323,
+    "lng": -73.956265,
+    "image_url": "https://nyctmc.org/api/cameras/566bce47-4390-4ff3-94ab-7a0ca2989163/image",
+    "video_url": ""
+  },
+  {
+    "id": "36100",
+    "name": "WBB - Manhattan South Tower",
+    "route": "WBB - Manhattan South Tower",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.714428,
+    "lng": -73.97487,
+    "image_url": "https://nyctmc.org/api/cameras/ba2be5fb-c319-488e-bc3e-96fe4239ddc0/image",
+    "video_url": ""
+  },
+  {
+    "id": "36101",
+    "name": "Rt. 9A @ Morris North - 104.100:80",
+    "route": "Rt. 9A @ Morris North - 104.100:80",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.706699,
+    "lng": -74.015881,
+    "image_url": "https://nyctmc.org/api/cameras/1aa06d0b-9acb-4642-b7c2-aa7e45eb6122/image",
+    "video_url": ""
+  },
+  {
+    "id": "36102",
+    "name": "Nassau Expwy E/B @ 147 St",
+    "route": "Nassau Expwy E/B @ 147 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.664548,
+    "lng": -73.793093,
+    "image_url": "https://nyctmc.org/api/cameras/e22eae41-c474-4c3b-96ad-0450d97f51ac/image",
+    "video_url": ""
+  },
+  {
+    "id": "36103",
+    "name": "BB-52A Brooklyn Tower - North Rdwy",
+    "route": "BB-52A Brooklyn Tower - North Rdwy",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.704173,
+    "lng": -73.994281,
+    "image_url": "https://nyctmc.org/api/cameras/50f6fd7d-bd90-4d15-8ce4-c0e8ae63515a/image",
+    "video_url": ""
+  },
+  {
+    "id": "36104",
+    "name": "BB-30 South East Manhattan Tower",
+    "route": "BB-30 South East Manhattan Tower",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.707376,
+    "lng": -73.998188,
+    "image_url": "https://nyctmc.org/api/cameras/63df45c1-928a-456f-a69f-8acd7d4a30c4/image",
+    "video_url": ""
+  },
+  {
+    "id": "36105",
+    "name": "Grand Central Pkwy @ 45 Ave",
+    "route": "Grand Central Pkwy @ 45 Ave",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.75011,
+    "lng": -73.85094,
+    "image_url": "https://nyctmc.org/api/cameras/4236a9da-63b4-4189-a344-83afcf5eac10/image",
+    "video_url": ""
+  },
+  {
+    "id": "36106",
+    "name": "Lexington Ave @ 76 St",
+    "route": "Lexington Ave @ 76 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.77304,
+    "lng": -73.9603,
+    "image_url": "https://nyctmc.org/api/cameras/836186cd-6fba-49d3-86ec-df4973fbae5e/image",
+    "video_url": ""
+  },
+  {
+    "id": "36107",
+    "name": "9 Ave @ W 39 St",
+    "route": "9 Ave @ W 39 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.7565,
+    "lng": -73.994,
+    "image_url": "https://nyctmc.org/api/cameras/9e694610-60f1-4939-a1f9-1679e6408f27/image",
+    "video_url": ""
+  },
+  {
+    "id": "36108",
+    "name": "MHB-22 Manh N URDWY @ Twr",
+    "route": "MHB-22 Manh N URDWY @ Twr",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.708834,
+    "lng": -73.991433,
+    "image_url": "https://nyctmc.org/api/cameras/6973b27a-ca95-4aae-ad51-275ac1f6af9a/image",
+    "video_url": ""
+  },
+  {
+    "id": "36109",
+    "name": "East Houston St @ Ave D",
+    "route": "East Houston St @ Ave D",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.719876,
+    "lng": -73.978731,
+    "image_url": "https://nyctmc.org/api/cameras/69f0dd32-68a0-4934-886d-23202fa14d63/image",
+    "video_url": ""
+  },
+  {
+    "id": "36110",
+    "name": "WBB #9 SIR 3 @ Mid Span",
+    "route": "WBB #9 SIR 3 @ Mid Span",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.713595,
+    "lng": -73.9724,
+    "image_url": "https://nyctmc.org/api/cameras/493ed46d-b5ae-4c4f-b30f-27be6cd77f1e/image",
+    "video_url": ""
+  },
+  {
+    "id": "36111",
+    "name": "Coney Island Ave (NB) @ Cortelyou Rd",
+    "route": "Coney Island Ave (NB) @ Cortelyou Rd",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.639307,
+    "lng": -73.968691,
+    "image_url": "https://nyctmc.org/api/cameras/4b82b783-725a-48d4-b107-36bc2c26a3db/image",
+    "video_url": ""
+  },
+  {
+    "id": "36112",
+    "name": "MHB-25 Manh S URW @ Twr Walkwy",
+    "route": "MHB-25 Manh S URW @ Twr Walkwy",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.708813,
+    "lng": -73.991698,
+    "image_url": "https://nyctmc.org/api/cameras/538b23fd-59de-4f97-8f04-59f56c996c5c/image",
+    "video_url": ""
+  },
+  {
+    "id": "36113",
+    "name": "Navy St @ Park Ave & Tillary St",
+    "route": "Navy St @ Park Ave & Tillary St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.696729,
+    "lng": -73.980375,
+    "image_url": "https://nyctmc.org/api/cameras/f25384ea-9cb3-4202-b271-358e3cc67701/image",
+    "video_url": ""
+  },
+  {
+    "id": "36114",
+    "name": "Water St @ Wall St",
+    "route": "Water St @ Wall St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.7044242119889,
+    "lng": -74.0072107315063,
+    "image_url": "https://nyctmc.org/api/cameras/a6546293-a361-4e5d-b212-d353eaf5227f/image",
+    "video_url": ""
+  },
+  {
+    "id": "36115",
+    "name": "Grand St. @ Clinton St",
+    "route": "Grand St. @ Clinton St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.71597,
+    "lng": -73.986695,
+    "image_url": "https://nyctmc.org/api/cameras/42799ffa-1718-43ff-947f-9b678cbf41c5/image",
+    "video_url": ""
+  },
+  {
+    "id": "36116",
+    "name": "FDR @ Jackson St",
+    "route": "FDR @ Jackson St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.710874,
+    "lng": -73.980571,
+    "image_url": "https://nyctmc.org/api/cameras/9c13da63-709c-496f-9ff1-0b201ef2530d/image",
+    "video_url": ""
+  },
+  {
+    "id": "36117",
+    "name": "Northern Blvd @ 40 Rd",
+    "route": "Northern Blvd @ 40 Rd",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.75109,
+    "lng": -73.93482,
+    "image_url": "https://nyctmc.org/api/cameras/a440559d-5996-4fa4-84bc-0453fe1b71f3/image",
+    "video_url": ""
+  },
+  {
+    "id": "36118",
+    "name": "BB-28 North West Manhattan Tower",
+    "route": "BB-28 North West Manhattan Tower",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.707339,
+    "lng": -73.998294,
+    "image_url": "https://nyctmc.org/api/cameras/d425def0-9a1e-4d35-a604-17959a195892/image",
+    "video_url": ""
+  },
+  {
+    "id": "36119",
+    "name": "4 Ave @ Prospect Ave- 66.138",
+    "route": "4 Ave @ Prospect Ave- 66.138",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.665473,
+    "lng": -73.992742,
+    "image_url": "https://nyctmc.org/api/cameras/f419b38e-2b68-4659-a525-d0a31add8528/image",
+    "video_url": ""
+  },
+  {
+    "id": "36120",
+    "name": "5 Ave @ 65 St",
+    "route": "5 Ave @ 65 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.768025,
+    "lng": -73.970282,
+    "image_url": "https://nyctmc.org/api/cameras/536e3949-f21d-4fa1-b395-8827e812e689/image",
+    "video_url": ""
+  },
+  {
+    "id": "36121",
+    "name": "Coney Island Ave (SB) @ Cortelyou Rd",
+    "route": "Coney Island Ave (SB) @ Cortelyou Rd",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.639073,
+    "lng": -73.968846,
+    "image_url": "https://nyctmc.org/api/cameras/b4a86b05-cabc-42d7-a069-8b0119977111/image",
+    "video_url": ""
+  },
+  {
+    "id": "36122",
+    "name": "MHB-27 Bklyn N URDWY @ Twr",
+    "route": "MHB-27 Bklyn N URDWY @ Twr",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.705112,
+    "lng": -73.989272,
+    "image_url": "https://nyctmc.org/api/cameras/bdf953a9-efb1-46d7-8e6d-04413de4f397/image",
+    "video_url": ""
+  },
+  {
+    "id": "36123",
+    "name": "C4-WST-02-NB_at_Vestry_St",
+    "route": "C4-WST-02-NB_at_Vestry_St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.722898,
+    "lng": -74.011638,
+    "image_url": "https://nyctmc.org/api/cameras/6d7298dd-f56a-4d33-b1d4-b2c1ec659dda/image",
+    "video_url": ""
+  },
+  {
+    "id": "36124",
+    "name": "Montgomergy @ South St",
+    "route": "Montgomergy @ South St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.710689,
+    "lng": -73.984656,
+    "image_url": "https://nyctmc.org/api/cameras/af1bbb22-487f-4286-954d-41c2b506ed7d/image",
+    "video_url": ""
+  },
+  {
+    "id": "36125",
+    "name": "Victory Blvd WOF Campus Dr",
+    "route": "Victory Blvd WOF Campus Dr",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.608768,
+    "lng": -74.153616,
+    "image_url": "https://nyctmc.org/api/cameras/e269e525-63bf-446e-9b2a-e1b76545ffa5/image",
+    "video_url": ""
+  },
+  {
+    "id": "36126",
+    "name": "E 149 St @ River Ave",
+    "route": "E 149 St @ River Ave",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.819285,
+    "lng": -73.930094,
+    "image_url": "https://nyctmc.org/api/cameras/a7ec2d01-26b2-4974-b036-42df031ba134/image",
+    "video_url": ""
+  },
+  {
+    "id": "36127",
+    "name": "Henry Hudson Pkwy @ 99 St",
+    "route": "Henry Hudson Pkwy @ 99 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.798398,
+    "lng": -73.97536,
+    "image_url": "https://nyctmc.org/api/cameras/bb39deae-1c17-429a-a493-e7144408d011/image",
+    "video_url": ""
+  },
+  {
+    "id": "36128",
+    "name": "Flatbush Ave@ 6 Ave",
+    "route": "Flatbush Ave@ 6 Ave",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.6793036647623,
+    "lng": -73.974552154541,
+    "image_url": "https://nyctmc.org/api/cameras/90f5542f-c3cf-4df2-a9b0-27a85606d659/image",
+    "video_url": ""
+  },
+  {
+    "id": "36129",
+    "name": "MHB - 31 - North Upper Rdwy - Bklyn Midspan",
+    "route": "MHB - 31 - North Upper Rdwy - Bklyn Midspan",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.704206,
+    "lng": -73.988704,
+    "image_url": "https://nyctmc.org/api/cameras/95ae0984-5c26-425e-add7-a66d0041be35/image",
+    "video_url": ""
+  },
+  {
+    "id": "36130",
+    "name": "Gerard Ave @ E 161 St",
+    "route": "Gerard Ave @ E 161 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.827501,
+    "lng": -73.924959,
+    "image_url": "https://nyctmc.org/api/cameras/ad051a78-9c50-43b3-bb71-83b091acd818/image",
+    "video_url": ""
+  },
+  {
+    "id": "36131",
+    "name": "Macombs Dam Bridge @ E 161 St",
+    "route": "Macombs Dam Bridge @ E 161 St",
+    "jurisdiction": "NYC DOT",
+    "lat": 40.829275,
+    "lng": -73.928693,
+    "image_url": "https://nyctmc.org/api/cameras/e3977c52-9915-412d-9cef-96fc1c92b6aa/image",
+    "video_url": ""
+  },
+  {
+    "id": "36132",
+    "name": "QEW Concession Rd.",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 42.910269,
+    "lng": -78.92802122,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/19.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "36133",
+    "name": "QEW Welland River Bridge",
+    "route": "QEW",
+    "jurisdiction": "NYSDOT",
+    "lat": 43.0472305,
+    "lng": -79.12214579,
+    "image_url": "https://public.carsprogram.org/cameras/NYSDOT/other/22.jpg",
+    "video_url": ""
   }
 ]

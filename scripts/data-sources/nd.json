@@ -2284,9 +2284,9 @@
     "name": "Mandan - West (I 94 MP 146.142) - NDDOT",
     "route": "",
     "jurisdiction": "Bismarck/Mandan Area",
-    "lat": 46.86248,
-    "lng": -101.02939,
-    "image_url": "https://www.dot.nd.gov/travel-info/cameras/mandanebwest.jpg",
+    "lat": 46.86256,
+    "lng": -101.03012,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/I94RP146MandanEBWest.jpg",
     "video_url": ""
   },
   {
@@ -2294,9 +2294,9 @@
     "name": "Mandan - North (I 94 MP 146.142) - NDDOT",
     "route": "",
     "jurisdiction": "Bismarck/Mandan Area",
-    "lat": 46.86248,
-    "lng": -101.02939,
-    "image_url": "https://www.dot.nd.gov/travel-info/cameras/mandanebcenter.jpg",
+    "lat": 46.86256,
+    "lng": -101.03012,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/I94RP146MandanEBNorth.jpg",
     "video_url": ""
   },
   {
@@ -2304,9 +2304,9 @@
     "name": "Mandan - East (I 94 MP 146.142) - NDDOT",
     "route": "",
     "jurisdiction": "Bismarck/Mandan Area",
-    "lat": 46.86248,
-    "lng": -101.02939,
-    "image_url": "https://www.dot.nd.gov/travel-info/cameras/mandanebeast.jpg",
+    "lat": 46.86256,
+    "lng": -101.03012,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/I94RP146MandanEBEast.jpg",
     "video_url": ""
   },
   {
@@ -2314,9 +2314,9 @@
     "name": "Mandan - Pavement (I 94 MP 146.142) - NDDOT",
     "route": "",
     "jurisdiction": "Bismarck/Mandan Area",
-    "lat": 46.86248,
-    "lng": -101.02939,
-    "image_url": "https://www.dot.nd.gov/travel-info/cameras/mandanebpavement.jpg",
+    "lat": 46.86256,
+    "lng": -101.03012,
+    "image_url": "https://www.dot.nd.gov/travel-info/cameras/I94RP146MandanEBPavement.jpg",
     "video_url": ""
   },
   {

@@ -26201,12 +26201,12 @@
   },
   {
     "id": "d8_1427",
-    "name": "(490) e/o Perris Blvd.",
+    "name": "SR-60 (490) e/o Perris Blvd.",
     "route": "SR-60",
     "jurisdiction": "Riverside",
     "lat": 33.939067,
     "lng": -117.208842,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/490eoperrisblvd/490eoperrisblvd.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/sr60490eoperrisblvd/sr60490eoperrisblvd.jpg",
     "video_url": ""
   },
   {
@@ -26231,12 +26231,12 @@
   },
   {
     "id": "d8_1430",
-    "name": "(496) w/o WLC Parkway",
+    "name": "SR 60 (496) w/o WLC Parkway",
     "route": "SR-60",
     "jurisdiction": "Riverside",
     "lat": 33.939055,
     "lng": -117.147507,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/496wowlcparkway/496wowlcparkway.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/sr60496wowlcparkway/sr60496wowlcparkway.jpg",
     "video_url": ""
   },
   {
@@ -26261,12 +26261,12 @@
   },
   {
     "id": "d8_1433",
-    "name": "(491) at Nason St.",
+    "name": "SR 60 (491) at Nason St.",
     "route": "SR-60",
     "jurisdiction": "Riverside",
     "lat": 33.938714,
     "lng": -117.191088,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/491atnasonst/491atnasonst.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d8/cctv/image/sr60491atnasonst/sr60491atnasonst.jpg",
     "video_url": ""
   },
   {
@@ -36078,5 +36078,65 @@
     "lng": -117.766265,
     "image_url": "https://cwwp2.dot.ca.gov/data/d12/cctv/image/i405496lagunacanyon/i405496lagunacanyon.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D12/SB405LagunaCanyon.stream/playlist.m3u8"
+  },
+  {
+    "id": "d1_292",
+    "name": "SR-211: Fernbridge (Looking South)",
+    "route": "SR-211",
+    "jurisdiction": "Humboldt",
+    "lat": 40.616333,
+    "lng": -124.201573,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d1/cctv/image/sr211fernbridgelookingsouth/sr211fernbridgelookingsouth.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_800",
+    "name": "TV151 -- US-101 : AT DONNA DR",
+    "route": "US-101",
+    "jurisdiction": "Sonoma",
+    "lat": 38.51588,
+    "lng": -122.78125,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tv151us101atdonnadr/tv151us101atdonnadr.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_801",
+    "name": "TA31S -- SR-84 : AT VALLECITOS RD SOUTH VIEW",
+    "route": "SR-84",
+    "jurisdiction": "Alameda",
+    "lat": 37.63297,
+    "lng": -121.80226,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/ta31ssr84atvallecitosrdsouthview/ta31ssr84atvallecitosrdsouthview.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_802",
+    "name": "TA31N -- SR-84 : AT VALLECITOS RD NORTH VIEW",
+    "route": "SR-84",
+    "jurisdiction": "Alameda",
+    "lat": 37.63272,
+    "lng": -121.80173,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/ta31nsr84atvallecitosrdnorthview/ta31nsr84atvallecitosrdnorthview.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_803",
+    "name": "TA31E -- SR-84 : AT VALLECITOS RD EAST VIEW",
+    "route": "SR-84",
+    "jurisdiction": "Alameda",
+    "lat": 37.6327,
+    "lng": -121.80218,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/ta31esr84atvallecitosrdeastview/ta31esr84atvallecitosrdeastview.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_804",
+    "name": "TA31W -- SR-84 : AT VALLECITOS RD WEST VIEW",
+    "route": "SR-84",
+    "jurisdiction": "Alameda",
+    "lat": 37.63295,
+    "lng": -121.80176,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/ta31wsr84atvallecitosrdwestview/ta31wsr84atvallecitosrdwestview.jpg",
+    "video_url": ""
   }
 ]
