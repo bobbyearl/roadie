@@ -7968,5 +7968,35 @@
     "lng": -79.9175,
     "image_url": "https://scdotsnap.us-east-1.skyvdn.com/60080.png",
     "video_url": "https://s18.us-east-1.skyvdn.com/rtplive/60080/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "1b2a11a7ea364fe0b8d2f514",
+    "name": "I- 77 N @ MM 70.6 (Bechtler Rd)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.83348333,
+    "lng": -81.02946389,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40044.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/40044/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "e1e1128eb54f4502b9923043",
+    "name": "I- 77 N @ MM 72.7 (Exit 73)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.857058,
+    "lng": -81.008406,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40045.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/40045/playlist_sfm4s.m3u8"
+  },
+  {
+    "id": "e5336e3e991043e889aa82f2",
+    "name": "I- 77 @ MM 73.8 (Long Meadow Rd)",
+    "route": "I-77",
+    "jurisdiction": "Rock Hill",
+    "lat": 34.871911,
+    "lng": -81.002658,
+    "image_url": "https://scdotsnap.us-east-1.skyvdn.com/40046.png",
+    "video_url": "https://s20.us-east-1.skyvdn.com/rtplive/40046/playlist_sfm4s.m3u8"
   }
 ]

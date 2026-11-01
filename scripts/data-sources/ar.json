@@ -3551,7 +3551,7 @@
   },
   {
     "id": "362",
-    "name": "I-49 mm 76.8 @ 612 Interchange",
+    "name": "I-49 @ I-42 Interchange (mm 76.8)",
     "route": "49",
     "jurisdiction": "Interstate",
     "lat": 36.240417,
@@ -5577,6 +5577,36 @@
     "lat": 35.086642,
     "lng": -90.643761,
     "image_url": "https://layers.idrivearkansas.com/cameras/881.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "882",
+    "name": "AR 642 @ Holmes Rd (mm 2.7)",
+    "route": "642",
+    "jurisdiction": "State Highway",
+    "lat": 36.24098,
+    "lng": -94.28401,
+    "image_url": "https://layers.idrivearkansas.com/cameras/882.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "876",
+    "name": "AR 642 @ Osage Creek (mm 1.2)",
+    "route": "642",
+    "jurisdiction": "State Highway",
+    "lat": 36.23082,
+    "lng": -94.26563,
+    "image_url": "https://layers.idrivearkansas.com/cameras/876.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "879",
+    "name": "I-40 EB @ Crow Creek (mm 243)",
+    "route": "40",
+    "jurisdiction": "Interstate",
+    "lat": 35.035632,
+    "lng": -90.749241,
+    "image_url": "https://layers.idrivearkansas.com/cameras/879.jpg",
     "video_url": ""
   }
 ]

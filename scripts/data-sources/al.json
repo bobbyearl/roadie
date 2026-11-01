@@ -13603,5 +13603,255 @@
     "lng": -86.79397999999999,
     "image_url": "https://api.algotraffic.com/v4/Cameras/31449/snapshot.jpg",
     "video_url": "https://cdn3.wowza.com/5/a1dpQ3BEeW15ZE1l/bhm-fastly/bhm-cam-52-242.stream/playlist.m3u8"
+  },
+  {
+    "id": "6227",
+    "name": "I-10 @ Montlimar Creek",
+    "route": "I-10",
+    "jurisdiction": "Mobile",
+    "lat": 30.6226,
+    "lng": -88.12989999999999,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/6227/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/b3FOYzhMRS9aVlI1/mobile-fastly/mob-cam-c083.stream/playlist.m3u8"
+  },
+  {
+    "id": "31362",
+    "name": "I-20/59 @ MP 87",
+    "route": "I-20/59",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.186943,
+    "lng": -87.28170999999999,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31362/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-2059-87.3.stream/playlist.m3u8"
+  },
+  {
+    "id": "13672",
+    "name": "I-20/59 @ 31st St.",
+    "route": "I-20/59",
+    "jurisdiction": "Jefferson",
+    "lat": 33.532599999999995,
+    "lng": -86.79751,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/13672/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/a1dpQ3BEeW15ZE1l/bhm-fastly/bhm-cam-2059-127.stream/playlist.m3u8"
+  },
+  {
+    "id": "30859",
+    "name": "I-65 @ Jemison-Wilsonville Rd",
+    "route": "I-65",
+    "jurisdiction": "Chilton",
+    "lat": 32.98003,
+    "lng": -86.68822999999999,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/30859/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-65-219.2.stream/playlist.m3u8"
+  },
+  {
+    "id": "31088",
+    "name": "I-65 @ CR-52",
+    "route": "I-65",
+    "jurisdiction": "Shelby",
+    "lat": 33.280409999999996,
+    "lng": -86.80042,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31088/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/a1dpQ3BEeW15ZE1l/bhm-fastly/bhm-cam-65-242.stream/playlist.m3u8"
+  },
+  {
+    "id": "12088",
+    "name": "I-65 @ Before Alford",
+    "route": "I-65",
+    "jurisdiction": "Jefferson",
+    "lat": 33.424853999999996,
+    "lng": -86.814926,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/12088/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/a1dpQ3BEeW15ZE1l/bhm-fastly/bhm-cam-65-253.5.stream/playlist.m3u8"
+  },
+  {
+    "id": "2455",
+    "name": "I-85 @ MP 5.99(S) past E Blvd",
+    "route": "I-85",
+    "jurisdiction": "Montgomery",
+    "lat": 32.363228,
+    "lng": -86.2231,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/2455/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/bENNMWtYREtiNUhj/mnt-fastly/mgm-cam-006b.stream/playlist.m3u8"
+  },
+  {
+    "id": "17958",
+    "name": "US 82/McFarland Blvd @ Rose Blvd",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.234221999999995,
+    "lng": -87.638626,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/17958/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-42.7.stream/playlist.m3u8"
+  },
+  {
+    "id": "30919",
+    "name": "US 82/McFarland Blvd @ Airport Rd",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.233837,
+    "lng": -87.61827,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/30919/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-43.9.stream/playlist.m3u8"
+  },
+  {
+    "id": "17998",
+    "name": "US 82/McFarland Blvd @ US 43/Main Ave",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.239838,
+    "lng": -87.59284,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/17998/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-45.4.stream/playlist.m3u8"
+  },
+  {
+    "id": "31475",
+    "name": "US 82/McFarland Blvd @ MP 45",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.24115,
+    "lng": -87.58614,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31475/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-45.8.stream/playlist.m3u8"
+  },
+  {
+    "id": "17997",
+    "name": "US 82/McFarland Blvd @ US 43/Lurleen B Wallace Blvd",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.238956,
+    "lng": -87.57668,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/17997/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-46.4.stream/playlist.m3u8"
+  },
+  {
+    "id": "31256",
+    "name": "US 82/McFarland Blvd @ Tyler Dr",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.237984,
+    "lng": -87.573456,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31256/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-46.6.stream/playlist.m3u8"
+  },
+  {
+    "id": "31552",
+    "name": "US 82/McFarland Blvd @ Hospital Dr",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.237442,
+    "lng": -87.56951,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31552/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-46.8.stream/playlist.m3u8"
+  },
+  {
+    "id": "31491",
+    "name": "US 82/McFarland Blvd @ Hunter Creek Rd",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.237137,
+    "lng": -87.56468,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31491/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-47.1.stream/playlist.m3u8"
+  },
+  {
+    "id": "31492",
+    "name": "US 82/McFarland Blvd @ Northbrook Dr",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.23693,
+    "lng": -87.56098,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31492/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-47.3.stream/playlist.m3u8"
+  },
+  {
+    "id": "17993",
+    "name": "US 82/McFarland Blvd @ Watermelon Rd",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.235996,
+    "lng": -87.55199999999999,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/17993/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-47.8.stream/playlist.m3u8"
+  },
+  {
+    "id": "31493",
+    "name": "US 82/McFarland Blvd @ Indian Hills Dr",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.233855999999996,
+    "lng": -87.54276999999999,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31493/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-48.4.stream/playlist.m3u8"
+  },
+  {
+    "id": "30918",
+    "name": "US 82/McFarland Blvd @ Academy Dr",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.233044,
+    "lng": -87.53908,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/30918/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-48.6.stream/playlist.m3u8"
+  },
+  {
+    "id": "17992",
+    "name": "US 82/McFarland Blvd @ Rice Mine Rd",
+    "route": "US 82/McFarland Blvd",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.22837,
+    "lng": -87.53287999999999,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/17992/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-82-49.1.stream/playlist.m3u8"
+  },
+  {
+    "id": "31555",
+    "name": "US431 @ Mitchell Ave E",
+    "route": "US431",
+    "jurisdiction": "Marshall",
+    "lat": 34.28694,
+    "lng": -86.2351,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31555/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/gsv-cam-431-288.6.stream/playlist.m3u8"
+  },
+  {
+    "id": "31055",
+    "name": "AL 69 @ Market St",
+    "route": "AL 69",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 32.997276,
+    "lng": -87.62357,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31055/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-69-130.0.stream/playlist.m3u8"
+  },
+  {
+    "id": "31464",
+    "name": "AL 118 @ AL 129",
+    "route": "AL 118",
+    "jurisdiction": "Marion",
+    "lat": 33.932013999999995,
+    "lng": -87.78319499999999,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31464/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-118-28.2.stream/playlist.m3u8"
+  },
+  {
+    "id": "22942",
+    "name": "AL 133 @ Mars Hill Rd",
+    "route": "AL 133",
+    "jurisdiction": "Lauderdale",
+    "lat": 34.844276,
+    "lng": -87.656876,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/22942/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/sho-cam-133-12.4.stream/playlist.m3u8"
+  },
+  {
+    "id": "31369",
+    "name": "Mercedes Dr @ Daimler Benz Blvd",
+    "route": "Mercedes Dr",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.187785999999996,
+    "lng": -87.26488499999999,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31369/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-2059-88.3.stream/playlist.m3u8"
   }
 ]

@@ -1790,6 +1790,16 @@
     "video_url": ""
   },
   {
+    "id": "742",
+    "name": "95N MM 4.0 CCTV",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 42.936506,
+    "lng": -70.860915,
+    "image_url": "https://newengland511.org/map/Cctv/1350",
+    "video_url": ""
+  },
+  {
     "id": "743",
     "name": "3 S MM 163.1 CCTV",
     "route": "",
@@ -2931,12 +2941,12 @@
   },
   {
     "id": "1528",
-    "name": "Camera 1528",
+    "name": "I-95 Mile 127 NB (Oakland)",
     "route": "",
     "jurisdiction": "",
     "lat": 44.553569,
     "lng": -69.676239,
-    "image_url": "https://newengland511.org/map/Cctv/1528",
+    "image_url": "https://newengland511.org/map/Cctv/2136",
     "video_url": ""
   },
   {
@@ -2961,12 +2971,12 @@
   },
   {
     "id": "1537",
-    "name": "I-95 Mile 150 SB (Pittsfield)",
+    "name": "Camera 1537",
     "route": "",
     "jurisdiction": "",
     "lat": 44.77132,
     "lng": -69.41069,
-    "image_url": "https://newengland511.org/map/Cctv/2145",
+    "image_url": "https://newengland511.org/map/Cctv/1537",
     "video_url": ""
   },
   {
@@ -2981,42 +2991,42 @@
   },
   {
     "id": "1543",
-    "name": "I-95 Mile 191 SB (Orono)",
+    "name": "Camera 1543",
     "route": "",
     "jurisdiction": "",
     "lat": 44.86223,
     "lng": -68.71454,
-    "image_url": "https://newengland511.org/map/Cctv/2151",
+    "image_url": "https://newengland511.org/map/Cctv/1543",
     "video_url": ""
   },
   {
     "id": "1545",
-    "name": "Camera 1545",
+    "name": "I-95 Mile 108 NB (Augusta)",
     "route": "",
     "jurisdiction": "",
     "lat": 44.296517,
     "lng": -69.807128,
-    "image_url": "https://newengland511.org/map/Cctv/1545",
+    "image_url": "https://newengland511.org/map/Cctv/2153",
     "video_url": ""
   },
   {
     "id": "1553",
-    "name": "Camera 1553",
+    "name": "Rt 1A Mile 42 (Brewer)",
     "route": "",
     "jurisdiction": "",
     "lat": 44.767791,
     "lng": -68.713462,
-    "image_url": "https://newengland511.org/map/Cctv/1553",
+    "image_url": "https://newengland511.org/map/Cctv/2161",
     "video_url": ""
   },
   {
     "id": "1560",
-    "name": "I-395 Mile 0 WB (Bangor)",
+    "name": "Camera 1560",
     "route": "",
     "jurisdiction": "",
     "lat": 44.787389,
     "lng": -68.811948,
-    "image_url": "https://newengland511.org/map/Cctv/2168",
+    "image_url": "https://newengland511.org/map/Cctv/1560",
     "video_url": ""
   },
   {
@@ -3030,13 +3040,23 @@
     "video_url": ""
   },
   {
+    "id": "1564",
+    "name": "Camera 1564",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 43.655291,
+    "lng": -70.284677,
+    "image_url": "https://newengland511.org/map/Cctv/1564",
+    "video_url": ""
+  },
+  {
     "id": "1565",
-    "name": "I-295 Mile 03 SB (South Portland)",
+    "name": "Camera 1565",
     "route": "",
     "jurisdiction": "",
     "lat": 43.631305,
     "lng": -70.312418,
-    "image_url": "https://newengland511.org/map/Cctv/2173",
+    "image_url": "https://newengland511.org/map/Cctv/1565",
     "video_url": ""
   },
   {
@@ -3564,8 +3584,8 @@
     "name": "Camera 1719",
     "route": "",
     "jurisdiction": "",
-    "lat": 42.87677,
-    "lng": -71.491149,
+    "lat": 42.8764,
+    "lng": -71.490597,
     "image_url": "https://newengland511.org/map/Cctv/1719",
     "video_url": ""
   },

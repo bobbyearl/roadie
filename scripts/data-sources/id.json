@@ -2311,12 +2311,12 @@
   },
   {
     "id": "497",
-    "name": "Camera 497",
+    "name": "I-184 17th St",
     "route": "",
     "jurisdiction": "",
     "lat": 43.619,
     "lng": -116.216,
-    "image_url": "https://511.idaho.gov/map/Cctv/497",
+    "image_url": "https://511.idaho.gov/map/Cctv/692",
     "video_url": ""
   },
   {
@@ -2951,12 +2951,12 @@
   },
   {
     "id": "561",
-    "name": "SH-44 &amp; Edgewood Ln",
+    "name": "Camera 561",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6879,
     "lng": -116.334,
-    "image_url": "https://511.idaho.gov/map/Cctv/758",
+    "image_url": "https://511.idaho.gov/map/Cctv/561",
     "video_url": ""
   },
   {
@@ -2971,12 +2971,12 @@
   },
   {
     "id": "563",
-    "name": "Camera 563",
+    "name": "Franklin &amp; TenMile",
     "route": "",
     "jurisdiction": "",
     "lat": 43.60458,
     "lng": -116.433495,
-    "image_url": "https://511.idaho.gov/map/Cctv/563",
+    "image_url": "https://511.idaho.gov/map/Cctv/760",
     "video_url": ""
   },
   {
@@ -2991,22 +2991,22 @@
   },
   {
     "id": "565",
-    "name": "University &amp; Joyce",
+    "name": "Camera 565",
     "route": "",
     "jurisdiction": "",
     "lat": 43.602757,
     "lng": -116.20448,
-    "image_url": "https://511.idaho.gov/map/Cctv/762",
+    "image_url": "https://511.idaho.gov/map/Cctv/565",
     "video_url": ""
   },
   {
     "id": "566",
-    "name": "Fairview &amp; Records",
+    "name": "Camera 566",
     "route": "",
     "jurisdiction": "",
     "lat": 43.61934,
     "lng": -116.34668,
-    "image_url": "https://511.idaho.gov/map/Cctv/763",
+    "image_url": "https://511.idaho.gov/map/Cctv/566",
     "video_url": ""
   },
   {
@@ -3041,12 +3041,12 @@
   },
   {
     "id": "570",
-    "name": "Camera 570",
+    "name": "Emerald &amp; MapleGrove",
     "route": "",
     "jurisdiction": "",
     "lat": 43.611515,
     "lng": -116.29388,
-    "image_url": "https://511.idaho.gov/map/Cctv/570",
+    "image_url": "https://511.idaho.gov/map/Cctv/767",
     "video_url": ""
   },
   {
@@ -3071,22 +3071,22 @@
   },
   {
     "id": "573",
-    "name": "SH-44 Glenwood &amp; Riverside",
+    "name": "Camera 573",
     "route": "",
     "jurisdiction": "",
     "lat": 43.65938,
     "lng": -116.279594,
-    "image_url": "https://511.idaho.gov/map/Cctv/770",
+    "image_url": "https://511.idaho.gov/map/Cctv/573",
     "video_url": ""
   },
   {
     "id": "574",
-    "name": "Camera 574",
+    "name": "SH-55 Eagle &amp; River Valley",
     "route": "",
     "jurisdiction": "",
     "lat": 43.626305,
     "lng": -116.354744,
-    "image_url": "https://511.idaho.gov/map/Cctv/574",
+    "image_url": "https://511.idaho.gov/map/Cctv/771",
     "video_url": ""
   },
   {
