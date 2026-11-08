@@ -254,8 +254,8 @@
     "name": "I-430 at Shackleford Rd. (Exit 5)",
     "route": "430",
     "jurisdiction": "Interstate",
-    "lat": 34.7355460040338,
-    "lng": -92.3948774226678,
+    "lat": 34.735546004,
+    "lng": -92.394877423,
     "image_url": "https://layers.idrivearkansas.com/cameras/838.jpg",
     "video_url": ""
   },
@@ -611,11 +611,11 @@
   },
   {
     "id": "556",
-    "name": "I-57 @ Vandenberg Overpass",
+    "name": "I-57 @ Highway 5 (Exit 16)",
     "route": "57",
     "jurisdiction": "Interstate",
-    "lat": 34.8830651104452,
-    "lng": -92.110560006233,
+    "lat": 34.94901,
+    "lng": -92.06412,
     "image_url": "https://layers.idrivearkansas.com/cameras/556.jpg",
     "video_url": ""
   },
@@ -3325,7 +3325,7 @@
     "route": "30",
     "jurisdiction": "Interstate",
     "lat": 34.6787,
-    "lng": -92.354936111111,
+    "lng": -92.354936111,
     "image_url": "https://layers.idrivearkansas.com/cameras/23.jpg",
     "video_url": ""
   },
@@ -4721,11 +4721,11 @@
   },
   {
     "id": "557",
-    "name": "I-57 @ Vandenberg Overpass",
+    "name": "I-57 @ Highway 5 (Exit 16)",
     "route": "57",
     "jurisdiction": "Interstate",
-    "lat": 34.8830651104452,
-    "lng": -92.110560006233,
+    "lat": 34.94901,
+    "lng": -92.06412,
     "image_url": "https://layers.idrivearkansas.com/cameras/557.jpg",
     "video_url": ""
   },
@@ -5364,8 +5364,8 @@
     "name": "I-40 at Crystal Hill",
     "route": "40",
     "jurisdiction": "Interstate",
-    "lat": 34.8090047612997,
-    "lng": -92.3177836142107,
+    "lat": 34.809004761,
+    "lng": -92.317783614,
     "image_url": "https://layers.idrivearkansas.com/cameras/619.jpg",
     "video_url": ""
   },

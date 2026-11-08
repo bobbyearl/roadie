@@ -17068,5 +17068,25 @@
     "lng": -122.1852090170083,
     "image_url": "https://images.wsdot.wa.gov/nw/405vc01813.jpg",
     "video_url": ""
+  },
+  {
+    "id": "10321",
+    "name": "I-5 at NE 144th St, NB",
+    "route": "",
+    "jurisdiction": "B",
+    "lat": 47.734043005098954,
+    "lng": -122.32357101702755,
+    "image_url": "https://images.wsdot.wa.gov/nw/005vc17459.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "10322",
+    "name": "I-5 at MP 149.32: Veterans Dr, NB",
+    "route": "",
+    "jurisdiction": "B",
+    "lat": 47.39399300508473,
+    "lng": -122.28868001702267,
+    "image_url": "https://images.wsdot.wa.gov/nw/005vc14932.jpg",
+    "video_url": ""
   }
 ]

@@ -4714,8 +4714,8 @@
     "name": "Hwy 5 At Metro Air Pkwy 1",
     "route": "I-5",
     "jurisdiction": "Sacramento",
-    "lat": 38.67137,
-    "lng": -121.564804,
+    "lat": 38.6714354111308,
+    "lng": -121.56466774671166,
     "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy5atmetroairpkwy1/hwy5atmetroairpkwy1.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D3/5_Metro_Air_Pkwy_JSO_SAC5_NB_1.stream/playlist.m3u8"
   },
@@ -4724,8 +4724,8 @@
     "name": "Hwy 5 At Metro Air Pkwy 2",
     "route": "I-5",
     "jurisdiction": "Alameda",
-    "lat": 38.67137,
-    "lng": -121.564804,
+    "lat": 38.6714354111308,
+    "lng": -121.56466774671166,
     "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy5atmetroairpkwy2/hwy5atmetroairpkwy2.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D3/5_Metro_Air_Pkwy_JSO_SAC5_NB_2.stream/playlist.m3u8"
   },
@@ -15837,7 +15837,7 @@
     "lat": 34.17845,
     "lng": -118.39437,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/sr17097oxnardst/sr17097oxnardst.jpg",
-    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-97.stream/playlist.m3u8"
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-097.stream/playlist.m3u8"
   },
   {
     "id": "d7_98",
@@ -15847,7 +15847,7 @@
     "lat": 34.22382,
     "lng": -118.41093,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/sr17098northofroscoeblvd/sr17098northofroscoeblvd.jpg",
-    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-98.stream/playlist.m3u8"
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-098.stream/playlist.m3u8"
   },
   {
     "id": "d7_101",
@@ -18037,7 +18037,7 @@
     "lat": 34.15435,
     "lng": -118.39802,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/us101621laurelcanyonblvd/us101621laurelcanyonblvd.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-621.stream/playlist.m3u8"
   },
   {
     "id": "d7_623",
@@ -19237,7 +19237,7 @@
     "lat": 34.067406,
     "lng": -118.23873,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i110191hillstreetexit/i110191hillstreetexit.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-191.stream/playlist.m3u8"
   },
   {
     "id": "d7_1000",
@@ -19737,7 +19737,7 @@
     "lat": 34.051649,
     "lng": -118.259584,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i1108326thstofframp/i1108326thstofframp.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-832.stream/playlist.m3u8"
   },
   {
     "id": "d7_1054",
@@ -19747,7 +19747,7 @@
     "lat": 34.056628,
     "lng": -118.255061,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i1108333thstonramp/i1108333thstonramp.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-833.stream/playlist.m3u8"
   },
   {
     "id": "d7_1055",
@@ -19757,7 +19757,7 @@
     "lat": 34.057402,
     "lng": -118.25549,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i1108343thstofframp/i1108343thstofframp.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-834.stream/playlist.m3u8"
   },
   {
     "id": "d7_1056",
@@ -19767,7 +19767,7 @@
     "lat": 34.061486,
     "lng": -118.249692,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i110835soroute101/i110835soroute101.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-835.stream/playlist.m3u8"
   },
   {
     "id": "d7_1057",
@@ -19787,7 +19787,7 @@
     "lat": 34.08105,
     "lng": -118.224715,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i110837nsanfernandord/i110837nsanfernandord.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-837.stream/playlist.m3u8"
   },
   {
     "id": "d7_1059",
@@ -20047,7 +20047,7 @@
     "lat": 34.0956,
     "lng": -118.2437,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/i519stadiumway/i519stadiumway.jpg",
-    "video_url": ""
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-019.stream/playlist.m3u8"
   },
   {
     "id": "d7_1085",
@@ -20707,7 +20707,7 @@
     "lat": 34.18551,
     "lng": -118.4011,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/sr17096sovictoryblvd/sr17096sovictoryblvd.jpg",
-    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-96.stream/playlist.m3u8"
+    "video_url": "https://wzmedia.dot.ca.gov/D7/CCTV-096.stream/playlist.m3u8"
   },
   {
     "id": "d7_1153",
@@ -20823,7 +20823,7 @@
     "id": "d7_1165",
     "name": "SR-14 : (69) Newhall Ave",
     "route": "SR-14",
-    "jurisdiction": "Alameda",
+    "jurisdiction": "Los Angeles",
     "lat": 34.3652886,
     "lng": -118.5036143,
     "image_url": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/sr1469newhallave/sr1469newhallave.jpg",
@@ -36137,6 +36137,46 @@
     "lat": 37.63295,
     "lng": -121.80176,
     "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/ta31wsr84atvallecitosrdwestview/ta31wsr84atvallecitosrdwestview.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_805",
+    "name": "TVB08 -- I-880 : AT MOWRY AVE",
+    "route": "I-880",
+    "jurisdiction": "Alameda",
+    "lat": 37.52973,
+    "lng": -122.00108,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tvb08i880atmowryave/tvb08i880atmowryave.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_806",
+    "name": "TVA89 -- I-580 : AT JWO EDWARDS AVE",
+    "route": "I-580",
+    "jurisdiction": "Alameda",
+    "lat": 37.77666,
+    "lng": -122.16497,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tva89i580atjwoedwardsave/tva89i580atjwoedwardsave.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_807",
+    "name": "TV955 -- SR-84 : AT THORNTON AV",
+    "route": "SR-84",
+    "jurisdiction": "Alameda",
+    "lat": 37.5403,
+    "lng": -122.0671,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tv955sr84atthorntonav/tv955sr84atthorntonav.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_808",
+    "name": "TVA81 -- I-580 : AT JEO LAKESHORE AVE",
+    "route": "I-580",
+    "jurisdiction": "Alameda",
+    "lat": 37.80793,
+    "lng": -122.24132,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tva81i580atjeolakeshoreave/tva81i580atjeolakeshoreave.jpg",
     "video_url": ""
   }
 ]

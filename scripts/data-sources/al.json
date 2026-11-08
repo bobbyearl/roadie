@@ -13853,5 +13853,45 @@
     "lng": -87.26488499999999,
     "image_url": "https://api.algotraffic.com/v4/Cameras/31369/snapshot.jpg",
     "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-2059-88.3.stream/playlist.m3u8"
+  },
+  {
+    "id": "7349",
+    "name": "I-65 @ US 45",
+    "route": "I-65",
+    "jurisdiction": "Mobile",
+    "lat": 30.740852,
+    "lng": -88.10731,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/7349/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/b3FOYzhMRS9aVlI1/mobile-fastly/mob-cam-c160.stream/playlist.m3u8"
+  },
+  {
+    "id": "31439",
+    "name": "I-65 @ MP 216",
+    "route": "I-65",
+    "jurisdiction": "Chilton",
+    "lat": 32.936447,
+    "lng": -86.66219,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31439/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-65-215.8.stream/playlist.m3u8"
+  },
+  {
+    "id": "31221",
+    "name": "US 31 @ AL 191",
+    "route": "US 31",
+    "jurisdiction": "Chilton",
+    "lat": 32.96102,
+    "lng": -86.74459,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31221/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-31-232.6.stream/playlist.m3u8"
+  },
+  {
+    "id": "31254",
+    "name": "AL 14 @ AL 25/Tuscaloosa St",
+    "route": "AL 14",
+    "jurisdiction": "Hale",
+    "lat": 32.699326,
+    "lng": -87.595345,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31254/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-14-68.0.stream/playlist.m3u8"
   }
 ]
