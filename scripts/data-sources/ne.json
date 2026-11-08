@@ -2301,12 +2301,12 @@
   },
   {
     "id": "793",
-    "name": "93 S, MM 11.0",
+    "name": "Camera 793",
     "route": "",
     "jurisdiction": "",
     "lat": 42.861197,
     "lng": -71.334221,
-    "image_url": "https://newengland511.org/map/Cctv/1401",
+    "image_url": "https://newengland511.org/map/Cctv/793",
     "video_url": ""
   },
   {
@@ -2971,12 +2971,12 @@
   },
   {
     "id": "1537",
-    "name": "Camera 1537",
+    "name": "I-95 Mile 150 SB (Pittsfield)",
     "route": "",
     "jurisdiction": "",
     "lat": 44.77132,
     "lng": -69.41069,
-    "image_url": "https://newengland511.org/map/Cctv/1537",
+    "image_url": "https://newengland511.org/map/Cctv/2145",
     "video_url": ""
   },
   {
@@ -2991,22 +2991,22 @@
   },
   {
     "id": "1543",
-    "name": "Camera 1543",
+    "name": "I-95 Mile 191 SB (Orono)",
     "route": "",
     "jurisdiction": "",
     "lat": 44.86223,
     "lng": -68.71454,
-    "image_url": "https://newengland511.org/map/Cctv/1543",
+    "image_url": "https://newengland511.org/map/Cctv/2151",
     "video_url": ""
   },
   {
     "id": "1545",
-    "name": "I-95 Mile 108 NB (Augusta)",
+    "name": "Camera 1545",
     "route": "",
     "jurisdiction": "",
     "lat": 44.296517,
     "lng": -69.807128,
-    "image_url": "https://newengland511.org/map/Cctv/2153",
+    "image_url": "https://newengland511.org/map/Cctv/1545",
     "video_url": ""
   },
   {

@@ -736,7 +736,7 @@
     "jurisdiction": "",
     "lat": 61.2079304,
     "lng": -145.4834124,
-    "image_url": "https://511.alaska.gov/map/Cctv/398",
+    "image_url": "https://511.alaska.gov/map/Cctv/399",
     "video_url": ""
   },
   {
@@ -757,6 +757,16 @@
     "lat": 64.884396,
     "lng": -147.369992,
     "image_url": "https://511.alaska.gov/map/Cctv/408",
+    "video_url": ""
+  },
+  {
+    "id": "85",
+    "name": "Seward Highway MP 113.5 (#903)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 61.030516,
+    "lng": -149.763016,
+    "image_url": "https://511.alaska.gov/map/Cctv/410",
     "video_url": ""
   },
   {
