@@ -13893,5 +13893,35 @@
     "lng": -87.595345,
     "image_url": "https://api.algotraffic.com/v4/Cameras/31254/snapshot.jpg",
     "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-14-68.0.stream/playlist.m3u8"
+  },
+  {
+    "id": "2444",
+    "name": "I-85 @ MP 3.66(N) past Ann St",
+    "route": "I-85",
+    "jurisdiction": "Montgomery",
+    "lat": 32.363537,
+    "lng": -86.26518999999999,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/2444/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/bENNMWtYREtiNUhj/mnt-fastly/mgm-cam-003e.stream/playlist.m3u8"
+  },
+  {
+    "id": "31540",
+    "name": "I-565 @ US 72 Alt",
+    "route": "I-565",
+    "jurisdiction": "Madison",
+    "lat": 34.66598,
+    "lng": -86.77135,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31540/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/hvl-cam-i565-8.0.stream/playlist.m3u8"
+  },
+  {
+    "id": "31559",
+    "name": "US431 @ Portwood",
+    "route": "US431",
+    "jurisdiction": "Marshall",
+    "lat": 34.2544,
+    "lng": -86.18238,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31559/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/gsv-cam-431-284.8.stream/playlist.m3u8"
   }
 ]
