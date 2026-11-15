@@ -2961,13 +2961,13 @@
   },
   {
     "id": "300",
-    "name": "US 12/18 at E of Verona Rd (Flex)",
+    "name": "Camera 300",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1236",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0156/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/300",
+    "video_url": ""
   },
   {
     "id": "301",
@@ -2981,13 +2981,13 @@
   },
   {
     "id": "302",
-    "name": "Camera 302",
+    "name": "US 12/18 at Verona Rd (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/302",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1238",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0155/playlist.m3u8"
   },
   {
     "id": "303",
@@ -3041,23 +3041,23 @@
   },
   {
     "id": "308",
-    "name": "Camera 308",
+    "name": "US 12/18 at W of Rimrock Rd (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/308",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1244",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0169/playlist.m3u8"
   },
   {
     "id": "309",
-    "name": "US 12/18 at W of Pheasant Ridge Trail (Flex)",
+    "name": "Camera 309",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1245",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0168/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/309",
+    "video_url": ""
   },
   {
     "id": "310",
