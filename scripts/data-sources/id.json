@@ -2941,12 +2941,12 @@
   },
   {
     "id": "561",
-    "name": "Camera 561",
+    "name": "SH-44 &amp; Edgewood Ln",
     "route": "",
     "jurisdiction": "",
     "lat": 43.6879,
     "lng": -116.334,
-    "image_url": "https://511.idaho.gov/map/Cctv/561",
+    "image_url": "https://511.idaho.gov/map/Cctv/758",
     "video_url": ""
   },
   {
@@ -2961,12 +2961,12 @@
   },
   {
     "id": "563",
-    "name": "Camera 563",
+    "name": "Franklin &amp; TenMile",
     "route": "",
     "jurisdiction": "",
     "lat": 43.60458,
     "lng": -116.433495,
-    "image_url": "https://511.idaho.gov/map/Cctv/563",
+    "image_url": "https://511.idaho.gov/map/Cctv/760",
     "video_url": ""
   },
   {
@@ -2991,22 +2991,22 @@
   },
   {
     "id": "566",
-    "name": "Camera 566",
+    "name": "Fairview &amp; Records",
     "route": "",
     "jurisdiction": "",
     "lat": 43.61934,
     "lng": -116.34668,
-    "image_url": "https://511.idaho.gov/map/Cctv/566",
+    "image_url": "https://511.idaho.gov/map/Cctv/763",
     "video_url": ""
   },
   {
     "id": "567",
-    "name": "Lincoln &amp; Beacon",
+    "name": "Camera 567",
     "route": "",
     "jurisdiction": "",
     "lat": 43.598537,
     "lng": -116.2022,
-    "image_url": "https://511.idaho.gov/map/Cctv/764",
+    "image_url": "https://511.idaho.gov/map/Cctv/567",
     "video_url": ""
   },
   {
@@ -3021,12 +3021,12 @@
   },
   {
     "id": "569",
-    "name": "Emerald &amp; Rifleman",
+    "name": "Camera 569",
     "route": "",
     "jurisdiction": "",
     "lat": 43.611946,
     "lng": -116.280464,
-    "image_url": "https://511.idaho.gov/map/Cctv/766",
+    "image_url": "https://511.idaho.gov/map/Cctv/569",
     "video_url": ""
   },
   {
@@ -3071,12 +3071,12 @@
   },
   {
     "id": "574",
-    "name": "SH-55 Eagle &amp; River Valley",
+    "name": "Camera 574",
     "route": "",
     "jurisdiction": "",
     "lat": 43.626305,
     "lng": -116.354744,
-    "image_url": "https://511.idaho.gov/map/Cctv/771",
+    "image_url": "https://511.idaho.gov/map/Cctv/574",
     "video_url": ""
   },
   {
@@ -4177,6 +4177,16 @@
     "lat": 46.733273,
     "lng": -117.0119,
     "image_url": "https://511.idaho.gov/map/Cctv/687",
+    "video_url": ""
+  },
+  {
+    "id": "688",
+    "name": "Camera 688",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 46.725876,
+    "lng": -116.99998,
+    "image_url": "https://511.idaho.gov/map/Cctv/688",
     "video_url": ""
   },
   {

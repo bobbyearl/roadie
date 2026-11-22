@@ -2521,13 +2521,13 @@
   },
   {
     "id": "256",
-    "name": "US 18 at Brookfield Rd",
+    "name": "Camera 256",
     "route": "",
     "jurisdiction": "",
     "lat": 43.035994,
     "lng": -88.146371,
-    "image_url": "https://511wi.gov/map/Cctv/1192",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-67-0202/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/256",
+    "video_url": ""
   },
   {
     "id": "257",
@@ -2911,13 +2911,13 @@
   },
   {
     "id": "295",
-    "name": "US 12/18 at W of Todd Dr",
+    "name": "Camera 295",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1231",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0161/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/295",
+    "video_url": ""
   },
   {
     "id": "296",
@@ -2961,13 +2961,13 @@
   },
   {
     "id": "300",
-    "name": "Camera 300",
+    "name": "US 12/18 at E of Verona Rd (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/300",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1236",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0156/playlist.m3u8"
   },
   {
     "id": "301",
@@ -2981,23 +2981,23 @@
   },
   {
     "id": "302",
-    "name": "US 12/18 at Verona Rd (Flex)",
+    "name": "Camera 302",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1238",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0155/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/302",
+    "video_url": ""
   },
   {
     "id": "303",
-    "name": "US 12/14 at W of Verona Rd (Flex)",
+    "name": "Camera 303",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/1239",
-    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0154/playlist.m3u8"
+    "image_url": "https://511wi.gov/map/Cctv/303",
+    "video_url": ""
   },
   {
     "id": "304",
@@ -3011,13 +3011,13 @@
   },
   {
     "id": "305",
-    "name": "Camera 305",
+    "name": "US 12/14 at Whitney Way (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/305",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1241",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0151/playlist.m3u8"
   },
   {
     "id": "306",
@@ -3031,13 +3031,13 @@
   },
   {
     "id": "307",
-    "name": "Camera 307",
+    "name": "US 12/18 at Rimrock Rd (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/307",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1243",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0170/playlist.m3u8"
   },
   {
     "id": "308",
@@ -3101,13 +3101,13 @@
   },
   {
     "id": "314",
-    "name": "Camera 314",
+    "name": "US 12/18 at Fish Hatchery Rd (Flex)",
     "route": "",
     "jurisdiction": "",
     "lat": 0.0,
     "lng": 0.0,
-    "image_url": "https://511wi.gov/map/Cctv/314",
-    "video_url": ""
+    "image_url": "https://511wi.gov/map/Cctv/1250",
+    "video_url": "https://cctv2.dot.wi.gov/rtplive/CCTV-13-0164/playlist.m3u8"
   },
   {
     "id": "315",

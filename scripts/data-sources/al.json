@@ -13923,5 +13923,45 @@
     "lng": -86.18238,
     "image_url": "https://api.algotraffic.com/v4/Cameras/31559/snapshot.jpg",
     "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/gsv-cam-431-284.8.stream/playlist.m3u8"
+  },
+  {
+    "id": "31291",
+    "name": "US 31 @ Wilson St.",
+    "route": "US 31",
+    "jurisdiction": "Morgan",
+    "lat": 34.60977,
+    "lng": -86.97716,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31291/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/hvl-cam-31-358.4.stream/playlist.m3u8"
+  },
+  {
+    "id": "31008",
+    "name": "Jack Warner Pkwy @ Greensboro Ave",
+    "route": "Jack Warner Pkwy",
+    "jurisdiction": "Tuscaloosa",
+    "lat": 33.21235,
+    "lng": -87.5707,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31008/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/UEJtcVpPb3h2ZjRT/tuscaloosa-fastly/tus-cam-jwp-greensboro.stream/playlist.m3u8"
+  },
+  {
+    "id": "31294",
+    "name": "US 67 @ Country Club Rd. SE",
+    "route": "US 67",
+    "jurisdiction": "Morgan",
+    "lat": 34.559149999999995,
+    "lng": -86.96323,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31294/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/hvl-cam-67-38.5.stream/playlist.m3u8"
+  },
+  {
+    "id": "31293",
+    "name": "US 67 @ Spring Avenue SW",
+    "route": "US 67",
+    "jurisdiction": "Morgan",
+    "lat": 34.560159999999996,
+    "lng": -87.00016,
+    "image_url": "https://api.algotraffic.com/v4/Cameras/31293/snapshot.jpg",
+    "video_url": "https://cdn3.wowza.com/5/R01nenhyVUlBWWk1/tuscumbia-fastly/hvl-cam-67-40.5.stream/playlist.m3u8"
   }
 ]

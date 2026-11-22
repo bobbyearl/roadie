@@ -11692,7 +11692,7 @@
   {
     "id": "d4_690",
     "name": "TV819 -- I-680 : AT JCT 242",
-    "route": "SR-242",
+    "route": "I-680",
     "jurisdiction": "Contra Costa",
     "lat": 37.95946,
     "lng": -122.05234,
@@ -27701,12 +27701,12 @@
   },
   {
     "id": "d10_114",
-    "name": "112 - EB I-580 Valpico Rd UC",
+    "name": "113 - EB I-580 Valpico Rd UC",
     "route": "I-580",
     "jurisdiction": "San Joaquin",
     "lat": 37.68018,
     "lng": -121.47082,
-    "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/112ebi580valpicorduc/112ebi580valpicorduc.jpg",
+    "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/113ebi580valpicorduc/113ebi580valpicorduc.jpg",
     "video_url": "https://wzmedia.dot.ca.gov/D10/SJ_EB580_ValpicoRdUC.stream/playlist.m3u8"
   },
   {
@@ -31387,7 +31387,7 @@
     "lat": 33.146538,
     "lng": -117.104786,
     "image_url": "https://cwwp2.dot.ca.gov/data/d11/cctv/image/c382sb15elnortepkwyb/c382sb15elnortepkwyb.jpg",
-    "video_url": "https://wzmedia.dot.ca.gov/D11/C131_WB_78_at_Nordahl.stream/playlist.m3u8"
+    "video_url": ""
   },
   {
     "id": "d11_654",
@@ -36178,5 +36178,55 @@
     "lng": -122.24132,
     "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tva81i580atjeolakeshoreave/tva81i580atjeolakeshoreave.jpg",
     "video_url": ""
+  },
+  {
+    "id": "d4_809",
+    "name": "TVA90 -- I-580 : AT Keller Ave OC",
+    "route": "I-580",
+    "jurisdiction": "Alameda",
+    "lat": 37.77185,
+    "lng": -122.15585,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tva90i580atkelleraveoc/tva90i580atkelleraveoc.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d4_810",
+    "name": "TV612 -- SR-24 : AT CALDECOTT",
+    "route": "SR-24",
+    "jurisdiction": "Alameda",
+    "lat": 37.85308,
+    "lng": -122.22138,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d4/cctv/image/tv612sr24atcaldecott/tv612sr24atcaldecott.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "d10_174",
+    "name": "181 - WB 16 Junction 124",
+    "route": "SR-16",
+    "jurisdiction": "Amador",
+    "lat": 38.454055,
+    "lng": -120.872397,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/181wb16junction124/181wb16junction124.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D10/AMA_WB16_Junction124.stream/playlist.m3u8"
+  },
+  {
+    "id": "d10_175",
+    "name": "182 - NB 132 Junction 49",
+    "route": "SR-132",
+    "jurisdiction": "Mariposa",
+    "lat": 37.709918,
+    "lng": -120.196972,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/182nb132junction49/182nb132junction49.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D10/MPA_NB_Junction49.stream/playlist.m3u8"
+  },
+  {
+    "id": "d10_176",
+    "name": "183 - SB 99 at Turner",
+    "route": "SR-99",
+    "jurisdiction": "San Joaquin",
+    "lat": 38.145214,
+    "lng": -121.26163,
+    "image_url": "https://cwwp2.dot.ca.gov/data/d10/cctv/image/183sb99atturner/183sb99atturner.jpg",
+    "video_url": "https://wzmedia.dot.ca.gov/D10/SJ_SB99_Turner.stream/playlist.m3u8"
   }
 ]
