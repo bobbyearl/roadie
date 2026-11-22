@@ -9588,5 +9588,25 @@
     "lng": -87.614634,
     "image_url": "https://micamerasimages.net/image-000705043-00-00.jpg",
     "video_url": ""
+  },
+  {
+    "id": "4385",
+    "name": "US-23 @ N of 9 Mile 2",
+    "route": "US-23",
+    "jurisdiction": "NB",
+    "lat": 42.44466,
+    "lng": -83.75279,
+    "image_url": "https://micamerasimages.net/thumbs/stoc_cam_066.flv.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "4386",
+    "name": "US-23 @ N of 9 Mile 2",
+    "route": "US-23",
+    "jurisdiction": "SB",
+    "lat": 42.46762,
+    "lng": -83.75648,
+    "image_url": "https://micamerasimages.net/thumbs/stoc_cam_084.flv.jpg",
+    "video_url": ""
   }
 ]

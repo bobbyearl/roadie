@@ -1288,5 +1288,405 @@
     "lng": -134.38605,
     "image_url": "https://511.alaska.gov/map/Cctv/502",
     "video_url": ""
+  },
+  {
+    "id": "157",
+    "name": "Airport Way / Noble Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.836037496494,
+    "lng": -147.715216170864,
+    "image_url": "https://511.alaska.gov/map/Cctv/520",
+    "video_url": ""
+  },
+  {
+    "id": "158",
+    "name": "Airport Way / Barnette Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.837007995153,
+    "lng": -147.726187998301,
+    "image_url": "https://511.alaska.gov/map/Cctv/524",
+    "video_url": ""
+  },
+  {
+    "id": "159",
+    "name": "Airport Way / Cowles Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.837090012076,
+    "lng": -147.739192018164,
+    "image_url": "https://511.alaska.gov/map/Cctv/529",
+    "video_url": ""
+  },
+  {
+    "id": "160",
+    "name": "Airport Way / Lathrop Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.836457010748,
+    "lng": -147.74874596286,
+    "image_url": "https://511.alaska.gov/map/Cctv/534",
+    "video_url": ""
+  },
+  {
+    "id": "161",
+    "name": "Airport Way / Wilbur Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.83646199798,
+    "lng": -147.76177797828,
+    "image_url": "https://511.alaska.gov/map/Cctv/539",
+    "video_url": ""
+  },
+  {
+    "id": "162",
+    "name": "Airport Way / Peger Road",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.837163982371,
+    "lng": -147.77848897864,
+    "image_url": "https://511.alaska.gov/map/Cctv/544",
+    "video_url": ""
+  },
+  {
+    "id": "163",
+    "name": "Airport Way / Market Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.837127604912,
+    "lng": -147.789320828295,
+    "image_url": "https://511.alaska.gov/map/Cctv/551",
+    "video_url": ""
+  },
+  {
+    "id": "164",
+    "name": "Airport Way / Washington Drive",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.836733990739,
+    "lng": -147.80087201288,
+    "image_url": "https://511.alaska.gov/map/Cctv/555",
+    "video_url": ""
+  },
+  {
+    "id": "165",
+    "name": "Airport Way / University Avenue",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.836734619381,
+    "lng": -147.812767106952,
+    "image_url": "https://511.alaska.gov/map/Cctv/561",
+    "video_url": ""
+  },
+  {
+    "id": "166",
+    "name": "Airport Way / Sportsman Way / Boat Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.836874010431,
+    "lng": -147.820868970743,
+    "image_url": "https://511.alaska.gov/map/Cctv/567",
+    "video_url": ""
+  },
+  {
+    "id": "167",
+    "name": "Johansen Expressway / Steese Highway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.858576895138,
+    "lng": -147.676535531728,
+    "image_url": "https://511.alaska.gov/map/Cctv/572",
+    "video_url": ""
+  },
+  {
+    "id": "168",
+    "name": "Johansen Expressway / Hunter Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.858769008358,
+    "lng": -147.696077016972,
+    "image_url": "https://511.alaska.gov/map/Cctv/577",
+    "video_url": ""
+  },
+  {
+    "id": "169",
+    "name": "Johansen Expressway / Danby Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.851462209994,
+    "lng": -147.752155385796,
+    "image_url": "https://511.alaska.gov/map/Cctv/582",
+    "video_url": ""
+  },
+  {
+    "id": "170",
+    "name": "Johansen Expressway / University Avenue",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.849137111962,
+    "lng": -147.812471728685,
+    "image_url": "https://511.alaska.gov/map/Cctv/586",
+    "video_url": ""
+  },
+  {
+    "id": "171",
+    "name": "Geist Road / Fairbanks Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.849159994558,
+    "lng": -147.829565027649,
+    "image_url": "https://511.alaska.gov/map/Cctv/593",
+    "video_url": ""
+  },
+  {
+    "id": "172",
+    "name": "Geist Road / Loftus Road",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.849150606826,
+    "lng": -147.843528021054,
+    "image_url": "https://511.alaska.gov/map/Cctv/599",
+    "video_url": ""
+  },
+  {
+    "id": "173",
+    "name": "Geist Road / Parks Highway (North Ramp)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.848879,
+    "lng": -147.862376,
+    "image_url": "https://511.alaska.gov/map/Cctv/607",
+    "video_url": ""
+  },
+  {
+    "id": "174",
+    "name": "Geist Road / Parks Highway (South Ramp)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.848193,
+    "lng": -147.865043,
+    "image_url": "https://511.alaska.gov/map/Cctv/611",
+    "video_url": ""
+  },
+  {
+    "id": "175",
+    "name": "Chena Pump Road / Chena Ridge Road / Dartmouth Drive",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.846307004265,
+    "lng": -147.869117971449,
+    "image_url": "https://511.alaska.gov/map/Cctv/617",
+    "video_url": ""
+  },
+  {
+    "id": "176",
+    "name": "College Road / Old Steese Highway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.849613706977,
+    "lng": -147.699711410189,
+    "image_url": "https://511.alaska.gov/map/Cctv/622",
+    "video_url": ""
+  },
+  {
+    "id": "177",
+    "name": "College Road / Crossover Way",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.850712700212,
+    "lng": -147.70394619913,
+    "image_url": "https://511.alaska.gov/map/Cctv/626",
+    "video_url": ""
+  },
+  {
+    "id": "178",
+    "name": "College Road / Johansen Expressway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.856981986601,
+    "lng": -147.715345000716,
+    "image_url": "https://511.alaska.gov/map/Cctv/632",
+    "video_url": ""
+  },
+  {
+    "id": "179",
+    "name": "College Road / Antoinette Avenue / Margaret Avenue",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.859124987786,
+    "lng": -147.724843038118,
+    "image_url": "https://511.alaska.gov/map/Cctv/637",
+    "video_url": ""
+  },
+  {
+    "id": "180",
+    "name": "College Road / Danby Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.861279681726,
+    "lng": -147.743842298046,
+    "image_url": "https://511.alaska.gov/map/Cctv/642",
+    "video_url": ""
+  },
+  {
+    "id": "181",
+    "name": "College Road / Aurora Drive",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.863490115322,
+    "lng": -147.759090572483,
+    "image_url": "https://511.alaska.gov/map/Cctv/649",
+    "video_url": ""
+  },
+  {
+    "id": "182",
+    "name": "Cushman Street / 30th Avenue / Old Richardson Highway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.819459684575,
+    "lng": -147.710939640045,
+    "image_url": "https://511.alaska.gov/map/Cctv/653",
+    "video_url": ""
+  },
+  {
+    "id": "183",
+    "name": "Illinois Street / Terminal Street / Doyon Place (Camera 1)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.84566331601,
+    "lng": -147.722509264817,
+    "image_url": "https://511.alaska.gov/map/Cctv/657",
+    "video_url": ""
+  },
+  {
+    "id": "184",
+    "name": "Illinois Street / Terminal Street / Doyon Place (Camera 2)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.84566331601,
+    "lng": -147.722509264817,
+    "image_url": "https://511.alaska.gov/map/Cctv/663",
+    "video_url": ""
+  },
+  {
+    "id": "185",
+    "name": "Illinois Street / Phillips Field Road",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.847912599727,
+    "lng": -147.720897424836,
+    "image_url": "https://511.alaska.gov/map/Cctv/670",
+    "video_url": ""
+  },
+  {
+    "id": "186",
+    "name": "Illinois Street / Minnie Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.84962120878,
+    "lng": -147.719902325291,
+    "image_url": "https://511.alaska.gov/map/Cctv/675",
+    "video_url": ""
+  },
+  {
+    "id": "187",
+    "name": "Steese Expressway / 3rd Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.846690182968,
+    "lng": -147.700847241888,
+    "image_url": "https://511.alaska.gov/map/Cctv/680",
+    "video_url": ""
+  },
+  {
+    "id": "188",
+    "name": "Peger Road / Mitchell Expressway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.820898605893,
+    "lng": -147.778714787112,
+    "image_url": "https://511.alaska.gov/map/Cctv/686",
+    "video_url": ""
+  },
+  {
+    "id": "189",
+    "name": "Peger Road / Davis Road",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.827396592511,
+    "lng": -147.778686121003,
+    "image_url": "https://511.alaska.gov/map/Cctv/692",
+    "video_url": ""
+  },
+  {
+    "id": "190",
+    "name": "Peger Road / Phillips Field Road",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.846681004784,
+    "lng": -147.778831966118,
+    "image_url": "https://511.alaska.gov/map/Cctv/697",
+    "video_url": ""
+  },
+  {
+    "id": "191",
+    "name": "University Avenue / Mitchell Expressway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.824519001331,
+    "lng": -147.817288473163,
+    "image_url": "https://511.alaska.gov/map/Cctv/702",
+    "video_url": ""
+  },
+  {
+    "id": "192",
+    "name": "University Avenue / Rewak Drive",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.834756993146,
+    "lng": -147.81274657129,
+    "image_url": "https://511.alaska.gov/map/Cctv/709",
+    "video_url": ""
+  },
+  {
+    "id": "193",
+    "name": "University Avenue / Sandvik Street (Pedestrian Crossing)",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.851530187228,
+    "lng": -147.812936924311,
+    "image_url": "https://511.alaska.gov/map/Cctv/715",
+    "video_url": ""
+  },
+  {
+    "id": "194",
+    "name": "Farmers Loop Road / North Tanana Drive",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.863623219944,
+    "lng": -147.818409217437,
+    "image_url": "https://511.alaska.gov/map/Cctv/721",
+    "video_url": ""
+  },
+  {
+    "id": "195",
+    "name": "Old Steese Highway / Minnie Street / 3rd Street",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.848192387655,
+    "lng": -147.705125868183,
+    "image_url": "https://511.alaska.gov/map/Cctv/726",
+    "video_url": ""
+  },
+  {
+    "id": "196",
+    "name": "Lathrop Street / Mitchell Expressway",
+    "route": "",
+    "jurisdiction": "",
+    "lat": 64.821390414062,
+    "lng": -147.744822058708,
+    "image_url": "https://511.alaska.gov/map/Cctv/730",
+    "video_url": ""
   }
 ]

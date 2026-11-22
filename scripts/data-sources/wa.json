@@ -17088,5 +17088,25 @@
     "lng": -122.28868001702267,
     "image_url": "https://images.wsdot.wa.gov/nw/005vc14932.jpg",
     "video_url": ""
+  },
+  {
+    "id": "10323",
+    "name": "WSF Tahlequah Ferry Holding North",
+    "route": "",
+    "jurisdiction": "N",
+    "lat": 47.334167005082115,
+    "lng": -122.5077780170532,
+    "image_url": "https://images.wsdot.wa.gov/wsf/tahlequah/holding_n.jpg",
+    "video_url": ""
+  },
+  {
+    "id": "10324",
+    "name": "WSF Tahlequah Ferry Holding South",
+    "route": "",
+    "jurisdiction": "S",
+    "lat": 47.334167005082115,
+    "lng": -122.5077780170532,
+    "image_url": "https://images.wsdot.wa.gov/wsf/tahlequah/holding_s.jpg",
+    "video_url": ""
   }
 ]
